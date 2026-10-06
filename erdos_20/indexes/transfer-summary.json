@@ -1,0 +1,74 @@
+{
+  "schema": "a1k-erdos20-source-transfer/1",
+  "date": "2026-10-06",
+  "source_scope": "2026-09-22 directory tree",
+  "repository_lean_files": 348,
+  "source_bytes_preserved": true,
+  "roles": {
+    "audit-or-smoke": 8,
+    "archived-v12-production": 143,
+    "deferred-not-verified": 1,
+    "negative-or-mutation": 40,
+    "scratch-research": 1,
+    "latest-production": 155
+  },
+  "current_v13_modules": 155,
+  "current_v13_proof_bearing_modules": 149,
+  "current_v13_theorem_lemma_declarations": 884,
+  "current_v13_public_declarations": 875,
+  "recorded_protected_public_roots": 875,
+  "configured_projects": 4,
+  "configuration_files": [
+    "erdos_20/v13/lean/lakefile.toml",
+    "erdos_20/v13/lean/lean-toolchain",
+    "erdos_20/v13/lean/lake-manifest.json",
+    "erdos_20/v13/reproduction/smoke-project/lakefile.toml",
+    "erdos_20/v13/reproduction/smoke-project/lean-toolchain",
+    "erdos_20/v13/reproduction/smoke-project/lake-manifest.json",
+    "erdos_20/v13/reproduction/smoke-project-final/lakefile.toml",
+    "erdos_20/v13/reproduction/smoke-project-final/lean-toolchain",
+    "erdos_20/v13/reproduction/smoke-project-final/lake-manifest.json",
+    "erdos_20/v12_audit/archive/erdos20-lean-v12/lakefile.toml",
+    "erdos_20/v12_audit/archive/erdos20-lean-v12/lean-toolchain",
+    "erdos_20/v12_audit/archive/erdos20-lean-v12/lake-manifest.json"
+  ],
+  "support_files_copied": 101,
+  "credential_signature_scan": {
+    "scope": "All 348 shipped Lean sources, with the 21 linked references checked during initial local assembly.",
+    "patterns": [
+      "github-token",
+      "openai-key",
+      "aws-key",
+      "private-key",
+      "embedded-url-credential"
+    ],
+    "findings": [],
+    "limitation": "Pattern scan only, not a general secret-detection guarantee."
+  },
+  "lean_replay_performed_for_this_transfer": false,
+  "historical_evidence": "Original v13 records retained unchanged; host-specific paths and cache/compiler observations refer to the original research run.",
+  "integrity_note": "Hashes are unsigned content commitments, not publisher authentication.",
+  "original_source_file_instances": 369,
+  "linked_upstream_sources": 21,
+  "original_roles": {
+    "audit-or-smoke": 8,
+    "archived-v12-production": 143,
+    "deferred-not-verified": 1,
+    "negative-or-mutation": 40,
+    "scratch-research": 1,
+    "latest-production": 155,
+    "external-author-reference": 21
+  },
+  "reference_disposition": {
+    "upstream_repository": "https://github.com/bogdan27182/sunflower-paper",
+    "pinned_commit": "d4d5723267c662291efdadfa6e7061d919e76fa9",
+    "reference_index": "erdos_20/indexes/reference-links.csv",
+    "source_copies_omitted": 21,
+    "upstream_build_metadata_omitted": [
+      "erdos_20/v13/sources/primary_sources/author_repository/lean/lakefile.toml",
+      "erdos_20/v13/sources/primary_sources/author_repository/lean/lean-toolchain",
+      "erdos_20/v13/sources/primary_sources/author_repository/lean/lake-manifest.json"
+    ],
+    "reason": "User did not grant redistribution permission and authorized upstream links instead."
+  }
+}

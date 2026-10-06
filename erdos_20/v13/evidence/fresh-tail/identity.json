@@ -1,0 +1,20 @@
+{
+  "compiler_sha256": "8fadc3ed92cc9decb94c96ee9c0876e91e03a3a5e69138f32114f02789e2766c",
+  "source_commitments": {
+    "Erdos20V13Nineteen": "6e85c01de9e8d1bf4784e1455a2e236825d5849d8979f7aa1af44703b931515a",
+    "Erdos20V13Intersecting": "9d573c962fdada65a8a7344fb2b07abd911f00cb5796270816a2f586a0e55194",
+    "Erdos20V13Endpoint": "d6c9cabfe42de5e9025c600043d4d4834f1417b2805d3cb468adf09fb2d02e4b",
+    "Erdos20V13Trace": "ff443a01d47d8c472d29bd7625dac96e4b59c615f217f641dab2aa6eb4531623",
+    "Erdos20V13FiniteReduction": "752ea9ad55c4f98a13da0a6bbf84eecfb97c473c6bcb5b2087f3a984a701efa5",
+    "Erdos20V13Boundary": "744f86bbed36366aa2ab7c38f935dd37c965d7d2d498b5e5d4d0253400db6916",
+    "Erdos20V13BoundaryLiteral": "4e063329ab018f58dea3c1079f877209873d6e03c170c6881ca88a669f841ff9",
+    "Erdos20V13Final": "1f12295421dd613c4798ecfed49e743021a636de002520bdddcf4d57035f0939",
+    "Erdos20V13BoundaryAudit": "c5b61b420aeaf6b1d8f907ea2d206ec86335fcf169038e3f4a1a3a0a05f89c82",
+    "Erdos20V13NineteenAudit": "e9027bdf178e08956ed314bb13f5d04536166cd041b83871ba45a6a2c701e461",
+    "Erdos20V13CombinedAudit": "9e6ad6255644518759a4205b5134eb2f7303bfe70d2584ca9a4f002bf21bbe9b",
+    "Erdos20V13EnvironmentInventory": "550518783defa87246748ba5ce4558912b37ec48ccfef8e2740fd294114c1128"
+  },
+  "inherited_state_sha256": "48ebe63fd9dc0849a1830e91517ebfbe05505237bd29538bfeaec24813206d7c",
+  "remaining_project_budget_seconds": 2186.9494348040007,
+  "dependencies": "freshly built project objects and reused pinned dependency caches"
+}

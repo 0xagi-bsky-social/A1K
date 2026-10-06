@@ -1,0 +1,62 @@
+[
+  {
+    "stage": "checkpoint",
+    "exit_code": 0,
+    "wall_seconds": 76.78120783399936,
+    "command": [
+      "/usr/bin/python3",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/reproduction/smoke-project/replay.py",
+      "replay",
+      "--root",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/reproduction/smoke-project",
+      "--policy",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/reproduction/smoke-project/policy.json",
+      "--expected-policy-sha256",
+      "febd25e3a968abe624e80b554577efb570950937b1496d4ebde8125240b46553",
+      "--expected-manifest-sha256",
+      "1be0f4d038a3305f99a77e8349e37b88509955bfb6ad5597f2475925f938b436",
+      "--lean",
+      "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+      "--packages",
+      "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages",
+      "--runs",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/reproduction/smoke-project/runs",
+      "--module-timeout",
+      "120",
+      "--wall-budget",
+      "600",
+      "--stop-after",
+      "1"
+    ]
+  },
+  {
+    "stage": "resume",
+    "exit_code": 0,
+    "wall_seconds": 96.46847329199954,
+    "command": [
+      "/usr/bin/python3",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/reproduction/smoke-project/replay.py",
+      "replay",
+      "--root",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/reproduction/smoke-project",
+      "--policy",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/reproduction/smoke-project/policy.json",
+      "--expected-policy-sha256",
+      "febd25e3a968abe624e80b554577efb570950937b1496d4ebde8125240b46553",
+      "--expected-manifest-sha256",
+      "1be0f4d038a3305f99a77e8349e37b88509955bfb6ad5597f2475925f938b436",
+      "--lean",
+      "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+      "--packages",
+      "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages",
+      "--runs",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/reproduction/smoke-project/runs",
+      "--module-timeout",
+      "120",
+      "--wall-budget",
+      "600",
+      "--resume",
+      "20260922T125219-8bcbe1d64509484780e6c454ebba0ae8"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+'Erdos20V12Profile.meeting_fifty_four_low_score_distinct_high_companion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos20V13Trace.trace_score_identity' depends on axioms: [propext, Quot.sound]
+'Erdos20V13Trace.weighted_companion_identity' depends on axioms: [propext, Quot.sound]
+'Erdos20V13Trace.score_twenty_six_relaxation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos20V13Trace.incidence_divisibility' does not depend on any axioms
+'Erdos20V13Trace.five_cannot_divide_nine' depends on axioms: [propext, Quot.sound]

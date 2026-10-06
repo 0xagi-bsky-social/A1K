@@ -1,0 +1,1776 @@
+{
+  "kind": "source-inventory-not-proof-receipt",
+  "axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "modules": [
+    {
+      "module": "SunflowerLean.Basic",
+      "source_sha256": "9c6253d9ae43325863f6b176b975cf024f955f76130c94f0864edfc2149c00f2",
+      "roots": [
+        "entanglement",
+        "reduction_lemma",
+        "disjoint_is_sunflower"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20BCWBridge",
+      "source_sha256": "235a364a1c8d201f46bf7dd3201cc503570a5b1ff1d98506474ac7f10aacef1c",
+      "roots": [
+        "Erdos20BCWConditional.residualLink_member_disjoint_core",
+        "Erdos20BCWConditional.core_union_injOn_residualLink",
+        "Erdos20BCWConditional.residualLink_uniform",
+        "Erdos20BCWConditional.core_union_residual_mem_family",
+        "Erdos20BCWConditional.core_union_inter_eq_core",
+        "Erdos20BCWConditional.residual_matching_lifts_sunflower",
+        "Erdos20BCWConditional.card_le_pow_of_directSpreadMatching"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20BCWConditional",
+      "source_sha256": "0e50aaa2da61ec4c21f2193b1ededfe97285d117977ec1d550eee9c46c67e718",
+      "roots": [
+        "Erdos20BCWConditional.mem_upperStar_iff",
+        "Erdos20BCWConditional.mem_residualLink_iff",
+        "Erdos20BCWConditional.sdiff_injOn_upperStar",
+        "Erdos20BCWConditional.card_residualLink",
+        "Erdos20BCWConditional.empty_mem_denseCores",
+        "Erdos20BCWConditional.exists_maximal_dense_core",
+        "Erdos20BCWConditional.filter_residualLink_eq_image_upperStar_union",
+        "Erdos20BCWConditional.card_filter_residualLink",
+        "Erdos20BCWConditional.member_subset_support",
+        "Erdos20BCWConditional.maximal_dense_core_residual_isSpread"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20Critical",
+      "source_sha256": "3aae25a4911d47bdc33fb1bcc04ae04a392245498badc9d185b94de05d8e4c39",
+      "roots": [
+        "Erdos20Critical.exists_exact_size_free_subfamily",
+        "Erdos20Critical.exact_size_rank_pos",
+        "Erdos20Critical.exists_minimal_critical",
+        "Erdos20Critical.upperStar_bound_of_lowerRanks",
+        "Erdos20Critical.upperStar_eq_empty_of_rank_lt",
+        "Erdos20Critical.exact_size_isStrictSpread",
+        "Erdos20Critical.exact_size_no_nonempty_dense_core",
+        "Erdos20Critical.exact_size_rank_product_gt",
+        "Erdos20Critical.exact_size_factorial_obstruction",
+        "Erdos20Critical.exact_size_support_card_bound"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20CrossBounds",
+      "source_sha256": "c4beb45efd5f8c35e8890a8fc52ed73679a86d19210044af7f6c33e0dd0595ae",
+      "roots": [
+        "Erdos20CrossBounds.intersecting_card_add_rank_sub_one_le",
+        "Erdos20CrossBounds.rank_two_three_petals_degree_le_two",
+        "Erdos20CrossBounds.intersecting_rank_two_three_petals_card_le_three",
+        "Erdos20CrossBounds.common_point_rank_two_three_petals_card_le_two",
+        "Erdos20CrossBounds.cross_intersecting_card_le",
+        "Erdos20CrossBounds.cross_intersecting_rank_two_card_le_four",
+        "Erdos20CrossBounds.card_le_degree_add_one_of_two_intersecting_edges",
+        "Erdos20CrossBounds.cross_intersecting_large_forces_matching",
+        "Erdos20CrossBounds.cross_intersecting_large_other_card_le_two",
+        "Erdos20CrossBounds.cross_intersecting_rank_two_joint_card_le_six",
+        "Erdos20CrossBounds.cross_intersecting_joint_bound_sharp"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20DegreeCongruences",
+      "source_sha256": "c70369d223c22e96b2e93b8a4c412a4630b3a90ba344821ce3059dd8068e6606",
+      "roots": [
+        "Erdos20DegreeCongruences.member_pattern_of_degree_sum",
+        "Erdos20DegreeCongruences.pattern_incidence_constraints",
+        "Erdos20DegreeCongruences.member_patterns_incompatible",
+        "Erdos20DegreeCongruences.no_forty_two_degree_patterns"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20DesignConsequences",
+      "source_sha256": "d0f4988a358912202f6477a40550b63d36331038524db18306db25f0ab255ac0",
+      "roots": [
+        "Erdos20DesignConsequences.regular_six_pair_codegree_eq_two",
+        "Erdos20DesignConsequences.regular_six_pair_meeting_card_eq_eight",
+        "Erdos20DesignConsequences.degree_eq_zero_of_not_support",
+        "Erdos20DesignConsequences.regular_six_no_two_point_transversal"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20DesignCoordinates",
+      "source_sha256": "92a139d18f35b04ec1deacccab74d031853142e83ee9289b20f1fda01dc8fac3",
+      "roots": [
+        "Erdos20DesignCoordinates.pair_star_eq_of_two",
+        "Erdos20DesignCoordinates.ten_pair_trace_card_one"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20DesignNormalForm",
+      "source_sha256": "a7532384874059e56123cc7e7b9ff7ed38b156dd857834881be2a1f726d5692f",
+      "roots": [
+        "Erdos20DesignNormalForm.ten_forbids_three_faces",
+        "Erdos20DesignNormalForm.ten_pair_has_outside_extension",
+        "Erdos20DesignNormalForm.ten_distinct_outside_extension_pair",
+        "Erdos20DesignNormalForm.distinct_outside_extensions",
+        "Erdos20DesignNormalForm.ten_forbids_common_outside_extension",
+        "Erdos20DesignNormalForm.six_point_support_of_extensions",
+        "Erdos20DesignNormalForm.triple_of_two_mem_subset_four",
+        "Erdos20DesignNormalForm.singleton_member_shape",
+        "Erdos20DesignNormalForm.canonicalTen_card_le",
+        "Erdos20DesignNormalForm.ten_normal_form_of_extensions",
+        "Erdos20DesignNormalForm.ten_anchor_normal_form",
+        "Erdos20DesignNormalForm.ten_has_normal_form",
+        "Erdos20DesignNormalForm.ten_isomorphic_canonical"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20DesignSeparation",
+      "source_sha256": "217674aa9d54dddd02a69b339f77f822c9cd6b514cb5f2f24d2b441344cad224",
+      "roots": [
+        "Erdos20DesignSeparation.outside_intersecting_ten_no_supported_pair",
+        "Erdos20DesignSeparation.outside_intersecting_ten_disjoint_support",
+        "Erdos20DesignSeparation.complement_of_intersecting_ten_intersecting",
+        "Erdos20DesignSeparation.complement_of_intersecting_ten_card_le_ten",
+        "Erdos20DesignSeparation.intersecting_ten_complement_supports_disjoint",
+        "Erdos20DesignSeparation.extremal_twenty_complement_design",
+        "Erdos20DesignSeparation.intersecting_ten_degrees_preserved",
+        "Erdos20DesignSeparation.extremal_twenty_regular_twelve_of_intersecting_ten"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20Endpoints",
+      "source_sha256": "efa975c4e837bf3112472263588fa97f23e6f709ceec311650d18eeb32a6a7c0",
+      "roots": [
+        "Erdos20Endpoints.forces_succ_pow_iff",
+        "Erdos20Endpoints.pow_add_one_lt_pow_add_two",
+        "Erdos20Endpoints.strict_forcing_threshold_of_extremal",
+        "Erdos20Endpoints.strict_forcing_threshold_of_direct",
+        "Erdos20Endpoints.uniformExtremalBound_expanded"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20ExtremalStructure",
+      "source_sha256": "835a4fedf513ba61c2107b071fca38ba138c810310753b01cad7c4a54da311dd",
+      "roots": [
+        "Erdos20ExtremalStructure.intersecting_degree_six_card_eq_six",
+        "Erdos20ExtremalStructure.intersecting_card_ge_seven_degree_le_five",
+        "Erdos20ExtremalStructure.intersecting_ten_degree_le_five",
+        "Erdos20ExtremalStructure.local_patterns_exclude_degree_four",
+        "Erdos20ExtremalStructure.local_patterns_force_regular_six_support"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20ExtremalSupport",
+      "source_sha256": "974d5f4020b57dec56fa8fe284c99046418d983781620cd15dd5fe5a08795251",
+      "roots": [
+        "Erdos20ExtremalSupport.extremal_member_saturated_card_le_one",
+        "Erdos20ExtremalSupport.extremal_degree_six_points_card_le_three",
+        "Erdos20ExtremalSupport.support_degree_sum",
+        "Erdos20ExtremalSupport.extremal_supported_degree_ge_three",
+        "Erdos20ExtremalSupport.extremal_support_card_window"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20ExtremalTransversals",
+      "source_sha256": "d2edb5e6246cad5227cda874159fcc4bdff69c94ca9cb21a99166643ead993c3",
+      "roots": [
+        "Erdos20ExtremalTransversals.intersecting_ten_transversal_card_ge_three",
+        "Erdos20ExtremalTransversals.transversal_restrict_support",
+        "Erdos20ExtremalTransversals.extremal_twenty_transversal_card_ge_six",
+        "Erdos20ExtremalTransversals.extremal_twenty_avoids_five_points",
+        "Erdos20ExtremalTransversals.extremal_twenty_exists_transversal_six",
+        "Erdos20ExtremalTransversals.intersecting_rank_four_degree_twenty_common_point",
+        "Erdos20ExtremalTransversals.intersecting_rank_four_degree_twenty_card_eq_twenty",
+        "Erdos20ExtremalTransversals.intersecting_rank_four_card_ge_twenty_one_degree_le_nineteen"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20ExtremalTwenty",
+      "source_sha256": "d40c64d13bdb0ff3aedfe2e9e093a4495838482ca82d39ecd4da6fe02f308ad2",
+      "roots": [
+        "Erdos20ExtremalTwenty.singleton_intersection_card_le_nine",
+        "Erdos20ExtremalTwenty.triple_meeting_incidence_defect",
+        "Erdos20ExtremalTwenty.member_degree_sum_le_fifteen_add_saturated",
+        "Erdos20ExtremalTwenty.extremal_meeting_card_le_twelve",
+        "Erdos20ExtremalTwenty.extremal_disjointness_degree_ge_eight",
+        "Erdos20ExtremalTwenty.graph_degree_eight_member_saturated_eq_one",
+        "Erdos20ExtremalTwenty.extremal_disjointnessGraph_two_colorable",
+        "Erdos20ExtremalTwenty.extremal_twenty_contains_intersecting_ten",
+        "Erdos20ExtremalTwenty.extremal_twenty_two_disjoint_designs",
+        "Erdos20ExtremalTwenty.extremal_twenty_regular_twelve"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20FiniteReduction",
+      "source_sha256": "58bab68e9303fbba7525f1bfa6fdde293f7de4111836e475c0bb888edba4db62",
+      "roots": [
+        "Erdos20FiniteReduction.card_mapFamily",
+        "Erdos20FiniteReduction.isSunflower_mapFamily_iff",
+        "Erdos20FiniteReduction.isSunflowerFree_mapFamily_iff",
+        "Erdos20FiniteReduction.uniform_mapFamily",
+        "Erdos20FiniteReduction.map_restrictSet",
+        "Erdos20FiniteReduction.exists_fin_relabel",
+        "Erdos20FiniteReduction.finiteObstruction_of_counterexample",
+        "Erdos20FiniteReduction.rankCounterexample_iff_finiteObstruction",
+        "Erdos20FiniteReduction.uniformBound_iff_no_finiteObstruction",
+        "Erdos20FiniteReduction.sunflowerFree_iff_powersetCard",
+        "Erdos20FiniteReduction.obstructionCheck_eq_true_iff",
+        "Erdos20FiniteReduction.bound_of_obstructionCheck_eq_false",
+        "Erdos20FiniteReduction.uniformBound_iff_all_checks_false",
+        "Erdos20FiniteReduction.exists_minimal_finiteObstruction",
+        "Erdos20FiniteReduction.obstructionCheck_rank_zero",
+        "Erdos20FiniteReduction.obstructionCheck_positive_control",
+        "Erdos20FiniteReduction.obstructionCheck_negative_control",
+        "Erdos20FiniteReduction.mem_candidateFamilies_iff",
+        "Erdos20FiniteReduction.card_candidateFamilies",
+        "Erdos20FiniteReduction.finiteObstruction_iff_candidate",
+        "Erdos20FiniteReduction.candidateCheck_eq_obstructionCheck",
+        "Erdos20FiniteReduction.uniformBound_iff_all_candidate_checks_false"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20FortyOne",
+      "source_sha256": "aac2481e1bd79733902e326a3925099310ecb93915b5cf6090b34c0dcabe525e",
+      "roots": [
+        "Erdos20FortyOne.forty_two_ordered_degree_pattern",
+        "Erdos20FortyOne.forty_two_member_patterns",
+        "Erdos20FortyOne.intersecting_rank_four_card_le_forty_one",
+        "Erdos20FortyOne.rank_four_card_le_eighty_two_of_two_colorable"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20FortyOneArithmetic",
+      "source_sha256": "8e5106954ddfa87e3715f7710aa10f22d2074c0606d762ec4920d4d7bdf2ec5f",
+      "roots": [
+        "Erdos20FortyOneArithmetic.contribution_le_ceiling",
+        "Erdos20FortyOneArithmetic.opposite_pair_le_capacity",
+        "Erdos20FortyOneArithmetic.capacity_one_properties",
+        "Erdos20FortyOneArithmetic.capacity_three_properties",
+        "Erdos20FortyOneArithmetic.capacity_profile_certificate",
+        "Erdos20FortyOneArithmetic.all_one_pattern",
+        "Erdos20FortyOneArithmetic.all_three_zero_pattern",
+        "Erdos20FortyOneArithmetic.all_three_one_pattern",
+        "Erdos20FortyOneArithmetic.grouped_contribution_sum",
+        "Erdos20FortyOneArithmetic.all_three_triple_sum_le_one",
+        "Erdos20FortyOneArithmetic.four_flags_sum_zero",
+        "Erdos20FortyOneArithmetic.local_pattern"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20Frontier",
+      "source_sha256": "7dfbc639c871bbc95ce78f66cd883c192baaf7246050e7d35282fe0a7579c9c8",
+      "roots": [
+        "Erdos20Frontier.uniformBound_interfaces_agree",
+        "Erdos20Frontier.sunflowerConjecture_iff_strictSpreadConjecture",
+        "Erdos20Frontier.forcing_of_strictSpreadSunflower",
+        "Erdos20Frontier.strictSpreadSunflower_expanded",
+        "Erdos20Frontier.rank_zero_exception",
+        "Erdos20Frontier.strictSpread_free_rank_lower_bound",
+        "Erdos20Frontier.counterexample_has_high_rank_strict_residual",
+        "Erdos20Frontier.cycleFive_not_strictSpreadSunflower"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20GraphEquality",
+      "source_sha256": "ba0f6695d6bfea687d72b223a2eb455f27542a1736110267fa0b7648e871a814",
+      "roots": [
+        "Erdos20GraphEquality.intersecting_three_edges_triangle",
+        "Erdos20GraphEquality.saturated_point_no_extra_edge",
+        "Erdos20GraphEquality.triangle_isolated",
+        "Erdos20GraphEquality.graph_meeting_neighborhood_card_le_three",
+        "Erdos20GraphEquality.six_edges_two_disjoint_triangles",
+        "Erdos20GraphEquality.degree_six_triple_link_two_triangles",
+        "Erdos20GraphEquality.triangle_edge_extension",
+        "Erdos20GraphEquality.six_edges_edge_extension",
+        "Erdos20GraphEquality.six_edges_adjacent_close",
+        "Erdos20GraphEquality.two_degree_six_vertices_force_tetrahedron"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20GraphEqualityEndpoint",
+      "source_sha256": "4b5c3cdc57aba2c19b9a828dedb3f5f7bddd20f97303b1ae017fd6df467c61bd",
+      "roots": [
+        "Erdos20GraphEqualityEndpoint.independentProfile_card_le_two",
+        "Erdos20GraphEqualityEndpoint.independent_pair_is_cycle_neighborhood",
+        "Erdos20GraphEqualityEndpoint.independent_pair_disjoint_neighborhood_contains_center",
+        "Erdos20GraphEqualityEndpoint.profile_independent",
+        "Erdos20GraphEqualityEndpoint.sum_cycle_degrees_eq_sum_profiles",
+        "Erdos20GraphEqualityEndpoint.profile_saturation",
+        "Erdos20GraphEqualityEndpoint.neighborhood_contained_in_cycle_neighborhood",
+        "Erdos20GraphEqualityEndpoint.regular_of_cycle_at_threshold",
+        "Erdos20GraphEqualityEndpoint.five_cycle_of_wheel",
+        "Erdos20GraphEqualityEndpoint.twenty_vertex_nonbipartite_regular"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20GrowthRate",
+      "source_sha256": "123682cd2803110b0137109e19a97efd304bf2891c5a2ff4073ba32d41a2ab71",
+      "roots": [
+        "Erdos20GrowthRate.mem_admissible_iff",
+        "Erdos20GrowthRate.finite_representative",
+        "Erdos20GrowthRate.card_le_extremal",
+        "Erdos20GrowthRate.admissible_nonempty",
+        "Erdos20GrowthRate.extremal_attained",
+        "Erdos20GrowthRate.extremal_factorial_bound",
+        "Erdos20GrowthRate.singleton_rank_witness",
+        "Erdos20GrowthRate.witness_le_extremal",
+        "Erdos20GrowthRate.extremal_pos",
+        "Erdos20GrowthRate.extremal_zero",
+        "Erdos20GrowthRate.extremal_supermultiplicative",
+        "Erdos20GrowthRate.uniformBound_iff_extremal_le",
+        "Erdos20GrowthRate.logExtremal_nonneg",
+        "Erdos20GrowthRate.normalizedLog_nonneg",
+        "Erdos20GrowthRate.logExtremal_superadditive",
+        "Erdos20GrowthRate.neg_logExtremal_subadditive",
+        "Erdos20GrowthRate.normalizedLog_le_entropy",
+        "Erdos20GrowthRate.entropy_le_iff",
+        "Erdos20GrowthRate.entropy_nonneg",
+        "Erdos20GrowthRate.real_bound_iff_normalizedLog_le",
+        "Erdos20GrowthRate.finiteGrowth_iff_exists_uniformBound",
+        "Erdos20GrowthRate.entropy_exact_real_bound",
+        "Erdos20GrowthRate.entropy_le_log_iff_real_bound",
+        "Erdos20GrowthRate.entropy_base_ge_sqrt_ten",
+        "Erdos20GrowthRate.normalizedLog_tendsto_entropy",
+        "Erdos20GrowthRate.rootRate_pow",
+        "Erdos20GrowthRate.rootRate_tendsto",
+        "Erdos20GrowthRate.eventually_normalizedLog_gt_of_witness",
+        "Erdos20GrowthRate.below_sqrt_ten_eventual_extremal",
+        "Erdos20GrowthRate.below_sqrt_ten_every_large_rank_witness",
+        "Erdos20GrowthRate.below_sqrt_ten_prefactor_eventual_extremal",
+        "Erdos20GrowthRate.below_sqrt_ten_prefactor_every_large_rank_witness",
+        "Erdos20GrowthRate.normalizedLog_unbounded_tendsto_atTop",
+        "Erdos20GrowthRate.rootRate_unbounded_tendsto_atTop",
+        "Erdos20GrowthRate.entropy_base_le_iff_real_bound",
+        "Erdos20GrowthRate.rootRate_limit_dichotomy"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20Incidence",
+      "source_sha256": "338f32e316853f68643d1a62708adcea7ccad18c27885aba8d339e643789c6f2",
+      "roots": [
+        "Erdos20Incidence.incidence_sum_eq",
+        "Erdos20Incidence.incidence_defect_lower_bound",
+        "Erdos20Incidence.exists_matching_incidence_bound",
+        "Erdos20Incidence.card_le_refined_step",
+        "Erdos20Incidence.refinedBound_pos",
+        "Erdos20Incidence.refined_sunflower_bound",
+        "Erdos20Incidence.rank_two_three_petals_card_le_six",
+        "Erdos20Incidence.twoTriangles_card",
+        "Erdos20Incidence.twoTriangles_uniform",
+        "Erdos20Incidence.twoTriangles_sunflower_free",
+        "Erdos20Incidence.refinedBound_le_factorial",
+        "Erdos20Incidence.critical_refined_obstruction",
+        "Erdos20Incidence.three_petals_base_four_low_ranks",
+        "Erdos20Incidence.base_four_critical_rank_ge_five",
+        "Erdos20Incidence.critical_support_card_gt"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20IteratedLower",
+      "source_sha256": "9e1c30f8d1013167e08288598ab5e0d1724d9d2e4786bb0e2a3e2790514e86fc",
+      "roots": [
+        "Erdos20IteratedLower.intersecting_substitution",
+        "Erdos20IteratedLower.intersecting_witness_substitution",
+        "Erdos20IteratedLower.singleton_intersecting_witness",
+        "Erdos20IteratedLower.ten_intersecting_witness",
+        "Erdos20IteratedLower.iterationExponent_twice_add_one",
+        "Erdos20IteratedLower.iterationExponent_closed",
+        "Erdos20IteratedLower.iterationExponent_ge",
+        "Erdos20IteratedLower.iterated_intersecting_witness",
+        "Erdos20IteratedLower.iterated_intersecting_closed_witness",
+        "Erdos20IteratedLower.double_intersecting_witness",
+        "Erdos20IteratedLower.iterated_double_witness",
+        "Erdos20IteratedLower.iterated_bound_constraint",
+        "Erdos20IteratedLower.iterated_real_bound_sq_ge_ten",
+        "Erdos20IteratedLower.eventual_real_bound_sq_ge_ten",
+        "Erdos20IteratedLower.eventual_real_bound_ge_sqrt_ten",
+        "Erdos20IteratedLower.below_sqrt_ten_fails_eventually",
+        "Erdos20IteratedLower.below_sqrt_ten_iterated_counterexample",
+        "Erdos20IteratedLower.below_sqrt_ten_finite_counterexample"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20LocalStructure",
+      "source_sha256": "475a369572b10d524474474e2906516e7893a6224239f646756356813fad0deb",
+      "roots": [
+        "Erdos20LocalStructure.mem_tensorFamily_iff",
+        "Erdos20LocalStructure.card_tensorFamily",
+        "Erdos20LocalStructure.uniform_tensorFamily",
+        "Erdos20LocalStructure.sunflower_image_of_injective",
+        "Erdos20LocalStructure.sunflower_projection_injective_or_constant",
+        "Erdos20LocalStructure.sunflowerFree_tensorFamily",
+        "Erdos20LocalStructure.tensor_witness",
+        "Erdos20LocalStructure.rank_zero_witness",
+        "Erdos20LocalStructure.tensor_power_witness",
+        "Erdos20LocalStructure.cycle_five_power_witness",
+        "Erdos20LocalStructure.uniformBound_of_eventual",
+        "Erdos20LocalStructure.uniformBound_iff_eventual",
+        "Erdos20LocalStructure.uniformBound_of_prefactor",
+        "Erdos20LocalStructure.uniformBound_iff_exists_prefactor",
+        "Erdos20LocalStructure.nonuniform_tensor_failure"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20MeetingFiftySix",
+      "source_sha256": "8607a4cc8a83080c65aeb90033aab9c62b67a3f35cde19807a289f07ba7eb47f",
+      "roots": [
+        "Erdos20MeetingFiftySix.fifty_seven_saturated_profile",
+        "Erdos20MeetingFiftySix.complementary_point_link_design",
+        "Erdos20MeetingFiftySix.member_residue_mem_complementary_link",
+        "Erdos20MeetingFiftySix.triple_trace_has_outside_extension",
+        "Erdos20MeetingFiftySix.four_set_has_third_point",
+        "Erdos20MeetingFiftySix.anchor_mem_complementary_link",
+        "Erdos20MeetingFiftySix.extension_mem_complementary_link",
+        "Erdos20MeetingFiftySix.no_saturated_anchor_profile",
+        "Erdos20MeetingFiftySix.all_meeting_anchor_card_le_fifty_six",
+        "Erdos20MeetingFiftySix.meeting_neighborhood_card_le_fifty_six"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20MixedCross",
+      "source_sha256": "630f441f9190f149bbbd9d601516c2687da31d86c97b1c53287552a0a716ad14",
+      "roots": [
+        "Erdos20MixedCross.triple_pair_degree_le_two",
+        "Erdos20MixedCross.triples_cross_two_edges_card_le_eight",
+        "Erdos20MixedCross.triples_cross_triangle_card_le_six",
+        "Erdos20MixedCross.intersecting_triples_cross_edges_weighted"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20NextFrontier",
+      "source_sha256": "02bd419c973623d41060ce666b79df6923cffd6d3bdbdcbfb6b52eda8a5f8f28",
+      "roots": [
+        "Erdos20NextFrontier.refined_three_petals_values",
+        "Erdos20NextFrontier.six_power_witness",
+        "Erdos20NextFrontier.finite_check_base_four_low_ranks",
+        "Erdos20NextFrontier.uniformBound_iff_eventual_checks",
+        "Erdos20NextFrontier.some_base_iff_eventual_checks",
+        "Erdos20NextFrontier.critical_support_window",
+        "Erdos20NextFrontier.base_four_failure_finite_normal_form",
+        "Erdos20NextFrontier.uniformBound_of_eventual_prefactor",
+        "Erdos20NextFrontier.uniformBound_iff_eventual_prefactor"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20Obstructions",
+      "source_sha256": "de67da57c70b8c73231199b52b0f159d335578698dfd1eabbc271c0787c25d80",
+      "roots": [
+        "Erdos20Obstructions.cycleFive_card",
+        "Erdos20Obstructions.cycleFive_uniform",
+        "Erdos20Obstructions.cycleFive_strict_spread",
+        "Erdos20Obstructions.cycleFive_spread",
+        "Erdos20Obstructions.cycleFive_sunflower_free",
+        "Erdos20Obstructions.not_uniformExtremalBound_two_three",
+        "Erdos20Obstructions.not_directSpreadMatching_two_three",
+        "Erdos20Obstructions.matching_size_times_rank_le_ground",
+        "Erdos20Obstructions.completeFive_card",
+        "Erdos20Obstructions.completeFive_uniform",
+        "Erdos20Obstructions.completeFive_strict_spread",
+        "Erdos20Obstructions.completeFive_has_no_three_matching",
+        "Erdos20Obstructions.completeFive_has_sunflower"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20RankFour",
+      "source_sha256": "4aa933a291c2b1582266f941c9287d49eb68a011f08a62fa7f2aadd79da096fa",
+      "roots": [
+        "Erdos20RankFour.singleton_trace_card_le_ten",
+        "Erdos20RankFour.rank_four_degree_le_twenty",
+        "Erdos20RankFour.singleton_intersection_card_le_forty",
+        "Erdos20RankFour.meeting_incidence_singleton_defect",
+        "Erdos20RankFour.meeting_neighborhood_card_le_fifty_nine",
+        "Erdos20RankFour.exact_trace_residual_intersecting",
+        "Erdos20RankFour.disjoint_traces_residual_cross_intersect",
+        "Erdos20RankFour.triple_trace_card_le_one",
+        "Erdos20RankFour.singleton_triple_trace_weighted_le_ten",
+        "Erdos20RankFour.card_eq_sum_exact_traces",
+        "Erdos20RankFour.empty_trace_card_eq_zero",
+        "Erdos20RankFour.full_trace_card_eq_one",
+        "Erdos20RankFour.sum_powerset_four",
+        "Erdos20RankFour.singleton_pair_trace_weighted_le_twelve",
+        "Erdos20RankFour.intersecting_rank_four_card_le_forty_seven",
+        "Erdos20RankFour.rank_four_disjointnessGraph_degree_eq",
+        "Erdos20RankFour.rank_four_card_le_ninety_four_of_two_colorable",
+        "Erdos20RankFour.rank_four_card_le_ninety_eight"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20RankFourPropagation",
+      "source_sha256": "fc0b34f50e2a4707c7d109b2756c1e62b8942f743c100f5575f23651e96de381",
+      "roots": [
+        "Erdos20RankFourPropagation.rankFourBound_pos",
+        "Erdos20RankFourPropagation.propagated_rank_four_bound",
+        "Erdos20RankFourPropagation.rankFourBound_values",
+        "Erdos20RankFourPropagation.rankFourBound_lt_previous",
+        "Erdos20RankFourPropagation.rank_at_most_five_base_four",
+        "Erdos20RankFourPropagation.base_four_violating_rank_ge_six",
+        "Erdos20RankFourPropagation.rank_at_most_six_base_five",
+        "Erdos20RankFourPropagation.base_five_violating_rank_ge_seven"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20RankFourRefined",
+      "source_sha256": "0bcd59aa7d3c11cee44d74182f943320c64477ba58e9ec0f71c13ceef9344f71",
+      "roots": [
+        "Erdos20RankFourRefined.intersecting_triples_cross_edge_card_le_nine",
+        "Erdos20RankFourRefined.intersecting_triples_cross_two_edges_card_le_seven",
+        "Erdos20RankFourRefined.intersecting_triples_cross_edges_weighted_twenty_one",
+        "Erdos20RankFourRefined.common_point_triples_cross_three_edges_card_le_four",
+        "Erdos20RankFourRefined.common_point_triples_cross_edges_weighted_eighteen",
+        "Erdos20RankFourRefined.singleton_pair_triple_trace_weighted_le_twenty_one",
+        "Erdos20RankFourRefined.intersecting_rank_four_card_le_forty_three",
+        "Erdos20RankFourRefined.degree_eq_sum_exact_traces",
+        "Erdos20RankFourRefined.pair_trace_card_le_three",
+        "Erdos20RankFourRefined.forty_three_member_degree_pattern",
+        "Erdos20RankFourRefined.intersecting_rank_four_card_le_forty_two",
+        "Erdos20RankFourRefined.rank_four_card_le_eighty_four_of_two_colorable"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20RankFourWitness",
+      "source_sha256": "78a4a98db56da2d8d133f71e65e32cd355a66c2642b8e2ab8ce1541ed71afa58",
+      "roots": [
+        "Erdos20RankFourWitness.triangle_intersecting_witness",
+        "Erdos20RankFourWitness.twenty_seven_intersecting_witness",
+        "Erdos20RankFourWitness.fifty_four_witness",
+        "Erdos20RankFourWitness.mixed_rank_witness"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20RankThree",
+      "source_sha256": "adaf323385d46fae31cdafbcece025a232fb4e2b8264ea37c0272d1598858d7b",
+      "roots": [
+        "Erdos20RankThree.sunflower_three_of_intersections",
+        "Erdos20RankThree.exact_trace_residuals_intersect",
+        "Erdos20RankThree.exact_trace_upperStar",
+        "Erdos20RankThree.exact_trace_card_residual",
+        "Erdos20RankThree.exact_trace_residual_free",
+        "Erdos20RankThree.singleton_trace_card_le_three",
+        "Erdos20RankThree.pair_trace_card_le_one",
+        "Erdos20RankThree.full_trace_card_le_one",
+        "Erdos20RankThree.meeting_neighborhood_card_le_thirteen",
+        "Erdos20RankThree.opposite_traces_sum_le_three",
+        "Erdos20RankThree.nonempty_proper_subset_triple",
+        "Erdos20RankThree.anchor_trace_cover",
+        "Erdos20RankThree.intersecting_rank_three_card_le_ten",
+        "Erdos20RankThree.disjoint_anchor_family_intersecting",
+        "Erdos20RankThree.rank_three_three_petals_card_le_twenty_three"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20RankThreeEven",
+      "source_sha256": "8e3b0aa0f0e45b055cadeb16491cfc0701e87677d829a0830b9d22f4a0b1be85",
+      "roots": [
+        "Erdos20RankThreeEven.disjoint_anchor_card_le_ten",
+        "Erdos20RankThreeEven.rank_three_card_le_degree_add_seventeen",
+        "Erdos20RankThreeEven.rank_three_degree_le_six",
+        "Erdos20RankThreeEven.rank_three_card_twenty_three_degree_six",
+        "Erdos20RankThreeEven.rank_three_three_petals_card_le_twenty_two"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20Research",
+      "source_sha256": "b4d860cc6df3df2140a6ed95060c193a3f40c4fe6cbbbcc8f3d6d12e6db9b670",
+      "roots": [
+        "Erdos20Research.mem_extensionStar_iff",
+        "Erdos20Research.inter_eq_core_of_codim_one",
+        "Erdos20Research.extensionStar_isSunflower",
+        "Erdos20Research.extensionStar_card_lt",
+        "Erdos20Research.extensionStar_card_le_pred",
+        "Erdos20Research.mem_lowerShadow_iff",
+        "Erdos20Research.lowerShadow_extension_degree_le",
+        "Erdos20Research.card_filter_eq_sum_ite",
+        "Erdos20Research.incidence_swap",
+        "Erdos20Research.incidence_left_count",
+        "Erdos20Research.incidence_inequality",
+        "Erdos20Research.sunflowerFree_shadow_inequality",
+        "Erdos20Research.final_shifted_set_has_no_original_one_step_source"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20SaturatedMeeting",
+      "source_sha256": "b766ed0d12105aae33ac9b6cfed8caf50c6be7b64e608d90ceb18abffde5bdb7",
+      "roots": [
+        "Erdos20SaturatedMeeting.trace_subcore_residual_card",
+        "Erdos20SaturatedMeeting.pair_trace_card_le_complement_singleton",
+        "Erdos20SaturatedMeeting.saturated_singleton_incident_pair_sum_le_six",
+        "Erdos20SaturatedMeeting.rank_four_pair_trace_card_le_three",
+        "Erdos20SaturatedMeeting.singleton_incident_pairs_weighted_le_thirty_six",
+        "Erdos20SaturatedMeeting.incidence_eq_sum_weighted_exact_traces",
+        "Erdos20SaturatedMeeting.all_meeting_anchor_card_le_fifty_seven",
+        "Erdos20SaturatedMeeting.meeting_neighborhood_card_le_fifty_seven"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20SeededBounds",
+      "source_sha256": "d2b08b8601f68197ccd3091bdfee663d5bce363ba78d35a316bed02ba94659d7",
+      "roots": [
+        "Erdos20SeededBounds.seededBound_pos",
+        "Erdos20SeededBounds.seeded_sunflower_bound",
+        "Erdos20SeededBounds.triple_trace_seed_bound",
+        "Erdos20SeededBounds.seeded_bound_values",
+        "Erdos20SeededBounds.parity_seed_bound",
+        "Erdos20SeededBounds.parity_seed_values"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20SharpTriples",
+      "source_sha256": "c5867ba6f768de8c3a690b4496813dba18dc5dd2c565f8859c9e8ac55e840e02",
+      "roots": [
+        "Erdos20SharpTriples.rank_three_card_le_degree_disjoint_add_seven",
+        "Erdos20SharpTriples.disjointnessGraph_triangle_free",
+        "Erdos20SharpTriples.disjointnessGraph_degree_eq",
+        "Erdos20SharpTriples.disjointnessGraph_degree_add_thirteen_ge",
+        "Erdos20SharpTriples.card_le_twenty_of_disjointnessGraph_two_colorable",
+        "Erdos20SharpTriples.rank_three_three_petals_card_le_twenty_one",
+        "Erdos20SharpTriples.rank_three_card_le_twenty_of_each_member_low_degree",
+        "Erdos20SharpTriples.card_twenty_one_exists_all_degree_six_member",
+        "Erdos20SharpTriples.tetrahedron_meeting_card_le_sixteen",
+        "Erdos20SharpTriples.card_le_nineteen_of_tetrahedron_disjoint_card_le_three",
+        "Erdos20SharpTriples.triangle_pair_cover_card_le_three",
+        "Erdos20SharpTriples.contains_pair_of_meets_every_pair_of_triple",
+        "Erdos20SharpTriples.tetrahedron_faces_subset_of_four_members"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20SharpTwenty",
+      "source_sha256": "e15ca8436c1ce1536de5a6afd5c6f2b9c995e0a9bd1bb46c17ee7e2fd45b42c1",
+      "roots": [
+        "Erdos20SharpTwenty.card_le_nineteen_of_two_degree_six_vertices",
+        "Erdos20SharpTwenty.rank_three_three_petals_card_le_twenty",
+        "Erdos20SharpTwenty.twenty_members_no_two_degree_six_in_member"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20SpreadPacking",
+      "source_sha256": "1d1266ff3264bdcfe34a7c1fb6f0bf2cf0b845b9cba80d6ce217408d0511f1d7",
+      "roots": [
+        "Erdos20SpreadPacking.strict_singleton_transversal_card_gt",
+        "Erdos20SpreadPacking.exists_maximum_matching",
+        "Erdos20SpreadPacking.maximum_matching_union_transversal",
+        "Erdos20SpreadPacking.maximum_matching_rank_lower_bound",
+        "Erdos20SpreadPacking.matching_of_strict_singleton_spread",
+        "Erdos20SpreadPacking.matching_of_strictSpread_low_rank",
+        "Erdos20SpreadPacking.matching_of_strictSpread_floor_bound",
+        "Erdos20SpreadPacking.strictSpreadSunflowerTail_iff_uniformBound"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20StrictCore",
+      "source_sha256": "f9ee0de249ad35dc8e11346760bca2a2b7f0e30ba8cf86c1b1ebc032062ec622",
+      "roots": [
+        "Erdos20StrictCore.strictSpread_implies_spread",
+        "Erdos20StrictCore.maximal_dense_core_residual_isStrictSpread",
+        "Erdos20StrictCore.strictSpread_card_gt_pow",
+        "Erdos20StrictCore.directSpreadMatching_implies_strictSpreadMatching",
+        "Erdos20StrictCore.card_le_pow_of_strictSpreadMatching",
+        "Erdos20StrictCore.residual_sunflower_lifts",
+        "Erdos20StrictCore.residualLink_sunflowerFree",
+        "Erdos20StrictCore.strictSpreadMatching_implies_strictSpreadSunflower",
+        "Erdos20StrictCore.maximal_dense_core_residual_rank_pos",
+        "Erdos20StrictCore.uniformBound_of_strictSpreadSunflower",
+        "Erdos20StrictCore.strictSpreadSunflower_of_uniformBound",
+        "Erdos20StrictCore.strictSpreadSunflower_iff_uniformBound"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20Substitution",
+      "source_sha256": "b0c1a14185bf3febab7565d61d5aa1e6e97357fb65e4ada0f9f8a6fbafbf6302",
+      "roots": [
+        "Erdos20Substitution.mem_encode",
+        "Erdos20Substitution.mem_fiber",
+        "Erdos20Substitution.fiber_encode",
+        "Erdos20Substitution.support_encode",
+        "Erdos20Substitution.encode_injective",
+        "Erdos20Substitution.card_encode",
+        "Erdos20Substitution.card_substitution",
+        "Erdos20Substitution.uniform_substitution",
+        "Erdos20Substitution.three_rigidity",
+        "Erdos20Substitution.support_inter_encode",
+        "Erdos20Substitution.fiber_inter",
+        "Erdos20Substitution.sunflowerFree_substitution",
+        "Erdos20Substitution.tenTriples_nonempty",
+        "Erdos20Substitution.twentyThousand_card",
+        "Erdos20Substitution.twentyThousand_uniform",
+        "Erdos20Substitution.twentyThousand_sunflower_free",
+        "Erdos20Substitution.twenty_thousand_witness",
+        "Erdos20Substitution.not_uniformBound_three_three",
+        "Erdos20Substitution.uniformBound_base_ge_four"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20Tetrahedron",
+      "source_sha256": "96d6d00bb0f600e5ac9946ff0daeaa22d38bc45ae9b3586f7d4bb7fd52b7a23b",
+      "roots": [
+        "Erdos20Tetrahedron.six_edges_triangle_complement",
+        "Erdos20Tetrahedron.pair_subset_triangle_mem",
+        "Erdos20Tetrahedron.triple_pair_in_link",
+        "Erdos20Tetrahedron.degree_six_outside_triangle",
+        "Erdos20Tetrahedron.tetrahedron_disjoint_card_le_three"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20ThreeCrossEdges",
+      "source_sha256": "7808e2c34b4c115ff4dd7fe72f7dd29d6f3a527a5116a13ba7d3f5ce6e82a8cc",
+      "roots": [
+        "Erdos20ThreeCrossEdges.edge_meets_triangle_mem",
+        "Erdos20ThreeCrossEdges.three_edge_classes_sum_le_six",
+        "Erdos20ThreeCrossEdges.residual_exact_trace_disjoint_anchor",
+        "Erdos20ThreeCrossEdges.no_common_singleton_residual",
+        "Erdos20ThreeCrossEdges.intersecting_triple_singleton_sum_le_six"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20TracePatterns",
+      "source_sha256": "dcdd79879408292d79fa6060b0d55aaab5c33233f6f8eb132953073eff3bcf15",
+      "roots": [
+        "Erdos20TracePatterns.trace_count_equations",
+        "Erdos20TracePatterns.intersecting_ten_member_degree_pattern",
+        "Erdos20TracePatterns.intersecting_ten_regular_six_support"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20TraceStructure",
+      "source_sha256": "f51342e26fe132fe87829e8e8512f3b5e2f9138f2c84b1f1f2656a9f947524fa",
+      "roots": [
+        "Erdos20TraceStructure.mem_matching_union",
+        "Erdos20TraceStructure.singleton_trace_disjoint_other",
+        "Erdos20TraceStructure.maximum_matching_singleton_traces_intersect",
+        "Erdos20TraceStructure.maximum_matching_singleton_residuals_intersect",
+        "Erdos20TraceStructure.inclusion_maximal_does_not_force_residual_intersection"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20TripleReduction",
+      "source_sha256": "d2bc328dacad8029233637e10d1cfd7ca22680c042f757143ca291bee5c972e4",
+      "roots": [
+        "Erdos20TripleReduction.twenty_one_degree_window",
+        "Erdos20TripleReduction.twenty_one_incidence",
+        "Erdos20TripleReduction.twenty_one_support_window",
+        "Erdos20TripleReduction.twenty_one_on_fifteen_of_counterexample",
+        "Erdos20TripleReduction.triple_bound_twenty_iff",
+        "Erdos20TripleReduction.sharpTripleCheck_eq_true_iff",
+        "Erdos20TripleReduction.triple_bound_twenty_iff_check_false",
+        "Erdos20TripleReduction.sharpCandidates_card"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20TripleWitness",
+      "source_sha256": "55c87441371d2f4e537218d1b8454d792883c3f90e563f8b4045b22c0b1db14d",
+      "roots": [
+        "Erdos20TripleWitness.sunflowerFree_of_no_triple",
+        "Erdos20TripleWitness.tenTriples_card",
+        "Erdos20TripleWitness.tenTriples_uniform",
+        "Erdos20TripleWitness.tenTriples_intersecting",
+        "Erdos20TripleWitness.tenTriples_sunflower_free",
+        "Erdos20TripleWitness.twentyTriples_card",
+        "Erdos20TripleWitness.twentyTriples_uniform",
+        "Erdos20TripleWitness.twentyTriples_sunflower_free",
+        "Erdos20TripleWitness.twenty_triples_witness",
+        "Erdos20TripleWitness.twenty_power_witness"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10AllMeeting",
+      "source_sha256": "9316f8d8fcb909bf145d3cf20d5c8ee444318aaf68a6bca70f8a72afee8dc434",
+      "roots": [
+        "Erdos20V10AllMeeting.all_meeting_at_least_fifty_five_degrees_eighteen_to_twenty",
+        "Erdos20V10AllMeeting.all_meeting_at_least_fifty_five_degree_seventeen_class_empty",
+        "Erdos20V10AllMeeting.all_meeting_at_least_fifty_five_degree_census",
+        "Erdos20V10AllMeeting.eighty_one_three_class_census_profiles",
+        "Erdos20V10AllMeeting.eighty_one_all_meeting_degree_census",
+        "Erdos20V10AllMeeting.no_eighty_seven_or_ninety_two_all_meeting_at_least_fifty_five",
+        "Erdos20V10AllMeeting.eighty_one_all_meeting_support_seventeen"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10BoundaryReduction",
+      "source_sha256": "102227f21e6986fbb9617e2b6512c30144b27c5ca79a8ae7dd75c1f4320d21b9",
+      "roots": [
+        "Erdos20V10BoundaryReduction.meeting_lower_bound_of_intersecting_upper",
+        "Erdos20V10BoundaryReduction.conditional_eighty_one_min_degree_and_support",
+        "Erdos20V10BoundaryReduction.conditional_eighty_one_has_degree_nineteen_or_twenty"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10DisjointDegree",
+      "source_sha256": "173f879f8d4a6942a52821468541578eb59e8a08579946a106ec2d736028c5f0",
+      "roots": [
+        "Erdos20V10DisjointDegree.disjoint_neighborhoods_disjoint",
+        "Erdos20V10DisjointDegree.twice_min_disjoint_degree_le_card"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10FiniteEndgame",
+      "source_sha256": "75e483978d632e0076c6cf140c9e22c5d38da7c11814794de00ec26e083925b7",
+      "roots": [
+        "Erdos20V10FiniteEndgame.conditional_eighty_one_support_seventeen_or_eighteen",
+        "Erdos20V10FiniteEndgame.unrestricted_eighty_of_small_support_eighty"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10HighParity",
+      "source_sha256": "62eae54ce96b8fd271a88b9afccb15b311e8c23e25f2ffc01bb37634a95c36c3",
+      "roots": [
+        "Erdos20V10HighParity.twenty_link_pair_codegree_zero_or_two",
+        "Erdos20V10HighParity.degree_twenty_triple_codegree_zero_or_two"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10HighParityMain",
+      "source_sha256": "2d219614830821e1d70f85facb04659c6819560ceac90c886aae8aa0382a82b3",
+      "roots": [
+        "Erdos20V10HighParity.low_star_high_inter_eq",
+        "Erdos20V10HighParity.low_high_neighbor_star_card_five",
+        "Erdos20V10HighParity.low_star_double_high_count_even",
+        "Erdos20V10HighParity.low_high_transversal_degree_identity",
+        "Erdos20V10HighParity.low_high_transversal_degree_seventeen_impossible",
+        "Erdos20V10HighParity.low_high_transversal_degree_nineteen_impossible"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10HighTriangle",
+      "source_sha256": "60a57afc02b21e0d2af9e4c436898062d2453344cdfc963081b3c0abf89d83d4",
+      "roots": [
+        "Erdos20V10HighTriangle.edgeSupport_comm",
+        "Erdos20V10HighTriangle.mem_edgeSupport_iff",
+        "Erdos20V10HighTriangle.component_at_high_neighbor",
+        "Erdos20V10HighTriangle.edgeSupport_eq_component_erase"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10HighTriangleDegreeOne",
+      "source_sha256": "7f05a2f77cdc174295d7dea454cf347c0f0e813f594c9d9a9a62636349e1eebc",
+      "roots": [
+        "Erdos20V10HighTriangle.no_three_common_point_residue",
+        "Erdos20V10HighTriangle.no_two_high_neighbors",
+        "Erdos20V10HighTriangle.high_point_high_neighbors_le_one"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10HighTriangleGeometry",
+      "source_sha256": "48370063ba1e9e119631ccdd6d7031ab7d1fc4909ff80298454ec52464fa4fa7",
+      "roots": [
+        "Erdos20V10HighTriangle.high_edge_support_disjoint_high",
+        "Erdos20V10HighTriangle.incident_high_edge_supports_disjoint",
+        "Erdos20V10HighTriangle.high_edge_has_single_center_member",
+        "Erdos20V10HighTriangle.high_neighbor_symm"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10HighTriangleIncidence",
+      "source_sha256": "a7cbf6731d9c5c7d6df6dec397578bc55e06c3aadb364d873ccb5a400d70b481",
+      "roots": [
+        "Erdos20V10HighTriangle.high_point_low_neighbors_ge_eleven",
+        "Erdos20V10HighTriangle.eleven_mul_high_card_le_four_mul_low_card"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10HighTriangleMain",
+      "source_sha256": "1389b401fba08fc70fb3e9e4e42328a0d1faa694166588e001907d80d501a07b",
+      "roots": [
+        "Erdos20V10HighTriangle.insert_centers_disjoint",
+        "Erdos20V10HighTriangle.no_high_triangle",
+        "Erdos20V10HighTriangle.high_neighbors_pairwise_nonadjacent"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10HighTriangleTransfer",
+      "source_sha256": "d25b30918e48c5ab7cae47b6a59a5138540b6c4919f4b2e314943a9018af7807",
+      "roots": [
+        "Erdos20V10HighTriangle.high_edge_support_card_five",
+        "Erdos20V10HighTriangle.high_edge_single_residue_transfer"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10MinimumDegree",
+      "source_sha256": "1f85de81670903bf88c372f37f49121b4238d8f852128351c2706e5d45998df3",
+      "roots": [
+        "Erdos20V10MinimumDegree.all_meeting_fifty_four_min_degree_seventeen"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54",
+      "source_sha256": "2f0b2745f6ff844dcb3fd7a61ac64367227690a393f3d2d5977f875a580f460b",
+      "roots": [
+        "Erdos20V10Profile54.degree_cap_eighteen_trace_profile54"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54Bridge",
+      "source_sha256": "fdf92f6387721b5d1c147fb1e9ed65712dd89691409b7c4068e747d1e531da6e",
+      "roots": [
+        "Erdos20V10Profile54Bridge.all_meeting_fifty_four_degree_cap_eighteen_traces",
+        "Erdos20V10Profile54Bridge.meeting_at_least_fifty_four_degree_cap_eighteen_traces"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54DegreeCap",
+      "source_sha256": "043bdc0aa2af975fc9aec588cb9f2ca9a966816f20f317f4e20623fd10c2d5d6",
+      "roots": [
+        "Erdos20V10Profile54DegreeCap.no_all_meeting_fifty_four_of_degree_cap_eighteen",
+        "Erdos20V10Profile54DegreeCap.exists_anchor_meeting_le_fifty_three_of_degree_cap_eighteen",
+        "Erdos20V10Profile54DegreeCap.card_le_eighty_of_degree_cap_eighteen"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54LowScores",
+      "source_sha256": "11031d287a4767d5cb28c3c513943b14d1482baae96ca0be76a48b61ce27fdfa",
+      "roots": [
+        "Erdos20V10Profile54LowScores.not_two_degree_singleton_scores_le_twenty_six"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54LowScoresBridge",
+      "source_sha256": "73a6c31481a364b8d71f004fafa87c77ffec426741ba1593e0e19dd46bd70a7f",
+      "roots": [
+        "Erdos20V10Profile54Bridge.all_meeting_at_least_fifty_four_ordered_not_two_low_scores",
+        "Erdos20V10Profile54Bridge.meeting_at_least_fifty_four_not_two_low_scores"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54Score",
+      "source_sha256": "ed1140422c47ba525bde69b1033e9d0910e9115ff86e7ce16d01f5f8d8f41cf6",
+      "roots": [
+        "Erdos20V10Profile54Score.degree_singleton_score_ge_twenty_five"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54ScoreBridge",
+      "source_sha256": "55c29ed8fd465c153caadcad00bb1d0cd183ba01e817e64ba5af8046fcded823",
+      "roots": [
+        "Erdos20V10Profile54Bridge.all_meeting_at_least_fifty_four_ordered_score",
+        "Erdos20V10Profile54Bridge.meeting_at_least_fifty_four_degree_trace_score"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54Seventeen",
+      "source_sha256": "a6b8433f8ed91493cdcb7715c324c5ca0c4194a2492604476bc07a70843b9c16",
+      "roots": [
+        "Erdos20V10Profile54Seventeen.singleton_trace_le_nine_of_degree_le_seventeen"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54SeventeenCap",
+      "source_sha256": "5b0ae554b681454c097c2d85e40d15e52c894f376fae1633e1c6de1b1c19f396",
+      "roots": [
+        "Erdos20V10Profile54Seventeen.degree_seventeen_member_card_le_one"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11Census",
+      "source_sha256": "99a19cb868d8dff99256f7793f8cf5d4e54682a0143329e6aeb505de1b7e8cae",
+      "roots": [
+        "Erdos20V11Census.four_degree_census_identity",
+        "Erdos20V11Census.conditional_eighty_one_census",
+        "Erdos20V11Census.fourteen_census_profiles_arithmetic",
+        "Erdos20V11Census.conditional_eighty_one_fourteen_profiles"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11CensusCapacity",
+      "source_sha256": "cc250abc298df1971bb58a74e63e041b4d86e47420ad6ebafa643490241715c7",
+      "roots": [
+        "Erdos20V11Census.rank_four_pair_codegree_le_six",
+        "Erdos20V11Census.two_zero_high_stars_degree_sum_le",
+        "Erdos20V11Census.star_zero_high_of_no_high_neighbors",
+        "Erdos20V11Census.zero_high_card_add_twenty_high",
+        "Erdos20V11Census.odd_low_degree_mem_zero_high_support",
+        "Erdos20V11Census.odd_degree_classes_le_four_zero_high_card",
+        "Erdos20V11Census.conditional_eighty_one_four_independent_high_impossible"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11CensusCommonSupport",
+      "source_sha256": "bd971d7b83c9264e2bc4137cfeedfbee964d8b2646e21945022b9c7c6fb80985",
+      "roots": [
+        "Erdos20V11Census.member_high_cap_one_of_high_neighbors_empty",
+        "Erdos20V11Census.star_zero_high_of_outside_common_support",
+        "Erdos20V11Census.three_high_common_twelve_support_impossible",
+        "Erdos20V11Census.conditional_eighty_one_three_high_common_support_impossible"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11CensusFinal",
+      "source_sha256": "e8e0ceb1ad5522d535fa77f5e9098a2b1cb51a85eac56a053717d18b23a3d18e",
+      "roots": [
+        "Erdos20V11Census.conditional_eighty_one_high_card_le_two",
+        "Erdos20V11Census.conditional_eighty_one_ten_profiles",
+        "Erdos20V11Census.conditional_eighty_one_boundary_structure",
+        "Erdos20V11Census.unrestricted_eighty_of_small_support_two_high_eighty"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11CensusIndependentTriple",
+      "source_sha256": "bdb1354a1f7c9715051be56125a9889a7afee0b235b4023c0f74e5f81a55f0d4",
+      "roots": [
+        "Erdos20V11Census.eighty_one_min_degree_seventeen_no_independent_high_triple",
+        "Erdos20V11Census.conditional_eighty_one_no_independent_high_triple"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11CensusTenProfiles",
+      "source_sha256": "f3118ffbd83121def8be4a0da239d39b93c3dde677e91d95414764d26373166c",
+      "roots": [
+        "Erdos20V11Census.ten_census_profiles_arithmetic",
+        "Erdos20V11Census.conditional_eighty_one_ten_profiles_of_high_card_le_two"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11DegreeSeventeen",
+      "source_sha256": "d522d1a62c9d5bc29223c6dbe78ee40a104d796356658a8046c2c7bb1dccb080",
+      "roots": [
+        "Erdos20V11DegreeSeventeen.triple_seventeen_min_disjoint_eight_decomposition"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11DegreeSeventeenLink",
+      "source_sha256": "1371e3f300ebd11b2ef5e4b4ce26001c4168582b4c6ddb83803b21434730b34b",
+      "roots": [
+        "Erdos20V11DegreeSeventeen.degree_seventeen_link_min_disjoint_eight",
+        "Erdos20V11DegreeSeventeen.degree_seventeen_link_eight_nine_decomposition",
+        "Erdos20V11DegreeSeventeen.triple_seventeen_min_disjoint_eight_degree_le_five",
+        "Erdos20V11DegreeSeventeen.degree_seventeen_pair_codegree_le_five"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11DegreeSeventeenTrace",
+      "source_sha256": "2a0349ecd8dce096b703815932890c55c3b1347251c22a975050c681dca6a7ca",
+      "roots": [
+        "Erdos20V11DegreeSeventeen.exact_disjoint_trace_of_separated_partition",
+        "Erdos20V11DegreeSeventeen.triple_seventeen_exact_disjoint_degree_distribution",
+        "Erdos20V11DegreeSeventeen.degree_seventeen_singleton_trace_eight_or_nine"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11EdgeCapacity",
+      "source_sha256": "09425bbe2763fb68a66eaaa5e94ee79a368d8b4d6cbf8286aa732acb46618a5d",
+      "roots": [
+        "Erdos20V11EdgeCapacity.outside_core_star_card_le_two",
+        "Erdos20V11EdgeCapacity.degree_le_inside_add_four_of_two_outside_stars",
+        "Erdos20V11EdgeCapacity.degree_le_inside_add_four_of_reserved_pairs",
+        "Erdos20V11EdgeCapacity.degree_le_fourteen_of_reserved_pairs",
+        "Erdos20V11EdgeCapacity.degree_le_twelve_of_reserved_pairs"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11EdgeCapacityThree",
+      "source_sha256": "533d9d7b3e035f7235e7004be6f9573871f6d7d2c0b0a41461581efe6f120685",
+      "roots": [
+        "Erdos20V11EdgeCapacityThree.outside_core_star_card_le_three",
+        "Erdos20V11EdgeCapacityThree.degree_le_inside_add_six_of_two_outside_stars",
+        "Erdos20V11EdgeCapacityThree.degree_le_inside_add_six_of_reserved_pairs",
+        "Erdos20V11EdgeCapacityThree.degree_le_sixteen_of_three_reserved_pairs",
+        "Erdos20V11EdgeCapacityThree.degree_le_fourteen_of_three_reserved_pairs"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11EdgePairs",
+      "source_sha256": "a56403b5d4314f3ac3073661dbdfee3a7dfffbd19e84f49d0f2ebefe0b80e32a",
+      "roots": [
+        "Erdos20V11EdgePairs.allowedPairs_card",
+        "Erdos20V11EdgePairs.allowedPairs_avoiding_block",
+        "Erdos20V11EdgePairs.canonical_noncycle_trace_certificate",
+        "Erdos20V11EdgePairs.original_trace_is_cycle_of_card_two"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11EdgeThird",
+      "source_sha256": "680d162a5c207ed572e7867aa4331000f9f6ee81a5402980aa87ea6b95d06432",
+      "roots": [
+        "Erdos20V11EdgeThird.high_edge_third_high_support_disjoint",
+        "Erdos20V11EdgeThird.high_edge_third_high_support_ge_twenty"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11EdgeThirdDesign",
+      "source_sha256": "1ac6da8574445c510a0e8a74d2d18a38a31db80f3ab30e9134aa48627b5a2267",
+      "roots": [
+        "Erdos20V11EdgeThird.ten_zero_or_two_trace_support_disjoint",
+        "Erdos20V11EdgeThird.twenty_zero_or_two_trace_support_disjoint"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11EdgeThirdSupport",
+      "source_sha256": "6c75192fba2029759c842ccbb903f2cd0c80c025dba2947970dc38d59f19f170",
+      "roots": [
+        "Erdos20V11EdgeThird.third_high_nonadjacent_to_edge",
+        "Erdos20V11EdgeThird.third_high_support_disjoint_of_edge_trace",
+        "Erdos20V11EdgeThird.twenty_le_support_of_edge_trace_and_third_high"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11EdgeTrace",
+      "source_sha256": "2b909edfd97633f609477d6c1f9c702b12902e22280e003025d78ff9308ddab2",
+      "roots": [
+        "Erdos20V11EdgeTrace.canonical_deleted_trace_certificate",
+        "Erdos20V11EdgeTrace.shared_trace_forbidden",
+        "Erdos20V11EdgeTrace.image_trace",
+        "Erdos20V11EdgeTrace.high_edge_member_trace_zero_or_two"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11Final",
+      "source_sha256": "90f495a6f7ffd223be2b076cdf8b8d7274378b635de79167caa11bd235a3490f",
+      "roots": [
+        "Erdos20V11Final.high_neighbors_empty_of_min_degree_fifteen",
+        "Erdos20V11Final.all_meeting_fifty_four_member_high_cap_one",
+        "Erdos20V11Final.conditional_eighty_one_boundary_rigidity",
+        "Erdos20V11Final.unrestricted_eighty_of_small_support_independent_two_high_eighty"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11HighCommon",
+      "source_sha256": "bd8dbeb1173b02edf6030a8f7c7d913a8cac2d43e20e0977783b6d43d9ae4f86",
+      "roots": [
+        "Erdos20V11HighSupport.common_high_support_disjoint_high",
+        "Erdos20V11HighSupport.all_high_supports_eq_of_independent_triple",
+        "Erdos20V11HighSupport.member_high_cap_one_of_common_support",
+        "Erdos20V11HighSupport.high_card_le_three_of_common_low_support",
+        "Erdos20V11HighSupport.independent_high_triple_exhausts_high_class"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11HighEdgeCounts",
+      "source_sha256": "1d52bb6401a37f434149b848b7ed7cd75ec9c4a32cf785773f00154f1789d3ed",
+      "roots": [
+        "Erdos20V11HighEdgeCounts.high_edge_residual_point_codegrees",
+        "Erdos20V11HighEdgeCounts.high_edge_residual_point_inside_card_eight"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11HighEdgeDegree",
+      "source_sha256": "dc5c66b35b4871bc60d616f9b661e904b6be05862126eed49145ffb32ae0d783",
+      "roots": [
+        "Erdos20V11HighEdgeDegree.high_edge_residual_point_degree_le_fourteen",
+        "Erdos20V11HighEdgeDegree.no_high_edge_of_min_degree_fifteen"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11HighEdgeReserve",
+      "source_sha256": "c5a5828c6b5a0e56d1a4cf837d8df620aea8471f3d952014dbb70fdf75090cda",
+      "roots": [
+        "Erdos20V11HighEdgeReserve.allowed_pair_three_reserved_members",
+        "Erdos20V11HighEdgeReserve.allowed_pair_star_card_le_six"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11HighSupport",
+      "source_sha256": "684c178f20521fd8cc7dae719d9ad6a2090813e5684dc526fe480a35063e0992",
+      "roots": [
+        "Erdos20V11HighSupport.twenty_transversal_six_subset_support",
+        "Erdos20V11HighSupport.high_link_twenty_and_support_twelve",
+        "Erdos20V11HighSupport.nonneighbor_not_mem_link_support",
+        "Erdos20V11HighSupport.residue_subset_third_high_support",
+        "Erdos20V11HighSupport.three_nonadjacent_high_supports_eq"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12DegreeSeventeen",
+      "source_sha256": "8f49e09a47dddfba7e8957e4061cccad6963b319d6527b251917b5f2918788ca",
+      "roots": [
+        "Erdos20V12DegreeSeventeen.all_meeting_fifty_four_degree_ne_seventeen",
+        "Erdos20V12DegreeSeventeen.all_meeting_fifty_four_min_degree_eighteen"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12Final",
+      "source_sha256": "ff42e53557fffafb5e08bc7c915b3d963ac37168f8cfbc15be245e544e7f4dcc",
+      "roots": [
+        "Erdos20V12Final.conditional_eighty_one_boundary_rigidity",
+        "Erdos20V12Final.two_profiles_literal"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12HighCard",
+      "source_sha256": "00eaedc7b3a2aa0fea7edcb24c8f8f9b0d8559e290bfee0261e98da37afe7cd4",
+      "roots": [
+        "Erdos20V12HighCard.three_high_pairwise_nonadjacent",
+        "Erdos20V12HighCard.high_points_card_le_three",
+        "Erdos20V12HighCard.three_high_common_support_structure"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12HighCardGraph",
+      "source_sha256": "cb34ccc2c883d905a4f7b7eec716ed21f8984545ca3404b532780b381bbef4b2",
+      "roots": [
+        "Erdos20V12HighCard.triangle_distinguished_support_le_one",
+        "Erdos20V12HighCard.six_edges_distinguished_support_le_two",
+        "Erdos20V12HighCard.three_independent_degree_two_impossible"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12HighCardPairs",
+      "source_sha256": "5e797f34f8e4875223e9c45926811216ef408ece482b4a6cbf25b211de464e08",
+      "roots": [
+        "Erdos20V12HighCard.three_binary_classes_shared_pair",
+        "Erdos20V12HighCard.twenty_link_binary_pair_classification",
+        "Erdos20V12HighCard.three_twenty_links_shared_pair"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12HighCardTwo",
+      "source_sha256": "1bef7fbdd78891fa1aa813de222ec6e3572d48372f665d5bc329b8a652046b70",
+      "roots": [
+        "Erdos20V12HighCard.high_center_pair_link_degree_two",
+        "Erdos20V12HighCard.no_three_high_points",
+        "Erdos20V12HighCard.high_points_card_le_two"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12HighEdge",
+      "source_sha256": "09b086adc6e5486d6e755f32751d231bf13edd045112f2eb419e4044e0beb473",
+      "roots": [
+        "Erdos20V12HighEdge.high_edge_excludes_third_high",
+        "Erdos20V12HighEdge.high_edge_exhausts_high_class"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12Intersecting",
+      "source_sha256": "75741ad91fef2555bfb20899a216d19f7e022e1bff56c2ed71f455d88a7761f1",
+      "roots": [
+        "Erdos20V12Intersecting.nineteen_transversal_four_has_degree_six",
+        "Erdos20V12Intersecting.intersecting_degree_nineteen_has_pair_six"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12Nineteen",
+      "source_sha256": "fe3510309d60edcd3c154b423eff7b1b7acccd6115b432caca22047f6b592d45",
+      "roots": [
+        "Erdos20V12Nineteen.nineteen_max_degree_five_contains_ten",
+        "Erdos20V12Nineteen.nineteen_max_degree_five_decomposition",
+        "Erdos20V12Nineteen.nineteen_max_degree_five_no_transversal_four"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12ProfileReduction",
+      "source_sha256": "6639e6e02e7f7c3832cd6fd663330e72010025ed8e41ca7c548ddb0450d05eca",
+      "roots": [
+        "Erdos20V12Profile.conditional_eighty_one_degree_class_seventeen_empty",
+        "Erdos20V12Profile.conditional_eighty_one_two_profiles",
+        "Erdos20V12Profile.unrestricted_eighty_of_two_boundary_profiles"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12ProfileScore",
+      "source_sha256": "8ae43d1af45e36b911c5800fb37d97104e2ad43db0e1c389d634fcf8d9130fd3",
+      "roots": [
+        "Erdos20V12Profile.score_twenty_five_forces_degree_twenty"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12ProfileScoreBridge",
+      "source_sha256": "269dbbacff7787a6224e8c3449fa635eee37608bb9ba150ab7652f6a2979f679",
+      "roots": [
+        "Erdos20V12Profile.all_meeting_fifty_four_ordered_low_score_high_companion",
+        "Erdos20V12Profile.meeting_fifty_four_low_score_high_companion"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V3Frontier",
+      "source_sha256": "2465fc86c8e07fd1f616779cff7b8c0e19ffa126579cdb0a8acadf6a10d5b64a",
+      "roots": [
+        "Erdos20V3Frontier.base_three_rank_nine_obstruction",
+        "Erdos20V3Frontier.base_three_rank_nine_check",
+        "Erdos20V3Frontier.base_three_failure_all_universes",
+        "Erdos20V3Frontier.base_ge_four_all_universes",
+        "Erdos20V3Frontier.base_three_low_ranks",
+        "Erdos20V3Frontier.least_base_three_failure_window"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V4Frontier",
+      "source_sha256": "8ea4774ea39ee5be0e431b13d54dc36f316afb13d8a64da10d705a11809c3c8e",
+      "roots": [
+        "Erdos20V4Frontier.triple_bound_twenty",
+        "Erdos20V4Frontier.sharp_triple_maximum",
+        "Erdos20V4Frontier.twenty_one_triples_force_sunflower",
+        "Erdos20V4Frontier.no_twenty_one_on_fifteen",
+        "Erdos20V4Frontier.sharp_triple_check_false",
+        "Erdos20V4Frontier.sharp_seed_bound",
+        "Erdos20V4Frontier.sharp_seed_values",
+        "Erdos20V4Frontier.twentyTriples_support_card",
+        "Erdos20V4Frontier.sharp_minimum_extremal_support"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V5Frontier",
+      "source_sha256": "4c39c26f4e05a257e5f5fec66b48b2e5bac6506e035250eb068d6ab946d57673",
+      "roots": [
+        "Erdos20V5Frontier.intersecting_ten_design",
+        "Erdos20V5Frontier.intersecting_ten_no_two_point_transversal",
+        "Erdos20V5Frontier.intersecting_ten_pair_meets_eight"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V6Bounds",
+      "source_sha256": "789c2621d115f3cea2c16b0a622acbf1f55e26bae76852bb582f632faf4ad61c",
+      "roots": [
+        "Erdos20V6Bounds.rank_four_card_le_ninety_five",
+        "Erdos20V6Bounds.rankFourBound_pos",
+        "Erdos20V6Bounds.propagated_rank_four_bound",
+        "Erdos20V6Bounds.rankFourBound_values",
+        "Erdos20V6Bounds.rankFourBound_lt_v5",
+        "Erdos20V6Bounds.rank_five_card_le_nine_hundred_forty_two",
+        "Erdos20V6Bounds.rank_six_card_le_eleven_thousand_two_hundred_ninety_four"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V7Bounds",
+      "source_sha256": "7edfd6296376d2453ba3029fc0b641666ec860f1d5f82af2669671351ee71b9d",
+      "roots": [
+        "Erdos20V7Bounds.rank_four_card_le_ninety_three",
+        "Erdos20V7Bounds.rankFourBound_pos",
+        "Erdos20V7Bounds.propagated_rank_four_bound",
+        "Erdos20V7Bounds.rankFourBound_values",
+        "Erdos20V7Bounds.rankFourBound_lt_v6",
+        "Erdos20V7Bounds.rank_five_card_le_nine_hundred_twenty_two",
+        "Erdos20V7Bounds.rank_six_card_le_eleven_thousand_fifty_four"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8Boundary",
+      "source_sha256": "c00e8a3e9e617ed13070736d955fa1a92baf0f3e3ad7b4023b6778dcebd6cd8f",
+      "roots": [
+        "Erdos20V8Boundary.degree_classes_of_eighty_three",
+        "Erdos20V8Boundary.weighted_high_point_incidence"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8BoundaryReduction",
+      "source_sha256": "c48b807212dc9b6a50d218aa010caa6eed18faf36ba64263171b49c81fe8fff4",
+      "roots": [
+        "Erdos20V8BoundaryReduction.eighty_three_all_meeting_fifty_six",
+        "Erdos20V8BoundaryReduction.unrestricted_eighty_two_of_boundary_exclusion"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8Consequences",
+      "source_sha256": "b5a6de896d98a6a63ce24fd88a27377df7253bc6c66744b4b3a1c0ae5ee4bef3",
+      "roots": [
+        "Erdos20V8Consequences.eighty_three_exists_anchor_meeting_le_fifty_five",
+        "Erdos20V8Consequences.eighty_three_contains_intersecting_twenty_eight",
+        "Erdos20V8Consequences.rank_five_le_eight_hundred_twelve_of_intersecting_twenty_seven",
+        "Erdos20V8Consequences.rank_six_le_nine_thousand_seven_hundred_thirty_four_of_intersecting_twenty_seven"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8DesignCounts",
+      "source_sha256": "af7c092827c77a16dede2deae160022dfb1eee147b469a256f2011afd591f8bb",
+      "roots": [
+        "Erdos20V8DesignCounts.independent_supported_subset_card_le_three",
+        "Erdos20V8DesignCounts.block_counts_total",
+        "Erdos20V8DesignCounts.block_counts_first_moment",
+        "Erdos20V8DesignCounts.block_counts_second_moment",
+        "Erdos20V8DesignCounts.pair_incidence_sum_eq",
+        "Erdos20V8DesignCounts.ten_design_block_count_equations",
+        "Erdos20V8DesignCounts.ten_design_block_counts",
+        "Erdos20V8DesignCounts.blockCount_restrict_support",
+        "Erdos20V8DesignCounts.blockCount_union",
+        "Erdos20V8DesignCounts.degree_twenty_pair_codegree_zero_or_five"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8Final",
+      "source_sha256": "ce55850e90751e823d4a5c94acfb1948f84e34dd3b617eae26975923279ce30a",
+      "roots": [
+        "Erdos20V8Final.all_meeting_fifty_six_degrees_nineteen_or_twenty",
+        "Erdos20V8Final.no_eighty_three_all_meeting_fifty_six",
+        "Erdos20V8Final.unrestricted_upper_eighty_two_of_intersecting_twenty_seven"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8Global",
+      "source_sha256": "5055e8abb35ad5ec82c4648c3d1802e4f62d67cdd8509dc0d86af8e3a8bf81a1",
+      "roots": [
+        "Erdos20V8Global.disjoint_trace_eq_other_component",
+        "Erdos20V8Global.extremal_twenty_disjoint_trace_card_ten",
+        "Erdos20V8Global.singleton_residual_eq_empty_link_trace",
+        "Erdos20V8Global.degree_twenty_forces_singleton_trace_ten",
+        "Erdos20V8Global.meeting_card_le_twice_degree_add_nineteen",
+        "Erdos20V8Global.rank_four_card_le_max_degree_bound",
+        "Erdos20V8Global.rank_four_card_le_eighty_two_of_degree_le_fifteen",
+        "Erdos20V8Global.rank_four_large_forces_high_degree",
+        "Erdos20V8Global.all_meeting_card_le_degree_add_thirty_six",
+        "Erdos20V8Global.meeting_card_le_degree_add_thirty_six",
+        "Erdos20V8Global.rank_four_card_le_max_of_meeting_bound",
+        "Erdos20V8Global.rank_four_card_le_degree_envelope",
+        "Erdos20V8Global.degree_envelope_values",
+        "Erdos20V8Global.rank_four_ninety_two_forces_degree_twenty"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8HighDegrees",
+      "source_sha256": "db2690a9388af66ef55f5c9cb0348ca4e87bf14a89294635ca1c7d9aea4a183f",
+      "roots": [
+        "Erdos20V8HighDegrees.star_pair_incidence_sum",
+        "Erdos20V8HighDegrees.five_dvd_three_times_degree",
+        "Erdos20V8HighDegrees.no_degree_eighteen_of_high_neighbors_and_pair_degrees",
+        "Erdos20V8HighDegrees.no_degree_eighteen_of_high_neighbors"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8HighWeights",
+      "source_sha256": "d253e3c8958b83e77ddbbace6013f4780d6b50a2db7d33e21fdc9dfd718f2513",
+      "roots": [
+        "Erdos20V8HighWeights.linkWeight_eq_block_counts",
+        "Erdos20V8HighWeights.twenty_link_weight_four_values",
+        "Erdos20V8HighWeights.residual_inter_card",
+        "Erdos20V8HighWeights.pointWeight_eq_linkWeight",
+        "Erdos20V8HighWeights.residual_support_subset",
+        "Erdos20V8HighWeights.high_point_weight_four_values"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8Intersecting",
+      "source_sha256": "a11908a575279204b1d6368fb77dc24f9cd01cb673e6ed29bc99967915d3d782",
+      "roots": [
+        "Erdos20V8Intersecting.inter_pair_eq_singleton",
+        "Erdos20V8Intersecting.intersecting_triples_two_point_transversal_card_le_eight",
+        "Erdos20V8Intersecting.intersecting_nine_avoids_pair",
+        "Erdos20V8Intersecting.intersecting_nine_transversal_card_ge_three",
+        "Erdos20V8Intersecting.intersecting_triples_cross_nonempty_edges_sum_le_nine",
+        "Erdos20V8Intersecting.intersecting_triples_cross_nonempty_edges_weighted",
+        "Erdos20V8Intersecting.eight_pair_transversal_witness",
+        "Erdos20V8Intersecting.triples_with_ten_design_transversal_four_card_le_sixteen",
+        "Erdos20V8Intersecting.avoiding_member_hits_point_link",
+        "Erdos20V8Intersecting.rank_four_link_with_ten_design_degree_le_sixteen",
+        "Erdos20V8Intersecting.rank_four_large_degree_link_has_no_ten_design",
+        "Erdos20V8Intersecting.rank_four_singleton_pair_trace_sum_le_nine",
+        "Erdos20V8Intersecting.rank_four_large_singleton_disjoint_pair_trace_empty"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8MeetingProfile",
+      "source_sha256": "35f9beea08b5c907ccfe5c2767d76b67d37bffc8bd9ee721a90c5e674132d1d9",
+      "roots": [
+        "Erdos20V8MeetingProfile.meeting_fifty_six_degree_pattern",
+        "Erdos20V8MeetingProfile.no_weighted_eighty_three_equality",
+        "Erdos20V8MeetingProfile.no_nine_high_point_weighted_equality",
+        "Erdos20V8MeetingProfile.no_nine_point_weight_sum"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8ProfileBridge",
+      "source_sha256": "f0c2ac4107d277c1a9562b1c64c4412f393d23388a53b1e64385a5277ca5ebc8",
+      "roots": [
+        "Erdos20V8ProfileBridge.all_meeting_fifty_six_ordered_degree_pattern",
+        "Erdos20V8ProfileBridge.degree_meeting_restriction_eq",
+        "Erdos20V8ProfileBridge.meeting_fifty_six_ordered_degree_pattern",
+        "Erdos20V8ProfileBridge.meeting_fifty_six_member_structure"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8Saturated",
+      "source_sha256": "fdd138161f9a9364b16574331cdc5db1b36ecf16f225351009dbf9553a0704aa",
+      "roots": [
+        "Erdos20V8Saturated.ordered_saturated_singleton_card_le_twenty_six",
+        "Erdos20V8Saturated.saturated_singleton_card_le_twenty_six",
+        "Erdos20V8Saturated.large_intersecting_singleton_trace_le_nine"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8SaturatedWitness",
+      "source_sha256": "e4d33e78bea9b8f53c0d879abd6e38ec94789ba1ab078138098b4704e48667eb",
+      "roots": [
+        "Erdos20V8SaturatedWitness.pair_code_check",
+        "Erdos20V8SaturatedWitness.no_three_equal_intersection_codes",
+        "Erdos20V8SaturatedWitness.family_sunflower_free",
+        "Erdos20V8SaturatedWitness.members_uniform_check",
+        "Erdos20V8SaturatedWitness.family_uniform",
+        "Erdos20V8SaturatedWitness.positive_intersection_codes",
+        "Erdos20V8SaturatedWitness.family_intersecting",
+        "Erdos20V8SaturatedWitness.family_card",
+        "Erdos20V8SaturatedWitness.anchor_mem",
+        "Erdos20V8SaturatedWitness.singleton_trace_ten",
+        "Erdos20V8SaturatedWitness.center_degrees_sixteen",
+        "Erdos20V8SaturatedWitness.saturated_twenty_six_witness"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8Stability",
+      "source_sha256": "c69c0c3bba328c379203f09f7477165bb46dfd7311401ddcd8387534ffc3db4a",
+      "roots": [
+        "Erdos20V8Stability.intersecting_six_ten_complement_partition",
+        "Erdos20V8Stability.ten_three_point_transversal_iff_member",
+        "Erdos20V8Stability.triples_cross_ten_design_subset",
+        "Erdos20V8Stability.no_common_singleton_residual_at_anchor",
+        "Erdos20V8Stability.rank_four_singleton_residual_subset_of_ten",
+        "Erdos20V8Stability.rank_four_singleton_sum_le_twenty_of_ten",
+        "Erdos20V8Stability.saturated_point_member_contains_active_singleton",
+        "Erdos20V8Stability.saturated_trace_or_omitted_singleton_empty"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8Targets",
+      "source_sha256": "5aede5f7563da4d02d4da14429253062099f3e83a1d5b8b8c8eac5ef382d3a36",
+      "roots": [
+        "Erdos20V8Targets.intersecting_upper_at_least_twenty_seven",
+        "Erdos20V8Targets.not_intersecting_upper_below_twenty_seven",
+        "Erdos20V8Targets.not_intersecting_upper_twenty_six",
+        "Erdos20V8Targets.unrestricted_upper_at_least_fifty_four",
+        "Erdos20V8Targets.not_unrestricted_upper_below_fifty_four",
+        "Erdos20V8Targets.unrestricted_upper_of_intersecting_upper",
+        "Erdos20V8Targets.unrestricted_upper_eighty_three_of_intersecting_twenty_seven"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9AllMeeting",
+      "source_sha256": "a1d0f6616201f9a624d7d932d6e562264cf5c753788e66bd0e8718bceb2f7d4f",
+      "roots": [
+        "Erdos20V9AllMeeting.high_point_weight_mod_fifteen_unconditional",
+        "Erdos20V9AllMeeting.card_mod_five_of_high_transversal_unconditional",
+        "Erdos20V9AllMeeting.exists_member_avoiding_high_of_card_not_mod_five",
+        "Erdos20V9AllMeeting.no_all_meeting_fifty_six",
+        "Erdos20V9AllMeeting.exists_anchor_meeting_le_fifty_five"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9BoundaryArithmetic",
+      "source_sha256": "5588f7f3fbab69f8de9b864c6a4fd992285ed5c92df7dfa4f7421f2fe84ba7f1",
+      "roots": [
+        "Erdos20V9BoundaryArithmetic.no_eighty_two_degree_census"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9Census",
+      "source_sha256": "ef89da3ab5ab88976b56cf3220abd8b41c25e98e2a7d427374886907b6d25206",
+      "roots": [
+        "Erdos20V9Census.degree_predicate_incidence_le",
+        "Erdos20V9Census.degreeClass_sum",
+        "Erdos20V9Census.rank_four_degree_census"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9Consequences",
+      "source_sha256": "af620312e77912355e09299a2f38cd98fc2ce505b0510281fac1336f0cfc43d9",
+      "roots": [
+        "Erdos20V9Consequences.literal_conditional_eighty_one",
+        "Erdos20V9Consequences.rank_five_le_eight_hundred_two_of_intersecting_twenty_seven",
+        "Erdos20V9Consequences.rank_six_le_nine_thousand_six_hundred_fourteen_of_intersecting_twenty_seven"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9Final",
+      "source_sha256": "73a1501353f69bfbcfb6466fa664d49ae8a8729c621088af207ab6ee2eb6ab1b",
+      "roots": [
+        "Erdos20V9Final.no_eighty_two_all_meeting_at_least_fifty_five",
+        "Erdos20V9Final.eighty_two_exists_anchor_meeting_le_fifty_four",
+        "Erdos20V9Final.eighty_two_contains_intersecting_twenty_eight",
+        "Erdos20V9Final.unrestricted_upper_eighty_one_of_intersecting_twenty_seven"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9HighCompatibility",
+      "source_sha256": "50257c647d5b7cc88c897abdb5b5b14eaf44e4a6893e4225a64c3578a995eed3",
+      "roots": [
+        "Erdos20V9HighCompatibility.twenty_component_at_member",
+        "Erdos20V9HighCompatibility.point_not_mem_residue",
+        "Erdos20V9HighCompatibility.switch_point_link",
+        "Erdos20V9HighCompatibility.switch_triple_link",
+        "Erdos20V9HighCompatibility.triple_link_of_four_member"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9HighCompatibilityMain",
+      "source_sha256": "71a92ca064dd4fc786a821165ef8922c690a3fdaa36d2d9f5863215fda84aeff",
+      "roots": [
+        "Erdos20V9HighCompatibility.high_point_component",
+        "Erdos20V9HighCompatibility.no_three_high_in_four_member",
+        "Erdos20V9HighCompatibility.member_high_points_card_le_two"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9HighCompatibilityWitness",
+      "source_sha256": "a59390544e2be313384f34ccdabdc72b4998df4394cdb2e2b2670a04b450c510",
+      "roots": [
+        "Erdos20V9HighCompatibilityWitness.pair_code_check",
+        "Erdos20V9HighCompatibilityWitness.no_three_equal_intersection_codes",
+        "Erdos20V9HighCompatibilityWitness.family_sunflower_free",
+        "Erdos20V9HighCompatibilityWitness.members_uniform_check",
+        "Erdos20V9HighCompatibilityWitness.family_uniform",
+        "Erdos20V9HighCompatibilityWitness.family_card",
+        "Erdos20V9HighCompatibilityWitness.anchor_mem",
+        "Erdos20V9HighCompatibilityWitness.high_points_check",
+        "Erdos20V9HighCompatibilityWitness.anchor_high_count_two",
+        "Erdos20V9HighCompatibilityWitness.two_high_member_witness"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9HighGraph",
+      "source_sha256": "211e6e6afcd4c38a05a1045ba7ec5fde6715c065382ad28f87c656f9743ec1d5",
+      "roots": [
+        "Erdos20V9HighGraph.mem_highNeighbors_iff",
+        "Erdos20V9HighGraph.high_link_cap_one",
+        "Erdos20V9HighGraph.high_point_high_neighbors_le_two",
+        "Erdos20V9HighGraph.four_mul_low_high_neighbors_le_degree",
+        "Erdos20V9HighGraph.low_point_high_neighbors_le_four",
+        "Erdos20V9HighGraph.high_point_low_neighbors_ge_ten",
+        "Erdos20V9HighGraph.high_low_incidence_identity",
+        "Erdos20V9HighGraph.ten_mul_high_card_le_four_mul_low_card"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9HighIncidence",
+      "source_sha256": "55cd5a470f179eb9500bec7a98503f562ef418bb3a3b55754adf7871125eee30",
+      "roots": [
+        "Erdos20V9HighIncidence.ten_design_distinguished_support_card_le_one",
+        "Erdos20V9HighIncidence.twenty_link_distinguished_support_card_le_two",
+        "Erdos20V9HighIncidence.twenty_link_point_distinguished_card_le_two",
+        "Erdos20V9HighIncidence.degree_five_distinguished_count"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9IntersectingTriangles",
+      "source_sha256": "9bc8f50e7e1c6dadf40521ca32430136600d86d006760486a1e38c0d42d846ba",
+      "roots": [
+        "Erdos20V9IntersectingTriangles.two_points_of_meets_pairs",
+        "Erdos20V9IntersectingTriangles.intersections_have_common_point",
+        "Erdos20V9IntersectingTriangles.shared_edge_triangles_card_le_four",
+        "Erdos20V9IntersectingTriangles.one_point_triangles_card_le_four",
+        "Erdos20V9IntersectingTriangles.two_distinct_triangles_card_le_four",
+        "Erdos20V9IntersectingTriangles.triangle_edges_eq_powerset",
+        "Erdos20V9IntersectingTriangles.crossing_five_forces_triangles_equal",
+        "Erdos20V9IntersectingTriangles.large_singleton_saturated_pair_residuals_equal"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9Profile",
+      "source_sha256": "8afc9ad0a65f24b035ba3e97b9907a41d91b856f4ce01db53cb8baf9f03d9462",
+      "roots": [
+        "Erdos20V9Profile.degree_pattern55_of_moments"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9ProfileBridge",
+      "source_sha256": "8de247fbde37fb2b9fc16e94e15745f7f17e87c67c50d804ef931c67e070df87",
+      "roots": [
+        "Erdos20V9ProfileBridge.meeting_at_least_fifty_five_ordered_degree_pattern",
+        "Erdos20V9ProfileBridge.meeting_at_least_fifty_five_member_structure",
+        "Erdos20V9ProfileBridge.all_meeting_at_least_fifty_five_degrees",
+        "Erdos20V9ProfileBridge.meeting_at_least_fifty_five_low_degree_caps"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9TraceBridge",
+      "source_sha256": "b0d2f25a9c123a38ae2508825e47e9d583ed00cfa7cab563a27a6c0906003407",
+      "roots": [
+        "Erdos20V9ProfileBridge.all_meeting_fifty_five_ordered_degree_pattern"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9WeightCongruence",
+      "source_sha256": "3eddc712ca6cc1d1d4c45c68168c3bacc6b38cd414a76304c7e6ec184810bda9",
+      "roots": [
+        "Erdos20V9WeightCongruence.twenty_link_weight_mod_fifteen",
+        "Erdos20V9WeightCongruence.high_point_weight_mod_fifteen",
+        "Erdos20V9WeightCongruence.card_mod_five_of_high_transversal",
+        "Erdos20V9WeightCongruence.no_low_points_of_card_mod_five",
+        "Erdos20V9WeightCongruence.no_all_meeting_fifty_six_of_high_cap"
+      ]
+    },
+    {
+      "module": "SunflowerLean.ErdosRadoBound",
+      "source_sha256": "eb118fd0ccce45bb0faede3d04ab80f240fcb9fce0552f5643ce9038a9e12037",
+      "roots": [
+        "Erdos20Classical.exists_pairwiseDisjoint_hitting_subfamily",
+        "Erdos20Classical.pairwiseDisjoint_card_lt_forbidden",
+        "Erdos20Classical.exists_bounded_hitting_set",
+        "Erdos20Classical.erdos_rado_factorial_bound"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Spread",
+      "source_sha256": "990576de949ae2b58ead1b5b65af44ab8dad7d3cda608b6134ccc7a7c5bface9",
+      "roots": [
+        "spread_empty_trivial",
+        "spread_singleton",
+        "not_spread_implies_heavy_subset"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V13Nineteen",
+      "roots": [
+        "Erdos20V13Nineteen.nineteen_max_degree_five_transversal_ge_six",
+        "Erdos20V13Nineteen.nineteen_transversal_five_has_degree_six",
+        "Erdos20V13Nineteen.max_degree_iff_on_support",
+        "Erdos20V13Nineteen.nineteen_max_degree_five_exists_transversal_six",
+        "Erdos20V13Nineteen.nineteen_max_degree_five_transversal_exact_six"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V13Intersecting",
+      "roots": [
+        "Erdos20V13Intersecting.star_union_card_add_pair_codegree",
+        "Erdos20V13Intersecting.degree_nineteen_pair_six_partner_bounds",
+        "Erdos20V13Intersecting.intersecting_twenty_eight_degree_nineteen_partner_bounds",
+        "Erdos20V13Intersecting.upperStar_eq_image_restore_core",
+        "Erdos20V13Intersecting.pair_codegree_six_exact_two_triangles"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V13Endpoint",
+      "roots": [
+        "Erdos20V13Endpoint.liftTriple_injective",
+        "Erdos20V13Endpoint.family_card",
+        "Erdos20V13Endpoint.family_uniform",
+        "Erdos20V13Endpoint.family_intersecting",
+        "Erdos20V13Endpoint.family_sunflower_free",
+        "Erdos20V13Endpoint.center_degree_nineteen",
+        "Erdos20V13Endpoint.center_pair_degree_le_five",
+        "Erdos20V13Endpoint.nineteen_member_endpoint_counterexample"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V13Boundary",
+      "roots": [
+        "Erdos20V13Boundary.direct_two_census_profiles",
+        "Erdos20V13Boundary.direct_census_without_positive_witness",
+        "Erdos20V13Boundary.conditional_eighty_one_two_profiles_direct",
+        "Erdos20V13Boundary.unrestricted_eighty_of_three_open_inputs",
+        "Erdos20V13Boundary.overlap_four_rows",
+        "Erdos20V13Boundary.residual_degree_rows",
+        "Erdos20V13Boundary.two_twelve_subsets_four_rows",
+        "Erdos20V13Boundary.high_link_support_subset_low",
+        "Erdos20V13Boundary.profile_b_actual_overlap_four_rows",
+        "Erdos20V13Boundary.profile_zero_high_member_count",
+        "Erdos20V13Boundary.zero_high_degree_add_five_neighbors",
+        "Erdos20V13Boundary.zero_high_degree_eq_sub_five_neighbors"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V13FiniteReduction",
+      "roots": [
+        "Erdos20V13FiniteReduction.intersecting_mapFamily_iff",
+        "Erdos20V13FiniteReduction.exists_intersecting_fin_relabel",
+        "Erdos20V13FiniteReduction.intersecting_twenty_eight_support_le_eighty_five",
+        "Erdos20V13FiniteReduction.finite_obstruction_of_intersecting_counterexample",
+        "Erdos20V13FiniteReduction.intersecting_upper_twenty_seven_iff_no_finite_obstruction",
+        "Erdos20V13FiniteReduction.intersecting_upper_twenty_seven_large_universe"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V13BoundaryLiteral",
+      "roots": [
+        "Erdos20V13BoundaryLiteral.conditional_boundary_fully_literal",
+        "Erdos20V13BoundaryLiteral.unrestricted_eighty_three_inputs_fully_literal"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20V13Trace",
+      "roots": [
+        "Erdos20V12Profile.meeting_fifty_four_low_score_distinct_high_companion",
+        "Erdos20V13Trace.trace_score_identity",
+        "Erdos20V13Trace.weighted_companion_identity",
+        "Erdos20V13Trace.score_twenty_six_relaxation",
+        "Erdos20V13Trace.incidence_divisibility",
+        "Erdos20V13Trace.five_cannot_divide_nine"
+      ]
+    }
+  ],
+  "root_count": 831,
+  "audit_source_sha256": "d7adbc89579946926faf3750d216d8b1f81bba2cafafdb30b6768d730167d0d1",
+  "v13_root_count": 875,
+  "scope": "Protected inherited and version13 public theorem roots; environment inventory separately records auxiliary declarations."
+}

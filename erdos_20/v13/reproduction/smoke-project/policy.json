@@ -1,0 +1,104 @@
+{
+  "compiler_sha256": "8fadc3ed92cc9decb94c96ee9c0876e91e03a3a5e69138f32114f02789e2766c",
+  "compiler_version": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)",
+  "toolchain_lib_tree": {
+    "sha256": "12ed20207dcdcc11cfd63fb99e53fc5dd239c86d7858394f34f6abd79b711a14",
+    "file_count": 10221
+  },
+  "dynamic_libraries": {
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/lib/lean/libInit_shared.so": "6ce912e300ad305bb38a362404544602e2229d072b78d75b1dd71c637e453c2c",
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/lib/lean/libleanshared_2.so": "6ce912e300ad305bb38a362404544602e2229d072b78d75b1dd71c637e453c2c",
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/lib/lean/libleanshared_1.so": "6ce912e300ad305bb38a362404544602e2229d072b78d75b1dd71c637e453c2c",
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/lib/lean/libleanshared.so": "c508a88b41e3ee019ca23e725331ce4d961b64be67fe08f1de80593996659141",
+    "/usr/lib/x86_64-linux-gnu/libc.so.6": "9792e3cbb541c8f44c7acf5f14f4022ea62998ecc787d326bed4d8b6547dfd92",
+    "/usr/lib/x86_64-linux-gnu/libpthread.so.0": "85e21f7dba0394411d00959176fd18b470e575b0b05f1f4f41e5636802ce0500",
+    "/usr/lib/x86_64-linux-gnu/libdl.so.2": "295fa521a03cd2faa99974f378c9e23dd622021ec7d32bcad4f8ea61aec8a872",
+    "/usr/lib/x86_64-linux-gnu/libm.so.6": "6d567d53e895273ca14a1f9dc164fc6c8d39aed2f60aa46a733c2784228915f3",
+    "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2": "c8438e4fde1934e61c88311633f00949ff645d5c04cdb8671fa3d78164d2f307",
+    "/usr/lib/x86_64-linux-gnu/librt.so.1": "7b7b84d1aedda0e0b2bdfc68844362782132180b8f02be1300e21e77572e514b"
+  },
+  "dependencies": {
+    "Cli": {
+      "revision": "933fce7e893f65969714c60cdb4bd8376786044e",
+      "cache": {
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "file_count": 0
+      }
+    },
+    "LeanSearchClient": {
+      "revision": "3591c3f664ac3719c4c86e4483e21e228707bfa2",
+      "cache": {
+        "sha256": "e4ef7b25058a40d36c6ca8a056a863f029e20def5f543559855fbcd2471ab269",
+        "file_count": 44
+      }
+    },
+    "Qq": {
+      "revision": "9312503909aa8e8bb392530145cc1677a6298574",
+      "cache": {
+        "sha256": "84e2dc033940782f1c4d1d17b8e922808dec4d63691f258e6134a94d9eb16626",
+        "file_count": 154
+      }
+    },
+    "aesop": {
+      "revision": "2f6d238744c4cb07fdc91240feaf5d4221a27931",
+      "cache": {
+        "sha256": "a41180fccdb014936f6ae8c13de28f6355b2c9b64c812fc3c2723854b87ec6af",
+        "file_count": 1474
+      }
+    },
+    "batteries": {
+      "revision": "24241822ef9d3e7f6a3bcc53ad136e12663db8f3",
+      "cache": {
+        "sha256": "061c5ca971fc27eaa397f75ade4f5a76c293e515defd11ab2f34e09951afc517",
+        "file_count": 1892
+      }
+    },
+    "importGraph": {
+      "revision": "e9f31324f15ead11048b1443e62c5deaddd055d2",
+      "cache": {
+        "sha256": "aed3181b95a76daaa0e8887ffae364951e185e61efa59eaf7914061cd3d114d5",
+        "file_count": 33
+      }
+    },
+    "mathlib": {
+      "revision": "2df2f0150c275ad53cb3c90f7c98ec15a56a1a67",
+      "cache": {
+        "sha256": "6fecd47a900a40062de5f8af3a84e4b04e63770c94fb8d07ae6cf5c1878f0548",
+        "file_count": 81172
+      }
+    },
+    "plausible": {
+      "revision": "160af9e8e7d4ae448f3c92edcc5b6a8522453f11",
+      "cache": {
+        "sha256": "e6c753ede51d8915dbab4fd201ef4a03f2ef4aaa9023106f4d1423dbed2bce96",
+        "file_count": 121
+      }
+    },
+    "proofwidgets": {
+      "revision": "b4fb2aa5290ebf61bc5f80a5375ba642f0a49192",
+      "cache": {
+        "sha256": "9098315bba8e7a61f3c0b309f05f651e50dc4523abb165d87f245ec7ddd5dc6e",
+        "file_count": 132
+      }
+    }
+  },
+  "schema": "erdos20-replay-policy/1",
+  "harness_sha256": "1b1bd187a302f606a8175dff870c4cf3573d033636865f7780084ccd1c9c2a95",
+  "metadata_files": [
+    "lake-manifest.json",
+    "lakefile.toml",
+    "lean-toolchain",
+    "evidence/axiom_audit_inventory.json",
+    "replay.py"
+  ],
+  "lean_options": [],
+  "negative_fixtures": [
+    {
+      "path": "negative/Bad.lean",
+      "line_start": 2,
+      "line_end": 2,
+      "message_pattern": "Tactic `decide` proved that the proposition\\n  2 \\+ 2 = 5\\nis false"
+    }
+  ],
+  "trust_note": "Observed local pins, frozen before smoke execution; unsigned, no independent provenance claim."
+}

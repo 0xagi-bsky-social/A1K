@@ -1,0 +1,917 @@
+{
+  "v12_final_count": 128,
+  "v13_final_count": 136,
+  "all_sources": 155,
+  "v13_final_reachable": [
+    "Basic",
+    "Erdos20BCWBridge",
+    "Erdos20BCWConditional",
+    "Erdos20Critical",
+    "Erdos20CrossBounds",
+    "Erdos20DegreeCongruences",
+    "Erdos20DesignConsequences",
+    "Erdos20DesignCoordinates",
+    "Erdos20DesignNormalForm",
+    "Erdos20DesignSeparation",
+    "Erdos20Endpoints",
+    "Erdos20ExtremalStructure",
+    "Erdos20ExtremalSupport",
+    "Erdos20ExtremalTransversals",
+    "Erdos20ExtremalTwenty",
+    "Erdos20FiniteReduction",
+    "Erdos20FortyOne",
+    "Erdos20FortyOneArithmetic",
+    "Erdos20GraphEquality",
+    "Erdos20GraphEqualityEndpoint",
+    "Erdos20GrowthRate",
+    "Erdos20Incidence",
+    "Erdos20IteratedLower",
+    "Erdos20LocalStructure",
+    "Erdos20MeetingFiftySix",
+    "Erdos20MixedCross",
+    "Erdos20Obstructions",
+    "Erdos20RankFour",
+    "Erdos20RankFourPropagation",
+    "Erdos20RankFourRefined",
+    "Erdos20RankFourWitness",
+    "Erdos20RankThree",
+    "Erdos20RankThreeEven",
+    "Erdos20Research",
+    "Erdos20SaturatedMeeting",
+    "Erdos20SeededBounds",
+    "Erdos20SharpTriples",
+    "Erdos20SharpTwenty",
+    "Erdos20SpreadPacking",
+    "Erdos20StrictCore",
+    "Erdos20Substitution",
+    "Erdos20Tetrahedron",
+    "Erdos20ThreeCrossEdges",
+    "Erdos20TracePatterns",
+    "Erdos20TraceStructure",
+    "Erdos20TripleWitness",
+    "Erdos20V10BoundaryReduction",
+    "Erdos20V10DisjointDegree",
+    "Erdos20V10FiniteEndgame",
+    "Erdos20V10HighParity",
+    "Erdos20V10HighParityMain",
+    "Erdos20V10HighTriangle",
+    "Erdos20V10HighTriangleDegreeOne",
+    "Erdos20V10HighTriangleGeometry",
+    "Erdos20V10HighTriangleIncidence",
+    "Erdos20V10HighTriangleMain",
+    "Erdos20V10HighTriangleTransfer",
+    "Erdos20V10MinimumDegree",
+    "Erdos20V10Profile54",
+    "Erdos20V10Profile54Bridge",
+    "Erdos20V10Profile54DegreeCap",
+    "Erdos20V10Profile54LowScores",
+    "Erdos20V10Profile54LowScoresBridge",
+    "Erdos20V10Profile54Score",
+    "Erdos20V10Profile54ScoreBridge",
+    "Erdos20V10Profile54Seventeen",
+    "Erdos20V10Profile54SeventeenCap",
+    "Erdos20V11Census",
+    "Erdos20V11CensusCapacity",
+    "Erdos20V11CensusCommonSupport",
+    "Erdos20V11CensusFinal",
+    "Erdos20V11CensusIndependentTriple",
+    "Erdos20V11CensusTenProfiles",
+    "Erdos20V11DegreeSeventeen",
+    "Erdos20V11DegreeSeventeenLink",
+    "Erdos20V11DegreeSeventeenTrace",
+    "Erdos20V11EdgeCapacity",
+    "Erdos20V11EdgeCapacityThree",
+    "Erdos20V11EdgePairs",
+    "Erdos20V11EdgeThird",
+    "Erdos20V11EdgeThirdDesign",
+    "Erdos20V11EdgeThirdSupport",
+    "Erdos20V11EdgeTrace",
+    "Erdos20V11Final",
+    "Erdos20V11HighCommon",
+    "Erdos20V11HighEdgeCounts",
+    "Erdos20V11HighEdgeDegree",
+    "Erdos20V11HighEdgeReserve",
+    "Erdos20V11HighSupport",
+    "Erdos20V12DegreeSeventeen",
+    "Erdos20V12Final",
+    "Erdos20V12HighCard",
+    "Erdos20V12HighCardGraph",
+    "Erdos20V12HighCardPairs",
+    "Erdos20V12HighCardTwo",
+    "Erdos20V12HighEdge",
+    "Erdos20V12Intersecting",
+    "Erdos20V12Nineteen",
+    "Erdos20V12ProfileReduction",
+    "Erdos20V12ProfileScore",
+    "Erdos20V12ProfileScoreBridge",
+    "Erdos20V13Boundary",
+    "Erdos20V13BoundaryLiteral",
+    "Erdos20V13Endpoint",
+    "Erdos20V13Final",
+    "Erdos20V13FiniteReduction",
+    "Erdos20V13Intersecting",
+    "Erdos20V13Nineteen",
+    "Erdos20V13Trace",
+    "Erdos20V5Frontier",
+    "Erdos20V6Bounds",
+    "Erdos20V7Bounds",
+    "Erdos20V8Boundary",
+    "Erdos20V8BoundaryReduction",
+    "Erdos20V8DesignCounts",
+    "Erdos20V8Final",
+    "Erdos20V8Global",
+    "Erdos20V8HighDegrees",
+    "Erdos20V8HighWeights",
+    "Erdos20V8Intersecting",
+    "Erdos20V8MeetingProfile",
+    "Erdos20V8ProfileBridge",
+    "Erdos20V8Stability",
+    "Erdos20V8Targets",
+    "Erdos20V9BoundaryArithmetic",
+    "Erdos20V9Census",
+    "Erdos20V9Final",
+    "Erdos20V9HighCompatibility",
+    "Erdos20V9HighCompatibilityMain",
+    "Erdos20V9HighGraph",
+    "Erdos20V9HighIncidence",
+    "Erdos20V9Profile",
+    "Erdos20V9ProfileBridge",
+    "Erdos20V9TraceBridge",
+    "ErdosRadoBound",
+    "Spread"
+  ],
+  "combined_audit_count": 152,
+  "audit_only": [
+    "Erdos20AxiomAudit",
+    "Erdos20Frontier",
+    "Erdos20NextFrontier",
+    "Erdos20TripleReduction",
+    "Erdos20V10AllMeeting",
+    "Erdos20V13CombinedAudit",
+    "Erdos20V3Frontier",
+    "Erdos20V4Frontier",
+    "Erdos20V8Consequences",
+    "Erdos20V8Saturated",
+    "Erdos20V8SaturatedWitness",
+    "Erdos20V9AllMeeting",
+    "Erdos20V9Consequences",
+    "Erdos20V9HighCompatibilityWitness",
+    "Erdos20V9IntersectingTriangles",
+    "Erdos20V9WeightCongruence"
+  ],
+  "all_sources_outside_v13_final": [
+    "Erdos20AxiomAudit",
+    "Erdos20Frontier",
+    "Erdos20NextFrontier",
+    "Erdos20TripleReduction",
+    "Erdos20V10AllMeeting",
+    "Erdos20V13BoundaryAudit",
+    "Erdos20V13CombinedAudit",
+    "Erdos20V13EnvironmentInventory",
+    "Erdos20V13NineteenAudit",
+    "Erdos20V3Frontier",
+    "Erdos20V4Frontier",
+    "Erdos20V8Consequences",
+    "Erdos20V8Saturated",
+    "Erdos20V8SaturatedWitness",
+    "Erdos20V9AllMeeting",
+    "Erdos20V9Consequences",
+    "Erdos20V9HighCompatibilityWitness",
+    "Erdos20V9IntersectingTriangles",
+    "Erdos20V9WeightCongruence"
+  ],
+  "direct_import_graph": {
+    "Erdos20V12ProfileReduction": [
+      "Erdos20V12DegreeSeventeen"
+    ],
+    "Erdos20V13CombinedAudit": [
+      "Erdos20V13Final",
+      "Erdos20AxiomAudit"
+    ],
+    "Erdos20RankFourRefined": [
+      "Erdos20V5Frontier",
+      "Erdos20RankFour"
+    ],
+    "Erdos20Tetrahedron": [
+      "Erdos20GraphEquality",
+      "Erdos20SharpTriples"
+    ],
+    "Erdos20V8Global": [
+      "Erdos20V7Bounds",
+      "Erdos20ExtremalTransversals"
+    ],
+    "Erdos20StrictCore": [
+      "Erdos20BCWBridge"
+    ],
+    "Basic": [],
+    "Erdos20V7Bounds": [
+      "Erdos20MeetingFiftySix",
+      "Erdos20FortyOne",
+      "Erdos20V6Bounds"
+    ],
+    "Erdos20V8Saturated": [
+      "Erdos20V8Stability",
+      "Erdos20RankFourRefined"
+    ],
+    "Erdos20V13Boundary": [
+      "Erdos20V12Final"
+    ],
+    "Erdos20Incidence": [
+      "Erdos20Critical"
+    ],
+    "Erdos20AxiomAudit": [
+      "Basic",
+      "Erdos20BCWBridge",
+      "Erdos20BCWConditional",
+      "Erdos20Critical",
+      "Erdos20CrossBounds",
+      "Erdos20DegreeCongruences",
+      "Erdos20DesignConsequences",
+      "Erdos20DesignCoordinates",
+      "Erdos20DesignNormalForm",
+      "Erdos20DesignSeparation",
+      "Erdos20Endpoints",
+      "Erdos20ExtremalStructure",
+      "Erdos20ExtremalSupport",
+      "Erdos20ExtremalTransversals",
+      "Erdos20ExtremalTwenty",
+      "Erdos20FiniteReduction",
+      "Erdos20FortyOne",
+      "Erdos20FortyOneArithmetic",
+      "Erdos20Frontier",
+      "Erdos20GraphEquality",
+      "Erdos20GraphEqualityEndpoint",
+      "Erdos20GrowthRate",
+      "Erdos20Incidence",
+      "Erdos20IteratedLower",
+      "Erdos20LocalStructure",
+      "Erdos20MeetingFiftySix",
+      "Erdos20MixedCross",
+      "Erdos20NextFrontier",
+      "Erdos20Obstructions",
+      "Erdos20RankFour",
+      "Erdos20RankFourPropagation",
+      "Erdos20RankFourRefined",
+      "Erdos20RankFourWitness",
+      "Erdos20RankThree",
+      "Erdos20RankThreeEven",
+      "Erdos20Research",
+      "Erdos20SaturatedMeeting",
+      "Erdos20SeededBounds",
+      "Erdos20SharpTriples",
+      "Erdos20SharpTwenty",
+      "Erdos20SpreadPacking",
+      "Erdos20StrictCore",
+      "Erdos20Substitution",
+      "Erdos20Tetrahedron",
+      "Erdos20ThreeCrossEdges",
+      "Erdos20TracePatterns",
+      "Erdos20TraceStructure",
+      "Erdos20TripleReduction",
+      "Erdos20TripleWitness",
+      "Erdos20V10AllMeeting",
+      "Erdos20V10BoundaryReduction",
+      "Erdos20V10DisjointDegree",
+      "Erdos20V10FiniteEndgame",
+      "Erdos20V10HighParity",
+      "Erdos20V10HighParityMain",
+      "Erdos20V10HighTriangle",
+      "Erdos20V10HighTriangleDegreeOne",
+      "Erdos20V10HighTriangleGeometry",
+      "Erdos20V10HighTriangleIncidence",
+      "Erdos20V10HighTriangleMain",
+      "Erdos20V10HighTriangleTransfer",
+      "Erdos20V10MinimumDegree",
+      "Erdos20V10Profile54",
+      "Erdos20V10Profile54Bridge",
+      "Erdos20V10Profile54DegreeCap",
+      "Erdos20V10Profile54LowScores",
+      "Erdos20V10Profile54LowScoresBridge",
+      "Erdos20V10Profile54Score",
+      "Erdos20V10Profile54ScoreBridge",
+      "Erdos20V10Profile54Seventeen",
+      "Erdos20V10Profile54SeventeenCap",
+      "Erdos20V11Census",
+      "Erdos20V11CensusCapacity",
+      "Erdos20V11CensusCommonSupport",
+      "Erdos20V11CensusFinal",
+      "Erdos20V11CensusIndependentTriple",
+      "Erdos20V11CensusTenProfiles",
+      "Erdos20V11DegreeSeventeen",
+      "Erdos20V11DegreeSeventeenLink",
+      "Erdos20V11DegreeSeventeenTrace",
+      "Erdos20V11EdgeCapacity",
+      "Erdos20V11EdgeCapacityThree",
+      "Erdos20V11EdgePairs",
+      "Erdos20V11EdgeThird",
+      "Erdos20V11EdgeThirdDesign",
+      "Erdos20V11EdgeThirdSupport",
+      "Erdos20V11EdgeTrace",
+      "Erdos20V11Final",
+      "Erdos20V11HighCommon",
+      "Erdos20V11HighEdgeCounts",
+      "Erdos20V11HighEdgeDegree",
+      "Erdos20V11HighEdgeReserve",
+      "Erdos20V11HighSupport",
+      "Erdos20V12DegreeSeventeen",
+      "Erdos20V12Final",
+      "Erdos20V12HighCard",
+      "Erdos20V12HighCardGraph",
+      "Erdos20V12HighCardPairs",
+      "Erdos20V12HighCardTwo",
+      "Erdos20V12HighEdge",
+      "Erdos20V12Intersecting",
+      "Erdos20V12Nineteen",
+      "Erdos20V12ProfileReduction",
+      "Erdos20V12ProfileScore",
+      "Erdos20V12ProfileScoreBridge",
+      "Erdos20V3Frontier",
+      "Erdos20V4Frontier",
+      "Erdos20V5Frontier",
+      "Erdos20V6Bounds",
+      "Erdos20V7Bounds",
+      "Erdos20V8Boundary",
+      "Erdos20V8BoundaryReduction",
+      "Erdos20V8Consequences",
+      "Erdos20V8DesignCounts",
+      "Erdos20V8Final",
+      "Erdos20V8Global",
+      "Erdos20V8HighDegrees",
+      "Erdos20V8HighWeights",
+      "Erdos20V8Intersecting",
+      "Erdos20V8MeetingProfile",
+      "Erdos20V8ProfileBridge",
+      "Erdos20V8Saturated",
+      "Erdos20V8SaturatedWitness",
+      "Erdos20V8Stability",
+      "Erdos20V8Targets",
+      "Erdos20V9AllMeeting",
+      "Erdos20V9BoundaryArithmetic",
+      "Erdos20V9Census",
+      "Erdos20V9Consequences",
+      "Erdos20V9Final",
+      "Erdos20V9HighCompatibility",
+      "Erdos20V9HighCompatibilityMain",
+      "Erdos20V9HighCompatibilityWitness",
+      "Erdos20V9HighGraph",
+      "Erdos20V9HighIncidence",
+      "Erdos20V9IntersectingTriangles",
+      "Erdos20V9Profile",
+      "Erdos20V9ProfileBridge",
+      "Erdos20V9TraceBridge",
+      "Erdos20V9WeightCongruence",
+      "ErdosRadoBound",
+      "Spread"
+    ],
+    "Erdos20ExtremalStructure": [
+      "Erdos20ExtremalSupport"
+    ],
+    "Erdos20V13Trace": [
+      "Erdos20V12ProfileScoreBridge"
+    ],
+    "Erdos20V3Frontier": [
+      "Erdos20Substitution",
+      "Erdos20SeededBounds",
+      "Erdos20FiniteReduction"
+    ],
+    "Erdos20DegreeCongruences": [
+      "Erdos20ExtremalSupport"
+    ],
+    "Erdos20RankFourPropagation": [
+      "Erdos20RankFour",
+      "Erdos20SeededBounds"
+    ],
+    "Erdos20V10Profile54Score": [
+      "Erdos20V9Profile"
+    ],
+    "Erdos20V11Census": [
+      "Erdos20V10FiniteEndgame",
+      "Erdos20V10HighTriangleIncidence"
+    ],
+    "Erdos20V10Profile54Bridge": [
+      "Erdos20V10Profile54",
+      "Erdos20V8ProfileBridge",
+      "Erdos20V8HighDegrees",
+      "Erdos20V8Global",
+      "Erdos20V8Boundary"
+    ],
+    "Erdos20Endpoints": [
+      "Erdos20BCWBridge"
+    ],
+    "Erdos20V10Profile54DegreeCap": [
+      "Erdos20V10Profile54Bridge",
+      "Erdos20V8Targets"
+    ],
+    "Erdos20GraphEquality": [
+      "Erdos20RankThree"
+    ],
+    "Erdos20Frontier": [
+      "Erdos20StrictCore",
+      "Erdos20SpreadPacking",
+      "Erdos20Obstructions"
+    ],
+    "Erdos20V11CensusFinal": [
+      "Erdos20V11CensusIndependentTriple",
+      "Erdos20V11CensusTenProfiles",
+      "Erdos20V11EdgeThird"
+    ],
+    "Erdos20DesignConsequences": [
+      "Erdos20ExtremalStructure",
+      "Erdos20MixedCross"
+    ],
+    "Erdos20TraceStructure": [
+      "Erdos20SpreadPacking"
+    ],
+    "Erdos20V12DegreeSeventeen": [
+      "Erdos20V12ProfileScoreBridge",
+      "Erdos20V11Final"
+    ],
+    "Erdos20V11DegreeSeventeenLink": [
+      "Erdos20V11DegreeSeventeen",
+      "Erdos20V10MinimumDegree"
+    ],
+    "Erdos20V10Profile54": [
+      "Erdos20V9Profile"
+    ],
+    "Erdos20V11CensusTenProfiles": [
+      "Erdos20V11Census"
+    ],
+    "Erdos20V10Profile54SeventeenCap": [
+      "Erdos20V10Profile54Seventeen",
+      "Erdos20V10Profile54LowScoresBridge"
+    ],
+    "Erdos20FiniteReduction": [
+      "Erdos20Critical"
+    ],
+    "Erdos20V12HighCardTwo": [
+      "Erdos20V12HighCardGraph",
+      "Erdos20V12HighCardPairs",
+      "Erdos20V10HighParity"
+    ],
+    "Erdos20V11EdgeThird": [
+      "Erdos20V11EdgeThirdSupport",
+      "Erdos20V11EdgeTrace"
+    ],
+    "Erdos20SaturatedMeeting": [
+      "Erdos20DesignSeparation",
+      "Erdos20ThreeCrossEdges"
+    ],
+    "Erdos20V11HighSupport": [
+      "Erdos20V10HighTriangleIncidence",
+      "Erdos20ExtremalTransversals"
+    ],
+    "Erdos20V4Frontier": [
+      "Erdos20SharpTwenty",
+      "Erdos20TripleReduction",
+      "Erdos20TripleWitness",
+      "Erdos20SeededBounds",
+      "Erdos20ExtremalSupport"
+    ],
+    "Erdos20V9HighCompatibility": [
+      "Erdos20V8HighWeights"
+    ],
+    "Erdos20V10HighTriangleDegreeOne": [
+      "Erdos20V10HighTriangleTransfer"
+    ],
+    "Erdos20Substitution": [
+      "Erdos20TripleWitness"
+    ],
+    "Erdos20V11HighEdgeCounts": [
+      "Erdos20V11HighSupport",
+      "Erdos20V10HighParity"
+    ],
+    "Erdos20BCWBridge": [
+      "Erdos20BCWConditional"
+    ],
+    "Erdos20RankThree": [
+      "Erdos20CrossBounds",
+      "Erdos20Research"
+    ],
+    "Erdos20ThreeCrossEdges": [
+      "Erdos20RankFour"
+    ],
+    "Erdos20V11EdgeThirdSupport": [
+      "Erdos20V11EdgeThirdDesign"
+    ],
+    "Erdos20V10AllMeeting": [
+      "Erdos20V10HighParityMain",
+      "Erdos20V9ProfileBridge",
+      "Erdos20V9Census"
+    ],
+    "Erdos20V9HighCompatibilityMain": [
+      "Erdos20V9HighCompatibility"
+    ],
+    "Erdos20V10HighParity": [
+      "Erdos20V9HighGraph",
+      "Erdos20V9HighCompatibilityMain"
+    ],
+    "Erdos20IteratedLower": [
+      "Erdos20Substitution"
+    ],
+    "Erdos20V11CensusCommonSupport": [
+      "Erdos20V11CensusCapacity"
+    ],
+    "Erdos20V9HighGraph": [
+      "Erdos20V9HighIncidence"
+    ],
+    "Erdos20V9Profile": [
+      "Erdos20V8MeetingProfile"
+    ],
+    "Erdos20RankThreeEven": [
+      "Erdos20RankThree"
+    ],
+    "Erdos20TripleWitness": [
+      "Erdos20LocalStructure"
+    ],
+    "Erdos20V9ProfileBridge": [
+      "Erdos20V9TraceBridge"
+    ],
+    "Erdos20V9IntersectingTriangles": [
+      "Erdos20V8Intersecting",
+      "Erdos20ThreeCrossEdges"
+    ],
+    "Erdos20SharpTwenty": [
+      "Erdos20Tetrahedron"
+    ],
+    "Erdos20V8Stability": [
+      "Erdos20ExtremalTransversals",
+      "Erdos20DesignNormalForm",
+      "Erdos20ThreeCrossEdges"
+    ],
+    "Erdos20V11CensusIndependentTriple": [
+      "Erdos20V11CensusCommonSupport",
+      "Erdos20V11HighCommon"
+    ],
+    "Erdos20V5Frontier": [
+      "Erdos20TracePatterns",
+      "Erdos20DesignConsequences",
+      "Erdos20RankFour",
+      "Erdos20RankFourWitness",
+      "Erdos20GrowthRate"
+    ],
+    "Erdos20V9Final": [
+      "Erdos20V9ProfileBridge",
+      "Erdos20V9BoundaryArithmetic",
+      "Erdos20V9Census",
+      "Erdos20V9HighCompatibilityMain",
+      "Erdos20V9HighGraph",
+      "Erdos20V8Final"
+    ],
+    "Erdos20V11Final": [
+      "Erdos20V11HighEdgeDegree",
+      "Erdos20V11CensusFinal",
+      "Erdos20V11DegreeSeventeenTrace"
+    ],
+    "Erdos20V10FiniteEndgame": [
+      "Erdos20V10BoundaryReduction",
+      "Erdos20V10Profile54SeventeenCap"
+    ],
+    "Erdos20V11HighCommon": [
+      "Erdos20V11HighSupport"
+    ],
+    "Erdos20V13FiniteReduction": [
+      "Erdos20FiniteReduction",
+      "Erdos20V8Targets"
+    ],
+    "Erdos20V8Targets": [
+      "Erdos20RankFourWitness",
+      "Erdos20MeetingFiftySix",
+      "Erdos20FortyOne"
+    ],
+    "Erdos20V9Census": [
+      "Erdos20V9BoundaryArithmetic"
+    ],
+    "Erdos20V10MinimumDegree": [
+      "Erdos20V10DisjointDegree",
+      "Erdos20V10Profile54ScoreBridge"
+    ],
+    "Erdos20V6Bounds": [
+      "Erdos20SaturatedMeeting",
+      "Erdos20RankFourRefined",
+      "Erdos20RankFourPropagation"
+    ],
+    "Erdos20DesignSeparation": [
+      "Erdos20V5Frontier"
+    ],
+    "Erdos20TripleReduction": [
+      "Erdos20RankThreeEven",
+      "Erdos20FiniteReduction"
+    ],
+    "Erdos20DesignCoordinates": [
+      "Erdos20DesignSeparation",
+      "Erdos20TracePatterns"
+    ],
+    "Spread": [],
+    "Erdos20V9TraceBridge": [
+      "Erdos20V9Profile",
+      "Erdos20V8ProfileBridge",
+      "Erdos20V8HighDegrees",
+      "Erdos20V8Global",
+      "Erdos20V8Boundary"
+    ],
+    "Erdos20V10DisjointDegree": [
+      "Erdos20V8Global"
+    ],
+    "Erdos20V9BoundaryArithmetic": [
+      "Erdos20V8Boundary"
+    ],
+    "Erdos20V12HighEdge": [
+      "Erdos20V11EdgeThird",
+      "Erdos20V11HighCommon"
+    ],
+    "Erdos20Research": [
+      "Basic"
+    ],
+    "Erdos20V11DegreeSeventeen": [
+      "Erdos20SharpTriples",
+      "Erdos20ExtremalStructure"
+    ],
+    "Erdos20V10Profile54Seventeen": [
+      "Erdos20V10Profile54ScoreBridge"
+    ],
+    "Erdos20V13EnvironmentInventory": [
+      "Erdos20V13Final",
+      "Erdos20AxiomAudit"
+    ],
+    "Erdos20V10HighTriangleIncidence": [
+      "Erdos20V10HighTriangleDegreeOne"
+    ],
+    "Erdos20V10Profile54LowScores": [
+      "Erdos20V9Profile"
+    ],
+    "Erdos20Obstructions": [
+      "Erdos20Endpoints"
+    ],
+    "Erdos20V8ProfileBridge": [
+      "Erdos20V8MeetingProfile",
+      "Erdos20V8Global",
+      "Erdos20V8Boundary"
+    ],
+    "Erdos20V10HighTriangle": [
+      "Erdos20V9HighCompatibilityMain",
+      "Erdos20V9HighGraph"
+    ],
+    "Erdos20V11CensusCapacity": [
+      "Erdos20V11Census",
+      "Erdos20V10HighParityMain"
+    ],
+    "Erdos20V9Consequences": [
+      "Erdos20V9Final"
+    ],
+    "ErdosRadoBound": [
+      "Basic"
+    ],
+    "Erdos20V11DegreeSeventeenTrace": [
+      "Erdos20V11DegreeSeventeenLink"
+    ],
+    "Erdos20V12Nineteen": [
+      "Erdos20ExtremalTwenty",
+      "Erdos20V8Intersecting"
+    ],
+    "Erdos20V10HighTriangleTransfer": [
+      "Erdos20V10HighTriangleMain"
+    ],
+    "Erdos20V8DesignCounts": [
+      "Erdos20V8Stability"
+    ],
+    "Erdos20V11EdgeThirdDesign": [
+      "Erdos20V11HighSupport"
+    ],
+    "Erdos20V12ProfileScoreBridge": [
+      "Erdos20V12ProfileScore",
+      "Erdos20V9HighCompatibilityMain",
+      "Erdos20V8ProfileBridge",
+      "Erdos20V8HighDegrees",
+      "Erdos20V8Global",
+      "Erdos20V8Boundary"
+    ],
+    "Erdos20V10HighTriangleMain": [
+      "Erdos20V10HighTriangleGeometry"
+    ],
+    "Erdos20GrowthRate": [
+      "Erdos20FiniteReduction",
+      "Erdos20IteratedLower"
+    ],
+    "Erdos20V12Final": [
+      "Erdos20V12HighCardTwo",
+      "Erdos20V12ProfileReduction",
+      "Erdos20V12Intersecting"
+    ],
+    "Erdos20V12HighCard": [
+      "Erdos20V12HighEdge"
+    ],
+    "Erdos20V8Boundary": [
+      "Erdos20DegreeCongruences"
+    ],
+    "Erdos20V13NineteenAudit": [
+      "Erdos20V13Nineteen",
+      "Erdos20V13Intersecting",
+      "Erdos20V13Endpoint"
+    ],
+    "Erdos20TracePatterns": [
+      "Erdos20ExtremalStructure"
+    ],
+    "Erdos20V12HighCardPairs": [
+      "Erdos20V12HighCard"
+    ],
+    "Erdos20V13Nineteen": [
+      "Erdos20V12Nineteen"
+    ],
+    "Erdos20V8SaturatedWitness": [
+      "Erdos20TripleWitness",
+      "Erdos20RankFour"
+    ],
+    "Erdos20V13Endpoint": [
+      "Erdos20Substitution",
+      "Erdos20DegreeCongruences"
+    ],
+    "Erdos20V10Profile54ScoreBridge": [
+      "Erdos20V10Profile54Score",
+      "Erdos20V9HighCompatibilityMain",
+      "Erdos20V8ProfileBridge",
+      "Erdos20V8HighDegrees",
+      "Erdos20V8Global",
+      "Erdos20V8Boundary"
+    ],
+    "Erdos20LocalStructure": [
+      "Erdos20Obstructions",
+      "Erdos20Critical"
+    ],
+    "Erdos20V13Final": [
+      "Erdos20V13BoundaryLiteral",
+      "Erdos20V13FiniteReduction",
+      "Erdos20V13Nineteen",
+      "Erdos20V13Intersecting",
+      "Erdos20V13Endpoint",
+      "Erdos20V13Trace"
+    ],
+    "Erdos20V8Intersecting": [
+      "Erdos20ExtremalTransversals",
+      "Erdos20RankFourRefined"
+    ],
+    "Erdos20V11EdgePairs": [
+      "Erdos20V11EdgeTrace"
+    ],
+    "Erdos20V8MeetingProfile": [],
+    "Erdos20BCWConditional": [
+      "Basic",
+      "Spread"
+    ],
+    "Erdos20Critical": [
+      "Erdos20SpreadPacking",
+      "ErdosRadoBound"
+    ],
+    "Erdos20V11HighEdgeReserve": [
+      "Erdos20V11EdgePairs",
+      "Erdos20V11CensusCapacity"
+    ],
+    "Erdos20V9WeightCongruence": [
+      "Erdos20V8Final"
+    ],
+    "Erdos20ExtremalSupport": [
+      "Erdos20SharpTwenty"
+    ],
+    "Erdos20V11HighEdgeDegree": [
+      "Erdos20V11HighEdgeReserve",
+      "Erdos20V11HighEdgeCounts",
+      "Erdos20V11EdgeCapacityThree"
+    ],
+    "Erdos20V13BoundaryAudit": [
+      "Erdos20AxiomAudit",
+      "Erdos20V13Boundary",
+      "Erdos20V13FiniteReduction",
+      "Erdos20V13BoundaryLiteral"
+    ],
+    "Erdos20RankFour": [
+      "Erdos20SharpTwenty",
+      "Erdos20MixedCross"
+    ],
+    "Erdos20ExtremalTwenty": [
+      "Erdos20ExtremalSupport",
+      "Erdos20GraphEqualityEndpoint",
+      "Erdos20DesignSeparation"
+    ],
+    "Erdos20MeetingFiftySix": [
+      "Erdos20SaturatedMeeting",
+      "Erdos20RankFourRefined",
+      "Erdos20DesignNormalForm"
+    ],
+    "Erdos20V8HighWeights": [
+      "Erdos20V8DesignCounts",
+      "Erdos20V8Boundary"
+    ],
+    "Erdos20V8HighDegrees": [
+      "Erdos20V8Boundary",
+      "Erdos20V8DesignCounts"
+    ],
+    "Erdos20V13BoundaryLiteral": [
+      "Erdos20V13Boundary"
+    ],
+    "Erdos20CrossBounds": [
+      "Erdos20Incidence",
+      "Erdos20TraceStructure"
+    ],
+    "Erdos20V11EdgeCapacity": [
+      "Erdos20DegreeCongruences"
+    ],
+    "Erdos20V13Intersecting": [
+      "Erdos20V12Intersecting",
+      "Erdos20GraphEquality"
+    ],
+    "Erdos20V8BoundaryReduction": [
+      "Erdos20V8Targets"
+    ],
+    "Erdos20V8Consequences": [
+      "Erdos20V8Final"
+    ],
+    "Erdos20MixedCross": [
+      "Erdos20SharpTwenty"
+    ],
+    "Erdos20FortyOneArithmetic": [],
+    "Erdos20ExtremalTransversals": [
+      "Erdos20ExtremalTwenty",
+      "Erdos20RankFour"
+    ],
+    "Erdos20V11EdgeCapacityThree": [
+      "Erdos20V11EdgeCapacity"
+    ],
+    "Erdos20V8Final": [
+      "Erdos20V8ProfileBridge",
+      "Erdos20V8HighDegrees",
+      "Erdos20V8HighWeights",
+      "Erdos20V8BoundaryReduction"
+    ],
+    "Erdos20SpreadPacking": [
+      "Erdos20StrictCore"
+    ],
+    "Erdos20RankFourWitness": [
+      "Erdos20IteratedLower",
+      "Erdos20CrossBounds"
+    ],
+    "Erdos20V9HighIncidence": [
+      "Erdos20V8HighWeights"
+    ],
+    "Erdos20V12ProfileScore": [
+      "Erdos20V10Profile54Score"
+    ],
+    "Erdos20V10Profile54LowScoresBridge": [
+      "Erdos20V10Profile54LowScores",
+      "Erdos20V9HighCompatibilityMain",
+      "Erdos20V8ProfileBridge",
+      "Erdos20V8HighDegrees",
+      "Erdos20V8Global",
+      "Erdos20V8Boundary"
+    ],
+    "Erdos20V9AllMeeting": [
+      "Erdos20V9HighCompatibilityMain",
+      "Erdos20V9WeightCongruence"
+    ],
+    "Erdos20DesignNormalForm": [
+      "Erdos20DesignCoordinates"
+    ],
+    "Erdos20V10HighTriangleGeometry": [
+      "Erdos20V10HighTriangle"
+    ],
+    "Erdos20V9HighCompatibilityWitness": [
+      "Erdos20TripleWitness",
+      "Erdos20V9HighCompatibilityMain"
+    ],
+    "Erdos20GraphEqualityEndpoint": [],
+    "Erdos20V10HighParityMain": [
+      "Erdos20V10HighParity"
+    ],
+    "Erdos20SeededBounds": [
+      "Erdos20RankThreeEven"
+    ],
+    "Erdos20V12HighCardGraph": [
+      "Erdos20V12HighCard",
+      "Erdos20GraphEquality"
+    ],
+    "Erdos20V12Intersecting": [
+      "Erdos20V12Nineteen",
+      "Erdos20V9HighCompatibility"
+    ],
+    "Erdos20V10BoundaryReduction": [
+      "Erdos20V10MinimumDegree",
+      "Erdos20V9Final",
+      "Erdos20V10Profile54DegreeCap"
+    ],
+    "Erdos20V11EdgeTrace": [
+      "Erdos20V10HighTriangleDegreeOne"
+    ],
+    "Erdos20FortyOne": [
+      "Erdos20FortyOneArithmetic",
+      "Erdos20RankFourRefined",
+      "Erdos20DegreeCongruences"
+    ],
+    "Erdos20NextFrontier": [
+      "Erdos20Incidence",
+      "Erdos20FiniteReduction",
+      "Erdos20LocalStructure",
+      "Erdos20TraceStructure"
+    ],
+    "Erdos20SharpTriples": [
+      "Erdos20RankThreeEven"
+    ]
+  }
+}

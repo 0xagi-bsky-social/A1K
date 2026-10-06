@@ -1,0 +1,134 @@
+{
+  "schema": "erdos20-v13-replay-hardening-results/1",
+  "harness_sha256": "b3215c1fead80a9b89c7e607aa9c857d71ef2b744c5d9b29fa74276bdf4472d1",
+  "unit_tests": {
+    "count": 33,
+    "status": "passed",
+    "log": "../evidence/replay-v13-tests.log",
+    "log_sha256": "31db09a05aa3fa8ed3a303e639993381ca9dbf7b039eb176e93c330c1902e261",
+    "scope": "Synthetic disposable fixtures exercise harness behavior; no mathematical proof claim."
+  },
+  "source_check": {
+    "command": [
+      "/usr/bin/python3",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/reproduction/replay_v13.py",
+      "replay",
+      "--root",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean",
+      "--policy",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/reproduction/v13-replay-policy.json",
+      "--expected-policy-sha256",
+      "6f5c9497cd8baceea2d9e669a10f4329482172bb99d56135316636c7a7a24573",
+      "--expected-manifest-sha256",
+      "1c0146901ecbf2de5c65d37ca11ff6d82f296e74370dad4c3c2bbb30b2397e05",
+      "--check-only"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"status\": \"source-commitments-checked\", \"manifest_sha256\": \"1c0146901ecbf2de5c65d37ca11ff6d82f296e74370dad4c3c2bbb30b2397e05\", \"file_count\": 178, \"module_count\": 155, \"compiled\": false}\n",
+    "stderr": ""
+  },
+  "frozen_inputs": {
+    "schema": "erdos20-v13-local-replay-pins/1",
+    "source_manifest_sha256": "1c0146901ecbf2de5c65d37ca11ff6d82f296e74370dad4c3c2bbb30b2397e05",
+    "policy_sha256": "6f5c9497cd8baceea2d9e669a10f4329482172bb99d56135316636c7a7a24573",
+    "harness_sha256": "b3215c1fead80a9b89c7e607aa9c857d71ef2b744c5d9b29fa74276bdf4472d1",
+    "source_count": 178,
+    "module_count": 155,
+    "negative_count": 18,
+    "root_count": 875,
+    "module_order_sha256": "416d71ab6b06244b6158090d4f6b3569005dcf5e4b21d1191753de75d101db38",
+    "authentication": "unsigned local commitment; retain independently from mutable inputs",
+    "full_replay_by_this_harness": "not_run"
+  },
+  "negative_controls": {
+    "inherited_passed": 14,
+    "new_structured_passed": 3,
+    "parent_endpoint_control_passed": 1,
+    "total": 18,
+    "scope": "Exact source-hash-identical fixtures; cached-project compilation context. Fresh project-source replay belongs to parent workflow.",
+    "failed_drafts_preserved": [
+      "../evidence/negative-structured/TransversalSeven-attempt1.jsonl",
+      "../evidence/negative-structured/TransversalSeven-attempt2-timeout.json",
+      "../evidence/negative-structured/tau-attempt3"
+    ]
+  },
+  "actual_lean_smoke": {
+    "prior_harness_sha256": "1b1bd187a302f606a8175dff870c4cf3573d033636865f7780084ccd1c9c2a95",
+    "prior_harness_status": "checkpoint_and_resume_passed",
+    "final_harness_status": "checkpoint_and_resume_passed",
+    "scope": "2 modules,2 roots,1 negative; not whole report replay",
+    "final_harness_sha256": "b3215c1fead80a9b89c7e607aa9c857d71ef2b744c5d9b29fa74276bdf4472d1",
+    "integration_results_path": "work/erdos20-v13/reproduction/smoke-project-final/integration-results.json",
+    "completion_path": "work/erdos20-v13/reproduction/smoke-project-final/runs/20260922T125728-df8f50c8e04c4776b0a4683ec7215dbf/completion.json",
+    "completion_sha256": "b01498fde6be3253c687504654b4a06eec71f91b43d99887e1d051392e5df446",
+    "compiler_attempt_wall_seconds": 4.2031695149998995,
+    "checkpoint_wall_seconds": 27.975886032001654,
+    "resume_wall_seconds": 61.65295306000007
+  },
+  "recommendations": [
+    {
+      "id": "R001",
+      "implementation": "Unique run/status/completion identity; stale success does not become current success.",
+      "status": "implemented_and_locally_tested"
+    },
+    {
+      "id": "R002",
+      "implementation": "Exact nonempty source coverage and separately supplied manifest digest.",
+      "status": "implemented_and_locally_tested"
+    },
+    {
+      "id": "R003",
+      "implementation": "Full compiler/version/toolchain/dynamic-library identity.",
+      "status": "implemented_and_locally_tested"
+    },
+    {
+      "id": "R004",
+      "implementation": "Normal exit 1 and one target-specific structured diagnostic.",
+      "status": "implemented_and_locally_tested"
+    },
+    {
+      "id": "R005",
+      "implementation": "Exact nine locked packages, clean tracked sources, cache hashes and no shadowed modules.",
+      "status": "implemented_and_locally_tested"
+    },
+    {
+      "id": "R006",
+      "implementation": "Resume context, source, command/options, log/object and full attempt inventory validation.",
+      "status": "implemented_and_locally_tested"
+    },
+    {
+      "id": "R007",
+      "implementation": "Fresh output tree per nonresume run; import-topological local compilation.",
+      "status": "implemented_and_locally_tested"
+    },
+    {
+      "id": "R052",
+      "implementation": "Started/final attempt states, timeout/signal receipts, charged CPU/wall/RSS, Linux descendant cleanup.",
+      "status": "implemented_and_locally_tested"
+    },
+    {
+      "id": "R053",
+      "implementation": "Fsynced immutable attempt records and atomic status/event writes; old runs retained.",
+      "status": "implemented_and_locally_tested"
+    },
+    {
+      "id": "R059",
+      "implementation": "Generic separately pinned complete-release byte cross-check utility; parent release manifest pending.",
+      "status": "utility_implemented_final_release_binding_pending"
+    },
+    {
+      "id": "R060",
+      "implementation": "Structured warnings/options/source directives and measured CPU/RSS/elapsed time; defined resource scope.",
+      "status": "implemented_and_locally_tested"
+    }
+  ],
+  "assurance_limits": [
+    "Unsigned local commitments are not authenticated origin.",
+    "Cached dependency bytes and Git revision match are not a source-rebuild provenance proof.",
+    "Privileged transient change-and-restore writers are outside the integrity boundary.",
+    "SIGKILL can leave a retained unfinalized receipt; automatic resume then fails closed.",
+    "Log ceiling polling may overshoot; escaped process descendants are outside process-group containment.",
+    "The complete report was not replayed by this new standalone harness.",
+    "Final delivered release record requires parent packaging and cross-check."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "module_count": 12,
+  "elapsed_seconds": 240.89170968899998,
+  "successful_compiler_seconds": 240.8667120750033,
+  "receipt_sha256": "7bc433adc4129a620e5d0921878504daefd8ae69d269e2f45e91694ff7b32b81",
+  "axiom_roots": 875,
+  "all_source_commitments_rechecked": true
+}

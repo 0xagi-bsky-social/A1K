@@ -1,0 +1,11 @@
+'Erdos20V13Nineteen.nineteen_max_degree_five_transversal_ge_six' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos20V13Nineteen.nineteen_transversal_five_has_degree_six' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos20V13Nineteen.max_degree_iff_on_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos20V13Nineteen.nineteen_max_degree_five_exists_transversal_six' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos20V13Nineteen.nineteen_max_degree_five_transversal_exact_six' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

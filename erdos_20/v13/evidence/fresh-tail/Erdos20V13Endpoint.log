@@ -1,0 +1,8 @@
+'Erdos20V13Endpoint.liftTriple_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos20V13Endpoint.family_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos20V13Endpoint.family_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos20V13Endpoint.family_intersecting' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos20V13Endpoint.family_sunflower_free' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos20V13Endpoint.center_degree_nineteen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos20V13Endpoint.center_pair_degree_le_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos20V13Endpoint.nineteen_member_endpoint_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]

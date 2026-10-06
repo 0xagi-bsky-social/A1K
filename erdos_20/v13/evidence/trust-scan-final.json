@@ -1,0 +1,12 @@
+{
+  "findings": {},
+  "limitation": "Lexical source preflight only; no elaboration or axiom closure was checked.",
+  "project": "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean",
+  "protected_modules": 136,
+  "protected_tree_sha256": "ef0ba4cdaf29f2badcb379c43d74b029ab5551e018cb340a7063361957aef1be",
+  "requested_roots": [
+    "SunflowerLean.Erdos20V13Final"
+  ],
+  "schema": "supermath-lean-trust-preflight/1.0",
+  "status": "pass"
+}

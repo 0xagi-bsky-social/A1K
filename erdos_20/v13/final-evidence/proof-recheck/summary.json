@@ -1,0 +1,28 @@
+{
+  "observed_at": "2026-09-23T04:24:02.081839+00:00",
+  "source_count": 178,
+  "source_hashes_match": true,
+  "object_count": 155,
+  "object_hashes_match": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13-final/evidence/proof-recheck/Erdos20V13CombinedAudit.olean",
+    "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean/SunflowerLean/Erdos20V13CombinedAudit.lean"
+  ],
+  "lean_path": "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/evidence/fresh-project/objects:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/Qq/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/aesop/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/batteries/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/importGraph/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/mathlib/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/plausible/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/proofwidgets/.lake/build/lib/lean",
+  "compiler_sha256": "8fadc3ed92cc9decb94c96ee9c0876e91e03a3a5e69138f32114f02789e2766c",
+  "exit_code": 0,
+  "compile_seconds": 206.52930421999918,
+  "source_sha256": "9e6ad6255644518759a4205b5134eb2f7303bfe70d2584ca9a4f002bf21bbe9b",
+  "log_sha256": "094f984826a5f4e57c7ec04ab100d0086db0304b5a5a31ba55aebefd45070dc6",
+  "axiom_root_count": 875,
+  "all_axioms_allowed": true,
+  "assurance_grade": "axiom-audited",
+  "scope": "Fresh execution of 875-root combined axiom audit against hash-verified existing project objects and cached pinned dependencies; not a fresh source rebuild or independent reproduction.",
+  "postprocessing_status": "pass after JSON-lines parser correction",
+  "parser_correction": "Initial print-axioms regex expected a different output format and found zero rows. Actual compiler exit was zero. Reparsed retained ERDOS20_AXIOM_AUDIT JSON lines; no extra compiler run.",
+  "project_module_source_count": 155,
+  "manifest_file_count": 178,
+  "parsed_at": "2026-09-23T04:25:03.995882+00:00"
+}

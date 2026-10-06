@@ -1,0 +1,336 @@
+{
+  "schema": "erdos20-v13-claim-root-map/1",
+  "claims": {
+    "T1": [
+      {
+        "root": "Erdos20V12Profile.meeting_fifty_four_low_score_distinct_high_companion",
+        "module": "SunflowerLean.Erdos20V13Trace",
+        "source": "lean/SunflowerLean/Erdos20V13Trace.lean",
+        "line": 10,
+        "source_sha256": "ff443a01d47d8c472d29bd7625dac96e4b59c615f217f641dab2aa6eb4531623",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V12Profile.meeting_fifty_four_low_score_distinct_high_companion",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      }
+    ],
+    "T2": [
+      {
+        "root": "Erdos20V12DegreeSeventeen.all_meeting_fifty_four_degree_ne_seventeen",
+        "module": "SunflowerLean.Erdos20V12DegreeSeventeen",
+        "source": "lean/SunflowerLean/Erdos20V12DegreeSeventeen.lean",
+        "line": 12,
+        "source_sha256": "8f49e09a47dddfba7e8957e4061cccad6963b319d6527b251917b5f2918788ca",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V12DegreeSeventeen.all_meeting_fifty_four_degree_ne_seventeen",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      },
+      {
+        "root": "Erdos20V12DegreeSeventeen.all_meeting_fifty_four_min_degree_eighteen",
+        "module": "SunflowerLean.Erdos20V12DegreeSeventeen",
+        "source": "lean/SunflowerLean/Erdos20V12DegreeSeventeen.lean",
+        "line": 108,
+        "source_sha256": "8f49e09a47dddfba7e8957e4061cccad6963b319d6527b251917b5f2918788ca",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V12DegreeSeventeen.all_meeting_fifty_four_min_degree_eighteen",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      }
+    ],
+    "T3": [
+      {
+        "root": "Erdos20V13Boundary.conditional_eighty_one_two_profiles_direct",
+        "module": "SunflowerLean.Erdos20V13Boundary",
+        "source": "lean/SunflowerLean/Erdos20V13Boundary.lean",
+        "line": 25,
+        "source_sha256": "744f86bbed36366aa2ab7c38f935dd37c965d7d2d498b5e5d4d0253400db6916",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V13Boundary.conditional_eighty_one_two_profiles_direct",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      },
+      {
+        "root": "Erdos20V13BoundaryLiteral.conditional_boundary_fully_literal",
+        "module": "SunflowerLean.Erdos20V13BoundaryLiteral",
+        "source": "lean/SunflowerLean/Erdos20V13BoundaryLiteral.lean",
+        "line": 9,
+        "source_sha256": "4e063329ab018f58dea3c1079f877209873d6e03c170c6881ca88a669f841ff9",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V13BoundaryLiteral.conditional_boundary_fully_literal",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      }
+    ],
+    "T4": [
+      {
+        "root": "Erdos20V12HighEdge.high_edge_excludes_third_high",
+        "module": "SunflowerLean.Erdos20V12HighEdge",
+        "source": "lean/SunflowerLean/Erdos20V12HighEdge.lean",
+        "line": 13,
+        "source_sha256": "09b086adc6e5486d6e755f32751d231bf13edd045112f2eb419e4044e0beb473",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V12HighEdge.high_edge_excludes_third_high",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      }
+    ],
+    "T5": [
+      {
+        "root": "Erdos20V12HighCard.high_points_card_le_two",
+        "module": "SunflowerLean.Erdos20V12HighCardTwo",
+        "source": "lean/SunflowerLean/Erdos20V12HighCardTwo.lean",
+        "line": 88,
+        "source_sha256": "1bef7fbdd78891fa1aa813de222ec6e3572d48372f665d5bc329b8a652046b70",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V12HighCard.high_points_card_le_two",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      }
+    ],
+    "T6": [
+      {
+        "root": "Erdos20V12Nineteen.nineteen_max_degree_five_decomposition",
+        "module": "SunflowerLean.Erdos20V12Nineteen",
+        "source": "lean/SunflowerLean/Erdos20V12Nineteen.lean",
+        "line": 102,
+        "source_sha256": "fe3510309d60edcd3c154b423eff7b1b7acccd6115b432caca22047f6b592d45",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V12Nineteen.nineteen_max_degree_five_decomposition",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      },
+      {
+        "root": "Erdos20V13Nineteen.nineteen_max_degree_five_transversal_exact_six",
+        "module": "SunflowerLean.Erdos20V13Nineteen",
+        "source": "lean/SunflowerLean/Erdos20V13Nineteen.lean",
+        "line": 94,
+        "source_sha256": "6e85c01de9e8d1bf4784e1455a2e236825d5849d8979f7aa1af44703b931515a",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V13Nineteen.nineteen_max_degree_five_transversal_exact_six",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      }
+    ],
+    "T6a": [
+      {
+        "root": "Erdos20V13Nineteen.nineteen_transversal_five_has_degree_six",
+        "module": "SunflowerLean.Erdos20V13Nineteen",
+        "source": "lean/SunflowerLean/Erdos20V13Nineteen.lean",
+        "line": 33,
+        "source_sha256": "6e85c01de9e8d1bf4784e1455a2e236825d5849d8979f7aa1af44703b931515a",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V13Nineteen.nineteen_transversal_five_has_degree_six",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      }
+    ],
+    "T6b": [
+      {
+        "root": "Erdos20V12Intersecting.intersecting_degree_nineteen_has_pair_six",
+        "module": "SunflowerLean.Erdos20V12Intersecting",
+        "source": "lean/SunflowerLean/Erdos20V12Intersecting.lean",
+        "line": 26,
+        "source_sha256": "75741ad91fef2555bfb20899a216d19f7e022e1bff56c2ed71f455d88a7761f1",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V12Intersecting.intersecting_degree_nineteen_has_pair_six",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      }
+    ],
+    "T6c": [
+      {
+        "root": "Erdos20V13Endpoint.nineteen_member_endpoint_counterexample",
+        "module": "SunflowerLean.Erdos20V13Endpoint",
+        "source": "lean/SunflowerLean/Erdos20V13Endpoint.lean",
+        "line": 79,
+        "source_sha256": "d6c9cabfe42de5e9025c600043d4d4834f1417b2805d3cb468adf09fb2d02e4b",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V13Endpoint.nineteen_member_endpoint_counterexample",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      }
+    ],
+    "T6d": [
+      {
+        "root": "Erdos20V13Intersecting.intersecting_twenty_eight_degree_nineteen_partner_bounds",
+        "module": "SunflowerLean.Erdos20V13Intersecting",
+        "source": "lean/SunflowerLean/Erdos20V13Intersecting.lean",
+        "line": 46,
+        "source_sha256": "9d573c962fdada65a8a7344fb2b07abd911f00cb5796270816a2f586a0e55194",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V13Intersecting.intersecting_twenty_eight_degree_nineteen_partner_bounds",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      },
+      {
+        "root": "Erdos20V13Intersecting.pair_codegree_six_exact_two_triangles",
+        "module": "SunflowerLean.Erdos20V13Intersecting",
+        "source": "lean/SunflowerLean/Erdos20V13Intersecting.lean",
+        "line": 77,
+        "source_sha256": "9d573c962fdada65a8a7344fb2b07abd911f00cb5796270816a2f586a0e55194",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V13Intersecting.pair_codegree_six_exact_two_triangles",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      }
+    ],
+    "T7": [
+      {
+        "root": "Erdos20V13FiniteReduction.intersecting_upper_twenty_seven_iff_no_finite_obstruction",
+        "module": "SunflowerLean.Erdos20V13FiniteReduction",
+        "source": "lean/SunflowerLean/Erdos20V13FiniteReduction.lean",
+        "line": 125,
+        "source_sha256": "752ea9ad55c4f98a13da0a6bbf84eecfb97c473c6bcb5b2087f3a984a701efa5",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V13FiniteReduction.intersecting_upper_twenty_seven_iff_no_finite_obstruction",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      },
+      {
+        "root": "Erdos20V13FiniteReduction.intersecting_upper_twenty_seven_large_universe",
+        "module": "SunflowerLean.Erdos20V13FiniteReduction",
+        "source": "lean/SunflowerLean/Erdos20V13FiniteReduction.lean",
+        "line": 137,
+        "source_sha256": "752ea9ad55c4f98a13da0a6bbf84eecfb97c473c6bcb5b2087f3a984a701efa5",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V13FiniteReduction.intersecting_upper_twenty_seven_large_universe",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      }
+    ],
+    "T8": [
+      {
+        "root": "Erdos20V13Boundary.unrestricted_eighty_of_three_open_inputs",
+        "module": "SunflowerLean.Erdos20V13Boundary",
+        "source": "lean/SunflowerLean/Erdos20V13Boundary.lean",
+        "line": 62,
+        "source_sha256": "744f86bbed36366aa2ab7c38f935dd37c965d7d2d498b5e5d4d0253400db6916",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V13Boundary.unrestricted_eighty_of_three_open_inputs",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      },
+      {
+        "root": "Erdos20V13BoundaryLiteral.unrestricted_eighty_three_inputs_fully_literal",
+        "module": "SunflowerLean.Erdos20V13BoundaryLiteral",
+        "source": "lean/SunflowerLean/Erdos20V13BoundaryLiteral.lean",
+        "line": 22,
+        "source_sha256": "4e063329ab018f58dea3c1079f877209873d6e03c170c6881ca88a669f841ff9",
+        "axiom_receipt": {
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "root": "Erdos20V13BoundaryLiteral.unrestricted_eighty_three_inputs_fully_literal",
+          "status": "pass"
+        },
+        "audit_log": "evidence/fresh-tail/Erdos20V13CombinedAudit.log"
+      }
+    ]
+  },
+  "scope": "Main manuscript statements mapped to exact source declarations and observed transitive axiom receipts; semantic statement-fidelity reviewed separately."
+}

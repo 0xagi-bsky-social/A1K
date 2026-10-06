@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/reproduction/replay_v13.py",
+    "replay",
+    "--root",
+    "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean",
+    "--policy",
+    "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/reproduction/v13-replay-policy.json",
+    "--expected-policy-sha256",
+    "6f5c9497cd8baceea2d9e669a10f4329482172bb99d56135316636c7a7a24573",
+    "--expected-manifest-sha256",
+    "1c0146901ecbf2de5c65d37ca11ff6d82f296e74370dad4c3c2bbb30b2397e05",
+    "--check-only"
+  ],
+  "exit_code": 0,
+  "stdout": "{\"status\": \"source-commitments-checked\", \"manifest_sha256\": \"1c0146901ecbf2de5c65d37ca11ff6d82f296e74370dad4c3c2bbb30b2397e05\", \"file_count\": 178, \"module_count\": 155, \"compiled\": false}\n",
+  "stderr": ""
+}

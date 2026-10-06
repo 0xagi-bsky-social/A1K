@@ -1,0 +1,10 @@
+{
+  "lake-manifest.json": "f0c543e40596add0813e435fe99b635003e3de52d198d749bc5c410d58d7d05c",
+  "lakefile.toml": "01e1583358803f695093040332f58077d8e70b6765d8032c63d33d0d0d79d892",
+  "lean-toolchain": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+  "evidence/axiom_audit_inventory.json": "c53710bba55f40ea22bb7588ff0832b5321581c1aace300281a5af2c4302a5d0",
+  "replay.py": "b3215c1fead80a9b89c7e607aa9c857d71ef2b744c5d9b29fa74276bdf4472d1",
+  "SunflowerLean/A.lean": "86a0421ca297ed98a7bb2739832fa736b31f205e8f540f275ddfc72eac5866f0",
+  "SunflowerLean/B.lean": "8f3ae38623c9fc54d446c89c5ddd0e7bc7660515b823e9590f337cfe0497eec6",
+  "negative/Bad.lean": "a1f7f05f0a8a82a8fb7115aa742e375170702efd7fd6e4eef4fc07ece242e8a2"
+}

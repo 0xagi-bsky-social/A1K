@@ -1,0 +1,194 @@
+[
+  {
+    "module": "SunflowerLean.Erdos20V13Nineteen",
+    "command": [
+      "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+      "-o",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/evidence/fresh-project/objects/SunflowerLean/Erdos20V13Nineteen.olean",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean/SunflowerLean/Erdos20V13Nineteen.lean"
+    ],
+    "exit_code": 0,
+    "terminal_reason": null,
+    "wall_seconds": 4.231906338000044,
+    "source_sha256": "6e85c01de9e8d1bf4784e1455a2e236825d5849d8979f7aa1af44703b931515a",
+    "source_unchanged": true,
+    "log_sha256": "cf8bd8255fd1bc2cd361f72258a2589bb306d3f468237eeb55cc2d01190d12d0",
+    "object_sha256": "671e028f3095521d0994471d8f37708d924f370dd8e94a552a6416af55011746"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V13Intersecting",
+    "command": [
+      "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+      "-o",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/evidence/fresh-project/objects/SunflowerLean/Erdos20V13Intersecting.olean",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean/SunflowerLean/Erdos20V13Intersecting.lean"
+    ],
+    "exit_code": 0,
+    "terminal_reason": null,
+    "wall_seconds": 5.192871342000217,
+    "source_sha256": "9d573c962fdada65a8a7344fb2b07abd911f00cb5796270816a2f586a0e55194",
+    "source_unchanged": true,
+    "log_sha256": "ad72eec7d5e286fc0a15f0af4cda8c8cf69dab13d534fa77b6e3ba010ec8df2d",
+    "object_sha256": "65b0b818dbe1c3627e272ad591c1e2f64cb396fc167b62de20c138933d4dea41"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V13Endpoint",
+    "command": [
+      "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+      "-o",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/evidence/fresh-project/objects/SunflowerLean/Erdos20V13Endpoint.olean",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean/SunflowerLean/Erdos20V13Endpoint.lean"
+    ],
+    "exit_code": 0,
+    "terminal_reason": null,
+    "wall_seconds": 7.968773323998903,
+    "source_sha256": "d6c9cabfe42de5e9025c600043d4d4834f1417b2805d3cb468adf09fb2d02e4b",
+    "source_unchanged": true,
+    "log_sha256": "262484348f1c1921daef76159312d1363f9fc7b64ba959c1bdb19c951e5fa5e7",
+    "object_sha256": "132ef7fcd2da82649552e6ee7f01a27448c2779d9df1c9b92929059ea9624b6b"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V13Trace",
+    "command": [
+      "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+      "-o",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/evidence/fresh-project/objects/SunflowerLean/Erdos20V13Trace.olean",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean/SunflowerLean/Erdos20V13Trace.lean"
+    ],
+    "exit_code": 0,
+    "terminal_reason": null,
+    "wall_seconds": 3.879292767000152,
+    "source_sha256": "ff443a01d47d8c472d29bd7625dac96e4b59c615f217f641dab2aa6eb4531623",
+    "source_unchanged": true,
+    "log_sha256": "0b2ae659d7a91c82b217e61676eaf7ce23c2e41bc1da04e3cd14edae99834533",
+    "object_sha256": "814da3dd8a45776e282e49e35e8611b8bf5920627258dbbccdc0c5a5bbed5c16"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V13FiniteReduction",
+    "command": [
+      "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+      "-o",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/evidence/fresh-project/objects/SunflowerLean/Erdos20V13FiniteReduction.olean",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean/SunflowerLean/Erdos20V13FiniteReduction.lean"
+    ],
+    "exit_code": 0,
+    "terminal_reason": null,
+    "wall_seconds": 3.8293152999995073,
+    "source_sha256": "752ea9ad55c4f98a13da0a6bbf84eecfb97c473c6bcb5b2087f3a984a701efa5",
+    "source_unchanged": true,
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "object_sha256": "fc638acd160559f24510226537d1a7ebf0c48b1a4da299f2314a5855e99be94a"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V13Boundary",
+    "command": [
+      "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+      "-o",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/evidence/fresh-project/objects/SunflowerLean/Erdos20V13Boundary.olean",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean/SunflowerLean/Erdos20V13Boundary.lean"
+    ],
+    "exit_code": 0,
+    "terminal_reason": null,
+    "wall_seconds": 8.52328910000142,
+    "source_sha256": "744f86bbed36366aa2ab7c38f935dd37c965d7d2d498b5e5d4d0253400db6916",
+    "source_unchanged": true,
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "object_sha256": "1448dad779f5ff057d8cf4369bf037a0011bd0ad992481c9ed400b587665e25f"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V13BoundaryLiteral",
+    "command": [
+      "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+      "-o",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/evidence/fresh-project/objects/SunflowerLean/Erdos20V13BoundaryLiteral.olean",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean/SunflowerLean/Erdos20V13BoundaryLiteral.lean"
+    ],
+    "exit_code": 0,
+    "terminal_reason": null,
+    "wall_seconds": 3.1797882600003504,
+    "source_sha256": "4e063329ab018f58dea3c1079f877209873d6e03c170c6881ca88a669f841ff9",
+    "source_unchanged": true,
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "object_sha256": "2365a0794d0a87f60c315f256b9616e49910c97501f0bbf74772e4fe62ae8532"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V13Final",
+    "command": [
+      "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+      "-o",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/evidence/fresh-project/objects/SunflowerLean/Erdos20V13Final.olean",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean/SunflowerLean/Erdos20V13Final.lean"
+    ],
+    "exit_code": 0,
+    "terminal_reason": null,
+    "wall_seconds": 3.474943315000928,
+    "source_sha256": "1f12295421dd613c4798ecfed49e743021a636de002520bdddcf4d57035f0939",
+    "source_unchanged": true,
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "object_sha256": "9c44c286e4d28be26b748fa1b00406710634d3f46f13037962a9cbc0c5d9040a"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V13BoundaryAudit",
+    "command": [
+      "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+      "-o",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/evidence/fresh-project/objects/SunflowerLean/Erdos20V13BoundaryAudit.olean",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean/SunflowerLean/Erdos20V13BoundaryAudit.lean"
+    ],
+    "exit_code": 0,
+    "terminal_reason": null,
+    "wall_seconds": 7.6904260410010465,
+    "source_sha256": "c5b61b420aeaf6b1d8f907ea2d206ec86335fcf169038e3f4a1a3a0a05f89c82",
+    "source_unchanged": true,
+    "log_sha256": "00469963060e066a232d2109c6efeb405a974577ba7ff0c7f0de8b54ba27462e",
+    "object_sha256": "b58251eaaa8bc7c810da74c24ddbf8fb2a2aa24373c10e6e31434b0c3b7ab3f5"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V13NineteenAudit",
+    "command": [
+      "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+      "-o",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/evidence/fresh-project/objects/SunflowerLean/Erdos20V13NineteenAudit.olean",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean/SunflowerLean/Erdos20V13NineteenAudit.lean"
+    ],
+    "exit_code": 0,
+    "terminal_reason": null,
+    "wall_seconds": 7.246981304000656,
+    "source_sha256": "e9027bdf178e08956ed314bb13f5d04536166cd041b83871ba45a6a2c701e461",
+    "source_unchanged": true,
+    "log_sha256": "a0d419b0468f0948b6327b27f895902ed8986eb1d1dad7d35da3018bb0fad700",
+    "object_sha256": "cc832f8ff6722a536d6c1913b0e088fe49a8cfa51b302d36f3acbb64770bd409"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V13CombinedAudit",
+    "command": [
+      "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+      "-o",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/evidence/fresh-project/objects/SunflowerLean/Erdos20V13CombinedAudit.olean",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean/SunflowerLean/Erdos20V13CombinedAudit.lean"
+    ],
+    "exit_code": 0,
+    "terminal_reason": null,
+    "wall_seconds": 181.72267973199996,
+    "source_sha256": "9e6ad6255644518759a4205b5134eb2f7303bfe70d2584ca9a4f002bf21bbe9b",
+    "source_unchanged": true,
+    "log_sha256": "094f984826a5f4e57c7ec04ab100d0086db0304b5a5a31ba55aebefd45070dc6",
+    "object_sha256": "f020fbedc4e500e73612f63f61db1ce085fe4736dac21a5d889198d1641030de"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V13EnvironmentInventory",
+    "command": [
+      "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+      "-o",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/evidence/fresh-project/objects/SunflowerLean/Erdos20V13EnvironmentInventory.olean",
+      "/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean/SunflowerLean/Erdos20V13EnvironmentInventory.lean"
+    ],
+    "exit_code": 0,
+    "terminal_reason": null,
+    "wall_seconds": 3.9264452520001214,
+    "source_sha256": "550518783defa87246748ba5ce4558912b37ec48ccfef8e2740fd294114c1128",
+    "source_unchanged": true,
+    "log_sha256": "79b1e41ee515e334b5dbc0ce77fd26ba24dbddcbfddc82d266e19d6bdc496492",
+    "object_sha256": "289bc49d5269280687644a6af120c4ab62cb4e0e92325e7fdff280974e1e8ec1"
+  }
+]

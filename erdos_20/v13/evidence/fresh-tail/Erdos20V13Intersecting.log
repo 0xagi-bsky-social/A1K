@@ -1,0 +1,11 @@
+'Erdos20V13Intersecting.star_union_card_add_pair_codegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos20V13Intersecting.degree_nineteen_pair_six_partner_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos20V13Intersecting.intersecting_twenty_eight_degree_nineteen_partner_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Erdos20V13Intersecting.upperStar_eq_image_restore_core' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Erdos20V13Intersecting.pair_codegree_six_exact_two_triangles' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

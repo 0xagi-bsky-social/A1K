@@ -1,0 +1,33 @@
+# Lean dependencies and compiler output are rebuilt from the pinned inputs.
+**/.lake/
+*.olean
+*.ilean
+*.olean.private
+*.olean.server
+*.ir
+
+# Python helpers should not bring their local environment into the archive.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Keep credentials and personal machine settings local.
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Use .local for fresh experiments; the retained research evidence stays tracked.
+.local/
+*.tmp
+*.swp
+*.swo
+*~
+
+# Intentionally track every shipped .lean file, Lake manifest, and historical
+# evidence log. A failed control or an older source is part of this collection.

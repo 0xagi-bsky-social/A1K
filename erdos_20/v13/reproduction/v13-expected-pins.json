@@ -1,0 +1,13 @@
+{
+  "schema": "erdos20-v13-local-replay-pins/1",
+  "source_manifest_sha256": "1c0146901ecbf2de5c65d37ca11ff6d82f296e74370dad4c3c2bbb30b2397e05",
+  "policy_sha256": "6f5c9497cd8baceea2d9e669a10f4329482172bb99d56135316636c7a7a24573",
+  "harness_sha256": "b3215c1fead80a9b89c7e607aa9c857d71ef2b744c5d9b29fa74276bdf4472d1",
+  "source_count": 178,
+  "module_count": 155,
+  "negative_count": 18,
+  "root_count": 875,
+  "module_order_sha256": "416d71ab6b06244b6158090d4f6b3569005dcf5e4b21d1191753de75d101db38",
+  "authentication": "unsigned local commitment; retain independently from mutable inputs",
+  "full_replay_by_this_harness": "not_run"
+}

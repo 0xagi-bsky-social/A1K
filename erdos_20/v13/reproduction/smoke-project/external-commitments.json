@@ -1,0 +1,6 @@
+{
+  "manifest_sha256": "1be0f4d038a3305f99a77e8349e37b88509955bfb6ad5597f2475925f938b436",
+  "policy_sha256": "febd25e3a968abe624e80b554577efb570950937b1496d4ebde8125240b46553",
+  "harness_sha256": "1b1bd187a302f606a8175dff870c4cf3573d033636865f7780084ccd1c9c2a95",
+  "scope": "Two actual Lean modules, two actual axiom-audited roots and one designated arithmetic negative fixture; harness integration only, not the mathematical report replay."
+}

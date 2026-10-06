@@ -1,0 +1,7792 @@
+[
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "entanglement",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "reduction_lemma",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "disjoint_is_sunflower",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20BCWConditional.residualLink_member_disjoint_core",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20BCWConditional.core_union_injOn_residualLink",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20BCWConditional.residualLink_uniform",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20BCWConditional.core_union_residual_mem_family",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20BCWConditional.core_union_inter_eq_core",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20BCWConditional.residual_matching_lifts_sunflower",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20BCWConditional.card_le_pow_of_directSpreadMatching",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20BCWConditional.mem_upperStar_iff",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20BCWConditional.mem_residualLink_iff",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20BCWConditional.sdiff_injOn_upperStar",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20BCWConditional.card_residualLink",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20BCWConditional.empty_mem_denseCores",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20BCWConditional.exists_maximal_dense_core",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20BCWConditional.filter_residualLink_eq_image_upperStar_union",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20BCWConditional.card_filter_residualLink",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20BCWConditional.member_subset_support",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20BCWConditional.maximal_dense_core_residual_isSpread",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Critical.exists_exact_size_free_subfamily",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Critical.exact_size_rank_pos",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Critical.exists_minimal_critical",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Critical.upperStar_bound_of_lowerRanks",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Critical.upperStar_eq_empty_of_rank_lt",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Critical.exact_size_isStrictSpread",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Critical.exact_size_no_nonempty_dense_core",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Critical.exact_size_rank_product_gt",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Critical.exact_size_factorial_obstruction",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Critical.exact_size_support_card_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20CrossBounds.intersecting_card_add_rank_sub_one_le",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20CrossBounds.rank_two_three_petals_degree_le_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20CrossBounds.intersecting_rank_two_three_petals_card_le_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20CrossBounds.common_point_rank_two_three_petals_card_le_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20CrossBounds.cross_intersecting_card_le",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20CrossBounds.cross_intersecting_rank_two_card_le_four",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20CrossBounds.card_le_degree_add_one_of_two_intersecting_edges",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20CrossBounds.cross_intersecting_large_forces_matching",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20CrossBounds.cross_intersecting_large_other_card_le_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20CrossBounds.cross_intersecting_rank_two_joint_card_le_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20CrossBounds.cross_intersecting_joint_bound_sharp",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DegreeCongruences.member_pattern_of_degree_sum",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DegreeCongruences.pattern_incidence_constraints",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DegreeCongruences.member_patterns_incompatible",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DegreeCongruences.no_forty_two_degree_patterns",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignConsequences.regular_six_pair_codegree_eq_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignConsequences.regular_six_pair_meeting_card_eq_eight",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignConsequences.degree_eq_zero_of_not_support",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignConsequences.regular_six_no_two_point_transversal",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignCoordinates.pair_star_eq_of_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignCoordinates.ten_pair_trace_card_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignNormalForm.ten_forbids_three_faces",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignNormalForm.ten_pair_has_outside_extension",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignNormalForm.ten_distinct_outside_extension_pair",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignNormalForm.distinct_outside_extensions",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignNormalForm.ten_forbids_common_outside_extension",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignNormalForm.six_point_support_of_extensions",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignNormalForm.triple_of_two_mem_subset_four",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignNormalForm.singleton_member_shape",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignNormalForm.canonicalTen_card_le",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignNormalForm.ten_normal_form_of_extensions",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignNormalForm.ten_anchor_normal_form",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignNormalForm.ten_has_normal_form",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignNormalForm.ten_isomorphic_canonical",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignSeparation.outside_intersecting_ten_no_supported_pair",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignSeparation.outside_intersecting_ten_disjoint_support",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignSeparation.complement_of_intersecting_ten_intersecting",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignSeparation.complement_of_intersecting_ten_card_le_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignSeparation.intersecting_ten_complement_supports_disjoint",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignSeparation.extremal_twenty_complement_design",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignSeparation.intersecting_ten_degrees_preserved",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20DesignSeparation.extremal_twenty_regular_twelve_of_intersecting_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Endpoints.forces_succ_pow_iff",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Endpoints.pow_add_one_lt_pow_add_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Endpoints.strict_forcing_threshold_of_extremal",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Endpoints.strict_forcing_threshold_of_direct",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Endpoints.uniformExtremalBound_expanded",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalStructure.intersecting_degree_six_card_eq_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalStructure.intersecting_card_ge_seven_degree_le_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalStructure.intersecting_ten_degree_le_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalStructure.local_patterns_exclude_degree_four",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalStructure.local_patterns_force_regular_six_support",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalSupport.extremal_member_saturated_card_le_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalSupport.extremal_degree_six_points_card_le_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalSupport.support_degree_sum",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalSupport.extremal_supported_degree_ge_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalSupport.extremal_support_card_window",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTransversals.intersecting_ten_transversal_card_ge_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTransversals.transversal_restrict_support",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTransversals.extremal_twenty_transversal_card_ge_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTransversals.extremal_twenty_avoids_five_points",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTransversals.extremal_twenty_exists_transversal_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTransversals.intersecting_rank_four_degree_twenty_common_point",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTransversals.intersecting_rank_four_degree_twenty_card_eq_twenty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTransversals.intersecting_rank_four_card_ge_twenty_one_degree_le_nineteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTwenty.singleton_intersection_card_le_nine",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTwenty.triple_meeting_incidence_defect",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTwenty.member_degree_sum_le_fifteen_add_saturated",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTwenty.extremal_meeting_card_le_twelve",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTwenty.extremal_disjointness_degree_ge_eight",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTwenty.graph_degree_eight_member_saturated_eq_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTwenty.extremal_disjointnessGraph_two_colorable",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTwenty.extremal_twenty_contains_intersecting_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTwenty.extremal_twenty_two_disjoint_designs",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ExtremalTwenty.extremal_twenty_regular_twelve",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.card_mapFamily",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.isSunflower_mapFamily_iff",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.isSunflowerFree_mapFamily_iff",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.uniform_mapFamily",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.map_restrictSet",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.exists_fin_relabel",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.finiteObstruction_of_counterexample",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.rankCounterexample_iff_finiteObstruction",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.uniformBound_iff_no_finiteObstruction",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.sunflowerFree_iff_powersetCard",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.obstructionCheck_eq_true_iff",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.bound_of_obstructionCheck_eq_false",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.uniformBound_iff_all_checks_false",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.exists_minimal_finiteObstruction",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.obstructionCheck_rank_zero",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.obstructionCheck_positive_control",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.obstructionCheck_negative_control",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.mem_candidateFamilies_iff",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.card_candidateFamilies",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.finiteObstruction_iff_candidate",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.candidateCheck_eq_obstructionCheck",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FiniteReduction.uniformBound_iff_all_candidate_checks_false",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FortyOne.forty_two_ordered_degree_pattern",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FortyOne.forty_two_member_patterns",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FortyOne.intersecting_rank_four_card_le_forty_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FortyOne.rank_four_card_le_eighty_two_of_two_colorable",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FortyOneArithmetic.contribution_le_ceiling",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FortyOneArithmetic.opposite_pair_le_capacity",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FortyOneArithmetic.capacity_one_properties",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FortyOneArithmetic.capacity_three_properties",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "propext"
+    ],
+    "root": "Erdos20FortyOneArithmetic.capacity_profile_certificate",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FortyOneArithmetic.all_one_pattern",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FortyOneArithmetic.all_three_zero_pattern",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FortyOneArithmetic.all_three_one_pattern",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FortyOneArithmetic.grouped_contribution_sum",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FortyOneArithmetic.all_three_triple_sum_le_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FortyOneArithmetic.four_flags_sum_zero",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20FortyOneArithmetic.local_pattern",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Frontier.uniformBound_interfaces_agree",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Frontier.sunflowerConjecture_iff_strictSpreadConjecture",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Frontier.forcing_of_strictSpreadSunflower",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Frontier.strictSpreadSunflower_expanded",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Frontier.rank_zero_exception",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Frontier.strictSpread_free_rank_lower_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Frontier.counterexample_has_high_rank_strict_residual",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Frontier.cycleFive_not_strictSpreadSunflower",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEquality.intersecting_three_edges_triangle",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEquality.saturated_point_no_extra_edge",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEquality.triangle_isolated",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEquality.graph_meeting_neighborhood_card_le_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEquality.six_edges_two_disjoint_triangles",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEquality.degree_six_triple_link_two_triangles",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEquality.triangle_edge_extension",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEquality.six_edges_edge_extension",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEquality.six_edges_adjacent_close",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEquality.two_degree_six_vertices_force_tetrahedron",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEqualityEndpoint.independentProfile_card_le_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEqualityEndpoint.independent_pair_is_cycle_neighborhood",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEqualityEndpoint.independent_pair_disjoint_neighborhood_contains_center",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEqualityEndpoint.profile_independent",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEqualityEndpoint.sum_cycle_degrees_eq_sum_profiles",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEqualityEndpoint.profile_saturation",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEqualityEndpoint.neighborhood_contained_in_cycle_neighborhood",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEqualityEndpoint.regular_of_cycle_at_threshold",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEqualityEndpoint.five_cycle_of_wheel",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GraphEqualityEndpoint.twenty_vertex_nonbipartite_regular",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.mem_admissible_iff",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.finite_representative",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.card_le_extremal",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.admissible_nonempty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.extremal_attained",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.extremal_factorial_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.singleton_rank_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.witness_le_extremal",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.extremal_pos",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.extremal_zero",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.extremal_supermultiplicative",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.uniformBound_iff_extremal_le",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.logExtremal_nonneg",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.normalizedLog_nonneg",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.logExtremal_superadditive",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.neg_logExtremal_subadditive",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.normalizedLog_le_entropy",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.entropy_le_iff",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.entropy_nonneg",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.real_bound_iff_normalizedLog_le",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.finiteGrowth_iff_exists_uniformBound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.entropy_exact_real_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.entropy_le_log_iff_real_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.entropy_base_ge_sqrt_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.normalizedLog_tendsto_entropy",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.rootRate_pow",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.rootRate_tendsto",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.eventually_normalizedLog_gt_of_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.below_sqrt_ten_eventual_extremal",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.below_sqrt_ten_every_large_rank_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.below_sqrt_ten_prefactor_eventual_extremal",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.below_sqrt_ten_prefactor_every_large_rank_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.normalizedLog_unbounded_tendsto_atTop",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.rootRate_unbounded_tendsto_atTop",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.entropy_base_le_iff_real_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20GrowthRate.rootRate_limit_dichotomy",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Incidence.incidence_sum_eq",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Incidence.incidence_defect_lower_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Incidence.exists_matching_incidence_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Incidence.card_le_refined_step",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Incidence.refinedBound_pos",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Incidence.refined_sunflower_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Incidence.rank_two_three_petals_card_le_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Incidence.twoTriangles_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Incidence.twoTriangles_uniform",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Incidence.twoTriangles_sunflower_free",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "propext"
+    ],
+    "root": "Erdos20Incidence.refinedBound_le_factorial",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Incidence.critical_refined_obstruction",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Incidence.three_petals_base_four_low_ranks",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Incidence.base_four_critical_rank_ge_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Incidence.critical_support_card_gt",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.intersecting_substitution",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.intersecting_witness_substitution",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.singleton_intersecting_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.ten_intersecting_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.iterationExponent_twice_add_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.iterationExponent_closed",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.iterationExponent_ge",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.iterated_intersecting_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.iterated_intersecting_closed_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.double_intersecting_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.iterated_double_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.iterated_bound_constraint",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.iterated_real_bound_sq_ge_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.eventual_real_bound_sq_ge_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.eventual_real_bound_ge_sqrt_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.below_sqrt_ten_fails_eventually",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.below_sqrt_ten_iterated_counterexample",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20IteratedLower.below_sqrt_ten_finite_counterexample",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20LocalStructure.mem_tensorFamily_iff",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20LocalStructure.card_tensorFamily",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20LocalStructure.uniform_tensorFamily",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20LocalStructure.sunflower_image_of_injective",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20LocalStructure.sunflower_projection_injective_or_constant",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20LocalStructure.sunflowerFree_tensorFamily",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20LocalStructure.tensor_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20LocalStructure.rank_zero_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20LocalStructure.tensor_power_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20LocalStructure.cycle_five_power_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20LocalStructure.uniformBound_of_eventual",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20LocalStructure.uniformBound_iff_eventual",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20LocalStructure.uniformBound_of_prefactor",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20LocalStructure.uniformBound_iff_exists_prefactor",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20LocalStructure.nonuniform_tensor_failure",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20MeetingFiftySix.fifty_seven_saturated_profile",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20MeetingFiftySix.complementary_point_link_design",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20MeetingFiftySix.member_residue_mem_complementary_link",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20MeetingFiftySix.triple_trace_has_outside_extension",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20MeetingFiftySix.four_set_has_third_point",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20MeetingFiftySix.anchor_mem_complementary_link",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20MeetingFiftySix.extension_mem_complementary_link",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20MeetingFiftySix.no_saturated_anchor_profile",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20MeetingFiftySix.all_meeting_anchor_card_le_fifty_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20MeetingFiftySix.meeting_neighborhood_card_le_fifty_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20MixedCross.triple_pair_degree_le_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20MixedCross.triples_cross_two_edges_card_le_eight",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20MixedCross.triples_cross_triangle_card_le_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20MixedCross.intersecting_triples_cross_edges_weighted",
+    "status": "pass"
+  },
+  {
+    "axioms": [],
+    "root": "Erdos20NextFrontier.refined_three_petals_values",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20NextFrontier.six_power_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20NextFrontier.finite_check_base_four_low_ranks",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20NextFrontier.uniformBound_iff_eventual_checks",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20NextFrontier.some_base_iff_eventual_checks",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20NextFrontier.critical_support_window",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20NextFrontier.base_four_failure_finite_normal_form",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20NextFrontier.uniformBound_of_eventual_prefactor",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20NextFrontier.uniformBound_iff_eventual_prefactor",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Obstructions.cycleFive_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Obstructions.cycleFive_uniform",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Obstructions.cycleFive_strict_spread",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Obstructions.cycleFive_spread",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Obstructions.cycleFive_sunflower_free",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Obstructions.not_uniformExtremalBound_two_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Obstructions.not_directSpreadMatching_two_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Obstructions.matching_size_times_rank_le_ground",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Obstructions.completeFive_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Obstructions.completeFive_uniform",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Obstructions.completeFive_strict_spread",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Obstructions.completeFive_has_no_three_matching",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Obstructions.completeFive_has_sunflower",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.singleton_trace_card_le_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.rank_four_degree_le_twenty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.singleton_intersection_card_le_forty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.meeting_incidence_singleton_defect",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.meeting_neighborhood_card_le_fifty_nine",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.exact_trace_residual_intersecting",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.disjoint_traces_residual_cross_intersect",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.triple_trace_card_le_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.singleton_triple_trace_weighted_le_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.card_eq_sum_exact_traces",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.empty_trace_card_eq_zero",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.full_trace_card_eq_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.sum_powerset_four",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.singleton_pair_trace_weighted_le_twelve",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.intersecting_rank_four_card_le_forty_seven",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.rank_four_disjointnessGraph_degree_eq",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.rank_four_card_le_ninety_four_of_two_colorable",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFour.rank_four_card_le_ninety_eight",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourPropagation.rankFourBound_pos",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourPropagation.propagated_rank_four_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [],
+    "root": "Erdos20RankFourPropagation.rankFourBound_values",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourPropagation.rankFourBound_lt_previous",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourPropagation.rank_at_most_five_base_four",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourPropagation.base_four_violating_rank_ge_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourPropagation.rank_at_most_six_base_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourPropagation.base_five_violating_rank_ge_seven",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourRefined.intersecting_triples_cross_edge_card_le_nine",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourRefined.intersecting_triples_cross_two_edges_card_le_seven",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourRefined.intersecting_triples_cross_edges_weighted_twenty_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourRefined.common_point_triples_cross_three_edges_card_le_four",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourRefined.common_point_triples_cross_edges_weighted_eighteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourRefined.singleton_pair_triple_trace_weighted_le_twenty_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourRefined.intersecting_rank_four_card_le_forty_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourRefined.degree_eq_sum_exact_traces",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourRefined.pair_trace_card_le_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourRefined.forty_three_member_degree_pattern",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourRefined.intersecting_rank_four_card_le_forty_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourRefined.rank_four_card_le_eighty_four_of_two_colorable",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourWitness.triangle_intersecting_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourWitness.twenty_seven_intersecting_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourWitness.fifty_four_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankFourWitness.mixed_rank_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThree.sunflower_three_of_intersections",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThree.exact_trace_residuals_intersect",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThree.exact_trace_upperStar",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThree.exact_trace_card_residual",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThree.exact_trace_residual_free",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThree.singleton_trace_card_le_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThree.pair_trace_card_le_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThree.full_trace_card_le_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThree.meeting_neighborhood_card_le_thirteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThree.opposite_traces_sum_le_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThree.nonempty_proper_subset_triple",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThree.anchor_trace_cover",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThree.intersecting_rank_three_card_le_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThree.disjoint_anchor_family_intersecting",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThree.rank_three_three_petals_card_le_twenty_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThreeEven.disjoint_anchor_card_le_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThreeEven.rank_three_card_le_degree_add_seventeen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThreeEven.rank_three_degree_le_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThreeEven.rank_three_card_twenty_three_degree_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20RankThreeEven.rank_three_three_petals_card_le_twenty_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Research.mem_extensionStar_iff",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Research.inter_eq_core_of_codim_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Research.extensionStar_isSunflower",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Research.extensionStar_card_lt",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Research.extensionStar_card_le_pred",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Research.mem_lowerShadow_iff",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Research.lowerShadow_extension_degree_le",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Research.card_filter_eq_sum_ite",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Research.incidence_swap",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Research.incidence_left_count",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Research.incidence_inequality",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Research.sunflowerFree_shadow_inequality",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Research.final_shifted_set_has_no_original_one_step_source",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SaturatedMeeting.trace_subcore_residual_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SaturatedMeeting.pair_trace_card_le_complement_singleton",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SaturatedMeeting.saturated_singleton_incident_pair_sum_le_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SaturatedMeeting.rank_four_pair_trace_card_le_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SaturatedMeeting.singleton_incident_pairs_weighted_le_thirty_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SaturatedMeeting.incidence_eq_sum_weighted_exact_traces",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SaturatedMeeting.all_meeting_anchor_card_le_fifty_seven",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SaturatedMeeting.meeting_neighborhood_card_le_fifty_seven",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SeededBounds.seededBound_pos",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SeededBounds.seeded_sunflower_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SeededBounds.triple_trace_seed_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [],
+    "root": "Erdos20SeededBounds.seeded_bound_values",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SeededBounds.parity_seed_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [],
+    "root": "Erdos20SeededBounds.parity_seed_values",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SharpTriples.rank_three_card_le_degree_disjoint_add_seven",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SharpTriples.disjointnessGraph_triangle_free",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SharpTriples.disjointnessGraph_degree_eq",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SharpTriples.disjointnessGraph_degree_add_thirteen_ge",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SharpTriples.card_le_twenty_of_disjointnessGraph_two_colorable",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SharpTriples.rank_three_three_petals_card_le_twenty_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SharpTriples.rank_three_card_le_twenty_of_each_member_low_degree",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SharpTriples.card_twenty_one_exists_all_degree_six_member",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SharpTriples.tetrahedron_meeting_card_le_sixteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SharpTriples.card_le_nineteen_of_tetrahedron_disjoint_card_le_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SharpTriples.triangle_pair_cover_card_le_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SharpTriples.contains_pair_of_meets_every_pair_of_triple",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SharpTriples.tetrahedron_faces_subset_of_four_members",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SharpTwenty.card_le_nineteen_of_two_degree_six_vertices",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SharpTwenty.rank_three_three_petals_card_le_twenty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SharpTwenty.twenty_members_no_two_degree_six_in_member",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SpreadPacking.strict_singleton_transversal_card_gt",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SpreadPacking.exists_maximum_matching",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SpreadPacking.maximum_matching_union_transversal",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SpreadPacking.maximum_matching_rank_lower_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SpreadPacking.matching_of_strict_singleton_spread",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SpreadPacking.matching_of_strictSpread_low_rank",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SpreadPacking.matching_of_strictSpread_floor_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20SpreadPacking.strictSpreadSunflowerTail_iff_uniformBound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20StrictCore.strictSpread_implies_spread",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20StrictCore.maximal_dense_core_residual_isStrictSpread",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20StrictCore.strictSpread_card_gt_pow",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20StrictCore.directSpreadMatching_implies_strictSpreadMatching",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20StrictCore.card_le_pow_of_strictSpreadMatching",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20StrictCore.residual_sunflower_lifts",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20StrictCore.residualLink_sunflowerFree",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20StrictCore.strictSpreadMatching_implies_strictSpreadSunflower",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20StrictCore.maximal_dense_core_residual_rank_pos",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20StrictCore.uniformBound_of_strictSpreadSunflower",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20StrictCore.strictSpreadSunflower_of_uniformBound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20StrictCore.strictSpreadSunflower_iff_uniformBound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.mem_encode",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.mem_fiber",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.fiber_encode",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.support_encode",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.encode_injective",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.card_encode",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.card_substitution",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.uniform_substitution",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.three_rigidity",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.support_inter_encode",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.fiber_inter",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.sunflowerFree_substitution",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.tenTriples_nonempty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.twentyThousand_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.twentyThousand_uniform",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.twentyThousand_sunflower_free",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.twenty_thousand_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.not_uniformBound_three_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Substitution.uniformBound_base_ge_four",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Tetrahedron.six_edges_triangle_complement",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Tetrahedron.pair_subset_triangle_mem",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Tetrahedron.triple_pair_in_link",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Tetrahedron.degree_six_outside_triangle",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Tetrahedron.tetrahedron_disjoint_card_le_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ThreeCrossEdges.edge_meets_triangle_mem",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ThreeCrossEdges.three_edge_classes_sum_le_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ThreeCrossEdges.residual_exact_trace_disjoint_anchor",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ThreeCrossEdges.no_common_singleton_residual",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20ThreeCrossEdges.intersecting_triple_singleton_sum_le_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TracePatterns.trace_count_equations",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TracePatterns.intersecting_ten_member_degree_pattern",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TracePatterns.intersecting_ten_regular_six_support",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TraceStructure.mem_matching_union",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TraceStructure.singleton_trace_disjoint_other",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TraceStructure.maximum_matching_singleton_traces_intersect",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TraceStructure.maximum_matching_singleton_residuals_intersect",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TraceStructure.inclusion_maximal_does_not_force_residual_intersection",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleReduction.twenty_one_degree_window",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleReduction.twenty_one_incidence",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleReduction.twenty_one_support_window",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleReduction.twenty_one_on_fifteen_of_counterexample",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleReduction.triple_bound_twenty_iff",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleReduction.sharpTripleCheck_eq_true_iff",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleReduction.triple_bound_twenty_iff_check_false",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleReduction.sharpCandidates_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleWitness.sunflowerFree_of_no_triple",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleWitness.tenTriples_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleWitness.tenTriples_uniform",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleWitness.tenTriples_intersecting",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleWitness.tenTriples_sunflower_free",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleWitness.twentyTriples_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleWitness.twentyTriples_uniform",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleWitness.twentyTriples_sunflower_free",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleWitness.twenty_triples_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20TripleWitness.twenty_power_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10AllMeeting.all_meeting_at_least_fifty_five_degrees_eighteen_to_twenty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10AllMeeting.all_meeting_at_least_fifty_five_degree_seventeen_class_empty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10AllMeeting.all_meeting_at_least_fifty_five_degree_census",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10AllMeeting.eighty_one_three_class_census_profiles",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10AllMeeting.eighty_one_all_meeting_degree_census",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10AllMeeting.no_eighty_seven_or_ninety_two_all_meeting_at_least_fifty_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10AllMeeting.eighty_one_all_meeting_support_seventeen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10BoundaryReduction.meeting_lower_bound_of_intersecting_upper",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10BoundaryReduction.conditional_eighty_one_min_degree_and_support",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10BoundaryReduction.conditional_eighty_one_has_degree_nineteen_or_twenty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10DisjointDegree.disjoint_neighborhoods_disjoint",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10DisjointDegree.twice_min_disjoint_degree_le_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10FiniteEndgame.conditional_eighty_one_support_seventeen_or_eighteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10FiniteEndgame.unrestricted_eighty_of_small_support_eighty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighParity.twenty_link_pair_codegree_zero_or_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighParity.degree_twenty_triple_codegree_zero_or_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighParity.low_star_high_inter_eq",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighParity.low_high_neighbor_star_card_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighParity.low_star_double_high_count_even",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighParity.low_high_transversal_degree_identity",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighParity.low_high_transversal_degree_seventeen_impossible",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighParity.low_high_transversal_degree_nineteen_impossible",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.edgeSupport_comm",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.mem_edgeSupport_iff",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.component_at_high_neighbor",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.edgeSupport_eq_component_erase",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.no_three_common_point_residue",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.no_two_high_neighbors",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.high_point_high_neighbors_le_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.high_edge_support_disjoint_high",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.incident_high_edge_supports_disjoint",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.high_edge_has_single_center_member",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.high_neighbor_symm",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.high_point_low_neighbors_ge_eleven",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.eleven_mul_high_card_le_four_mul_low_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.insert_centers_disjoint",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.no_high_triangle",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.high_neighbors_pairwise_nonadjacent",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.high_edge_support_card_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10HighTriangle.high_edge_single_residue_transfer",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10MinimumDegree.all_meeting_fifty_four_min_degree_seventeen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10Profile54.degree_cap_eighteen_trace_profile54",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10Profile54Bridge.all_meeting_fifty_four_degree_cap_eighteen_traces",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10Profile54Bridge.meeting_at_least_fifty_four_degree_cap_eighteen_traces",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10Profile54DegreeCap.no_all_meeting_fifty_four_of_degree_cap_eighteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10Profile54DegreeCap.exists_anchor_meeting_le_fifty_three_of_degree_cap_eighteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10Profile54DegreeCap.card_le_eighty_of_degree_cap_eighteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10Profile54LowScores.not_two_degree_singleton_scores_le_twenty_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10Profile54Bridge.all_meeting_at_least_fifty_four_ordered_not_two_low_scores",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10Profile54Bridge.meeting_at_least_fifty_four_not_two_low_scores",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10Profile54Score.degree_singleton_score_ge_twenty_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10Profile54Bridge.all_meeting_at_least_fifty_four_ordered_score",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10Profile54Bridge.meeting_at_least_fifty_four_degree_trace_score",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10Profile54Seventeen.singleton_trace_le_nine_of_degree_le_seventeen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V10Profile54Seventeen.degree_seventeen_member_card_le_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.four_degree_census_identity",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.conditional_eighty_one_census",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.fourteen_census_profiles_arithmetic",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.conditional_eighty_one_fourteen_profiles",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.rank_four_pair_codegree_le_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.two_zero_high_stars_degree_sum_le",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.star_zero_high_of_no_high_neighbors",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.zero_high_card_add_twenty_high",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.odd_low_degree_mem_zero_high_support",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.odd_degree_classes_le_four_zero_high_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.conditional_eighty_one_four_independent_high_impossible",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.member_high_cap_one_of_high_neighbors_empty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.star_zero_high_of_outside_common_support",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.three_high_common_twelve_support_impossible",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.conditional_eighty_one_three_high_common_support_impossible",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.conditional_eighty_one_high_card_le_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.conditional_eighty_one_ten_profiles",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.conditional_eighty_one_boundary_structure",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.unrestricted_eighty_of_small_support_two_high_eighty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.eighty_one_min_degree_seventeen_no_independent_high_triple",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.conditional_eighty_one_no_independent_high_triple",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.ten_census_profiles_arithmetic",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Census.conditional_eighty_one_ten_profiles_of_high_card_le_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11DegreeSeventeen.triple_seventeen_min_disjoint_eight_decomposition",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11DegreeSeventeen.degree_seventeen_link_min_disjoint_eight",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11DegreeSeventeen.degree_seventeen_link_eight_nine_decomposition",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11DegreeSeventeen.triple_seventeen_min_disjoint_eight_degree_le_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11DegreeSeventeen.degree_seventeen_pair_codegree_le_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11DegreeSeventeen.exact_disjoint_trace_of_separated_partition",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11DegreeSeventeen.triple_seventeen_exact_disjoint_degree_distribution",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11DegreeSeventeen.degree_seventeen_singleton_trace_eight_or_nine",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeCapacity.outside_core_star_card_le_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeCapacity.degree_le_inside_add_four_of_two_outside_stars",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeCapacity.degree_le_inside_add_four_of_reserved_pairs",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeCapacity.degree_le_fourteen_of_reserved_pairs",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeCapacity.degree_le_twelve_of_reserved_pairs",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeCapacityThree.outside_core_star_card_le_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeCapacityThree.degree_le_inside_add_six_of_two_outside_stars",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeCapacityThree.degree_le_inside_add_six_of_reserved_pairs",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeCapacityThree.degree_le_sixteen_of_three_reserved_pairs",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeCapacityThree.degree_le_fourteen_of_three_reserved_pairs",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgePairs.allowedPairs_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgePairs.allowedPairs_avoiding_block",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgePairs.canonical_noncycle_trace_certificate",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgePairs.original_trace_is_cycle_of_card_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeThird.high_edge_third_high_support_disjoint",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeThird.high_edge_third_high_support_ge_twenty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeThird.ten_zero_or_two_trace_support_disjoint",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeThird.twenty_zero_or_two_trace_support_disjoint",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeThird.third_high_nonadjacent_to_edge",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeThird.third_high_support_disjoint_of_edge_trace",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeThird.twenty_le_support_of_edge_trace_and_third_high",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeTrace.canonical_deleted_trace_certificate",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeTrace.shared_trace_forbidden",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeTrace.image_trace",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11EdgeTrace.high_edge_member_trace_zero_or_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Final.high_neighbors_empty_of_min_degree_fifteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Final.all_meeting_fifty_four_member_high_cap_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Final.conditional_eighty_one_boundary_rigidity",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11Final.unrestricted_eighty_of_small_support_independent_two_high_eighty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11HighSupport.common_high_support_disjoint_high",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11HighSupport.all_high_supports_eq_of_independent_triple",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11HighSupport.member_high_cap_one_of_common_support",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11HighSupport.high_card_le_three_of_common_low_support",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11HighSupport.independent_high_triple_exhausts_high_class",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11HighEdgeCounts.high_edge_residual_point_codegrees",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11HighEdgeCounts.high_edge_residual_point_inside_card_eight",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11HighEdgeDegree.high_edge_residual_point_degree_le_fourteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11HighEdgeDegree.no_high_edge_of_min_degree_fifteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11HighEdgeReserve.allowed_pair_three_reserved_members",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11HighEdgeReserve.allowed_pair_star_card_le_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11HighSupport.twenty_transversal_six_subset_support",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11HighSupport.high_link_twenty_and_support_twelve",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11HighSupport.nonneighbor_not_mem_link_support",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11HighSupport.residue_subset_third_high_support",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V11HighSupport.three_nonadjacent_high_supports_eq",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12DegreeSeventeen.all_meeting_fifty_four_degree_ne_seventeen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12DegreeSeventeen.all_meeting_fifty_four_min_degree_eighteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12Final.conditional_eighty_one_boundary_rigidity",
+    "status": "pass"
+  },
+  {
+    "axioms": [],
+    "root": "Erdos20V12Final.two_profiles_literal",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12HighCard.three_high_pairwise_nonadjacent",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12HighCard.high_points_card_le_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12HighCard.three_high_common_support_structure",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12HighCard.triangle_distinguished_support_le_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12HighCard.six_edges_distinguished_support_le_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12HighCard.three_independent_degree_two_impossible",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12HighCard.three_binary_classes_shared_pair",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12HighCard.twenty_link_binary_pair_classification",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12HighCard.three_twenty_links_shared_pair",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12HighCard.high_center_pair_link_degree_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12HighCard.no_three_high_points",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12HighCard.high_points_card_le_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12HighEdge.high_edge_excludes_third_high",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12HighEdge.high_edge_exhausts_high_class",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12Intersecting.nineteen_transversal_four_has_degree_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12Intersecting.intersecting_degree_nineteen_has_pair_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12Nineteen.nineteen_max_degree_five_contains_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12Nineteen.nineteen_max_degree_five_decomposition",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12Nineteen.nineteen_max_degree_five_no_transversal_four",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12Profile.conditional_eighty_one_degree_class_seventeen_empty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12Profile.conditional_eighty_one_two_profiles",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12Profile.unrestricted_eighty_of_two_boundary_profiles",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12Profile.score_twenty_five_forces_degree_twenty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12Profile.all_meeting_fifty_four_ordered_low_score_high_companion",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12Profile.meeting_fifty_four_low_score_high_companion",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V3Frontier.base_three_rank_nine_obstruction",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V3Frontier.base_three_rank_nine_check",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V3Frontier.base_three_failure_all_universes",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V3Frontier.base_ge_four_all_universes",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V3Frontier.base_three_low_ranks",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V3Frontier.least_base_three_failure_window",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V4Frontier.triple_bound_twenty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V4Frontier.sharp_triple_maximum",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V4Frontier.twenty_one_triples_force_sunflower",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V4Frontier.no_twenty_one_on_fifteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V4Frontier.sharp_triple_check_false",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V4Frontier.sharp_seed_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [],
+    "root": "Erdos20V4Frontier.sharp_seed_values",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V4Frontier.twentyTriples_support_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V4Frontier.sharp_minimum_extremal_support",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V5Frontier.intersecting_ten_design",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V5Frontier.intersecting_ten_no_two_point_transversal",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V5Frontier.intersecting_ten_pair_meets_eight",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V6Bounds.rank_four_card_le_ninety_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V6Bounds.rankFourBound_pos",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V6Bounds.propagated_rank_four_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [],
+    "root": "Erdos20V6Bounds.rankFourBound_values",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V6Bounds.rankFourBound_lt_v5",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V6Bounds.rank_five_card_le_nine_hundred_forty_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V6Bounds.rank_six_card_le_eleven_thousand_two_hundred_ninety_four",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V7Bounds.rank_four_card_le_ninety_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V7Bounds.rankFourBound_pos",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V7Bounds.propagated_rank_four_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [],
+    "root": "Erdos20V7Bounds.rankFourBound_values",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V7Bounds.rankFourBound_lt_v6",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V7Bounds.rank_five_card_le_nine_hundred_twenty_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V7Bounds.rank_six_card_le_eleven_thousand_fifty_four",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Boundary.degree_classes_of_eighty_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Boundary.weighted_high_point_incidence",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8BoundaryReduction.eighty_three_all_meeting_fifty_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8BoundaryReduction.unrestricted_eighty_two_of_boundary_exclusion",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Consequences.eighty_three_exists_anchor_meeting_le_fifty_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Consequences.eighty_three_contains_intersecting_twenty_eight",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Consequences.rank_five_le_eight_hundred_twelve_of_intersecting_twenty_seven",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Consequences.rank_six_le_nine_thousand_seven_hundred_thirty_four_of_intersecting_twenty_seven",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8DesignCounts.independent_supported_subset_card_le_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8DesignCounts.block_counts_total",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8DesignCounts.block_counts_first_moment",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8DesignCounts.block_counts_second_moment",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8DesignCounts.pair_incidence_sum_eq",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8DesignCounts.ten_design_block_count_equations",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8DesignCounts.ten_design_block_counts",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8DesignCounts.blockCount_restrict_support",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8DesignCounts.blockCount_union",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8DesignCounts.degree_twenty_pair_codegree_zero_or_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Final.all_meeting_fifty_six_degrees_nineteen_or_twenty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Final.no_eighty_three_all_meeting_fifty_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Final.unrestricted_upper_eighty_two_of_intersecting_twenty_seven",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Global.disjoint_trace_eq_other_component",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Global.extremal_twenty_disjoint_trace_card_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Global.singleton_residual_eq_empty_link_trace",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Global.degree_twenty_forces_singleton_trace_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Global.meeting_card_le_twice_degree_add_nineteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Global.rank_four_card_le_max_degree_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Global.rank_four_card_le_eighty_two_of_degree_le_fifteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Global.rank_four_large_forces_high_degree",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Global.all_meeting_card_le_degree_add_thirty_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Global.meeting_card_le_degree_add_thirty_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Global.rank_four_card_le_max_of_meeting_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Global.rank_four_card_le_degree_envelope",
+    "status": "pass"
+  },
+  {
+    "axioms": [],
+    "root": "Erdos20V8Global.degree_envelope_values",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Global.rank_four_ninety_two_forces_degree_twenty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8HighDegrees.star_pair_incidence_sum",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8HighDegrees.five_dvd_three_times_degree",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8HighDegrees.no_degree_eighteen_of_high_neighbors_and_pair_degrees",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8HighDegrees.no_degree_eighteen_of_high_neighbors",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8HighWeights.linkWeight_eq_block_counts",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8HighWeights.twenty_link_weight_four_values",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8HighWeights.residual_inter_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8HighWeights.pointWeight_eq_linkWeight",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8HighWeights.residual_support_subset",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8HighWeights.high_point_weight_four_values",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Intersecting.inter_pair_eq_singleton",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Intersecting.intersecting_triples_two_point_transversal_card_le_eight",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Intersecting.intersecting_nine_avoids_pair",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Intersecting.intersecting_nine_transversal_card_ge_three",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Intersecting.intersecting_triples_cross_nonempty_edges_sum_le_nine",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Intersecting.intersecting_triples_cross_nonempty_edges_weighted",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Intersecting.eight_pair_transversal_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Intersecting.triples_with_ten_design_transversal_four_card_le_sixteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Intersecting.avoiding_member_hits_point_link",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Intersecting.rank_four_link_with_ten_design_degree_le_sixteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Intersecting.rank_four_large_degree_link_has_no_ten_design",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Intersecting.rank_four_singleton_pair_trace_sum_le_nine",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Intersecting.rank_four_large_singleton_disjoint_pair_trace_empty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8MeetingProfile.meeting_fifty_six_degree_pattern",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8MeetingProfile.no_weighted_eighty_three_equality",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8MeetingProfile.no_nine_high_point_weighted_equality",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8MeetingProfile.no_nine_point_weight_sum",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8ProfileBridge.all_meeting_fifty_six_ordered_degree_pattern",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8ProfileBridge.degree_meeting_restriction_eq",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8ProfileBridge.meeting_fifty_six_ordered_degree_pattern",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8ProfileBridge.meeting_fifty_six_member_structure",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Saturated.ordered_saturated_singleton_card_le_twenty_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Saturated.saturated_singleton_card_le_twenty_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Saturated.large_intersecting_singleton_trace_le_nine",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8SaturatedWitness.pair_code_check",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "propext"
+    ],
+    "root": "Erdos20V8SaturatedWitness.no_three_equal_intersection_codes",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8SaturatedWitness.family_sunflower_free",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8SaturatedWitness.members_uniform_check",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8SaturatedWitness.family_uniform",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "propext"
+    ],
+    "root": "Erdos20V8SaturatedWitness.positive_intersection_codes",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8SaturatedWitness.family_intersecting",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8SaturatedWitness.family_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8SaturatedWitness.anchor_mem",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8SaturatedWitness.singleton_trace_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8SaturatedWitness.center_degrees_sixteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8SaturatedWitness.saturated_twenty_six_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Stability.intersecting_six_ten_complement_partition",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Stability.ten_three_point_transversal_iff_member",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Stability.triples_cross_ten_design_subset",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Stability.no_common_singleton_residual_at_anchor",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Stability.rank_four_singleton_residual_subset_of_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Stability.rank_four_singleton_sum_le_twenty_of_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Stability.saturated_point_member_contains_active_singleton",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Stability.saturated_trace_or_omitted_singleton_empty",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Targets.intersecting_upper_at_least_twenty_seven",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Targets.not_intersecting_upper_below_twenty_seven",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Targets.not_intersecting_upper_twenty_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Targets.unrestricted_upper_at_least_fifty_four",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Targets.not_unrestricted_upper_below_fifty_four",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Targets.unrestricted_upper_of_intersecting_upper",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V8Targets.unrestricted_upper_eighty_three_of_intersecting_twenty_seven",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9AllMeeting.high_point_weight_mod_fifteen_unconditional",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9AllMeeting.card_mod_five_of_high_transversal_unconditional",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9AllMeeting.exists_member_avoiding_high_of_card_not_mod_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9AllMeeting.no_all_meeting_fifty_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9AllMeeting.exists_anchor_meeting_le_fifty_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9BoundaryArithmetic.no_eighty_two_degree_census",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9Census.degree_predicate_incidence_le",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9Census.degreeClass_sum",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9Census.rank_four_degree_census",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9Consequences.literal_conditional_eighty_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9Consequences.rank_five_le_eight_hundred_two_of_intersecting_twenty_seven",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9Consequences.rank_six_le_nine_thousand_six_hundred_fourteen_of_intersecting_twenty_seven",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9Final.no_eighty_two_all_meeting_at_least_fifty_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9Final.eighty_two_exists_anchor_meeting_le_fifty_four",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9Final.eighty_two_contains_intersecting_twenty_eight",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9Final.unrestricted_upper_eighty_one_of_intersecting_twenty_seven",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibility.twenty_component_at_member",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibility.point_not_mem_residue",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibility.switch_point_link",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibility.switch_triple_link",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibility.triple_link_of_four_member",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibility.high_point_component",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibility.no_three_high_in_four_member",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibility.member_high_points_card_le_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibilityWitness.pair_code_check",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibilityWitness.no_three_equal_intersection_codes",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibilityWitness.family_sunflower_free",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibilityWitness.members_uniform_check",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibilityWitness.family_uniform",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibilityWitness.family_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibilityWitness.anchor_mem",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibilityWitness.high_points_check",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibilityWitness.anchor_high_count_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighCompatibilityWitness.two_high_member_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighGraph.mem_highNeighbors_iff",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighGraph.high_link_cap_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighGraph.high_point_high_neighbors_le_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighGraph.four_mul_low_high_neighbors_le_degree",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighGraph.low_point_high_neighbors_le_four",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighGraph.high_point_low_neighbors_ge_ten",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighGraph.high_low_incidence_identity",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighGraph.ten_mul_high_card_le_four_mul_low_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighIncidence.ten_design_distinguished_support_card_le_one",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighIncidence.twenty_link_distinguished_support_card_le_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighIncidence.twenty_link_point_distinguished_card_le_two",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9HighIncidence.degree_five_distinguished_count",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9IntersectingTriangles.two_points_of_meets_pairs",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9IntersectingTriangles.intersections_have_common_point",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9IntersectingTriangles.shared_edge_triangles_card_le_four",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9IntersectingTriangles.one_point_triangles_card_le_four",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9IntersectingTriangles.two_distinct_triangles_card_le_four",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9IntersectingTriangles.triangle_edges_eq_powerset",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9IntersectingTriangles.crossing_five_forces_triangles_equal",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9IntersectingTriangles.large_singleton_saturated_pair_residuals_equal",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9Profile.degree_pattern55_of_moments",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9ProfileBridge.meeting_at_least_fifty_five_ordered_degree_pattern",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9ProfileBridge.meeting_at_least_fifty_five_member_structure",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9ProfileBridge.all_meeting_at_least_fifty_five_degrees",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9ProfileBridge.meeting_at_least_fifty_five_low_degree_caps",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9ProfileBridge.all_meeting_fifty_five_ordered_degree_pattern",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9WeightCongruence.twenty_link_weight_mod_fifteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9WeightCongruence.high_point_weight_mod_fifteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9WeightCongruence.card_mod_five_of_high_transversal",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9WeightCongruence.no_low_points_of_card_mod_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V9WeightCongruence.no_all_meeting_fifty_six_of_high_cap",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Classical.exists_pairwiseDisjoint_hitting_subfamily",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Classical.pairwiseDisjoint_card_lt_forbidden",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Classical.exists_bounded_hitting_set",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20Classical.erdos_rado_factorial_bound",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "spread_empty_trivial",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "spread_singleton",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "not_spread_implies_heavy_subset",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Nineteen.nineteen_max_degree_five_transversal_ge_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Nineteen.nineteen_transversal_five_has_degree_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Nineteen.max_degree_iff_on_support",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Nineteen.nineteen_max_degree_five_exists_transversal_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Nineteen.nineteen_max_degree_five_transversal_exact_six",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Intersecting.star_union_card_add_pair_codegree",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Intersecting.degree_nineteen_pair_six_partner_bounds",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Intersecting.intersecting_twenty_eight_degree_nineteen_partner_bounds",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Intersecting.upperStar_eq_image_restore_core",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Intersecting.pair_codegree_six_exact_two_triangles",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Endpoint.liftTriple_injective",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Endpoint.family_card",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Endpoint.family_uniform",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Endpoint.family_intersecting",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Endpoint.family_sunflower_free",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Endpoint.center_degree_nineteen",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Endpoint.center_pair_degree_le_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Endpoint.nineteen_member_endpoint_counterexample",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Boundary.direct_two_census_profiles",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Boundary.direct_census_without_positive_witness",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Boundary.conditional_eighty_one_two_profiles_direct",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Boundary.unrestricted_eighty_of_three_open_inputs",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Boundary.overlap_four_rows",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Boundary.residual_degree_rows",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Boundary.two_twelve_subsets_four_rows",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Boundary.high_link_support_subset_low",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Boundary.profile_b_actual_overlap_four_rows",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Boundary.profile_zero_high_member_count",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Boundary.zero_high_degree_add_five_neighbors",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Boundary.zero_high_degree_eq_sub_five_neighbors",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13FiniteReduction.intersecting_mapFamily_iff",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13FiniteReduction.exists_intersecting_fin_relabel",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13FiniteReduction.intersecting_twenty_eight_support_le_eighty_five",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13FiniteReduction.finite_obstruction_of_intersecting_counterexample",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13FiniteReduction.intersecting_upper_twenty_seven_iff_no_finite_obstruction",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13FiniteReduction.intersecting_upper_twenty_seven_large_universe",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13BoundaryLiteral.conditional_boundary_fully_literal",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13BoundaryLiteral.unrestricted_eighty_three_inputs_fully_literal",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V12Profile.meeting_fifty_four_low_score_distinct_high_companion",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Trace.trace_score_identity",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Trace.weighted_companion_identity",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Trace.score_twenty_six_relaxation",
+    "status": "pass"
+  },
+  {
+    "axioms": [],
+    "root": "Erdos20V13Trace.incidence_divisibility",
+    "status": "pass"
+  },
+  {
+    "axioms": [
+      "Quot.sound",
+      "propext"
+    ],
+    "root": "Erdos20V13Trace.five_cannot_divide_nine",
+    "status": "pass"
+  }
+]
