@@ -1,0 +1,344 @@
+{
+  "status": "PASS_INDEPENDENT_IY_COVERAGE_ACTIVE_RECEIPTS",
+  "checker": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/check_d17_p9_iy_coverage.py",
+    "sha256": "7dc515ffdf4cd312ddbf8ee7ced8dfad8ecc1fbe5f295567cbedbe3ed6736af8"
+  },
+  "producer": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v2.py",
+    "sha256": "497f71f4fdf555c7456b42123684e7fd5059769f89662c257e2263425798b31a"
+  },
+  "reconstruction": "one literal S6 census; no producer imports",
+  "p9_automorphism_order": 6,
+  "internal_four_sets": 15,
+  "internal_orbits": [
+    {
+      "case": "IY00",
+      "marker": 15,
+      "points": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "orbit": [
+        15,
+        23,
+        39
+      ]
+    },
+    {
+      "case": "IY01",
+      "marker": 27,
+      "points": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "orbit": [
+        27,
+        46,
+        53
+      ]
+    },
+    {
+      "case": "IY02",
+      "marker": 29,
+      "points": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "orbit": [
+        29,
+        30,
+        43,
+        45,
+        51,
+        54
+      ]
+    },
+    {
+      "case": "IY03",
+      "marker": 57,
+      "points": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "orbit": [
+        57,
+        58,
+        60
+      ]
+    }
+  ],
+  "p8_deletion_orbits": {
+    "P9-P8-i2": {
+      "omitted": [
+        7,
+        13
+      ],
+      "orbit_size": 15
+    },
+    "P9-P8-i1": {
+      "omitted": [
+        7,
+        25
+      ],
+      "orbit_size": 30
+    }
+  },
+  "opposite_forms": [
+    "P9-P8-i1",
+    "P9-P8-i2",
+    "P9-Q8"
+  ],
+  "active_case_count": 12,
+  "exact_replays_bound": false,
+  "records": [
+    {
+      "kind": "P9-P8-i1",
+      "case": "IY00",
+      "marker": 15,
+      "orbit": [
+        15,
+        23,
+        39
+      ],
+      "receipt": {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i1-IY00-internal-smoke-v2-78c1534344c9.json",
+        "sha256": "56db531426f00c970b990cd955b8bfc6659c7950c24a2874c7b5b4e607480d38"
+      },
+      "premise_sha256": "78c1534344c9f5b5834f345783b214d14fc5cf6dbe66d358fb1de50b8ceaa13d",
+      "reported_numerator": 461057181490,
+      "scale": 10000000000,
+      "reported_margin_numerator": 48942818510,
+      "scalar_assurance": "reported H/correction consistency only; coefficient replay is separate"
+    },
+    {
+      "kind": "P9-P8-i1",
+      "case": "IY01",
+      "marker": 27,
+      "orbit": [
+        27,
+        46,
+        53
+      ],
+      "receipt": {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i1-IY01-internal-smoke-v2-abd6d211748f.json",
+        "sha256": "26e9f9f0337495ff0587a1d2f80a98253199dc39ce09afc83809f24bccb49880"
+      },
+      "premise_sha256": "abd6d211748f91116171c509498755591d73d6f8e42c98bed83ab88db890da0a",
+      "reported_numerator": 483684217594,
+      "scale": 10000000000,
+      "reported_margin_numerator": 26315782406,
+      "scalar_assurance": "reported H/correction consistency only; coefficient replay is separate"
+    },
+    {
+      "kind": "P9-P8-i1",
+      "case": "IY02",
+      "marker": 29,
+      "orbit": [
+        29,
+        30,
+        43,
+        45,
+        51,
+        54
+      ],
+      "receipt": {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i1-IY02-internal-smoke-v2-b347bcce0eb1.json",
+        "sha256": "11950929b8f9fbc09596f4ee4b2e690bb838d8cfb4b80acb48a64fddf6e8ff5f"
+      },
+      "premise_sha256": "b347bcce0eb13831e40c0a15c4367d7bd4d8f764076cc329568fdab0ecd4aa3c",
+      "reported_numerator": 479757888637,
+      "scale": 10000000000,
+      "reported_margin_numerator": 30242111363,
+      "scalar_assurance": "reported H/correction consistency only; coefficient replay is separate"
+    },
+    {
+      "kind": "P9-P8-i1",
+      "case": "IY03",
+      "marker": 57,
+      "orbit": [
+        57,
+        58,
+        60
+      ],
+      "receipt": {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i1-IY03-internal-smoke-v2-f238935e7c0a.json",
+        "sha256": "fe01da35069b7f3e780d7063ccdeb268edd31188083fb17404b447bc78e0b52b"
+      },
+      "premise_sha256": "f238935e7c0a4ef08bd6fc924aa2a9766913d6bc1f8af9653202e332dcc4ce72",
+      "reported_numerator": 501629544370,
+      "scale": 10000000000,
+      "reported_margin_numerator": 8370455630,
+      "scalar_assurance": "reported H/correction consistency only; coefficient replay is separate"
+    },
+    {
+      "kind": "P9-P8-i2",
+      "case": "IY00",
+      "marker": 15,
+      "orbit": [
+        15,
+        23,
+        39
+      ],
+      "receipt": {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i2-IY00-internal-smoke-v2-0dcb4ceba6fa.json",
+        "sha256": "ae65a3b2877a550458768f9a3ca6258f3931d298a598a985f99d142276f8d050"
+      },
+      "premise_sha256": "0dcb4ceba6fa29e9835c7eea69e67b9ab065e2c73a4ff158092e554651ebdf8b",
+      "reported_numerator": 461057181938,
+      "scale": 10000000000,
+      "reported_margin_numerator": 48942818062,
+      "scalar_assurance": "reported H/correction consistency only; coefficient replay is separate"
+    },
+    {
+      "kind": "P9-P8-i2",
+      "case": "IY01",
+      "marker": 27,
+      "orbit": [
+        27,
+        46,
+        53
+      ],
+      "receipt": {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i2-IY01-internal-smoke-v2-3f23f5a89da8.json",
+        "sha256": "b9823338b2ef6b9d4371de4eba4a3bd3a04796bb30aa4914b941d97230a581ef"
+      },
+      "premise_sha256": "3f23f5a89da8f8a28b905feab28d7263f090dcca8691dc77cce8724d7c615152",
+      "reported_numerator": 483684216099,
+      "scale": 10000000000,
+      "reported_margin_numerator": 26315783901,
+      "scalar_assurance": "reported H/correction consistency only; coefficient replay is separate"
+    },
+    {
+      "kind": "P9-P8-i2",
+      "case": "IY02",
+      "marker": 29,
+      "orbit": [
+        29,
+        30,
+        43,
+        45,
+        51,
+        54
+      ],
+      "receipt": {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i2-IY02-internal-smoke-v2-9fda841b237a.json",
+        "sha256": "bae34750de321a63dc7430ad13c5bebc7673a6056812d231d7600da30d795816"
+      },
+      "premise_sha256": "9fda841b237a82a201d23b64077d25982351087279a7e0183f5bbbfe108232cc",
+      "reported_numerator": 479757888573,
+      "scale": 10000000000,
+      "reported_margin_numerator": 30242111427,
+      "scalar_assurance": "reported H/correction consistency only; coefficient replay is separate"
+    },
+    {
+      "kind": "P9-P8-i2",
+      "case": "IY03",
+      "marker": 57,
+      "orbit": [
+        57,
+        58,
+        60
+      ],
+      "receipt": {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i2-IY03-internal-smoke-v2-d89a38b5a518.json",
+        "sha256": "e3053f77e52151b900bbf627e4610d7338db47579e89ecb1f712593fa0add433"
+      },
+      "premise_sha256": "d89a38b5a5180adb75b4162ea78435309232fadbe30814457ceb61213aa9a724",
+      "reported_numerator": 501629543597,
+      "scale": 10000000000,
+      "reported_margin_numerator": 8370456403,
+      "scalar_assurance": "reported H/correction consistency only; coefficient replay is separate"
+    },
+    {
+      "kind": "P9-Q8",
+      "case": "IY00",
+      "marker": 15,
+      "orbit": [
+        15,
+        23,
+        39
+      ],
+      "receipt": {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-IY00-internal-smoke-v2-e47696284ec0.json",
+        "sha256": "f6157fa51e0e05de70cd81969d4fa318f505ab550fddd24ccba71d0529c50fd0"
+      },
+      "premise_sha256": "e47696284ec00136e2a04a09322a2487ae243058fa84f76271e9a0275ce1a4ee",
+      "reported_numerator": 451057181910,
+      "scale": 10000000000,
+      "reported_margin_numerator": 58942818090,
+      "scalar_assurance": "reported H/correction consistency only; coefficient replay is separate"
+    },
+    {
+      "kind": "P9-Q8",
+      "case": "IY01",
+      "marker": 27,
+      "orbit": [
+        27,
+        46,
+        53
+      ],
+      "receipt": {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-IY01-internal-smoke-v2-4b088a04720a.json",
+        "sha256": "7532edaf0f4dba4c145033aecc0aa4f0fbd6529114bc1d33082edff9c1b685c0"
+      },
+      "premise_sha256": "4b088a04720ac09d444725ba0926c40e4dbdfdf9160ade8408934fa520b5eabc",
+      "reported_numerator": 473684217800,
+      "scale": 10000000000,
+      "reported_margin_numerator": 36315782200,
+      "scalar_assurance": "reported H/correction consistency only; coefficient replay is separate"
+    },
+    {
+      "kind": "P9-Q8",
+      "case": "IY02",
+      "marker": 29,
+      "orbit": [
+        29,
+        30,
+        43,
+        45,
+        51,
+        54
+      ],
+      "receipt": {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-IY02-internal-smoke-v2-135ceeccfc2e.json",
+        "sha256": "5ebbd322c21937283d7d34e0b121be239bd3d04dfc672c91014488d818555015"
+      },
+      "premise_sha256": "135ceeccfc2e79daaa30f9e6dc3c7a50fb9eb2996454409edd02174ae3f2c68c",
+      "reported_numerator": 469757888761,
+      "scale": 10000000000,
+      "reported_margin_numerator": 40242111239,
+      "scalar_assurance": "reported H/correction consistency only; coefficient replay is separate"
+    },
+    {
+      "kind": "P9-Q8",
+      "case": "IY03",
+      "marker": 57,
+      "orbit": [
+        57,
+        58,
+        60
+      ],
+      "receipt": {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-IY03-internal-smoke-v2-982cf208ee7a.json",
+        "sha256": "4f161804f76006ebf49db89b0d0200562faf247262a6102fff3443339ab3c3d1"
+      },
+      "premise_sha256": "982cf208ee7a9668ce7a8c3c192fd38d1b985a29445822d70413d2084fca9988",
+      "reported_numerator": 491629544557,
+      "scale": 10000000000,
+      "reported_margin_numerator": 18370455443,
+      "scalar_assurance": "reported H/correction consistency only; coefficient replay is separate"
+    }
+  ],
+  "all_inputs_unchanged": true,
+  "elapsed_seconds": 0.04952523599968117,
+  "assurance": "independent finite marker coverage and input binding; arbitrary-support family bridge and prior I8 classification remain ordinary imports; no model build, solver, new dual replay or Lean"
+}

@@ -1,0 +1,54 @@
+{
+  "agent_id": "/root/review80_coordinator/typesetter",
+  "role": "typesetter",
+  "context_id": "/root/review80_coordinator/typesetter",
+  "round": 1,
+  "snapshot_sha256": "9c981e93769180665f8e1003e30db2aa0fdb52c055b579a03c361bcc9b5c2849",
+  "manuscript_sha256": "2d1614a3ebd4ec37bfb6829ba68c462bbfb9ea678193e94baabed01893f5967d",
+  "summary": "The frozen source presents the question and contribution in a coherent theorem-first structure: inherited inputs precede the claims, the two proof sections follow their statement order, and the assurance boundary appears before reproducibility detail. Mathematical source is inspectable, but this first snapshot contains no rendered HTML or PDF, so visual readability and cross-format fidelity remain untested.",
+  "evidence_ids": [],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "T1-prose-number-spacing",
+      "statement": "Section 3.2 contains joined tokens \"by9\" and \"by5\"; Section 4 contains \"plus2\" and Section 4.1 \"is66\". These are minor source typography defects in sentences explaining the displayed arithmetic.",
+      "severity": "minor",
+      "status": "open",
+      "disposition": "Insert normal word/number spacing before the integrated-manuscript render.",
+      "evidence_ids": []
+    },
+    {
+      "id": "T1-render-coverage",
+      "statement": "No rendered HTML or PDF belongs to this snapshot. Long Lean declarations in the Section 5 table and mixed Unicode inline notation/TeX display notation require later rendered inspection.",
+      "severity": "note",
+      "status": "open",
+      "disposition": "Reserve visual and cross-format acceptance until frozen rendered artifacts exist; no visual inspection is claimed now.",
+      "evidence_ids": []
+    }
+  ],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Question, definitions and claim hierarchy",
+      "method": "Read the exact frozen manuscript from title through references and map abstract claims to numbered statements and subsequent proof sections.",
+      "observation": "Theorem 1 is followed by the Section 3 proof; Theorem 2 by Section 4; Theorem 3 explicitly relies on inherited classification and the two exclusions. Corollary 4 visibly retains its external I(27) dependency, so the typography and heading hierarchy do not conflate ordinary and local formal claims.",
+      "result": "supported",
+      "evidence_ids": []
+    },
+    {
+      "scope": "Mathematical source readability",
+      "method": "Count display delimiters, inspect the six displayed equation blocks and the principal-root table, and search for words joined to digits in the explanatory arithmetic.",
+      "observation": "All twelve display delimiters pair into six blocks, equations occupy their own paragraphs, and the seven principal roots have descriptive row labels. Four joined prose/number tokens need copy cleanup. The longest root name is too long to assume ordinary table wrapping without a rendered check.",
+      "result": "supported",
+      "evidence_ids": []
+    },
+    {
+      "scope": "Visual QA and cross-format fidelity",
+      "method": "Inspect the frozen snapshot evidence inventory for HTML/PDF preview evidence.",
+      "observation": "The inventory contains no rendered preview evidence. Font coverage, equation layout, page breaks and table overflow have not yet been visually checked.",
+      "result": "inconclusive",
+      "evidence_ids": []
+    }
+  ]
+}

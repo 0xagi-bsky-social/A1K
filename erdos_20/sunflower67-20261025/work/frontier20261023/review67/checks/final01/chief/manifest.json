@@ -1,0 +1,15 @@
+{
+  "audit": "separate-final-chief-1",
+  "manuscript_sha256": "ec6872777eecaeca0563978e849f2b2fce2c48eb9e28e2efed87ba64b3128bb9",
+  "method": "Fresh standard-library literal enumeration and scalar controls; no producer import, solver, compiler or network retrieval.",
+  "files": [
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/final01/chief/bounded_checks.py",
+      "sha256": "befb0691ce677a9ab9ea30a81fd2bcaea24990ca28408f208307710d7d720ca5"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/final01/chief/results.json",
+      "sha256": "d6d2c3a579622d0e36b3bda6c752fbd05478ee3cf8b3c58ee58958d62b76982a"
+    }
+  ]
+}

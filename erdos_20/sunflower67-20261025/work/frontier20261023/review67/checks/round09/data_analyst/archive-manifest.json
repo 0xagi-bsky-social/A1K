@@ -1,0 +1,15 @@
+{
+  "method": "Byte-identical preservation of actual reviewer-authored check files after observed final response.",
+  "files": [
+    {
+      "source": "/tmp/r67_data_round09/checks.json",
+      "preserved": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/data_analyst/checks.json",
+      "sha256": "2e1558b98f064c5cf0733ac0a16392eca8457ac6d31e60d9d0fb65f4304ebb47"
+    },
+    {
+      "source": "/tmp/r67_data_round09/checks.py",
+      "preserved": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/data_analyst/checks.py",
+      "sha256": "df3480c5b587c3bb72c1dd3a17a182bf420b89a094a3d78dc8079fdae4da4fc8"
+    }
+  ]
+}

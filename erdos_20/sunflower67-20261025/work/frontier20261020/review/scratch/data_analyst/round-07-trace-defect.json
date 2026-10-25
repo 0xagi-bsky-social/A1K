@@ -1,0 +1,13 @@
+{
+  "meaning": "nonnegative exact trace count relaxation, not realizable-family assertion",
+  "minimum_disjoint": 9,
+  "boundary_example": [
+    9,
+    40,
+    11,
+    0,
+    1,
+    66
+  ],
+  "feasible_count_vectors": 7393
+}

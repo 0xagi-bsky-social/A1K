@@ -1,0 +1,41 @@
+{
+  "round": 8,
+  "agent_id": "/root/r67_alpha",
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 work/frontier20261023/review67/checks/round08/alpha/controls.py",
+  "exit_code": 0,
+  "execution_scope": "Bounded standard-library literal controls; no broad replay.",
+  "artifacts": [
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round08/alpha/controls.py",
+      "sha256": "642f7215e225c85ae3e8c45ea454720b87d72cd72ffc0eb46c129336db546712"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round08/alpha/results.json",
+      "sha256": "9853f16334dd4a92d2524aa65cd3901270d10c74569d692a9c93e1631d0069b2"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D19-model-bridge.md",
+      "sha256": "5e2dfb5ac4f9efe6d2975ccd853706863dc0ea19883850d6fd1e80825766e68d"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree19_projection_v5.py",
+      "sha256": "d1a03f5ad7cf0a6526023f87aad9ce744e798c9396dde298dee336eeac069ba3"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/internal-proof.md",
+      "sha256": "8140e8c40c798c6d81b898960b61efb520bc1f652c27c6f6f08dee53ced08524"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/check_internal_certificate.py",
+      "sha256": "2d7f3e50ece295fbc68dc0793754736565c8450865f9111929db52c2e66311ec"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/C5-internal-compatibility.md",
+      "sha256": "056dea7da66635141b1350a4cc761bbdc11f1e7c7a755fa042c162d0dfd86c17"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/LOW15-direct-Jin-A3-addon.md",
+      "sha256": "1ad9d57a72093d5e153b5bc0624e0068d70960a79a3c2c66ddbb3acc30fa7252"
+    }
+  ]
+}

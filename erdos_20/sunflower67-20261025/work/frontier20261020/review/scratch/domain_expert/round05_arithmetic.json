@@ -1,0 +1,87 @@
+{
+  "integer_overlap_caps": [
+    {
+      "q": 0,
+      "m_max": 0
+    },
+    {
+      "q": 1,
+      "m_max": 4
+    },
+    {
+      "q": 2,
+      "m_max": 9
+    },
+    {
+      "q": 3,
+      "m_max": 13
+    },
+    {
+      "q": 4,
+      "m_max": 18
+    },
+    {
+      "q": 5,
+      "m_max": 22
+    },
+    {
+      "q": 6,
+      "m_max": 27
+    },
+    {
+      "q": 7,
+      "m_max": 31
+    },
+    {
+      "q": 8,
+      "m_max": 36
+    },
+    {
+      "q": 9,
+      "m_max": 40
+    },
+    {
+      "q": 10,
+      "m_max": 39
+    },
+    {
+      "q": 11,
+      "m_max": 37
+    },
+    {
+      "q": 12,
+      "m_max": 36
+    }
+  ],
+  "census_window": [
+    [
+      9,
+      28,
+      24
+    ],
+    [
+      10,
+      26,
+      25
+    ],
+    [
+      11,
+      24,
+      26
+    ],
+    [
+      12,
+      22,
+      27
+    ]
+  ],
+  "degree_sum_H2": 66,
+  "meeting_cap": 52,
+  "completion_min": 9,
+  "weighted_elimination": [
+    37,
+    1512,
+    1517
+  ],
+  "weakened_other_degree_cap_20_max_residual": 45
+}

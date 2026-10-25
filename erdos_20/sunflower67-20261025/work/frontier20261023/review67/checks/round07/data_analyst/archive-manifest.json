@@ -1,0 +1,25 @@
+{
+  "scope": "Byte-identical preservation of actual reviewer controls; no review vote inferred",
+  "files": [
+    {
+      "source": "/tmp/r67_data_round07/checks.py",
+      "preserved": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round07/data_analyst/checks.py",
+      "sha256": "ad20b61d28c45f1128d878cc36178b6b65f0166698947bb489b0d8c11c4442b3"
+    },
+    {
+      "source": "/tmp/r67_data_round07/checks.json",
+      "preserved": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round07/data_analyst/checks.json",
+      "sha256": "fb33b4c572b7925a4a19fb5edaf4172c3c0ee4edc716de90d8c3ca46bb371bd5"
+    },
+    {
+      "source": "/tmp/r67_data_round07/optimized-type-controls.json",
+      "preserved": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round07/data_analyst/optimized-type-controls.json",
+      "sha256": "d56aca9bc4be8219999a1069a8e616bf27db7dc85c36e77ee52b8df7d980d1a4"
+    },
+    {
+      "source": "/tmp/r67_data_round07/pass-accounting.json",
+      "preserved": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round07/data_analyst/pass-accounting.json",
+      "sha256": "9a222218b71d662c258ecd80dfe1005815e56686c71f73fe7366cfb49594da89"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20CrossBounds",
+  "source_sha256": "c4beb45efd5f8c35e8890a8fc52ed73679a86d19210044af7f6c33e0dd0595ae",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20CrossBounds.olean",
+    "SunflowerLean/Erdos20CrossBounds.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 4.622,
+  "output": ""
+}

@@ -1,0 +1,51 @@
+{
+  "agent_id": "/root/review_coordinator/citation_verifier",
+  "role": "citation_verifier",
+  "context_id": "/root/review_coordinator/citation_verifier",
+  "round": 9,
+  "snapshot_sha256": "857bbfd81dca2ae61ee6af3097e6b29403b49028356b723e6e51b6c0640292a8",
+  "manuscript_sha256": "3ee74792dff98a43231d07100d0034b485a6f91beb2b565ffb15d22f5a40e365",
+  "summary": "The reference [5] delivery defect is resolved at the filesystem and artifact-identity level. Current frozen and rendered-file hashes match. Cross-viewer PDF link activation remains untested.",
+  "evidence_ids": [
+    "F30",
+    "F35",
+    "F37"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "/root/review_coordinator/citation_verifier:round-8:required-revision-1",
+      "statement": "Both formerly missing sibling targets now exist and match the planned publication targets.",
+      "severity": "minor",
+      "status": "resolved",
+      "disposition": "Accept the staged-layout repair while retaining the PDF-viewer behavior limitation.",
+      "evidence_ids": [
+        "F30",
+        "F35",
+        "F37"
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "/root/review_coordinator/citation_verifier:round-8:required-revision-1",
+      "action": "Independently resolved actual HTML/PDF reference [5] URIs and hashed preview/publication target files.",
+      "result": "Manifest hashes match a2077296… and archive hashes match F30's 81665e2e… in both locations.",
+      "status": "resolved"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Reference [5] repaired delivery",
+      "method": "Parsed F35 HTML hrefs/PDF annotations and checked F37 target paths directly.",
+      "observation": "Both formats retain the intended relative targets. Each resolves from the preview directory to an existing file; planned-release sibling files have identical bytes. The archive digest equals F30, and PDF bibliography text preserves both labels. These checks establish path and content correctness, without certifying every PDF viewer's handling of relative URI actions.",
+      "result": "supported",
+      "evidence_ids": [
+        "F30",
+        "F35",
+        "F37"
+      ]
+    }
+  ]
+}

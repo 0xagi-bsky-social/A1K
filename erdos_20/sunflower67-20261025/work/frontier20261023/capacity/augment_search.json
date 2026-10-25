@@ -1,0 +1,192 @@
+[
+  {
+    "p": 0,
+    "q": 1,
+    "kind": "weighted",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "selected": [
+      127,
+      213,
+      251,
+      254,
+      286,
+      355,
+      381,
+      439,
+      443,
+      445,
+      463,
+      475,
+      493,
+      494,
+      502
+    ],
+    "card": 15,
+    "top": {
+      "ports": [
+        0,
+        1
+      ],
+      "matrix": [
+        1127,
+        1488,
+        622,
+        1127
+      ],
+      "exploratory_rate": 1.5678015201687483
+    }
+  },
+  {
+    "p": 0,
+    "q": 1,
+    "kind": "card",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "selected": [
+      127,
+      213,
+      251,
+      254,
+      286,
+      355,
+      381,
+      439,
+      443,
+      445,
+      463,
+      475,
+      493,
+      494,
+      502
+    ],
+    "card": 15,
+    "top": {
+      "ports": [
+        0,
+        1
+      ],
+      "matrix": [
+        1127,
+        1488,
+        622,
+        1127
+      ],
+      "exploratory_rate": 1.5678015201687483
+    }
+  },
+  {
+    "p": 0,
+    "q": 3,
+    "kind": "weighted",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "selected": [
+      118,
+      223,
+      251,
+      253,
+      319,
+      333,
+      379,
+      403,
+      445,
+      446,
+      478,
+      487,
+      491,
+      494,
+      501
+    ],
+    "card": 15,
+    "top": {
+      "ports": [
+        0,
+        1
+      ],
+      "matrix": [
+        1127,
+        1488,
+        622,
+        1127
+      ],
+      "exploratory_rate": 1.5678015201687483
+    }
+  },
+  {
+    "p": 0,
+    "q": 4,
+    "kind": "weighted",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "selected": [
+      118,
+      223,
+      251,
+      253,
+      319,
+      333,
+      379,
+      403,
+      445,
+      446,
+      478,
+      487,
+      491,
+      494,
+      501
+    ],
+    "card": 15,
+    "top": {
+      "ports": [
+        0,
+        1
+      ],
+      "matrix": [
+        1127,
+        1488,
+        622,
+        1127
+      ],
+      "exploratory_rate": 1.5678015201687483
+    }
+  },
+  {
+    "p": 0,
+    "q": 6,
+    "kind": "weighted",
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "selected": [
+      127,
+      213,
+      251,
+      254,
+      286,
+      355,
+      381,
+      439,
+      443,
+      445,
+      463,
+      475,
+      493,
+      494,
+      502
+    ],
+    "card": 15,
+    "top": {
+      "ports": [
+        0,
+        1
+      ],
+      "matrix": [
+        1127,
+        1488,
+        622,
+        1127
+      ],
+      "exploratory_rate": 1.5678015201687483
+    }
+  }
+]

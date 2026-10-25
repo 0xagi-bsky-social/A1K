@@ -1,0 +1,82 @@
+{
+  "two_star_integer_bounds": [
+    {
+      "q": 0,
+      "m_max": 0
+    },
+    {
+      "q": 1,
+      "m_max": 4
+    },
+    {
+      "q": 2,
+      "m_max": 9
+    },
+    {
+      "q": 3,
+      "m_max": 13
+    },
+    {
+      "q": 4,
+      "m_max": 18
+    },
+    {
+      "q": 5,
+      "m_max": 22
+    },
+    {
+      "q": 6,
+      "m_max": 27
+    },
+    {
+      "q": 7,
+      "m_max": 31
+    },
+    {
+      "q": 8,
+      "m_max": 36
+    },
+    {
+      "q": 9,
+      "m_max": 40
+    },
+    {
+      "q": 10,
+      "m_max": 39
+    },
+    {
+      "q": 11,
+      "m_max": 37
+    },
+    {
+      "q": 12,
+      "m_max": 36
+    }
+  ],
+  "maximum_residual_count": 40,
+  "profile_a_admissible_count_triples_n0_n1_n2": [
+    [
+      9,
+      28,
+      24
+    ],
+    [
+      10,
+      26,
+      25
+    ],
+    [
+      11,
+      24,
+      26
+    ],
+    [
+      12,
+      22,
+      27
+    ]
+  ],
+  "completion_bound": 52,
+  "minimum_disjoint_completions": 9,
+  "contradiction_margin": 4
+}

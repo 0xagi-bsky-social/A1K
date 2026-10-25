@@ -1,0 +1,1676 @@
+{
+  "kind": "P8-i1",
+  "case": "I02",
+  "empty_z": false,
+  "assigned_z": null,
+  "forbidden": [],
+  "forbid_four_core": false,
+  "degree_distributions": false,
+  "crowding_imports": true,
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "target_residuals": 50,
+  "point_cap": 18,
+  "mu": 41,
+  "columns": 66546,
+  "trace_columns": 794,
+  "upper_rows": 961,
+  "equal_rows": 144,
+  "catalogue_sizes": [
+    541,
+    541,
+    541,
+    541,
+    541,
+    541,
+    541,
+    541,
+    541,
+    541,
+    8703,
+    10967,
+    8703,
+    6110,
+    6110,
+    6583,
+    6583,
+    6583
+  ],
+  "build_seconds": 0.41439973099932104,
+  "solver_time_limit_seconds": 20,
+  "seconds": 1.8257587559992317,
+  "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+  "imported_local43_sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+  "structural_note_sha256": "3ca78644de3e4aaab94372300b9b3f3801ae79ba73766d2784d39d741302fc33",
+  "pool_note_sha256": "7a5422df629f7f9e5137be88b9d7fdf52ccf39f309fd1fdc49a728dea24803a8",
+  "literal_premises": [
+    "F is a finite simple SF4 family; empty sunflower cores are forbidden.",
+    "|F| >= 68, d(x)=18, and the global maximum point degree is at most 18.",
+    "The complete root link is the recorded disjoint P10 + P8-i1.",
+    "H27, exact-anchor caps 10/3/1, global incidence caps 18/6/2, and the universal local43 structural lemmas are imported.",
+    "Every actual anchor has closed neighbourhood at least 41 and each pair in it has degree sum at least 19.",
+    "All four-point members wholly inside Y are absent. This imports the new mu41 P10-internal exclusions; this script does not replay them.",
+    "All Z internals remain free except the explicit branch restrictions below.",
+    "C5/P5 costs and whole-component singleton lower bounds use the ordinary lemmas in D18-structural-tools.md and literal six-point-support checks.",
+    "When s>=8 or d>=17 and k is 8,9,10, the complete rooted point-link graph must occur in the classified intersecting I_k templates; no I7 graph classification is used.",
+    "Y singleton-pool H27, 5h+9b<=59, b<=6, 2P+7h<=110 and conditional pool penalties use the ordinary P10 proofs in that note.",
+    "The fifteen Y pair-pool HP16 rows additionally use the ordinary near-doubled-P10 argument in D18-pool-research.md under |F|>=68 and global degree cap18.",
+    "Prior-art cross15 and crowding26 are enabled: Y pair-pool sums are at most15, and the three largest exact singleton counts at each actual anchor sum to at most26. The written arbitrary-support bridge and Oct20 normal/optimized replays are imported, hash-bound dependencies, not rerun here.",
+    "The local43 call uses emin=17 and bootstrap parameters r10=r9=0; no minimum positive degree or finite exterior support is assumed.",
+    {
+      "case": "I02",
+      "actual_marker": 1920,
+      "empty_z": false,
+      "assigned_z": null,
+      "forbidden": [],
+      "forbid_four_core": false,
+      "degree_distributions": false,
+      "crowding_imports": true
+    }
+  ],
+  "geometry": {
+    "kind": "P8-i1",
+    "root": 15,
+    "Y": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Z": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "exterior_marker": 12,
+    "link": [
+      7,
+      35,
+      13,
+      25,
+      49,
+      22,
+      26,
+      42,
+      44,
+      52,
+      2240,
+      832,
+      3136,
+      1408,
+      1664,
+      2688,
+      2816,
+      3328
+    ],
+    "omitted_local_p10_blocks": [
+      7,
+      25
+    ],
+    "p8_deletion_orbit": [
+      [
+        7,
+        25
+      ],
+      [
+        7,
+        26
+      ],
+      [
+        7,
+        42
+      ],
+      [
+        7,
+        44
+      ],
+      [
+        7,
+        49
+      ],
+      [
+        7,
+        52
+      ],
+      [
+        13,
+        22
+      ],
+      [
+        13,
+        26
+      ],
+      [
+        13,
+        35
+      ],
+      [
+        13,
+        42
+      ],
+      [
+        13,
+        49
+      ],
+      [
+        13,
+        52
+      ],
+      [
+        22,
+        25
+      ],
+      [
+        22,
+        35
+      ],
+      [
+        22,
+        42
+      ],
+      [
+        22,
+        44
+      ],
+      [
+        22,
+        49
+      ],
+      [
+        25,
+        35
+      ],
+      [
+        25,
+        42
+      ],
+      [
+        25,
+        44
+      ],
+      [
+        25,
+        52
+      ],
+      [
+        26,
+        35
+      ],
+      [
+        26,
+        44
+      ],
+      [
+        26,
+        49
+      ],
+      [
+        26,
+        52
+      ],
+      [
+        35,
+        44
+      ],
+      [
+        35,
+        52
+      ],
+      [
+        42,
+        49
+      ],
+      [
+        42,
+        52
+      ],
+      [
+        44,
+        49
+      ]
+    ],
+    "automorphism_orders": {
+      "Y": 60,
+      "Z": 2,
+      "product": 120
+    },
+    "literal_point_link_shapes": {
+      "0": "C5",
+      "1": "C5",
+      "2": "C5",
+      "3": "C5",
+      "4": "C5",
+      "5": "C5",
+      "6": null,
+      "7": "P5",
+      "8": "P5",
+      "9": "P5",
+      "10": "P5",
+      "11": "C5"
+    },
+    "excluded_Y_internal_count": 15,
+    "records": {
+      "none": {
+        "marker": null,
+        "category": "unmarked",
+        "orbit_size": 0,
+        "orbit": []
+      },
+      "I00": {
+        "marker": 960,
+        "category": "internal-Z",
+        "orbit_size": 2,
+        "orbit": [
+          960,
+          1856
+        ]
+      },
+      "I01": {
+        "marker": 1472,
+        "category": "internal-Z",
+        "orbit_size": 2,
+        "orbit": [
+          1472,
+          1728
+        ]
+      },
+      "I02": {
+        "marker": 1920,
+        "category": "internal-Z",
+        "orbit_size": 1,
+        "orbit": [
+          1920
+        ]
+      },
+      "I03": {
+        "marker": 2496,
+        "category": "internal-Z",
+        "orbit_size": 2,
+        "orbit": [
+          2496,
+          3648
+        ]
+      },
+      "I04": {
+        "marker": 2752,
+        "category": "internal-Z",
+        "orbit_size": 2,
+        "orbit": [
+          2752,
+          3392
+        ]
+      },
+      "I05": {
+        "marker": 2880,
+        "category": "internal-Z",
+        "orbit_size": 1,
+        "orbit": [
+          2880
+        ]
+      },
+      "I06": {
+        "marker": 2944,
+        "category": "internal-Z",
+        "orbit_size": 2,
+        "orbit": [
+          2944,
+          3840
+        ]
+      },
+      "I07": {
+        "marker": 3264,
+        "category": "internal-Z",
+        "orbit_size": 1,
+        "orbit": [
+          3264
+        ]
+      },
+      "I08": {
+        "marker": 3456,
+        "category": "internal-Z",
+        "orbit_size": 2,
+        "orbit": [
+          3456,
+          3712
+        ]
+      },
+      "E4_00": {
+        "marker": 71,
+        "category": "mixed-four-core",
+        "orbit_size": 10,
+        "orbit": [
+          71,
+          77,
+          86,
+          89,
+          90,
+          99,
+          106,
+          108,
+          113,
+          116
+        ]
+      },
+      "E4_01": {
+        "marker": 75,
+        "category": "mixed-four-core",
+        "orbit_size": 10,
+        "orbit": [
+          75,
+          78,
+          83,
+          85,
+          92,
+          101,
+          102,
+          105,
+          114,
+          120
+        ]
+      },
+      "E4_02": {
+        "marker": 135,
+        "category": "mixed-four-core",
+        "orbit_size": 20,
+        "orbit": [
+          135,
+          141,
+          150,
+          153,
+          154,
+          163,
+          170,
+          172,
+          177,
+          180,
+          1031,
+          1037,
+          1046,
+          1049,
+          1050,
+          1059,
+          1066,
+          1068,
+          1073,
+          1076
+        ]
+      },
+      "E4_03": {
+        "marker": 139,
+        "category": "mixed-four-core",
+        "orbit_size": 20,
+        "orbit": [
+          139,
+          142,
+          147,
+          149,
+          156,
+          165,
+          166,
+          169,
+          178,
+          184,
+          1035,
+          1038,
+          1043,
+          1045,
+          1052,
+          1061,
+          1062,
+          1065,
+          1074,
+          1080
+        ]
+      },
+      "E4_04": {
+        "marker": 195,
+        "category": "mixed-four-core",
+        "orbit_size": 30,
+        "orbit": [
+          195,
+          197,
+          198,
+          201,
+          202,
+          204,
+          209,
+          210,
+          212,
+          216,
+          225,
+          226,
+          228,
+          232,
+          240,
+          1091,
+          1093,
+          1094,
+          1097,
+          1098,
+          1100,
+          1105,
+          1106,
+          1108,
+          1112,
+          1121,
+          1122,
+          1124,
+          1128,
+          1136
+        ]
+      },
+      "E4_05": {
+        "marker": 263,
+        "category": "mixed-four-core",
+        "orbit_size": 20,
+        "orbit": [
+          263,
+          269,
+          278,
+          281,
+          282,
+          291,
+          298,
+          300,
+          305,
+          308,
+          519,
+          525,
+          534,
+          537,
+          538,
+          547,
+          554,
+          556,
+          561,
+          564
+        ]
+      },
+      "E4_06": {
+        "marker": 267,
+        "category": "mixed-four-core",
+        "orbit_size": 20,
+        "orbit": [
+          267,
+          270,
+          275,
+          277,
+          284,
+          293,
+          294,
+          297,
+          306,
+          312,
+          523,
+          526,
+          531,
+          533,
+          540,
+          549,
+          550,
+          553,
+          562,
+          568
+        ]
+      },
+      "E4_07": {
+        "marker": 323,
+        "category": "mixed-four-core",
+        "orbit_size": 30,
+        "orbit": [
+          323,
+          325,
+          326,
+          329,
+          330,
+          332,
+          337,
+          338,
+          340,
+          344,
+          353,
+          354,
+          356,
+          360,
+          368,
+          579,
+          581,
+          582,
+          585,
+          586,
+          588,
+          593,
+          594,
+          596,
+          600,
+          609,
+          610,
+          612,
+          616,
+          624
+        ]
+      },
+      "E4_08": {
+        "marker": 387,
+        "category": "mixed-four-core",
+        "orbit_size": 30,
+        "orbit": [
+          387,
+          389,
+          390,
+          393,
+          394,
+          396,
+          401,
+          402,
+          404,
+          408,
+          417,
+          418,
+          420,
+          424,
+          432,
+          1539,
+          1541,
+          1542,
+          1545,
+          1546,
+          1548,
+          1553,
+          1554,
+          1556,
+          1560,
+          1569,
+          1570,
+          1572,
+          1576,
+          1584
+        ]
+      },
+      "E4_09": {
+        "marker": 449,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          449,
+          450,
+          452,
+          456,
+          464,
+          480,
+          1601,
+          1602,
+          1604,
+          1608,
+          1616,
+          1632
+        ]
+      },
+      "E4_10": {
+        "marker": 643,
+        "category": "mixed-four-core",
+        "orbit_size": 30,
+        "orbit": [
+          643,
+          645,
+          646,
+          649,
+          650,
+          652,
+          657,
+          658,
+          660,
+          664,
+          673,
+          674,
+          676,
+          680,
+          688,
+          1283,
+          1285,
+          1286,
+          1289,
+          1290,
+          1292,
+          1297,
+          1298,
+          1300,
+          1304,
+          1313,
+          1314,
+          1316,
+          1320,
+          1328
+        ]
+      },
+      "E4_11": {
+        "marker": 705,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          705,
+          706,
+          708,
+          712,
+          720,
+          736,
+          1345,
+          1346,
+          1348,
+          1352,
+          1360,
+          1376
+        ]
+      },
+      "E4_12": {
+        "marker": 771,
+        "category": "mixed-four-core",
+        "orbit_size": 15,
+        "orbit": [
+          771,
+          773,
+          774,
+          777,
+          778,
+          780,
+          785,
+          786,
+          788,
+          792,
+          801,
+          802,
+          804,
+          808,
+          816
+        ]
+      },
+      "E4_13": {
+        "marker": 833,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          833,
+          834,
+          836,
+          840,
+          848,
+          864
+        ]
+      },
+      "E4_14": {
+        "marker": 897,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          897,
+          898,
+          900,
+          904,
+          912,
+          928,
+          1793,
+          1794,
+          1796,
+          1800,
+          1808,
+          1824
+        ]
+      },
+      "E4_15": {
+        "marker": 1155,
+        "category": "mixed-four-core",
+        "orbit_size": 15,
+        "orbit": [
+          1155,
+          1157,
+          1158,
+          1161,
+          1162,
+          1164,
+          1169,
+          1170,
+          1172,
+          1176,
+          1185,
+          1186,
+          1188,
+          1192,
+          1200
+        ]
+      },
+      "E4_16": {
+        "marker": 1217,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          1217,
+          1218,
+          1220,
+          1224,
+          1232,
+          1248
+        ]
+      },
+      "E4_17": {
+        "marker": 1409,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          1409,
+          1410,
+          1412,
+          1416,
+          1424,
+          1440,
+          1665,
+          1666,
+          1668,
+          1672,
+          1680,
+          1696
+        ]
+      },
+      "E4_18": {
+        "marker": 2055,
+        "category": "mixed-four-core",
+        "orbit_size": 10,
+        "orbit": [
+          2055,
+          2061,
+          2070,
+          2073,
+          2074,
+          2083,
+          2090,
+          2092,
+          2097,
+          2100
+        ]
+      },
+      "E4_19": {
+        "marker": 2059,
+        "category": "mixed-four-core",
+        "orbit_size": 10,
+        "orbit": [
+          2059,
+          2062,
+          2067,
+          2069,
+          2076,
+          2085,
+          2086,
+          2089,
+          2098,
+          2104
+        ]
+      },
+      "E4_20": {
+        "marker": 2115,
+        "category": "mixed-four-core",
+        "orbit_size": 15,
+        "orbit": [
+          2115,
+          2117,
+          2118,
+          2121,
+          2122,
+          2124,
+          2129,
+          2130,
+          2132,
+          2136,
+          2145,
+          2146,
+          2148,
+          2152,
+          2160
+        ]
+      },
+      "E4_21": {
+        "marker": 2179,
+        "category": "mixed-four-core",
+        "orbit_size": 30,
+        "orbit": [
+          2179,
+          2181,
+          2182,
+          2185,
+          2186,
+          2188,
+          2193,
+          2194,
+          2196,
+          2200,
+          2209,
+          2210,
+          2212,
+          2216,
+          2224,
+          3075,
+          3077,
+          3078,
+          3081,
+          3082,
+          3084,
+          3089,
+          3090,
+          3092,
+          3096,
+          3105,
+          3106,
+          3108,
+          3112,
+          3120
+        ]
+      },
+      "E4_22": {
+        "marker": 2241,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          2241,
+          2242,
+          2244,
+          2248,
+          2256,
+          2272,
+          3137,
+          3138,
+          3140,
+          3144,
+          3152,
+          3168
+        ]
+      },
+      "E4_23": {
+        "marker": 2307,
+        "category": "mixed-four-core",
+        "orbit_size": 30,
+        "orbit": [
+          2307,
+          2309,
+          2310,
+          2313,
+          2314,
+          2316,
+          2321,
+          2322,
+          2324,
+          2328,
+          2337,
+          2338,
+          2340,
+          2344,
+          2352,
+          2563,
+          2565,
+          2566,
+          2569,
+          2570,
+          2572,
+          2577,
+          2578,
+          2580,
+          2584,
+          2593,
+          2594,
+          2596,
+          2600,
+          2608
+        ]
+      },
+      "E4_24": {
+        "marker": 2369,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          2369,
+          2370,
+          2372,
+          2376,
+          2384,
+          2400,
+          2625,
+          2626,
+          2628,
+          2632,
+          2640,
+          2656
+        ]
+      },
+      "E4_25": {
+        "marker": 2433,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          2433,
+          2434,
+          2436,
+          2440,
+          2448,
+          2464,
+          3585,
+          3586,
+          3588,
+          3592,
+          3600,
+          3616
+        ]
+      },
+      "E4_26": {
+        "marker": 2689,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          2689,
+          2690,
+          2692,
+          2696,
+          2704,
+          2720,
+          3329,
+          3330,
+          3332,
+          3336,
+          3344,
+          3360
+        ]
+      },
+      "E4_27": {
+        "marker": 2817,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          2817,
+          2818,
+          2820,
+          2824,
+          2832,
+          2848
+        ]
+      },
+      "E4_28": {
+        "marker": 3201,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          3201,
+          3202,
+          3204,
+          3208,
+          3216,
+          3232
+        ]
+      },
+      "E3_00": {
+        "marker": 4163,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 15,
+        "orbit": [
+          4163,
+          4165,
+          4166,
+          4169,
+          4170,
+          4172,
+          4177,
+          4178,
+          4180,
+          4184,
+          4193,
+          4194,
+          4196,
+          4200,
+          4208
+        ]
+      },
+      "E3_01": {
+        "marker": 4227,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 30,
+        "orbit": [
+          4227,
+          4229,
+          4230,
+          4233,
+          4234,
+          4236,
+          4241,
+          4242,
+          4244,
+          4248,
+          4257,
+          4258,
+          4260,
+          4264,
+          4272,
+          5123,
+          5125,
+          5126,
+          5129,
+          5130,
+          5132,
+          5137,
+          5138,
+          5140,
+          5144,
+          5153,
+          5154,
+          5156,
+          5160,
+          5168
+        ]
+      },
+      "E3_02": {
+        "marker": 4289,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 12,
+        "orbit": [
+          4289,
+          4290,
+          4292,
+          4296,
+          4304,
+          4320,
+          5185,
+          5186,
+          5188,
+          5192,
+          5200,
+          5216
+        ]
+      },
+      "E3_03": {
+        "marker": 4355,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 30,
+        "orbit": [
+          4355,
+          4357,
+          4358,
+          4361,
+          4362,
+          4364,
+          4369,
+          4370,
+          4372,
+          4376,
+          4385,
+          4386,
+          4388,
+          4392,
+          4400,
+          4611,
+          4613,
+          4614,
+          4617,
+          4618,
+          4620,
+          4625,
+          4626,
+          4628,
+          4632,
+          4641,
+          4642,
+          4644,
+          4648,
+          4656
+        ]
+      },
+      "E3_04": {
+        "marker": 4417,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 12,
+        "orbit": [
+          4417,
+          4418,
+          4420,
+          4424,
+          4432,
+          4448,
+          4673,
+          4674,
+          4676,
+          4680,
+          4688,
+          4704
+        ]
+      },
+      "E3_05": {
+        "marker": 4481,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 12,
+        "orbit": [
+          4481,
+          4482,
+          4484,
+          4488,
+          4496,
+          4512,
+          5633,
+          5634,
+          5636,
+          5640,
+          5648,
+          5664
+        ]
+      },
+      "E3_06": {
+        "marker": 4737,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 12,
+        "orbit": [
+          4737,
+          4738,
+          4740,
+          4744,
+          4752,
+          4768,
+          5377,
+          5378,
+          5380,
+          5384,
+          5392,
+          5408
+        ]
+      },
+      "E3_07": {
+        "marker": 4865,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 6,
+        "orbit": [
+          4865,
+          4866,
+          4868,
+          4872,
+          4880,
+          4896
+        ]
+      },
+      "E3_08": {
+        "marker": 5249,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 6,
+        "orbit": [
+          5249,
+          5250,
+          5252,
+          5256,
+          5264,
+          5280
+        ]
+      },
+      "E3_09": {
+        "marker": 6147,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 15,
+        "orbit": [
+          6147,
+          6149,
+          6150,
+          6153,
+          6154,
+          6156,
+          6161,
+          6162,
+          6164,
+          6168,
+          6177,
+          6178,
+          6180,
+          6184,
+          6192
+        ]
+      },
+      "E3_10": {
+        "marker": 6209,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 6,
+        "orbit": [
+          6209,
+          6210,
+          6212,
+          6216,
+          6224,
+          6240
+        ]
+      },
+      "E3_11": {
+        "marker": 6273,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 12,
+        "orbit": [
+          6273,
+          6274,
+          6276,
+          6280,
+          6288,
+          6304,
+          7169,
+          7170,
+          7172,
+          7176,
+          7184,
+          7200
+        ]
+      },
+      "E3_12": {
+        "marker": 6401,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 12,
+        "orbit": [
+          6401,
+          6402,
+          6404,
+          6408,
+          6416,
+          6432,
+          6657,
+          6658,
+          6660,
+          6664,
+          6672,
+          6688
+        ]
+      }
+    }
+  },
+  "assurance": "Numerical discovery with an exact integer-box diagnostic of this conditional relaxation; not independent reconstruction, Lean, or a complete branch proof.",
+  "imported_crowding_sources": {
+    "written_arbitrary_support_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/paper/main.tex",
+      "sha256": "4aa36c9d56af5a8e3bdb44749107820549a73e0d3405e6c700104fa4c30e5c21"
+    },
+    "cross15_certificate": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/cross15/results/cross16_certificate.json",
+      "sha256": "fa9e49530acf9170b073c4ed24fde9ae9eb30ff78bf1edeed2a8f21018ed839b"
+    },
+    "cross15_checker": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/cross15/src/verify.py",
+      "sha256": "f72bdb066eb40ebd3a5c072d0ed8431a547d06ae8d5581c408a44326df31422d"
+    },
+    "crowding26_certificate": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/crowding/certificates/crowding26.json.gz",
+      "sha256": "071d5bffc5b12979b5cb908e47f8460531ff08da99597f0e04d409335f8af825"
+    },
+    "crowding26_checker": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/crowding/code/verify.py",
+      "sha256": "397f9ab5cf361a1c6ba547e5fb0ac4a774bba967b26f637e7c951b9ed1104876"
+    },
+    "prior_foundation_ledger": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/FOUNDATION_LEDGER.md",
+      "sha256": "3658ac4e94efe4bc5240856300c79c43d1388085c2126cb926df64dd48881992"
+    },
+    "prior_selected_replay_receipt": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020/RECEIPT.json",
+      "sha256": "930a417d5f24c10056c9b10fb436fc7e52bdb13d327ed262edb895d1fd5eae8f"
+    },
+    "current_prior_delta18_unlock": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/prior-delta18-unlock.json",
+      "sha256": "574774b2a12665f403932dcd45fe8269c84d105d60db367e357f27fa8c10442f"
+    }
+  },
+  "solver_upper": 46.99999999999999,
+  "dual": {
+    "scale": 10000000000,
+    "H": 480000000000,
+    "correction": -10000000000,
+    "upper_numerator": 470000000000,
+    "below50": true,
+    "display": 47.0,
+    "inequality_sign": "nonnegative weights on A*x<=b",
+    "equality_sign": "signed weights on E*x=f",
+    "ineq": [
+      [
+        70,
+        10000000000,
+        [
+          "incidence",
+          1152
+        ]
+      ],
+      [
+        78,
+        10000000000,
+        [
+          "incidence",
+          7
+        ]
+      ],
+      [
+        81,
+        10000000000,
+        [
+          "incidence",
+          35
+        ]
+      ],
+      [
+        88,
+        10000000000,
+        [
+          "incidence",
+          13
+        ]
+      ],
+      [
+        97,
+        10000000000,
+        [
+          "incidence",
+          25
+        ]
+      ],
+      [
+        105,
+        10000000000,
+        [
+          "incidence",
+          49
+        ]
+      ],
+      [
+        134,
+        10000000000,
+        [
+          "incidence",
+          22
+        ]
+      ],
+      [
+        142,
+        10000000000,
+        [
+          "incidence",
+          26
+        ]
+      ],
+      [
+        143,
+        10000000000,
+        [
+          "incidence",
+          42
+        ]
+      ],
+      [
+        179,
+        10000000000,
+        [
+          "incidence",
+          44
+        ]
+      ],
+      [
+        186,
+        10000000000,
+        [
+          "incidence",
+          52
+        ]
+      ],
+      [
+        564,
+        10000000000,
+        [
+          "exact-anchor",
+          35008,
+          192
+        ]
+      ],
+      [
+        616,
+        10000000000,
+        [
+          "exact-anchor",
+          35904,
+          1088
+        ]
+      ],
+      [
+        737,
+        5000000000,
+        [
+          "imported-crowding26",
+          35584,
+          [
+            8,
+            9,
+            15
+          ]
+        ]
+      ],
+      [
+        944,
+        3000000000,
+        [
+          "whole-component-singleton-lower",
+          2688,
+          11
+        ]
+      ]
+    ],
+    "eq": [
+      [
+        120,
+        100000000000
+      ],
+      [
+        122,
+        10000000000
+      ],
+      [
+        123,
+        10000000000
+      ],
+      [
+        124,
+        10000000000
+      ],
+      [
+        127,
+        10000000000
+      ],
+      [
+        128,
+        100000000000
+      ],
+      [
+        129,
+        10000000000
+      ],
+      [
+        133,
+        5000000000
+      ],
+      [
+        134,
+        5000000000
+      ]
+    ]
+  },
+  "primal_trace": [
+    [
+      257,
+      0.6562912205812047
+    ],
+    [
+      513,
+      1.4923569835918837
+    ],
+    [
+      514,
+      4.493092261236335
+    ],
+    [
+      264,
+      3.444889039902961
+    ],
+    [
+      272,
+      3.444889039902961
+    ],
+    [
+      576,
+      1.4559224422256831
+    ],
+    [
+      2176,
+      2.881158257269865
+    ],
+    [
+      3072,
+      2.9578440483867467
+    ],
+    [
+      35,
+      1.0
+    ],
+    [
+      13,
+      1.0
+    ],
+    [
+      25,
+      1.0
+    ],
+    [
+      49,
+      1.0
+    ],
+    [
+      2305,
+      0.18796553672118232
+    ],
+    [
+      2561,
+      0.9145671664321384
+    ],
+    [
+      22,
+      1.0
+    ],
+    [
+      26,
+      0.7201170720545713
+    ],
+    [
+      42,
+      1.0
+    ],
+    [
+      44,
+      1.0
+    ],
+    [
+      52,
+      1.0
+    ],
+    [
+      1092,
+      2.0
+    ],
+    [
+      1156,
+      1.0
+    ],
+    [
+      1540,
+      0.5766790243245218
+    ],
+    [
+      1096,
+      1.0
+    ],
+    [
+      208,
+      1.0
+    ],
+    [
+      224,
+      2.0
+    ],
+    [
+      416,
+      0.3142458034424509
+    ],
+    [
+      1184,
+      2.0
+    ],
+    [
+      896,
+      0.031244368240343885
+    ],
+    [
+      71,
+      1.0
+    ],
+    [
+      337,
+      0.11472644602833329
+    ],
+    [
+      2369,
+      0.9116481266937803
+    ],
+    [
+      90,
+      0.2798829279454287
+    ],
+    [
+      354,
+      0.006907738763665018
+    ],
+    [
+      2628,
+      0.014180829847115786
+    ],
+    [
+      900,
+      0.4429019529308457
+    ],
+    [
+      1796,
+      0.5258536788288104
+    ],
+    [
+      2496,
+      0.11884174273013501
+    ],
+    [
+      2752,
+      0.881158257269865
+    ],
+    [
+      2880,
+      0.0741710434591069
+    ],
+    [
+      3392,
+      0.8953390871169778
+    ],
+    [
+      3648,
+      0.04215595161325307
+    ],
+    [
+      1920,
+      1.0
+    ],
+    [
+      2944,
+      0.11884174273013501
+    ],
+    [
+      3840,
+      0.0021282097296898006
+    ]
+  ],
+  "premise_sha256": "81d1b002252d76d681bdee8e9d0dc8e29001dae40133f72fa897765045e2ac5b"
+}

@@ -1,0 +1,30 @@
+{
+  "agent_id": "/root/review_coordinator/typesetter",
+  "role": "typesetter",
+  "context_id": "/root/review_coordinator/typesetter",
+  "round": 1,
+  "snapshot_sha256": "f856acd6a752c4004dd5110dd510f8652620fc4a3c9d2b8a3526cf81ae47f7ff",
+  "manuscript_sha256": "b19eaddd765466fbf9787cd76c623ab641c64a146d3b46bec520991c935da289",
+  "summary": "The Markdown hierarchy and definition order support the stated finite-reduction contribution. The title, abstract, intermediate bounds, final equivalence, limitations, and references form a coherent reading sequence. This is source-level assessment only; no rendered preview is supplied or visually verified.",
+  "evidence_ids": [],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Document hierarchy and theorem navigation",
+      "method": "Read the frozen Markdown, enumerate heading levels, and trace theorem and equation labels; verify its SHA256 and the canonical snapshot digest.",
+      "observation": "One level-one title and eleven level-two sections have no skipped heading level. Theorems 1–5, Corollary 1, and equations (1)–(9) provide distinct navigation anchors in the source.",
+      "result": "supported",
+      "evidence_ids": []
+    },
+    {
+      "scope": "Notation framing",
+      "method": "Compare initial conventions with subsequent theorem introductions.",
+      "observation": "Rank, support, degree, codegree, empty-core allowance, I(27), and f(r,3) are introduced before the theorem sequence. Later P, W, U, and L receive local definitions. Mixed TeX and indented ASCII formulas require subsequent rendered-page inspection.",
+      "result": "supported",
+      "evidence_ids": []
+    }
+  ]
+}

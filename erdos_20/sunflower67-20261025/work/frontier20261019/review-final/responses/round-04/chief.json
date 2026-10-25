@@ -1,0 +1,27 @@
+{
+  "agent_id": "/root/review_coordinator/chief",
+  "role": "chief",
+  "context_id": "/root/review_coordinator/chief",
+  "round": 4,
+  "snapshot_sha256": "2536810f6e3bf880dbf91b4629e61a1e65623b83253b143c984e7577b5169349",
+  "manuscript_sha256": "a5097eb4be3793ead393f3fdf6450e2250f3d0249c75ffaa740e5e46fd8d6f2c",
+  "summary": "The revised assurance accurately distinguishes the rebuilt project closure from cached external packages. Frozen hashes match. The generic child limitation is explicitly qualified rather than silently discarded. No revision is required for this scoped methods check.",
+  "evidence_ids": [
+    "F29"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Composite source-rebuild provenance and residual trust",
+      "method": "Read both rebuild drivers and composite/child summaries; verified both child-summary hashes and checked all 114 module receipts.",
+      "observation": "The driver requires fresh output directories, builds inherited modules with only the fresh base and package paths, then passes that base to the new-module replay. All 100 inherited and 14 new receipts record stable sources and exit zero; the child lists 66 passing roots within the axiom allowlist. Its reusable cache wording does not negate the outer input binding. The manuscript properly limits the rebuild to the root-reachable project closure and retains Lean, mathlib, third-party caches, and same-controller limitations.",
+      "result": "supported",
+      "evidence_ids": [
+        "F29"
+      ]
+    }
+  ]
+}

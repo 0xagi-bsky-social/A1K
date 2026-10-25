@@ -1,0 +1,15 @@
+{
+  "module": "ProfileABridgeAudit",
+  "source_sha256": "f5bf7e2036647b142121f3223a668f2c7b8eabcdf03963f9f693b17de929592c",
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "--memory=1024",
+    "--threads=1",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/closure-rebuild/build/ProfileABridgeAudit.olean",
+    "ProfileABridgeAudit.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 4.45227857097052,
+  "output": "PROFILE_A_BRIDGE_AXIOM_AUDIT {\"axioms\":[\"Classical.choice\",\"Quot.sound\",\"propext\"],\"root\":\"FrontierProfileABridge.residual_profile_of_profile_a\",\"status\":\"pass\"}\nFrontierProfileABridge.residual_profile_of_profile_a (hA : Erdos20V13Boundary.ProfileARealizable) :\n  \u2203 \u03b1 x, Nonempty (FrontierProfileACounts.ResidualProfileA \u03b1)\n"
+}

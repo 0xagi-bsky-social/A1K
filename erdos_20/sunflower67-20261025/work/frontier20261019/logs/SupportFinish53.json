@@ -1,0 +1,8 @@
+{
+  "file": "SupportFinish53.lean",
+  "source_sha256": "13a27792df1f1c1e2edfdd965ed80d24e28c69555e312fc68da933eeb0d87e46",
+  "source_stable": true,
+  "exit_code": 0,
+  "seconds": 17.015,
+  "output": "'FrontierSupportFinish.intersecting_twenty_eight_support_le_fifty_three' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n"
+}

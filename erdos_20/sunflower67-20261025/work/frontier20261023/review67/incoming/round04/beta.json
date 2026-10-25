@@ -1,0 +1,68 @@
+{
+  "agent_id": "/root/r67_beta",
+  "role": "beta",
+  "context_id": "/root/r67_beta",
+  "round": 4,
+  "snapshot_sha256": "4cf0b3152123ed8cf32e1f9498dc0aa735387f3a9e553fe489ca5ed760ff8b13",
+  "manuscript_sha256": "4adf68f1aeaea84d3ed409ba438aea0d2a001a041b03cc6a4b51c5bff9b23b4f",
+  "summary": "The degree20 method is supported by the inspected ordinary bridges and independent bounded literal-set checks. Internal-completion cost is preserved before internal exclusion; all six subsequent coefficient covers are strict and their marker orbits are complete. The terminal count accommodates arbitrary exterior points and applies H27 only after proving intersection. No revision is required in this scope.",
+  "evidence_ids": ["degree20", "global-dag", "round3-committed"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "beta-R4-F1",
+      "statement": "The internal-stage bound is d(y)-I_y<=15, and its internal-member cost is essential.",
+      "severity": "note",
+      "status": "resolved",
+      "disposition": "The proof and coefficient function retain the subtraction. A separate complete-C5 example has d(y)=16 and I_y=1, so dropping that cost would strengthen the universal premise falsely. The stage-two degree bound is used only after all internal members have been excluded.",
+      "evidence_ids": ["degree20"]
+    },
+    {
+      "id": "beta-R4-F2",
+      "statement": "The degree20 certificates use a smaller explicit universal interface than the older size69 numerical model.",
+      "severity": "note",
+      "status": "resolved",
+      "disposition": "The checked rows use complete-link structure, actual-anchor capacities, C5 bounds, the stated Local51 implication and the elementary E04 row. They do not require the old support23 restriction, mu42 bootstrap, positive minimum degree, or cap18-guarded package. H27 enters the final count.",
+      "evidence_ids": ["degree20", "global-dag"]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "beta-R2-F3",
+      "action": "Extended the finite-interface review to the complete small degree20 coefficient domains and marker coverage.",
+      "result": "The degree20 checks below are reproduced using standalone literal sets and saved row weights, without importing either checker or modifying receipts. This does not reproduce the upstream R16 classification or all other degree branches. Beta has no outstanding required revisions; current manuscript and canonical snapshot hashes match the assignment.",
+      "status": "claim-qualified"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Complete-C5 cost and Local51 geometric prerequisites",
+      "method": "Inspect internal-proof.md, local51-geometry-check.md, C5-internal-compatibility.md and the pinned TRACE_FOUNDATIONS.md D.1; compare the named high-link theorem with paper/main.tex lines 612-636. Independently enumerate the small Local51 integer interface and construct a cost witness.",
+      "observation": "Completeness of the degree20 root star fixes the pair-link C5. The degree18 implication s<=7 => d<=17 uses the universal high-link theorem, not the foundations section that only discusses degree>=19. At anchor {x,1,3,5}, the prescribed extension points 2,0,4 are distinct, giving the stated D8/D9 deductions. All 11483 admitted integer signatures satisfy W<=51, with maximum51. For an explicit cost witness, lift through point99 the five P10 blocks through0, block124, and a disjoint P10 shifted by6: the resulting SF4 has d(99)=16, complete C5 at pair {99,0}, and exactly one relevant internal member, so d-I=15. This tests the universal cost premise rather than a size68 counterexample.",
+      "result": "supported",
+      "evidence_ids": ["degree20"]
+    },
+    {
+      "scope": "Internal-member family-to-coefficient mapping",
+      "method": "Reconstruct the internal row function directly from the written weighted table and evaluate all 794 core traces as literal four-sets completed with fresh exterior labels; test blocking sunflowers against actual cones and M=0123.",
+      "observation": "Exactly372 traces have a blocking cone. The remaining coefficient histogram is 5:357, 6:14, 8:1, 10:35, 15:14, 17:1. The internal-cost row contributes zero for M at points1 and3, q(M)=8, and the weighted RHS is241. Hence 5r+3<=241 gives r<=47. Proper traces retain arbitrary multiplicity; exterior labels change none of the row predicates. M cannot be falsely blocked because a three-point link block cannot contain all four points of M.",
+      "result": "supported",
+      "evidence_ids": ["degree20"]
+    },
+    {
+      "scope": "Stage-two row guards, exact exclusions and six marker orbits",
+      "method": "Read stage2-proof.md and check_stage2_certificates.py; independently decode stage2-certificates.json into literal incidence/exact-trace predicates, validate fixed-cone offsets and actual-anchor conditions, and evaluate each 794- or 1093-trace domain. Independently expand the product automorphism action on the six markers.",
+      "observation": "The large-singleton rows are restricted to central anchors where the marker supplies a sixth near-link member, after internals are absent. The E04 negative-coefficient row follows from a>=1 and residual degree at7<=10. Integer residual caps reconstruct as 40,45,39,46,43,47; all are below48. Direct orbit expansion gives 120,20,120,20,225,180, disjointly covering all685 required noninternal markers. One actual exterior marker point is represented; other exterior points remain unrestricted. No catalogue selector or neighbourhood lower-bound row is needed.",
+      "result": "supported",
+      "evidence_ids": ["degree20"]
+    },
+    {
+      "scope": "Mixed-pair removal and arbitrary-exterior terminal count",
+      "method": "Inspect stage2-proof.md, Ordinary final double count. Independently test all78 core traces of size at most two that avoid containing both marked core points, completing each with fresh exterior points avoiding the marker's exterior pair, and verify the literal cone witness. Recount cone incidences for all remaining core types.",
+      "observation": "Every tested violation of the three-category cover has a distinct blocking cone. The actual categories have capacities6,20,20 and the marker belongs to all three, giving r<=44 after subtracting its two redundant counts. Once mixed pairs are absent, the43 remaining core types meet 0,5,8 cones with counts1,12,30. Every residual therefore avoids at least12 cones. For each actual cone, its disjoint family is intersecting by the empty-core prohibition, so H27 gives 12r<=20*27=540, contradicting r>=48 by36 incidences. This counts actual residuals with multiplicity and imposes no exterior-support bound.",
+      "result": "supported",
+      "evidence_ids": ["degree20"]
+    }
+  ]
+}

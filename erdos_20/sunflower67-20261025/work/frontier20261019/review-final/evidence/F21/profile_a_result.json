@@ -1,0 +1,37 @@
+{
+  "task": "ProfileA_fixed_high_link",
+  "candidate_rows": 1820,
+  "low_rows_required": 61,
+  "low_degrees": [
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    19,
+    19,
+    19,
+    19
+  ],
+  "pair_triple_capacity_rows": 680,
+  "one_high_two_low_conflicts": 961485,
+  "initialization_seconds": 149.60516645596363,
+  "solver": "z3-4.13.0",
+  "rounds": [],
+  "source_bridges": [
+    "extremal_twenty_two_disjoint_designs",
+    "six-point design normal form (not Lean proved here)"
+  ],
+  "assurance": "certificate-diagnostic; no proof extraction or trusted checker replay",
+  "status": "budget_exhausted",
+  "lazy_triple_clauses": 0,
+  "elapsed_seconds": 149.60912696097512,
+  "smt2_sha256": "90e3da9c8d85a3ee346b02fa7f7f00dd85046e5a247080f4649e09d5588caaf9"
+}

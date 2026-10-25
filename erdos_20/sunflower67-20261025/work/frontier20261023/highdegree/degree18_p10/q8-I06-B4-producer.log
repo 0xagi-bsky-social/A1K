@@ -1,0 +1,2 @@
+{"phase": "built", "kind": "Q8", "case": "I06", "columns": 36811, "rows": 1022, "catalogue_sizes": [541, 541, 541, 541, 541, 541, 541, 541, 541, 541, 1476, 1476, 5565, 5575, 5575, 2867, 3887, 3887], "seconds": 3.517435140998714}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-I06-markedB4-d31e05613888.json", "status": 0, "upper": 50.0, "below50": false, "seconds": 4.1497830230000545}

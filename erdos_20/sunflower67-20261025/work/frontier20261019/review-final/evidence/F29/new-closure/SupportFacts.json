@@ -1,0 +1,14 @@
+{
+  "module": "SupportFacts",
+  "source_sha256": "386db788d94a1a00f27ed17603eb877e5c7a43dc48e886e597243f85fb07c3b9",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/new-closure/build/SupportFacts.olean",
+    "SupportFacts.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 4.843,
+  "output": ""
+}

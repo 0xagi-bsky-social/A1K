@@ -1,0 +1,19 @@
+{
+  "source": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/compute/TwoHighEighty.lean",
+  "source_sha256": "36f9fe6202f19c2b5b943461d0b53ca40a8bfa49699af86e2a27b1f5cde13138",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "--memory=1024",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/compute/build/TwoHighEighty.olean",
+    "TwoHighEighty.lean"
+  ],
+  "LEAN_PATH": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/compute/build:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/formal/build:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/theory/build:/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean/.lake/build/lib/lean:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/batteries/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/mathlib/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/plausible/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/Cli/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/Qq/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/importGraph/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/aesop/.lake/build/lib/lean",
+  "exit_code": 1,
+  "elapsed_seconds": 3.219523631967604,
+  "output": "TwoHighEighty.lean:66:19: error(lean.unknownIdentifier): Unknown constant `Finset.pair_subset.mpr`\nTwoHighEighty.lean:67:6: error: No goals to be solved\nTwoHighEighty.lean:78:6: warning: Try `simp at hm` instead of `simpa using hm`\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\nTwoHighEighty.lean:79:4: error: omega could not prove the goal:\na possible counterexample may satisfy the constraints\n  b \u2265 21\n  0 \u2264 a \u2264 20\nwhere\n a := \u2191{S \u2208 F | v \u2208 S}.card\n b := \u2191(degree F v)\n",
+  "output_sha256": "77b18e5d58e7bacfce190307ec2f2a52da63e247c302bff3927d243a97cfa4d9",
+  "assurance": "draft",
+  "limits": "Same evaluator; pinned Lean and dependency caches; this is not a clean independent replay."
+}

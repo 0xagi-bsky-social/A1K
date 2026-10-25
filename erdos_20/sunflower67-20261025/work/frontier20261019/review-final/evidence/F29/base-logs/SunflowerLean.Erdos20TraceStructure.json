@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20TraceStructure",
+  "source_sha256": "f51342e26fe132fe87829e8e8512f3b5e2f9138f2c84b1f1f2656a9f947524fa",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20TraceStructure.olean",
+    "SunflowerLean/Erdos20TraceStructure.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 4.916,
+  "output": "'Erdos20TraceStructure.inclusion_maximal_does_not_force_residual_intersection' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'Erdos20TraceStructure.maximum_matching_singleton_traces_intersect' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'Erdos20TraceStructure.maximum_matching_singleton_residuals_intersect' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n"
+}

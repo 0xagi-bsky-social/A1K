@@ -1,0 +1,29 @@
+{
+  "kind": "round05_citation_verifier_artifact_preservation",
+  "files": {
+    "h27-tree-tool-result.original.json": {
+      "sha256": "72dd5a55c5d6e1281d40765086891c43db767b94332ada2b1ce7d9a1826b0023",
+      "bytes": 67353
+    },
+    "preservation-limitations.json": {
+      "sha256": "eb9af9e432e06c5a5c6c4f2796e367f7c4099d4f3ac4f751b5b258628140eaf0",
+      "bytes": 1039
+    },
+    "reconstruct_tree.py": {
+      "sha256": "8a77b0a2d2bb567b5889776fde482467c86cb94765deb1341a924e73943f426b",
+      "bytes": 3335
+    },
+    "reconstruction-results.json": {
+      "sha256": "b02de4db0c9924c63480f01d4c72f47ba9d56c9fb22815c265881eaac31cafb6",
+      "bytes": 5857
+    },
+    "root_tree_payload.bin": {
+      "sha256": "0898c3250fc67e9542a07ea3ec042a693001f4959cf4dce408b52edd8752f16f",
+      "bytes": 266
+    },
+    "round05-review.original.json": {
+      "sha256": "131e3cb79802270ac61b6dcf5c96e0a0be776749ec8ad73fb3fa7d9a8cc502da",
+      "bytes": 6511
+    }
+  }
+}

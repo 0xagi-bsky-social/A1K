@@ -1,0 +1,28 @@
+{
+  "nodes": 94,
+  "bound_receipt_and_replay_files": 188,
+  "certificate_kinds": {
+    "trace-upper-bound": 80,
+    "zero-infeasibility": 14
+  },
+  "listed_core_four_union": 715,
+  "listed_mixed_three_union": 231,
+  "siblings": [
+    {
+      "node": "four-E4_56",
+      "uses": 68,
+      "prior_four": 697,
+      "forbidden_explicit": 662,
+      "upper": -406255021
+    },
+    {
+      "node": "four-E4_57",
+      "uses": 68,
+      "prior_four": 697,
+      "forbidden_explicit": 662,
+      "upper": -3584828830
+    }
+  ],
+  "all_checks_pass": true,
+  "scope": "Independent metadata, declared-domain, ancestry and stored strict-comparison check; no orbit reconstruction, coefficient/model replay or solver run."
+}

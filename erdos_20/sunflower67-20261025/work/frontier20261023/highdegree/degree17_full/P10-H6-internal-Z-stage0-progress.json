@@ -1,0 +1,83 @@
+{
+  "kind": "P10-H6",
+  "completed": 9,
+  "total": 9,
+  "source_sha256": "a1beae56f60205a48442a1c6a31d2148557443511fb119a1936ffda8578bebf2",
+  "records": [
+    {
+      "case": "IZ00",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H6-IZ00-internal-Z-stage0-v4-9ded14623c2a.json",
+      "sha256": "535c1180da5fbd07a085b53a500838d16d9e35d091d47ba3436943dc0a541a01",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 47.0000000418
+    },
+    {
+      "case": "IZ01",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H6-IZ01-internal-Z-stage0-v4-e65947f7015f.json",
+      "sha256": "7c5a28398edef2d9085c61a08f142ce736c8c8423424a48529b6976b1ea71b1a",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 47.0
+    },
+    {
+      "case": "IZ02",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H6-IZ02-internal-Z-stage0-v4-2e891aabbcc6.json",
+      "sha256": "0460bd9f6854bd8cf9e57266c928d3cb009277ee64d279f29b2a205e50b3a029",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 47.0000000448
+    },
+    {
+      "case": "IZ03",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H6-IZ03-internal-Z-stage0-v4-cd60966054e4.json",
+      "sha256": "1efe6ec56f92cce8421623d02ec5c05971cdb0bb6043ebe337c2f2af0f3630f0",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 47.6
+    },
+    {
+      "case": "IZ04",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H6-IZ04-internal-Z-stage0-v4-b9f3c5cd8ac3.json",
+      "sha256": "8e8c192f8d0d7488818a7ac9de1ff1e7bd7cfaacc966431867c47ff1df8e50dd",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 48.0
+    },
+    {
+      "case": "IZ05",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H6-IZ05-internal-Z-stage0-v4-bdcb6cd2c9fe.json",
+      "sha256": "d1c487c4abda5623395b296938446deeeb75032717eb0addafa1a151656954c3",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 48.6875
+    },
+    {
+      "case": "IZ06",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H6-IZ06-internal-Z-stage0-v4-859372d5474e.json",
+      "sha256": "5e74e0f0a0afecb12203f230629949da689b70bbf62e535664f9fdede7f2fe45",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 47.3200000005
+    },
+    {
+      "case": "IZ07",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H6-IZ07-internal-Z-stage0-v4-6b91a3b24d89.json",
+      "sha256": "ab1e6fd55631f74528ee1883b48ef928cded9a4570be4d30e6a113466809e1e2",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 47.1923076932
+    },
+    {
+      "case": "IZ08",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H6-IZ08-internal-Z-stage0-v4-39a28b8613a8.json",
+      "sha256": "e4fb1a550225f0b1181b545f71be3a7c5413d9ca2829731bab26cc0515142319",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 47.9714286442
+    }
+  ],
+  "Y_antecedent": null,
+  "all_completed_strict": true,
+  "assurance": "Producer diagnostics only; no exact replay or branch closure implied."
+}

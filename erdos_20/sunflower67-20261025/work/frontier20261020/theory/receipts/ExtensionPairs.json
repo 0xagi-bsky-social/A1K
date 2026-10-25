@@ -1,0 +1,18 @@
+{
+  "source": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/theory/ExtensionPairs.lean",
+  "source_sha256": "68307a036ee43510a99f283715c3a12bccca2d527d35212b9ca4bafe192ec328",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/theory/build/ExtensionPairs.olean",
+    "ExtensionPairs.lean"
+  ],
+  "LEAN_PATH": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/theory/build:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/formal/build:/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean/.lake/build/lib/lean:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/batteries/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/mathlib/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/plausible/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/Cli/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/Qq/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/importGraph/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/aesop/.lake/build/lib/lean",
+  "exit_code": 0,
+  "elapsed_seconds": 6.876526864012703,
+  "output": "'FrontierExtensionPairs.extension_pair_card_two' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierExtensionPairs.extension_pair_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "output_sha256": "860b1ba04d8abe364634589f0f542098f338a44ed8c7bf42960abd1ee9f9947c",
+  "assurance": "elaborated",
+  "limits": "Same evaluator; pinnedruntime,cacheddependencies; not clean independent replay."
+}

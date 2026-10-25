@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20Endpoints",
+  "source_sha256": "efa975c4e837bf3112472263588fa97f23e6f709ceec311650d18eeb32a6a7c0",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20Endpoints.olean",
+    "SunflowerLean/Erdos20Endpoints.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 4.882,
+  "output": "'Erdos20Endpoints.forces_succ_pow_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Endpoints.pow_add_one_lt_pow_add_two' depends on axioms: [propext, Quot.sound]\n'Erdos20Endpoints.strict_forcing_threshold_of_extremal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Endpoints.strict_forcing_threshold_of_direct' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Endpoints.uniformExtremalBound_expanded' depends on axioms: [propext, Quot.sound]\n"
+}

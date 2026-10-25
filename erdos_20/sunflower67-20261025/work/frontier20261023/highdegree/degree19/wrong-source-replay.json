@@ -1,0 +1,11 @@
+{
+  "result": "FAIL",
+  "assurance": "shared-producer model reconstruction and exact integer certificate replay only; premises not re-proved; no solver, no Lean, no final review",
+  "receipt_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree19/negative-controls/wrong-source.json",
+  "receipt_sha256": "1c3b5d56398ee0f9e280c1f9453e00cb7f6b3ff5b9f5954a5995eb0583acba81",
+  "replayer_sha256": "dcbaf18d9cb0eef16cc6068194785507ab26fe7e946659d59a26d26cd0a3432c",
+  "compute_limit_seconds": 30,
+  "receipt_kind": "upper-bound",
+  "error": "ReplayError: No supported projection file exactly matches the receipt source hash",
+  "seconds": 0.0005289410000841599
+}

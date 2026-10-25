@@ -1,0 +1,44 @@
+{
+  "agent_id": "/root/review_coordinator/copyeditor",
+  "role": "copyeditor",
+  "context_id": "/root/review_coordinator/copyeditor",
+  "round": 2,
+  "snapshot_sha256": "ca231dc7862039c04067c0ccc5ee58f1cdfdf600d9f9e0bf498878efcf4c78cc",
+  "manuscript_sha256": "2489c2194f27ff2597d9e2c670d9d51ea4ba505363a7ae62e307ee489e87195f",
+  "summary": "Attribution remains appropriately qualified: the manuscript credits the external intersecting maximum, distinguishes its computational verification from Lean coverage, and identifies A1K's earlier finite reduction. The terminology repair is present. Manuscript, canonical UTF-8 snapshot, and inspected F17 hashes match. Text-reuse comparison remains reserved for the later audit.",
+  "evidence_ids": [
+    "F17"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "/root/review_coordinator/copyeditor:round-1:terminology",
+      "statement": "The support-56 counting paragraph now says 'unordered pairs of distinct members'.",
+      "severity": "minor",
+      "status": "resolved",
+      "disposition": "The revised wording matches the displayed A<B summation and closes the round-one issue.",
+      "evidence_ids": [
+        "F17"
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "/root/review_coordinator/copyeditor:round-1:terminology",
+      "action": "Inspected the replacement wording in the frozen manuscript.",
+      "result": "Resolved."
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Prior-work attribution and assurance language",
+      "method": "Compared the prior-work paragraphs with F17 arXiv excerpts at lines 982–1013 and 1184–1188, and A1K T7/T8 at lines 164–175.",
+      "observation": "The cited excerpts support enumeration-based attribution, separate Lean scope, capacity 85, and three conditional inputs. The manuscript does not claim to supply those external computations or establish global priority.",
+      "result": "supported",
+      "evidence_ids": [
+        "F17"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "scope": "Literal bounded guard challenges; no full matrix reconstruction or theorem-import verification",
+  "marker": {
+    "unrepresented_point_counterexample": true,
+    "full_marker_predicate_comparisons": 41534,
+    "exterior_completion_families": 2,
+    "all_agree": true
+  },
+  "stage": {
+    "source_sha256": "e8553f1726e58d30032294c4e96711a1c3507d4cb381ad532982c1a4003f805b",
+    "four_to_proper_trace_rejected": "Node synthetic assumes an unproved forbidden trace 193",
+    "proper_trace_restriction_lifts_accepted": 2
+  },
+  "low14_matching": {
+    "candidate_graphs": 64,
+    "graphs_satisfying_both_guards": 27,
+    "every_graph_has_disjoint_pair_and_Q8_leaf_sunflower": true,
+    "triangle_defeats_missing_bipartiteness": true,
+    "star_defeats_missing_maximum_degree_guard": true
+  },
+  "result": "PASS"
+}

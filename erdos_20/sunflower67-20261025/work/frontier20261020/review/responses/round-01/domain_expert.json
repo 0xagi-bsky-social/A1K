@@ -1,0 +1,71 @@
+{
+  "agent_id": "/root/review80_coordinator/domain_expert",
+  "role": "domain_expert",
+  "context_id": "/root/review80_coordinator/domain_expert",
+  "round": 1,
+  "snapshot_sha256": "9c981e93769180665f8e1003e30db2aa0fdb52c055b579a03c361bcc9b5c2849",
+  "manuscript_sha256": "2d1614a3ebd4ec37bfb6829ba68c462bbfb9ea678193e94baabed01893f5967d",
+  "summary": "The framed result concerns finite simple four-uniform families and three distinct petals with an empty core allowed. The printed expanded implication matches those conventions, and the printed independent-two-star root has no I(27), support-size, or coordinate-enumeration hypothesis. The contribution boundary is appropriately the two actual-family exclusions relative to the inherited structural results; priority remains bounded by the disclosed search. One notation clarification would avoid the common maximum-versus-forcing-threshold ambiguity in f(4,3).",
+  "evidence_ids": [
+    "lean-source-theory-v1",
+    "two-star-audit-v1",
+    "primary-sources-v1"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "f-convention",
+      "statement": "The manuscript defines G and I but uses f(4,3) without explicitly defining whether f is the maximum size of a sunflower-free family or the minimum size forcing a sunflower. The displayed 54 to 80 interval uses the former convention.",
+      "severity": "minor",
+      "status": "open",
+      "disposition": "Add one sentence defining f(4,3) as the maximum cardinality of a finite three-sunflower-free family of distinct four-element sets. This is an expository precision request, not an objection to the quantified theorem.",
+      "evidence_ids": [
+        "primary-sources-v1"
+      ]
+    },
+    {
+      "id": "inherited-versus-new",
+      "statement": "The degree-twenty link classification, at-most-two-high-point theorem, I(27) to G(81), and boundary reduction are explicitly inherited; only the actual A/B exclusions and their structural lemmas are claimed as present contributions.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Retain this boundary and the explicit external-I(27) distinction in all final formats.",
+      "evidence_ids": [
+        "lean-source-theory-v1",
+        "two-star-audit-v1",
+        "primary-sources-v1"
+      ]
+    }
+  ],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Exact rank-four and sunflower conventions",
+      "method": "Compared Section 1 with the frozen literal_intersecting_twenty_seven_implies_eighty source, including the finite-subfamily cardinality and pairwise-intersection quantifiers.",
+      "observation": "The source requires every family member to have cardinality exactly four and forbids a three-element subfamily with a common pairwise intersection; Finset eliminates repetitions and the existential core has no nonemptiness hypothesis. This matches the prose, including empty-core sunflowers.",
+      "result": "supported",
+      "evidence_ids": [
+        "lean-source-theory-v1"
+      ]
+    },
+    {
+      "scope": "Unconditional structural statement versus conditional global statement",
+      "method": "Read the printed independent_twenty_stars_card_le_eighty theorem in the frozen audit and the expanded terminal implication source.",
+      "observation": "The two-star statement quantifies over arbitrary Type u and needs only uniformity, sunflower-freeness, two distinct degree-twenty points, and their non-cooccurrence. The global terminal theorem retains the universally quantified intersecting bound as hI. No ground-set cutoff occurs in either conclusion.",
+      "result": "supported",
+      "evidence_ids": [
+        "two-star-audit-v1",
+        "lean-source-theory-v1"
+      ]
+    },
+    {
+      "scope": "Contribution and novelty framing",
+      "method": "Compared the contribution statements with the frozen primary-source access ledger and the listed inherited premises; did not independently retrieve the external sources in this phase.",
+      "observation": "The manuscript claims improvement relative to the inspected 83 bound and inherited 81 corollary, while declining exhaustive priority. The ledger supports that bounded framing but cannot establish global novelty.",
+      "result": "supported",
+      "evidence_ids": [
+        "primary-sources-v1"
+      ]
+    }
+  ]
+}

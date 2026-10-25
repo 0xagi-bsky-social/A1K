@@ -1,0 +1,133 @@
+{
+  "scope": "Round10 bounded citation/fact audit; no network, solver, compiler or full proof replay in this round. Retained primary response inspected directly.",
+  "snapshot_sha256_utf8_canonical": "8fce38586c390bdaab230bf7c293c055b67a70eba1aebc54270521703d75805e",
+  "manuscript_sha256": "ec6872777eecaeca0563978e849f2b2fce2c48eb9e28e2efed87ba64b3128bb9",
+  "commit_response_sha256": "cefee00e42cc5895688ec5317a3ef95a3c7ff3d6be661db504475a6c3423915c",
+  "returned_commit": "d4d5723267c662291efdadfa6e7061d919e76fa9",
+  "returned_tree": "0a3e3838650fc981133940e798c9d220140e785e",
+  "commit_verification": {
+    "verified": false,
+    "reason": "unsigned",
+    "signature": null,
+    "payload": null,
+    "verified_at": null
+  },
+  "committed_responses": 108,
+  "round_role_counts": {
+    "1": 12,
+    "2": 12,
+    "3": 12,
+    "4": 12,
+    "5": 12,
+    "6": 12,
+    "7": 12,
+    "8": 12,
+    "9": 12
+  },
+  "earlier_required_revisions": [
+    {
+      "id": "/root/r67_alpha:round-1:required-revision-1",
+      "latest_original_reviewer_disposition": [
+        9,
+        "resolved"
+      ]
+    },
+    {
+      "id": "/root/r67_chief:round-1:required-revision-1",
+      "latest_original_reviewer_disposition": [
+        9,
+        "resolved"
+      ]
+    },
+    {
+      "id": "/root/r67_copy:round-1:required-revision-1",
+      "latest_original_reviewer_disposition": [
+        9,
+        "resolved"
+      ]
+    },
+    {
+      "id": "/root/r67_copy:round-1:required-revision-2",
+      "latest_original_reviewer_disposition": [
+        9,
+        "resolved"
+      ]
+    },
+    {
+      "id": "/root/r67_literature:round-1:required-revision-1",
+      "latest_original_reviewer_disposition": [
+        9,
+        "resolved"
+      ]
+    },
+    {
+      "id": "/root/r67_typeset:round-1:required-revision-1",
+      "latest_original_reviewer_disposition": [
+        9,
+        "resolved"
+      ]
+    },
+    {
+      "id": "/root/r67_typeset:round-1:required-revision-2",
+      "latest_original_reviewer_disposition": [
+        9,
+        "resolved"
+      ]
+    },
+    {
+      "id": "/root/r67_typeset:round-1:required-revision-3",
+      "latest_original_reviewer_disposition": [
+        9,
+        "resolved"
+      ]
+    },
+    {
+      "id": "/root/r67_writer:round-1:required-revision-1",
+      "latest_original_reviewer_disposition": [
+        9,
+        "resolved"
+      ]
+    },
+    {
+      "id": "/root/r67_writer:round-1:required-revision-2",
+      "latest_original_reviewer_disposition": [
+        9,
+        "resolved"
+      ]
+    },
+    {
+      "id": "/root/r67_writer:round-3:required-revision-1",
+      "latest_original_reviewer_disposition": [
+        9,
+        "resolved"
+      ]
+    },
+    {
+      "id": "/root/r67_literature:round-4:required-revision-1",
+      "latest_original_reviewer_disposition": [
+        9,
+        "resolved"
+      ]
+    },
+    {
+      "id": "/root/r67_citations:round-5:required-revision-1",
+      "latest_original_reviewer_disposition": [
+        9,
+        "resolved"
+      ]
+    }
+  ],
+  "author_response_hashes_match": true,
+  "pinned_prior_main_tex_sha256": "4aa36c9d56af5a8e3bdb44749107820549a73e0d3405e6c700104fa4c30e5c21",
+  "Jin_strict_margins": {
+    "D16_24_times20_minus7_times68": 4,
+    "cap15_25_times11_minus4_times68": 3
+  },
+  "A3_inverse_identity_all_eight_rows": true,
+  "A3_H27_positivity_lower": 1,
+  "A3_H28_positivity_lower": -4,
+  "neighborhood_lower": 41,
+  "cross_star_cap18_upper": 40,
+  "cross_star_cap19_upper": 42,
+  "limitations": "Returned metadata identifies commit/tree relationship without explaining original inconsistent response. Hashes and shared-source citations do not authenticate historical H27 execution or independently prove imports."
+}

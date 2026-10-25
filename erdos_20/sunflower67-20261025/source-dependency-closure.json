@@ -1,0 +1,397 @@
+{
+  "source_root_mapping": {
+    "original": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob",
+    "repository": "erdos_20/sunflower67-20261025"
+  },
+  "external_import_modules": [
+    "Lean",
+    "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+    "Mathlib.Data.Finset.Basic",
+    "Mathlib.Data.Finset.Card",
+    "Mathlib.Data.Finset.Powerset",
+    "Mathlib.Data.Finset.Prod",
+    "Mathlib.Data.Finset.Sum",
+    "Mathlib.Data.Nat.Choose.Sum",
+    "Mathlib.Tactic"
+  ],
+  "latest_formal_local_import_closure": [
+    {
+      "module": "AHS27Construction",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/AHS27Construction.lean",
+      "source_relative_path": "work/frontier20261023/formal/AHS27Construction.lean",
+      "sha256": "d63e5a12b7e341416b36471e8e57fb66cbf980a005ac38ae3c49e1162b87bb12",
+      "imports": [
+        "AHS27Data"
+      ]
+    },
+    {
+      "module": "AHS27Data",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/AHS27Data.lean",
+      "source_relative_path": "work/frontier20261023/formal/AHS27Data.lean",
+      "sha256": "b1afbe3b98217a3d1e25c85f10c26611d16b659e1e38402a5fb09a1ffaf821be",
+      "imports": [
+        "SunflowerLean.Erdos20TripleWitness",
+        "SunflowerLean.Erdos20RankThree",
+        "SunflowerLean.Erdos20FiniteReduction"
+      ]
+    },
+    {
+      "module": "AHS27Isolation",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/AHS27Isolation.lean",
+      "source_relative_path": "work/frontier20261023/formal/AHS27Isolation.lean",
+      "sha256": "89b53a86c3cf4205f8880154355d6b03bd74d8cf503269d0524efb5d35a0462a",
+      "imports": [
+        "AHS27Transport",
+        "AHS27Trace"
+      ]
+    },
+    {
+      "module": "AHS27IsolationAudit",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "source_relative_path": "work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+      "imports": [
+        "AHS27Isolation",
+        "AHS27Construction",
+        "Lean"
+      ]
+    },
+    {
+      "module": "AHS27Trace",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/AHS27Trace.lean",
+      "source_relative_path": "work/frontier20261023/formal/AHS27Trace.lean",
+      "sha256": "815a5979462a3a98e7c056565764b863ca63c2f7dd144638eb9750f3e97eb5af",
+      "imports": [
+        "AHS27Data"
+      ]
+    },
+    {
+      "module": "AHS27Transport",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/AHS27Transport.lean",
+      "source_relative_path": "work/frontier20261023/formal/AHS27Transport.lean",
+      "sha256": "cccf09612e36a3e79cff9b5d12eb8584950335813f949ceb395eef29587f326e",
+      "imports": [
+        "AHS27Data"
+      ]
+    },
+    {
+      "module": "ComplementaryTraces",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/ComplementaryTraces.lean",
+      "source_relative_path": "work/frontier20261023/formal/ComplementaryTraces.lean",
+      "sha256": "7c26ba9f1d63d7edce06404b6bfeffbec1f73b4c6e93ccfbb584282e540467b7",
+      "imports": [
+        "TerminalSeparation"
+      ]
+    },
+    {
+      "module": "Local51",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/Local51.lean",
+      "source_relative_path": "work/frontier20261023/formal/Local51.lean",
+      "sha256": "3b18d67905cd8920561b71cfc4e2a791dcdece66d3e7d7465684a301614b7077",
+      "imports": [
+        "Lean"
+      ]
+    },
+    {
+      "module": "R15ScalarClosure",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/R15ScalarClosure.lean",
+      "source_relative_path": "work/frontier20261023/formal/R15ScalarClosure.lean",
+      "sha256": "df94065a7262c59b5cfb12544f173ed58af57ea3498b78329274992650200117",
+      "imports": [
+        "Mathlib.Tactic"
+      ]
+    },
+    {
+      "module": "SmallTracePool",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/SmallTracePool.lean",
+      "source_relative_path": "work/frontier20261023/formal/SmallTracePool.lean",
+      "sha256": "e25e9d1e1fb539e257d76aef2176e481f743cdffaed1969c5a75207a929024ae",
+      "imports": [
+        "TerminalSeparation"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Basic",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/Basic.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/Basic.lean",
+      "sha256": "9c6253d9ae43325863f6b176b975cf024f955f76130c94f0864edfc2149c00f2",
+      "imports": [
+        "Mathlib.Data.Finset.Basic",
+        "Mathlib.Data.Finset.Card",
+        "Mathlib.Data.Finset.Powerset",
+        "Mathlib.Tactic"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20BCWBridge",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/Erdos20BCWBridge.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/Erdos20BCWBridge.lean",
+      "sha256": "235a364a1c8d201f46bf7dd3201cc503570a5b1ff1d98506474ac7f10aacef1c",
+      "imports": [
+        "SunflowerLean.Erdos20BCWConditional"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20BCWConditional",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/Erdos20BCWConditional.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/Erdos20BCWConditional.lean",
+      "sha256": "0e50aaa2da61ec4c21f2193b1ededfe97285d117977ec1d550eee9c46c67e718",
+      "imports": [
+        "SunflowerLean.Basic",
+        "SunflowerLean.Spread",
+        "Mathlib.Tactic"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20Critical",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/Erdos20Critical.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/Erdos20Critical.lean",
+      "sha256": "3aae25a4911d47bdc33fb1bcc04ae04a392245498badc9d185b94de05d8e4c39",
+      "imports": [
+        "SunflowerLean.Erdos20SpreadPacking",
+        "SunflowerLean.ErdosRadoBound"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20CrossBounds",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/Erdos20CrossBounds.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/Erdos20CrossBounds.lean",
+      "sha256": "c4beb45efd5f8c35e8890a8fc52ed73679a86d19210044af7f6c33e0dd0595ae",
+      "imports": [
+        "SunflowerLean.Erdos20Incidence",
+        "SunflowerLean.Erdos20TraceStructure"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20Endpoints",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/Erdos20Endpoints.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/Erdos20Endpoints.lean",
+      "sha256": "efa975c4e837bf3112472263588fa97f23e6f709ceec311650d18eeb32a6a7c0",
+      "imports": [
+        "SunflowerLean.Erdos20BCWBridge"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20FiniteReduction",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/Erdos20FiniteReduction.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/Erdos20FiniteReduction.lean",
+      "sha256": "58bab68e9303fbba7525f1bfa6fdde293f7de4111836e475c0bb888edba4db62",
+      "imports": [
+        "SunflowerLean.Erdos20Critical"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20Incidence",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/Erdos20Incidence.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/Erdos20Incidence.lean",
+      "sha256": "338f32e316853f68643d1a62708adcea7ccad18c27885aba8d339e643789c6f2",
+      "imports": [
+        "SunflowerLean.Erdos20Critical"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20LocalStructure",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/Erdos20LocalStructure.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/Erdos20LocalStructure.lean",
+      "sha256": "475a369572b10d524474474e2906516e7893a6224239f646756356813fad0deb",
+      "imports": [
+        "SunflowerLean.Erdos20Obstructions",
+        "SunflowerLean.Erdos20Critical",
+        "Mathlib.Data.Finset.Sum",
+        "Mathlib.Data.Finset.Prod"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20Obstructions",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/Erdos20Obstructions.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/Erdos20Obstructions.lean",
+      "sha256": "de67da57c70b8c73231199b52b0f159d335578698dfd1eabbc271c0787c25d80",
+      "imports": [
+        "SunflowerLean.Erdos20Endpoints"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20RankThree",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/Erdos20RankThree.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/Erdos20RankThree.lean",
+      "sha256": "adaf323385d46fae31cdafbcece025a232fb4e2b8264ea37c0272d1598858d7b",
+      "imports": [
+        "SunflowerLean.Erdos20CrossBounds",
+        "SunflowerLean.Erdos20Research",
+        "Mathlib.Data.Nat.Choose.Sum"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20Research",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/Erdos20Research.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/Erdos20Research.lean",
+      "sha256": "b4d860cc6df3df2140a6ed95060c193a3f40c4fe6cbbbcc8f3d6d12e6db9b670",
+      "imports": [
+        "SunflowerLean.Basic",
+        "Mathlib.Data.Finset.Powerset",
+        "Mathlib.Tactic"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20SpreadPacking",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/Erdos20SpreadPacking.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/Erdos20SpreadPacking.lean",
+      "sha256": "1d1266ff3264bdcfe34a7c1fb6f0bf2cf0b845b9cba80d6ce217408d0511f1d7",
+      "imports": [
+        "SunflowerLean.Erdos20StrictCore",
+        "Mathlib.Algebra.Order.BigOperators.Group.Finset"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20StrictCore",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/Erdos20StrictCore.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/Erdos20StrictCore.lean",
+      "sha256": "f9ee0de249ad35dc8e11346760bca2a2b7f0e30ba8cf86c1b1ebc032062ec622",
+      "imports": [
+        "SunflowerLean.Erdos20BCWBridge"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20TraceStructure",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/Erdos20TraceStructure.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/Erdos20TraceStructure.lean",
+      "sha256": "f51342e26fe132fe87829e8e8512f3b5e2f9138f2c84b1f1f2656a9f947524fa",
+      "imports": [
+        "SunflowerLean.Erdos20SpreadPacking"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Erdos20TripleWitness",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/Erdos20TripleWitness.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/Erdos20TripleWitness.lean",
+      "sha256": "55c87441371d2f4e537218d1b8454d792883c3f90e563f8b4045b22c0b1db14d",
+      "imports": [
+        "SunflowerLean.Erdos20LocalStructure"
+      ]
+    },
+    {
+      "module": "SunflowerLean.ErdosRadoBound",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/ErdosRadoBound.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/ErdosRadoBound.lean",
+      "sha256": "eb118fd0ccce45bb0faede3d04ab80f240fcb9fce0552f5643ce9038a9e12037",
+      "imports": [
+        "SunflowerLean.Basic"
+      ]
+    },
+    {
+      "module": "SunflowerLean.Spread",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/source/SunflowerLean/Spread.lean",
+      "source_relative_path": "work/frontier20261020/release-formal/source/SunflowerLean/Spread.lean",
+      "sha256": "990576de949ae2b58ead1b5b65af44ab8dad7d3cda608b6134ccc7a7c5bface9",
+      "imports": [
+        "Mathlib.Data.Finset.Basic",
+        "Mathlib.Data.Finset.Card"
+      ]
+    },
+    {
+      "module": "TerminalAsymmetric",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/TerminalAsymmetric.lean",
+      "source_relative_path": "work/frontier20261023/formal/TerminalAsymmetric.lean",
+      "sha256": "6d904f273d429a75324f7b88637a3610f271881b0529eaf3183a2f390450165a",
+      "imports": [
+        "TerminalSeparation"
+      ]
+    },
+    {
+      "module": "TerminalSeparation",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/TerminalSeparation.lean",
+      "source_relative_path": "work/frontier20261023/formal/TerminalSeparation.lean",
+      "sha256": "01ec3df7f6137df13697246ec36768157740221d349fc08fe58f2ed7bc699dfc",
+      "imports": [
+        "AHS27Data"
+      ]
+    }
+  ],
+  "runtime_and_locks": {
+    "lean_version": "Lean4.26.0, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562",
+    "runtime_manifest": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/runtime.json",
+    "runtime_manifest_sha256": "82fbc8e9fed8db7432040b576e330bf194a723a89eb670322c5b8ea2fb2d16c6",
+    "toolchain": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/lean-toolchain",
+    "toolchain_sha256": "e8173aad377a6d70041e5f7a5d8895ed587628f5cab243c53a18c40a1b7b6bf8",
+    "lake_manifest": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/release-formal/lake-manifest.json",
+    "lake_manifest_sha256": "f0c543e40596add0813e435fe99b635003e3de52d198d749bc5c410d58d7d05c",
+    "mathlib_commit": "2df2f0150c275ad53cb3c90f7c98ec15a56a1a67",
+    "dependency_packages": [
+      {
+        "name": "mathlib",
+        "expected": "2df2f0150c275ad53cb3c90f7c98ec15a56a1a67",
+        "observed": "2df2f0150c275ad53cb3c90f7c98ec15a56a1a67",
+        "match": true
+      },
+      {
+        "name": "plausible",
+        "expected": "160af9e8e7d4ae448f3c92edcc5b6a8522453f11",
+        "observed": "160af9e8e7d4ae448f3c92edcc5b6a8522453f11",
+        "match": true
+      },
+      {
+        "name": "LeanSearchClient",
+        "expected": "3591c3f664ac3719c4c86e4483e21e228707bfa2",
+        "observed": "3591c3f664ac3719c4c86e4483e21e228707bfa2",
+        "match": true
+      },
+      {
+        "name": "importGraph",
+        "expected": "e9f31324f15ead11048b1443e62c5deaddd055d2",
+        "observed": "e9f31324f15ead11048b1443e62c5deaddd055d2",
+        "match": true
+      },
+      {
+        "name": "proofwidgets",
+        "expected": "b4fb2aa5290ebf61bc5f80a5375ba642f0a49192",
+        "observed": "b4fb2aa5290ebf61bc5f80a5375ba642f0a49192",
+        "match": true
+      },
+      {
+        "name": "aesop",
+        "expected": "2f6d238744c4cb07fdc91240feaf5d4221a27931",
+        "observed": "2f6d238744c4cb07fdc91240feaf5d4221a27931",
+        "match": true
+      },
+      {
+        "name": "Qq",
+        "expected": "9312503909aa8e8bb392530145cc1677a6298574",
+        "observed": "9312503909aa8e8bb392530145cc1677a6298574",
+        "match": true
+      },
+      {
+        "name": "batteries",
+        "expected": "24241822ef9d3e7f6a3bcc53ad136e12663db8f3",
+        "observed": "24241822ef9d3e7f6a3bcc53ad136e12663db8f3",
+        "match": true
+      },
+      {
+        "name": "Cli",
+        "expected": "933fce7e893f65969714c60cdb4bd8376786044e",
+        "observed": "933fce7e893f65969714c60cdb4bd8376786044e",
+        "match": true
+      }
+    ],
+    "external_runtime_paths_are_historical_not_portable": true,
+    "latest_formal_limits": {
+      "workers": 1,
+      "memory_MiB": 512,
+      "timeout_seconds": 120
+    }
+  },
+  "boundaries": {
+    "external_checks": "certificate-diagnostic under Supermath; exact arithmetic/orbit/cover/tree replays are external Python/C++ execution rather than proved Lean evaluator",
+    "historical_lean": "axiom-audited only at the named roots, using pinned existing Lean4.26.0 dependency cache",
+    "shared_builder": "High-degree LP coefficient replay reconstructs through frozen matching producer; independent literal orbit/ancestry checking is separate.",
+    "unfinished_modules": [
+      "work/frontier20261023/formal/AHS27SunflowerFree.lean",
+      "work/frontier20261023/formal/AHS27Audit.lean",
+      "work/frontier20261023/formal/AHS27Finite.lean"
+    ],
+    "inactive_formal_drafts": [
+      "work/frontier20261019/structural/Support56-Cauchy-draft.lean",
+      "work/frontier20261020/root_proofs/Sharp45.lean",
+      "work/frontier20261020/root_proofs/ComponentCertificate.lean"
+    ]
+  }
+}

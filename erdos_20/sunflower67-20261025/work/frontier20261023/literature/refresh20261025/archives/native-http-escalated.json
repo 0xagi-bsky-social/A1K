@@ -1,0 +1,68 @@
+[
+  {
+    "name": "hal-native-escalated",
+    "url": "https://api.archives-ouvertes.fr/search/?q=sunflower+OR+%22delta-system%22&fq=domain_s%3Amath%2A&wt=json&rows=200&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i&sort=submittedDate_tdate+desc",
+    "retrieved_at": "2026-10-25T13:25:17.599835+00:00",
+    "status": 200,
+    "final_url": "https://api.archives-ouvertes.fr/search/?q=sunflower+OR+%22delta-system%22&fq=domain_s%3Amath%2A&wt=json&rows=200&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i&sort=submittedDate_tdate+desc",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 96
+  },
+  {
+    "name": "zenodo-native-escalated",
+    "url": "https://zenodo.org/api/records?q=%22sunflower+lemma%22+OR+%22sunflower+conjecture%22+OR+%22sunflower-free%22&size=100&sort=mostrecent",
+    "retrieved_at": "2026-10-25T13:25:17.601809+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "zenodo-mitchell-api",
+    "url": "https://zenodo.org/api/records/18248679",
+    "retrieved_at": "2026-10-25T13:25:17.602782+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "osf-native-escalated",
+    "url": "https://osf.io/preprints/discover?q=sunflower",
+    "retrieved_at": "2026-10-25T13:25:17.607829+00:00",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "name": "preprints-native-escalated",
+    "url": "https://www.preprints.org/search?search1=sunflower",
+    "retrieved_at": "2026-10-25T13:25:17.610631+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "vixra-primary-escalated",
+    "url": "https://ai.vixra.org/abs/2601.0054",
+    "retrieved_at": "2026-10-25T13:25:17.614781+00:00",
+    "error": "HTTP Error 406: Not Acceptable"
+  },
+  {
+    "name": "mathoa-home-escalated",
+    "url": "https://www.mathoa.org/about/",
+    "retrieved_at": "2026-10-25T13:25:17.620569+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "researchsquare-native-escalated",
+    "url": "https://www.researchsquare.com/browse?term=sunflower",
+    "retrieved_at": "2026-10-25T13:25:17.625157+00:00",
+    "status": 200,
+    "final_url": "https://www.researchsquare.com/browse?term=sunflower",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 237076
+  },
+  {
+    "name": "techrxiv-native-escalated",
+    "url": "https://www.techrxiv.org/search?query=sunflower",
+    "retrieved_at": "2026-10-25T13:25:17.627782+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "ssrn-primary-escalated",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6913500",
+    "retrieved_at": "2026-10-25T13:25:17.629784+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

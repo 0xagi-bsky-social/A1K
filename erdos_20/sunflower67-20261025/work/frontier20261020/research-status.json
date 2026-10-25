@@ -1,0 +1,118 @@
+{
+  "recorded_at": "2026-10-20T09:52:14.300440+00:00",
+  "status": "research-reopened-publication-gate-closed",
+  "reason": "Round 7 actual literature review discovered a primary October 9 preprint reporting the same unrestricted rank-four maximum bound 68. Root directly read the primary record, theorem and proof architecture, and downloaded its pinned public repository. Upper80 remains formally valid but no longer suffices to support the intended numerical-frontier positioning.",
+  "prior_admission": "review-admission.json is retained as historical; this later record supersedes its open publication gate.",
+  "primary_record": "https://aixiv.online/abs/2610.01292",
+  "primary_html": "https://aixiv.online/html/2610.01292v1",
+  "author": "Oleksiy Babanskyy",
+  "repository_commit": "90c03c79bcf44eb8f61dff1b86091b822cc4cd3c",
+  "local_manuscript_sha256": "4aa36c9d56af5a8e3bdb44749107820549a73e0d3405e6c700104fa4c30e5c21",
+  "verification_limits": [
+    "The claim and matching mathematical conventions were directly observed.",
+    "Six terminal suites replayed in two Python modes with exact expected-output comparison; the other 36 suites were not replayed.",
+    "Reading written reductions and replaying finite checkers do not constitute end-to-end Lean formalization or independent human validation.",
+    "External H27 is imported by both developments; H27 and Jin were not replayed here."
+  ],
+  "actions": [
+    "All subsequent final-review activity is stopped immediately, including the unfinished round 7; do not complete rounds 7–10, Chief/Alpha/Beta final audits, or publication.",
+    "Preserve all actual review records and frozen manuscript snapshots; correct only the working research draft.",
+    "Prioritize the reported bound68 paper and its pinned computational repository as a named external research foundation; distinguish observed claims, replayed finite checks, written reduction analysis and local formal proofs.",
+    "Seek a rigorous improvement below68 or a separately justified substantial structural theorem. Retain the verified conditional80 results as prior local progress, not the numerical-frontier completion criterion."
+  ],
+  "permission_needed": false,
+  "updated_at": "2026-10-20T10:15:11.994158+00:00",
+  "user_override": {
+    "instruction": "立即停止所有後續終審輪次，將上界68預印本納入優先突破的理論與實證基礎。",
+    "recorded_at": "2026-10-20T09:58:33.005582+00:00",
+    "effective_immediately": true
+  },
+  "review_state": {
+    "status": "halted-by-explicit-user-instruction",
+    "completed_rounds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "round7": "unfinished; typesetter interrupted",
+    "actual_response_files": 83,
+    "final_audits": "not started",
+    "publication": "not performed"
+  },
+  "empirical_foundation": {
+    "repository_commit": "90c03c79bcf44eb8f61dff1b86091b822cc4cd3c",
+    "computational_inputs_checked": 1692,
+    "manifest_sha256": "ecc54817e8e81242a59ef6b033e74e472d3ffbb3e80f9f0d9f0e8264acf40b18",
+    "replayed_suites": [
+      "terminal.f69_bridge",
+      "terminal.primary",
+      "terminal.cross15",
+      "terminal.crowding",
+      "terminal.cap61",
+      "terminal.r16"
+    ],
+    "executions": 12,
+    "modes": [
+      "normal",
+      "optimized"
+    ],
+    "exact_expected_semantics": "PASS for all twelve executions",
+    "complete_42_suite_replay": false,
+    "written_reductions_formalized": false,
+    "external_H27_Jin_replayed": false,
+    "receipts": [
+      "prior-art68/replay-quick-20261020/receipts/RECEIPT.json",
+      "prior-art68/replay-selected-20261020/RECEIPT.json"
+    ]
+  },
+  "new_research": {
+    "terminal_extension": {
+      "status": "draft ordinary reduction with exact diagnostics; not Lean certified",
+      "hypotheses": [
+        "size68",
+        "H27",
+        "maximum point degree exactly16",
+        "every exact singleton at most8",
+        "closed meeting neighborhoods at most44",
+        "named prior local classification and R61 inputs"
+      ],
+      "cover_capacities_by_deleted_triples": [
+        1,
+        2,
+        4,
+        10
+      ],
+      "local_omission_cases": 5576,
+      "nonindependent_star_vectors": 124323,
+      "unresolved_vectors": 0,
+      "note": "prior-art68/analysis/prior68-research.md"
+    },
+    "mu41_foundation": {
+      "existing_external_results_recovered": [
+        "under mu41 and maximum degree18: minimum used degree7",
+        "at size68 under same guards: support16..23"
+      ],
+      "new_probe_limits": {
+        "P10_correlated_survivors_k_le5": 8473,
+        "P9_correlated_survivors_k_le5": 3012,
+        "not_actual_families": true
+      },
+      "note": "prior-art68/analysis/mu41/mu41-analysis.md"
+    },
+    "global_67_proved": false,
+    "sharp45": {
+      "status": "ordinary-proof draft and exact local diagnostic; not Lean certified",
+      "common_component_lemma": "seven residual shapes reduce to a shared identical P10 component",
+      "positive_geometry_types": {
+        "same_support_Pasch": 10,
+        "replacement_one": 10,
+        "replacement_C5": 2
+      },
+      "claimed_upper45_status": "not accepted as an assembled theorem",
+      "note": "prior-art68/analysis/sharp45/sharp45-analysis.md"
+    }
+  }
+}

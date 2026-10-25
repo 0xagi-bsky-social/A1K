@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "source_plan_sha256": "b2a30c54e4a8f72c3fb161274159a3c3deadd073ef2d72415f5cad9924ebf156",
+  "checker_sha256": "e8553f1726e58d30032294c4e96711a1c3507d4cb381ad532982c1a4003f805b",
+  "cases": [
+    {
+      "case": "missing-last-three",
+      "exit_code": 1,
+      "rejected": true,
+      "log_tail": "ValueError: Incomplete stage coverage; use --allow-partial only for an explicitly partial facts report"
+    },
+    {
+      "case": "self-dependency",
+      "exit_code": 1,
+      "rejected": true,
+      "log_tail": "ValueError: Node IDs/antecedents must be distinct and strictly earlier"
+    },
+    {
+      "case": "wrong-replay-hash",
+      "exit_code": 1,
+      "rejected": true,
+      "log_tail": "ValueError: Input hash mismatch: /home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_replay/P9-Q8-E3_23-exterior-E3-v9-9bc7c3ac4ea4-phaseone-replay.json"
+    }
+  ],
+  "limitations": "Three structural corruption controls only; not proof of all checker behavior."
+}

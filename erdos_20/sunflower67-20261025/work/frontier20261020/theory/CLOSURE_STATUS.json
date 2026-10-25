@@ -1,0 +1,28 @@
+{
+  "status": "axiom-audited",
+  "date": "2026-10-20",
+  "roots": {
+    "profile_a": "FrontierProfileAClosed.no_profile_a_of_intersecting_twenty_seven",
+    "generic_incidence": "FrontierTwoHighIncidence.two_large_traces_incidence_bound",
+    "final_eighty": "FrontierFinalEighty.rank_four_upper_eighty_of_intersecting_twenty_seven",
+    "literal_fidelity": "FrontierFinalEighty.literal_intersecting_twenty_seven_implies_eighty"
+  },
+  "final_type": "IntersectingRankFourUpper 27 \u2192 RankFourUpper 80",
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "open_local_premise": "IntersectingRankFourUpper 27 is an ordinary hypothesis, not a local proved fact or project axiom.",
+  "limits": "Same evaluator, cached pinned dependencies. Not clean-kernel-replayed or independently-reproduced. No final-review/publication or global-originality claim from this branch.",
+  "files": {
+    "GenericHeavyExtensions.lean": "42cd0714d05e9a3426c309d06775b4a1604a8ec7751a0f34ae193bd1cb3e6ea7",
+    "CompletionMass.lean": "4321ba77f9b2a910e47ad43e7c88e40d8a9d21c2969ca8d060afb24454d54583",
+    "ProfileAConcentrated.lean": "d3d46b7a6e67a79e81613b46a79792d1ccad2ad9466bef51b68b30e007569d13",
+    "ProfileAClosed.lean": "bcf178fa47a901343663cd7997d1ddd8bb39ddde65ab70e7166dda382b09bfbb",
+    "ProfileAClosedAudit.lean": "c111de327d82f0b9180ace417f25e83a479fb3cc9fce33b33eb29c6d4d3fc0dc",
+    "TwoHighIncidence.lean": "91af69bf8c02412ad90365f21ee77bda3d29d38133cd74f3a2a28b9ef82f3816",
+    "FinalEighty.lean": "189b7bf0bfea7aecd6f4a92c920b77375cfaa4cbbbb92c7bf1fa0adaedc4bf30",
+    "FinalEightyAudit.lean": "7c71a38a2176883bf5fcb6eb4f50db71ee9099ece903ee6f9f2797bfba049d5d"
+  }
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "agent_id": "/root/r67_chief",
+    "context_id": "/root/r67_chief",
+    "role": "chief",
+    "expertise": "Extremal combinatorics and proof architecture",
+    "mandate": "Assess complete theorem framing, evidence sufficiency and final consistency.",
+    "provider": "OpenAI",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/r67_domain",
+    "context_id": "/root/r67_domain",
+    "role": "domain_expert",
+    "expertise": "Sunflower set theory, link classification and graph fibres",
+    "mandate": "Test mathematical structure, actual-link guards and exhaustive degree cases.",
+    "provider": "OpenAI",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/r67_literature",
+    "context_id": "/root/r67_literature",
+    "role": "literature_reviewer",
+    "expertise": "Combinatorics preprints and priority comparisons",
+    "mandate": "Verify relevant prior work, versions and bounded originality claims.",
+    "provider": "OpenAI",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/r67_method",
+    "context_id": "/root/r67_method",
+    "role": "methodologist",
+    "expertise": "Computational proof methodology and finite reductions",
+    "mandate": "Assess complete domains, arbitrary-support bridges and dependency design.",
+    "provider": "OpenAI",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/r67_data",
+    "context_id": "/root/r67_data",
+    "role": "data_analyst",
+    "expertise": "Exact certificates and combinatorial enumeration",
+    "mandate": "Inspect finite evidence, counts, integrity, negative controls and reproducibility.",
+    "provider": "OpenAI",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/r67_logic",
+    "context_id": "/root/r67_logic",
+    "role": "logic_auditor",
+    "expertise": "Quantifier fidelity and formal assurance",
+    "mandate": "Audit implication direction, hypotheses, circularity and Lean claim limits.",
+    "provider": "OpenAI",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/r67_citations",
+    "context_id": "/root/r67_citations",
+    "role": "citation_verifier",
+    "expertise": "Primary theorem and bibliographic verification",
+    "mandate": "Match exact source statements, versions, attributions and numerical conventions.",
+    "provider": "OpenAI",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/r67_writer",
+    "context_id": "/root/r67_writer",
+    "role": "academic_writer",
+    "expertise": "Rigorous mathematical exposition",
+    "mandate": "Assess readable theorem-proof structure and sufficient statement of the companion obligations.",
+    "provider": "OpenAI",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/r67_alpha",
+    "context_id": "/root/r67_alpha",
+    "role": "alpha",
+    "expertise": "Adversarial extremal combinatorics review",
+    "mandate": "Seek counterexamples, missing cases, invalid guards and unsupported claims.",
+    "provider": "OpenAI",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/r67_beta",
+    "context_id": "/root/r67_beta",
+    "role": "beta",
+    "expertise": "Constructive combinatorics and proof repair",
+    "mandate": "Independently test proofs and propose precise mathematical repairs or improvements.",
+    "provider": "OpenAI",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/r67_copy",
+    "context_id": "/root/r67_copy",
+    "role": "copyeditor",
+    "expertise": "Mathematical notation and attribution",
+    "mandate": "Audit notation, accessible-source text reuse and calibrated language.",
+    "provider": "OpenAI",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/r67_typeset",
+    "context_id": "/root/r67_typeset",
+    "role": "typesetter",
+    "expertise": "Mathematical document and formula fidelity",
+    "mandate": "Assess mathematical table/formula presentation and later rendered output fidelity.",
+    "provider": "OpenAI",
+    "model": "unknown"
+  }
+]

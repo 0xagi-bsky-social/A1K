@@ -1,0 +1,2 @@
+{"phase": "built", "kind": "Q8", "case": "E4_14", "columns": 27510, "rows": 1022, "catalogue_sizes": [241, 241, 435, 541, 435, 435, 541, 435, 435, 435, 2867, 2867, 2526, 2867, 2867, 2526, 4644, 1079], "seconds": 3.570392206998804}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_14-fourcore-stage2-d44f054366ab.json", "status": 0, "upper": 49.7058823605, "below50": true, "seconds": 4.092746872000134}

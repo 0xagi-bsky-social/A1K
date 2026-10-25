@@ -1,0 +1,13 @@
+{
+  "split_completion_pairs_tested": 10800,
+  "incompatible_coordinate_cases": {
+    "empty_coordinate_pair": 1800,
+    "equal_coordinate_pair": 1800,
+    "singleton_coordinate_pair": 3600
+  },
+  "missing_sunflower_witnesses": [],
+  "nonnegative_integer_weights_sum_at_most_ten": 8008,
+  "max_heavy_keys": 5,
+  "heavy_key_counterexamples": [],
+  "scope": "Explicit inherited six-point design; finite diagnostic supplements direct abstract proof, not a replacement for isomorphism or Lean proof."
+}

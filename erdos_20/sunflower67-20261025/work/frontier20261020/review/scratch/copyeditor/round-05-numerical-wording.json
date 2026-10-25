@@ -1,0 +1,16 @@
+{
+  "matched_histogram_total": 156960,
+  "candidate_sets": 20475,
+  "diagnostic_max": 5,
+  "bound_floor": 40,
+  "next_multiple": 1517,
+  "weighted_m_coeff": 37,
+  "rhs_constant": 1512,
+  "closure_counts": [
+    63,
+    98,
+    161
+  ],
+  "failure_exit": 124,
+  "failure_elapsed_seconds": 100.56116085906979
+}

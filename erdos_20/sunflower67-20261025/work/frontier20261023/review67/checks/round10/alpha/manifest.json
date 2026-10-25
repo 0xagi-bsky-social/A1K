@@ -1,0 +1,53 @@
+{
+  "agent_id": "/root/r67_alpha",
+  "round": 10,
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 work/frontier20261023/review67/checks/round10/alpha/local-patterns.py",
+  "exit_code": 0,
+  "scope": "Readiness/source comparison, Git payload rehash and bounded literal patterns; no solver/compiler/broad replay.",
+  "files": [
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round10/alpha/readiness-check.json",
+      "sha256": "43d4bdc1bb6ee486b598576b5470e276b105ebd01aeac55e7c86f76e49fd07ce"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round10/alpha/local-patterns.py",
+      "sha256": "aa72a623db9435f0ce25b9149f4cc9a449d00c240319aa760f0867cd0aa5ecfb"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round10/alpha/local-patterns.json",
+      "sha256": "5effadd7a0af0d2e367b9f2bd07d938a331473d3cf9ea3292a5f803779bf5934"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/citation_verifier/h27-commit-response.json",
+      "sha256": "cefee00e42cc5895688ec5317a3ef95a3c7ff3d6be661db504475a6c3423915c"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round05/citation_verifier/root_tree_payload.bin",
+      "sha256": "0898c3250fc67e9542a07ea3ec042a693001f4959cf4dce408b52edd8752f16f"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/H27_IDENTIFIER_CLARIFICATION_R9.md",
+      "sha256": "2bf0041c2d6621334811bdb76dfad2b465f302c6283127888f13121872adde24"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/GLOBAL67-ordinary-theorem.md",
+      "sha256": "eb5080fffb65115f0fd628a8af9b9e65370d739ee1463ad161a9b79be4076ed3"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/LOW15-complete-argument.md",
+      "sha256": "6c3438b2ae2f8438b3c761019e3d1e711d13cf92679c082a7f33c8a762167b68"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/LOW15-NO44-ordinary-closure.md",
+      "sha256": "3d112ee85712e5b00782c798116bccc981b43eb9818329da318eb9e7e94ebd83"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round10/manuscript.md",
+      "sha256": "ec6872777eecaeca0563978e849f2b2fce2c48eb9e28e2efed87ba64b3128bb9"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round10/prior-findings-index.json",
+      "sha256": "c20bf8ff90f79c0851e5104a239565c6a655b679aa9af1764dc446000aadb36d"
+    }
+  ]
+}

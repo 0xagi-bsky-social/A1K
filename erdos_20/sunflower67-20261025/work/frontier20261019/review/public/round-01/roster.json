@@ -1,0 +1,110 @@
+[
+  {
+    "agent_id": "/root/review_coordinator/chief",
+    "context_id": "/root/review_coordinator/chief",
+    "role": "chief",
+    "expertise": "Extremal set theory and synthesis of proof assurance",
+    "mandate": "Perform distinct substantive chief analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review_coordinator/domain_expert",
+    "context_id": "/root/review_coordinator/domain_expert",
+    "role": "domain_expert",
+    "expertise": "Extremal hypergraphs, support bounds and triple design structure",
+    "mandate": "Perform distinct substantive domain_expert analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review_coordinator/literature_reviewer",
+    "context_id": "/root/review_coordinator/literature_reviewer",
+    "role": "literature_reviewer",
+    "expertise": "Sunflower literature and primary-source prior art",
+    "mandate": "Perform distinct substantive literature_reviewer analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review_coordinator/methodologist",
+    "context_id": "/root/review_coordinator/methodologist",
+    "role": "methodologist",
+    "expertise": "Proof obligations, finite enumeration coverage and reproducibility",
+    "mandate": "Perform distinct substantive methodologist analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review_coordinator/data_analyst",
+    "context_id": "/root/review_coordinator/data_analyst",
+    "role": "data_analyst",
+    "expertise": "Exact integer combinatorics, grids and diagnostic computation",
+    "mandate": "Perform distinct substantive data_analyst analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review_coordinator/logic_auditor",
+    "context_id": "/root/review_coordinator/logic_auditor",
+    "role": "logic_auditor",
+    "expertise": "Quantifiers, double counting and Lean/prose semantics",
+    "mandate": "Perform distinct substantive logic_auditor analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review_coordinator/citation_verifier",
+    "context_id": "/root/review_coordinator/citation_verifier",
+    "role": "citation_verifier",
+    "expertise": "Theorem locators, mathematical facts and source provenance",
+    "mandate": "Perform distinct substantive citation_verifier analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review_coordinator/academic_writer",
+    "context_id": "/root/review_coordinator/academic_writer",
+    "role": "academic_writer",
+    "expertise": "Rigorous mathematical exposition and contribution framing",
+    "mandate": "Perform distinct substantive academic_writer analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review_coordinator/alpha",
+    "context_id": "/root/review_coordinator/alpha",
+    "role": "alpha",
+    "expertise": "Adversarial proof audit, counterexamples and overstatement",
+    "mandate": "Perform distinct substantive alpha analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review_coordinator/beta",
+    "context_id": "/root/review_coordinator/beta",
+    "role": "beta",
+    "expertise": "Constructive combinatorial repair and domain fit",
+    "mandate": "Perform distinct substantive beta analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review_coordinator/copyeditor",
+    "context_id": "/root/review_coordinator/copyeditor",
+    "role": "copyeditor",
+    "expertise": "Mathematical copyediting, attribution and bounded text reuse",
+    "mandate": "Perform distinct substantive copyeditor analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review_coordinator/typesetter",
+    "context_id": "/root/review_coordinator/typesetter",
+    "role": "typesetter",
+    "expertise": "Mathematical typography, artifact fidelity and visual QA",
+    "mandate": "Perform distinct substantive typesetter analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+    "provider": "unknown",
+    "model": "unknown"
+  }
+]

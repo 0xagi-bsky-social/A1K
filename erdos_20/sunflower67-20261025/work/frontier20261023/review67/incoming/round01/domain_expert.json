@@ -1,0 +1,104 @@
+{
+  "agent_id": "/root/r67_domain",
+  "role": "domain_expert",
+  "context_id": "/root/r67_domain",
+  "round": 1,
+  "snapshot_sha256": "7912a1f1de1f27d72b2a2e660626f338303bf8cf71085720b4c1e304e670b5ba",
+  "manuscript_sha256": "2c200bf5dff9e665e7dab3ba3f5a1ef019251d341a1913d1f5bd2fc3c086f937",
+  "summary": "The contract, sunflower conventions and degree-case architecture are mathematically coherent at the Round 1 framing level. The manuscript distinguishes its new size-68 exclusions from imported small-rank structure and from end-to-end formal verification. I found no necessary framing revision in the inspected material. This is a continue decision, not certification of every classification, family-to-model bridge or finite leaf.",
+  "evidence_ids": [
+    "global-dag",
+    "external-scope",
+    "prior-unlock",
+    "direct-jin"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "DOMAIN-R1-IMPORT-BOUNDARY",
+      "statement": "H27, Jin and the specified prior classifications remain substantive imported mathematical inputs. The current manuscript states this boundary, including the absence of a local H27 ledger replay and use of Nikiforov's exact Jin restatement.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "The ordinary computer-assisted framing is appropriate. This round checks the import interface and stated limitations; it does not independently certify those external proofs.",
+      "evidence_ids": [
+        "external-scope",
+        "global-dag"
+      ]
+    },
+    {
+      "id": "DOMAIN-R1-STRUCTURAL-SCOPE",
+      "statement": "The new contribution is framed as the size-68 contradiction plus its new low-degree and strengthened high-degree ingredients. The universal fifteen-triple statement has arbitrary-support quantifiers, while represented finite cores in the high-degree models are explicitly projections rather than ambient-support cutoffs.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "No quantifier conflict was found in the statements. Detailed arbitrary-support and finite-domain completeness remain obligations for subsequent substantive rounds.",
+      "evidence_ids": [
+        "global-dag"
+      ]
+    }
+  ],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Frozen manuscript, canonical snapshot and inspected evidence identities",
+      "method": "Computed SHA-256 using Python 3; canonicalized snapshot JSON with sorted keys and compact separators; compared the four inspected evidence files with snapshot content hashes.",
+      "observation": "manuscript.md hashes to 2c200bf5dff9e665e7dab3ba3f5a1ef019251d341a1913d1f5bd2fc3c086f937 and canonical snapshot.json to 7912a1f1de1f27d72b2a2e660626f338303bf8cf71085720b4c1e304e670b5ba. global-dag, external-scope, prior-unlock and direct-jin each matched their recorded content hash.",
+      "result": "supported",
+      "evidence_ids": [
+        "global-dag",
+        "external-scope",
+        "prior-unlock",
+        "direct-jin"
+      ]
+    },
+    {
+      "scope": "Literal theorem, hereditary size restriction and complete-link conventions",
+      "method": "Read manuscript Sections 1, 3 and 4 and global-dag Section 1; checked the set-theoretic implications directly.",
+      "observation": "Distinct members, exact uniformity, finite arbitrary support and empty cores are explicit. A sunflower in a point link lifts by adjoining the root, so SF3 bounds can control complete point degrees. Excluding exactly 68 members implies the at-least-68 statement by hereditary restriction. The warning to retain every selected root cone when restricting a larger family correctly protects completeness of the link.",
+      "result": "supported",
+      "evidence_ids": [
+        "global-dag"
+      ]
+    },
+    {
+      "scope": "H27 transfer to neighbourhood and graph invariants",
+      "method": "Checked manuscript Section 3 against external-scope, Application to the current conventions, and reconstructed the implication.",
+      "observation": "For an actual R, two mutually disjoint members of its disjoint subfamily would form an empty-core sunflower with R. Hence H27 gives |N[R]| >= 68-27 = 41. Independent sets of the disjointness graph are intersecting SF4 subfamilies, giving independence number at most 27; a triangle is precisely three pairwise disjoint members and is forbidden.",
+      "result": "supported",
+      "evidence_ids": [
+        "external-scope",
+        "global-dag"
+      ]
+    },
+    {
+      "scope": "Guarded structural imports and exhaustive maximum-degree partition",
+      "method": "Read manuscript Sections 3-6, prior-unlock, and global-dag Sections 1-2; compared the ordering of hypotheses and cases.",
+      "observation": "The universal cap gives Delta <= 20. The sequence excludes 20, 19, 18, 17, 16 and then all remaining degrees <=15. The Delta <=18 guarded cross-star, crowding, minimum-degree and R61 package is activated after the 20 and 19 exclusions. R16 is explicitly restricted to size 16 with rho <=7, and Q8 permits the specified leaf overlaps. No gap in the stated degree partition or premature use of the guarded package was found at this architectural level.",
+      "result": "supported",
+      "evidence_ids": [
+        "global-dag",
+        "prior-unlock"
+      ]
+    },
+    {
+      "scope": "Direct Jin A3 hypothesis and nonempty-fibre interface",
+      "method": "Read direct-jin and manuscript Section 6; verified the strict integer comparison and all eight cyclic coefficient identities with a bounded standard-library calculation.",
+      "observation": "The strict gap is 25*11-4*68 = 3. For each i, b_i+b_(i+3)+b_(i+5) counts every fibre once and a_i twice. Since the three neighbours of any A3 index are independent, b_i <=27 holds even before surjectivity. The deficits sum to 12, forcing a_i >=1; only then is b_i >=25 inferred from an actual vertex. The resulting r_i sum is 4. This interface does not assume a complete blowup.",
+      "result": "supported",
+      "evidence_ids": [
+        "direct-jin",
+        "external-scope"
+      ]
+    },
+    {
+      "scope": "Novelty and assurance claim boundaries",
+      "method": "Compared manuscript Abstract, Sections 2, 5.2, 7 and 8 with the contract and global-dag source-boundary discussion.",
+      "observation": "The strongest-located upper-68 comparison is explicitly bounded by the literature search, the lower 54 is not presented as new, and the general ground-set conjecture is distinguished from the fixed-rank claim. The manuscript explicitly excludes an end-to-end Lean claim and does not equate separate agent contexts with human or organizational independence. This check assesses the wording and division of contribution, not exhaustive priority.",
+      "result": "supported",
+      "evidence_ids": [
+        "global-dag",
+        "external-scope"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "automorphisms": 60,
+  "benchmarks": {
+    "status": "NOT_RUN"
+  },
+  "budget_profile": {
+    "0": 1,
+    "2": 12,
+    "4": 420
+  },
+  "candidate_families": 5325,
+  "cases": 433,
+  "census": [
+    {
+      "accepted": 210,
+      "candidates": 210,
+      "type": "P10_6"
+    },
+    {
+      "accepted": 128,
+      "candidates": 330,
+      "type": "P9_7"
+    },
+    {
+      "accepted": 45,
+      "candidates": 3003,
+      "type": "P8_I2_8"
+    },
+    {
+      "accepted": 46,
+      "candidates": 495,
+      "type": "P8_I1_8"
+    },
+    {
+      "accepted": 4,
+      "candidates": 1287,
+      "type": "Q8_8"
+    }
+  ],
+  "charged": 5697,
+  "main_proof_uses_optimizer": false,
+  "mutations": [
+    {
+      "name": "drop_case",
+      "rejected_with": "cross-family census coverage mismatch"
+    },
+    {
+      "name": "duplicate_case",
+      "rejected_with": "duplicate root case"
+    },
+    {
+      "name": "omit_Q8_branch",
+      "rejected_with": "cross-family census coverage mismatch"
+    },
+    {
+      "name": "wrong_census",
+      "rejected_with": "census metadata wrong"
+    },
+    {
+      "name": "wrong_resource_capacity",
+      "rejected_with": "resource capacity does not subtract base"
+    },
+    {
+      "name": "missing_trace",
+      "rejected_with": "trace coverage mismatch"
+    },
+    {
+      "name": "invented_sunflower",
+      "rejected_with": "false sunflower witness"
+    },
+    {
+      "name": "invalid_anchor",
+      "rejected_with": "anchor index"
+    },
+    {
+      "name": "center_inside_support",
+      "rejected_with": "centers enter residual support"
+    },
+    {
+      "name": "omit_transport",
+      "rejected_with": "omission transport count"
+    },
+    {
+      "name": "unguarded_resource_charge",
+      "rejected_with": "charge not contained in trace"
+    }
+  ],
+  "omission_transports": 45,
+  "positive_controls": {
+    "double_P10_plus_two_triangles": {
+      "maximum_degree": 16,
+      "members": 26,
+      "minimum_closed_neighbourhood": 26,
+      "reason": "the lower bound on mu is essential; dense cross stars are not universally impossible"
+    }
+  },
+  "status": "PASS",
+  "sunflower_witnesses": 15870,
+  "trace_tests": 21567
+}

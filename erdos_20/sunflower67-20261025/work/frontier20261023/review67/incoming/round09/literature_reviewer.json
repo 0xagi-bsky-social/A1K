@@ -1,0 +1,86 @@
+{
+  "agent_id": "/root/r67_literature",
+  "role": "literature_reviewer",
+  "context_id": "/root/r67_literature",
+  "round": 9,
+  "snapshot_sha256": "e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4",
+  "manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68",
+  "summary": "The October 25 revision supports the bounded fixed-rank comparison and corrects the archive-versus-registry description. I inspected retained primary responses and search records rather than treating the resumption gate as evidence of correctness. Coverage gaps, external H27 dependence and unbuilt formalization status remain explicit. No necessary literature revision was identified.",
+  "evidence_ids": [
+    "literature-refresh-20261025",
+    "frontier-gate-20261025",
+    "contract-amendment-20261025",
+    "external-h27-scope-correction",
+    "external-h27-tree-correction",
+    "round8-committed"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "LIT-R9-01",
+      "statement": "The refreshed negative finding remains bounded by actual retrieval coverage: topical SSRN full text and several native catalogs remain incompletely inspected.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Section 2 names the SSRN gap and limits the claim to sources located by the stated cutoff. Neither stale indexed responses, the native keyword searches nor the gate establishes exhaustive priority. The retained browser record is explicitly a transcription, not an authenticated site export.",
+      "evidence_ids": [
+        "literature-refresh-20261025",
+        "frontier-gate-20261025"
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "/root/r67_literature:round-4:required-revision-1",
+      "action": "Compared the revised H27 timing sentence and retained source limitations with both superseding addenda.",
+      "result": "The disclosure repair remains resolved. The October 25 search updates comparison coverage without claiming to authenticate H27’s historical run or complete repository tree.",
+      "status": "resolved"
+    },
+    {
+      "finding_id": "/root/r67_literature:round-1:required-revision-1",
+      "action": "Checked the exact manuscript diff and retained Section 2 attribution.",
+      "result": "Abbott–Hanson and Abbott–Gardner attribution through [1] remains unchanged and satisfactory.",
+      "status": "resolved"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Exact numerical comparator and misleading smaller bounds",
+      "method": "Inspected rank4/source-tool-outputs.json and its supplement, including the retrieved aiXiv abstract, SproutSeeds README and SmallCases.lean; compared their literal quantifiers.",
+      "observation": "The aiXiv source excludes size 69, states maximum 68 and expressly leaves size 68 unexcluded. SproutSeeds’ upper 46 requires pairwise intersections at most two; the present theorem permits three. Its displayed M(4,3)=8 quantifies over subsets of Fin 4, without rank-four uniformity. These cannot displace the stated arbitrary-support comparator. General/assessment.json and the saved BHL declaration preserve the support-size parameter.",
+      "result": "supported",
+      "evidence_ids": [
+        "literature-refresh-20261025"
+      ]
+    },
+    {
+      "scope": "Actual search coverage and unresolved leads",
+      "method": "Read the query ledger, native browser observations, archive findings and raw root-batch5 SSRN response; parsed the saved HAL response.",
+      "observation": "HAL contains all 1323 returned metadata records, not full texts. Browser notes distinguish 50 announcement-order arXiv listings, 25 submission-order listings and seven aiXiv listings from exhaustive corpus coverage. The saved SSRN abstract discusses Bayesian formulations but states no matching numerical upper bound; full text remains unread. Research Square first-page limits and inaccessible native catalogs remain documented. The new prose accurately preserves these limits.",
+      "result": "supported",
+      "evidence_ids": [
+        "literature-refresh-20261025"
+      ]
+    },
+    {
+      "scope": "Public archive copy versus registry endorsement",
+      "method": "Compared general/github03–10 raw contents, commit responses, README, formalization.yaml and Solution.lean.",
+      "observation": "Author and PalomarArchive responses report commit 8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7; their 18 root entries have identical path/hash/type mappings. README and metadata explicitly withhold registration and endorsement claims. Solution exposes support-size and alphabet-dependent declarations. “Matching PalomarArchive copy” is therefore supported at this inspection level; neither registry approval nor a locally replayed kernel proof follows.",
+      "result": "supported",
+      "evidence_ids": [
+        "literature-refresh-20261025"
+      ]
+    },
+    {
+      "scope": "Prospective cutoff amendment and unchanged mathematical claim",
+      "method": "Verified the six gate-bound file hashes, original-contract byte hash and gate hash referenced by the amendment; inspected the complete round-eight-to-nine manuscript diff.",
+      "observation": "The amendment takes effect at round nine and identifies 25 October 2026, 13:36:25 UTC as the new cutoff, without silently rewriting the original contract. Changes are confined to search timing, coverage and public-artifact description. Theorems, mathematical proof and imported-source caveats remain unchanged. The gate authorizes continued review under its criterion; it supplies no theorem proof, reviewer vote or final acceptance.",
+      "result": "supported",
+      "evidence_ids": [
+        "frontier-gate-20261025",
+        "contract-amendment-20261025",
+        "literature-refresh-20261025"
+      ]
+    }
+  ]
+}

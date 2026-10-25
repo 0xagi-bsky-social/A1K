@@ -1,0 +1,19 @@
+{
+  "source": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/compute/TwoStarResidualAudit.lean",
+  "source_sha256": "5201bee026cf531e603a220e7c32424311bd454be5ab69bec6c61e748423e915",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "--memory=1024",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/compute/build/TwoStarResidualAudit.olean",
+    "TwoStarResidualAudit.lean"
+  ],
+  "LEAN_PATH": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/compute/build:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/formal/build:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/theory/build:/home/user/Documents/Codex/2026-09-22/you-ve-been-interrupted-unexpectedly-please/work/erdos20-v13/lean/.lake/build/lib/lean:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/batteries/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/mathlib/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/plausible/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/Cli/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/Qq/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/importGraph/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/aesop/.lake/build/lib/lean",
+  "exit_code": 0,
+  "elapsed_seconds": 3.6076853839913383,
+  "output": "PROFILE_A_BRIDGE_AXIOM_AUDIT {\"axioms\":[\"Classical.choice\",\"Quot.sound\",\"propext\"],\"root\":\"FrontierTwoStarResidual.independent_center_outside_link\",\"status\":\"pass\"}\nPROFILE_A_BRIDGE_AXIOM_AUDIT {\"axioms\":[\"Classical.choice\",\"Quot.sound\",\"propext\"],\"root\":\"FrontierTwoStarResidual.residual_meets_link_support_ge_three\",\"status\":\"pass\"}\n",
+  "output_sha256": "dc04fbc71da7e1ae9fe75826b3c7fa57a2c344d5d9d49d657ac07ebe79f70d74",
+  "assurance": "elaborated",
+  "limits": "Same evaluator; pinned Lean and dependency caches; this is not a clean independent replay."
+}

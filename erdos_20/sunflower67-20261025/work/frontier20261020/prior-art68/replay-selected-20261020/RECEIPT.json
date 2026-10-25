@@ -1,0 +1,199 @@
+{
+  "status": "SELECTED_FOUR_SUITE_PARTIAL_PASS",
+  "started_utc": "2026-10-20T10:02:24.389990+00:00",
+  "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+  "selected_ids": [
+    "terminal.cross15",
+    "terminal.crowding",
+    "terminal.cap61",
+    "terminal.r16"
+  ],
+  "executions": [
+    {
+      "id": "terminal.cross15",
+      "mode": "normal",
+      "argv": [
+        "/usr/bin/python3",
+        "-B",
+        "-X",
+        "utf8",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package/scripts/guarded_checker.py",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020",
+        "companion/terminal/cross15/src/verify.py"
+      ],
+      "cwd": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package",
+      "timeout_seconds": 120,
+      "returncode": 0,
+      "elapsed_seconds": 1.8756957809673622,
+      "stdout_sha256": "29f86d6415201ab4c760e52757edb9bad9c09c7aa021442864820fc3088e3f89",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "PASS_EXPECTED_SEMANTICS",
+      "semantic_sha256": "330cfb9206e163ca9705775b574e4f71b3230bb50190544e811c6733f81a8af9"
+    },
+    {
+      "id": "terminal.cross15",
+      "mode": "optimized",
+      "argv": [
+        "/usr/bin/python3",
+        "-B",
+        "-O",
+        "-X",
+        "utf8",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package/scripts/guarded_checker.py",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020",
+        "companion/terminal/cross15/src/verify.py"
+      ],
+      "cwd": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package",
+      "timeout_seconds": 120,
+      "returncode": 0,
+      "elapsed_seconds": 2.146187099046074,
+      "stdout_sha256": "29f86d6415201ab4c760e52757edb9bad9c09c7aa021442864820fc3088e3f89",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "PASS_EXPECTED_SEMANTICS",
+      "semantic_sha256": "330cfb9206e163ca9705775b574e4f71b3230bb50190544e811c6733f81a8af9"
+    },
+    {
+      "id": "terminal.crowding",
+      "mode": "normal",
+      "argv": [
+        "/usr/bin/python3",
+        "-B",
+        "-X",
+        "utf8",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package/scripts/guarded_checker.py",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020",
+        "companion/terminal/crowding/code/verify.py"
+      ],
+      "cwd": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package",
+      "timeout_seconds": 120,
+      "returncode": 0,
+      "elapsed_seconds": 6.928520577959716,
+      "stdout_sha256": "7df73d945a189849c662508c2b374a60f98e2a3cb5f72887f17dd3c04eda07c2",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "PASS_EXPECTED_SEMANTICS",
+      "semantic_sha256": "b9116eec59ef40277776d697fd48497b6cb4a818d9fc191d94ac871d60f497fb"
+    },
+    {
+      "id": "terminal.crowding",
+      "mode": "optimized",
+      "argv": [
+        "/usr/bin/python3",
+        "-B",
+        "-O",
+        "-X",
+        "utf8",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package/scripts/guarded_checker.py",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020",
+        "companion/terminal/crowding/code/verify.py"
+      ],
+      "cwd": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package",
+      "timeout_seconds": 120,
+      "returncode": 0,
+      "elapsed_seconds": 6.171106121037155,
+      "stdout_sha256": "7df73d945a189849c662508c2b374a60f98e2a3cb5f72887f17dd3c04eda07c2",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "PASS_EXPECTED_SEMANTICS",
+      "semantic_sha256": "b9116eec59ef40277776d697fd48497b6cb4a818d9fc191d94ac871d60f497fb"
+    },
+    {
+      "id": "terminal.cap61",
+      "mode": "normal",
+      "argv": [
+        "/usr/bin/python3",
+        "-B",
+        "-X",
+        "utf8",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package/scripts/guarded_checker.py",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020",
+        "companion/terminal/cap61/src/verify.py"
+      ],
+      "cwd": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package",
+      "timeout_seconds": 120,
+      "returncode": 0,
+      "elapsed_seconds": 1.972587303025648,
+      "stdout_sha256": "d3a293327ed46258baa676502bed3b38827a8077f0a2ca6163ffd5bc556aa7c1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "PASS_EXPECTED_SEMANTICS",
+      "semantic_sha256": "471d7779b2cb60ee7571e5b69e7fa50a610c645d80f078da63ae4287f9d4f214"
+    },
+    {
+      "id": "terminal.cap61",
+      "mode": "optimized",
+      "argv": [
+        "/usr/bin/python3",
+        "-B",
+        "-O",
+        "-X",
+        "utf8",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package/scripts/guarded_checker.py",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020",
+        "companion/terminal/cap61/src/verify.py"
+      ],
+      "cwd": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package",
+      "timeout_seconds": 120,
+      "returncode": 0,
+      "elapsed_seconds": 1.870153852039948,
+      "stdout_sha256": "d3a293327ed46258baa676502bed3b38827a8077f0a2ca6163ffd5bc556aa7c1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "PASS_EXPECTED_SEMANTICS",
+      "semantic_sha256": "471d7779b2cb60ee7571e5b69e7fa50a610c645d80f078da63ae4287f9d4f214"
+    },
+    {
+      "id": "terminal.r16",
+      "mode": "normal",
+      "argv": [
+        "/usr/bin/python3",
+        "-B",
+        "-X",
+        "utf8",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package/scripts/guarded_checker.py",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020",
+        "companion/terminal/r16/src/verify.py"
+      ],
+      "cwd": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package",
+      "timeout_seconds": 120,
+      "returncode": 0,
+      "elapsed_seconds": 7.634029227076098,
+      "stdout_sha256": "0cca051a5653c18778c2772d2ee3e08aee62c6125871071d24745bcd33163031",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "PASS_EXPECTED_SEMANTICS",
+      "semantic_sha256": "29c39950301d9903a5ea40fddfc04e4a6de777ab39548911d655f6f467362de9"
+    },
+    {
+      "id": "terminal.r16",
+      "mode": "optimized",
+      "argv": [
+        "/usr/bin/python3",
+        "-B",
+        "-O",
+        "-X",
+        "utf8",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package/scripts/guarded_checker.py",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020",
+        "companion/terminal/r16/src/verify.py"
+      ],
+      "cwd": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package",
+      "timeout_seconds": 120,
+      "returncode": 0,
+      "elapsed_seconds": 9.129712888970971,
+      "stdout_sha256": "0cca051a5653c18778c2772d2ee3e08aee62c6125871071d24745bcd33163031",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "PASS_EXPECTED_SEMANTICS",
+      "semantic_sha256": "29c39950301d9903a5ea40fddfc04e4a6de777ab39548911d655f6f467362de9"
+    }
+  ],
+  "complete_companion": false,
+  "written_reductions_formalized": false,
+  "external_H27_or_Jin_replayed": false,
+  "independent_human_validation": false,
+  "scope": "Four selected exact finite suites only; original unchanged external checkers.",
+  "inputs_before": {
+    "files": 1692,
+    "manifest_sha256": "ecc54817e8e81242a59ef6b033e74e472d3ffbb3e80f9f0d9f0e8264acf40b18"
+  },
+  "inputs_after": {
+    "files": 1692,
+    "manifest_sha256": "ecc54817e8e81242a59ef6b033e74e472d3ffbb3e80f9f0d9f0e8264acf40b18"
+  },
+  "finished_utc": "2026-10-20T10:03:02.366702+00:00"
+}

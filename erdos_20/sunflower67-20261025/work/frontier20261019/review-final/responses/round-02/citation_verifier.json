@@ -1,0 +1,43 @@
+{
+  "agent_id": "/root/review_coordinator/citation_verifier",
+  "role": "citation_verifier",
+  "context_id": "/root/review_coordinator/citation_verifier",
+  "round": 2,
+  "snapshot_sha256": "ca231dc7862039c04067c0ccc5ee58f1cdfdf600d9f9e0bf498878efcf4c78cc",
+  "manuscript_sha256": "2489c2194f27ff2597d9e2c670d9d51ea4ba505363a7ae62e307ee489e87195f",
+  "summary": "The numerical attributions match the frozen primary records, and both hashes match. Reference [2]'s precise cutoff is not present in the supplied excerpts.",
+  "evidence_ids": [
+    "F16",
+    "F17"
+  ],
+  "decision": "revise",
+  "required_revisions": [
+    "Provide source metadata supporting reference [2]'s version and 22 September 2026 cutoff, or omit unsupported metadata."
+  ],
+  "findings": [
+    {
+      "id": "/root/review_coordinator/citation_verifier:round-2:required-revision-1",
+      "statement": "F16/F17 identify the A1K article and theorem passages but contain no version/cutoff header.",
+      "severity": "minor",
+      "status": "open",
+      "disposition": "Supply the header excerpt or qualify the bibliography.",
+      "evidence_ids": [
+        "F16",
+        "F17"
+      ]
+    }
+  ],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "References [2]/[3] and numerical claims",
+      "method": "Compared bibliography and scope text with F16 metadata/abstract and F17 sections 6.3/8 and A1K T7/T8.",
+      "observation": "Reference [3]'s five authors, title, arXiv identifier, v1 date and section locators match. Its reported 54≤f(4,3)≤83 and intersecting maximum 27 agree. A1K T7 gives Fin85; T8 conditions G(80) on all three named inputs. The article title matches, while its exact cutoff remains unverified. This checks attribution, not external enumeration replay.",
+      "result": "supported",
+      "evidence_ids": [
+        "F16",
+        "F17"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "nodes": 94,
+  "receipt_and_replay_hashes": 188,
+  "all_backward_dependencies": true,
+  "forbidden_trace_premises_supported_by_declared_ancestors": true,
+  "E4_56_E4_57_each_use_first_68_only": true,
+  "all_24_three_nodes_use_first_70_only": true,
+  "positive_scale_strict_certificates": 94,
+  "absent_core_four": 715,
+  "absent_mixed_core_three": 231,
+  "limitations": [
+    "Did not reconstruct orbit closures independently in this check.",
+    "Did not rerun the 94 model-building or exact arithmetic replays."
+  ]
+}

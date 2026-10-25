@@ -1,0 +1,110 @@
+{
+  "complete_finite_companion": false,
+  "computational_manifest_sha256": "ecc54817e8e81242a59ef6b033e74e472d3ffbb3e80f9f0d9f0e8264acf40b18",
+  "executions": [
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "-B",
+        "-X",
+        "utf8",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package/scripts/guarded_checker.py",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/receipts",
+        "companion/terminal/check_f69_bridge.py"
+      ],
+      "cwd": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package",
+      "elapsed_seconds": 0.140572,
+      "id": "terminal.f69_bridge",
+      "mode": "normal",
+      "returncode": 0,
+      "semantic_sha256": "3207780dfe98160d27fda8efe56779c148e7652e1656ef717ada3f12b770a052",
+      "status": "PASS_EXPECTED_SEMANTICS",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "af87ebd73eb7322a74c788bd0dc4083f4114511a19f5ba9473d1930900cff92d"
+    },
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "-B",
+        "-O",
+        "-X",
+        "utf8",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package/scripts/guarded_checker.py",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/receipts",
+        "companion/terminal/check_f69_bridge.py"
+      ],
+      "cwd": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package",
+      "elapsed_seconds": 0.294542,
+      "id": "terminal.f69_bridge",
+      "mode": "optimized",
+      "returncode": 0,
+      "semantic_sha256": "3207780dfe98160d27fda8efe56779c148e7652e1656ef717ada3f12b770a052",
+      "status": "PASS_EXPECTED_SEMANTICS",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "af87ebd73eb7322a74c788bd0dc4083f4114511a19f5ba9473d1930900cff92d"
+    },
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "-B",
+        "-X",
+        "utf8",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package/scripts/guarded_checker.py",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/receipts",
+        "companion/terminal/primary_check.py"
+      ],
+      "cwd": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package",
+      "elapsed_seconds": 0.058231,
+      "id": "terminal.primary",
+      "mode": "normal",
+      "returncode": 0,
+      "semantic_sha256": "2854722521ddf408d4acf5368175334419c34e4b7c7649d9dc21fa966d314f2c",
+      "status": "PASS_EXPECTED_SEMANTICS",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "c2a0d184728637d64a0ff84d6403266643365c450dfdcd0e949f4a5590fc6506"
+    },
+    {
+      "argv": [
+        "/usr/bin/python3",
+        "-B",
+        "-O",
+        "-X",
+        "utf8",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package/scripts/guarded_checker.py",
+        "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/receipts",
+        "companion/terminal/primary_check.py"
+      ],
+      "cwd": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-quick-20261020/package",
+      "elapsed_seconds": 0.13772,
+      "id": "terminal.primary",
+      "mode": "optimized",
+      "returncode": 0,
+      "semantic_sha256": "2854722521ddf408d4acf5368175334419c34e4b7c7649d9dc21fa966d314f2c",
+      "status": "PASS_EXPECTED_SEMANTICS",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "c2a0d184728637d64a0ff84d6403266643365c450dfdcd0e949f4a5590fc6506"
+    }
+  ],
+  "external_theorems_replayed": false,
+  "filesystem_boundary": "Python audit hook; no OS sandbox or other-machine claim",
+  "formalized": false,
+  "mode": "quick",
+  "pairs": [
+    {
+      "id": "terminal.f69_bridge",
+      "semantic_identical": true,
+      "semantic_sha256": "3207780dfe98160d27fda8efe56779c148e7652e1656ef717ada3f12b770a052"
+    },
+    {
+      "id": "terminal.primary",
+      "semantic_identical": true,
+      "semantic_sha256": "2854722521ddf408d4acf5368175334419c34e4b7c7649d9dc21fa966d314f2c"
+    }
+  ],
+  "plan_sha256": "21798425155d8199b159ac27abc6d1de26876f349b26683ed36825036612ad24",
+  "platform": "Linux-6.18.54-1.qubes.fc41.x86_64-x86_64-with-glibc2.41",
+  "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+  "status": "QUICK_PARTIAL_PASS",
+  "utc_finished": "2026-10-20T10:00:26.805902+00:00",
+  "utc_started": "2026-10-20T10:00:25.887787+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20Tetrahedron",
+  "source_sha256": "96d6d00bb0f600e5ac9946ff0daeaa22d38bc45ae9b3586f7d4bb7fd52b7a23b",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20Tetrahedron.olean",
+    "SunflowerLean/Erdos20Tetrahedron.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 16.873,
+  "output": "SunflowerLean/Erdos20Tetrahedron.lean:39:4: warning: Try `simp at hA` instead of `simpa using hA`\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\nSunflowerLean/Erdos20Tetrahedron.lean:64:6: warning: Try `simp at hm` instead of `simpa using hm`\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\nSunflowerLean/Erdos20Tetrahedron.lean:67:6: warning: Try `simp at hm` instead of `simpa using hm`\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\nSunflowerLean/Erdos20Tetrahedron.lean:70:6: warning: Try `simp at hm` instead of `simpa using hm`\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\nSunflowerLean/Erdos20Tetrahedron.lean:142:6: warning: Try `simp at ht` instead of `simpa using ht`\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\nSunflowerLean/Erdos20Tetrahedron.lean:173:4: warning: Try `simp at hm` instead of `simpa using hm`\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\nSunflowerLean/Erdos20Tetrahedron.lean:179:4: warning: Try `simp at hm` instead of `simpa using hm`\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\nSunflowerLean/Erdos20Tetrahedron.lean:188:6: warning: Try `simp at haR` instead of `simpa using haR`\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\nSunflowerLean/Erdos20Tetrahedron.lean:168:35: warning: This simp argument is unused:\n  Finset.insert_subset_iff\n\nHint: Omit it from the simp argument list.\n  s\u0335i\u0335m\u0335p\u0335 \u0335[\u0335R\u0335,\u0335K\u0335,\u0335F\u0335i\u0335n\u0335s\u0335e\u0335t\u0335.\u0335i\u0335n\u0335s\u0335e\u0335r\u0335t\u0335_\u0335s\u0335u\u0335b\u0335s\u0335e\u0335t\u0335_\u0335i\u0335f\u0335f\u0335]\u0335s\u0332i\u0332m\u0332p\u0332 \u0332[\u0332R\u0332,\u0332 \u0332K\u0332]\u0332\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n"
+}

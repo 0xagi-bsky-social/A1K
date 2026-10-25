@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "assurance": "axiom-audited",
+  "roots": {
+    "FrontierTerminal.asymmetric_disjoint_union_trace_ge_five": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrontierTerminal.asymmetric_disjoint_terminal_pair_has_pureY_transversal": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrontierTerminal.asymmetric_without_pureY_intersecting": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrontierTerminal.asymmetric_terminal_separation_card_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrontierTerminal.asymmetric_terminal_residual_card_le_37": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "source_sha256": "6d904f273d429a75324f7b88637a3610f271881b0529eaf3183a2f390450165a",
+  "compile_receipt_sha256": "c742a6453ebabff6042cbf9e14ac69629093b7fb7d752c5de5d07ba41149de6e",
+  "output_sha256": "43ebbbfc7ae1d66b821c4cd6f6bcbc06f578bcfa042105acabfd15caca829b22",
+  "object_sha256": "b1cc406e0498e4fcfc708453f86a74abaf20c0f9e2606eeaba75fcb5230d170f",
+  "runtime_manifest_sha256": "82fbc8e9fed8db7432040b576e330bf194a723a89eb670322c5b8ea2fb2d16c6",
+  "import": "TerminalSeparation",
+  "import_source_sha256": "01ec3df7f6137df13697246ec36768157740221d349fc08fe58f2ed7bc699dfc",
+  "import_object_sha256": "c4658d66701ceaf5b0b43ef2099c0f2b0997f7852995a24bb24667bace07459b",
+  "import_unchanged": true,
+  "bounded_compile_runs": 1,
+  "repair_cycles": 0,
+  "compile_seconds": 3.9583347779998803,
+  "limits": "Existing pinned dependency cache; not a clean replay or independent reproduction. H27 and the actual Y-transversal pool bound remain explicit parameters for the final count."
+}

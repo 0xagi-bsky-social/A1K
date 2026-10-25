@@ -1,0 +1,62 @@
+{
+  "agent_id": "/root/review_coordinator/citation_verifier",
+  "role": "citation_verifier",
+  "context_id": "/root/review_coordinator/citation_verifier",
+  "round": 1,
+  "snapshot_sha256": "11f2d2653c902a45a6c436f9d3e618a63f3bd094793dd3a8e9f2731d18411ec7",
+  "manuscript_sha256": "976c7317f428b7a240bf9b115196d753bc765ee9384836f44c79f771fad356bd",
+  "summary": "The main framing is source-aligned: the external computer-assisted intersecting maximum is distinguished from the unresolved local Lean input, and the contribution is a finite-support reduction rather than a new extremal value. Definitions preserve distinct petals and allow empty cores. One contextual repository-history assertion lacks evidence in this frozen packet. Verification was bounded to the supplied primary-source representations; I did not certify literature completeness or authenticate remote bytes.",
+  "evidence_ids": [
+    "E16",
+    "E17",
+    "E18"
+  ],
+  "decision": "revise",
+  "required_revisions": [
+    "Supply an immutable comparison supporting the OpenAI current-head/workflow-only assertion, or remove that assertion."
+  ],
+  "findings": [
+    {
+      "id": "/root/review_coordinator/citation_verifier:round-1:required-revision-1",
+      "statement": "Reference [4] points to an older CONTENTS.md snapshot, while the prose also asserts that a different current head changes only a workflow. Neither supplied primary-web record nor the listed pinned-source manifest supplies that comparison.",
+      "severity": "minor",
+      "status": "open",
+      "disposition": "Add narrowly scoped provenance for the comparison or delete the unsupported contextual claim.",
+      "evidence_ids": [
+        "E16",
+        "E17",
+        "E18"
+      ]
+    }
+  ],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Frozen version identity",
+      "method": "Computed SHA-256 of manuscript bytes and canonical sorted compact snapshot JSON.",
+      "observation": "Both computed digests match the assigned snapshot, so this assessment concerns the specified round-one version.",
+      "result": "supported",
+      "evidence_ids": []
+    },
+    {
+      "scope": "Definitions, external extremum and contribution boundary",
+      "method": "Compared manuscript scope against E16 lines 53–61, 85–113 and E17 section 6.3 and section 8 passages.",
+      "observation": "Author list, title, arXiv v1 date, distinct-set/empty-core conventions, reported maximum 27 and bounds 54 through 83 agree. The manuscript correctly distinguishes positive-rank reflexive intersection from the source convention. Section 8 supports separating computational upper bounds from Lean coverage.",
+      "result": "supported",
+      "evidence_ids": [
+        "E16",
+        "E17"
+      ]
+    },
+    {
+      "scope": "Inherited finite reduction and conditional bound",
+      "method": "Read E17 A1K T7/T8 passages and inspected E18 manifest coverage.",
+      "observation": "T7 states the Fin 85 equivalence, while T8 requires I(27) and both profile exclusions for G(80). The manuscript preserves these qualifications. Source inspection and retrieved prose do not establish a clean rebuild.",
+      "result": "supported",
+      "evidence_ids": [
+        "E17",
+        "E18"
+      ]
+    }
+  ]
+}

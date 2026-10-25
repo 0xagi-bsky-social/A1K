@@ -1,0 +1,57 @@
+{
+  "html_limits": [
+    "Unsupported mathematical notation is preserved as escaped LaTeX source; no formula was silently rewritten."
+  ],
+  "pdf": {
+    "available": false,
+    "renderer": null,
+    "attempts": [
+      {
+        "renderer": "chromium",
+        "executable": "/usr/bin/chromium",
+        "sandbox_enabled": true,
+        "exit_code": -5,
+        "wall_seconds": 1.0641886580269784,
+        "diagnostic_sha256": "103e4f37544c7724781fadb7a07ec401f6b02ea1563d972e692dd1e30b1e05a2"
+      },
+      {
+        "renderer": "chromium",
+        "executable": "/usr/bin/chromium",
+        "sandbox_enabled": false,
+        "exit_code": -5,
+        "wall_seconds": 0.6589631679235026,
+        "diagnostic_sha256": "4415612bf5d41f774dc9dcba1b216e91babd92182168068a459659181046babe"
+      },
+      {
+        "renderer": "chromium",
+        "executable": "/opt/google/chrome/google-chrome",
+        "sandbox_enabled": true,
+        "exit_code": -5,
+        "wall_seconds": 0.8915669709676877,
+        "diagnostic_sha256": "ec1ea3fc6838c8e88416149ac9e9223fa9e49cd9e03c0aa58f27537b4cd4ba7d"
+      },
+      {
+        "renderer": "chromium",
+        "executable": "/opt/google/chrome/google-chrome",
+        "sandbox_enabled": false,
+        "exit_code": -5,
+        "wall_seconds": 0.31193325703497976,
+        "diagnostic_sha256": "11c1af651ea4014cd9d58a133bef60493c26417dc071077b03205356df3d31e6"
+      },
+      {
+        "renderer": "reportlab",
+        "python_executable": "/home/user/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "exit_code": 0,
+        "diagnostic_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "renderer": "reportlab",
+        "status": "unavailable-or-failed",
+        "reason": "PDF omits or changes visible prose fragments: 2"
+      }
+    ],
+    "limitations": [
+      "No installed local renderer produced a validated PDF. Reviewed Markdown and self-contained HTML remain available; review validity is unchanged."
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+{"phase": "built", "kind": "P9-Q8", "case": "IZ04", "columns": 28138, "rows": 1383, "catalogue_sizes": [2018, 2018, 854, 854, 2018, 854, 854, 854, 854, 1818, 1818, 1818, 1818, 1818, 1818, 3160, 1799], "seconds": 3.463024303000566}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-IZ04-internal-Z-stage4-v8-59da4d07c674.json", "status": 0, "upper": 51.0, "below51": false, "seconds": 4.3249756969999}

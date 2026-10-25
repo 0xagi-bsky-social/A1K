@@ -1,0 +1,1979 @@
+{
+  "snapshot": {
+    "contract_sha256": "dc1ac6ab08e52d7aabff32b4bda2a080f472a14b27a5a2a61540cf1f51e10841",
+    "evidence": [
+      {
+        "content_sha256": "eb5080fffb65115f0fd628a8af9b9e65370d739ee1463ad161a9b79be4076ed3",
+        "description": "Complete maximum-degree composition",
+        "id": "global-proof",
+        "kind": "derivation",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/GLOBAL67-ordinary-theorem.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "38f2ff4ce7cdba0a6319ca388d789384cd094de63f6445527e56e69ecfbe6127",
+        "description": "Acyclic proof and import audit",
+        "id": "global-dag",
+        "kind": "derivation",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/GLOBAL67-dependency-roadmap.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "1c852bf2dbfe8e9659702b04156d444247a7c47aea252102151e27b0b6a78580",
+        "description": "Degree20 ordinary and finite route",
+        "id": "degree20",
+        "kind": "derivation",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D20-proof-check.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "3592b645fc12ef44ee927473f25a75844b4f4d32133a1729abd2e731ad8e34a2",
+        "description": "Degree19 complete argument and active indices",
+        "id": "degree19",
+        "kind": "derivation",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D19-complete-argument.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "90b02358d14f58513161a7d9199dfe39668fc58a0cd2b3a33d74984a0ed5497d",
+        "description": "Degree18 complete argument and169 active leaves",
+        "id": "degree18",
+        "kind": "derivation",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-complete-argument.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "d816d1135003f99b3cd12f1dd16f2d24187e952c20fba41779ba007593f72f07",
+        "description": "Degree17 complete argument and329 branch leaves",
+        "id": "degree17",
+        "kind": "derivation",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-complete-argument.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "5628ed14a7a7a24013087de1f630f15ec2fe07479ad6dadc91d2619a0e758890",
+        "description": "Degree16 covers and graph-fibre closure",
+        "id": "degree16",
+        "kind": "derivation",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D16-complete-argument.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "6c3438b2ae2f8438b3c761019e3d1e711d13cf92679c082a7f33c8a762167b68",
+        "description": "Complete cap15 argument",
+        "id": "cap15",
+        "kind": "derivation",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/LOW15-complete-argument.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "1e279321a6b0eecbcc6f181d71ec9b7ab908a1e1ad0c0a14617ba9f38ab39848",
+        "description": "Independent cap15 composition inspection",
+        "id": "cap15-check",
+        "kind": "verification",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/LOW15-assembly-independent-composition-check.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "1ad9d57a72093d5e153b5bc0624e0068d70960a79a3c2c66ddbb3acc30fa7252",
+        "description": "Direct A3 reduction without empty-fibre theorem",
+        "id": "direct-jin",
+        "kind": "derivation",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/LOW15-direct-Jin-A3-addon.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "21e1ca4e9b0dbec34f030135f353f693c4f7ebb6da96e8529f11b1bab0c9cd1f",
+        "description": "Universal15-triple result and complete independent evidence",
+        "id": "rho15",
+        "kind": "derivation",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/R15-rho6-completed-evidence.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "1eb5c60b826d21ef0271991b5492fc17ff98a4bab155d8b3ecf6fd57fbc36ff0",
+        "description": "External H27 and Jin precise source scope",
+        "id": "external-scope",
+        "kind": "source-inspection",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/EXTERNAL-H27-JIN-SCOPE.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "3658ac4e94efe4bc5240856300c79c43d1388085c2126cb926df64dd48881992",
+        "description": "Frozen prior source and selected replay boundary",
+        "id": "prior-ledger",
+        "kind": "source-inspection",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/FOUNDATION_LEDGER.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "25b65f695264ae0dbcd5d97b8e66eac421cccbb9970eaf20cc8692886f855b89",
+        "description": "Guarded prior facts after cap18",
+        "id": "prior-unlock",
+        "kind": "derivation",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/PRIOR_DELTA18_UNLOCK.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "718588c1d919f630b816f633b02f4421448acfb5e24131eb1c98a752b0a6d3a9",
+        "description": "Fresh cross-archive and primary-source comparison",
+        "id": "literature-refresh",
+        "kind": "literature",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261024/FRONTIER_REFRESH.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "4da11b273d842f09ce6a2327e778a77c86eb99b77965d2d99d87bcfdd19d6ed0",
+        "description": "Ground-set theorem and public Lean lead limits",
+        "id": "general-literature",
+        "kind": "literature",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261024/general.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "81d019a295700f3a9b144732d05720adf95e040368483f1a9c06b0f74c4d6c31",
+        "description": "Complete94-leaf Q8 literal coverage",
+        "id": "q8-coverage",
+        "kind": "verification",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-complete-coverage-v9.json",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "0f4f5ce037df19859683cef35dc2b5e264d0e20697d8886dc704c8cd90eb9e4b",
+        "description": "Three structural corruption controls",
+        "id": "q8-negative",
+        "kind": "verification",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/q8-negative-controls/results.json",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "2e6db53bfa500ce180d4b92ad19497a30cf567180383966f9a30a1c38387567e",
+        "description": "Five axiom-audited arithmetic interfaces",
+        "id": "formal-scalar",
+        "kind": "formal",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/R15ScalarClosure-status.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "bc25293170bf719344a65b70707920eea33f414d603e881ec8fe7bb22421f6e3",
+        "description": "General terminal separation Lean scope",
+        "id": "formal-terminal",
+        "kind": "formal",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/TerminalSeparation-status.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "f4efd8f5b383199ccfadeaa7e50c4cae80bac09fa5b6f1c1025b64aa48cec541",
+        "description": "Asymmetric terminal Lean scope",
+        "id": "formal-asymmetric",
+        "kind": "formal",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/TerminalAsymmetric-status.md",
+        "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "9619a786ab5a109da42fdc3055599be294761bfd6fdd4debaff0a8ce0b157b16",
+        "description": "Twelve actual first-round responses and committed source-reuse check",
+        "id": "round1-committed",
+        "kind": "review-record",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round01/committed.json",
+        "method": "Actual specialist submissions recorded unchanged and committed by the native run store.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "b605700afb9c4612703a73f1e930afa092c3ec8bd51bab82411d60b3e2b844c2",
+        "description": "Literal definitions and detailed obligation-to-source map added after committed first-round review",
+        "id": "definitions-map-r2",
+        "kind": "derivation-map",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/editing/definitions-and-map.md",
+        "method": "Production source inspection and literal/hash checks; not a reviewer vote.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "4c2aacb949d11fe958578697cc4171e78c1070871c9ee80f60ebe1acc6a438bb",
+        "description": "Twelve actual second-round source-map reviews and explicit resolution of first-round revisions",
+        "id": "round2-committed",
+        "kind": "review-record",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round02/committed.json",
+        "method": "Observed actual local execution; review records are not formal proofs and previews are not final publication.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "241f1bfa06ea1cac2bfc7cedcc4f02d47e4e8c70e74a2632b05dbe227b91bd00",
+        "description": "Corrected source preview with intended-link parsing and full visible-fragment checks",
+        "id": "preview-r3",
+        "kind": "render-preview",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/previews/round03/render-receipt.json",
+        "method": "Observed actual local execution; review records are not formal proofs and previews are not final publication.",
+        "status": "available"
+      },
+      {
+        "content_sha256": "9d90193a37a81c3b4264bc7ff9e1e38e80c8c98e4d062bf3b71d2cfc1ea92833",
+        "description": "Twelve actual third-round theory/counterexample reviews",
+        "id": "round3-committed",
+        "kind": "actual-review",
+        "limitations": [
+          "Same-environment agent review; not independent human certification or full proof certainty."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round03/committed.json",
+        "method": "Read the complete committed actual submissions; one root-selection exposition revision proposed for round4.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "5613d70ec465245c46f2451de417f9158c66dbfec19ef0c41363ab26b505b8cc",
+        "description": "Fresh single-leaf exact replay, pinned wrapper and bounded command guide",
+        "id": "reproduction-entry-r4",
+        "kind": "reproducibility",
+        "limitations": [
+          "One leaf only; shared necessary-model builder; other guide interfaces inspected but not newly executed."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/reproduction/manifest.json",
+        "method": "Manifest binds the actual fresh receipt and guide; result PASS with strict_exclusion=true.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "b57754a0f3b8ffaf2da9459124cc2d6f25ed182945d7c0ad77dd853d2559816e",
+        "description": "Preserved third-round data reviewer adversarial controls",
+        "id": "reviewer-controls-r3",
+        "kind": "actual-execution",
+        "limitations": [
+          "Coverage/strictness and small algebra checks only; no full model-row reconstruction."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round03/data_analyst/archive-manifest.json",
+        "method": "Byte-identical copy of actual temporary execution artifacts; read check_controls.py, results.json and algebra.json.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "2e8f3cffeb957ef8ba18bec5f96006fe489ff7a746204591017b621aed54e35d",
+        "description": "Preview after explicit maximum-degree root choice",
+        "id": "preview-r4",
+        "kind": "rendering",
+        "limitations": [
+          "Preview only; new layout not yet visually checked; literal Unicode, no semantic tagging/accessibility claim."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/previews/round04/render-receipt.json",
+        "method": "Actual local renderer and Poppler prose/title checks; six intended links, eleven pages, 200 source fragments.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "b64f8e18a132ee0446aca3f88512e83107083987bb1574d17fb73eee91218408",
+        "description": "Twelve actual methods/proof-obligation reviews",
+        "id": "round4-committed",
+        "kind": "actual-review",
+        "limitations": [
+          "One newly requested external H27 source-scope repair proposed in next version; agent reviews are not external certification."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round04/committed.json",
+        "method": "Read full actual committed reviews and explicit writer resolution.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "a89dcd9828563786d67f8d5a73878f35ce5ffad9194edc28a736da2290e0f1d0",
+        "description": "Explicit superseding correction to external-scope archive-authentication wording",
+        "id": "external-h27-scope-correction",
+        "kind": "source-audit",
+        "limitations": [
+          "External H27 ledger and source-to-historical-run relation not independently verified; no mathematical counterexample established."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/EXTERNAL-H27-SCOPE-ADDENDUM-20261024.md",
+        "method": "Read primary-blob inspection, unavailable provenance pointer, scope correction and dependence sensitivity.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "0159e2e04c241c69842565aea96a72fa5e17518a2089d468a731a81e068f79bd",
+        "description": "Actual pinned source blobs, untruncated tree and missing-file response",
+        "id": "external-h27-source-r4",
+        "kind": "source-retrieval",
+        "limitations": [
+          "Obtained during review after literature cutoff; compressed archives and historical states not inspected; no external executable run."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/research-r4/h27-source-inspection-manifest.json",
+        "method": "Actual connector responses retained; both Git blob identities reconstructed; untruncated117-entry tracked tree inspected.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "d077fce3bbab6b4ec2acca549f3caafdf26e3956a0b2183772ce992d1623ac07",
+        "description": "Preview with H27 source-scope qualification",
+        "id": "preview-r5",
+        "kind": "rendering",
+        "limitations": [
+          "Preview-only, notyet current visual inspection; literal Unicode not semantically tagged mathematics."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/previews/round05/render-receipt.json",
+        "method": "Actual local render/Poppler checks:11pages,204visiblefragments,eight intended primary links.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "86bbcbcc7c47c0c49cfb16d1ae7834c93475acbd64e0ece7e38364aff3b9bfbf",
+        "description": "Twelve actual calculation/reproducibility reviews",
+        "id": "round5-committed",
+        "kind": "actual-evidence",
+        "limitations": [
+          "One tree-integrity wording repair proposed prospectively; no external certification."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round05/committed.json",
+        "method": "Read committed source checks, fresh executions and required correction.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "138a3ffd8ac9672454c230efa54fbcbdcced89624fb2013778ea024f25f4075b",
+        "description": "Superseding returned-tree integrity qualification",
+        "id": "external-h27-tree-correction",
+        "kind": "actual-evidence",
+        "limitations": [
+          "Root mismatch unresolved; no cryptographic completeness or historical-run authentication."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/EXTERNAL-H27-TREE-INTEGRITY-ADDENDUM-20261024.md",
+        "method": "Read reproducible root mismatch and exact resulting scope limit.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "0b5c93545d44b7d6995960e7aecc31724b0523d7a2f0e12eb7292a64abd73208",
+        "description": "Preserved recursive response and Git reconstruction",
+        "id": "tree-reconstruction-r5",
+        "kind": "actual-evidence",
+        "limitations": [
+          "Fresh nonrecursive response original bytes unavailable; root separately reproduced retained recursive response."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round05/citation_verifier/manifest.json",
+        "method": "Read original bytes, explicit transient-response loss and newly labeled replay code.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "895acedcfed8ac63beca896b1a324f456238eabcebb049016540ebd7fa5bb683",
+        "description": "Actual round5 data_analyst scoped checks",
+        "id": "reviewer-r5-data_analyst",
+        "kind": "actual-evidence",
+        "limitations": [
+          "Bounded executed scopes; not a clean replay of the full proof or external H27."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round05/data_analyst/archive-manifest.json",
+        "method": "Read actual scripts, outputs and command/artifact commitments.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "63d7c4d91da7f5cc0edf59c48b29f058b8f058bc963d7cb9b606f64efbdb9367",
+        "description": "Actual round5 logic_auditor scoped checks",
+        "id": "reviewer-r5-logic_auditor",
+        "kind": "actual-evidence",
+        "limitations": [
+          "Bounded executed scopes; not a clean replay of the full proof or external H27."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round05/logic_auditor/run-manifest.json",
+        "method": "Read actual scripts, outputs and command/artifact commitments.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "931f7bafa4a009698c798d82074c15cbad63e59028b7efaf24c1355feab8ca01",
+        "description": "Actual round5 methodologist scoped checks",
+        "id": "reviewer-r5-methodologist",
+        "kind": "actual-evidence",
+        "limitations": [
+          "Bounded executed scopes; not a clean replay of the full proof or external H27."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round05/methodologist/results.json",
+        "method": "Read actual scripts, outputs and command/artifact commitments.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "fe7e5d816aebe5c8e19fcf9251e9306958bbbcb3cac890cd0a000c5180c18ca5",
+        "description": "Preview with returned-tree integrity qualification",
+        "id": "preview-r6",
+        "kind": "rendering",
+        "limitations": [
+          "Current preview not yet visually inspected; literal Unicode, no semantic math tagging."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/previews/round06/render-receipt.json",
+        "method": "Actual render and204 visible-fragment checks,11pages; source URLs parsed.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "4e23de3814bf310fd35253a818e6a3056226104d58afc9535b1ad28fe62a3716",
+        "description": "Twelve actual round6 specialist responses",
+        "id": "round6-committed",
+        "kind": "actual-review",
+        "limitations": [
+          "Same-environment autonomous review; no independent human certification or universal correctness guarantee."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round06/committed.json",
+        "method": "Read complete actual committed responses and their bounded source/check observations.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "bd36f7f9cb473f32df2ca0914aa3ef9cc9bccd997e6ea8de828e78752b24b4d3",
+        "description": "Twelve actual round7 specialist responses",
+        "id": "round7-committed",
+        "kind": "actual-review",
+        "limitations": [
+          "Same-environment autonomous review; no independent human certification or universal correctness guarantee."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round07/committed.json",
+        "method": "Read complete actual committed responses and their bounded source/check observations.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "d7ccca465d5adf6126cca1d2bc642fe49fe54a2d7411ff5a0b53b700111be01e",
+        "description": "Actual skeptical round7 alpha controls",
+        "id": "reviewer-r7-alpha",
+        "kind": "actual-execution",
+        "limitations": [
+          "Bounded actual controls; no full clean replay or universal checker-correctness claim."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round07/alpha/manifest.json",
+        "method": "Read original scoped code, exact results and preserved command/artifact commitments.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "ea0df3c6044996a43feedc2909afcc35435ec06b2f5d6128d59da1f206b803c8",
+        "description": "Actual skeptical round7 data_analyst controls",
+        "id": "reviewer-r7-data_analyst",
+        "kind": "actual-execution",
+        "limitations": [
+          "Bounded actual controls; no full clean replay or universal checker-correctness claim."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round07/data_analyst/archive-manifest.json",
+        "method": "Read original scoped code, exact results and preserved command/artifact commitments.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "33d4d6382d9200e9cd4ab8321be3e6011cdb2f5c46f746a2c24a1ecee763c183",
+        "description": "Actual skeptical round7 methodologist controls",
+        "id": "reviewer-r7-methodologist",
+        "kind": "actual-execution",
+        "limitations": [
+          "Bounded actual controls; no full clean replay or universal checker-correctness claim."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round07/methodologist/results.json",
+        "method": "Read original scoped code, exact results and preserved command/artifact commitments.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "2fa00e2310eb4ca2c31d5f1a4a12e5a2fe2b5df87207a93a05175623624bf2da",
+        "description": "Twelve actual round8 responses; no new required revision.",
+        "id": "round8-committed",
+        "kind": "actual-review",
+        "limitations": [
+          "No exhaustive global priority, proof-validity certification or independent human review is inferred."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round08/committed.json",
+        "method": "Actual recorded source inspection or committed review; see artifact for precise methods.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "73888edff082ec59a74486ec9f536d00018e560a80e0fe16fdaea36bffd560a9",
+        "description": "Fresh bounded primary-source frontier comparison and access limitations.",
+        "id": "literature-refresh-20261025",
+        "kind": "source-search",
+        "limitations": [
+          "No exhaustive global priority, proof-validity certification or independent human review is inferred."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261025/FRONTIER_REFRESH.md",
+        "method": "Actual recorded source inspection or committed review; see artifact for precise methods.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "079db9c7e07159c16b54b47a76b0cfcf63d59a8050aaaab8b9001506d1316841",
+        "description": "Explicit user-condition continuation decision for the pre-existing fixed-rank scope.",
+        "id": "frontier-gate-20261025",
+        "kind": "scope",
+        "limitations": [
+          "No exhaustive global priority, proof-validity certification or independent human review is inferred."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/FRONTIER_GATE_REFRESH_20261025.json",
+        "method": "Actual recorded source inspection or committed review; see artifact for precise methods.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "a3379f70274eee6371d43ef1457c5d4af9fb581ef8559712ca9dce0270a8ec55",
+        "description": "Prospective evidence cutoff and source-prose amendment.",
+        "id": "contract-amendment-20261025",
+        "kind": "scope",
+        "limitations": [
+          "No exhaustive global priority, proof-validity certification or independent human review is inferred."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/CONTRACT_AMENDMENT_20261025.json",
+        "method": "Actual recorded source inspection or committed review; see artifact for precise methods.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "b6b7374c54be05989f7006be40434f838ec6981561ed9a25f0a679951959f3e1",
+        "description": "Explicit parameter comparison with general sunflower theorems.",
+        "id": "general-comparison-20261025",
+        "kind": "source-search",
+        "limitations": [
+          "No exhaustive global priority, proof-validity certification or independent human review is inferred."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261025/general/assessment.json",
+        "method": "Actual recorded source inspection or committed review; see artifact for precise methods.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "052522eafa846a36f5e9852fb4408732d7198a82cd7fdb912b8c015f76780339",
+        "description": "Broad archive query ledger, native retrievals and gaps; later browser supplement resolves specific Zenodo access.",
+        "id": "archive-search-20261025",
+        "kind": "source-search",
+        "limitations": [
+          "No exhaustive global priority, proof-validity certification or independent human review is inferred."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261025/archives/findings.json",
+        "method": "Actual recorded source inspection or committed review; see artifact for precise methods.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "42fc3a1e481a578a8f487f761ada9cdf3dd7ca25d408a083e52370046ed6789f",
+        "description": "Actual arXiv/aiXiv/Zenodo/SSRN browser observations and limits.",
+        "id": "native-search-20261025",
+        "kind": "source-search",
+        "limitations": [
+          "No exhaustive global priority, proof-validity certification or independent human review is inferred."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261025/BROWSER_NATIVE_OBSERVATIONS.md",
+        "method": "Actual recorded source inspection or committed review; see artifact for precise methods.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "579308ef105751471d0be466565377c778ff2c5a0fc8de81111048e57903d925",
+        "description": "Fresh exact-scope rank-four primary records and repository heads.",
+        "id": "rank4-search-20261025",
+        "kind": "source-search",
+        "limitations": [
+          "No exhaustive global priority, proof-validity certification or independent human review is inferred."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261025/rank4/FINDINGS.md",
+        "method": "Actual recorded source inspection or committed review; see artifact for precise methods.",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "3a24bce159cd2b8d7b2dd4a987038271756278c54a302d76115eb069035e4f4b",
+        "description": "Fresh review preview for October25 source-scope prose; not final publication.",
+        "id": "preview-r9",
+        "kind": "render-check",
+        "limitations": [
+          "Visual inspection pending; literal Unicode, no semantic mathematics or PDF tagging claim."
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/previews/round09/render-receipt.json",
+        "method": "ReportLab rendering and actual title, text and page-count checks.",
+        "status": "limited"
+      }
+    ],
+    "evidence_sha256": "fe90e580a25822133946fb400e7fcf338939bf44b5a51daaf8bbce9539772f1c",
+    "manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68",
+    "phase": "revision-and-audit",
+    "previous_round_sha256": "add95eb15d755f34cd0cbda3f4b6623213b679aa84f0bc4082c83094d158160d",
+    "public_state": {
+      "author_response_history": [
+        {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round02/author-response.md",
+          "sha256": "e4ac65ed21d79273d8834ae57d2da19b82a4a476a942aeacb8272bec55d2e7d8"
+        },
+        {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round03/author-response.md",
+          "sha256": "f2c02b19527fe99cc27f5b700285f1a95ee86e6475c856433bb791d4b50c54dd"
+        },
+        {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round04/author-response.md",
+          "sha256": "433014e4f722fbb38ccda94899d5f4a667a1917940383e7a3c6d80a46fd432dc"
+        },
+        {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round05/author-response.md",
+          "sha256": "285ee8f87d89fcc6344aa6ae30084c1d7123dd19aa3da5c203e26452bf8cb9c3"
+        },
+        {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round06/author-response.md",
+          "sha256": "52a3031a2317a2f605ada7f8ec67e712b28671c956903ab47a72e8b745e64ab2"
+        },
+        {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round07/author-response.md",
+          "sha256": "1b59f84b154cdb9cdd3aa02191e28e4a72facae8df3460cdac6021ca1cf2cd2c"
+        },
+        {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round08/author-response.md",
+          "sha256": "890dfff1cecca7eb588041856e99fc6a60aee2227e3c7c776ff0016ad0c45cef"
+        },
+        {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round09/author-response.md",
+          "sha256": "74a5556df6729dfe0fb523e3274ccccd3792fa19d32ed150066799f1a71cd1c2"
+        }
+      ],
+      "frontier_gate": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/FRONTIER_GATE.json",
+      "frontier_gate_refresh": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/FRONTIER_GATE_REFRESH_20261025.json",
+      "manuscript_status": "Ordinary computer-assisted theorem under actual autonomous agent review; no final acceptance or end-to-end Lean claim.",
+      "phase_focus": "Revision and final fact/citation/logic/method/data/text-reuse audit. Check outstanding findings, retained caveats, source identities and immutable mathematical evidence. Report any remaining necessary change.",
+      "prospective_contract_amendment": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/CONTRACT_AMENDMENT_20261025.json",
+      "review_boundary": "Read only frozen common inputs, cited evidence, your own prior responses, and the supplied committed history. Do not inspect current pending journal or peers' incoming files. Heavy jobs require central scheduling.",
+      "revision_response": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round02/author-response.md",
+      "revision_response_sha256": "e4ac65ed21d79273d8834ae57d2da19b82a4a476a942aeacb8272bec55d2e7d8",
+      "round_history": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round09/prior-committed-history.json"
+    },
+    "roster_sha256": "7c930c890e7bce8862c797ce2f94410ad4719f044c39f5a37849e583ce9e92f9",
+    "round": 9,
+    "run_id": "sunflower67-20261024-native",
+    "verification": [
+      {
+        "evidence_ids": [
+          "global-dag",
+          "external-scope",
+          "external-h27-scope-correction",
+          "external-h27-source-r4",
+          "external-h27-tree-correction"
+        ],
+        "limitations": [
+          "No external H27 full-ledger replay; ordinary theorem imports remain explicit.",
+          "H27 README provenance pointer unavailable in fetched tracked tree; inspected top-level script does not show the README-described three compressed-archive hash comparisons. No source-to-historical-run authentication established.",
+          "Returned root Git tree entries do not reconstruct the reported identifier; absence of provenance path is limited to the returned listing, not verified repository completeness."
+        ],
+        "method": "Primary source scopes and ordinary degree-case dependency inspection.",
+        "observations": [
+          "No new mathematical case or finite predicate remained open at the gate snapshot."
+        ],
+        "scope": "facts",
+        "status": "limited"
+      },
+      {
+        "evidence_ids": [
+          "literature-refresh",
+          "external-scope",
+          "external-h27-scope-correction",
+          "external-h27-source-r4",
+          "external-h27-tree-correction",
+          "literature-refresh-20261025",
+          "general-comparison-20261025",
+          "rank4-search-20261025"
+        ],
+        "limitations": [
+          "Search is not globally exhaustive; original Jin exact statement checked via Nikiforov restatement.",
+          "H27 README provenance pointer unavailable in fetched tracked tree; inspected top-level script does not show the README-described three compressed-archive hash comparisons. No source-to-historical-run authentication established.",
+          "Returned root Git tree entries do not reconstruct the reported identifier; absence of provenance path is limited to the returned listing, not verified repository completeness.",
+          "SSRN6913500 full text and several native archive searches remain inaccessible/incomplete; current source-prose revision requires actual round9 inspection."
+        ],
+        "method": "Fresh primary source and version opens with preserved search logs.",
+        "observations": [
+          "Strongest comparable located upper bound68; general ground-set result distinguished.",
+          "October25 fresh search retains strongest located comparable upper68; general results parameter-compared; user-condition review gate reopened only in fixed-rank scope."
+        ],
+        "scope": "citations",
+        "status": "limited"
+      },
+      {
+        "evidence_ids": [
+          "global-dag",
+          "formal-scalar",
+          "q8-coverage",
+          "round3-committed",
+          "round4-committed"
+        ],
+        "limitations": [
+          "Whole theorem not end-to-end Lean."
+        ],
+        "method": "Ordinary bridge checks, independent stage coverage and scoped Lean axioms.",
+        "observations": [
+          "Global acyclic case composition complete; five new arithmetic roots axiom-audited.",
+          "Third-round targeted omitted-hypothesis counterexamples confirmed the tested guard distinctions; main-text maximum-degree root selection is now explicit, pending its original reviewer resolution.",
+          "Original writer resolved the maximum-degree root-selection request in actual round4; no new counterexample to the scoped mathematical implications was identified in its bounded reviews."
+        ],
+        "scope": "logic",
+        "status": "limited"
+      },
+      {
+        "evidence_ids": [
+          "degree17",
+          "cap15"
+        ],
+        "limitations": [
+          "Full independent reconstruction of every model row not performed."
+        ],
+        "method": "Explicit finite reductions, staged ancestors and actual support guards.",
+        "observations": [
+          "No global ambient cutoff imposed on projections."
+        ],
+        "scope": "methodology",
+        "status": "limited"
+      },
+      {
+        "evidence_ids": [
+          "degree19",
+          "degree18",
+          "degree17",
+          "degree16",
+          "rho15",
+          "q8-negative",
+          "reproduction-entry-r4",
+          "reviewer-controls-r3",
+          "reviewer-r5-data_analyst",
+          "reviewer-r5-logic_auditor",
+          "reviewer-r5-methodologist"
+        ],
+        "limitations": [
+          "Coefficient replay shares model builders; local hashes do not authenticate source truth."
+        ],
+        "method": "Exact integer replays, independent literal coverage, covers/fibres/trees.",
+        "observations": [
+          "All active new finite predicates have recorded completed checks.",
+          "Fresh single-leaf exact replay passed; actual third-round controls reject omitted coverage, cyclic dependencies, unjustified proper traces, zero scale and non-strict equality.",
+          "Round5 freshly replayed one D18 I06 leaf and all three R15 trees; specified corruption controls were rejected."
+        ],
+        "scope": "data",
+        "status": "limited"
+      },
+      {
+        "evidence_ids": [
+          "prior-ledger",
+          "round1-committed",
+          "round2-committed",
+          "round3-committed"
+        ],
+        "limitations": [
+          "One accessible pinned manuscript and normalization only; no comprehensive corpus detector or plagiarism-free certification.",
+          "Subsequent added prose needs attribution and reviewer inspection."
+        ],
+        "method": "Actual copyeditor inspected the pinned prior main.tex and ran a bounded normalized token comparison against the first manuscript.",
+        "observations": [
+          "Longest match was a 20-token bibliographic string; next was a 16-token attributed Jin theorem fragment; no specific unattributed distinctive passage was identified in this one-source check.",
+          "Actual second-round copyeditor repeated the bounded comparison after the definitions/source-map additions and found no specific unattributed distinctive passage; the one-source limitation remains.",
+          "Third-round copyeditor inspected the actual changed construction wording against the pinned primary source; limited attribution assessment retained."
+        ],
+        "scope": "text_reuse",
+        "status": "limited"
+      }
+    ],
+    "verification_sha256": "72c119d8e9bb2d08fd7f729f8e8e0799aea9aafd851bfac94c15ce62fc0e8897"
+  },
+  "snapshot_sha256": "e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4",
+  "submissions": [
+    {
+      "content": {
+        "agent_id": "/root/r67_alpha",
+        "checks": [
+          {
+            "evidence_ids": [
+              "literature-refresh-20261025",
+              "frontier-gate-20261025",
+              "contract-amendment-20261025",
+              "native-search-20261025",
+              "general-comparison-20261025",
+              "rank4-search-20261025",
+              "external-h27-tree-correction"
+            ],
+            "method": "Compared the manuscript diff with FRONTIER_REFRESH.md, native browser observations, rank4 findings, general assessment, gate and prospective contract amendment; recomputed the support-bound comparison exactly.",
+            "observation": "The records distinguish retrieved upper 68 from absolute priority and retain stale-index, incomplete native-search and inaccessible SSRN full-text limitations. The gate authorizes remaining review, expressly reserving final audits/publication and leaving H27 integrity unresolved. PalomarArchive presence is no longer called endorsement. At least eight support points are needed because binomial(7,4)=35; the documented BHL expression 3(863/432)^8 exceeds 760 and increases with support, so it does not imply 67. Native observations are explicitly transcriptions, not authenticated corpus exports. These qualifications support the present bounded wording; they do not rule out unseen competing work.",
+            "result": "supported",
+            "scope": "Refreshed frontier wording, parameter comparison and continuation gate."
+          },
+          {
+            "evidence_ids": [
+              "degree19"
+            ],
+            "method": "Independently encoded the seventeen written rows in Ysingle-equality-proof.md and checked all 794 literal traces, without importing a model or checker; verified the displayed stabilizer directly.",
+            "observation": "The right-hand sides sum to 48. There are 400 admissible traces: coefficient 0 only at M, and coefficients 1/2/3 on 350/35/14 others. The 394 excluded traces have the stated internal or literal-sunflower reason. Thus r=49 forces every positively weighted row tight, including d(3)-6=10. Permutation (1 3)(4 5) preserves P10 and M, transporting the implication to d(1)=16 by relabelling the whole family, without requiring family symmetry. This checks the finite coefficient and equality interface, conditional on the written universal row premises and exact internal assignment.",
+            "result": "supported",
+            "scope": "Degree19 singleton-Y equality: a non-strict certificate must supply an actual equality implication."
+          },
+          {
+            "evidence_ids": [
+              "degree19"
+            ],
+            "method": "Read doubled-P10.md and the complete-C5 synchronization argument; independently tested all 56 nonempty support traces of size at most 4 for the claimed two-block witness.",
+            "observation": "All 56 traces admit A,B with A∩B=A∩S=B∩S. For the ten traces that are P10 blocks, A=B is necessary; distinct outside centres still make the lifted members distinct, as the proof requires. Extra members containing a centre are handled separately by link isolation. Remaining members avoid both centres and the P10 support; two disjoint ones would form an empty-core sunflower with a prescribed cone, so H27 applies. Inclusion-exclusion gives 27+16+16-3=56 without double-counting the twenty prescribed members. Checks and source hashes are preserved under checks/round09/alpha/; no broad replay was run.",
+            "result": "supported",
+            "scope": "Doubled-P10 arbitrary-support isolation and final counting."
+          }
+        ],
+        "context_id": "/root/r67_alpha",
+        "decision": "continue",
+        "evidence_ids": [
+          "literature-refresh-20261025",
+          "frontier-gate-20261025",
+          "contract-amendment-20261025",
+          "native-search-20261025",
+          "general-comparison-20261025",
+          "rank4-search-20261025",
+          "degree19",
+          "external-h27-tree-correction",
+          "definitions-map-r2"
+        ],
+        "findings": [],
+        "manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Checked the manuscript diff against the prior reviewed definition and graph interpretation.",
+            "finding_id": "/root/r67_alpha:round-1:required-revision-1",
+            "result": "The explicit actual-member maximum definition remains unchanged and resolved.",
+            "status": "resolved"
+          }
+        ],
+        "role": "alpha",
+        "round": 9,
+        "snapshot_sha256": "e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4",
+        "summary": "The refreshed comparison and gate preserve bounded search and review-only scope. Two targeted degree19 checks support the separate equality closure without rounding or a hidden symmetry assumption. No necessary revision or counterexample was identified. Frozen hashes match, and shared evidence commitments are unchanged; this is not final acceptance or a fresh worldwide literature search."
+      },
+      "provenance": {
+        "call_id": "local-log:/root/r67_alpha:round-9:final-json:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/incoming/round09/alpha.json",
+        "context_id": "/root/r67_alpha",
+        "public_response": "{\n  \"agent_id\": \"/root/r67_alpha\",\n  \"role\": \"alpha\",\n  \"context_id\": \"/root/r67_alpha\",\n  \"round\": 9,\n  \"snapshot_sha256\": \"e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4\",\n  \"manuscript_sha256\": \"4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68\",\n  \"summary\": \"The refreshed comparison and gate preserve bounded search and review-only scope. Two targeted degree19 checks support the separate equality closure without rounding or a hidden symmetry assumption. No necessary revision or counterexample was identified. Frozen hashes match, and shared evidence commitments are unchanged; this is not final acceptance or a fresh worldwide literature search.\",\n  \"evidence_ids\": [\n    \"literature-refresh-20261025\",\n    \"frontier-gate-20261025\",\n    \"contract-amendment-20261025\",\n    \"native-search-20261025\",\n    \"general-comparison-20261025\",\n    \"rank4-search-20261025\",\n    \"degree19\",\n    \"external-h27-tree-correction\",\n    \"definitions-map-r2\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/r67_alpha:round-1:required-revision-1\",\n      \"action\": \"Checked the manuscript diff against the prior reviewed definition and graph interpretation.\",\n      \"result\": \"The explicit actual-member maximum definition remains unchanged and resolved.\",\n      \"status\": \"resolved\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Refreshed frontier wording, parameter comparison and continuation gate.\",\n      \"method\": \"Compared the manuscript diff with FRONTIER_REFRESH.md, native browser observations, rank4 findings, general assessment, gate and prospective contract amendment; recomputed the support-bound comparison exactly.\",\n      \"observation\": \"The records distinguish retrieved upper 68 from absolute priority and retain stale-index, incomplete native-search and inaccessible SSRN full-text limitations. The gate authorizes remaining review, expressly reserving final audits/publication and leaving H27 integrity unresolved. PalomarArchive presence is no longer called endorsement. At least eight support points are needed because binomial(7,4)=35; the documented BHL expression 3(863/432)^8 exceeds 760 and increases with support, so it does not imply 67. Native observations are explicitly transcriptions, not authenticated corpus exports. These qualifications support the present bounded wording; they do not rule out unseen competing work.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"literature-refresh-20261025\",\n        \"frontier-gate-20261025\",\n        \"contract-amendment-20261025\",\n        \"native-search-20261025\",\n        \"general-comparison-20261025\",\n        \"rank4-search-20261025\",\n        \"external-h27-tree-correction\"\n      ]\n    },\n    {\n      \"scope\": \"Degree19 singleton-Y equality: a non-strict certificate must supply an actual equality implication.\",\n      \"method\": \"Independently encoded the seventeen written rows in Ysingle-equality-proof.md and checked all 794 literal traces, without importing a model or checker; verified the displayed stabilizer directly.\",\n      \"observation\": \"The right-hand sides sum to 48. There are 400 admissible traces: coefficient 0 only at M, and coefficients 1/2/3 on 350/35/14 others. The 394 excluded traces have the stated internal or literal-sunflower reason. Thus r=49 forces every positively weighted row tight, including d(3)-6=10. Permutation (1 3)(4 5) preserves P10 and M, transporting the implication to d(1)=16 by relabelling the whole family, without requiring family symmetry. This checks the finite coefficient and equality interface, conditional on the written universal row premises and exact internal assignment.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"degree19\"\n      ]\n    },\n    {\n      \"scope\": \"Doubled-P10 arbitrary-support isolation and final counting.\",\n      \"method\": \"Read doubled-P10.md and the complete-C5 synchronization argument; independently tested all 56 nonempty support traces of size at most 4 for the claimed two-block witness.\",\n      \"observation\": \"All 56 traces admit A,B with A\\u2229B=A\\u2229S=B\\u2229S. For the ten traces that are P10 blocks, A=B is necessary; distinct outside centres still make the lifted members distinct, as the proof requires. Extra members containing a centre are handled separately by link isolation. Remaining members avoid both centres and the P10 support; two disjoint ones would form an empty-core sunflower with a prescribed cone, so H27 applies. Inclusion-exclusion gives 27+16+16-3=56 without double-counting the twenty prescribed members. Checks and source hashes are preserved under checks/round09/alpha/; no broad replay was run.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"degree19\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-25T13:57:19.393580+00:00",
+        "response_sha256": "4fb1fe71b3a84b87e9882715b0630ede8fc556b0608e67590da3a066de2a4dc1",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON artifact and observed final response"
+      },
+      "record_sha256": "af5dd47146474c774a780b178fd7414537013d72199c0fdf5aad4fd19da89184"
+    },
+    {
+      "content": {
+        "agent_id": "/root/r67_beta",
+        "checks": [
+          {
+            "evidence_ids": [
+              "degree19"
+            ],
+            "method": "Read Ysingle-equality-proof.md and doubled-P10.md; independently reconstruct all 794 trace coefficients, the preserving permutation and literal extra-member isolation.",
+            "observation": "Exactly 400 traces remain and 394 are excluded. Coefficients have histogram 0:1, 1:350, 2:35, 3:14; only M has zero coefficient. The 17 bounds sum to 48, so residual size 49 forces the C5 row tight and d(3)=16. The displayed automorphism preserves P10 and M, transporting the result to point 1 without assuming family symmetry. All 460 possible extra-member patterns meeting the doubled tail support have literal sunflower witnesses. The written synchronization and d(1,3)=3 then give 27+16+16-3=56.",
+            "result": "supported",
+            "scope": "Degree19 singleton equality and doubled-P10 closure"
+          },
+          {
+            "evidence_ids": [
+              "degree18"
+            ],
+            "method": "Inspect the terminal sections of D18-complete-argument.md and independently enumerate surviving core-trace pairs jointly covering the two components.",
+            "observation": "For P9+P9, all 121 qualifying pairs are opposing transversal triples. For P10 plus P8-i1, P8-i2 and Q8, respectively 120,130,120 pairs all contain a pure-P10 transversal. P9 has 11 transversal triples; its complementary exceptions must share an exterior label when both occur, giving combined capacity2 and total11. P10's ten transversals each have one residual completion after charging their cones. Thus residual bounds 38 and37 follow. Pure Z pairs remain admitted; Q8 is never assigned transversal number3.",
+            "result": "supported",
+            "scope": "Degree18 terminal capacities with arbitrary exterior completions"
+          },
+          {
+            "evidence_ids": [
+              "rho15"
+            ],
+            "method": "Read R15-degree2-independent-ordinary-check.md, Eleven-point support; independently enumerate SF2 point-links for degrees3–6 and recompute the rational envelope.",
+            "observation": "The minimum numbers of degree-two link vertices are 1,2,4,6, giving incidence contributions 5/2,5,8,12. Each is bounded by 19d/6-7. With total degree45 and at least60 intersecting pairs, support12 would allow only117/2 pairs, so support<=11. Degree cap4 would allow225/4<60. The subtraction counts each double-intersection excess exactly once. This validates the scalar bridge while retaining the separate prerequisites excluding used degrees1 and2.",
+            "result": "supported",
+            "scope": "Eleven-point reduction after the separate low-degree exclusions"
+          },
+          {
+            "evidence_ids": [
+              "literature-refresh-20261025",
+              "frontier-gate-20261025"
+            ],
+            "method": "Check the displayed ground-set estimate in FRONTIER_REFRESH.md using exact rational arithmetic and binomial counts.",
+            "observation": "A simple 68-member four-uniform family needs at least eight support points: C(7,4)=35 and C(8,4)=70. The recorded estimate 3(863/432)^N already equals approximately760.917629 at N=8 and increases thereafter, so this estimate does not imply upper67. This supports the stated parameter distinction, without resolving inaccessible full texts or certifying exhaustive priority.",
+            "result": "supported",
+            "scope": "Parameter distinction in the refreshed frontier comparison"
+          }
+        ],
+        "context_id": "/root/r67_beta",
+        "decision": "continue",
+        "evidence_ids": [
+          "degree19",
+          "degree18",
+          "rho15",
+          "literature-refresh-20261025",
+          "frontier-gate-20261025",
+          "contract-amendment-20261025"
+        ],
+        "findings": [
+          {
+            "disposition": "Earlier alternative formulations remain optional. The current manuscript retains actual-anchor, complete-link, multiplicity and exact-degree guards.",
+            "evidence_ids": [
+              "degree19",
+              "degree18",
+              "rho15"
+            ],
+            "id": "beta-R9-F1",
+            "severity": "note",
+            "statement": "The tested proof interfaces need no additional mathematical repair.",
+            "status": "resolved"
+          }
+        ],
+        "manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Read the prospective gate, amendment, refresh record and changed source paragraphs.",
+            "finding_id": "beta-R1-F3",
+            "result": "The new cutoff is prospective; H27's historical-run and returned-tree limitations remain explicit. The literature search does not discharge either limitation or establish proof correctness. I did not independently repeat that search.",
+            "status": "claim-qualified"
+          },
+          {
+            "action": "Reconstructed the bounded interfaces below from literal sets and exact integers.",
+            "finding_id": "beta-R2-F3",
+            "result": "Both frozen hashes match and the mathematical sections are unchanged. No full branch, proof-tree, solver or compiler replay was performed.",
+            "status": "claim-qualified"
+          }
+        ],
+        "role": "beta",
+        "round": 9,
+        "snapshot_sha256": "e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4",
+        "summary": "The inspected equality, terminal-count and support-reduction interfaces remain valid under their stated hypotheses. Independent bounded calculations reproduce their constants. The prospective frontier wording preserves the distinction between a bounded comparison and proof assurance. No necessary repair was identified; this is not final acceptance."
+      },
+      "provenance": {
+        "call_id": "local-log:/root/r67_beta:round-9:final-json:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/incoming/round09/beta.json",
+        "context_id": "/root/r67_beta",
+        "public_response": "{\n  \"agent_id\": \"/root/r67_beta\",\n  \"role\": \"beta\",\n  \"context_id\": \"/root/r67_beta\",\n  \"round\": 9,\n  \"snapshot_sha256\": \"e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4\",\n  \"manuscript_sha256\": \"4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68\",\n  \"summary\": \"The inspected equality, terminal-count and support-reduction interfaces remain valid under their stated hypotheses. Independent bounded calculations reproduce their constants. The prospective frontier wording preserves the distinction between a bounded comparison and proof assurance. No necessary repair was identified; this is not final acceptance.\",\n  \"evidence_ids\": [\"degree19\", \"degree18\", \"rho15\", \"literature-refresh-20261025\", \"frontier-gate-20261025\", \"contract-amendment-20261025\"],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"beta-R9-F1\",\n      \"statement\": \"The tested proof interfaces need no additional mathematical repair.\",\n      \"severity\": \"note\",\n      \"status\": \"resolved\",\n      \"disposition\": \"Earlier alternative formulations remain optional. The current manuscript retains actual-anchor, complete-link, multiplicity and exact-degree guards.\",\n      \"evidence_ids\": [\"degree19\", \"degree18\", \"rho15\"]\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"beta-R1-F3\",\n      \"action\": \"Read the prospective gate, amendment, refresh record and changed source paragraphs.\",\n      \"result\": \"The new cutoff is prospective; H27's historical-run and returned-tree limitations remain explicit. The literature search does not discharge either limitation or establish proof correctness. I did not independently repeat that search.\",\n      \"status\": \"claim-qualified\"\n    },\n    {\n      \"finding_id\": \"beta-R2-F3\",\n      \"action\": \"Reconstructed the bounded interfaces below from literal sets and exact integers.\",\n      \"result\": \"Both frozen hashes match and the mathematical sections are unchanged. No full branch, proof-tree, solver or compiler replay was performed.\",\n      \"status\": \"claim-qualified\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Degree19 singleton equality and doubled-P10 closure\",\n      \"method\": \"Read Ysingle-equality-proof.md and doubled-P10.md; independently reconstruct all 794 trace coefficients, the preserving permutation and literal extra-member isolation.\",\n      \"observation\": \"Exactly 400 traces remain and 394 are excluded. Coefficients have histogram 0:1, 1:350, 2:35, 3:14; only M has zero coefficient. The 17 bounds sum to 48, so residual size 49 forces the C5 row tight and d(3)=16. The displayed automorphism preserves P10 and M, transporting the result to point 1 without assuming family symmetry. All 460 possible extra-member patterns meeting the doubled tail support have literal sunflower witnesses. The written synchronization and d(1,3)=3 then give 27+16+16-3=56.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"degree19\"]\n    },\n    {\n      \"scope\": \"Degree18 terminal capacities with arbitrary exterior completions\",\n      \"method\": \"Inspect the terminal sections of D18-complete-argument.md and independently enumerate surviving core-trace pairs jointly covering the two components.\",\n      \"observation\": \"For P9+P9, all 121 qualifying pairs are opposing transversal triples. For P10 plus P8-i1, P8-i2 and Q8, respectively 120,130,120 pairs all contain a pure-P10 transversal. P9 has 11 transversal triples; its complementary exceptions must share an exterior label when both occur, giving combined capacity2 and total11. P10's ten transversals each have one residual completion after charging their cones. Thus residual bounds 38 and37 follow. Pure Z pairs remain admitted; Q8 is never assigned transversal number3.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"degree18\"]\n    },\n    {\n      \"scope\": \"Eleven-point reduction after the separate low-degree exclusions\",\n      \"method\": \"Read R15-degree2-independent-ordinary-check.md, Eleven-point support; independently enumerate SF2 point-links for degrees3–6 and recompute the rational envelope.\",\n      \"observation\": \"The minimum numbers of degree-two link vertices are 1,2,4,6, giving incidence contributions 5/2,5,8,12. Each is bounded by 19d/6-7. With total degree45 and at least60 intersecting pairs, support12 would allow only117/2 pairs, so support<=11. Degree cap4 would allow225/4<60. The subtraction counts each double-intersection excess exactly once. This validates the scalar bridge while retaining the separate prerequisites excluding used degrees1 and2.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"rho15\"]\n    },\n    {\n      \"scope\": \"Parameter distinction in the refreshed frontier comparison\",\n      \"method\": \"Check the displayed ground-set estimate in FRONTIER_REFRESH.md using exact rational arithmetic and binomial counts.\",\n      \"observation\": \"A simple 68-member four-uniform family needs at least eight support points: C(7,4)=35 and C(8,4)=70. The recorded estimate 3(863/432)^N already equals approximately760.917629 at N=8 and increases thereafter, so this estimate does not imply upper67. This supports the stated parameter distinction, without resolving inaccessible full texts or certifying exhaustive priority.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"literature-refresh-20261025\", \"frontier-gate-20261025\"]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-25T14:00:55.883428+00:00",
+        "response_sha256": "0ac25795142c92bcfbc3803fd74b0379817cbc58b02cd138bce7d568271c5371",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON artifact and observed final response"
+      },
+      "record_sha256": "356e153a7db19d44929fe433a74e88be39a3413b145e4da965f585fc1e2339dd"
+    },
+    {
+      "content": {
+        "agent_id": "/root/r67_chief",
+        "checks": [
+          {
+            "evidence_ids": [
+              "contract-amendment-20261025",
+              "frontier-gate-20261025",
+              "global-proof",
+              "global-dag"
+            ],
+            "method": "Verified both round hashes, original-contract identity, six gate evidence bindings, the manuscript diff and 18 mathematical evidence commitments against round 8 and current files.",
+            "observation": "The amendment takes effect at round 9 and explicitly is not preregistration. Only abstract/source-search prose changed; Section 3 onward is byte-identical. Theorems, degree-case composition, finite evidence and formal scopes remain unchanged. The gate still requires remaining rounds and final audits.",
+            "result": "supported",
+            "scope": "Prospective amendment and mathematical continuity"
+          },
+          {
+            "evidence_ids": [
+              "rank4-search-20261025",
+              "native-search-20261025"
+            ],
+            "method": "Read the retained October 25 rank-four primary responses, findings and native-search observations, distinguishing retrieved text from search conclusions.",
+            "observation": "Babanskyy's record explicitly excludes size 69, gives maximum 68 and declines exclusion of size 68, under matching simple four-uniform, empty-core conventions. The proposed maximum 67 instead forces at 68. The observed v1 and repository state support this comparison without establishing global absence of competitors.",
+            "result": "supported",
+            "scope": "Directly comparable numerical frontier"
+          },
+          {
+            "evidence_ids": [
+              "general-comparison-20261025"
+            ],
+            "method": "Inspected retained BHL primary theorem text, pinned Solution.lean declarations, formalization metadata and archive branch response; evaluated the displayed bound with exact rational arithmetic.",
+            "observation": "A 68-member four-uniform family needs support N>=8 because choose(7,4)=35. The BHL bound at three petals is 3(863/432)^N, already approximately 760.918 at N=8 and increasing. It does not directly yield 67. Solution.lean uses support parameter N; the matching archive reports commit 8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7. Metadata disclaims registry endorsement; no transitive proof audit was performed here.",
+            "result": "supported",
+            "scope": "General theorem parameters and public Lean wording"
+          },
+          {
+            "evidence_ids": [
+              "archive-search-20261025",
+              "native-search-20261025",
+              "literature-refresh-20261025"
+            ],
+            "method": "Compared Section 2 with the retained SSRN abstract, archive limitations and manually transcribed native-browser observations.",
+            "observation": "The retrieved SSRN6913500 abstract mentions sunflower-free formulations without a matching numerical bound; its unseen full text remains unexcluded. Native arXiv/aiXiv observations supplement stale indexed output but are bounded keyword searches, not exhaustive corpus proofs. The manuscript now states these limits and the precise October 25 cutoff.",
+            "result": "supported",
+            "scope": "Negative-search claim and unresolved access"
+          }
+        ],
+        "context_id": "/root/r67_chief",
+        "decision": "continue",
+        "evidence_ids": [
+          "global-proof",
+          "global-dag",
+          "literature-refresh-20261025",
+          "frontier-gate-20261025",
+          "contract-amendment-20261025",
+          "general-comparison-20261025",
+          "rank4-search-20261025",
+          "archive-search-20261025",
+          "native-search-20261025",
+          "external-h27-tree-correction",
+          "round8-committed"
+        ],
+        "findings": [
+          {
+            "disposition": "Section 2 preserves incomplete native coverage, inaccessible SSRN full text and subsequent-work exclusions. The fixed-rank continuation is coherent with the original contract; the new gate is not mathematical evidence.",
+            "evidence_ids": [
+              "literature-refresh-20261025",
+              "contract-amendment-20261025",
+              "frontier-gate-20261025"
+            ],
+            "id": "CHIEF-R9-PRIORITY",
+            "severity": "note",
+            "statement": "The renewed search supports a strongest-located comparable bound, not exhaustive priority or absence of relevant results in unread texts.",
+            "status": "claim-qualified"
+          },
+          {
+            "disposition": "The revised paragraph correctly dates the earlier inspection and explicitly preserves its limitations. H27 remains essential to the unchanged proof.",
+            "evidence_ids": [
+              "external-h27-tree-correction",
+              "global-dag",
+              "rank4-search-20261025"
+            ],
+            "id": "CHIEF-R5-H27",
+            "severity": "note",
+            "statement": "Fresh source metadata does not repair the H27 historical-run authentication gap or returned-tree discrepancy.",
+            "status": "claim-qualified"
+          }
+        ],
+        "manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Compared the complete manuscript diff and retained definitions.",
+            "finding_id": "/root/r67_chief:round-1:required-revision-1",
+            "result": "The neighbourhood maximum, universal quantifier and actual-anchor definitions remain unchanged and resolved.",
+            "status": "resolved"
+          },
+          {
+            "action": "Checked the source amendment against the existing proof and formal-assurance boundaries.",
+            "finding_id": "CHIEF-R1-ASSURANCE",
+            "result": "No new theorem import, full replay, local BHL compilation or end-to-end Lean claim was introduced. Shared-builder and imported-proof limitations remain.",
+            "status": "claim-qualified"
+          }
+        ],
+        "role": "chief",
+        "round": 9,
+        "snapshot_sha256": "e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4",
+        "summary": "The prospective amendment preserves the original fixed-rank question and mathematical evidence. The inspected October 25 primary records support the bounded comparison with upper 68, while the revised wording retains material search and assurance limits. No necessary revision arose in this audit. The scope gate permits continued review; it establishes neither proof correctness nor final acceptance."
+      },
+      "provenance": {
+        "call_id": "local-log:/root/r67_chief:round-9:final-json:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/incoming/round09/chief.json",
+        "context_id": "/root/r67_chief",
+        "public_response": "{\n  \"agent_id\": \"/root/r67_chief\",\n  \"role\": \"chief\",\n  \"context_id\": \"/root/r67_chief\",\n  \"round\": 9,\n  \"snapshot_sha256\": \"e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4\",\n  \"manuscript_sha256\": \"4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68\",\n  \"summary\": \"The prospective amendment preserves the original fixed-rank question and mathematical evidence. The inspected October 25 primary records support the bounded comparison with upper 68, while the revised wording retains material search and assurance limits. No necessary revision arose in this audit. The scope gate permits continued review; it establishes neither proof correctness nor final acceptance.\",\n  \"evidence_ids\": [\"global-proof\", \"global-dag\", \"literature-refresh-20261025\", \"frontier-gate-20261025\", \"contract-amendment-20261025\", \"general-comparison-20261025\", \"rank4-search-20261025\", \"archive-search-20261025\", \"native-search-20261025\", \"external-h27-tree-correction\", \"round8-committed\"],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"CHIEF-R9-PRIORITY\",\n      \"statement\": \"The renewed search supports a strongest-located comparable bound, not exhaustive priority or absence of relevant results in unread texts.\",\n      \"severity\": \"note\",\n      \"status\": \"claim-qualified\",\n      \"disposition\": \"Section 2 preserves incomplete native coverage, inaccessible SSRN full text and subsequent-work exclusions. The fixed-rank continuation is coherent with the original contract; the new gate is not mathematical evidence.\",\n      \"evidence_ids\": [\"literature-refresh-20261025\", \"contract-amendment-20261025\", \"frontier-gate-20261025\"]\n    },\n    {\n      \"id\": \"CHIEF-R5-H27\",\n      \"statement\": \"Fresh source metadata does not repair the H27 historical-run authentication gap or returned-tree discrepancy.\",\n      \"severity\": \"note\",\n      \"status\": \"claim-qualified\",\n      \"disposition\": \"The revised paragraph correctly dates the earlier inspection and explicitly preserves its limitations. H27 remains essential to the unchanged proof.\",\n      \"evidence_ids\": [\"external-h27-tree-correction\", \"global-dag\", \"rank4-search-20261025\"]\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/r67_chief:round-1:required-revision-1\",\n      \"action\": \"Compared the complete manuscript diff and retained definitions.\",\n      \"result\": \"The neighbourhood maximum, universal quantifier and actual-anchor definitions remain unchanged and resolved.\",\n      \"status\": \"resolved\"\n    },\n    {\n      \"finding_id\": \"CHIEF-R1-ASSURANCE\",\n      \"action\": \"Checked the source amendment against the existing proof and formal-assurance boundaries.\",\n      \"result\": \"No new theorem import, full replay, local BHL compilation or end-to-end Lean claim was introduced. Shared-builder and imported-proof limitations remain.\",\n      \"status\": \"claim-qualified\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Prospective amendment and mathematical continuity\",\n      \"method\": \"Verified both round hashes, original-contract identity, six gate evidence bindings, the manuscript diff and 18 mathematical evidence commitments against round 8 and current files.\",\n      \"observation\": \"The amendment takes effect at round 9 and explicitly is not preregistration. Only abstract/source-search prose changed; Section 3 onward is byte-identical. Theorems, degree-case composition, finite evidence and formal scopes remain unchanged. The gate still requires remaining rounds and final audits.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"contract-amendment-20261025\", \"frontier-gate-20261025\", \"global-proof\", \"global-dag\"]\n    },\n    {\n      \"scope\": \"Directly comparable numerical frontier\",\n      \"method\": \"Read the retained October 25 rank-four primary responses, findings and native-search observations, distinguishing retrieved text from search conclusions.\",\n      \"observation\": \"Babanskyy's record explicitly excludes size 69, gives maximum 68 and declines exclusion of size 68, under matching simple four-uniform, empty-core conventions. The proposed maximum 67 instead forces at 68. The observed v1 and repository state support this comparison without establishing global absence of competitors.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"rank4-search-20261025\", \"native-search-20261025\"]\n    },\n    {\n      \"scope\": \"General theorem parameters and public Lean wording\",\n      \"method\": \"Inspected retained BHL primary theorem text, pinned Solution.lean declarations, formalization metadata and archive branch response; evaluated the displayed bound with exact rational arithmetic.\",\n      \"observation\": \"A 68-member four-uniform family needs support N>=8 because choose(7,4)=35. The BHL bound at three petals is 3(863/432)^N, already approximately 760.918 at N=8 and increasing. It does not directly yield 67. Solution.lean uses support parameter N; the matching archive reports commit 8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7. Metadata disclaims registry endorsement; no transitive proof audit was performed here.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"general-comparison-20261025\"]\n    },\n    {\n      \"scope\": \"Negative-search claim and unresolved access\",\n      \"method\": \"Compared Section 2 with the retained SSRN abstract, archive limitations and manually transcribed native-browser observations.\",\n      \"observation\": \"The retrieved SSRN6913500 abstract mentions sunflower-free formulations without a matching numerical bound; its unseen full text remains unexcluded. Native arXiv/aiXiv observations supplement stale indexed output but are bounded keyword searches, not exhaustive corpus proofs. The manuscript now states these limits and the precise October 25 cutoff.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"archive-search-20261025\", \"native-search-20261025\", \"literature-refresh-20261025\"]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-25T13:47:01.099116+00:00",
+        "response_sha256": "2144b6a8a1d5646807380be29637e9e8672118fa109cef07b31a89f01864fe2d",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON artifact and observed final response"
+      },
+      "record_sha256": "0dcc59b1c6674b57018db6a340c0aecb662c5ebc1daad86e158c824612c17cb7"
+    },
+    {
+      "content": {
+        "agent_id": "/root/r67_citations",
+        "checks": [
+          {
+            "evidence_ids": [
+              "rank4-search-20261025",
+              "literature-refresh-20261025"
+            ],
+            "method": "Reopened the aiXiv record and versioned HTML, plus both cited arXiv records; compared their definitions and displayed histories with revised Section 2.",
+            "observation": "[Babanskyy v1, Theorem 1.1](https://aixiv.online/html/2610.01292v1) excludes 69, yields maximum 68, includes empty cores and explicitly leaves 68 unexcluded. [Axante's record](https://arxiv.org/abs/2609.06175) still displays v1, intersecting maximum 27 and general upper 83. These establish positive comparisons, not absence of every competing result.",
+            "result": "supported",
+            "scope": "Current primary versions and exact numerical comparison"
+          },
+          {
+            "evidence_ids": [
+              "general-comparison-20261025"
+            ],
+            "method": "Reopened BHL Theorem 1; evaluated its bound exactly and inspected saved primary GitHub directory, commit, README, metadata and Solution responses.",
+            "observation": "[Theorem 1](https://arxiv.org/html/2610.26686v1) gives 3(863/432)^N at three petals: approximately 760.918 already at N=8, the smallest support admitting 68 distinct four-sets. Author/archive listings and returned commit identifiers agree. README and formalization.yaml expressly disclaim registration/endorsement; Solution states support-size bounds. The revised archive-copy wording and attributed formalization status are appropriate; no local build was performed.",
+            "result": "supported",
+            "scope": "Ground-set theorem and corrected PalomarArchive wording"
+          },
+          {
+            "evidence_ids": [
+              "native-search-20261025",
+              "literature-refresh-20261025",
+              "contract-amendment-20261025"
+            ],
+            "method": "Compared browser observation records and root notes with the prospective amendment; independently retrieved the SSRN indexed abstract and attempted both record and PDF URLs.",
+            "observation": "The native-search record explicitly limits its inspected pages and is a transcribed observation, not a site export. [SSRN6913500](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6913500) names sunflower formulations but its retrieved abstract gives no matching numerical bound; both direct retrieval attempts returned 403. The manuscript preserves this unseen-full-text gap and incomplete native coverage rather than treating either as evidence of absence.",
+            "result": "supported",
+            "scope": "Search coverage, cutoff and inaccessible topical lead"
+          },
+          {
+            "evidence_ids": [
+              "rank4-search-20261025",
+              "tree-reconstruction-r5",
+              "external-h27-tree-correction"
+            ],
+            "method": "Inspected the saved October 25 commit response, freshly fetched that exact commit through the GitHub connector, and compared its fields with the preserved round-5 reconstruction.",
+            "observation": "[Commit response](https://api.github.com/repos/bogdan27182/sunflower-paper/commits/d4d5723267c662291efdadfa6e7061d919e76fa9) reports commit d4d5723267c662291efdadfa6e7061d919e76fa9 with tree 0a3e3838650fc981133940e798c9d220140e785e, exactly the earlier reconstructed root. The original tree response remains inconsistent as recorded. This relationship neither replays H27 nor links its reviewed source to the historical search.",
+            "result": "supported",
+            "scope": "H27 identifiers under the new source refresh"
+          }
+        ],
+        "context_id": "/root/r67_citations",
+        "decision": "continue",
+        "evidence_ids": [
+          "rank4-search-20261025",
+          "general-comparison-20261025",
+          "literature-refresh-20261025",
+          "native-search-20261025",
+          "external-h27-tree-correction",
+          "tree-reconstruction-r5",
+          "contract-amendment-20261025"
+        ],
+        "findings": [
+          {
+            "disposition": "This additional metadata is consistent with a commit/tree identification error in the earlier response; it does not establish how that response arose. Original response integrity and historical-run assurance remain separate. The actual fresh response and bounded comparison are preserved under checks/round09/citation_verifier/.",
+            "evidence_ids": [
+              "rank4-search-20261025",
+              "external-h27-tree-correction",
+              "tree-reconstruction-r5"
+            ],
+            "id": "CV-R9-COMMIT-TREE",
+            "severity": "note",
+            "statement": "The fresh H27 commit response identifies the earlier reported root identifier as a commit and the independently reconstructed root identifier as that commit's tree.",
+            "status": "claim-qualified"
+          }
+        ],
+        "manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Rechecked Section 2's retained qualification and its revised chronological wording against the original addendum and new metadata.",
+            "finding_id": "/root/r67_citations:round-5:required-revision-1",
+            "result": "The wording requirement remains resolved. The October 25 comparison is explicitly separate from the October 24 integrity audit; no historical-run authentication or cryptographic completeness of the original returned response is newly claimed.",
+            "status": "resolved"
+          }
+        ],
+        "role": "citation_verifier",
+        "round": 9,
+        "snapshot_sha256": "e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4",
+        "summary": "The prospective search update and narrower archive-copy wording are supported within their stated limits. Four concrete checks found no necessary manuscript correction. New commit metadata clarifies the relationship between the H27 identifiers, without authenticating its historical computation or establishing exhaustive priority."
+      },
+      "provenance": {
+        "call_id": "local-log:/root/r67_citations:round-9:final-json:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/incoming/round09/citation_verifier.json",
+        "context_id": "/root/r67_citations",
+        "public_response": "{\n  \"agent_id\": \"/root/r67_citations\",\n  \"role\": \"citation_verifier\",\n  \"context_id\": \"/root/r67_citations\",\n  \"round\": 9,\n  \"snapshot_sha256\": \"e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4\",\n  \"manuscript_sha256\": \"4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68\",\n  \"summary\": \"The prospective search update and narrower archive-copy wording are supported within their stated limits. Four concrete checks found no necessary manuscript correction. New commit metadata clarifies the relationship between the H27 identifiers, without authenticating its historical computation or establishing exhaustive priority.\",\n  \"evidence_ids\": [\"rank4-search-20261025\", \"general-comparison-20261025\", \"literature-refresh-20261025\", \"native-search-20261025\", \"external-h27-tree-correction\", \"tree-reconstruction-r5\", \"contract-amendment-20261025\"],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"CV-R9-COMMIT-TREE\",\n      \"statement\": \"The fresh H27 commit response identifies the earlier reported root identifier as a commit and the independently reconstructed root identifier as that commit's tree.\",\n      \"severity\": \"note\",\n      \"status\": \"claim-qualified\",\n      \"disposition\": \"This additional metadata is consistent with a commit/tree identification error in the earlier response; it does not establish how that response arose. Original response integrity and historical-run assurance remain separate. The actual fresh response and bounded comparison are preserved under checks/round09/citation_verifier/.\",\n      \"evidence_ids\": [\"rank4-search-20261025\", \"external-h27-tree-correction\", \"tree-reconstruction-r5\"]\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/r67_citations:round-5:required-revision-1\",\n      \"action\": \"Rechecked Section 2's retained qualification and its revised chronological wording against the original addendum and new metadata.\",\n      \"result\": \"The wording requirement remains resolved. The October 25 comparison is explicitly separate from the October 24 integrity audit; no historical-run authentication or cryptographic completeness of the original returned response is newly claimed.\",\n      \"status\": \"resolved\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Current primary versions and exact numerical comparison\",\n      \"method\": \"Reopened the aiXiv record and versioned HTML, plus both cited arXiv records; compared their definitions and displayed histories with revised Section 2.\",\n      \"observation\": \"[Babanskyy v1, Theorem 1.1](https://aixiv.online/html/2610.01292v1) excludes 69, yields maximum 68, includes empty cores and explicitly leaves 68 unexcluded. [Axante's record](https://arxiv.org/abs/2609.06175) still displays v1, intersecting maximum 27 and general upper 83. These establish positive comparisons, not absence of every competing result.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"rank4-search-20261025\", \"literature-refresh-20261025\"]\n    },\n    {\n      \"scope\": \"Ground-set theorem and corrected PalomarArchive wording\",\n      \"method\": \"Reopened BHL Theorem 1; evaluated its bound exactly and inspected saved primary GitHub directory, commit, README, metadata and Solution responses.\",\n      \"observation\": \"[Theorem 1](https://arxiv.org/html/2610.26686v1) gives 3(863/432)^N at three petals: approximately 760.918 already at N=8, the smallest support admitting 68 distinct four-sets. Author/archive listings and returned commit identifiers agree. README and formalization.yaml expressly disclaim registration/endorsement; Solution states support-size bounds. The revised archive-copy wording and attributed formalization status are appropriate; no local build was performed.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"general-comparison-20261025\"]\n    },\n    {\n      \"scope\": \"Search coverage, cutoff and inaccessible topical lead\",\n      \"method\": \"Compared browser observation records and root notes with the prospective amendment; independently retrieved the SSRN indexed abstract and attempted both record and PDF URLs.\",\n      \"observation\": \"The native-search record explicitly limits its inspected pages and is a transcribed observation, not a site export. [SSRN6913500](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6913500) names sunflower formulations but its retrieved abstract gives no matching numerical bound; both direct retrieval attempts returned 403. The manuscript preserves this unseen-full-text gap and incomplete native coverage rather than treating either as evidence of absence.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"native-search-20261025\", \"literature-refresh-20261025\", \"contract-amendment-20261025\"]\n    },\n    {\n      \"scope\": \"H27 identifiers under the new source refresh\",\n      \"method\": \"Inspected the saved October 25 commit response, freshly fetched that exact commit through the GitHub connector, and compared its fields with the preserved round-5 reconstruction.\",\n      \"observation\": \"[Commit response](https://api.github.com/repos/bogdan27182/sunflower-paper/commits/d4d5723267c662291efdadfa6e7061d919e76fa9) reports commit d4d5723267c662291efdadfa6e7061d919e76fa9 with tree 0a3e3838650fc981133940e798c9d220140e785e, exactly the earlier reconstructed root. The original tree response remains inconsistent as recorded. This relationship neither replays H27 nor links its reviewed source to the historical search.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"rank4-search-20261025\", \"tree-reconstruction-r5\", \"external-h27-tree-correction\"]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-25T13:55:39.810569+00:00",
+        "response_sha256": "8fa2127503407e18a2ef409ee9e37b0a16c2a5d6a8820375e704863932860282",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON artifact and observed final response"
+      },
+      "record_sha256": "7b171f40e7e797c680e84dabcddf9fbc39a2ea7856aa4f389b5bfa493b4489d3"
+    },
+    {
+      "content": {
+        "agent_id": "/root/r67_copy",
+        "checks": [
+          {
+            "evidence_ids": [
+              "contract-amendment-20261025",
+              "external-h27-tree-correction"
+            ],
+            "method": "Compared rounds 8–9; read the prospective amendment and H27 qualification.",
+            "observation": "Amendment takes effect at round 9, extending cutoff to October 25, 13:36:25 UTC. Sections 3 onward are byte-identical. Section 2 explicitly retains the unresolved tree-integrity limitation after the fresh search.",
+            "result": "supported",
+            "scope": "Cutoff chronology and unchanged mathematical claims"
+          },
+          {
+            "evidence_ids": [
+              "general-comparison-20261025"
+            ],
+            "method": "Inspected retained primary github06/08/09/10 records underlying general/assessment.json.",
+            "observation": "README and formalization.yaml disclaim registration/endorsement. Archive branch records commit 8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7, matching the pinned Solution.lean source. Its set bound depends on support N. Section 2 correctly attributes reported verification and disclaims local build/transitive audit.",
+            "result": "supported",
+            "scope": "PalomarArchive and formalization attribution"
+          },
+          {
+            "evidence_ids": [
+              "archive-search-20261025",
+              "native-search-20261025"
+            ],
+            "method": "Read archives/search-a3.json abstract, primary-native-a13.json failures and native-browser observations.",
+            "observation": "SSRN6913500 abstract mentions sunflower-free formulations without a matching numerical bound; PDF retrieval records 403. Native arXiv observations cover 50 announcement-order and 25 submission-order listings, not all 191 results. Manuscript expressly retains incomplete native coverage and unread-full-text limits.",
+            "result": "supported",
+            "scope": "Negative search claim and inaccessible SSRN lead"
+          },
+          {
+            "evidence_ids": [
+              "general-comparison-20261025",
+              "archive-search-20261025",
+              "preview-r9"
+            ],
+            "method": "Compared normalized token sequences against README, metadata, Solution.lean and retrieved SSRN abstract; parsed CommonMark and extracted preview PDF text.",
+            "observation": "Longest contiguous matches were respectively 3, 2, 2 and 2 tokens, all generic. Eight intended links remain. PDF extraction preserves archive-endorsement, SSRN-access and H27-integrity qualifications. This checks text presence, not complete visual or accessibility fidelity.",
+            "result": "supported",
+            "scope": "Changed-prose reuse and rendered qualifications"
+          }
+        ],
+        "context_id": "/root/r67_copy",
+        "decision": "continue",
+        "evidence_ids": [
+          "contract-amendment-20261025",
+          "general-comparison-20261025",
+          "archive-search-20261025",
+          "native-search-20261025",
+          "external-h27-tree-correction",
+          "preview-r9"
+        ],
+        "findings": [
+          {
+            "disposition": "No distinctive unattributed passage identified in the changed prose against the four compared source texts; no broad-corpus or plagiarism-free conclusion.",
+            "evidence_ids": [
+              "general-comparison-20261025",
+              "archive-search-20261025"
+            ],
+            "id": "COPY-004",
+            "severity": "note",
+            "statement": "Text-reuse inspection remains bounded to accessed sources.",
+            "status": "claim-qualified"
+          },
+          {
+            "disposition": "“Under μ ≥ 41” remains optional clarification; Section 3 already supplies the inequality. No required repair.",
+            "evidence_ids": [
+              "preview-r9"
+            ],
+            "id": "COPY-STYLE-01",
+            "severity": "minor",
+            "statement": "Conclusion still says “at μ 41”.",
+            "status": "claim-qualified"
+          }
+        ],
+        "manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Rechecked current prose and CommonMark parse.",
+            "finding_id": "/root/r67_copy:round-1:required-revision-1",
+            "result": "Spacing repair persists; all eight links target intended HTTPS sources.",
+            "status": "resolved"
+          },
+          {
+            "action": "Re-read Section 3 definitions.",
+            "finding_id": "/root/r67_copy:round-1:required-revision-2",
+            "result": "N[R], minimum μ and N[max] remain distinct; semicolon indices produce no accidental links.",
+            "status": "resolved"
+          }
+        ],
+        "role": "copyeditor",
+        "round": 9,
+        "snapshot_sha256": "e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4",
+        "summary": "No necessary copy or attribution repair found. The new source prose accurately limits search, archive and formalization claims; mathematical wording is unchanged. Continue to final-round review."
+      },
+      "provenance": {
+        "call_id": "local-log:/root/r67_copy:round-9:final-json:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/incoming/round09/copyeditor.json",
+        "context_id": "/root/r67_copy",
+        "public_response": "{\n  \"agent_id\": \"/root/r67_copy\",\n  \"role\": \"copyeditor\",\n  \"context_id\": \"/root/r67_copy\",\n  \"round\": 9,\n  \"snapshot_sha256\": \"e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4\",\n  \"manuscript_sha256\": \"4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68\",\n  \"summary\": \"No necessary copy or attribution repair found. The new source prose accurately limits search, archive and formalization claims; mathematical wording is unchanged. Continue to final-round review.\",\n  \"evidence_ids\": [\n    \"contract-amendment-20261025\",\n    \"general-comparison-20261025\",\n    \"archive-search-20261025\",\n    \"native-search-20261025\",\n    \"external-h27-tree-correction\",\n    \"preview-r9\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"COPY-004\",\n      \"statement\": \"Text-reuse inspection remains bounded to accessed sources.\",\n      \"severity\": \"note\",\n      \"status\": \"claim-qualified\",\n      \"disposition\": \"No distinctive unattributed passage identified in the changed prose against the four compared source texts; no broad-corpus or plagiarism-free conclusion.\",\n      \"evidence_ids\": [\n        \"general-comparison-20261025\",\n        \"archive-search-20261025\"\n      ]\n    },\n    {\n      \"id\": \"COPY-STYLE-01\",\n      \"statement\": \"Conclusion still says “at μ 41”.\",\n      \"severity\": \"minor\",\n      \"status\": \"claim-qualified\",\n      \"disposition\": \"“Under μ ≥ 41” remains optional clarification; Section 3 already supplies the inequality. No required repair.\",\n      \"evidence_ids\": [\n        \"preview-r9\"\n      ]\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/r67_copy:round-1:required-revision-1\",\n      \"action\": \"Rechecked current prose and CommonMark parse.\",\n      \"result\": \"Spacing repair persists; all eight links target intended HTTPS sources.\",\n      \"status\": \"resolved\"\n    },\n    {\n      \"finding_id\": \"/root/r67_copy:round-1:required-revision-2\",\n      \"action\": \"Re-read Section 3 definitions.\",\n      \"result\": \"N[R], minimum μ and N[max] remain distinct; semicolon indices produce no accidental links.\",\n      \"status\": \"resolved\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Cutoff chronology and unchanged mathematical claims\",\n      \"method\": \"Compared rounds 8–9; read the prospective amendment and H27 qualification.\",\n      \"observation\": \"Amendment takes effect at round 9, extending cutoff to October 25, 13:36:25 UTC. Sections 3 onward are byte-identical. Section 2 explicitly retains the unresolved tree-integrity limitation after the fresh search.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"contract-amendment-20261025\",\n        \"external-h27-tree-correction\"\n      ]\n    },\n    {\n      \"scope\": \"PalomarArchive and formalization attribution\",\n      \"method\": \"Inspected retained primary github06/08/09/10 records underlying general/assessment.json.\",\n      \"observation\": \"README and formalization.yaml disclaim registration/endorsement. Archive branch records commit 8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7, matching the pinned Solution.lean source. Its set bound depends on support N. Section 2 correctly attributes reported verification and disclaims local build/transitive audit.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"general-comparison-20261025\"\n      ]\n    },\n    {\n      \"scope\": \"Negative search claim and inaccessible SSRN lead\",\n      \"method\": \"Read archives/search-a3.json abstract, primary-native-a13.json failures and native-browser observations.\",\n      \"observation\": \"SSRN6913500 abstract mentions sunflower-free formulations without a matching numerical bound; PDF retrieval records 403. Native arXiv observations cover 50 announcement-order and 25 submission-order listings, not all 191 results. Manuscript expressly retains incomplete native coverage and unread-full-text limits.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"archive-search-20261025\",\n        \"native-search-20261025\"\n      ]\n    },\n    {\n      \"scope\": \"Changed-prose reuse and rendered qualifications\",\n      \"method\": \"Compared normalized token sequences against README, metadata, Solution.lean and retrieved SSRN abstract; parsed CommonMark and extracted preview PDF text.\",\n      \"observation\": \"Longest contiguous matches were respectively 3, 2, 2 and 2 tokens, all generic. Eight intended links remain. PDF extraction preserves archive-endorsement, SSRN-access and H27-integrity qualifications. This checks text presence, not complete visual or accessibility fidelity.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"general-comparison-20261025\",\n        \"archive-search-20261025\",\n        \"preview-r9\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-25T14:00:11.282163+00:00",
+        "response_sha256": "5c1d84ce1db5838d1c955a4407cfb9cc8cbd5b5510512b7aee5cd09440118d1a",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON artifact and observed final response"
+      },
+      "record_sha256": "5f270e81c6bf6814485eccc28d306b6b1f484491025b75c6561f0776b16cc4ec"
+    },
+    {
+      "content": {
+        "agent_id": "/root/r67_data",
+        "checks": [
+          {
+            "evidence_ids": [
+              "general-comparison-20261025",
+              "literature-refresh-20261025"
+            ],
+            "method": "Recomputed the displayed specializations in general/assessment.json using integer arithmetic and Fraction; checked the maximum-size versus forcing-threshold convention.",
+            "observation": "C(7,4)=35 and C(8,4)=70, so a simple68-member four-uniform family needs at least8 support points. Exactly 3(863/432)^8>760, and the base exceeds1; replacing support size by rank4 would be invalid. The vector coefficient is1296, the VC specialization is600^4=129600000000, and the supplied shifted recurrence gives324. Maximum67 corresponds to forcing68, while the compared maximum68 corresponds to forcing69. This checks calculations from supplied statements, not independent theorem validity or exhaustive discovery.",
+            "result": "supported",
+            "scope": "Exact parameter arithmetic in the new frontier comparison"
+          },
+          {
+            "evidence_ids": [
+              "archive-search-20261025",
+              "literature-refresh-20261025"
+            ],
+            "method": "Parsed hal-all-title.json and the preserved Research Square HTML's __NEXT_DATA__; reconciled records, identifiers, offsets and totals against archives/findings.json. Verified all41 archive-manifest hashes.",
+            "observation": "The HAL title_t:sunflower* response starts at0 and contains1323 records,1323 distinct identifiers and URIs, no missing titles, matching numFound1323. This is complete for that saved metadata response only. Research Square contains10 records at offset0 for each query, against totals343,24085,98690. These support the explicit first-page limitation, not corpus-wide absence. No file-hash mismatch was found; inaccessible full texts remain outside this audit.",
+            "result": "supported",
+            "scope": "Retrieved search records versus advertised coverage"
+          },
+          {
+            "evidence_ids": [
+              "contract-amendment-20261025",
+              "reviewer-r5-data_analyst",
+              "degree18"
+            ],
+            "method": "Compared round8/9 proof sections and evidence entries; rechecked the archived round5 D18 control files, source, receipt, replayer and17 dependencies. Recomputed saved integer identities.",
+            "observation": "Sections3 onward are byte-identical and all45 earlier evidence entries remain unchanged. All five archived control files and18 source/dependency commitments match current bytes. The saved baseline still gives495000000000/10000000000=99/2<50; the negative multiplier receipt still records FAIL for its sign. These are preserved outcomes, not fresh executions. The prospective amendment expressly leaves assurance unchanged. Bounded check code and results are saved in /tmp/r67_data_round09/.",
+            "result": "supported",
+            "scope": "Mathematical evidence preservation across the source amendment"
+          }
+        ],
+        "context_id": "/root/r67_data",
+        "decision": "continue",
+        "evidence_ids": [
+          "general-comparison-20261025",
+          "archive-search-20261025",
+          "literature-refresh-20261025",
+          "contract-amendment-20261025",
+          "frontier-gate-20261025",
+          "reviewer-r5-data_analyst",
+          "degree18"
+        ],
+        "findings": [
+          {
+            "disposition": "The revised Section2, prospective amendment and gate explicitly retain these limits. The earlier shared-builder, limited-replay and external-source qualifications remain applicable.",
+            "evidence_ids": [
+              "literature-refresh-20261025",
+              "contract-amendment-20261025",
+              "frontier-gate-20261025"
+            ],
+            "id": "data-R1-assurance-boundary",
+            "severity": "note",
+            "statement": "Complete retrieval of one metadata query, matching historical evidence hashes and a renewed frontier gate do not authenticate H27's historical computation or establish exhaustive priority.",
+            "status": "claim-qualified"
+          }
+        ],
+        "manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68",
+        "required_revisions": [],
+        "revisions": [],
+        "role": "data_analyst",
+        "round": 9,
+        "snapshot_sha256": "e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4",
+        "summary": "The refreshed numerical comparisons and stated search denominators withstand the checks below. The amendment changes source scope without increasing mathematical assurance; proof sections and prior evidence commitments remain unchanged. The selected fresh replay and its negative control remain reproducible from preserved inputs. No necessary data revision was found. This round performs no new source retrieval, model reconstruction or whole-proof replay."
+      },
+      "provenance": {
+        "call_id": "local-log:/root/r67_data:round-9:final-json:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/incoming/round09/data_analyst.json",
+        "context_id": "/root/r67_data",
+        "public_response": "{\n  \"agent_id\": \"/root/r67_data\",\n  \"role\": \"data_analyst\",\n  \"context_id\": \"/root/r67_data\",\n  \"round\": 9,\n  \"snapshot_sha256\": \"e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4\",\n  \"manuscript_sha256\": \"4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68\",\n  \"summary\": \"The refreshed numerical comparisons and stated search denominators withstand the checks below. The amendment changes source scope without increasing mathematical assurance; proof sections and prior evidence commitments remain unchanged. The selected fresh replay and its negative control remain reproducible from preserved inputs. No necessary data revision was found. This round performs no new source retrieval, model reconstruction or whole-proof replay.\",\n  \"evidence_ids\": [\n    \"general-comparison-20261025\",\n    \"archive-search-20261025\",\n    \"literature-refresh-20261025\",\n    \"contract-amendment-20261025\",\n    \"frontier-gate-20261025\",\n    \"reviewer-r5-data_analyst\",\n    \"degree18\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"data-R1-assurance-boundary\",\n      \"statement\": \"Complete retrieval of one metadata query, matching historical evidence hashes and a renewed frontier gate do not authenticate H27's historical computation or establish exhaustive priority.\",\n      \"severity\": \"note\",\n      \"status\": \"claim-qualified\",\n      \"disposition\": \"The revised Section2, prospective amendment and gate explicitly retain these limits. The earlier shared-builder, limited-replay and external-source qualifications remain applicable.\",\n      \"evidence_ids\": [\n        \"literature-refresh-20261025\",\n        \"contract-amendment-20261025\",\n        \"frontier-gate-20261025\"\n      ]\n    }\n  ],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Exact parameter arithmetic in the new frontier comparison\",\n      \"method\": \"Recomputed the displayed specializations in general/assessment.json using integer arithmetic and Fraction; checked the maximum-size versus forcing-threshold convention.\",\n      \"observation\": \"C(7,4)=35 and C(8,4)=70, so a simple68-member four-uniform family needs at least8 support points. Exactly 3(863/432)^8>760, and the base exceeds1; replacing support size by rank4 would be invalid. The vector coefficient is1296, the VC specialization is600^4=129600000000, and the supplied shifted recurrence gives324. Maximum67 corresponds to forcing68, while the compared maximum68 corresponds to forcing69. This checks calculations from supplied statements, not independent theorem validity or exhaustive discovery.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"general-comparison-20261025\",\n        \"literature-refresh-20261025\"\n      ]\n    },\n    {\n      \"scope\": \"Retrieved search records versus advertised coverage\",\n      \"method\": \"Parsed hal-all-title.json and the preserved Research Square HTML's __NEXT_DATA__; reconciled records, identifiers, offsets and totals against archives/findings.json. Verified all41 archive-manifest hashes.\",\n      \"observation\": \"The HAL title_t:sunflower* response starts at0 and contains1323 records,1323 distinct identifiers and URIs, no missing titles, matching numFound1323. This is complete for that saved metadata response only. Research Square contains10 records at offset0 for each query, against totals343,24085,98690. These support the explicit first-page limitation, not corpus-wide absence. No file-hash mismatch was found; inaccessible full texts remain outside this audit.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"archive-search-20261025\",\n        \"literature-refresh-20261025\"\n      ]\n    },\n    {\n      \"scope\": \"Mathematical evidence preservation across the source amendment\",\n      \"method\": \"Compared round8/9 proof sections and evidence entries; rechecked the archived round5 D18 control files, source, receipt, replayer and17 dependencies. Recomputed saved integer identities.\",\n      \"observation\": \"Sections3 onward are byte-identical and all45 earlier evidence entries remain unchanged. All five archived control files and18 source/dependency commitments match current bytes. The saved baseline still gives495000000000/10000000000=99/2<50; the negative multiplier receipt still records FAIL for its sign. These are preserved outcomes, not fresh executions. The prospective amendment expressly leaves assurance unchanged. Bounded check code and results are saved in /tmp/r67_data_round09/.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"contract-amendment-20261025\",\n        \"reviewer-r5-data_analyst\",\n        \"degree18\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-25T13:51:31.230623+00:00",
+        "response_sha256": "516cddbf63d6a9becafeba69fff1d85ae4f1023bcd4bb387aed7edba56f63961",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON artifact and observed final response"
+      },
+      "record_sha256": "60f999a96800568ce0eb101be715b696a882aa08b7e18e7cc71216d5dca5df0c"
+    },
+    {
+      "content": {
+        "agent_id": "/root/r67_domain",
+        "checks": [
+          {
+            "evidence_ids": [
+              "rho15"
+            ],
+            "method": "Read R15-degree2-independent-ordinary-check.md, Eleven-point support; independently enumerated SF2 graphs with 3–6 edges on six vertices, rejecting vertices of degree at least 3 and three-edge matchings.",
+            "observation": "Minimum numbers of degree-two vertices are 1,2,4,6, giving local intersecting-pair contributions 5/2,5,8,12. Component structure bounds SF2 support by three times its matching number, so six vertices cover this local domain. The affine majorant 19d/6−7 holds in each case. Conditional on the separately proved minimum used degree 3, I>=60 and total degree 45 yield n<=165/14, hence n<=11; maximum degree 4 would give I<=225/4<60. This checks the moment interface, not the degree-two motif exhaustion.",
+            "result": "supported",
+            "scope": "Moment bound underlying the eleven-point reduction"
+          },
+          {
+            "evidence_ids": [
+              "cap15"
+            ],
+            "method": "Read LOW15-A3-cover-independent-bridge.md and independently reconstructed P8-i2+H5 from literal triples, deleting shifted H5 blocks 014 and 234.",
+            "observation": "Thirteen triples remain. Direct enumeration gives the sole support three-cover {3,4,11} and eight four-covers containing no three-cover, hence capacity 2+8=10. No pair covers the remaining link; its maximum coverage is 10. Every ambient four-cover therefore contains that three-cover or equals one of the eight support four-covers. Global triple codegree 2 counts all exterior completions. The result contradicts the A3 two-cone requirement of at least 12 actual covers. Only this selected tight case was recalculated.",
+            "result": "supported",
+            "scope": "Tight cover capacity with arbitrary exterior completions"
+          },
+          {
+            "evidence_ids": [
+              "general-comparison-20261025",
+              "contract-amendment-20261025"
+            ],
+            "method": "Read the preserved Bucić–He–Lee primary theorem text in general/open01–03.json and assessment.json; independently substituted three petals and the smallest possible support of 68 distinct four-sets.",
+            "observation": "Theorem 1 gives 3(863/432)^N, with N the support size. Since binomial(7,4)=35, N>=8; already at 8 the displayed bound is 760.9176..., increasing thereafter. The four-coordinate vector expression is 1296D^2 and still depends on alphabet size. These displayed results do not directly imply upper 67. Manuscript Section 2 preserves the parameter distinction without claiming exhaustive priority or a local audit of the public Lean project.",
+            "result": "supported",
+            "scope": "Ground-set versus uniform-rank comparison after the fresh search"
+          }
+        ],
+        "context_id": "/root/r67_domain",
+        "decision": "continue",
+        "evidence_ids": [
+          "rho15",
+          "cap15",
+          "global-dag",
+          "general-comparison-20261025",
+          "contract-amendment-20261025",
+          "external-h27-tree-correction"
+        ],
+        "findings": [],
+        "manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Compared the source-prose amendment, manuscript diff and retained mathematical evidence.",
+            "finding_id": "DOMAIN-R1-IMPORT-BOUNDARY",
+            "result": "The October 25 refresh does not supply a local H27 ledger replay or resolve historical-run authentication. Section 2 explicitly retains that boundary and narrows PalomarArchive presence to an archive copy. The original import qualification remains applicable.",
+            "status": "claim-qualified"
+          }
+        ],
+        "role": "domain_expert",
+        "round": 9,
+        "snapshot_sha256": "e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4",
+        "summary": "No necessary mathematical revision emerged. Independent bounded checks support the support-reduction constants, a tight deletion-cover interface and the refreshed general-theorem parameter comparison. Eleven principal mathematical evidence files retain their round 8 hashes and match disk. The manuscript changes concern source framing; the degree-case argument and its H27 assurance limitation remain unchanged."
+      },
+      "provenance": {
+        "call_id": "local-log:/root/r67_domain:round-9:final-json:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/incoming/round09/domain_expert.json",
+        "context_id": "/root/r67_domain",
+        "public_response": "{\n  \"agent_id\": \"/root/r67_domain\",\n  \"role\": \"domain_expert\",\n  \"context_id\": \"/root/r67_domain\",\n  \"round\": 9,\n  \"snapshot_sha256\": \"e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4\",\n  \"manuscript_sha256\": \"4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68\",\n  \"summary\": \"No necessary mathematical revision emerged. Independent bounded checks support the support-reduction constants, a tight deletion-cover interface and the refreshed general-theorem parameter comparison. Eleven principal mathematical evidence files retain their round 8 hashes and match disk. The manuscript changes concern source framing; the degree-case argument and its H27 assurance limitation remain unchanged.\",\n  \"evidence_ids\": [\n    \"rho15\",\n    \"cap15\",\n    \"global-dag\",\n    \"general-comparison-20261025\",\n    \"contract-amendment-20261025\",\n    \"external-h27-tree-correction\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [],\n  \"revisions\": [\n    {\n      \"finding_id\": \"DOMAIN-R1-IMPORT-BOUNDARY\",\n      \"action\": \"Compared the source-prose amendment, manuscript diff and retained mathematical evidence.\",\n      \"result\": \"The October 25 refresh does not supply a local H27 ledger replay or resolve historical-run authentication. Section 2 explicitly retains that boundary and narrows PalomarArchive presence to an archive copy. The original import qualification remains applicable.\",\n      \"status\": \"claim-qualified\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Moment bound underlying the eleven-point reduction\",\n      \"method\": \"Read R15-degree2-independent-ordinary-check.md, Eleven-point support; independently enumerated SF2 graphs with 3–6 edges on six vertices, rejecting vertices of degree at least 3 and three-edge matchings.\",\n      \"observation\": \"Minimum numbers of degree-two vertices are 1,2,4,6, giving local intersecting-pair contributions 5/2,5,8,12. Component structure bounds SF2 support by three times its matching number, so six vertices cover this local domain. The affine majorant 19d/6−7 holds in each case. Conditional on the separately proved minimum used degree 3, I>=60 and total degree 45 yield n<=165/14, hence n<=11; maximum degree 4 would give I<=225/4<60. This checks the moment interface, not the degree-two motif exhaustion.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"rho15\"\n      ]\n    },\n    {\n      \"scope\": \"Tight cover capacity with arbitrary exterior completions\",\n      \"method\": \"Read LOW15-A3-cover-independent-bridge.md and independently reconstructed P8-i2+H5 from literal triples, deleting shifted H5 blocks 014 and 234.\",\n      \"observation\": \"Thirteen triples remain. Direct enumeration gives the sole support three-cover {3,4,11} and eight four-covers containing no three-cover, hence capacity 2+8=10. No pair covers the remaining link; its maximum coverage is 10. Every ambient four-cover therefore contains that three-cover or equals one of the eight support four-covers. Global triple codegree 2 counts all exterior completions. The result contradicts the A3 two-cone requirement of at least 12 actual covers. Only this selected tight case was recalculated.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"cap15\"\n      ]\n    },\n    {\n      \"scope\": \"Ground-set versus uniform-rank comparison after the fresh search\",\n      \"method\": \"Read the preserved Bucić–He–Lee primary theorem text in general/open01–03.json and assessment.json; independently substituted three petals and the smallest possible support of 68 distinct four-sets.\",\n      \"observation\": \"Theorem 1 gives 3(863/432)^N, with N the support size. Since binomial(7,4)=35, N>=8; already at 8 the displayed bound is 760.9176..., increasing thereafter. The four-coordinate vector expression is 1296D^2 and still depends on alphabet size. These displayed results do not directly imply upper 67. Manuscript Section 2 preserves the parameter distinction without claiming exhaustive priority or a local audit of the public Lean project.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"general-comparison-20261025\",\n        \"contract-amendment-20261025\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-25T13:47:12.347158+00:00",
+        "response_sha256": "9617a4d4cf4a8eb4efc8fff33d234c57cb5ef66959a06f17a157267aebeb2eea",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON artifact and observed final response"
+      },
+      "record_sha256": "2f9146aaab743090d5dc9364a7b0187511a5ba58ee33a5be3d981b16061869fb"
+    },
+    {
+      "content": {
+        "agent_id": "/root/r67_literature",
+        "checks": [
+          {
+            "evidence_ids": [
+              "literature-refresh-20261025"
+            ],
+            "method": "Inspected rank4/source-tool-outputs.json and its supplement, including the retrieved aiXiv abstract, SproutSeeds README and SmallCases.lean; compared their literal quantifiers.",
+            "observation": "The aiXiv source excludes size 69, states maximum 68 and expressly leaves size 68 unexcluded. SproutSeeds’ upper 46 requires pairwise intersections at most two; the present theorem permits three. Its displayed M(4,3)=8 quantifies over subsets of Fin 4, without rank-four uniformity. These cannot displace the stated arbitrary-support comparator. General/assessment.json and the saved BHL declaration preserve the support-size parameter.",
+            "result": "supported",
+            "scope": "Exact numerical comparator and misleading smaller bounds"
+          },
+          {
+            "evidence_ids": [
+              "literature-refresh-20261025"
+            ],
+            "method": "Read the query ledger, native browser observations, archive findings and raw root-batch5 SSRN response; parsed the saved HAL response.",
+            "observation": "HAL contains all 1323 returned metadata records, not full texts. Browser notes distinguish 50 announcement-order arXiv listings, 25 submission-order listings and seven aiXiv listings from exhaustive corpus coverage. The saved SSRN abstract discusses Bayesian formulations but states no matching numerical upper bound; full text remains unread. Research Square first-page limits and inaccessible native catalogs remain documented. The new prose accurately preserves these limits.",
+            "result": "supported",
+            "scope": "Actual search coverage and unresolved leads"
+          },
+          {
+            "evidence_ids": [
+              "literature-refresh-20261025"
+            ],
+            "method": "Compared general/github03–10 raw contents, commit responses, README, formalization.yaml and Solution.lean.",
+            "observation": "Author and PalomarArchive responses report commit 8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7; their 18 root entries have identical path/hash/type mappings. README and metadata explicitly withhold registration and endorsement claims. Solution exposes support-size and alphabet-dependent declarations. “Matching PalomarArchive copy” is therefore supported at this inspection level; neither registry approval nor a locally replayed kernel proof follows.",
+            "result": "supported",
+            "scope": "Public archive copy versus registry endorsement"
+          },
+          {
+            "evidence_ids": [
+              "frontier-gate-20261025",
+              "contract-amendment-20261025",
+              "literature-refresh-20261025"
+            ],
+            "method": "Verified the six gate-bound file hashes, original-contract byte hash and gate hash referenced by the amendment; inspected the complete round-eight-to-nine manuscript diff.",
+            "observation": "The amendment takes effect at round nine and identifies 25 October 2026, 13:36:25 UTC as the new cutoff, without silently rewriting the original contract. Changes are confined to search timing, coverage and public-artifact description. Theorems, mathematical proof and imported-source caveats remain unchanged. The gate authorizes continued review under its criterion; it supplies no theorem proof, reviewer vote or final acceptance.",
+            "result": "supported",
+            "scope": "Prospective cutoff amendment and unchanged mathematical claim"
+          }
+        ],
+        "context_id": "/root/r67_literature",
+        "decision": "continue",
+        "evidence_ids": [
+          "literature-refresh-20261025",
+          "frontier-gate-20261025",
+          "contract-amendment-20261025",
+          "external-h27-scope-correction",
+          "external-h27-tree-correction",
+          "round8-committed"
+        ],
+        "findings": [
+          {
+            "disposition": "Section 2 names the SSRN gap and limits the claim to sources located by the stated cutoff. Neither stale indexed responses, the native keyword searches nor the gate establishes exhaustive priority. The retained browser record is explicitly a transcription, not an authenticated site export.",
+            "evidence_ids": [
+              "literature-refresh-20261025",
+              "frontier-gate-20261025"
+            ],
+            "id": "LIT-R9-01",
+            "severity": "note",
+            "statement": "The refreshed negative finding remains bounded by actual retrieval coverage: topical SSRN full text and several native catalogs remain incompletely inspected.",
+            "status": "claim-qualified"
+          }
+        ],
+        "manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Compared the revised H27 timing sentence and retained source limitations with both superseding addenda.",
+            "finding_id": "/root/r67_literature:round-4:required-revision-1",
+            "result": "The disclosure repair remains resolved. The October 25 search updates comparison coverage without claiming to authenticate H27’s historical run or complete repository tree.",
+            "status": "resolved"
+          },
+          {
+            "action": "Checked the exact manuscript diff and retained Section 2 attribution.",
+            "finding_id": "/root/r67_literature:round-1:required-revision-1",
+            "result": "Abbott–Hanson and Abbott–Gardner attribution through [1] remains unchanged and satisfactory.",
+            "status": "resolved"
+          }
+        ],
+        "role": "literature_reviewer",
+        "round": 9,
+        "snapshot_sha256": "e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4",
+        "summary": "The October 25 revision supports the bounded fixed-rank comparison and corrects the archive-versus-registry description. I inspected retained primary responses and search records rather than treating the resumption gate as evidence of correctness. Coverage gaps, external H27 dependence and unbuilt formalization status remain explicit. No necessary literature revision was identified."
+      },
+      "provenance": {
+        "call_id": "local-log:/root/r67_literature:round-9:final-json:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/incoming/round09/literature_reviewer.json",
+        "context_id": "/root/r67_literature",
+        "public_response": "{\n  \"agent_id\": \"/root/r67_literature\",\n  \"role\": \"literature_reviewer\",\n  \"context_id\": \"/root/r67_literature\",\n  \"round\": 9,\n  \"snapshot_sha256\": \"e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4\",\n  \"manuscript_sha256\": \"4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68\",\n  \"summary\": \"The October 25 revision supports the bounded fixed-rank comparison and corrects the archive-versus-registry description. I inspected retained primary responses and search records rather than treating the resumption gate as evidence of correctness. Coverage gaps, external H27 dependence and unbuilt formalization status remain explicit. No necessary literature revision was identified.\",\n  \"evidence_ids\": [\n    \"literature-refresh-20261025\",\n    \"frontier-gate-20261025\",\n    \"contract-amendment-20261025\",\n    \"external-h27-scope-correction\",\n    \"external-h27-tree-correction\",\n    \"round8-committed\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"LIT-R9-01\",\n      \"statement\": \"The refreshed negative finding remains bounded by actual retrieval coverage: topical SSRN full text and several native catalogs remain incompletely inspected.\",\n      \"severity\": \"note\",\n      \"status\": \"claim-qualified\",\n      \"disposition\": \"Section 2 names the SSRN gap and limits the claim to sources located by the stated cutoff. Neither stale indexed responses, the native keyword searches nor the gate establishes exhaustive priority. The retained browser record is explicitly a transcription, not an authenticated site export.\",\n      \"evidence_ids\": [\n        \"literature-refresh-20261025\",\n        \"frontier-gate-20261025\"\n      ]\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/r67_literature:round-4:required-revision-1\",\n      \"action\": \"Compared the revised H27 timing sentence and retained source limitations with both superseding addenda.\",\n      \"result\": \"The disclosure repair remains resolved. The October 25 search updates comparison coverage without claiming to authenticate H27’s historical run or complete repository tree.\",\n      \"status\": \"resolved\"\n    },\n    {\n      \"finding_id\": \"/root/r67_literature:round-1:required-revision-1\",\n      \"action\": \"Checked the exact manuscript diff and retained Section 2 attribution.\",\n      \"result\": \"Abbott–Hanson and Abbott–Gardner attribution through [1] remains unchanged and satisfactory.\",\n      \"status\": \"resolved\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Exact numerical comparator and misleading smaller bounds\",\n      \"method\": \"Inspected rank4/source-tool-outputs.json and its supplement, including the retrieved aiXiv abstract, SproutSeeds README and SmallCases.lean; compared their literal quantifiers.\",\n      \"observation\": \"The aiXiv source excludes size 69, states maximum 68 and expressly leaves size 68 unexcluded. SproutSeeds’ upper 46 requires pairwise intersections at most two; the present theorem permits three. Its displayed M(4,3)=8 quantifies over subsets of Fin 4, without rank-four uniformity. These cannot displace the stated arbitrary-support comparator. General/assessment.json and the saved BHL declaration preserve the support-size parameter.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"literature-refresh-20261025\"\n      ]\n    },\n    {\n      \"scope\": \"Actual search coverage and unresolved leads\",\n      \"method\": \"Read the query ledger, native browser observations, archive findings and raw root-batch5 SSRN response; parsed the saved HAL response.\",\n      \"observation\": \"HAL contains all 1323 returned metadata records, not full texts. Browser notes distinguish 50 announcement-order arXiv listings, 25 submission-order listings and seven aiXiv listings from exhaustive corpus coverage. The saved SSRN abstract discusses Bayesian formulations but states no matching numerical upper bound; full text remains unread. Research Square first-page limits and inaccessible native catalogs remain documented. The new prose accurately preserves these limits.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"literature-refresh-20261025\"\n      ]\n    },\n    {\n      \"scope\": \"Public archive copy versus registry endorsement\",\n      \"method\": \"Compared general/github03–10 raw contents, commit responses, README, formalization.yaml and Solution.lean.\",\n      \"observation\": \"Author and PalomarArchive responses report commit 8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7; their 18 root entries have identical path/hash/type mappings. README and metadata explicitly withhold registration and endorsement claims. Solution exposes support-size and alphabet-dependent declarations. “Matching PalomarArchive copy” is therefore supported at this inspection level; neither registry approval nor a locally replayed kernel proof follows.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"literature-refresh-20261025\"\n      ]\n    },\n    {\n      \"scope\": \"Prospective cutoff amendment and unchanged mathematical claim\",\n      \"method\": \"Verified the six gate-bound file hashes, original-contract byte hash and gate hash referenced by the amendment; inspected the complete round-eight-to-nine manuscript diff.\",\n      \"observation\": \"The amendment takes effect at round nine and identifies 25 October 2026, 13:36:25 UTC as the new cutoff, without silently rewriting the original contract. Changes are confined to search timing, coverage and public-artifact description. Theorems, mathematical proof and imported-source caveats remain unchanged. The gate authorizes continued review under its criterion; it supplies no theorem proof, reviewer vote or final acceptance.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"frontier-gate-20261025\",\n        \"contract-amendment-20261025\",\n        \"literature-refresh-20261025\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-25T13:46:32.356508+00:00",
+        "response_sha256": "3b9f56c279e8724da3b10012d298b25c482fc77cd0e57194b166067050c91ec9",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON artifact and observed final response"
+      },
+      "record_sha256": "0c6455099abf49a5d0bcb741a95cf35fc25e75a4ace8b0aefd3e5095f21d33cc"
+    },
+    {
+      "content": {
+        "agent_id": "/root/r67_logic",
+        "checks": [
+          {
+            "evidence_ids": [
+              "contract-amendment-20261025",
+              "literature-refresh-20261025",
+              "general-comparison-20261025",
+              "native-search-20261025"
+            ],
+            "method": "Read the amendment, refresh and native-observation records; inspect retained primary theorem text in general/open01.json and open02.json; recompute the numerical specialization with exact fractions.",
+            "observation": "The amendment takes effect at round 9 and expressly is not preregistered. BHL quantifies over support size N, not uniform rank. A 68-member four-uniform family requires N>=8 because binomial(7,4)=35; its displayed bound at N=8 is 3(863/432)^8>760 and increases thereafter. Thus this theorem does not directly supply upper 67. Native observations support only the manuscript’s bounded negative finding; the unread SSRN full text remains outside it. I audited frozen retrieval records rather than performing another search.",
+            "result": "supported",
+            "scope": "Prospective amendment and parameter-faithful literature inference"
+          },
+          {
+            "evidence_ids": [
+              "global-proof",
+              "global-dag",
+              "direct-jin"
+            ],
+            "method": "Read GLOBAL67-ordinary-theorem.md and roadmap Sections 1–5; check the direct A3 derivation coefficientwise and recompute Jin strictness.",
+            "observation": "Hereditary restriction gives one fixed 68-member family before selecting complete root stars; it does not inherit minimum positive degree. Universal Delta<=20 is exhausted by degrees 20,19,18,17,16 and cap15, with cap18 imports activated only after degree 19. Universal neighbourhood bounds yield graph minimum degrees. Jin margins are 4 for degree16 and 3 for cap15. All eight A3 inverse identities hold; upper adjacent mass 27 applies even to empty fibres, positivity follows first, and lower mass 25 follows only afterwards. The forcing threshold remains 68, corresponding to maximum 67.",
+            "result": "supported",
+            "scope": "Final maximum-degree inference and graph quantifiers"
+          },
+          {
+            "evidence_ids": [
+              "formal-scalar",
+              "formal-asymmetric",
+              "general-comparison-20261025"
+            ],
+            "method": "Inspect R15ScalarClosure.lean and terminal parameter interfaces; compare manuscript Section 7 with retained external README, Challenge.lean and Solution.lean retrievals in general/github06.json, github07.json and github09.json.",
+            "observation": "Local scalar roots retain literal inequalities and equality guards; terminal cardinality conclusions still require supplied H27 and the actual removed-pool bound. External Solution declarations state support-dependent bounds and delegate to imported proofs. Statement holes occur in Challenge, whose role differs from Solution; neither file inspection supplies a local build or transitive audit. The retained README says submission preparation and no registration. Calling PalomarArchive a matching copy therefore corrects the endorsement inference without claiming verified formal status for the extremal theorem.",
+            "result": "supported",
+            "scope": "Formal assurance after the source-prose revision"
+          }
+        ],
+        "context_id": "/root/r67_logic",
+        "decision": "continue",
+        "evidence_ids": [
+          "global-proof",
+          "global-dag",
+          "direct-jin",
+          "formal-scalar",
+          "formal-asymmetric",
+          "literature-refresh-20261025",
+          "contract-amendment-20261025",
+          "general-comparison-20261025",
+          "native-search-20261025"
+        ],
+        "findings": [
+          {
+            "disposition": "The revised paragraph and prospective amendment retain these limits, including SSRN6913500, incomplete native coverage, unchanged H27 integrity limitations and the remaining final-audit requirement.",
+            "evidence_ids": [
+              "literature-refresh-20261025",
+              "contract-amendment-20261025",
+              "native-search-20261025"
+            ],
+            "id": "logic-r9-search-scope",
+            "severity": "note",
+            "statement": "The fresh search supports a comparison with located sources, not universal priority, the absence of a theorem in unread full text, or validity of the local proof.",
+            "status": "claim-qualified"
+          }
+        ],
+        "manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Checked that the renewed literature comparison does not replace any mathematical premise or erase H27 provenance limits.",
+            "finding_id": "logic-r1-import-boundary",
+            "result": "External theorem use remains explicit; new retrievals do not establish the historical computation.",
+            "status": "claim-qualified"
+          },
+          {
+            "action": "Rechecked scalar declarations, terminal cardinality parameters and the revised external-Lean attribution.",
+            "finding_id": "logic-r8-parameter-boundary",
+            "result": "Supplied mathematical hypotheses remain distinct from axiom closure; no end-to-end formal claim is introduced.",
+            "status": "claim-qualified"
+          }
+        ],
+        "role": "logic_auditor",
+        "round": 9,
+        "snapshot_sha256": "e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4",
+        "summary": "The prospective search amendment preserves the fixed-rank contract and correctly limits its negative finding. The inspected theorem composition and formal interfaces remain coherent under the stated imports. Three substantive checks found no remaining necessary change within this scope. This is continued review, not final acceptance or an independent full-proof replay."
+      },
+      "provenance": {
+        "call_id": "local-log:/root/r67_logic:round-9:final-json:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/incoming/round09/logic_auditor.json",
+        "context_id": "/root/r67_logic",
+        "public_response": "{\n  \"agent_id\": \"/root/r67_logic\",\n  \"role\": \"logic_auditor\",\n  \"context_id\": \"/root/r67_logic\",\n  \"round\": 9,\n  \"snapshot_sha256\": \"e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4\",\n  \"manuscript_sha256\": \"4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68\",\n  \"summary\": \"The prospective search amendment preserves the fixed-rank contract and correctly limits its negative finding. The inspected theorem composition and formal interfaces remain coherent under the stated imports. Three substantive checks found no remaining necessary change within this scope. This is continued review, not final acceptance or an independent full-proof replay.\",\n  \"evidence_ids\": [\n    \"global-proof\",\n    \"global-dag\",\n    \"direct-jin\",\n    \"formal-scalar\",\n    \"formal-asymmetric\",\n    \"literature-refresh-20261025\",\n    \"contract-amendment-20261025\",\n    \"general-comparison-20261025\",\n    \"native-search-20261025\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"logic-r9-search-scope\",\n      \"statement\": \"The fresh search supports a comparison with located sources, not universal priority, the absence of a theorem in unread full text, or validity of the local proof.\",\n      \"severity\": \"note\",\n      \"status\": \"claim-qualified\",\n      \"disposition\": \"The revised paragraph and prospective amendment retain these limits, including SSRN6913500, incomplete native coverage, unchanged H27 integrity limitations and the remaining final-audit requirement.\",\n      \"evidence_ids\": [\n        \"literature-refresh-20261025\",\n        \"contract-amendment-20261025\",\n        \"native-search-20261025\"\n      ]\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"logic-r1-import-boundary\",\n      \"action\": \"Checked that the renewed literature comparison does not replace any mathematical premise or erase H27 provenance limits.\",\n      \"result\": \"External theorem use remains explicit; new retrievals do not establish the historical computation.\",\n      \"status\": \"claim-qualified\"\n    },\n    {\n      \"finding_id\": \"logic-r8-parameter-boundary\",\n      \"action\": \"Rechecked scalar declarations, terminal cardinality parameters and the revised external-Lean attribution.\",\n      \"result\": \"Supplied mathematical hypotheses remain distinct from axiom closure; no end-to-end formal claim is introduced.\",\n      \"status\": \"claim-qualified\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Prospective amendment and parameter-faithful literature inference\",\n      \"method\": \"Read the amendment, refresh and native-observation records; inspect retained primary theorem text in general/open01.json and open02.json; recompute the numerical specialization with exact fractions.\",\n      \"observation\": \"The amendment takes effect at round 9 and expressly is not preregistered. BHL quantifies over support size N, not uniform rank. A 68-member four-uniform family requires N>=8 because binomial(7,4)=35; its displayed bound at N=8 is 3(863/432)^8>760 and increases thereafter. Thus this theorem does not directly supply upper 67. Native observations support only the manuscript’s bounded negative finding; the unread SSRN full text remains outside it. I audited frozen retrieval records rather than performing another search.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"contract-amendment-20261025\",\n        \"literature-refresh-20261025\",\n        \"general-comparison-20261025\",\n        \"native-search-20261025\"\n      ]\n    },\n    {\n      \"scope\": \"Final maximum-degree inference and graph quantifiers\",\n      \"method\": \"Read GLOBAL67-ordinary-theorem.md and roadmap Sections 1–5; check the direct A3 derivation coefficientwise and recompute Jin strictness.\",\n      \"observation\": \"Hereditary restriction gives one fixed 68-member family before selecting complete root stars; it does not inherit minimum positive degree. Universal Delta<=20 is exhausted by degrees 20,19,18,17,16 and cap15, with cap18 imports activated only after degree 19. Universal neighbourhood bounds yield graph minimum degrees. Jin margins are 4 for degree16 and 3 for cap15. All eight A3 inverse identities hold; upper adjacent mass 27 applies even to empty fibres, positivity follows first, and lower mass 25 follows only afterwards. The forcing threshold remains 68, corresponding to maximum 67.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"global-proof\",\n        \"global-dag\",\n        \"direct-jin\"\n      ]\n    },\n    {\n      \"scope\": \"Formal assurance after the source-prose revision\",\n      \"method\": \"Inspect R15ScalarClosure.lean and terminal parameter interfaces; compare manuscript Section 7 with retained external README, Challenge.lean and Solution.lean retrievals in general/github06.json, github07.json and github09.json.\",\n      \"observation\": \"Local scalar roots retain literal inequalities and equality guards; terminal cardinality conclusions still require supplied H27 and the actual removed-pool bound. External Solution declarations state support-dependent bounds and delegate to imported proofs. Statement holes occur in Challenge, whose role differs from Solution; neither file inspection supplies a local build or transitive audit. The retained README says submission preparation and no registration. Calling PalomarArchive a matching copy therefore corrects the endorsement inference without claiming verified formal status for the extremal theorem.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"formal-scalar\",\n        \"formal-asymmetric\",\n        \"general-comparison-20261025\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-25T13:50:43.083570+00:00",
+        "response_sha256": "96c28d8a5651898168d30e20609dac76b5f99d8086e695c6c2b2d406ae987c3f",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON artifact and observed final response"
+      },
+      "record_sha256": "2b1ae58353596268e9a553afbb11a0340cde9038b9ebdf99461d7a9aea70077d"
+    },
+    {
+      "content": {
+        "agent_id": "/root/r67_method",
+        "checks": [
+          {
+            "evidence_ids": [
+              "frontier-gate-20261025",
+              "contract-amendment-20261025",
+              "general-comparison-20261025",
+              "rank4-search-20261025",
+              "native-search-20261025"
+            ],
+            "method": "Read the refreshed gate, amendment, general assessment, rank-4 findings and native observations; independently calculated the stated parameter specializations using exact arithmetic.",
+            "observation": "A simple 68-member rank-4 family needs support at least 8: C(7,4)=35. The general support bound 3(863/432)^8 exceeds 760, while the cited bounded-VC specialization is 600^4=129600000000. Neither establishes upper 67. Maximum 67 means forcing at 68. The October 25 cutoff is prospective, with incomplete native coverage and inaccessible SSRN full text retained. I inspected retained search records, not a new exhaustive search.",
+            "result": "supported",
+            "scope": "Fixed-rank comparison and prospective search cutoff"
+          },
+          {
+            "evidence_ids": [
+              "degree16"
+            ],
+            "method": "Read D16-I8-deletion-cover-reconstruction.md and replay_d16_i8_deletion_covers.py:126–206; independently rebuilt the six listed exceptional links without importing producer code.",
+            "observation": "Each remaining 13-triple link has zero three-covers and twelve four-cover candidates sharing one point, with union size seven. Every actual cover is internal. Removing the common point leaves three pairs per cover on six points; the triple-degree cap gives 3N<=2C(6,2)=30, hence N<=10. The general bridge permits arbitrary exterior completions through the same triple cap. Scripts/results are in checks/round09/methodologist/; this does not independently enumerate all deletion cases.",
+            "result": "supported",
+            "scope": "Degree-16 raw-12 cover exceptions"
+          },
+          {
+            "evidence_ids": [
+              "degree16"
+            ],
+            "method": "Inspected D16-fibre-independent-preparation.md, d16_fibre_reconstruction.cpp:96–158, replay_d16_fibres.py:109–142 and the four recorded k=3..6 receipts.",
+            "observation": "The transfer uses occupied-neighbour mask inclusion, not merely q_j<=q_i: every counted non-star member covers the required surviving cones. Lexicographically first occupied edges partition nonindependent stars; pruning uses necessary ceilings and leaves recheck total 16 and local constraints. Complete exclusion requires the full profile domain, zero unresolved vectors and unchanged bound inputs; partial runs receive PARTIAL_PASS. All four receipts explicitly retain H27, an actual 16-star and guarded R61. No compiler or full fibre replay was run here.",
+            "result": "supported",
+            "scope": "Cover-to-fibre transfer and complete-domain tagging"
+          }
+        ],
+        "context_id": "/root/r67_method",
+        "decision": "continue",
+        "evidence_ids": [
+          "degree16",
+          "frontier-gate-20261025",
+          "contract-amendment-20261025",
+          "general-comparison-20261025",
+          "rank4-search-20261025",
+          "native-search-20261025",
+          "external-h27-tree-correction"
+        ],
+        "findings": [
+          {
+            "disposition": "Retain the shared-builder limitation for high-degree LP replay; degree-16 checks have narrower scope.",
+            "evidence_ids": [
+              "degree16"
+            ],
+            "id": "METH-R1-001",
+            "severity": "note",
+            "statement": "Selected independent reconstruction does not discharge every necessary-model row.",
+            "status": "claim-qualified"
+          },
+          {
+            "disposition": "The inspected cover and fibre bridges respect both obligations; the full census was not rerun.",
+            "evidence_ids": [
+              "degree16"
+            ],
+            "id": "METH-R1-002",
+            "severity": "note",
+            "statement": "Arbitrary exterior completions and actual-set inclusion remain explicit coverage obligations.",
+            "status": "claim-qualified"
+          },
+          {
+            "disposition": "The revised chronology retains the returned-tree mismatch and unverified source-to-historical-run connection.",
+            "evidence_ids": [
+              "external-h27-tree-correction",
+              "frontier-gate-20261025"
+            ],
+            "id": "METH-R5-001",
+            "severity": "note",
+            "statement": "The fresh literature search does not authenticate the imported H27 computation.",
+            "status": "claim-qualified"
+          }
+        ],
+        "manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Compared scoped reconstruction with retained assurance prose.",
+            "finding_id": "METH-R1-001",
+            "result": "No whole-model independence claim introduced.",
+            "status": "claim-qualified"
+          },
+          {
+            "action": "Checked exceptional cover bounds and the fibre inclusion predicate.",
+            "finding_id": "METH-R1-002",
+            "result": "Selected implications supported without imposing an ambient support cutoff.",
+            "status": "claim-qualified"
+          },
+          {
+            "action": "Inspected the prospective cutoff amendment and revised provenance paragraph.",
+            "finding_id": "METH-R5-001",
+            "result": "Search refresh and H27 authentication remain separate.",
+            "status": "claim-qualified"
+          }
+        ],
+        "role": "methodologist",
+        "round": 9,
+        "snapshot_sha256": "e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4",
+        "summary": "The revised comparison gate preserves parameter distinctions and provenance limits. Three scoped checks support the comparison arithmetic, exceptional degree-16 cover correction, and cover-to-fibre transfer. No necessary new revision emerged; this is neither a complete independent reconstruction nor final acceptance."
+      },
+      "provenance": {
+        "call_id": "local-log:/root/r67_method:round-9:final-json:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/incoming/round09/methodologist.json",
+        "context_id": "/root/r67_method",
+        "public_response": "{\n  \"agent_id\": \"/root/r67_method\",\n  \"role\": \"methodologist\",\n  \"context_id\": \"/root/r67_method\",\n  \"round\": 9,\n  \"snapshot_sha256\": \"e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4\",\n  \"manuscript_sha256\": \"4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68\",\n  \"summary\": \"The revised comparison gate preserves parameter distinctions and provenance limits. Three scoped checks support the comparison arithmetic, exceptional degree-16 cover correction, and cover-to-fibre transfer. No necessary new revision emerged; this is neither a complete independent reconstruction nor final acceptance.\",\n  \"evidence_ids\": [\"degree16\", \"frontier-gate-20261025\", \"contract-amendment-20261025\", \"general-comparison-20261025\", \"rank4-search-20261025\", \"native-search-20261025\", \"external-h27-tree-correction\"],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"METH-R1-001\",\n      \"statement\": \"Selected independent reconstruction does not discharge every necessary-model row.\",\n      \"severity\": \"note\",\n      \"status\": \"claim-qualified\",\n      \"disposition\": \"Retain the shared-builder limitation for high-degree LP replay; degree-16 checks have narrower scope.\",\n      \"evidence_ids\": [\"degree16\"]\n    },\n    {\n      \"id\": \"METH-R1-002\",\n      \"statement\": \"Arbitrary exterior completions and actual-set inclusion remain explicit coverage obligations.\",\n      \"severity\": \"note\",\n      \"status\": \"claim-qualified\",\n      \"disposition\": \"The inspected cover and fibre bridges respect both obligations; the full census was not rerun.\",\n      \"evidence_ids\": [\"degree16\"]\n    },\n    {\n      \"id\": \"METH-R5-001\",\n      \"statement\": \"The fresh literature search does not authenticate the imported H27 computation.\",\n      \"severity\": \"note\",\n      \"status\": \"claim-qualified\",\n      \"disposition\": \"The revised chronology retains the returned-tree mismatch and unverified source-to-historical-run connection.\",\n      \"evidence_ids\": [\"external-h27-tree-correction\", \"frontier-gate-20261025\"]\n    }\n  ],\n  \"revisions\": [\n    {\"finding_id\": \"METH-R1-001\", \"action\": \"Compared scoped reconstruction with retained assurance prose.\", \"result\": \"No whole-model independence claim introduced.\", \"status\": \"claim-qualified\"},\n    {\"finding_id\": \"METH-R1-002\", \"action\": \"Checked exceptional cover bounds and the fibre inclusion predicate.\", \"result\": \"Selected implications supported without imposing an ambient support cutoff.\", \"status\": \"claim-qualified\"},\n    {\"finding_id\": \"METH-R5-001\", \"action\": \"Inspected the prospective cutoff amendment and revised provenance paragraph.\", \"result\": \"Search refresh and H27 authentication remain separate.\", \"status\": \"claim-qualified\"}\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Fixed-rank comparison and prospective search cutoff\",\n      \"method\": \"Read the refreshed gate, amendment, general assessment, rank-4 findings and native observations; independently calculated the stated parameter specializations using exact arithmetic.\",\n      \"observation\": \"A simple 68-member rank-4 family needs support at least 8: C(7,4)=35. The general support bound 3(863/432)^8 exceeds 760, while the cited bounded-VC specialization is 600^4=129600000000. Neither establishes upper 67. Maximum 67 means forcing at 68. The October 25 cutoff is prospective, with incomplete native coverage and inaccessible SSRN full text retained. I inspected retained search records, not a new exhaustive search.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"frontier-gate-20261025\", \"contract-amendment-20261025\", \"general-comparison-20261025\", \"rank4-search-20261025\", \"native-search-20261025\"]\n    },\n    {\n      \"scope\": \"Degree-16 raw-12 cover exceptions\",\n      \"method\": \"Read D16-I8-deletion-cover-reconstruction.md and replay_d16_i8_deletion_covers.py:126–206; independently rebuilt the six listed exceptional links without importing producer code.\",\n      \"observation\": \"Each remaining 13-triple link has zero three-covers and twelve four-cover candidates sharing one point, with union size seven. Every actual cover is internal. Removing the common point leaves three pairs per cover on six points; the triple-degree cap gives 3N<=2C(6,2)=30, hence N<=10. The general bridge permits arbitrary exterior completions through the same triple cap. Scripts/results are in checks/round09/methodologist/; this does not independently enumerate all deletion cases.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"degree16\"]\n    },\n    {\n      \"scope\": \"Cover-to-fibre transfer and complete-domain tagging\",\n      \"method\": \"Inspected D16-fibre-independent-preparation.md, d16_fibre_reconstruction.cpp:96–158, replay_d16_fibres.py:109–142 and the four recorded k=3..6 receipts.\",\n      \"observation\": \"The transfer uses occupied-neighbour mask inclusion, not merely q_j<=q_i: every counted non-star member covers the required surviving cones. Lexicographically first occupied edges partition nonindependent stars; pruning uses necessary ceilings and leaves recheck total 16 and local constraints. Complete exclusion requires the full profile domain, zero unresolved vectors and unchanged bound inputs; partial runs receive PARTIAL_PASS. All four receipts explicitly retain H27, an actual 16-star and guarded R61. No compiler or full fibre replay was run here.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"degree16\"]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-25T13:53:26.721933+00:00",
+        "response_sha256": "b04322e6a58fc8de5927ee4c2e14d665147adacb74b8c15b9f43b3f4e19825d7",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON artifact and observed final response"
+      },
+      "record_sha256": "320b5ab46b6fb1bd56b5bca3d888fe9f1be9f6eb34ee3a3dc7445883d163ee04"
+    },
+    {
+      "content": {
+        "agent_id": "/root/r67_typeset",
+        "checks": [
+          {
+            "evidence_ids": [
+              "preview-r9",
+              "literature-refresh-20261025",
+              "general-comparison-20261025"
+            ],
+            "method": "Read the two hash-verified October-25 comparison records; compare manuscript changes with HTML/PDF text and pages 1–3.",
+            "observation": "The cutoff 25 October 2026, 13:36:25 UTC, qualified PalomarArchive description, inaccessible SSRN6913500 full text and incomplete search coverage remain visible. The separate search explicitly does not resolve H27 integrity limitations. This checks faithful presentation against the records, not a newly performed literature search.",
+            "result": "supported",
+            "scope": "New source-search prose and attribution boundaries"
+          },
+          {
+            "evidence_ids": [
+              "preview-r9"
+            ],
+            "method": "Confirm Sections 3–8 are byte-identical to round eight; inspect every current page and compare selected formula tokens across source, HTML and PDF.",
+            "observation": "The strict certificate comparisons, both negative Q8 numerators, root-choice caps 6/5/5, rho guards and cyclic subtraction of 68 survive. Degree-17 totals 131/92/94 and root-tree counts 3657/5109/3455 remain intact. No missing mathematical glyph, overlapping text or clipped equation was observed.",
+            "result": "supported",
+            "scope": "Mathematical display and numerical-table fidelity"
+          },
+          {
+            "evidence_ids": [
+              "preview-r9"
+            ],
+            "method": "Actually view page-01.png through page-11.png; verify canonical snapshot, manuscript, receipt, PDF and HTML commitments; parse source and HTML links.",
+            "observation": "All checked commitments match; eight intended URLs agree. References are readable together on page 10. The evidence table repeats its header on page 11 and preserves complete rows and counts. Both superseding addendum filenames remain legible. The receipt's 204-fragment validation was read, not independently repeated in full.",
+            "result": "supported",
+            "scope": "Complete current layout and immutable bindings"
+          }
+        ],
+        "context_id": "/root/r67_typeset",
+        "decision": "continue",
+        "evidence_ids": [
+          "preview-r9",
+          "literature-refresh-20261025",
+          "general-comparison-20261025"
+        ],
+        "findings": [
+          {
+            "disposition": "The new pagination resolves the earlier optional layout suggestion.",
+            "evidence_ids": [
+              "preview-r9"
+            ],
+            "id": "TYPESET-R4-PAGINATION",
+            "severity": "note",
+            "statement": "The outer-deletion introduction and its two inequalities now appear together on page 8.",
+            "status": "resolved"
+          },
+          {
+            "disposition": "This does not constitute final-publication approval, independent mathematical certification, semantic mathematics tagging or accessibility conformance.",
+            "evidence_ids": [
+              "preview-r9"
+            ],
+            "id": "TYPESET-R1-F4",
+            "severity": "note",
+            "statement": "Visual inspection covers all eleven pages of the newly bound round-nine preview.",
+            "status": "claim-qualified"
+          }
+        ],
+        "manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Compare source, HTML/PDF tokens and actual page images.",
+            "finding_id": "/root/r67_typeset:round-1:required-revision-1",
+            "result": "Set difference, grouped indices and semicolon anchor arguments survive; all eight parsed links are intended.",
+            "status": "resolved"
+          },
+          {
+            "action": "Read every current preview page, including new prose and references.",
+            "finding_id": "/root/r67_typeset:round-1:required-revision-2",
+            "result": "The spacing repairs persist without an observed new presentation defect.",
+            "status": "resolved"
+          },
+          {
+            "action": "Inspect the definitions on page 3 and scalar uses on page 8.",
+            "finding_id": "/root/r67_typeset:round-1:required-revision-3",
+            "result": "N[max], N[R] and mu remain explicit and distinct.",
+            "status": "resolved"
+          },
+          {
+            "action": "Inspect the complete outer-deletion passage on page 8.",
+            "finding_id": "TYPESET-R4-PAGINATION",
+            "result": "The introduction and display are together, with no lost content.",
+            "status": "resolved"
+          }
+        ],
+        "role": "typesetter",
+        "round": 9,
+        "snapshot_sha256": "e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4",
+        "summary": "All eleven new preview pages were actually inspected. The revised search prose and retained integrity limitations render faithfully; mathematical signs, conditions and tables remain readable. The earlier optional lead-in/display pagination issue is resolved. No required presentation change remains, with assurance limited to this preview."
+      },
+      "provenance": {
+        "call_id": "local-log:/root/r67_typeset:round-9:final-json:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/incoming/round09/typesetter.json",
+        "context_id": "/root/r67_typeset",
+        "public_response": "{\n  \"agent_id\": \"/root/r67_typeset\",\n  \"role\": \"typesetter\",\n  \"context_id\": \"/root/r67_typeset\",\n  \"round\": 9,\n  \"snapshot_sha256\": \"e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4\",\n  \"manuscript_sha256\": \"4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68\",\n  \"summary\": \"All eleven new preview pages were actually inspected. The revised search prose and retained integrity limitations render faithfully; mathematical signs, conditions and tables remain readable. The earlier optional lead-in/display pagination issue is resolved. No required presentation change remains, with assurance limited to this preview.\",\n  \"evidence_ids\": [\"preview-r9\", \"literature-refresh-20261025\", \"general-comparison-20261025\"],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"TYPESET-R4-PAGINATION\",\n      \"statement\": \"The outer-deletion introduction and its two inequalities now appear together on page 8.\",\n      \"severity\": \"note\",\n      \"status\": \"resolved\",\n      \"disposition\": \"The new pagination resolves the earlier optional layout suggestion.\",\n      \"evidence_ids\": [\"preview-r9\"]\n    },\n    {\n      \"id\": \"TYPESET-R1-F4\",\n      \"statement\": \"Visual inspection covers all eleven pages of the newly bound round-nine preview.\",\n      \"severity\": \"note\",\n      \"status\": \"claim-qualified\",\n      \"disposition\": \"This does not constitute final-publication approval, independent mathematical certification, semantic mathematics tagging or accessibility conformance.\",\n      \"evidence_ids\": [\"preview-r9\"]\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/r67_typeset:round-1:required-revision-1\",\n      \"action\": \"Compare source, HTML/PDF tokens and actual page images.\",\n      \"result\": \"Set difference, grouped indices and semicolon anchor arguments survive; all eight parsed links are intended.\",\n      \"status\": \"resolved\"\n    },\n    {\n      \"finding_id\": \"/root/r67_typeset:round-1:required-revision-2\",\n      \"action\": \"Read every current preview page, including new prose and references.\",\n      \"result\": \"The spacing repairs persist without an observed new presentation defect.\",\n      \"status\": \"resolved\"\n    },\n    {\n      \"finding_id\": \"/root/r67_typeset:round-1:required-revision-3\",\n      \"action\": \"Inspect the definitions on page 3 and scalar uses on page 8.\",\n      \"result\": \"N[max], N[R] and mu remain explicit and distinct.\",\n      \"status\": \"resolved\"\n    },\n    {\n      \"finding_id\": \"TYPESET-R4-PAGINATION\",\n      \"action\": \"Inspect the complete outer-deletion passage on page 8.\",\n      \"result\": \"The introduction and display are together, with no lost content.\",\n      \"status\": \"resolved\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"New source-search prose and attribution boundaries\",\n      \"method\": \"Read the two hash-verified October-25 comparison records; compare manuscript changes with HTML/PDF text and pages 1–3.\",\n      \"observation\": \"The cutoff 25 October 2026, 13:36:25 UTC, qualified PalomarArchive description, inaccessible SSRN6913500 full text and incomplete search coverage remain visible. The separate search explicitly does not resolve H27 integrity limitations. This checks faithful presentation against the records, not a newly performed literature search.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"preview-r9\", \"literature-refresh-20261025\", \"general-comparison-20261025\"]\n    },\n    {\n      \"scope\": \"Mathematical display and numerical-table fidelity\",\n      \"method\": \"Confirm Sections 3–8 are byte-identical to round eight; inspect every current page and compare selected formula tokens across source, HTML and PDF.\",\n      \"observation\": \"The strict certificate comparisons, both negative Q8 numerators, root-choice caps 6/5/5, rho guards and cyclic subtraction of 68 survive. Degree-17 totals 131/92/94 and root-tree counts 3657/5109/3455 remain intact. No missing mathematical glyph, overlapping text or clipped equation was observed.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"preview-r9\"]\n    },\n    {\n      \"scope\": \"Complete current layout and immutable bindings\",\n      \"method\": \"Actually view page-01.png through page-11.png; verify canonical snapshot, manuscript, receipt, PDF and HTML commitments; parse source and HTML links.\",\n      \"observation\": \"All checked commitments match; eight intended URLs agree. References are readable together on page 10. The evidence table repeats its header on page 11 and preserves complete rows and counts. Both superseding addendum filenames remain legible. The receipt's 204-fragment validation was read, not independently repeated in full.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"preview-r9\"]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-25T13:59:43.518519+00:00",
+        "response_sha256": "a40b1bbc6e6456420d856618a090ad12f62b5db2880d3ec99ed932a95f846026",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON artifact and observed final response"
+      },
+      "record_sha256": "f2bb5324f6db890b434782f0ffc7224d8f11845b8704664e7030132e55e599b1"
+    },
+    {
+      "content": {
+        "agent_id": "/root/r67_writer",
+        "checks": [
+          {
+            "evidence_ids": [
+              "literature-refresh-20261025",
+              "native-search-20261025",
+              "rank4-search-20261025",
+              "contract-amendment-20261025"
+            ],
+            "method": "Compared the revised prose with FRONTIER_REFRESH.md, BROWSER_NATIVE_OBSERVATIONS.md, rank4/FINDINGS.md and CONTRACT_AMENDMENT_20261025.json.",
+            "observation": "The cutoff is 25 October 2026, 13:36:25 UTC, effective from round 9. Recorded native observations cover 50 announcement-order arXiv entries, 25 submission-order entries and seven aiXiv results, rather than every archive record. The manuscript retains incomplete-platform and unread-SSRN qualifications and says no comparable result was located. The rank-four source comparison uses maximum size 68, correctly distinct from forcing threshold 69.",
+            "result": "supported",
+            "scope": "Updated cutoff and bounded novelty language in abstract, section 2 and conclusion."
+          },
+          {
+            "evidence_ids": [
+              "general-comparison-20261025",
+              "literature-refresh-20261025"
+            ],
+            "method": "Inspected general/assessment.json and captured github06, github08 and github10 records; independently evaluated the displayed BHL specialization.",
+            "observation": "The captured README says no submission or registration was made; metadata disclaims registry endorsement, and the archive branch reports commit 8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7. “Matching PalomarArchive copy” is appropriately narrower than the removed registry-entry wording. The BHL bound 3(863/432)^8 is about 760.918 and depends on support size; it does not supply the claimed arbitrary-support upper 67. No local compilation is inferred.",
+            "result": "supported",
+            "scope": "PalomarArchive attribution and distinction between general and fixed-rank results."
+          },
+          {
+            "evidence_ids": [
+              "global-dag",
+              "rho15",
+              "cap15",
+              "definitions-map-r2",
+              "external-h27-tree-correction",
+              "round8-committed"
+            ],
+            "method": "Read every section and reference; compared the complete revision and the principal mathematical evidence commitments with round 8.",
+            "observation": "Only four source-related paragraphs change; section 1 and everything from section 3 onward are identical. The proof still activates cap-18 imports after degree 19, derives support eleven under rho<=6, separates exact rho7 from rho8 and supplies the companion map. The revised H27 timing expressly leaves the root-listing and historical-run limitations unresolved. Section 7 retains shared-builder dependence, scoped Lean roots and same-environment review limits.",
+            "result": "supported",
+            "scope": "Whole-manuscript theorem, obligation and assurance consistency."
+          }
+        ],
+        "context_id": "/root/r67_writer",
+        "decision": "continue",
+        "evidence_ids": [
+          "literature-refresh-20261025",
+          "native-search-20261025",
+          "rank4-search-20261025",
+          "general-comparison-20261025",
+          "contract-amendment-20261025",
+          "global-dag",
+          "rho15",
+          "cap15",
+          "definitions-map-r2",
+          "external-h27-tree-correction",
+          "round8-committed"
+        ],
+        "findings": [
+          {
+            "disposition": "The new cutoff is prospective; inaccessible SSRN text and incomplete native searches remain disclosed. H27 historical authentication, local external-project compilation and independent certification remain unclaimed.",
+            "evidence_ids": [
+              "literature-refresh-20261025",
+              "general-comparison-20261025",
+              "contract-amendment-20261025",
+              "external-h27-tree-correction"
+            ],
+            "id": "AW-SOURCE-09",
+            "severity": "note",
+            "statement": "The October 25 comparison and PalomarArchive correction now distinguish retrieval, public availability and verification.",
+            "status": "claim-qualified"
+          }
+        ],
+        "manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Read the complete revised definitions.",
+            "finding_id": "/root/r67_writer:round-1:required-revision-1",
+            "result": "Literal models, exact traces and neighbourhood quantifiers remain explicit.",
+            "status": "resolved"
+          },
+          {
+            "action": "Rechecked the companion map against the proof sequence.",
+            "finding_id": "/root/r67_writer:round-1:required-revision-2",
+            "result": "Support reduction, finite exhaustion, exact-rho classification and cover obligations remain separately located.",
+            "status": "resolved"
+          },
+          {
+            "action": "Rechecked section 5.2.",
+            "finding_id": "/root/r67_writer:round-3:required-revision-1",
+            "result": "Maximum-degree root selection and the conditional cap-5 branches remain explicit.",
+            "status": "resolved"
+          },
+          {
+            "action": "Reassessed the three optional elaborations after the source update.",
+            "finding_id": "AW-CONSTRUCTIVE-08",
+            "result": "They remain optional; their mathematical obligations are already stated or directly mapped.",
+            "status": "claim-qualified"
+          }
+        ],
+        "role": "academic_writer",
+        "round": 9,
+        "snapshot_sha256": "e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4",
+        "summary": "I read the full revised manuscript. The prospective source update preserves the mathematical scope and improves the public-artifact attribution. The located-bound comparison remains explicitly bounded by retrieval coverage, and the renewed search supplies no additional proof assurance. No necessary exposition correction was found; this is not final publication approval."
+      },
+      "provenance": {
+        "call_id": "local-log:/root/r67_writer:round-9:final-json:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/incoming/round09/academic_writer.json",
+        "context_id": "/root/r67_writer",
+        "public_response": "{\n  \"agent_id\": \"/root/r67_writer\",\n  \"role\": \"academic_writer\",\n  \"context_id\": \"/root/r67_writer\",\n  \"round\": 9,\n  \"snapshot_sha256\": \"e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4\",\n  \"manuscript_sha256\": \"4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68\",\n  \"summary\": \"I read the full revised manuscript. The prospective source update preserves the mathematical scope and improves the public-artifact attribution. The located-bound comparison remains explicitly bounded by retrieval coverage, and the renewed search supplies no additional proof assurance. No necessary exposition correction was found; this is not final publication approval.\",\n  \"evidence_ids\": [\n    \"literature-refresh-20261025\",\n    \"native-search-20261025\",\n    \"rank4-search-20261025\",\n    \"general-comparison-20261025\",\n    \"contract-amendment-20261025\",\n    \"global-dag\",\n    \"rho15\",\n    \"cap15\",\n    \"definitions-map-r2\",\n    \"external-h27-tree-correction\",\n    \"round8-committed\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"AW-SOURCE-09\",\n      \"statement\": \"The October 25 comparison and PalomarArchive correction now distinguish retrieval, public availability and verification.\",\n      \"severity\": \"note\",\n      \"status\": \"claim-qualified\",\n      \"disposition\": \"The new cutoff is prospective; inaccessible SSRN text and incomplete native searches remain disclosed. H27 historical authentication, local external-project compilation and independent certification remain unclaimed.\",\n      \"evidence_ids\": [\n        \"literature-refresh-20261025\",\n        \"general-comparison-20261025\",\n        \"contract-amendment-20261025\",\n        \"external-h27-tree-correction\"\n      ]\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/r67_writer:round-1:required-revision-1\",\n      \"action\": \"Read the complete revised definitions.\",\n      \"result\": \"Literal models, exact traces and neighbourhood quantifiers remain explicit.\",\n      \"status\": \"resolved\"\n    },\n    {\n      \"finding_id\": \"/root/r67_writer:round-1:required-revision-2\",\n      \"action\": \"Rechecked the companion map against the proof sequence.\",\n      \"result\": \"Support reduction, finite exhaustion, exact-rho classification and cover obligations remain separately located.\",\n      \"status\": \"resolved\"\n    },\n    {\n      \"finding_id\": \"/root/r67_writer:round-3:required-revision-1\",\n      \"action\": \"Rechecked section 5.2.\",\n      \"result\": \"Maximum-degree root selection and the conditional cap-5 branches remain explicit.\",\n      \"status\": \"resolved\"\n    },\n    {\n      \"finding_id\": \"AW-CONSTRUCTIVE-08\",\n      \"action\": \"Reassessed the three optional elaborations after the source update.\",\n      \"result\": \"They remain optional; their mathematical obligations are already stated or directly mapped.\",\n      \"status\": \"claim-qualified\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Updated cutoff and bounded novelty language in abstract, section 2 and conclusion.\",\n      \"method\": \"Compared the revised prose with FRONTIER_REFRESH.md, BROWSER_NATIVE_OBSERVATIONS.md, rank4/FINDINGS.md and CONTRACT_AMENDMENT_20261025.json.\",\n      \"observation\": \"The cutoff is 25 October 2026, 13:36:25 UTC, effective from round 9. Recorded native observations cover 50 announcement-order arXiv entries, 25 submission-order entries and seven aiXiv results, rather than every archive record. The manuscript retains incomplete-platform and unread-SSRN qualifications and says no comparable result was located. The rank-four source comparison uses maximum size 68, correctly distinct from forcing threshold 69.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"literature-refresh-20261025\",\n        \"native-search-20261025\",\n        \"rank4-search-20261025\",\n        \"contract-amendment-20261025\"\n      ]\n    },\n    {\n      \"scope\": \"PalomarArchive attribution and distinction between general and fixed-rank results.\",\n      \"method\": \"Inspected general/assessment.json and captured github06, github08 and github10 records; independently evaluated the displayed BHL specialization.\",\n      \"observation\": \"The captured README says no submission or registration was made; metadata disclaims registry endorsement, and the archive branch reports commit 8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7. “Matching PalomarArchive copy” is appropriately narrower than the removed registry-entry wording. The BHL bound 3(863/432)^8 is about 760.918 and depends on support size; it does not supply the claimed arbitrary-support upper 67. No local compilation is inferred.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"general-comparison-20261025\",\n        \"literature-refresh-20261025\"\n      ]\n    },\n    {\n      \"scope\": \"Whole-manuscript theorem, obligation and assurance consistency.\",\n      \"method\": \"Read every section and reference; compared the complete revision and the principal mathematical evidence commitments with round 8.\",\n      \"observation\": \"Only four source-related paragraphs change; section 1 and everything from section 3 onward are identical. The proof still activates cap-18 imports after degree 19, derives support eleven under rho<=6, separates exact rho7 from rho8 and supplies the companion map. The revised H27 timing expressly leaves the root-listing and historical-run limitations unresolved. Section 7 retains shared-builder dependence, scoped Lean roots and same-environment review limits.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"global-dag\",\n        \"rho15\",\n        \"cap15\",\n        \"definitions-map-r2\",\n        \"external-h27-tree-correction\",\n        \"round8-committed\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-25T13:54:34.186778+00:00",
+        "response_sha256": "91af68c57c61659e938f14d5fc752d7b94b889c5b8bf5c1082ea4d5cf6ea48ec",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON artifact and observed final response"
+      },
+      "record_sha256": "1aed97441684b0198f230574408320841301af6c3dd869ce83fec3ed345fd702"
+    }
+  ],
+  "round_sha256": "69ea40c65514e6c62edfac24e19bb0c0586c98167bb8c9848d849183c1af7df1"
+}

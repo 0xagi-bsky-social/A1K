@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-23",
+  "mode": "solve",
+  "question": "Can an extremal intersecting 27-member SF4 subfamily force a surrounding 68-member SF4 family into contradiction?",
+  "conventions": "Finite simple exactly four-uniform set families; three pairwise distinct members; common pairwise intersection may be empty; arbitrary support.",
+  "external_dependencies": ["H27: every intersecting SF4 family has at most 27 members", "Original canonical-augmentation coverage and archived run are source-inspected, not independently replayed here"],
+  "candidate_leaf": "If a sunflower-free four-uniform family contains the Abbott-Hanson 27-set construction, every additional member is disjoint from its nine-point support.",
+  "classification": "No uniqueness assumption. Full extremal-27 classification is open in this work.",
+  "assurance_target": "draft ordinary proof plus exact finite diagnostic receipts; no Lean kernel grade unless a compiler and axiom audit actually run",
+  "resource_ceiling": "At most 256 support traces and exact branching on their 27-vertex blocker graphs, with per-probe runtime cap; no full 106-billion-node canonical enumeration.",
+  "allowed_changes": "Only work/frontier20261023/extremal27; preserve all older files.",
+  "review_publication": "Disabled by user until qualifying frontier breakthrough."
+}

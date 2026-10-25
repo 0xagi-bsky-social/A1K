@@ -1,8 +1,8 @@
 {
   "schema": "a1k-erdos20-source-transfer/1",
-  "date": "2026-10-06",
-  "source_scope": "2026-09-22 directory tree",
-  "repository_lean_files": 348,
+  "date": "2026-10-25",
+  "source_scope": "Retained 2026-09-22 v13 source collection plus 19–25 October 2026 progress and upper-67 proof evidence",
+  "repository_lean_files": 737,
   "source_bytes_preserved": true,
   "roles": {
     "audit-or-smoke": 8,
@@ -10,7 +10,13 @@
     "deferred-not-verified": 1,
     "negative-or-mutation": 40,
     "scratch-research": 1,
-    "latest-production": 155
+    "latest-production": 155,
+    "intermediate-support-reduction-source": 171,
+    "archival-lean-source": 34,
+    "negative-fixture": 3,
+    "unfinished-formal-draft": 7,
+    "intermediate-formal-source": 161,
+    "formal-source": 13
   },
   "current_v13_modules": 155,
   "current_v13_proof_bearing_modules": 149,
@@ -70,5 +76,10 @@
       "erdos_20/v13/sources/primary_sources/author_repository/lean/lake-manifest.json"
     ],
     "reason": "User did not grant redistribution permission and authorized upstream links instead."
-  }
+  },
+  "historical_v13_repository_lean_files": 348,
+  "latest_collection": "erdos_20/sunflower67-20261025",
+  "latest_collection_summary": "erdos_20/sunflower67-20261025/transfer-summary.json",
+  "historical_v13_source_index": "erdos_20/indexes/v13-source-files.csv",
+  "source_index_scope": "Global source index contains all 737 shipped Lean file instances; original 348-source v13 inventory is retained separately."
 }

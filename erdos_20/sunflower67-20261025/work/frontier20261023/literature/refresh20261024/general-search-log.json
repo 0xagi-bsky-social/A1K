@@ -1,0 +1,206 @@
+{
+  "schema": "fresh-literature-search-log-v1",
+  "date": "2026-10-24",
+  "agent": "stability_notes",
+  "scope": "Bucic-He-Lee arXiv2610.26686 versions/corrections/formal release and recent general uniform sunflower results; no proof review or execution",
+  "cutoff": "2026-10-24",
+  "usage_limit_failure": false,
+  "query_batches": [
+    {
+      "queries": [
+        "arXiv 2610.26686 Bucić He Lee sunflower",
+        "\"2610.26686\" Lean formalization correction",
+        "sunflower lemma uniform sets 2026 October improved bound",
+        "\"Bucić\" \"He\" \"Lee\" sunflower October 2026"
+      ],
+      "domains": "arxiv.org; github.com for formalization query"
+    },
+    {
+      "queries": [
+        "\"Bucic\" \"He\" \"Lee\" \"sunflower\"",
+        "\"2610.26686\"",
+        "sunflower conjecture October 19 2026 Bucic He Lee Lean"
+      ],
+      "domains": "unrestricted discovery"
+    },
+    {
+      "queries": [
+        "\"2610.26686\" correction OR erratum OR v2",
+        "\"Palomar\" \"sunflower\" Lean",
+        "\"sunflower\" \"2026\" \"VC-dimension\""
+      ],
+      "domains": "unrestricted corrections; github.com/arxiv.org formalization; arxiv.org VC"
+    },
+    {
+      "queries": [
+        "\"Palomar\" \"Bucić\" sunflower",
+        "\"Palomar\" \"He\" \"sunflower\" formalization",
+        "\"2610.26686\" site:github.com",
+        "\"sunflower\" \"uniform\" \"October\" \"2026\" arxiv"
+      ],
+      "domains": "unrestricted discovery"
+    },
+    {
+      "queries": [
+        "sunflower site:palomar-registry.org",
+        "\"sunflower\" \"Bucić\" \"correction\"",
+        "\"sunflower\" \"Rao\" \"2026\" bound",
+        "\"sunflower\" \"uniform\" \"2026\" bound"
+      ],
+      "domains": "unrestricted first two; arxiv.org last two"
+    },
+    {
+      "queries": [
+        "\"sunflower\" \"2610\" uniform",
+        "\"sunflower\" \"2026\" \"log\" \"bound\""
+      ],
+      "domains": "arxiv.org",
+      "result": "no results in this batch"
+    },
+    {
+      "queries": [
+        "\"PALOMAR-2026-10-22-000016\"",
+        "\"mbucic4/erdos-szemeredi-sunflowers\"",
+        "\"Bucić\" \"He\" \"Lee\" \"sunflower\" \"erratum\"",
+        "\"sunflower\" \"uniform\" after:2026-10-18 before:2026-10-25"
+      ],
+      "domains": "unrestricted first three; arxiv.org/eccc.weizmann.ac.il last"
+    },
+    {
+      "queries": [
+        "Karingula Lovett sunflower slice rank 2026",
+        "sunflower \"October 2026\" \"bound\" \"uniform\" -site:postcutoff.com -site:aiproofwatch.com"
+      ],
+      "domains": "arxiv.org/eccc.weizmann.ac.il first; arxiv.org second"
+    }
+  ],
+  "successful_primary_sources": [
+    {
+      "url": "https://arxiv.org/abs/2610.26686",
+      "role": "version history; only v1 displayed"
+    },
+    {
+      "url": "https://arxiv.org/html/2610.26686v1",
+      "role": "Theorem1, limitations, author Lean statement"
+    },
+    {
+      "url": "https://data.palomar-registry.org/recent.json",
+      "role": "registered formalization metadata; found by direct JSON find, missed by initial ordinary searches"
+    },
+    {
+      "url": "https://github.com/mbucic4/erdos-szemeredi-sunflowers",
+      "role": "public source repository and reported verification scope"
+    },
+    {
+      "url": "https://palomar-registry.org/llms.txt",
+      "role": "documented read-only registry endpoints"
+    },
+    {
+      "url": "https://arxiv.org/abs/2009.09327",
+      "role": "BCW general uniform bound"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.18995",
+      "role": "bounded-VC metadata"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.18995v1",
+      "role": "bounded-VC explicit theorem and general-bound status"
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2026/220/",
+      "role": "robust-sunflower derandomization"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.06175",
+      "role": "general recursive constructions and low-rank lead"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.27044",
+      "role": "primary search-result abstract, slice-rank obstruction"
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2026/205/",
+      "role": "primary search-result abstract, slice-rank obstruction"
+    },
+    {
+      "url": "https://www.ibs.re.kr/ecopro/papers/",
+      "role": "opened stale page; not used for version claims"
+    },
+    {
+      "url": "https://sites.google.com/view/matija-bucic/research",
+      "role": "author page; no relevant sunflower update found in displayed content"
+    }
+  ],
+  "endpoint_failures_no_same_url_retry": [
+    {
+      "url": "https://palomar-registry.org/entry?id=PALOMAR-2026-10-22-000016&version=1",
+      "error": "not accessible via web tool"
+    },
+    {
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-22-000016-v1.json",
+      "error": "not accessible via web tool"
+    },
+    {
+      "url": "https://data.palomar-registry.org/versions/PALOMAR-2026-10-22-000016.json",
+      "error": "not accessible via web tool"
+    },
+    {
+      "url": "https://github.com/mbucic4/erdos-szemeredi-sunflowers/tree/8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7",
+      "error": "cache miss"
+    },
+    {
+      "url": "https://data.palomar-registry.org/api/v1/results?q=sunflower",
+      "error": "not accessible via web tool"
+    },
+    {
+      "url": "https://github.com/mbucic4/erdos-szemeredi-sunflowers",
+      "operation": "click observed Challenge.lean link",
+      "error": "Internal Error"
+    },
+    {
+      "url": "https://github.com/mbucic4/erdos-szemeredi-sunflowers",
+      "operation": "click observed Issues link",
+      "error": "Internal Error"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mbucic4/erdos-szemeredi-sunflowers/8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7/Challenge.lean",
+      "error": "cache miss"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mbucic4/erdos-szemeredi-sunflowers/8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7/Solution.lean",
+      "error": "cache miss"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mbucic4/erdos-szemeredi-sunflowers/8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7/verification/axioms.log",
+      "error": "cache miss"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mbucic4/erdos-szemeredi-sunflowers/8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7/comparator.json",
+      "error": "cache miss"
+    }
+  ],
+  "formalization_discovery": {
+    "id": "PALOMAR-2026-10-22-000016",
+    "version": 1,
+    "status": "registered",
+    "published_at": "2026-10-22T08:04:03Z",
+    "repository": "mbucic4/erdos-szemeredi-sunflowers",
+    "commit": "8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7",
+    "theorems": [
+      "ErdosSzemeredi.vector_bound",
+      "ErdosSzemeredi.set_bound",
+      "ErdosSzemeredi.sunflower_conjecture"
+    ],
+    "local_replay_performed": false,
+    "detailed_registry_report_retrieved": false
+  },
+  "limitations": [
+    "Search is not exhaustive.",
+    "Primary-source metadata contains a July date for arXiv2609.18995; cause unresolved.",
+    "No proof checking, solver run, local formalization replay, software download or execution.",
+    "Secondary pages used as discovery leads only, not theorem evidence."
+  ],
+  "source_file_inspection_performed": false,
+  "declaration_scope_basis": "public repository README only; exact pinned files unavailable"
+}

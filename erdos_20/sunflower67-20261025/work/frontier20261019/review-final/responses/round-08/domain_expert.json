@@ -1,0 +1,23 @@
+{
+  "agent_id": "/root/review_coordinator/domain_expert",
+  "role": "domain_expert",
+  "context_id": "/root/review_coordinator/domain_expert",
+  "round": 8,
+  "snapshot_sha256": "0906bbbda55b8bbd32d4b236c0e1bf2b6bfa63a2576f4b86c2f054fc152719f7",
+  "manuscript_sha256": "f66cc1eb92c514fa4b4457a934b9b6c334a01f424fbe818f4dc8070d7cec8326",
+  "summary": "All six source changes preserve mathematical content, and the inspected PDF mapping expressions preserve signs, powers and equivalence scope. Frozen hashes and the F34 manifest/file digests checked successfully. This is a source-to-display semantic audit, not a visual layout certification.",
+  "evidence_ids": ["F34"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Six formula replacements and PDF mappings",
+      "method": "Matched all six manuscript displays exactly to F34 source-change and mapping records; inspected renderer markup and reversed the changes to compare the earlier manuscript digest.",
+      "observation": "Each edit only replaces terminal punctuation with a text-mode period. Reversal reproduces the prior a5097eb4 manuscript digest. The mappings retain squared degrees, three positive pair falling-factorials and negative t(t-1); the pointwise correction retains binom(j,2)-binom(j,3). The equivalence remains I(27) iff absence of an intersecting 28-member rank-four sunflower-free family on Fin 72. Its capacity is correctly intermediate; Theorem 5 still separately supplies Fin 53/56, with the Type versus Type-u qualification unchanged.",
+      "result": "supported",
+      "evidence_ids": ["F34"]
+    }
+  ]
+}

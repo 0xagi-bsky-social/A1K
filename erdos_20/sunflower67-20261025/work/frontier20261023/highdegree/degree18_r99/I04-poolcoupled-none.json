@@ -1,0 +1,16 @@
+{
+  "case": "I04",
+  "empty": "none",
+  "assigned": null,
+  "forbidden": [],
+  "status": 1,
+  "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is None)",
+  "columns": 259315,
+  "seconds": 23.981007349999345,
+  "target_residuals": 50,
+  "mu": 41,
+  "point_cap": 18,
+  "source_sha256": "625ccb73f953a1dcd4c81864ca5aaa52658e00981fc4bd53fb709deb8c513961",
+  "imported_local43_sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+  "assurance": "certificate-diagnostic; imported universal geometry; not Lean or complete branch proof"
+}

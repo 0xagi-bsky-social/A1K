@@ -1,0 +1,64 @@
+{
+  "submissions": 120,
+  "rounds": 10,
+  "required_revision_ids": [
+    "/root/r67_alpha:round-1:required-revision-1",
+    "/root/r67_chief:round-1:required-revision-1",
+    "/root/r67_copy:round-1:required-revision-1",
+    "/root/r67_copy:round-1:required-revision-2",
+    "/root/r67_literature:round-1:required-revision-1",
+    "/root/r67_typeset:round-1:required-revision-1",
+    "/root/r67_typeset:round-1:required-revision-2",
+    "/root/r67_typeset:round-1:required-revision-3",
+    "/root/r67_writer:round-1:required-revision-1",
+    "/root/r67_writer:round-1:required-revision-2",
+    "/root/r67_writer:round-3:required-revision-1",
+    "/root/r67_literature:round-4:required-revision-1",
+    "/root/r67_citations:round-5:required-revision-1"
+  ],
+  "all_original_reviewer_resolutions_found": true,
+  "source_repair_assessment": {
+    "neighbourhood_definition": {
+      "locator": "Section 3, first paragraph; Sections 5.1 and 6",
+      "content": "N[max] = max[R \u2208 F]|N[R]|",
+      "reason": "Every actual member is quantified; the graph minimum-degree inference uses the maximum, not mu."
+    },
+    "literal_models_and_trace_definitions": {
+      "locator": "Section 3, literal conventions and residual-count paragraphs",
+      "content": "q is 0 or 1, and residual members avoiding K remain allowed",
+      "reason": "P10/R16, Q8 sharing, residual S/P/T/q and cyclic A[k] are defined at use."
+    },
+    "source_obligation_map": {
+      "locator": "Companion proof and evidence map",
+      "content": "Theorem 2: used degree at least 3",
+      "reason": "Support reduction, classifications, deletion contradictions and cover/fibre obligations each have named sources and conclusions."
+    },
+    "classical_attribution": {
+      "locator": "Section 2, first paragraph",
+      "content": "Abbott and Hanson",
+      "reason": "Classical lower54 and SF3 extremum20 are attributed through source1, with Abbott and Gardner named."
+    },
+    "source_fidelity": {
+      "locator": "Section 3, complete-link formula and singleton notation",
+      "content": "A \u2216 {x}",
+      "reason": "Literal Unicode set difference survives Markdown; s[i; R] avoids the earlier unintended link syntax."
+    },
+    "maximum_degree_root": {
+      "locator": "Section 5.2, root selection",
+      "content": "Only these latter two branches impose global degree cap 5.",
+      "reason": "Degree6 is selected first when present; the degree5 global cap is conditional on its absence."
+    },
+    "H27_scope": {
+      "locator": "Section 2, second paragraph",
+      "content": "Neither the clarification nor the October 25 literature refresh authenticates the historical H27 computation.",
+      "reason": "Unavailable provenance, README/script distinction and original-tree-response limit remain explicit; later metadata explains only the identifier relationship."
+    },
+    "spacing": {
+      "locator": "Whole manuscript and References",
+      "content": "**Theorem 1.**",
+      "reason": "Word/number and bibliography spacing is repaired while compact mathematical identifiers and source hashes remain intact."
+    }
+  },
+  "open_major_or_critical_findings": [],
+  "scope": "Recorded review history and actual final-source repairs; neither counts nor agreement prove mathematical validity."
+}

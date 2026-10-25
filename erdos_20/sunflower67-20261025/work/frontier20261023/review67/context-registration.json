@@ -1,0 +1,79 @@
+{
+  "tool": "collaboration.spawn_agent with fork_turns=none",
+  "identities": [
+    {
+      "agent_id": "/root/r67_chief",
+      "context_id": "/root/r67_chief",
+      "role": "chief",
+      "actual_registration_reply": "READY"
+    },
+    {
+      "agent_id": "/root/r67_domain",
+      "context_id": "/root/r67_domain",
+      "role": "domain_expert",
+      "actual_registration_reply": "READY"
+    },
+    {
+      "agent_id": "/root/r67_literature",
+      "context_id": "/root/r67_literature",
+      "role": "literature_reviewer",
+      "actual_registration_reply": "READY"
+    },
+    {
+      "agent_id": "/root/r67_method",
+      "context_id": "/root/r67_method",
+      "role": "methodologist",
+      "actual_registration_reply": "READY"
+    },
+    {
+      "agent_id": "/root/r67_data",
+      "context_id": "/root/r67_data",
+      "role": "data_analyst",
+      "actual_registration_reply": "READY"
+    },
+    {
+      "agent_id": "/root/r67_logic",
+      "context_id": "/root/r67_logic",
+      "role": "logic_auditor",
+      "actual_registration_reply": "READY"
+    },
+    {
+      "agent_id": "/root/r67_citations",
+      "context_id": "/root/r67_citations",
+      "role": "citation_verifier",
+      "actual_registration_reply": "READY"
+    },
+    {
+      "agent_id": "/root/r67_writer",
+      "context_id": "/root/r67_writer",
+      "role": "academic_writer",
+      "actual_registration_reply": "READY"
+    },
+    {
+      "agent_id": "/root/r67_alpha",
+      "context_id": "/root/r67_alpha",
+      "role": "alpha",
+      "actual_registration_reply": "READY"
+    },
+    {
+      "agent_id": "/root/r67_beta",
+      "context_id": "/root/r67_beta",
+      "role": "beta",
+      "actual_registration_reply": "READY"
+    },
+    {
+      "agent_id": "/root/r67_copy",
+      "context_id": "/root/r67_copy",
+      "role": "copyeditor",
+      "actual_registration_reply": "READY"
+    },
+    {
+      "agent_id": "/root/r67_typeset",
+      "context_id": "/root/r67_typeset",
+      "role": "typesetter",
+      "actual_registration_reply": "READY"
+    }
+  ],
+  "status": "All twelve actual distinct contexts returned READY before first-round dispatch",
+  "limitations": "Canonical tool identities; no organizational independence or cryptographic authentication asserted."
+}

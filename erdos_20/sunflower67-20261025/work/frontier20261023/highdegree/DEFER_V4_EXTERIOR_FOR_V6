@@ -1,0 +1,2 @@
+Defer the next v4 stage at its clean start boundary. Preserve all existing receipts.
+Priority is the new valid Y-at-most-one H27 constraint, model v6.

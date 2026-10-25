@@ -1,0 +1,441 @@
+{
+  "run_id": "sunflower67-20261024-native",
+  "contract_sha256": "dc1ac6ab08e52d7aabff32b4bda2a080f472a14b27a5a2a61540cf1f51e10841",
+  "roster_sha256": "7c930c890e7bce8862c797ce2f94410ad4719f044c39f5a37849e583ce9e92f9",
+  "round": 4,
+  "phase": "methodology",
+  "manuscript_sha256": "4adf68f1aeaea84d3ed409ba438aea0d2a001a041b03cc6a4b51c5bff9b23b4f",
+  "previous_round_sha256": "f6adf56e50f0aafe7d62a132292b475ef9ff89162aeb7eb4c98c5efa8996d41f",
+  "evidence": [
+    {
+      "id": "global-proof",
+      "kind": "derivation",
+      "description": "Complete maximum-degree composition",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/GLOBAL67-ordinary-theorem.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "eb5080fffb65115f0fd628a8af9b9e65370d739ee1463ad161a9b79be4076ed3"
+    },
+    {
+      "id": "global-dag",
+      "kind": "derivation",
+      "description": "Acyclic proof and import audit",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/GLOBAL67-dependency-roadmap.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "38f2ff4ce7cdba0a6319ca388d789384cd094de63f6445527e56e69ecfbe6127"
+    },
+    {
+      "id": "degree20",
+      "kind": "derivation",
+      "description": "Degree20 ordinary and finite route",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D20-proof-check.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "1c852bf2dbfe8e9659702b04156d444247a7c47aea252102151e27b0b6a78580"
+    },
+    {
+      "id": "degree19",
+      "kind": "derivation",
+      "description": "Degree19 complete argument and active indices",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D19-complete-argument.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "3592b645fc12ef44ee927473f25a75844b4f4d32133a1729abd2e731ad8e34a2"
+    },
+    {
+      "id": "degree18",
+      "kind": "derivation",
+      "description": "Degree18 complete argument and169 active leaves",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-complete-argument.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "90b02358d14f58513161a7d9199dfe39668fc58a0cd2b3a33d74984a0ed5497d"
+    },
+    {
+      "id": "degree17",
+      "kind": "derivation",
+      "description": "Degree17 complete argument and329 branch leaves",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-complete-argument.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "d816d1135003f99b3cd12f1dd16f2d24187e952c20fba41779ba007593f72f07"
+    },
+    {
+      "id": "degree16",
+      "kind": "derivation",
+      "description": "Degree16 covers and graph-fibre closure",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D16-complete-argument.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "5628ed14a7a7a24013087de1f630f15ec2fe07479ad6dadc91d2619a0e758890"
+    },
+    {
+      "id": "cap15",
+      "kind": "derivation",
+      "description": "Complete cap15 argument",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/LOW15-complete-argument.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "6c3438b2ae2f8438b3c761019e3d1e711d13cf92679c082a7f33c8a762167b68"
+    },
+    {
+      "id": "cap15-check",
+      "kind": "verification",
+      "description": "Independent cap15 composition inspection",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/LOW15-assembly-independent-composition-check.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "1e279321a6b0eecbcc6f181d71ec9b7ab908a1e1ad0c0a14617ba9f38ab39848"
+    },
+    {
+      "id": "direct-jin",
+      "kind": "derivation",
+      "description": "Direct A3 reduction without empty-fibre theorem",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/LOW15-direct-Jin-A3-addon.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "1ad9d57a72093d5e153b5bc0624e0068d70960a79a3c2c66ddbb3acc30fa7252"
+    },
+    {
+      "id": "rho15",
+      "kind": "derivation",
+      "description": "Universal15-triple result and complete independent evidence",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/R15-rho6-completed-evidence.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "21e1ca4e9b0dbec34f030135f353f693c4f7ebb6da96e8529f11b1bab0c9cd1f"
+    },
+    {
+      "id": "external-scope",
+      "kind": "source-inspection",
+      "description": "External H27 and Jin precise source scope",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/EXTERNAL-H27-JIN-SCOPE.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "1eb5c60b826d21ef0271991b5492fc17ff98a4bab155d8b3ecf6fd57fbc36ff0"
+    },
+    {
+      "id": "prior-ledger",
+      "kind": "source-inspection",
+      "description": "Frozen prior source and selected replay boundary",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/FOUNDATION_LEDGER.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "3658ac4e94efe4bc5240856300c79c43d1388085c2126cb926df64dd48881992"
+    },
+    {
+      "id": "prior-unlock",
+      "kind": "derivation",
+      "description": "Guarded prior facts after cap18",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/PRIOR_DELTA18_UNLOCK.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "25b65f695264ae0dbcd5d97b8e66eac421cccbb9970eaf20cc8692886f855b89"
+    },
+    {
+      "id": "literature-refresh",
+      "kind": "literature",
+      "description": "Fresh cross-archive and primary-source comparison",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261024/FRONTIER_REFRESH.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "718588c1d919f630b816f633b02f4421448acfb5e24131eb1c98a752b0a6d3a9"
+    },
+    {
+      "id": "general-literature",
+      "kind": "literature",
+      "description": "Ground-set theorem and public Lean lead limits",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261024/general.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "4da11b273d842f09ce6a2327e778a77c86eb99b77965d2d99d87bcfdd19d6ed0"
+    },
+    {
+      "id": "q8-coverage",
+      "kind": "verification",
+      "description": "Complete94-leaf Q8 literal coverage",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-complete-coverage-v9.json",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "81d019a295700f3a9b144732d05720adf95e040368483f1a9c06b0f74c4d6c31"
+    },
+    {
+      "id": "q8-negative",
+      "kind": "verification",
+      "description": "Three structural corruption controls",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/q8-negative-controls/results.json",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "0f4f5ce037df19859683cef35dc2b5e264d0e20697d8886dc704c8cd90eb9e4b"
+    },
+    {
+      "id": "formal-scalar",
+      "kind": "formal",
+      "description": "Five axiom-audited arithmetic interfaces",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/R15ScalarClosure-status.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "2e6db53bfa500ce180d4b92ad19497a30cf567180383966f9a30a1c38387567e"
+    },
+    {
+      "id": "formal-terminal",
+      "kind": "formal",
+      "description": "General terminal separation Lean scope",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/TerminalSeparation-status.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "bc25293170bf719344a65b70707920eea33f414d603e881ec8fe7bb22421f6e3"
+    },
+    {
+      "id": "formal-asymmetric",
+      "kind": "formal",
+      "description": "Asymmetric terminal Lean scope",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/TerminalAsymmetric-status.md",
+      "method": "Read exact named local source; companion links and bound receipt indices disclose underlying checks.",
+      "status": "available",
+      "limitations": [],
+      "content_sha256": "f4efd8f5b383199ccfadeaa7e50c4cae80bac09fa5b6f1c1025b64aa48cec541"
+    },
+    {
+      "id": "round1-committed",
+      "kind": "review-record",
+      "description": "Twelve actual first-round responses and committed source-reuse check",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round01/committed.json",
+      "content_sha256": "9619a786ab5a109da42fdc3055599be294761bfd6fdd4debaff0a8ce0b157b16",
+      "method": "Actual specialist submissions recorded unchanged and committed by the native run store.",
+      "status": "available",
+      "limitations": []
+    },
+    {
+      "id": "definitions-map-r2",
+      "kind": "derivation-map",
+      "description": "Literal definitions and detailed obligation-to-source map added after committed first-round review",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/editing/definitions-and-map.md",
+      "content_sha256": "b605700afb9c4612703a73f1e930afa092c3ec8bd51bab82411d60b3e2b844c2",
+      "method": "Production source inspection and literal/hash checks; not a reviewer vote.",
+      "status": "available",
+      "limitations": []
+    },
+    {
+      "id": "round2-committed",
+      "kind": "review-record",
+      "description": "Twelve actual second-round source-map reviews and explicit resolution of first-round revisions",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round02/committed.json",
+      "content_sha256": "4c2aacb949d11fe958578697cc4171e78c1070871c9ee80f60ebe1acc6a438bb",
+      "method": "Observed actual local execution; review records are not formal proofs and previews are not final publication.",
+      "status": "available",
+      "limitations": []
+    },
+    {
+      "id": "preview-r3",
+      "kind": "render-preview",
+      "description": "Corrected source preview with intended-link parsing and full visible-fragment checks",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/previews/round03/render-receipt.json",
+      "content_sha256": "241f1bfa06ea1cac2bfc7cedcc4f02d47e4e8c70e74a2632b05dbe227b91bd00",
+      "method": "Observed actual local execution; review records are not formal proofs and previews are not final publication.",
+      "status": "available",
+      "limitations": []
+    },
+    {
+      "id": "round3-committed",
+      "kind": "actual-review",
+      "description": "Twelve actual third-round theory/counterexample reviews",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round03/committed.json",
+      "method": "Read the complete committed actual submissions; one root-selection exposition revision proposed for round4.",
+      "status": "limited",
+      "limitations": [
+        "Same-environment agent review; not independent human certification or full proof certainty."
+      ],
+      "content_sha256": "9d90193a37a81c3b4264bc7ff9e1e38e80c8c98e4d062bf3b71d2cfc1ea92833"
+    },
+    {
+      "id": "reproduction-entry-r4",
+      "kind": "reproducibility",
+      "description": "Fresh single-leaf exact replay, pinned wrapper and bounded command guide",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/reproduction/manifest.json",
+      "method": "Manifest binds the actual fresh receipt and guide; result PASS with strict_exclusion=true.",
+      "status": "limited",
+      "limitations": [
+        "One leaf only; shared necessary-model builder; other guide interfaces inspected but not newly executed."
+      ],
+      "content_sha256": "5613d70ec465245c46f2451de417f9158c66dbfec19ef0c41363ab26b505b8cc"
+    },
+    {
+      "id": "reviewer-controls-r3",
+      "kind": "actual-execution",
+      "description": "Preserved third-round data reviewer adversarial controls",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round03/data_analyst/archive-manifest.json",
+      "method": "Byte-identical copy of actual temporary execution artifacts; read check_controls.py, results.json and algebra.json.",
+      "status": "limited",
+      "limitations": [
+        "Coverage/strictness and small algebra checks only; no full model-row reconstruction."
+      ],
+      "content_sha256": "b57754a0f3b8ffaf2da9459124cc2d6f25ed182945d7c0ad77dd853d2559816e"
+    },
+    {
+      "id": "preview-r4",
+      "kind": "rendering",
+      "description": "Preview after explicit maximum-degree root choice",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/previews/round04/render-receipt.json",
+      "method": "Actual local renderer and Poppler prose/title checks; six intended links, eleven pages, 200 source fragments.",
+      "status": "limited",
+      "limitations": [
+        "Preview only; new layout not yet visually checked; literal Unicode, no semantic tagging/accessibility claim."
+      ],
+      "content_sha256": "2e8f3cffeb957ef8ba18bec5f96006fe489ff7a746204591017b621aed54e35d"
+    }
+  ],
+  "evidence_sha256": "e0854d6cfd3b7ea6d7cc43bad101d86ac382ff7558e66595324913a05c506687",
+  "verification": [
+    {
+      "scope": "facts",
+      "status": "limited",
+      "method": "Primary source scopes and ordinary degree-case dependency inspection.",
+      "observations": [
+        "No new mathematical case or finite predicate remained open at the gate snapshot."
+      ],
+      "limitations": [
+        "No external H27 full-ledger replay; ordinary theorem imports remain explicit."
+      ],
+      "evidence_ids": [
+        "global-dag",
+        "external-scope"
+      ]
+    },
+    {
+      "scope": "citations",
+      "status": "limited",
+      "method": "Fresh primary source and version opens with preserved search logs.",
+      "observations": [
+        "Strongest comparable located upper bound68; general ground-set result distinguished."
+      ],
+      "limitations": [
+        "Search is not globally exhaustive; original Jin exact statement checked via Nikiforov restatement."
+      ],
+      "evidence_ids": [
+        "literature-refresh",
+        "external-scope"
+      ]
+    },
+    {
+      "scope": "logic",
+      "status": "limited",
+      "method": "Ordinary bridge checks, independent stage coverage and scoped Lean axioms.",
+      "observations": [
+        "Global acyclic case composition complete; five new arithmetic roots axiom-audited.",
+        "Third-round targeted omitted-hypothesis counterexamples confirmed the tested guard distinctions; main-text maximum-degree root selection is now explicit, pending its original reviewer resolution."
+      ],
+      "limitations": [
+        "Whole theorem not end-to-end Lean."
+      ],
+      "evidence_ids": [
+        "global-dag",
+        "formal-scalar",
+        "q8-coverage",
+        "round3-committed"
+      ]
+    },
+    {
+      "scope": "methodology",
+      "status": "limited",
+      "method": "Explicit finite reductions, staged ancestors and actual support guards.",
+      "observations": [
+        "No global ambient cutoff imposed on projections."
+      ],
+      "limitations": [
+        "Full independent reconstruction of every model row not performed."
+      ],
+      "evidence_ids": [
+        "degree17",
+        "cap15"
+      ]
+    },
+    {
+      "scope": "data",
+      "status": "limited",
+      "method": "Exact integer replays, independent literal coverage, covers/fibres/trees.",
+      "observations": [
+        "All active new finite predicates have recorded completed checks.",
+        "Fresh single-leaf exact replay passed; actual third-round controls reject omitted coverage, cyclic dependencies, unjustified proper traces, zero scale and non-strict equality."
+      ],
+      "limitations": [
+        "Coefficient replay shares model builders; local hashes do not authenticate source truth."
+      ],
+      "evidence_ids": [
+        "degree19",
+        "degree18",
+        "degree17",
+        "degree16",
+        "rho15",
+        "q8-negative",
+        "reproduction-entry-r4",
+        "reviewer-controls-r3"
+      ]
+    },
+    {
+      "scope": "text_reuse",
+      "status": "limited",
+      "method": "Actual copyeditor inspected the pinned prior main.tex and ran a bounded normalized token comparison against the first manuscript.",
+      "observations": [
+        "Longest match was a 20-token bibliographic string; next was a 16-token attributed Jin theorem fragment; no specific unattributed distinctive passage was identified in this one-source check.",
+        "Actual second-round copyeditor repeated the bounded comparison after the definitions/source-map additions and found no specific unattributed distinctive passage; the one-source limitation remains.",
+        "Third-round copyeditor inspected the actual changed construction wording against the pinned primary source; limited attribution assessment retained."
+      ],
+      "limitations": [
+        "One accessible pinned manuscript and normalization only; no comprehensive corpus detector or plagiarism-free certification.",
+        "Subsequent added prose needs attribution and reviewer inspection."
+      ],
+      "evidence_ids": [
+        "prior-ledger",
+        "round1-committed",
+        "round2-committed",
+        "round3-committed"
+      ]
+    }
+  ],
+  "verification_sha256": "c7e53a6fb5ae92ac3618e149ef6714f97a703c4645f59088a8c9895b7dc1b1cc",
+  "public_state": {
+    "frontier_gate": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/FRONTIER_GATE.json",
+    "phase_focus": "Methods and proof obligations. Audit the acyclic import order, exhaustive case reductions, finite domain completeness, guarded uses and software trust boundaries. Check research attribution and integrity.",
+    "round_history": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round04/prior-committed-history.json",
+    "revision_response": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round02/author-response.md",
+    "revision_response_sha256": "e4ac65ed21d79273d8834ae57d2da19b82a4a476a942aeacb8272bec55d2e7d8",
+    "author_response_history": [
+      {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round02/author-response.md",
+        "sha256": "e4ac65ed21d79273d8834ae57d2da19b82a4a476a942aeacb8272bec55d2e7d8"
+      },
+      {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round03/author-response.md",
+        "sha256": "f2c02b19527fe99cc27f5b700285f1a95ee86e6475c856433bb791d4b50c54dd"
+      },
+      {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/public/round04/author-response.md",
+        "sha256": "433014e4f722fbb38ccda94899d5f4a667a1917940383e7a3c6d80a46fd432dc"
+      }
+    ],
+    "review_boundary": "Read only frozen common inputs, cited evidence, your own prior responses, and the supplied committed history. Do not inspect current pending journal or peers' incoming files. Heavy jobs require central scheduling.",
+    "manuscript_status": "Ordinary computer-assisted theorem under actual autonomous agent review; no final acceptance or end-to-end Lean claim."
+  }
+}

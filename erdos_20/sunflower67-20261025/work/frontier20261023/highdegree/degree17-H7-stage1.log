@@ -1,0 +1,4 @@
+{"phase": "built", "kind": "P10-H7", "case": "IZ13", "columns": 29060, "rows": 1375, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 4211, 3316, 1643, 2726, 6861, 3625, 3625], "seconds": 2.7997942729998613}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H7-IZ13-internal-Z-stage1-v4-9eb31c834a6b.json", "status": 0, "upper": 51.0, "below51": false, "seconds": 3.714338748000955}
+{"phase": "built", "kind": "P10-H7", "case": "IZ16", "columns": 24893, "rows": 1380, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 2092, 3316, 3316, 2180, 2180, 4378, 4378], "seconds": 2.762019138001051}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H7-IZ16-internal-Z-stage1-v4-5598c2eb5129.json", "status": 0, "upper": 50.75, "below51": true, "seconds": 3.527248521000729}

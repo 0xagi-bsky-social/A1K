@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20V10Profile54ScoreBridge",
+  "source_sha256": "55c29ed8fd465c153caadcad00bb1d0cd183ba01e817e64ba5af8046fcded823",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20V10Profile54ScoreBridge.olean",
+    "SunflowerLean/Erdos20V10Profile54ScoreBridge.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 6.68,
+  "output": ""
+}

@@ -1,0 +1,31 @@
+{
+  "trace_pairs_tested": 25,
+  "min_common_trace": 2,
+  "weight_vectors_tested": 8008,
+  "nonempty_heavy_pair_collections": 687,
+  "counterexamples": [],
+  "weakened_threshold_counterexample": {
+    "weights": [
+      3,
+      3,
+      3
+    ],
+    "threshold": 6,
+    "pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "total": 9,
+    "common_point": false
+  }
+}

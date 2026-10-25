@@ -1,0 +1,589 @@
+{
+  "E00": {
+    "marker": 71,
+    "scale": 2,
+    "rows": [
+      {
+        "label": "exact:8640:384",
+        "weight": 2,
+        "bound": 3
+      },
+      {
+        "label": "exact:9024:768",
+        "weight": 2,
+        "bound": 3
+      },
+      {
+        "label": "C5:0",
+        "weight": 1,
+        "bound": 10
+      },
+      {
+        "label": "C5:1",
+        "weight": 1,
+        "bound": 10
+      },
+      {
+        "label": "C5:2",
+        "weight": 1,
+        "bound": 10
+      }
+    ],
+    "local": [
+      {
+        "anchor": 7,
+        "rhs": 21,
+        "terms": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "anchor": 2240,
+        "rhs": 6,
+        "terms": [
+          [
+            2176,
+            2
+          ]
+        ]
+      },
+      {
+        "anchor": 1600,
+        "rhs": 6,
+        "terms": [
+          [
+            1536,
+            2
+          ]
+        ]
+      },
+      {
+        "anchor": 3136,
+        "rhs": 6,
+        "terms": [
+          [
+            3072,
+            2
+          ]
+        ]
+      }
+    ],
+    "derivation": "rationalized numerical dual; finite checker must verify exact coverage and prove each local bound"
+  },
+  "E01": {
+    "marker": 4103,
+    "scale": 2,
+    "rows": [
+      {
+        "label": "incidence:2240",
+        "weight": 2,
+        "bound": 1
+      },
+      {
+        "label": "incidence:2688",
+        "weight": 2,
+        "bound": 1
+      },
+      {
+        "label": "exact:4103:4096",
+        "weight": 2,
+        "bound": 10
+      },
+      {
+        "label": "C5:0",
+        "weight": 1,
+        "bound": 10
+      },
+      {
+        "label": "C5:1",
+        "weight": 1,
+        "bound": 10
+      },
+      {
+        "label": "C5:2",
+        "weight": 1,
+        "bound": 10
+      }
+    ],
+    "local": [
+      {
+        "anchor": 7,
+        "rhs": 21,
+        "terms": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "anchor": 448,
+        "rhs": 2,
+        "terms": [
+          [
+            448,
+            2
+          ]
+        ]
+      },
+      {
+        "anchor": 832,
+        "rhs": 2,
+        "terms": [
+          [
+            832,
+            2
+          ]
+        ]
+      },
+      {
+        "anchor": 1600,
+        "rhs": 2,
+        "terms": [
+          [
+            1600,
+            2
+          ]
+        ]
+      },
+      {
+        "anchor": 3136,
+        "rhs": 2,
+        "terms": [
+          [
+            3136,
+            2
+          ]
+        ]
+      },
+      {
+        "anchor": 1408,
+        "rhs": 2,
+        "terms": [
+          [
+            1408,
+            2
+          ]
+        ]
+      },
+      {
+        "anchor": 1664,
+        "rhs": 2,
+        "terms": [
+          [
+            1664,
+            2
+          ]
+        ]
+      },
+      {
+        "anchor": 2816,
+        "rhs": 2,
+        "terms": [
+          [
+            2816,
+            2
+          ]
+        ]
+      },
+      {
+        "anchor": 3328,
+        "rhs": 2,
+        "terms": [
+          [
+            3328,
+            2
+          ]
+        ]
+      }
+    ],
+    "derivation": "rationalized numerical dual; finite checker must verify exact coverage and prove each local bound"
+  },
+  "E02": {
+    "marker": 75,
+    "scale": 2,
+    "rows": [
+      {
+        "label": "incidence:11",
+        "weight": 2,
+        "bound": 2
+      },
+      {
+        "label": "exact:8640:384",
+        "weight": 1,
+        "bound": 3
+      },
+      {
+        "label": "exact:10432:2176",
+        "weight": 1,
+        "bound": 3
+      },
+      {
+        "label": "exact:9024:768",
+        "weight": 1,
+        "bound": 3
+      },
+      {
+        "label": "exact:9792:1536",
+        "weight": 1,
+        "bound": 3
+      },
+      {
+        "label": "exact:11328:3072",
+        "weight": 1,
+        "bound": 3
+      },
+      {
+        "label": "C5:2",
+        "weight": 1,
+        "bound": 10
+      },
+      {
+        "label": "C5:4",
+        "weight": 1,
+        "bound": 10
+      },
+      {
+        "label": "C5:5",
+        "weight": 1,
+        "bound": 10
+      },
+      {
+        "label": "C5:6",
+        "weight": 1,
+        "bound": 10
+      }
+    ],
+    "local": [
+      {
+        "anchor": 7,
+        "rhs": 7,
+        "terms": [
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "anchor": 25,
+        "rhs": 7,
+        "terms": [
+          [
+            8,
+            1
+          ]
+        ]
+      },
+      {
+        "anchor": 42,
+        "rhs": 7,
+        "terms": [
+          [
+            2,
+            1
+          ]
+        ]
+      }
+    ],
+    "derivation": "rationalized numerical dual; finite checker must verify exact coverage and prove each local bound"
+  },
+  "E03": {
+    "marker": 4107,
+    "scale": 3,
+    "rows": [
+      {
+        "label": "incidence:4096",
+        "weight": 1,
+        "bound": 20
+      },
+      {
+        "label": "incidence:832",
+        "weight": 2,
+        "bound": 1
+      },
+      {
+        "label": "incidence:1600",
+        "weight": 2,
+        "bound": 1
+      },
+      {
+        "label": "incidence:3136",
+        "weight": 2,
+        "bound": 1
+      },
+      {
+        "label": "incidence:2816",
+        "weight": 2,
+        "bound": 1
+      },
+      {
+        "label": "incidence:3328",
+        "weight": 2,
+        "bound": 1
+      },
+      {
+        "label": "exact:4107:4096",
+        "weight": 2,
+        "bound": 10
+      },
+      {
+        "label": "C5:0",
+        "weight": 1,
+        "bound": 10
+      },
+      {
+        "label": "C5:1",
+        "weight": 1,
+        "bound": 10
+      },
+      {
+        "label": "C5:2",
+        "weight": 1,
+        "bound": 10
+      },
+      {
+        "label": "C5:3",
+        "weight": 1,
+        "bound": 10
+      },
+      {
+        "label": "C5:4",
+        "weight": 1,
+        "bound": 10
+      },
+      {
+        "label": "C5:5",
+        "weight": 1,
+        "bound": 10
+      }
+    ],
+    "local": [
+      {
+        "anchor": 7,
+        "rhs": 7,
+        "terms": [
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "anchor": 35,
+        "rhs": 7,
+        "terms": [
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "anchor": 25,
+        "rhs": 7,
+        "terms": [
+          [
+            8,
+            1
+          ]
+        ]
+      },
+      {
+        "anchor": 448,
+        "rhs": 2,
+        "terms": [
+          [
+            448,
+            2
+          ]
+        ]
+      },
+      {
+        "anchor": 2240,
+        "rhs": 2,
+        "terms": [
+          [
+            2240,
+            2
+          ]
+        ]
+      },
+      {
+        "anchor": 1408,
+        "rhs": 2,
+        "terms": [
+          [
+            1408,
+            2
+          ]
+        ]
+      },
+      {
+        "anchor": 1664,
+        "rhs": 2,
+        "terms": [
+          [
+            1664,
+            2
+          ]
+        ]
+      },
+      {
+        "anchor": 2688,
+        "rhs": 2,
+        "terms": [
+          [
+            2688,
+            2
+          ]
+        ]
+      }
+    ],
+    "derivation": "rationalized numerical dual; finite checker must verify exact coverage and prove each local bound"
+  },
+  "E04": {
+    "marker": 195,
+    "scale": 10,
+    "rows": [
+      {
+        "label": "incidence:24",
+        "weight": 10,
+        "bound": 4
+      },
+      {
+        "label": "C5:2",
+        "weight": 10,
+        "bound": 10
+      },
+      {
+        "label": "C5:5",
+        "weight": 10,
+        "bound": 10
+      },
+      {
+        "label": "C5:6",
+        "weight": 10,
+        "bound": 10
+      },
+      {
+        "label": "C5:7",
+        "weight": 9,
+        "bound": 10
+      }
+    ],
+    "local": [
+      {
+        "anchor": 448,
+        "rhs": 0,
+        "terms": [
+          [
+            192,
+            -9
+          ],
+          [
+            384,
+            1
+          ],
+          [
+            448,
+            -9
+          ],
+          [
+            128,
+            1
+          ]
+        ]
+      }
+    ],
+    "derivation": "rationalized numerical dual; finite checker must verify exact coverage and prove each local bound"
+  },
+  "E05": {
+    "marker": 4163,
+    "scale": 1,
+    "rows": [
+      {
+        "label": "exact:9024:768",
+        "weight": 1,
+        "bound": 3
+      },
+      {
+        "label": "exact:11328:3072",
+        "weight": 1,
+        "bound": 3
+      },
+      {
+        "label": "exact:4163:4096",
+        "weight": 1,
+        "bound": 10
+      },
+      {
+        "label": "exact:4163:4160",
+        "weight": 1,
+        "bound": 3
+      },
+      {
+        "label": "C5:0",
+        "weight": 1,
+        "bound": 10
+      },
+      {
+        "label": "C5:1",
+        "weight": 1,
+        "bound": 10
+      }
+    ],
+    "local": [
+      {
+        "anchor": 448,
+        "rhs": 3,
+        "terms": [
+          [
+            384,
+            1
+          ]
+        ]
+      },
+      {
+        "anchor": 2240,
+        "rhs": 3,
+        "terms": [
+          [
+            2176,
+            1
+          ]
+        ]
+      },
+      {
+        "anchor": 1600,
+        "rhs": 3,
+        "terms": [
+          [
+            1536,
+            1
+          ]
+        ]
+      }
+    ],
+    "derivation": "rationalized numerical dual; finite checker must verify exact coverage and prove each local bound"
+  }
+}

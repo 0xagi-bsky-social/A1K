@@ -1,0 +1,40 @@
+{
+  "status": "PREPARED_V10_SOURCES_ONLY_NO_MODEL_SOLVER_OR_REPLAY_EXECUTION",
+  "artifacts": [
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v10.py",
+      "sha256": "b5be05901b8cacc6fa324e828a3dbe604428864559988b8c13350517a66dc728"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_phaseone_v10.py",
+      "sha256": "0ff84a0c51c54bd2d3c3a00a68e2160daa63005c85e83ed6d5436d0d0dd02f60"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/replay_degree17_full_v10.py",
+      "sha256": "19298f38ff1b188af4a40137956df1fe27673c0dc6e95ad8089e0e8a9d59a755"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/check_d17_stage_plan_v10.py",
+      "sha256": "aa0ffa17cd14557c8ca03aa6147473e3da9db5a0b1ca8e87595299128d52c284"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/run_d17_plan_replay_v10.py",
+      "sha256": "1955e8a668550e2e510774678ddfb59b2a6f8cd0815431384184363439784f80"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-C4-internal-completion.md",
+      "sha256": "47d39e647d8e4c14864de262c46ce576d08a12f66b046d51af6554476efabd77"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/check_D17_C4_completion.py",
+      "sha256": "a1dfbf89fd0a992c3ab87ff600a374af2703673d61b01b78a960d6d52d8d5f88"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-C4-completion-literal.json",
+      "sha256": "f4b74d3743d8ae5664ac2fd8aec7b125080bf315f37885ea00112c129d2e18b9"
+    }
+  ],
+  "literal_template_check": "PASS65models8C4points0.004seconds",
+  "new_rows": "Exactly3: kindP9-Q8 AND empty_z; residual degree<=12 at8,9,10; no local-state pruning",
+  "frozen_v1_v9_preserved": true
+}

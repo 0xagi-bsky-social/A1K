@@ -1,0 +1,13 @@
+{
+  "method": "Coordinator read every ZIP entry and recomputed all archive manifest hashes; separate local check",
+  "checked_at": "2026-10-19T13:50:03.925493+00:00",
+  "archive_sha256": "81665e2eb4fe39260e8d8daf2ad1d922bc77647e1b255f6337872ee407dd9cff",
+  "hashed_files": 342,
+  "zip_entries": 343,
+  "mismatches": [],
+  "protected_source_entries": 172,
+  "protected_source_mismatches": [],
+  "limitations": [
+    "Unsigned local hashes do not establish third-party authenticity"
+  ]
+}

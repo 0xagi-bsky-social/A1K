@@ -1,0 +1,194 @@
+{
+  "submissions": 120,
+  "required_revisions": [
+    {
+      "id": "/root/r67_alpha:round-1:required-revision-1",
+      "request": "Define the scalar N used in Sections 5.1 and 6, explicitly state whether each N<=c means |N[R]|<=c for every actual member R, and define an N43 anchor as an actual R with |N[R]|=43. This makes the quantifier needed for minimum disjointness-graph degree explicit.",
+      "resolved_round": 2,
+      "reviewer_resolution": {
+        "action": "Inspected the revised scalar definition, N43-anchor definition, graph-degree identity, and subsequent N[max] upper-bound uses.",
+        "finding_id": "/root/r67_alpha:round-1:required-revision-1",
+        "result": "Section 3 states N[max]=max over actual R of |N[R]| and explicitly says N[max]<=c is universal. Sections 5.1 and 6 use this notation. The ambiguity identified in alpha-framing-001 is removed.",
+        "status": "resolved"
+      }
+    },
+    {
+      "id": "/root/r67_chief:round-1:required-revision-1",
+      "request": "Define the scalar neighbourhood notation N used in Sections 5 and 6, or replace each N<=c by the quantified statement |N[R]|<=c for every actual R. State explicitly that an N43 anchor is an actual member R with |N[R]|=43. Section 3 currently defines only the set N[R] and the minimum mu.",
+      "resolved_round": 2,
+      "reviewer_resolution": {
+        "action": "Read the revised Section 3 definitions and the subsequent neighbourhood bounds; checked the full manuscript for remaining bare scalar N inequalities.",
+        "finding_id": "/root/r67_chief:round-1:required-revision-1",
+        "result": "N[max]=max over actual members is explicit, N43 anchor means an actual member with closed-neighbourhood size 43, and graph degree is |F|-|N[R]|. All eight occurrences of N[max] are consistent; no bare scalar N inequality remains.",
+        "status": "resolved"
+      }
+    },
+    {
+      "id": "/root/r67_copy:round-1:required-revision-1",
+      "request": "Restore ordinary word/number, label/number, date, and bibliographic spacing throughout the manuscript, including 'at most67', 'our24October2026', 'Theorem1', 'Proposition6.7', 'commit90c03...', and 'Computing2(4),479–490,1993'. Preserve all numerical values and mathematical signs during this editorial pass.",
+      "resolved_round": 2,
+      "reviewer_resolution": {
+        "action": "Inspected the revised prose and references, checked intact commit/version identifiers, and compared the original and revised Sections 4–6 after declared whitespace and index-notation normalization.",
+        "finding_id": "/root/r67_copy:round-1:required-revision-1",
+        "result": "Resolved: Sections 4–6 match exactly under that normalization; their 402 ordered digit runs and arithmetic/comparison-sign sequence agree. Both pinned-commit occurrences, all four archive-version identifiers and Lean 4.26.0 remain intact. The requested examples have normal spacing.",
+        "status": "resolved"
+      }
+    },
+    {
+      "id": "/root/r67_copy:round-1:required-revision-2",
+      "request": "Define the scalar neighbourhood shorthand used in Sections 5.1 and 6, or replace N≤46, N≤45, N≤44, and N≤43 by explicit universally quantified bounds on |N[R]|. Define an 'N43 anchor' as an actual member R with |N[R]|=43. Keep N[R] as the set already defined in Section 3, so the minimum-degree deduction cannot be read as following merely from a bound on the minimum neighbourhood.",
+      "resolved_round": 2,
+      "reviewer_resolution": {
+        "action": "Read the new N[max] and N43 definitions and checked every later neighbourhood inequality against the cap15 and degree16 assembly meanings.",
+        "finding_id": "/root/r67_copy:round-1:required-revision-2",
+        "result": "Resolved: N[max] ≤ c explicitly quantifies over every actual member, so N[max] ≤ 43 at size 68 yields graph minimum degree at least 25 without confusing the maximum with μ.",
+        "status": "resolved"
+      }
+    },
+    {
+      "id": "/root/r67_literature:round-1:required-revision-1",
+      "request": "In Sections 2 and 3, credit the classical provenance of the 27-member construction and resulting lower 54 to Abbott and Hanson, and the exact triple extremum M(3,3)=20 to Abbott and Gardner. Add bibliographic references or explicitly attribute these through reference [1]; distinguish the classical construction from the new intersecting upper bound in [1].",
+      "resolved_round": 2,
+      "reviewer_resolution": {
+        "action": "Read the revised Section 2 attribution paragraph and compared it with my committed objection and previously inspected source [1], equations (6.1) and (6.14).",
+        "finding_id": "/root/r67_literature:round-1:required-revision-1",
+        "result": "Satisfied by explicit secondary attribution through [1], including a clear distinction between the classical construction and the recent intersecting upper bound.",
+        "status": "resolved"
+      }
+    },
+    {
+      "id": "/root/r67_typeset:round-1:required-revision-1",
+      "request": "Adopt a consistent math-aware source convention before rendering. In particular, repair the complete-link definition at manuscript line 35 so that set difference survives Markdown parsing; place formulas in supported math spans/displays or use an unambiguous literal set-difference symbol. Ensure subscripts and cyclic indices retain their intended grouping.",
+      "resolved_round": 2,
+      "reviewer_resolution": {
+        "action": "Inspected the complete-link expression, declared index convention, all former indented displays and the cyclic fibre identities in the frozen round-two manuscript.",
+        "finding_id": "/root/r67_typeset:round-1:required-revision-1",
+        "result": "The unambiguous Unicode set-difference alternative requested in round one is implemented; no backslash-brace escape or four-space equation block remains. Bracketed indices retain the intended grouping.",
+        "status": "resolved"
+      }
+    },
+    {
+      "id": "/root/r67_typeset:round-1:required-revision-2",
+      "request": "Restore ordinary word-number and bibliographic spacing throughout the manuscript, including Theorem 1, at most 67, degree 17, Proposition 6.7 and 24 October 2026. Preserve legitimate compact mathematical identifiers such as H27 where intended.",
+      "resolved_round": 2,
+      "reviewer_resolution": {
+        "action": "Read the corrected prose and references, scanned remaining word-number adjacency, and compared ordered digit runs in proof Sections 4, 5 and 6 with round one.",
+        "finding_id": "/root/r67_typeset:round-1:required-revision-2",
+        "result": "The requested spacing corrections are present. The three sections retain respectively 159, 107 and 129 ordered digit runs unchanged; both full pinned-commit strings remain intact.",
+        "status": "resolved"
+      }
+    },
+    {
+      "id": "/root/r67_typeset:round-1:required-revision-3",
+      "request": "Define the bare scalar N used in Sections 5 and 6, or replace its bounds with explicit quantified bounds on |N[R]|. Distinguish this scalar from the set N[R] and the already defined minimum mu so that the graph minimum-degree deduction is readable.",
+      "resolved_round": 2,
+      "reviewer_resolution": {
+        "action": "Checked the new maximum-neighbourhood definition and its uses in Sections 5 and 6 against the prior notation and direct Jin source.",
+        "finding_id": "/root/r67_typeset:round-1:required-revision-3",
+        "result": "N[max], N[R] and mu are distinguished, and the universal upper bound N[max] <= 43 now visibly supplies graph minimum degree at least 25 at cardinality 68.",
+        "status": "resolved"
+      }
+    },
+    {
+      "id": "/root/r67_writer:round-1:required-revision-1",
+      "request": "Add a compact definitions paragraph or table before the case arguments: give a literal construction or exact definition locator for P10 and R16; specify the meaning and support-disjointness convention of component sums; define exact singleton classes, residual count r, and the shorthand N used in bounds such as N<=44; define the A_k indexing convention before the fibre calculations. Define S,P,T,q and p_ij,s_i explicitly as trace counts when introduced in Section 6.",
+      "resolved_round": 2,
+      "reviewer_resolution": {
+        "action": "Inspected the expanded Section 3 definitions against the pinned prior main.tex canonical/R16/high-link sections and the outer- and hub-deletion proof notes.",
+        "finding_id": "/root/r67_writer:round-1:required-revision-1",
+        "result": "All requested structural and counting definitions are now present, including the distinction between complete-family anchor counts and residual hub counts. The new N[max] definition makes the graph minimum-degree deductions readable.",
+        "status": "resolved"
+      }
+    },
+    {
+      "id": "/root/r67_writer:round-1:required-revision-2",
+      "request": "Replace the undifferentiated companion filename list with a concise obligation-to-source map, or add direct locators at the relevant proof steps. In particular identify the arbitrary-support low-degree reduction and three finite tree obligations for Theorem 2, the rho=7 classification and its two deletion contradictions, the degree16 cover/fibre bridges, and the cap15 cover/fibre bridge. State each obligation's conclusion and whether it is imported, proved in ordinary prose, or checked by a named finite procedure.",
+      "resolved_round": 2,
+      "reviewer_resolution": {
+        "action": "Followed the new obligation map to the degree-two ordinary check, support reduction, finite-tree assembly, D16 fibre preparation and cap15 cover bridge; compared their conclusions with the table.",
+        "finding_id": "/root/r67_writer:round-1:required-revision-2",
+        "result": "The map supplies specific files and sections for the requested obligations and distinguishes imported, ordinary and executable components. The detailed map also provides the degree-one locator omitted from the short main-text summary.",
+        "status": "resolved"
+      }
+    },
+    {
+      "id": "/root/r67_writer:round-3:required-revision-1",
+      "request": "In Section 5.2, replace the transition from 'a degree 5 or 6 point exists' to 'Its complete SF2 link' by an explicit maximum-degree choice: if a degree-6 point exists choose it; otherwise choose a degree-5 point, and only in the latter case impose global degree cap 5. This matches R15-rho6-finite-closure.md and makes the three finite branches visibly exhaustive.",
+      "resolved_round": 4,
+      "reviewer_resolution": {
+        "action": "Compared the revised maximum-degree paragraph in Section 5.2 with R15-rho6-finite-closure.md, Literal mathematical target, and checked the exact round-three-to-four source diff.",
+        "finding_id": "/root/r67_writer:round-3:required-revision-1",
+        "result": "The requested degree6-first case split and conditional global cap5 are explicit. The prior ambiguity is removed and the three finite branches remain exhaustive under the established maximum-degree bounds.",
+        "status": "resolved"
+      }
+    },
+    {
+      "id": "/root/r67_literature:round-4:required-revision-1",
+      "request": "Update EXTERNAL-H27-JIN-SCOPE.md, or an explicitly superseding source note, to record that the upstream README points to PROVENANCE.md but that file returned 404 and was absent from the complete inspected repository tree d4d5723267c662291efdadfa6e7061d919e76fa9. Distinguish the README claim of checking three archive hashes from the inspected script, which visibly checks frontier hashes, run records and small controls. Either locate the exact provenance record or state this access/inspection limitation; preserve H27 as an ordinary imported theorem without claiming local source-to-run authentication.",
+      "resolved_round": 5,
+      "reviewer_resolution": {
+        "action": "Inspected the superseding H27 addendum, new Section 2 paragraph, saved README/script, manifest and actual connector results.",
+        "finding_id": "/root/r67_literature:round-4:required-revision-1",
+        "result": "Satisfied. The requested access and inspection limitation is recorded without claiming a repaired provenance chain or withdrawing the ordinary theorem import.",
+        "status": "resolved"
+      }
+    },
+    {
+      "id": "/root/r67_citations:round-5:required-revision-1",
+      "request": "Document and reconcile the H27 root-tree commitment discrepancy in the source-audit addendum/manifest. Standard Git serialization of the seven returned root entries hashes to 0a3e3838650fc981133940e798c9d220140e785e, not the reported d4d5723267c662291efdadfa6e7061d919e76fa9. Until resolved, describe provenance-path absence as an observation about the returned listing rather than a cryptographically verified complete tracked tree, and preserve the mismatch without altering the original response.",
+      "resolved_round": 6,
+      "reviewer_resolution": {
+        "action": "Compared Section 2, the companion map, the new tree-integrity addendum and round-6 author response with my exact requested correction.",
+        "finding_id": "/root/r67_citations:round-5:required-revision-1",
+        "result": "Resolved as a wording and preservation requirement: the addendum explicitly supersedes earlier complete-tree descriptions, records the reported d4d5723267c662291efdadfa6e7061d919e76fa9 versus reconstructed 0a3e3838650fc981133940e798c9d220140e785e discrepancy, and limits provenance-path absence to the returned listing and specific 404. Resolution does not mean the discrepancy's cause is known.",
+        "status": "resolved"
+      }
+    }
+  ],
+  "latest_open_major_critical": [],
+  "substantive_text_guard_checks": {
+    "neighbourhood_quantifiers": [
+      "Define N[max]",
+      "every actual member R",
+      "distinct from the lower bound on μ",
+      "An N43 anchor is an actual member"
+    ],
+    "source_fidelity": [
+      "A ∖ {x}",
+      "s[i; R]",
+      "p[i,j; R]"
+    ],
+    "definitions": [
+      "P10 = {012",
+      "R16 consists of",
+      "a component sum denotes disjoint supports",
+      "residual hub incidence",
+      "adjacency differences k, k + 1"
+    ],
+    "classical_attribution": [
+      "Abbott and Hanson",
+      "Abbott and Gardner",
+      "through [1, Section 6"
+    ],
+    "root_selection": [
+      "Choose a point of maximum degree",
+      "If a degree 6 point exists, choose one",
+      "Only these latter two branches impose global degree cap 5"
+    ],
+    "h27_scope": [
+      "unavailable and absent from the returned repository listing",
+      "did not reproduce its reported Git tree identifier",
+      "without explicit comparisons of the three compressed archive hashes",
+      "We did not execute that script",
+      "Neither the clarification nor the October 25 literature refresh authenticates"
+    ],
+    "obligation_map": [
+      "Theorem 2: used degree at least 3",
+      "R15-degree2-independent-ordinary-check.md",
+      "replay_r15_rho6_tree.py",
+      "LOW15-R15-rho7-classification.md",
+      "D16-I8-deletion-cover-reconstruction.md"
+    ]
+  },
+  "scope": "Original-reviewer closures independently matched to final-source repairs; not an inference of mathematical validity from votes."
+}

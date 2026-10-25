@@ -1,0 +1,52 @@
+{
+  "content": {
+    "agent_id": "/root/review_coordinator/typesetter",
+    "role": "typesetter",
+    "context_id": "/root/review_coordinator/typesetter",
+    "round": 7,
+    "snapshot_sha256": "604fa84aa4a775385ac42fb121026133eb7ea1b4261267206f33cd02ddc26ec8",
+    "manuscript_sha256": "a5097eb4be3793ead393f3fdf6450e2250f3d0249c75ffaa740e5e46fd8d6f2c",
+    "summary": "Hash and prose checks establish identity and sampled text preservation, not mathematical layout or accessibility. Pages 2–3 remain readable as source notation. The manuscript qualifies this correctly, but the preview receipt contains misleading MathML wording.",
+    "evidence_ids": [
+      "F31"
+    ],
+    "decision": "revise",
+    "required_revisions": [
+      "Correct the receipt's math_layout_verification wording to describe escaped source mathematics and actual visual coverage, without claiming generated semantic MathML."
+    ],
+    "findings": [
+      {
+        "id": "/root/review_coordinator/typesetter:round-7:required-revision-1",
+        "statement": "The receipt says semantic MathML is preserved, although the supplied HTML contains zero math elements and retains escaped TeX.",
+        "severity": "minor",
+        "status": "open",
+        "disposition": "Correct the assurance metadata before final lock.",
+        "evidence_ids": [
+          "F31"
+        ]
+      }
+    ],
+    "revisions": [],
+    "checks": [
+      {
+        "scope": "Limits of rendering assurance",
+        "method": "Verified round and preview hashes; re-viewed pages 2–3; compared Markdown, receipt, and HTML math markup.",
+        "observation": "Visible TeX commands and dollar delimiters preserve formulas without visible clipping. They do not provide typeset operators or semantic accessibility. The HTML scan found no math elements, contradicting the receipt's generic MathML statement; no assistive-technology test was performed.",
+        "result": "contradicted",
+        "evidence_ids": [
+          "F31"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "tool": "collaboration.followup_task / specialist final response",
+    "call_id": "local-log:frontier20261019-final/round-07/typesetter/actual-public-response",
+    "context_id": "/root/review_coordinator/typesetter",
+    "recorded_at": "2026-10-19T14:26:00.416203+00:00",
+    "synthetic": false,
+    "public_response": "{\n  \"agent_id\": \"/root/review_coordinator/typesetter\",\n  \"role\": \"typesetter\",\n  \"context_id\": \"/root/review_coordinator/typesetter\",\n  \"round\": 7,\n  \"snapshot_sha256\": \"604fa84aa4a775385ac42fb121026133eb7ea1b4261267206f33cd02ddc26ec8\",\n  \"manuscript_sha256\": \"a5097eb4be3793ead393f3fdf6450e2250f3d0249c75ffaa740e5e46fd8d6f2c\",\n  \"summary\": \"Hash and prose checks establish identity and sampled text preservation, not mathematical layout or accessibility. Pages 2–3 remain readable as source notation. The manuscript qualifies this correctly, but the preview receipt contains misleading MathML wording.\",\n  \"evidence_ids\": [\"F31\"],\n  \"decision\": \"revise\",\n  \"required_revisions\": [\"Correct the receipt's math_layout_verification wording to describe escaped source mathematics and actual visual coverage, without claiming generated semantic MathML.\"],\n  \"findings\": [\n    {\n      \"id\": \"/root/review_coordinator/typesetter:round-7:required-revision-1\",\n      \"statement\": \"The receipt says semantic MathML is preserved, although the supplied HTML contains zero math elements and retains escaped TeX.\",\n      \"severity\": \"minor\",\n      \"status\": \"open\",\n      \"disposition\": \"Correct the assurance metadata before final lock.\",\n      \"evidence_ids\": [\"F31\"]\n    }\n  ],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Limits of rendering assurance\",\n      \"method\": \"Verified round and preview hashes; re-viewed pages 2–3; compared Markdown, receipt, and HTML math markup.\",\n      \"observation\": \"Visible TeX commands and dollar delimiters preserve formulas without visible clipping. They do not provide typeset operators or semantic accessibility. The HTML scan found no math elements, contradicting the receipt's generic MathML statement; no assistive-technology test was performed.\",\n      \"result\": \"contradicted\",\n      \"evidence_ids\": [\"F31\"]\n    }\n  ]\n}\n",
+    "response_sha256": "9e3c99e2798124de2bf1e158b9bbb5d3880e4836c0772484cdc0d92e7166ca3a"
+  },
+  "record_sha256": "743b9c1737f1e9c1f6eb985f37bb136b29b17ceed6aec359e98ca44c7ddf6dcf"
+}

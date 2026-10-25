@@ -1,0 +1,7 @@
+{
+  "scope": "six-point nonnegative integer weights with total at most ten; all pairs of weight at least nine",
+  "vectors_checked": 8008,
+  "vectors_with_heavy_pairs": 687,
+  "counterexamples_to_common_point": [],
+  "limitation": "finite diagnostic corroborates the direct abstract argument; not a Lean proof or a search of actual rank-four families"
+}

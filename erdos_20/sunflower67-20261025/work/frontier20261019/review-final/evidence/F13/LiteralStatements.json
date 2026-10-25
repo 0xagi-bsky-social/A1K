@@ -1,0 +1,8 @@
+{
+  "file": "LiteralStatements.lean",
+  "source_sha256": "f2f535b4b98782750f0eb1d370e007ad75821d70855e4d004220e78b10168ecb",
+  "source_stable": true,
+  "exit_code": 0,
+  "seconds": 5.654,
+  "output": "'FrontierLiteralStatements.literal_support56' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierLiteralStatements.literal_support53' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierLiteralStatements.literal_i27_iff_no_fin56' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierLiteralStatements.literal_i27_iff_no_fin53' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+}

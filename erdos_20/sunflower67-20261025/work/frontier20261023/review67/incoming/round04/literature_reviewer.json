@@ -1,0 +1,107 @@
+{
+  "agent_id": "/root/r67_literature",
+  "role": "literature_reviewer",
+  "context_id": "/root/r67_literature",
+  "round": 4,
+  "snapshot_sha256": "4cf0b3152123ed8cf32e1f9498dc0aa735387f3a9e553fe489ca5ed760ff8b13",
+  "manuscript_sha256": "4adf68f1aeaea84d3ed409ba438aea0d2a001a041b03cc6a4b51c5bff9b23b4f",
+  "summary": "The manuscript accurately distinguishes ordinary theorem imports, six recorded prior-suite replays and the new single-leaf demonstration. H27 is quantitatively essential, not independently re-established by these checks. A minor source-scope correction is requested: the upstream README points to an unavailable provenance document, and the inspected archive-audit script supports narrower claims than blanket archive authentication. No mathematical counterexample to H27 or the new bound is established.",
+  "evidence_ids": [
+    "external-scope",
+    "prior-ledger",
+    "prior-unlock",
+    "direct-jin",
+    "global-dag",
+    "reproduction-entry-r4",
+    "round2-committed"
+  ],
+  "decision": "revise",
+  "required_revisions": [
+    "Update EXTERNAL-H27-JIN-SCOPE.md, or an explicitly superseding source note, to record that the upstream README points to PROVENANCE.md but that file returned 404 and was absent from the complete inspected repository tree d4d5723267c662291efdadfa6e7061d919e76fa9. Distinguish the README claim of checking three archive hashes from the inspected script, which visibly checks frontier hashes, run records and small controls. Either locate the exact provenance record or state this access/inspection limitation; preserve H27 as an ordinary imported theorem without claiming local source-to-run authentication."
+  ],
+  "findings": [
+    {
+      "id": "LIT-R4-01",
+      "statement": "The external H27 source note overcompresses the audit boundary and omits a newly observed missing provenance pointer.",
+      "severity": "minor",
+      "status": "open",
+      "disposition": "The source note says the checker authenticates archives. The README promises three frozen archive hash checks and points to PROVENANCE.md; the inspected top-level script has no explicit three-archive hash comparison, and the provenance file was unavailable. Correct the scope description rather than infer a false H27 theorem.",
+      "evidence_ids": [
+        "external-scope"
+      ]
+    },
+    {
+      "id": "LIT-R4-02",
+      "statement": "The numerical proof depends materially on the exact imported intersecting cap 27.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Replacing 27 by 28 would lower mu from 41 to 40 and remove the direct A3 positivity deduction. The present manuscript already names H27 as an essential import; neither partial prior replays nor the fresh D17 leaf establish it.",
+      "evidence_ids": [
+        "external-scope",
+        "direct-jin",
+        "global-dag"
+      ]
+    },
+    {
+      "id": "LIT-R1-01",
+      "statement": "The historical attribution repair remains intact.",
+      "severity": "minor",
+      "status": "resolved",
+      "disposition": "The current diff changes only maximum-degree root selection in Section 5.2. The Abbott-Hanson and Abbott-Gardner attribution accepted in round02 remains unchanged.",
+      "evidence_ids": [
+        "round2-committed"
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "/root/r67_literature:round-1:required-revision-1",
+      "action": "Checked the current manuscript diff and retained Section 2 attribution.",
+      "result": "Earlier resolution remains satisfied.",
+      "status": "resolved"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "External H27 archive-audit and provenance boundary",
+      "method": "Fetched the primary H27 README and check_archived_run.sh through GitHub; attempted its named provenance file and inspected the complete recursive repository tree. No external executable was run.",
+      "observation": "[README](https://github.com/bogdan27182/sunflower-paper/blob/main/artifacts/f43_upper_83/intersecting_27/README.md), blob db9b1966f961156b0c7e4b8b158f9e171cddd33b, names PROVENANCE.md. That path returned 404 and the untruncated tree d4d5723267c662291efdadfa6e7061d919e76fa9 contains no PROVENANCE file. [Audit script](https://github.com/bogdan27182/sunflower-paper/blob/main/artifacts/f43_upper_83/intersecting_27/check_archived_run.sh), blob d3b4ae7f1a2abce5561c3d033bd5e0a04744c17a, checks extracted records/frontier hashes and small controls; it does not rerun the full target-28 search. The source note needs the requested qualification.",
+      "result": "inconclusive",
+      "evidence_ids": [
+        "external-scope"
+      ]
+    },
+    {
+      "scope": "Six-suite partial replay claim and reuse integrity",
+      "method": "Read both October20 receipts and wrapper; counted executions and paired semantic hashes with standard-library code; recomputed the unlock receipt hash and its four source/certificate hashes against both pinned and replayed copies.",
+      "observation": "The receipts contain exactly six suite IDs and twelve zero-exit executions, with matching normal/optimized semantic hashes per suite. Their flags explicitly deny complete-companion replay, external H27/Jin replay and formalization. The unlock receipt hash and all four inspected cross15/crowding input pairs match. This supports the manuscript claim of selected replay, not fresh execution in this round or independent implementation.",
+      "result": "supported",
+      "evidence_ids": [
+        "prior-ledger",
+        "prior-unlock"
+      ]
+    },
+    {
+      "scope": "Sensitivity to the external intersecting theorem",
+      "method": "Substituted a symbolic intersecting cap h into the manuscript neighbourhood argument and the direct A3 deficit identity, then checked h=27 and h=28 exactly.",
+      "observation": "The neighbourhood bound becomes mu>=68-h. For A3, sum(e)=8h-204 and a[i]=3h-68-e[i]-e[i+3]-e[i+5], giving a[i]>=136-5h. The values are mu>=41 and occupancy>=1 at h=27, versus mu>=40 and occupancy>=-4 at h=28. Thus the existing chain cannot simply tolerate a weakened H27 import. This is sensitivity analysis, not evidence that H27 is false.",
+      "result": "supported",
+      "evidence_ids": [
+        "external-scope",
+        "direct-jin",
+        "global-dag"
+      ]
+    },
+    {
+      "scope": "Fresh reproduction demonstration versus proof-wide assurance",
+      "method": "Read reproduction/README.md and its hash-bound manifest; compared its scope with Sections 2, 3.1 and 7 of the current manuscript and the frozen manuscript diff.",
+      "observation": "The guide reports one exact D17 leaf using the same producer builder, explicitly labels other commands as inspected recipes, and excludes a whole-proof clean replay or Lean claim. It does not purport to validate H27. The manuscript retains these distinctions. The assignment hashes match, and the only manuscript change is the explicit maximum-degree root selection.",
+      "result": "supported",
+      "evidence_ids": [
+        "reproduction-entry-r4",
+        "prior-ledger",
+        "external-scope"
+      ]
+    }
+  ]
+}

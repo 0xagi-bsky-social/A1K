@@ -1,0 +1,11 @@
+{
+  "scope": "Earlier pinned OpenAI source inventory and source preflight only",
+  "assurance_limit": "Historical source inventory does not establish current compiler/runtime coverage; manuscript proof roots do not import OpenAI sources",
+  "files": {
+    "CONTENTS.md": "af9cb8e0198e302fe4cdc109e0694da66f3f83cdab9c48a4a52b2f9df9e31a42",
+    "complete-path-inventory.json": "7f403a5cbefd082a88fd47f14cf7fd4004631004abeb039c2105316fd5597310",
+    "freeze.json": "d4e8e5d9d65a59920d454864e2d9db6fe9062c298b46f87ee754cae6f37de7a6",
+    "inventory.json": "7f1c518ea603840ef96d1882943968b4e337c5ebd2200975f0de8adcaee1fcbc",
+    "source-preflight-receipts.json": "8325f519638ac7a9bbdc74a64f324b6cd708ac5e6bcb030ee16ea15bc29155d2"
+  }
+}

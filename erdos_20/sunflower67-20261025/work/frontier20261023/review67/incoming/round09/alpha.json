@@ -1,0 +1,66 @@
+{
+  "agent_id": "/root/r67_alpha",
+  "role": "alpha",
+  "context_id": "/root/r67_alpha",
+  "round": 9,
+  "snapshot_sha256": "e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4",
+  "manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68",
+  "summary": "The refreshed comparison and gate preserve bounded search and review-only scope. Two targeted degree19 checks support the separate equality closure without rounding or a hidden symmetry assumption. No necessary revision or counterexample was identified. Frozen hashes match, and shared evidence commitments are unchanged; this is not final acceptance or a fresh worldwide literature search.",
+  "evidence_ids": [
+    "literature-refresh-20261025",
+    "frontier-gate-20261025",
+    "contract-amendment-20261025",
+    "native-search-20261025",
+    "general-comparison-20261025",
+    "rank4-search-20261025",
+    "degree19",
+    "external-h27-tree-correction",
+    "definitions-map-r2"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [
+    {
+      "finding_id": "/root/r67_alpha:round-1:required-revision-1",
+      "action": "Checked the manuscript diff against the prior reviewed definition and graph interpretation.",
+      "result": "The explicit actual-member maximum definition remains unchanged and resolved.",
+      "status": "resolved"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Refreshed frontier wording, parameter comparison and continuation gate.",
+      "method": "Compared the manuscript diff with FRONTIER_REFRESH.md, native browser observations, rank4 findings, general assessment, gate and prospective contract amendment; recomputed the support-bound comparison exactly.",
+      "observation": "The records distinguish retrieved upper 68 from absolute priority and retain stale-index, incomplete native-search and inaccessible SSRN full-text limitations. The gate authorizes remaining review, expressly reserving final audits/publication and leaving H27 integrity unresolved. PalomarArchive presence is no longer called endorsement. At least eight support points are needed because binomial(7,4)=35; the documented BHL expression 3(863/432)^8 exceeds 760 and increases with support, so it does not imply 67. Native observations are explicitly transcriptions, not authenticated corpus exports. These qualifications support the present bounded wording; they do not rule out unseen competing work.",
+      "result": "supported",
+      "evidence_ids": [
+        "literature-refresh-20261025",
+        "frontier-gate-20261025",
+        "contract-amendment-20261025",
+        "native-search-20261025",
+        "general-comparison-20261025",
+        "rank4-search-20261025",
+        "external-h27-tree-correction"
+      ]
+    },
+    {
+      "scope": "Degree19 singleton-Y equality: a non-strict certificate must supply an actual equality implication.",
+      "method": "Independently encoded the seventeen written rows in Ysingle-equality-proof.md and checked all 794 literal traces, without importing a model or checker; verified the displayed stabilizer directly.",
+      "observation": "The right-hand sides sum to 48. There are 400 admissible traces: coefficient 0 only at M, and coefficients 1/2/3 on 350/35/14 others. The 394 excluded traces have the stated internal or literal-sunflower reason. Thus r=49 forces every positively weighted row tight, including d(3)-6=10. Permutation (1 3)(4 5) preserves P10 and M, transporting the implication to d(1)=16 by relabelling the whole family, without requiring family symmetry. This checks the finite coefficient and equality interface, conditional on the written universal row premises and exact internal assignment.",
+      "result": "supported",
+      "evidence_ids": [
+        "degree19"
+      ]
+    },
+    {
+      "scope": "Doubled-P10 arbitrary-support isolation and final counting.",
+      "method": "Read doubled-P10.md and the complete-C5 synchronization argument; independently tested all 56 nonempty support traces of size at most 4 for the claimed two-block witness.",
+      "observation": "All 56 traces admit A,B with A\u2229B=A\u2229S=B\u2229S. For the ten traces that are P10 blocks, A=B is necessary; distinct outside centres still make the lifted members distinct, as the proof requires. Extra members containing a centre are handled separately by link isolation. Remaining members avoid both centres and the P10 support; two disjoint ones would form an empty-core sunflower with a prescribed cone, so H27 applies. Inclusion-exclusion gives 27+16+16-3=56 without double-counting the twenty prescribed members. Checks and source hashes are preserved under checks/round09/alpha/; no broad replay was run.",
+      "result": "supported",
+      "evidence_ids": [
+        "degree19"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "internal_cost": {
+    "members": 16,
+    "sunflower_free": true,
+    "member_triples_checked": 560,
+    "complete_pair_link": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "degree99": 16,
+    "internal_cost": 1
+  },
+  "proper_trace": {
+    "members": 21,
+    "sunflower_free": true,
+    "member_triples_checked": 1330,
+    "root_degree": 19,
+    "proper_trace_count": 2,
+    "anchor_trace_identity_checks": 285,
+    "third_completion_creates_sunflower": true
+  }
+}

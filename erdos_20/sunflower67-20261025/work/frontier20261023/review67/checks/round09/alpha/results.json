@@ -1,0 +1,93 @@
+{
+  "support_parameter_comparison": {
+    "choose_7_4": 35,
+    "choose_8_4": 70,
+    "BHL_at_N8": "307670860178904352216321/404341874203444641792",
+    "greater_than_760": true
+  },
+  "Ysingle_cover": {
+    "row_count": 17,
+    "rhs": 48,
+    "admissible": 400,
+    "excluded": 394,
+    "coefficient_histogram": {
+      "1": 350,
+      "3": 14,
+      "2": 35,
+      "0": 1
+    },
+    "stabilizer": [
+      0,
+      3,
+      2,
+      1,
+      5,
+      4
+    ],
+    "marker_fixed": true,
+    "consequence": "r=49 forces every positive-weight row tight, including d3-6<=10; relabelling forces d1=16."
+  },
+  "doubled_P10": {
+    "nonempty_trace_count": 56,
+    "all_traces_have_literal_sunflower_witness": true,
+    "equal_P10_blocks_required_for_traces": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        5
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        3,
+        4
+      ],
+      [
+        0,
+        4,
+        5
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3,
+        5
+      ],
+      [
+        2,
+        3,
+        5
+      ],
+      [
+        2,
+        4,
+        5
+      ]
+    ],
+    "counting_upper_at_degrees_16_pair3": 56
+  },
+  "limits": [
+    "No new literature search: comparison checks the documented retrieved theorem.",
+    "The equality check relies on the written row premises and internal assignment.",
+    "Doubled-P10 count still imports H27; arbitrary-support transfer is the written trace argument.",
+    "No solver, model builder, compiler or broad replay was run."
+  ]
+}

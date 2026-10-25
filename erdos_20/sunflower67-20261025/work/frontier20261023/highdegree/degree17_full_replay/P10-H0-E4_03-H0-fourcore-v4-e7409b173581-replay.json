@@ -1,0 +1,2196 @@
+{
+  "result": "PASS",
+  "receipt_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H0-E4_03-H0-fourcore-v4-e7409b173581.json",
+  "replayer_sha256": "024c11d4897818233a74b7fff9f3c925ea521dd52818ec16411bd98ec3650b44",
+  "compute_limit_seconds": 30.0,
+  "python_executable": "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/pyenv/bin/python",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "assurance": "shared-producer necessary-model reconstruction and exact integer replay; mathematical premises remain imported; no solver, no Lean, no whole-branch claim",
+  "receipt_sha256": "78e448ac8d3051c119beb0377bf1b17b51efced0da8936cd0e109919f55f8538",
+  "certificate_kind": "trace-upper-bound",
+  "objective": "one on trace columns, zero on selectors",
+  "source": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v4.py",
+    "sha256": "a1beae56f60205a48442a1c6a31d2148557443511fb119a1936ffda8578bebf2",
+    "matching_paths": [
+      "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v4.py"
+    ],
+    "reconstruction": "same hashed producer build(), never run()"
+  },
+  "dependency_versions": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.0"
+  },
+  "case": {
+    "kind": "P10-H0",
+    "case": "E4_03",
+    "empty_z": true,
+    "assigned_z": null,
+    "forbidden": [],
+    "forbid_four_core": false,
+    "degree_distributions": false,
+    "crowding_imports": true
+  },
+  "literal_premises": [
+    "F is a finite simple SF4 family; empty sunflower cores are forbidden.",
+    "|F| >= 68, d(x)=17, and the global maximum point degree is at most17; residual target51.",
+    "The complete root link is the recorded disjoint form P10-H0.",
+    "The universal I7 support reduction plus eight templates are imported, bound to the separate independent finite census of all77520 six-point candidates; I8/I9/I10 classification and the high-link split are also imported.",
+    "H27, exact-anchor caps10/3/1, global incidence caps17/6/2, and the universal local43 structural lemmas are imported.",
+    "Every actual anchor has closed neighbourhood at least 41 and each pair in it has degree sum at least 19.",
+    "All Y internals are absent under the separate D17 P10_001..012 component exclusion; this script records its receipts but does not independently replay those models.",
+    "All Z internals remain free except the explicit branch restrictions below.",
+    "C5/P5 costs and whole-component singleton lower bounds use the ordinary lemmas in D18-structural-tools.md and literal six-point-support checks.",
+    "When s>=8 or d>=17 and k is7,8,9,10, the complete rooted point-link graph must occur in the classified intersecting I_k templates. All eight I7 templates are included; k7 alone is insufficient.",
+    "The complete triangle-plus-path star lemma applies at each literal full seven-point hub, including H7: degree minus the three internal cover completions is at most15; singleton>=8 gives near size at most5 plus those completions.",
+    "For every ordered pair of fixed actual members with exactly two common points, the universal B4 two-anchor triangle inequality s_m(R)+p_km(R)-1[(M minus h) union k is actual]<=12 is imposed for both shared m and both k in R minus M; root-companion membership and fixed-root offsets are exact.",
+    "A literal pair of fixed actual members whose v-link triples are disjoint and both near an actual anchor forces its exact-v singleton count at most7 by B4. Named rows subtract exact root-star offsets; corresponding central local singleton states >=8 are pruned only under that same witness, with no mutation of cached catalogues.",
+    "Y singleton-pool H27, cross15, affine and conditional rows apply to P10/P9. C5 pair rows use all partners; P5 pair rows separately exclude each vertex of its unique two-cover.",
+    "Small-complete-core H27 and guarded Z cross15/clique-H27 use the stated actual-member avoidance proofs; no universal whole-Z intersecting pool is assumed.",
+    "Optional external H27 clique rows are hash-bound data: every trace pair including self is rechecked for a shared point or a declared fixed actual member disjoint from both. Fixed members must occur in this receiving branch and lie in the source represented universe plus the excluded root. Only same-universe transfer or root-cone-only lifting to one added actual marker is allowed; the latter aggregates every fine trace by restriction. Discovery weights and stored validation claims are ignored.",
+    "Prior-art cross15, crowding26 and minimum used degree7 at mu41/cap<=18 are enabled and source-hash-bound to their ordinary bridges and prior replay receipts.",
+    "The local43 call uses emin=17 and bootstrap parameters r10=r9=0; the prior \u03bc41/cap18 minimum used degree7 is imported; no finite exterior support is assumed.",
+    {
+      "case": "E4_03",
+      "actual_marker": 449,
+      "empty_z": true,
+      "assigned_z": null,
+      "forbidden": [],
+      "forbid_four_core": false,
+      "degree_distributions": false,
+      "crowding_imports": true,
+      "h27_cliques": {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H0-H27-top1-orbit.json",
+        "sha256": "7d1231219e1b164912ba7cb9e5735da2835d8f6af87ce113665d22e6c9380063",
+        "schema": "trace-h27-clique-discovery-v1",
+        "source_kind": "P10-H0",
+        "source_case": "none",
+        "represented_points": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "excluded_points": [
+          15
+        ],
+        "fixed_members": [
+          32775,
+          32781,
+          32790,
+          32793,
+          32794,
+          32803,
+          32810,
+          32812,
+          32817,
+          32820,
+          33216,
+          34368,
+          34432,
+          35392,
+          35584,
+          35968,
+          36096
+        ],
+        "clique_row_count": 360,
+        "sources": {
+          "separator_source_sha256": {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/trace_h27_cliques.py",
+            "sha256": "7babb3530d3e4e1f063692c276afe95f807ea5f01c216cb860fcb8b78842169f"
+          },
+          "ordinary_note_sha256": {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/TRACE-H27-CLIQUE-SEPARATION.md",
+            "sha256": "b53d1ad5d1bc9888e46b99f93287985a9fe1c71205742c46541e1925f872067a"
+          }
+        },
+        "transfer_policy": "same universe, or root-only core-to-one-marker restriction lift; literal pair validation required"
+      }
+    }
+  ],
+  "geometry_sha256": "76f90804247511bcd7f0de67934adedca7a62a57b039194af18040ace08af415",
+  "geometry_validation": "complete producer catalogue reproduced, including its exhaustive group/orbit coverage checks",
+  "h27_clique_dependency": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H0-H27-top1-orbit.json",
+    "sha256": "7d1231219e1b164912ba7cb9e5735da2835d8f6af87ce113665d22e6c9380063",
+    "schema": "trace-h27-clique-discovery-v1",
+    "source_kind": "P10-H0",
+    "source_case": "none",
+    "represented_points": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "excluded_points": [
+      15
+    ],
+    "fixed_members": [
+      32775,
+      32781,
+      32790,
+      32793,
+      32794,
+      32803,
+      32810,
+      32812,
+      32817,
+      32820,
+      33216,
+      34368,
+      34432,
+      35392,
+      35584,
+      35968,
+      36096
+    ],
+    "clique_row_count": 360,
+    "sources": {
+      "separator_source_sha256": {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/trace_h27_cliques.py",
+        "sha256": "7babb3530d3e4e1f063692c276afe95f807ea5f01c216cb860fcb8b78842169f"
+      },
+      "ordinary_note_sha256": {
+        "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/TRACE-H27-CLIQUE-SEPARATION.md",
+        "sha256": "b53d1ad5d1bc9888e46b99f93287985a9fe1c71205742c46541e1925f872067a"
+      }
+    },
+    "transfer_policy": "same universe, or root-only core-to-one-marker restriction lift; literal pair validation required"
+  },
+  "P10_exclusion_binding": {
+    "required": true,
+    "summary": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10-nonempty-summary.json",
+      "sha256": "d130fb5c8f164e4ab6a164e60bd1c2e8f41021da82f48195255a3cc11690711c"
+    },
+    "component_source": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_component.py",
+      "sha256": "1e3eaa89225246bb695740792bcaf0a5c365eb50c4212467aeb3c9569d7658d0"
+    },
+    "component_replayer": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/replay_component17.py",
+      "sha256": "1e6ef9e322b31593e12483a1e53937bf950f424d8c29433793f40ed98198608a"
+    },
+    "nonempty_orbits": 12,
+    "nonempty_assignments": 291,
+    "records": [
+      {
+        "case": "P10_001",
+        "original": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_001.json",
+          "sha256": "d137abe7764749ecd0452fd94f8d234d706612883b7f247c334e47a35259f73d"
+        },
+        "replay": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_001-replay.json",
+          "sha256": "cf0c8445d4b1f35238e9fec0d20e091282fc5d70cac0a3562102df60bfaef202"
+        },
+        "premise_sha256": "8dd9168f7aa37ba0b79799fedd9408dd02dd8d421cfecafc7af8ba92c043b3f6",
+        "model_sha256": "772026993f6e6537a738b6df0ba909e781fa1dcef0aceddb1f26b9f8925f7e4a",
+        "exact_gap": -1428571402,
+        "orbit_size": 15
+      },
+      {
+        "case": "P10_002",
+        "original": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_002.json",
+          "sha256": "88b2a0be42741183971588396953487e8edab2766c336bc126a320295668df32"
+        },
+        "replay": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_002-replay.json",
+          "sha256": "9789e62bd343e75f951c8323e1cbc8a700dc1567c56e3fd92be04f99130a18dc"
+        },
+        "premise_sha256": "0520109af1732c400284367cf7668637d86e2d008d4eccd0272cfea1cf7cc2d9",
+        "model_sha256": "99f2b7389603af6e9b4ce7407df4a5cd521be59d15e049305803b99434e4ea90",
+        "exact_gap": -10526315789,
+        "orbit_size": 30
+      },
+      {
+        "case": "P10_003",
+        "original": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_003.json",
+          "sha256": "0a11eafebcd27267baaae77ec1c7b6cfea44a937e85a8865338ab7dc158851a5"
+        },
+        "replay": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_003-replay.json",
+          "sha256": "70c524e50d0fbfeba4767090742456bfc56e1c38a0d3810dc0d1fe4022465319"
+        },
+        "premise_sha256": "c9bdab09d5975429f1bddaed87fc230391ab27d0543958c04f5f5dc767f8f8ae",
+        "model_sha256": "14fc489a6dfd896c75257b681dce36f741d9ca2dc6084b352997b176b4543d98",
+        "exact_gap": -4363636357,
+        "orbit_size": 30
+      },
+      {
+        "case": "P10_004",
+        "original": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_004.json",
+          "sha256": "c10d695c2f2d820b2a2629842c22fd301f0cd12f797460bd35d8c3a405d0a24e"
+        },
+        "replay": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_004-replay.json",
+          "sha256": "e1434f63dbe59d5aa5eac928dbd7ec99b6bcefa5867450818bcf894b62d1d622"
+        },
+        "premise_sha256": "1bca1eceddb53f97039e13f30787c5358c9c8a027ac382ebd9a9e390dcc3cc9e",
+        "model_sha256": "6dde08db7bd7d06ed2bf52bd6aef5f342878eac95845dac822c4d4d060abb3b4",
+        "exact_gap": -10000000000,
+        "orbit_size": 15
+      },
+      {
+        "case": "P10_005",
+        "original": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_005.json",
+          "sha256": "c59766f95079567c5d59168d31e5fbbc5edd121b47d76268eb3acfbbcd5080c5"
+        },
+        "replay": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_005-replay.json",
+          "sha256": "8ef6f0319e087fa3777ffc770d372d6e1211c782655da6dd7cdd5b279c36dcec"
+        },
+        "premise_sha256": "78006edb0dd19945fe3726c0caccb8aa33224413148d5d712f4b776cdd880fee",
+        "model_sha256": "9a41d8763c7e371496d112dd2a9e79055012dea4c4d9070ad25ce307b27d6353",
+        "exact_gap": -11666666667,
+        "orbit_size": 30
+      },
+      {
+        "case": "P10_006",
+        "original": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_006.json",
+          "sha256": "977bbea8e822a9a5e58eb5258363a74f1704373d6cab9be753b899e407d4888d"
+        },
+        "replay": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_006-replay.json",
+          "sha256": "daa2cd96fbf7e5481e62ee5faf629d5464af22c1442a40f448263d30289ce4ec"
+        },
+        "premise_sha256": "c47bcb5cb97dc2926995cd5ffc6bd4f1f3a18bbde37256ef08bb69c30c587477",
+        "model_sha256": "52624948eaed08466156c3b459d51abd30914121cdaec903af295ee2dcb6eeac",
+        "exact_gap": -20000000000,
+        "orbit_size": 60
+      },
+      {
+        "case": "P10_007",
+        "original": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_007.json",
+          "sha256": "ac4372848f1bc298515df58ea0baf2897c01cd2f03e979934237b3c6f4eeee21"
+        },
+        "replay": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_007-replay.json",
+          "sha256": "f2ea3c25e1a513f55789e97e220509af206cebb4426e9a3703eee3d3590b57a8"
+        },
+        "premise_sha256": "eb1c0ce98601ab13f8c620c44dcaf13a5bd822b5cb23cf3a4de22c48dbfc6ba5",
+        "model_sha256": "2fd1745b4aaeeff53b73497aaf94231b43bf8ecb3d6f99756b3214bb8ffb8581",
+        "exact_gap": -13548387096,
+        "orbit_size": 30
+      },
+      {
+        "case": "P10_008",
+        "original": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_008.json",
+          "sha256": "b8879c593e4e1d55c9b444f5235de9173d412f4605e00fb907dcda0082c0cd85"
+        },
+        "replay": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_008-replay.json",
+          "sha256": "2bef1a024139e8015d642bd21b0bc5273fa1a5031b296c9f96a2e9d6f777f982"
+        },
+        "premise_sha256": "59a36fb10463510bdbf3c98866f4765e45f79cfbba4dea1126ef3fe640151179",
+        "model_sha256": "0a03ae89d72ee6f3fad85bce37714ec4a0fe242e4ed42b43c8db248ab5416a3f",
+        "exact_gap": -10000000000,
+        "orbit_size": 10
+      },
+      {
+        "case": "P10_009",
+        "original": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_009.json",
+          "sha256": "e2aa9388b35e9cc3b36b66c9dc978177f8732ef06a9c842557e2ab8e91a2eeb8"
+        },
+        "replay": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_009-replay.json",
+          "sha256": "4b994074a5f3bec2a47a96fee586c8c0c2bf0ae625c24b27ee817310916e795b"
+        },
+        "premise_sha256": "a970d988054ea9db87122779ceaab1b1732be349b87179b8b81505289ef55d26",
+        "model_sha256": "f26b5dc78bf26ad4e196ad3bdbbfa3cb5bb663a233ed66c3a421d874781e0105",
+        "exact_gap": -10000000000,
+        "orbit_size": 5
+      },
+      {
+        "case": "P10_010",
+        "original": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_010.json",
+          "sha256": "8279249d3c76891209caca921ab9103b98744e21172b3b2f6ae97041e0be958d"
+        },
+        "replay": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_010-replay.json",
+          "sha256": "83baba92a6b198194f296616d5287e352f9f6feab2b0bd30ff245cbde5a21165"
+        },
+        "premise_sha256": "569ba8863aa947963c4a67fad0dbd5c507c16d1516b8c079423ffa451514e057",
+        "model_sha256": "b5d9b9740e45dcfb3a1cf643d0139ec9063e1350ab7589796949589506c931d2",
+        "exact_gap": -20000000000,
+        "orbit_size": 30
+      },
+      {
+        "case": "P10_011",
+        "original": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_011.json",
+          "sha256": "033b35cdd34c936a996cea8abc747e6422c452a05fd1a41092a3eea8344dca37"
+        },
+        "replay": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_011-replay.json",
+          "sha256": "2515bdcf321afeccd3cdcef2fccd571c93318cb03933afbd7fa8a3bc7dcd1807"
+        },
+        "premise_sha256": "147b1b1511ee18e7bea8fcf8261f011900027a3d43b775f71760aa9f5181b5df",
+        "model_sha256": "d5597d7b5b39cd3f20a0c41cff051f6a95f16278c00bd50160e5db7af21a87ca",
+        "exact_gap": -20000000000,
+        "orbit_size": 30
+      },
+      {
+        "case": "P10_012",
+        "original": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_012.json",
+          "sha256": "0d5d8d2484f1714a15544f7155cbac31223273d554779fb0a67be00ac1c32f9e"
+        },
+        "replay": {
+          "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_012-replay.json",
+          "sha256": "5f45b2cc00b440617d97e6f2b9288a938a220eddf52ee380a47d3ced0f12a603"
+        },
+        "premise_sha256": "129e76b48d2e17256bb657a0cd55a58df7706f3cade6e89b3f55a22a5f5e029b",
+        "model_sha256": "25b02228663edc64d1322ea334a0434b0b60828fff83018e39d31799f4c4b83f",
+        "exact_gap": -20000000000,
+        "orbit_size": 6
+      }
+    ],
+    "scope": "existing separately completed shared-model exact replays are hash-bound, not rerun here; exact68-to-at-least68 transfer is the ordinary subfamily argument in D17-full-model-bridge.md"
+  },
+  "dependencies": {
+    "local43": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/upstream/MU42/scripts/local43.py",
+      "sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b"
+    },
+    "structural_note_sha256": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-structural-tools.md",
+      "sha256": "3ca78644de3e4aaab94372300b9b3f3801ae79ba73766d2784d39d741302fc33"
+    },
+    "pool_note_sha256": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-pool-research.md",
+      "sha256": "7a5422df629f7f9e5137be88b9d7fdf52ccf39f309fd1fdc49a728dea24803a8"
+    },
+    "written_arbitrary_support_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/paper/main.tex",
+      "sha256": "4aa36c9d56af5a8e3bdb44749107820549a73e0d3405e6c700104fa4c30e5c21"
+    },
+    "cross15_certificate": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/cross15/results/cross16_certificate.json",
+      "sha256": "fa9e49530acf9170b073c4ed24fde9ae9eb30ff78bf1edeed2a8f21018ed839b"
+    },
+    "cross15_checker": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/cross15/src/verify.py",
+      "sha256": "f72bdb066eb40ebd3a5c072d0ed8431a547d06ae8d5581c408a44326df31422d"
+    },
+    "crowding26_certificate": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/crowding/certificates/crowding26.json.gz",
+      "sha256": "071d5bffc5b12979b5cb908e47f8460531ff08da99597f0e04d409335f8af825"
+    },
+    "crowding26_checker": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/crowding/code/verify.py",
+      "sha256": "397f9ab5cf361a1c6ba547e5fb0ac4a774bba967b26f637e7c951b9ed1104876"
+    },
+    "prior_foundation_ledger": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/FOUNDATION_LEDGER.md",
+      "sha256": "3658ac4e94efe4bc5240856300c79c43d1388085c2126cb926df64dd48881992"
+    },
+    "prior_selected_replay_receipt": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020/RECEIPT.json",
+      "sha256": "930a417d5f24c10056c9b10fb436fc7e52bdb13d327ed262edb895d1fd5eae8f"
+    },
+    "current_prior_delta18_unlock": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/prior-delta18-unlock.json",
+      "sha256": "574774b2a12665f403932dcd45fe8269c84d105d60db367e357f27fa8c10442f"
+    },
+    "prior_minimum7_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/analysis/mu41/mu41-analysis.md",
+      "sha256": "5b9821b942b6e782725c970332e00611eda29f238b96ca345b9c99f11f89744e"
+    },
+    "additional_core_rows_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-additional-core-rows.md",
+      "sha256": "24f3539afc3e48eb20a05643186c985eb9531cc45ded598b6ae7a6b842195b5b"
+    },
+    "triangle_path_hub_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-Q8-internal-research.md",
+      "sha256": "fb6b3918fe2e47cb23f7c4889b9d09bb6195da27bd7ec5572e218cad328887a6"
+    },
+    "D17_route": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-I7-classification-route.md",
+      "sha256": "a86e80d8377f24218194461c7e2dd92ffe44c3d6b4a505240bd050f129dcb504"
+    },
+    "I7_certificate": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/r16/results/seven_certificate.json",
+      "sha256": "fe172301b201819c029d9a1b7e8931f516cbd90aa978977118b7853b2ead7164"
+    },
+    "I7_upstream_checker": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/r16/src/check_seven.py",
+      "sha256": "f8d157274c5625fac692e6fd015c6d23a28b212cd82da0e0397ff00e30382705"
+    },
+    "I7_independent_checker": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17_i7_coverage.py",
+      "sha256": "fa59a11857d7dfdc3047a660f6fcb6204206ac311880e95e1f52c373718909a9"
+    },
+    "I7_independent_receipt": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-i7-coverage.json",
+      "sha256": "030fcb5ec6e64c738f306409fca83ed962c3afefb5225378295d3a6601c196df"
+    },
+    "R16_prior_normal_output": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020/terminal_r16_normal/stdout.json",
+      "sha256": "0cca051a5653c18778c2772d2ee3e08aee62c6125871071d24745bcd33163031"
+    },
+    "R16_prior_optimized_output": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020/terminal_r16_optimized/stdout.json",
+      "sha256": "0cca051a5653c18778c2772d2ee3e08aee62c6125871071d24745bcd33163031"
+    },
+    "adaptation_source_D18_v4": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_projection_v4.py",
+      "sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f"
+    },
+    "adaptation_source_D17_v1": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection.py",
+      "sha256": "3d79ea4a0755f59aa8107c89d773600bc0965aa751772c337c3431c3a7caff52"
+    },
+    "two_actual_anchor_triangle_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-I06-triangle-closure.md",
+      "sha256": "3ae4598a645482695649bf484ac906cb14b08129d88310e44d92413f8f5c2c0b"
+    },
+    "D17_full_family_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-full-model-bridge.md",
+      "sha256": "e38dda22a26ef5c1374e298b6ebc13ea949d592f2d531db46d56f31714ebf7db"
+    },
+    "adaptation_source_D17_v2": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v2.py",
+      "sha256": "497f71f4fdf555c7456b42123684e7fd5059769f89662c257e2263425798b31a"
+    },
+    "D17_H27_clique_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-H27-clique-addon.md",
+      "sha256": "79bc58ae5cb189094f2b088648e8adbc0ccb21f8e53ebcf5d534e548870f74b5"
+    },
+    "trace_H27_general_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/TRACE-H27-CLIQUE-SEPARATION.md",
+      "sha256": "b53d1ad5d1bc9888e46b99f93287985a9fe1c71205742c46541e1925f872067a"
+    },
+    "trace_H27_separator": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/trace_h27_cliques.py",
+      "sha256": "7babb3530d3e4e1f063692c276afe95f807ea5f01c216cb860fcb8b78842169f"
+    },
+    "adaptation_source_D17_v3": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v3.py",
+      "sha256": "d247fa0ac29e5ea765f5ede2d60df9ff9ce89e905f86f1295161acedceb370ae"
+    },
+    "marked_B4_general_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-marked-B4-row.md",
+      "sha256": "a6472d0196e514f9b6396665334993880f080414a9199d42a4f50fc5c1481cfe"
+    },
+    "D17_marked_B4_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-marked-B4-addon.md",
+      "sha256": "7c8d5efd1f00c45d2745e6e29e50ff882de1c6bf7c52ef16abfb7c957b624f00"
+    }
+  },
+  "premise_sha256": "e7409b1735812f9dd78d544cb7f0e7c6c7f9e9b3f30a93a038cfb7029add6eab",
+  "replay_evidence_sha256": "a329e734aade01fac7dde2282538a64f07d25452aaa8b48a1021d55b1bbfda68",
+  "model": {
+    "columns": 33407,
+    "trace_columns": 794,
+    "upper_rows": 1645,
+    "equal_rows": 136,
+    "catalogue_sizes": [
+      196,
+      196,
+      196,
+      196,
+      196,
+      196,
+      196,
+      196,
+      196,
+      196,
+      1187,
+      4911,
+      4911,
+      4911,
+      4911,
+      4911,
+      4911
+    ]
+  },
+  "integer_model_validation": "all entries, right sides, and finite box endpoints validated",
+  "model_sha256": "6793b177da45cb8676e98784ca5b3b53135a4a760b650fa71461b55340d5d96d",
+  "model_hash_encoding": "JSON header of traces/labels/shapes, then named flattened CSR arrays/RHS/boxes as little-endian signed int64",
+  "triangle_row_validation": {
+    "required": true,
+    "rows": 360,
+    "companion_counts": {
+      "root-present": 78,
+      "root-absent": 102,
+      "residual": 180
+    },
+    "fixed_offset_counts": {
+      "0": 180,
+      "9": 120,
+      "12": 24,
+      "11": 36
+    },
+    "scope": "all fixed actual ordered pairs and both m/k choices decoded with point sets; every full sparse coefficient and RHS checked; no independent verification of other producer rows"
+  },
+  "h27_clique_row_validation": {
+    "required": true,
+    "rows": 360,
+    "transfer": "same-universe",
+    "represented_points": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "source_represented_points": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "actual_witness_count": 17,
+    "row_pair_checks_including_self": 10672560,
+    "relation_trace_count": 414,
+    "relation_shared_point_pairs": 61610,
+    "relation_fixed_witness_pairs": 21205,
+    "relation_incompatible_pairs": 3090,
+    "row_sizes": [
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      },
+      {
+        "source_traces": 243,
+        "fine_traces": 243
+      }
+    ],
+    "rows_sha256": "268bc501ab519706bcc346110a6a8d2a0c480dc400ee901dfddcdbb0d82c9670",
+    "scope": "independent literal-set actual-witness/diagonal checks, complete restriction lift and every sparse H27 row coefficient/RHS; discovery weights and producer validation helper unused"
+  },
+  "marked_B4_validation": {
+    "required": true,
+    "rows": 3,
+    "literal_guard_count": 3,
+    "rows_sha256": "b3da4407ea2198480ba8118372343a3c7b38ab889212fe645ca411cfed73d3ac",
+    "pruning_checked": true,
+    "guarded_local_coordinates": 3,
+    "guarded_root_anchors": 0,
+    "decoded_local_selector_columns": 32613,
+    "decoded_feature_sha256": "de7925500f90183245a0c5064adc2c091f6066b66e7fbe26a20a731b94c0284d",
+    "local_anchors": [
+      {
+        "anchor": 32775,
+        "selector_columns": 196,
+        "first_column": 794,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 32803,
+        "selector_columns": 196,
+        "first_column": 990,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 32781,
+        "selector_columns": 196,
+        "first_column": 1186,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 32793,
+        "selector_columns": 196,
+        "first_column": 1382,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 32817,
+        "selector_columns": 196,
+        "first_column": 1578,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 32790,
+        "selector_columns": 196,
+        "first_column": 1774,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 32794,
+        "selector_columns": 196,
+        "first_column": 1970,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 32810,
+        "selector_columns": 196,
+        "first_column": 2166,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 32812,
+        "selector_columns": 196,
+        "first_column": 2362,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 32820,
+        "selector_columns": 196,
+        "first_column": 2558,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 33216,
+        "selector_columns": 1187,
+        "first_column": 2754,
+        "singleton_guards": [
+          {
+            "vertex": 6,
+            "witness": [
+              34368,
+              449
+            ],
+            "maximum_surviving_singleton": 7
+          },
+          {
+            "vertex": 7,
+            "witness": [
+              34432,
+              449
+            ],
+            "maximum_surviving_singleton": 7
+          },
+          {
+            "vertex": 8,
+            "witness": [
+              35584,
+              449
+            ],
+            "maximum_surviving_singleton": 7
+          }
+        ]
+      },
+      {
+        "anchor": 34368,
+        "selector_columns": 4911,
+        "first_column": 3941,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 34432,
+        "selector_columns": 4911,
+        "first_column": 8852,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 35392,
+        "selector_columns": 4911,
+        "first_column": 13763,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 35584,
+        "selector_columns": 4911,
+        "first_column": 18674,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 35968,
+        "selector_columns": 4911,
+        "first_column": 23585,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 36096,
+        "selector_columns": 4911,
+        "first_column": 28496,
+        "singleton_guards": []
+      }
+    ],
+    "scope": "independent literal-set witnesses, complete cap7 row coefficients/root offsets, and every final local feature equation; every surviving witnessed singleton is <=7, including empty-block/root guards; universal catalogue completeness and unrelated pruning remain shared-producer/ordinary-proof dependencies"
+  },
+  "exact_replay": {
+    "scale": 10000000000,
+    "H": 430000000000,
+    "correction": 10000000000,
+    "upper_numerator": 440000000000,
+    "target_numerator": 510000000000,
+    "strict_exclusion": true,
+    "reduced_upper": [
+      44,
+      1
+    ],
+    "q_columns": 33407,
+    "q_sha256_decimal_lines": "2d4142c912fd96d5741ca7c1412b353089a417f0658bad9cae948bc41fc0f5d2",
+    "nonzero_inequality_weights": 3,
+    "nonzero_equality_weights": 11,
+    "numerical_display": "not used or trusted"
+  },
+  "all_inputs_unchanged": true,
+  "conclusion": "Exact trace upper bound excludes 51 residuals in the stated conditional model.",
+  "seconds": 4.354696598000373
+}

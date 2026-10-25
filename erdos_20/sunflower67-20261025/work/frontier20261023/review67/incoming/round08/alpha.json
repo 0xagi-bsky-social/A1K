@@ -1,0 +1,62 @@
+{
+  "agent_id": "/root/r67_alpha",
+  "role": "alpha",
+  "context_id": "/root/r67_alpha",
+  "round": 8,
+  "snapshot_sha256": "cdc2c6372cd2b87201867beb9d986ad0edc1edfe9eab72da3c627e1eb68cffd2",
+  "manuscript_sha256": "a8f164ea1218b704cccd43c618fc2166f5ab636d9c121e7713f7c797d221b2b9",
+  "summary": "The three tested safe formulations retain the hypotheses needed to avoid Beta\u2019s concrete failure modes. Independent bounded controls support the present wording and implementations; no new repair is required. Both frozen hashes match. These controls do not reconstruct the whole proof or authenticate the external H27 computation.",
+  "evidence_ids": [
+    "degree19",
+    "degree20",
+    "direct-jin",
+    "round4-committed",
+    "round7-committed",
+    "external-h27-tree-correction",
+    "definitions-map-r2"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [
+    {
+      "finding_id": "/root/r67_alpha:round-1:required-revision-1",
+      "action": "Rechecked Section 3\u2019s maximum-neighbourhood definition and its graph-degree interpretation.",
+      "result": "The earlier correction remains explicit and correctly quantified over actual members.",
+      "status": "resolved"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Safe proper-trace formulation responding to beta-R7-F1.",
+      "method": "Read D19-model-bridge.md Section 2 and degree19_projection_v5.py build; independently constructed and tested the committed two-completion example.",
+      "observation": "Lifting P10+P9 through 99 and adjoining {0,6,7,100}, {0,6,7,101} gives 21 distinct four-sets with no sunflower among all 1,330 triples, while core trace 067 occurs twice. A third completion creates a sunflower. Thus the safe coordinate counts all completions, with triple-trace upper bound 2 and full-four upper bound 1; it cannot represent proper traces as binary choices. The actual bridge, code and manuscript Section 3 retain this formulation, and represent the actual exterior point of each selected marker. This control does not satisfy the hypothetical size-68 premise.",
+      "result": "supported",
+      "evidence_ids": [
+        "degree19",
+        "round7-committed"
+      ]
+    },
+    {
+      "scope": "Safe complete-C5 resource inequality responding to beta-R4-F1.",
+      "method": "Inspected internal-proof.md, C5-internal-compatibility.md and check_internal_certificate.py; independently reconstructed Beta\u2019s literal cost witness.",
+      "observation": "The five P10 triples through 0, triple 124, and a disjoint shifted P10, all lifted through 99, give 16 members with no sunflower among 560 triples. The pair {0,99} has complete link C5, but d(99)=16 and exactly one relevant internal member. Hence d-I<=15 is sharp here, whereas d<=15 is false. The coefficient function removes internal contributions at points 1 and 3, matching the written inequality. The later unadjusted degree cap is applied only after internal exclusion. Completeness of the C5 remains essential; five prescribed edges alone do not establish it.",
+      "result": "supported",
+      "evidence_ids": [
+        "degree20",
+        "round4-committed"
+      ]
+    },
+    {
+      "scope": "Safe A3 positivity formulation responding to beta-R7-F1 and the H27 assurance boundary.",
+      "method": "Checked all eight independent image neighbourhoods and the cyclic identity on eight coordinate basis vectors; derived a general inequality before using occupied-fibre degree bounds.",
+      "observation": "For order n and independent-neighbourhood cap H, sum b=3n and b_i+b_(i+3)+b_(i+5)=n+a_i imply a_i>=2n-5H. Thus n=68,H=27 gives positivity directly, including initially empty fibres; only afterward may minimum degree imply b_i>=25. The bound becomes -4 at H=28, consistent with the reproduced empty-fibre counterexample. The addendum and Section 6 follow this order without assuming a complete blowup. The algebra verifies the interface, not Jin or H27. Script, results and hashes for all three checks are preserved under checks/round08/alpha/.",
+      "result": "supported",
+      "evidence_ids": [
+        "direct-jin",
+        "round7-committed",
+        "external-h27-tree-correction"
+      ]
+    }
+  ]
+}

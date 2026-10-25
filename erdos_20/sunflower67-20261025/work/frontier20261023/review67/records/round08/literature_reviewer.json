@@ -1,0 +1,96 @@
+{
+  "content": {
+    "agent_id": "/root/r67_literature",
+    "role": "literature_reviewer",
+    "context_id": "/root/r67_literature",
+    "round": 8,
+    "snapshot_sha256": "cdc2c6372cd2b87201867beb9d986ad0edc1edfe9eab72da3c627e1eb68cffd2",
+    "manuscript_sha256": "a8f164ea1218b704cccd43c618fc2166f5ab636d9c121e7713f7c797d221b2b9",
+    "summary": "Three constructive tests support the existing source and claim boundaries. Weakening H27 cannot repair away its assurance limitation. The fifteen-triple threshold has a simple prior-family sharpness witness, while independent priority remains unestablished. The classical lower construction and its attribution are coherent. No mandatory manuscript revision follows from these scoped checks.",
+    "evidence_ids": [
+      "direct-jin",
+      "external-h27-scope-correction",
+      "external-h27-tree-correction",
+      "prior-ledger",
+      "rho15",
+      "cap15",
+      "external-scope",
+      "round7-committed"
+    ],
+    "decision": "continue",
+    "required_revisions": [],
+    "findings": [
+      {
+        "id": "LIT-R8-01",
+        "statement": "An optional formulation is that seven is the sharp universal lower bound on the maximum disjoint count for fifteen-member SF3 families: a deletion from the prior R16 attains it.",
+        "severity": "note",
+        "status": "claim-qualified",
+        "disposition": "This combines the manuscript’s universal lower statement with an explicit prior witness. It does not establish that the sharp threshold was previously unknown. Section 5.2’s bounded novelty wording remains appropriate; adding this observation is optional.",
+        "evidence_ids": [
+          "prior-ledger",
+          "rho15",
+          "cap15"
+        ]
+      }
+    ],
+    "revisions": [
+      {
+        "finding_id": "/root/r67_literature:round-4:required-revision-1",
+        "action": "Tested the retained source qualification against the numerical dependence highlighted by committed Beta.",
+        "result": "Disclosure remains resolved; its historical-run limitation remains material and cannot be removed by substituting a weaker intersecting cap.",
+        "status": "resolved"
+      },
+      {
+        "finding_id": "/root/r67_literature:round-1:required-revision-1",
+        "action": "Checked the classical construction and reopened [1]’s historical bibliography.",
+        "result": "Section 2’s attribution through [1] remains satisfactory; direct access to the historical originals is not claimed.",
+        "status": "resolved"
+      }
+    ],
+    "checks": [
+      {
+        "scope": "Alternative tested: replace H27 by an intersecting cap of 28",
+        "method": "Read the direct-Jin addendum; independently enumerated all 256 image supports of Beta’s weighted A3 control (0,15,13,0,12,0,15,13).",
+        "observation": "The blowup has order 68, minimum actual degree 25, independence number 28 and three empty fibres. Thus the required positivity does not follow after weakening the independence cap. This is a graph control, not an SF4 representation. Preserve the explicit ordinary H27 import and both provenance qualifications; the manuscript already does.",
+        "result": "contradicted",
+        "evidence_ids": [
+          "direct-jin",
+          "external-h27-scope-correction",
+          "external-h27-tree-correction",
+          "round7-committed"
+        ]
+      },
+      {
+        "scope": "Useful formulation: sharpness without an enlarged novelty claim",
+        "method": "Read pinned main.tex’s universal R16 model and the exact-rho-seven classification; literally checked the fifteen triples obtained by deleting 389 from the canonical R16.",
+        "observation": "The witness has ten used points, zero sunflowers among its 455 member triples and maximum disjoint count seven. It establishes attainment only; the new universal lower bound still requires Theorem 2’s support reduction and finite exclusions. Calling the threshold sharp would be accurate, but attributing the witness or independently asserting priority as new would not follow.",
+        "result": "supported",
+        "evidence_ids": [
+          "prior-ledger",
+          "rho15",
+          "cap15"
+        ]
+      },
+      {
+        "scope": "Attribution repair: separate classical witnesses from recent upper bounds",
+        "method": "Generated the three-block 27-member construction and two disjoint copies; checked all 24,804 triples in the resulting 54-member family and inspected [1]’s references 2 and 4. An initial local script syntax error was corrected before these checks executed.",
+        "observation": "The 27-family is intersecting and sunflower-free; its doubled family is simple, exactly four-uniform and sunflower-free on 18 points. [Axante et al.](https://arxiv.org/html/2609.06175v1) identifies the construction with Abbott–Hanson and lists Abbott–Gardner separately. The manuscript correctly credits classical lower evidence through this source while assigning the recent intersecting upper bound to Proposition 6.7. No stronger lower-bound claim is supported.",
+        "result": "supported",
+        "evidence_ids": [
+          "external-scope",
+          "prior-ledger"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "tool": "collaboration.followup_task; specialist-authored public JSON artifact and observed final response",
+    "call_id": "local-log:/root/r67_literature:round-8:final-json:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/incoming/round08/literature_reviewer.json",
+    "context_id": "/root/r67_literature",
+    "recorded_at": "2026-10-24T10:57:06.229480+00:00",
+    "synthetic": false,
+    "public_response": "{\n  \"agent_id\": \"/root/r67_literature\",\n  \"role\": \"literature_reviewer\",\n  \"context_id\": \"/root/r67_literature\",\n  \"round\": 8,\n  \"snapshot_sha256\": \"cdc2c6372cd2b87201867beb9d986ad0edc1edfe9eab72da3c627e1eb68cffd2\",\n  \"manuscript_sha256\": \"a8f164ea1218b704cccd43c618fc2166f5ab636d9c121e7713f7c797d221b2b9\",\n  \"summary\": \"Three constructive tests support the existing source and claim boundaries. Weakening H27 cannot repair away its assurance limitation. The fifteen-triple threshold has a simple prior-family sharpness witness, while independent priority remains unestablished. The classical lower construction and its attribution are coherent. No mandatory manuscript revision follows from these scoped checks.\",\n  \"evidence_ids\": [\n    \"direct-jin\",\n    \"external-h27-scope-correction\",\n    \"external-h27-tree-correction\",\n    \"prior-ledger\",\n    \"rho15\",\n    \"cap15\",\n    \"external-scope\",\n    \"round7-committed\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"LIT-R8-01\",\n      \"statement\": \"An optional formulation is that seven is the sharp universal lower bound on the maximum disjoint count for fifteen-member SF3 families: a deletion from the prior R16 attains it.\",\n      \"severity\": \"note\",\n      \"status\": \"claim-qualified\",\n      \"disposition\": \"This combines the manuscript’s universal lower statement with an explicit prior witness. It does not establish that the sharp threshold was previously unknown. Section 5.2’s bounded novelty wording remains appropriate; adding this observation is optional.\",\n      \"evidence_ids\": [\n        \"prior-ledger\",\n        \"rho15\",\n        \"cap15\"\n      ]\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/r67_literature:round-4:required-revision-1\",\n      \"action\": \"Tested the retained source qualification against the numerical dependence highlighted by committed Beta.\",\n      \"result\": \"Disclosure remains resolved; its historical-run limitation remains material and cannot be removed by substituting a weaker intersecting cap.\",\n      \"status\": \"resolved\"\n    },\n    {\n      \"finding_id\": \"/root/r67_literature:round-1:required-revision-1\",\n      \"action\": \"Checked the classical construction and reopened [1]’s historical bibliography.\",\n      \"result\": \"Section 2’s attribution through [1] remains satisfactory; direct access to the historical originals is not claimed.\",\n      \"status\": \"resolved\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Alternative tested: replace H27 by an intersecting cap of 28\",\n      \"method\": \"Read the direct-Jin addendum; independently enumerated all 256 image supports of Beta’s weighted A3 control (0,15,13,0,12,0,15,13).\",\n      \"observation\": \"The blowup has order 68, minimum actual degree 25, independence number 28 and three empty fibres. Thus the required positivity does not follow after weakening the independence cap. This is a graph control, not an SF4 representation. Preserve the explicit ordinary H27 import and both provenance qualifications; the manuscript already does.\",\n      \"result\": \"contradicted\",\n      \"evidence_ids\": [\n        \"direct-jin\",\n        \"external-h27-scope-correction\",\n        \"external-h27-tree-correction\",\n        \"round7-committed\"\n      ]\n    },\n    {\n      \"scope\": \"Useful formulation: sharpness without an enlarged novelty claim\",\n      \"method\": \"Read pinned main.tex’s universal R16 model and the exact-rho-seven classification; literally checked the fifteen triples obtained by deleting 389 from the canonical R16.\",\n      \"observation\": \"The witness has ten used points, zero sunflowers among its 455 member triples and maximum disjoint count seven. It establishes attainment only; the new universal lower bound still requires Theorem 2’s support reduction and finite exclusions. Calling the threshold sharp would be accurate, but attributing the witness or independently asserting priority as new would not follow.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"prior-ledger\",\n        \"rho15\",\n        \"cap15\"\n      ]\n    },\n    {\n      \"scope\": \"Attribution repair: separate classical witnesses from recent upper bounds\",\n      \"method\": \"Generated the three-block 27-member construction and two disjoint copies; checked all 24,804 triples in the resulting 54-member family and inspected [1]’s references 2 and 4. An initial local script syntax error was corrected before these checks executed.\",\n      \"observation\": \"The 27-family is intersecting and sunflower-free; its doubled family is simple, exactly four-uniform and sunflower-free on 18 points. [Axante et al.](https://arxiv.org/html/2609.06175v1) identifies the construction with Abbott–Hanson and lists Abbott–Gardner separately. The manuscript correctly credits classical lower evidence through this source while assigning the recent intersecting upper bound to Proposition 6.7. No stronger lower-bound claim is supported.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"external-scope\",\n        \"prior-ledger\"\n      ]\n    }\n  ]\n}\n",
+    "response_sha256": "198b3f33c40459add5b16c3640eadd6b6442280cc05707831bd58a7037047104"
+  },
+  "record_sha256": "e2b1f970d5f081146c7a43da439852fca7f808327af2cf71abb5b6bcbac7a2f3"
+}

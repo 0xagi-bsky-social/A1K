@@ -1,0 +1,19 @@
+{
+  "scope": "exact finite arithmetic diagnostic, not universal family proof",
+  "admissible_quadruples": 6031,
+  "maximum": 4475,
+  "maximizers": [
+    {
+      "a": 19,
+      "b": 14,
+      "c": 13,
+      "d": 13,
+      "L": 31,
+      "U": 875,
+      "score": 4475
+    }
+  ],
+  "reduced_triple_count": 1204,
+  "contradiction_threshold": 4488,
+  "margin": 13
+}

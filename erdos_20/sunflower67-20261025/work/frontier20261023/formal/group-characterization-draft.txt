@@ -1,0 +1,8 @@
+/-- Semantic description of the literal configuration by its group counts. -/
+theorem AHS_membership (S : Finset (Fin 9)) :
+    S ∈ AHS ↔ S.card = 4 ∧
+      ∃ i j : Fin 3, i ≠ j ∧ (S ∩ group i).card = 2 ∧
+        (S ∩ group j).card = 2 := by
+  revert S
+  decide +kernel
+

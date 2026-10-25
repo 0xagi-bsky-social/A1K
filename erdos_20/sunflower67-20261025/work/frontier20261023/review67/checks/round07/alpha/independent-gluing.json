@@ -1,0 +1,87 @@
+{
+  "tested": 183,
+  "accepted": 13,
+  "criterion_matches_every_test": true,
+  "cases": [
+    {
+      "template": 0,
+      "safe": [],
+      "accepted": [
+        []
+      ]
+    },
+    {
+      "template": 1,
+      "safe": [],
+      "accepted": [
+        []
+      ]
+    },
+    {
+      "template": 2,
+      "safe": [
+        0
+      ],
+      "accepted": [
+        [],
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "template": 3,
+      "safe": [],
+      "accepted": [
+        []
+      ]
+    },
+    {
+      "template": 4,
+      "safe": [],
+      "accepted": [
+        []
+      ]
+    },
+    {
+      "template": 5,
+      "safe": [],
+      "accepted": [
+        []
+      ]
+    },
+    {
+      "template": 6,
+      "safe": [
+        0
+      ],
+      "accepted": [
+        [],
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "template": 7,
+      "safe": [
+        5,
+        6
+      ],
+      "accepted": [
+        [],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    }
+  ],
+  "limitation": "Conditional on the stated I7 catalogue and Q8 core-separation reduction."
+}

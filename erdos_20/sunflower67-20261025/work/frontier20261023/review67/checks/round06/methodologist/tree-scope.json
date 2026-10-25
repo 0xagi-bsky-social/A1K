@@ -1,0 +1,10 @@
+{
+  "method": "Independent standard-library Git tree serialization from retained recursive response",
+  "root_entries": 7,
+  "payload_bytes": 266,
+  "reported": "d4d5723267c662291efdadfa6e7061d919e76fa9",
+  "reconstructed": "0a3e3838650fc981133940e798c9d220140e785e",
+  "match": false,
+  "provenance_paths_in_returned_listing": [],
+  "limitation": "No network retrieval, whole-repository completeness or historical-execution inference"
+}

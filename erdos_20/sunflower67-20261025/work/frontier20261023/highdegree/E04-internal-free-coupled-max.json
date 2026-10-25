@@ -1,0 +1,194 @@
+{
+  "case": "E04",
+  "mu": 41,
+  "assurance": "certificate-diagnostic; imported signature assumptions; no exact dual proof",
+  "universe": "arbitrary exterior support; shared12/13-point traces",
+  "r9_minimum": 0,
+  "r10_minimum": 0,
+  "minimum_used_degree_assumed": null,
+  "minimum_cooccurring_degree_sum": 19,
+  "catalog_rows": 2443,
+  "columns": 45862,
+  "maximize_residuals": true,
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "seconds": 0.9291551119999895,
+  "internal_free": true,
+  "internal_free_dependencies": "internal-proof.md; universal C5 neighbour cap15 and central large-singleton k=5",
+  "source_sha256": "ca732ba16631a1b4db6b252f6f40d7c25d5caeb80dd403c0cded390edb3f7b5d",
+  "imported_source_sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+  "trace_nonzero": [
+    [
+      65,
+      1.0
+    ],
+    [
+      129,
+      3.0
+    ],
+    [
+      66,
+      3.0
+    ],
+    [
+      130,
+      1.0
+    ],
+    [
+      260,
+      4.5
+    ],
+    [
+      2080,
+      2.999999999999998
+    ],
+    [
+      21,
+      2.0
+    ],
+    [
+      41,
+      2.0
+    ],
+    [
+      14,
+      2.0
+    ],
+    [
+      26,
+      1.0
+    ],
+    [
+      50,
+      2.0
+    ],
+    [
+      1284,
+      0.49999999999999434
+    ],
+    [
+      2564,
+      0.5000000000000054
+    ],
+    [
+      2072,
+      1.5
+    ],
+    [
+      800,
+      0.5000000000000053
+    ],
+    [
+      1568,
+      1.4999999999999976
+    ],
+    [
+      3104,
+      0.4999999999999969
+    ],
+    [
+      1600,
+      1.0
+    ],
+    [
+      2624,
+      2.0
+    ],
+    [
+      896,
+      2.0
+    ],
+    [
+      1664,
+      1.0
+    ],
+    [
+      3200,
+      1.0
+    ],
+    [
+      195,
+      1.0
+    ],
+    [
+      1049,
+      1.0000000000000089
+    ],
+    [
+      788,
+      0.5
+    ],
+    [
+      2584,
+      0.5
+    ],
+    [
+      1352,
+      1.0000000000000002
+    ],
+    [
+      3208,
+      1.0
+    ],
+    [
+      1584,
+      0.5000000000000024
+    ],
+    [
+      1360,
+      0.9999999999999716
+    ]
+  ],
+  "max_inequality_residual": 8.881784197001252e-15,
+  "max_equality_residual": 2.4868995751603507e-14,
+  "exact_dual": {
+    "scale": 10000000000,
+    "H": 430000000000,
+    "box_correction": 0,
+    "upper_numerator": 430000000000,
+    "target_numerator": 480000000000,
+    "strictly_below_target": true,
+    "upper_float_for_display": 43.0,
+    "ineq_nonzero": [
+      [
+        42,
+        10000000000
+      ],
+      [
+        615,
+        10000000000
+      ],
+      [
+        618,
+        10000000000
+      ],
+      [
+        619,
+        10000000000
+      ],
+      [
+        620,
+        9000000000
+      ]
+    ],
+    "eq_nonzero": [
+      [
+        81,
+        -9000000000
+      ],
+      [
+        83,
+        1000000000
+      ],
+      [
+        84,
+        -9000000000
+      ],
+      [
+        86,
+        1000000000
+      ]
+    ]
+  },
+  "solver_objective_for_diagnostic": 43.00000000000001
+}

@@ -1,0 +1,733 @@
+{
+  "result": "PASS",
+  "receipt_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-E4_28-exterior-E4-v9-6a6d62edbc66.json",
+  "replayer_sha256": "10304e6fa2f3adfea9de387e82601ee6eef7f445b9460e35827d2e2eced634c8",
+  "compute_limit_seconds": 30.0,
+  "python_executable": "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/pyenv/bin/python",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "assurance": "shared-producer necessary-model reconstruction and exact integer replay; mathematical premises remain imported; no solver, no Lean, no whole-branch claim",
+  "receipt_sha256": "a003ff7d3af4f1dc135c0480feffdace5221a5d6d5eec8f777300d4bf2855e78",
+  "certificate_kind": "trace-upper-bound",
+  "objective": "one on trace columns, zero on selectors",
+  "source": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v9.py",
+    "sha256": "31368d8392328daa9f161b23e40ef7c3df3d9acd4743cf4914f9df0215b74eb2",
+    "matching_paths": [
+      "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v9.py"
+    ],
+    "reconstruction": "same hashed producer build(), never run()"
+  },
+  "dependency_versions": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.0"
+  },
+  "case": {
+    "kind": "P9-Q8",
+    "case": "E4_28",
+    "empty_z": true,
+    "assigned_z": null,
+    "forbidden": [
+      15,
+      23,
+      27,
+      29,
+      30,
+      39,
+      43,
+      45,
+      46,
+      51,
+      53,
+      54,
+      57,
+      58,
+      60
+    ],
+    "forbid_four_core": false,
+    "degree_distributions": false,
+    "crowding_imports": true,
+    "extra_members": []
+  },
+  "literal_premises": [
+    "F is a finite simple SF4 family; empty sunflower cores are forbidden.",
+    "|F| >= 68, d(x)=17, and the global maximum point degree is at most17; residual target51.",
+    "The complete root link is the recorded disjoint form P9-Q8.",
+    "The universal I7 support reduction plus eight templates are imported, bound to the separate independent finite census of all77520 six-point candidates; I8/I9/I10 classification and the high-link split are also imported.",
+    "H27, exact-anchor caps10/3/1, global incidence caps17/6/2, and the universal local43 structural lemmas are imported.",
+    "Every actual anchor has closed neighbourhood at least 41 and each pair in it has degree sum at least 19.",
+    "All P9-side Y internals remain free; no P10 empty-internal premise is transferred to P9.",
+    "All Z internals remain free except the explicit branch restrictions below.",
+    "Every explicitly selected extra residual four-set is an actual member. Selection does not assign any other internal membership. The represented universe is the union of the complete root core and selected actual members, with at most its one canonical extra point; every other exterior point remains unrepresented. Every fixed-member anchor, triangle, B4, sunflower-pruning and H27-witness test includes all selected actual members.",
+    "C5/P5 costs and whole-component singleton lower bounds use the ordinary lemmas in D18-structural-tools.md and literal six-point-support checks.",
+    "When s>=8 or d>=17 and k is7,8,9,10, the complete rooted point-link graph must occur in the classified intersecting I_k templates. All eight I7 templates are included; k7 alone is insufficient.",
+    "The complete triangle-plus-path star lemma applies at each literal full seven-point hub, including H7: degree minus the three internal cover completions is at most15; singleton>=8 gives near size at most5 plus those completions.",
+    "For every ordered pair of fixed actual members with exactly two common points, the universal B4 two-anchor triangle inequality s_m(R)+p_km(R)-1[(M minus h) union k is actual]<=12 is imposed for both shared m and both k in R minus M; root-companion membership and fixed-root offsets are exact.",
+    "A literal pair of fixed actual members whose v-link triples are disjoint and both near an actual anchor forces its exact-v singleton count at most7 by B4. Named rows subtract exact root-star offsets; corresponding central local singleton states >=8 are pruned only under that same witness, with no mutation of cached catalogues.",
+    "Y singleton-pool H27, cross15, affine and conditional rows apply to P10/P9. C5 pair rows use all partners; P5 pair rows separately exclude each vertex of its unique two-cover.",
+    "The entire root-avoiding residual family with at most one Y point is intersecting: two disjoint members would admit a prescribed P9/P10 root cone avoiding their at-most-two-point combined Y trace, giving an empty-core sunflower. H27 bounds its full trace sum by27, with no root-cone offset and no exterior-support restriction.",
+    "For a literal complete disjoint-support P9+K root link, every fixed actual Q outside x+Y has disjoint complement at most22 by the ordinary complete-link/HP15 lemma; at |F|>=68 its neighbourhood is at least46. Both rows use exact root-cone offsets, retain all surviving K cones, and require no Y-empty premise or support/classification bound on K.",
+    "For each such fixed outside Q, the exact surviving K cones further sharpen the complement cap: k0 gives20, k>0 gives20+k, empty common intersection gives9+k, and singleton common intersection gives15+k by HP15 and the literal sunflower excluding simultaneous complementary exceptional traces. The minimum with22 is used; the corresponding neighbourhood bound is68 minus that cap. These local facts require only mu41/cap18, not cap16 no-P9.",
+    "For every represented centre z outside x+Y in a P9 branch, the actual z-copies whose Y triples lie in H+B are bounded by6 via HP15 with the actual xH9 star; a separate row applies to H+C. Both centres are outside the tails. B and C are complementary and are never combined into one claimed intersecting tail family. All columns are full four-point traces and no root-cone offset applies.",
+    "Small-complete-core H27 and guarded Z cross15/clique-H27 use the stated actual-member avoidance proofs; no universal whole-Z intersecting pool is assumed.",
+    "Optional external H27 clique rows are hash-bound data: every trace pair including self is rechecked for a shared point or a declared fixed actual member disjoint from both. Fixed members must occur in this receiving branch and lie in the source represented universe plus the excluded root. Only same-universe transfer or root-cone-only lifting to one added actual marker is allowed; the latter aggregates every fine trace by restriction. Discovery weights and stored validation claims are ignored.",
+    "Prior-art cross15, crowding26 and minimum used degree7 at mu41/cap<=18 are enabled and source-hash-bound to their ordinary bridges and prior replay receipts.",
+    "The local43 call uses emin=17 and bootstrap parameters r10=r9=0; the prior \u03bc41/cap18 minimum used degree7 is imported; no finite exterior support is assumed.",
+    {
+      "case": "E4_28",
+      "actual_marker": 1793,
+      "empty_z": true,
+      "assigned_z": null,
+      "forbidden": [
+        15,
+        23,
+        27,
+        29,
+        30,
+        39,
+        43,
+        45,
+        46,
+        51,
+        53,
+        54,
+        57,
+        58,
+        60
+      ],
+      "forbid_four_core": false,
+      "degree_distributions": false,
+      "crowding_imports": true,
+      "h27_cliques": null,
+      "extra_members": [],
+      "selected_actual_members": [
+        1793
+      ],
+      "represented_points": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ],
+  "geometry_sha256": "db6c9343cf8e85d4db8bf9c70cf1dbf9f876ec65d180c7f52d33ec64ff9c9db7",
+  "geometry_validation": "complete producer catalogue reproduced, including its exhaustive group/orbit coverage checks",
+  "h27_clique_dependency": null,
+  "P10_exclusion_binding": {
+    "required": false,
+    "reason": "P9-side internals remain free"
+  },
+  "dependencies": {
+    "local43": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/upstream/MU42/scripts/local43.py",
+      "sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b"
+    },
+    "structural_note_sha256": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-structural-tools.md",
+      "sha256": "3ca78644de3e4aaab94372300b9b3f3801ae79ba73766d2784d39d741302fc33"
+    },
+    "pool_note_sha256": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-pool-research.md",
+      "sha256": "7a5422df629f7f9e5137be88b9d7fdf52ccf39f309fd1fdc49a728dea24803a8"
+    },
+    "written_arbitrary_support_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/paper/main.tex",
+      "sha256": "4aa36c9d56af5a8e3bdb44749107820549a73e0d3405e6c700104fa4c30e5c21"
+    },
+    "cross15_certificate": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/cross15/results/cross16_certificate.json",
+      "sha256": "fa9e49530acf9170b073c4ed24fde9ae9eb30ff78bf1edeed2a8f21018ed839b"
+    },
+    "cross15_checker": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/cross15/src/verify.py",
+      "sha256": "f72bdb066eb40ebd3a5c072d0ed8431a547d06ae8d5581c408a44326df31422d"
+    },
+    "crowding26_certificate": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/crowding/certificates/crowding26.json.gz",
+      "sha256": "071d5bffc5b12979b5cb908e47f8460531ff08da99597f0e04d409335f8af825"
+    },
+    "crowding26_checker": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/crowding/code/verify.py",
+      "sha256": "397f9ab5cf361a1c6ba547e5fb0ac4a774bba967b26f637e7c951b9ed1104876"
+    },
+    "prior_foundation_ledger": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/FOUNDATION_LEDGER.md",
+      "sha256": "3658ac4e94efe4bc5240856300c79c43d1388085c2126cb926df64dd48881992"
+    },
+    "prior_selected_replay_receipt": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020/RECEIPT.json",
+      "sha256": "930a417d5f24c10056c9b10fb436fc7e52bdb13d327ed262edb895d1fd5eae8f"
+    },
+    "current_prior_delta18_unlock": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/prior-delta18-unlock.json",
+      "sha256": "574774b2a12665f403932dcd45fe8269c84d105d60db367e357f27fa8c10442f"
+    },
+    "prior_minimum7_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/analysis/mu41/mu41-analysis.md",
+      "sha256": "5b9821b942b6e782725c970332e00611eda29f238b96ca345b9c99f11f89744e"
+    },
+    "additional_core_rows_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-additional-core-rows.md",
+      "sha256": "24f3539afc3e48eb20a05643186c985eb9531cc45ded598b6ae7a6b842195b5b"
+    },
+    "triangle_path_hub_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-Q8-internal-research.md",
+      "sha256": "fb6b3918fe2e47cb23f7c4889b9d09bb6195da27bd7ec5572e218cad328887a6"
+    },
+    "D17_route": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-I7-classification-route.md",
+      "sha256": "a86e80d8377f24218194461c7e2dd92ffe44c3d6b4a505240bd050f129dcb504"
+    },
+    "I7_certificate": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/r16/results/seven_certificate.json",
+      "sha256": "fe172301b201819c029d9a1b7e8931f516cbd90aa978977118b7853b2ead7164"
+    },
+    "I7_upstream_checker": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/r16/src/check_seven.py",
+      "sha256": "f8d157274c5625fac692e6fd015c6d23a28b212cd82da0e0397ff00e30382705"
+    },
+    "I7_independent_checker": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17_i7_coverage.py",
+      "sha256": "fa59a11857d7dfdc3047a660f6fcb6204206ac311880e95e1f52c373718909a9"
+    },
+    "I7_independent_receipt": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-i7-coverage.json",
+      "sha256": "030fcb5ec6e64c738f306409fca83ed962c3afefb5225378295d3a6601c196df"
+    },
+    "R16_prior_normal_output": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020/terminal_r16_normal/stdout.json",
+      "sha256": "0cca051a5653c18778c2772d2ee3e08aee62c6125871071d24745bcd33163031"
+    },
+    "R16_prior_optimized_output": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020/terminal_r16_optimized/stdout.json",
+      "sha256": "0cca051a5653c18778c2772d2ee3e08aee62c6125871071d24745bcd33163031"
+    },
+    "adaptation_source_D18_v4": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_projection_v4.py",
+      "sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f"
+    },
+    "adaptation_source_D17_v1": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection.py",
+      "sha256": "3d79ea4a0755f59aa8107c89d773600bc0965aa751772c337c3431c3a7caff52"
+    },
+    "two_actual_anchor_triangle_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-I06-triangle-closure.md",
+      "sha256": "3ae4598a645482695649bf484ac906cb14b08129d88310e44d92413f8f5c2c0b"
+    },
+    "D17_full_family_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-full-model-bridge.md",
+      "sha256": "e38dda22a26ef5c1374e298b6ebc13ea949d592f2d531db46d56f31714ebf7db"
+    },
+    "adaptation_source_D17_v2": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v2.py",
+      "sha256": "497f71f4fdf555c7456b42123684e7fd5059769f89662c257e2263425798b31a"
+    },
+    "D17_H27_clique_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-H27-clique-addon.md",
+      "sha256": "79bc58ae5cb189094f2b088648e8adbc0ccb21f8e53ebcf5d534e548870f74b5"
+    },
+    "trace_H27_general_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/TRACE-H27-CLIQUE-SEPARATION.md",
+      "sha256": "b53d1ad5d1bc9888e46b99f93287985a9fe1c71205742c46541e1925f872067a"
+    },
+    "trace_H27_separator": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/trace_h27_cliques.py",
+      "sha256": "7babb3530d3e4e1f063692c276afe95f807ea5f01c216cb860fcb8b78842169f"
+    },
+    "adaptation_source_D17_v3": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v3.py",
+      "sha256": "d247fa0ac29e5ea765f5ede2d60df9ff9ce89e905f86f1295161acedceb370ae"
+    },
+    "marked_B4_general_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-marked-B4-row.md",
+      "sha256": "a6472d0196e514f9b6396665334993880f080414a9199d42a4f50fc5c1481cfe"
+    },
+    "D17_marked_B4_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-marked-B4-addon.md",
+      "sha256": "7c8d5efd1f00c45d2745e6e29e50ff882de1c6bf7c52ef16abfb7c957b624f00"
+    },
+    "adaptation_source_D17_v4": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v4.py",
+      "sha256": "a1beae56f60205a48442a1c6a31d2148557443511fb119a1936ffda8578bebf2"
+    },
+    "D17_extra_actual_members_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-H7-equality-extra-members.md",
+      "sha256": "c90e0d6b6499f1bba693c5258fdd467f105fde7da58f5fb32bfd19957b75c440"
+    },
+    "adaptation_source_D17_v5": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v5.py",
+      "sha256": "bee8278d87557a3f979d7c69022d62d775e74f093cb87ece2c935e6f1acd1210"
+    },
+    "D17_whole_zero_or_one_Y_H27_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-Y-at-most-one-H27.md",
+      "sha256": "fb56a2f7595c58017d7bafda7d841c076a360e7f6b13123b0977ac7de5ce3ebc"
+    },
+    "adaptation_source_D17_v6": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v6.py",
+      "sha256": "8f43465ef15e09ba5ea8f472a4382f844ccb3ebeface8841f7963625f65e8138"
+    },
+    "P9_disjoint_complement22_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/P9-disjoint-complement22.md",
+      "sha256": "5c8a35321547cd7443146491d17546be0594a6e4f2d8d262811290d7d380214b"
+    },
+    "D17_P9_complement22_projection_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-P9-complement22-addon.md",
+      "sha256": "3ea3bf6874a76ae3f3b3d95b0cc8e8ce1a40090472c6c10ddbb32accdc5669f8"
+    },
+    "adaptation_source_D17_v7": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v7.py",
+      "sha256": "f8108979ae0c461d8e897b660e5d96565fd9a58afbe7465d0839dcf25c990de3"
+    },
+    "P9_literal_complement_profile_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/P9-literal-complement-profile.md",
+      "sha256": "1a8556b569ca5c6816a4ed2821dfe4cb280bdb3b0eeeb6b890eb034e4aa1d410"
+    },
+    "adaptation_source_D17_v8": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v8.py",
+      "sha256": "c7cf58b6d2bc9e523d729dbc5a2ae9aeb83164fabed3b4b1211b30d6e889f245"
+    },
+    "D17_P9_actual_copy_cross15_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-P9-copy-cross15.md",
+      "sha256": "3652fd6c61dc2cb79833e352ced179eecd06533dc77d7499cec9f2202fac530e"
+    }
+  },
+  "premise_sha256": "6a6d62edbc6658ed91b0a6fe04c020f5bc3fe831e9220b83c9f145f0f38d7822",
+  "replay_evidence_sha256": "1da6f57f56eaf33486e0a5655a35cd70f54cc35a792e5350894debd4ce3c16af",
+  "model": {
+    "columns": 35033,
+    "trace_columns": 1093,
+    "upper_rows": 1395,
+    "equal_rows": 136,
+    "catalogue_sizes": [
+      2018,
+      2018,
+      854,
+      854,
+      2018,
+      854,
+      854,
+      854,
+      854,
+      3194,
+      3194,
+      3194,
+      3194,
+      3194,
+      3194,
+      1799,
+      1799
+    ]
+  },
+  "Y_at_most_one_H27_validation": {
+    "required": true,
+    "rows": 1,
+    "actual_Y_blocks": 9,
+    "two_avoidance_table": [
+      {
+        "Y_points": [],
+        "actual_root_cone": 32803
+      },
+      {
+        "Y_points": [
+          0
+        ],
+        "actual_root_cone": 32790
+      },
+      {
+        "Y_points": [
+          1
+        ],
+        "actual_root_cone": 32781
+      },
+      {
+        "Y_points": [
+          2
+        ],
+        "actual_root_cone": 32803
+      },
+      {
+        "Y_points": [
+          3
+        ],
+        "actual_root_cone": 32803
+      },
+      {
+        "Y_points": [
+          4
+        ],
+        "actual_root_cone": 32803
+      },
+      {
+        "Y_points": [
+          5
+        ],
+        "actual_root_cone": 32781
+      },
+      {
+        "Y_points": [
+          0,
+          1
+        ],
+        "actual_root_cone": 32812
+      },
+      {
+        "Y_points": [
+          0,
+          2
+        ],
+        "actual_root_cone": 32794
+      },
+      {
+        "Y_points": [
+          0,
+          3
+        ],
+        "actual_root_cone": 32790
+      },
+      {
+        "Y_points": [
+          0,
+          4
+        ],
+        "actual_root_cone": 32810
+      },
+      {
+        "Y_points": [
+          0,
+          5
+        ],
+        "actual_root_cone": 32790
+      },
+      {
+        "Y_points": [
+          1,
+          2
+        ],
+        "actual_root_cone": 32793
+      },
+      {
+        "Y_points": [
+          1,
+          3
+        ],
+        "actual_root_cone": 32817
+      },
+      {
+        "Y_points": [
+          1,
+          4
+        ],
+        "actual_root_cone": 32781
+      },
+      {
+        "Y_points": [
+          1,
+          5
+        ],
+        "actual_root_cone": 32781
+      },
+      {
+        "Y_points": [
+          2,
+          3
+        ],
+        "actual_root_cone": 32803
+      },
+      {
+        "Y_points": [
+          2,
+          4
+        ],
+        "actual_root_cone": 32803
+      },
+      {
+        "Y_points": [
+          2,
+          5
+        ],
+        "actual_root_cone": 32793
+      },
+      {
+        "Y_points": [
+          3,
+          4
+        ],
+        "actual_root_cone": 32803
+      },
+      {
+        "Y_points": [
+          3,
+          5
+        ],
+        "actual_root_cone": 32790
+      },
+      {
+        "Y_points": [
+          4,
+          5
+        ],
+        "actual_root_cone": 32781
+      }
+    ],
+    "two_avoidance_table_sha256": "d714e1ce281be108b758e0081ddb335eed115bc4b094d59874aece9ff347f82c",
+    "Y_classes": 7,
+    "literal_class_pairs_including_diagonals": 28,
+    "included_trace_columns": 483,
+    "trace_pairs_including_diagonals_covered_by_table": 116886,
+    "root_cone_offset": 0,
+    "row_sha256": "3cab418da24af6a4a3a238185b589627743d5b0a3e7685e32d8d52fa9a41ab83",
+    "scope": "independent actual-root-cone TwoAvoidance on all22 Y subsets, all28 zero/singleton class pairs including diagonals, and every full row coefficient/RHS; arbitrary exterior completions are covered by the root-avoiding trace lemma; H27 remains imported"
+  },
+  "P9_complement22_validation": {
+    "required": false,
+    "rows": 0
+  },
+  "P9_literal_complement_profile_validation": {
+    "required": true,
+    "applicable": true,
+    "rows": 0,
+    "actual_anchors": [],
+    "P9_block_count": 9,
+    "outside_link_count": 8,
+    "triple_transversals": 11,
+    "row_sha256s": [],
+    "scope": "independent canonical P9/transversal/complete outside-link guards, actual selected Q decoding, and every coefficient/RHS/root offset of both rows; literal surviving-cone profiles and HP15 are explicit pinned ordinary/imported inputs"
+  },
+  "P9_actual_copy_cross15_validation": {
+    "required": true,
+    "applicable": true,
+    "rows": 14,
+    "centres": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "separate_exceptional_traces": [
+      7,
+      56
+    ],
+    "root_cone_offset": 0,
+    "row_sha256s": [
+      "f3c263ae458d618b3c2948a710773b824c8d8977ec0efa638505654d7f8f55ec",
+      "e79e895c472d109b4c1a3aa52a650b63a26d5e55bd6095d0987dc4f81b489c8d",
+      "3716a5df05963caaa156f363e8aaae1fd5da2eaf33a699402185779215ce8a6c",
+      "d4db5078966d162065400f2c611163070f64b884b490b05e36f9074eb238cdc5",
+      "00912342a4a97608d8a560cf9da215fd081ed735b36bbc8e45773bc40e6336ff",
+      "655101eae2561e86eff2dc9a55e05da8471f3a0a40b2bf48ca32d7e5cf197677",
+      "9453497a6066b2a3dfdd3973c4168b1e8ccf547664858160c77f3463fde11da7",
+      "7f5dcd2e1cc3ea083f2ad623c120c8ba947a01b563e3562e7f1ec2ddc797b770",
+      "af6028d7b49f32cb9b31ce2f92744a2d0a66aefd3636ed9412ab0f26128ca90a",
+      "df0b619f1764de70d648d304fa5e830c0a6d6f38fe46c20c0b7a6bf4d3b19d08",
+      "2a1c8d1b909d1c5d5186675e0c519f41963a1074988b4bc2656a431c81dae209",
+      "a35c621c3228934f62f2d2272a0818af887befe824f0d9a6618380b3e44caf9c",
+      "de795e3370dbe166b57a636a3a8e71605481f8422445dee05ead911d1e6853ad",
+      "1ed15e785c4d0cd042ae3e78fe31508bb038cb6ac5f5f287051624318264ec4f"
+    ],
+    "scope": "independent actual nine-tail root star, separate intersecting/cross-intersecting H+B and H+C templates, all represented exterior centres, exact full-four-trace columns and every coefficient/RHS; HP15 remains an explicit pinned import"
+  },
+  "integer_model_validation": "all entries, right sides, and finite box endpoints validated",
+  "model_sha256": "35e13aa7078fae30e0cefa28e12f0b4287f682c0640d97a2f11b6a43af3f37bc",
+  "model_hash_encoding": "JSON header of traces/labels/shapes, then named flattened CSR arrays/RHS/boxes as little-endian signed int64",
+  "extra_actual_member_validation": {
+    "required": true,
+    "extra_members": [],
+    "selected_actual_members": [
+      1793
+    ],
+    "represented_points": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "fixed_actual_member_count": 18,
+    "scope": "independent literal support, trace domain/boxes, selected membership and all fixed-anchor cap/mu41/pair19/crowding/disjoint-H27 rows; triangle/B4/H27 clique validations are separate",
+    "trace_domain_checked": true,
+    "all_trace_boxes_checked": true,
+    "selected_membership_boxes_checked": true,
+    "fixed_anchor_rows_checked": 468,
+    "fixed_anchor_rows_sha256": "888308c03c365450f68d48abdf97add988f9b32054a81549eb84b4934a3e2690",
+    "root_only_offsets_checked": true
+  },
+  "triangle_row_validation": {
+    "required": true,
+    "rows": 384,
+    "companion_counts": {
+      "root-present": 78,
+      "root-absent": 126,
+      "residual": 180
+    },
+    "fixed_offset_counts": {
+      "0": 192,
+      "10": 108,
+      "9": 36,
+      "11": 12,
+      "1": 12,
+      "12": 12,
+      "2": 12
+    },
+    "scope": "all fixed actual ordered pairs and both m/k choices decoded with point sets; every full sparse coefficient and RHS checked; no independent verification of other producer rows"
+  },
+  "h27_clique_row_validation": {
+    "required": false,
+    "rows": 0
+  },
+  "marked_B4_validation": {
+    "required": true,
+    "rows": 0,
+    "literal_guard_count": 0,
+    "rows_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "pruning_checked": true,
+    "guarded_local_coordinates": 0,
+    "guarded_root_anchors": 0,
+    "decoded_local_selector_columns": 33940,
+    "decoded_feature_sha256": "b9dc403eb1c52dcdb11f848e16ee5bced40065232575e904e19ba572b4a9a0ca",
+    "local_anchors": [
+      {
+        "anchor": 32803,
+        "selector_columns": 2018,
+        "first_column": 1093,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 32781,
+        "selector_columns": 2018,
+        "first_column": 3111,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 32793,
+        "selector_columns": 854,
+        "first_column": 5129,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 32817,
+        "selector_columns": 854,
+        "first_column": 5983,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 32790,
+        "selector_columns": 2018,
+        "first_column": 6837,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 32794,
+        "selector_columns": 854,
+        "first_column": 8855,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 32810,
+        "selector_columns": 854,
+        "first_column": 9709,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 32812,
+        "selector_columns": 854,
+        "first_column": 10563,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 32820,
+        "selector_columns": 854,
+        "first_column": 11417,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 33600,
+        "selector_columns": 3194,
+        "first_column": 12271,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 34112,
+        "selector_columns": 3194,
+        "first_column": 15465,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 34368,
+        "selector_columns": 3194,
+        "first_column": 18659,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 33664,
+        "selector_columns": 3194,
+        "first_column": 21853,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 34176,
+        "selector_columns": 3194,
+        "first_column": 25047,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 34432,
+        "selector_columns": 3194,
+        "first_column": 28241,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 35008,
+        "selector_columns": 1799,
+        "first_column": 31435,
+        "singleton_guards": []
+      },
+      {
+        "anchor": 37056,
+        "selector_columns": 1799,
+        "first_column": 33234,
+        "singleton_guards": []
+      }
+    ],
+    "scope": "independent literal-set witnesses, complete cap7 row coefficients/root offsets, and every final local feature equation; every surviving witnessed singleton is <=7, including empty-block/root guards; universal catalogue completeness and unrelated pruning remain shared-producer/ordinary-proof dependencies"
+  },
+  "exact_replay": {
+    "scale": 10000000000,
+    "H": 475000000000,
+    "correction": 25000000000,
+    "upper_numerator": 500000000000,
+    "target_numerator": 510000000000,
+    "strict_exclusion": true,
+    "reduced_upper": [
+      50,
+      1
+    ],
+    "q_columns": 35033,
+    "q_sha256_decimal_lines": "9961aa1900faba285cff3c028742855abe21882246fb98a9944bbf12835129c3",
+    "nonzero_inequality_weights": 14,
+    "nonzero_equality_weights": 4,
+    "numerical_display": "not used or trusted"
+  },
+  "all_inputs_unchanged": true,
+  "conclusion": "Exact trace upper bound excludes 51 residuals in the stated conditional model.",
+  "seconds": 4.024159264008631
+}

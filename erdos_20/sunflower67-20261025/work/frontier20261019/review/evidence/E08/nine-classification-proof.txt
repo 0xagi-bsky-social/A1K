@@ -1,0 +1,136 @@
+Candidate universal classification of intersecting nine-triple families
+2026-10-19. Mathematical proof candidate; not yet Lean-elaborated.
+No literature novelty claim is made. Python enumeration is diagnostic only.
+
+STATEMENT.
+Let F be a family of nine distinct three-element sets. Suppose any two members
+intersect and no three distinct members have equal pairwise intersections
+(the empty core is included). Then support(F) has six elements, exactly three
+of degree four and three of degree five. If L is the set of the degree-four
+points, then F union {L} is an intersecting three-sunflower-free ten-triple
+family. This is the unique intersecting three-sunflower-free ten-triple
+extension of F over any ambient set.
+
+LOCAL INPUTS ALREADY PRESENT IN PINNED A1K.
+1. Intersecting sunflower-free triple families of size at least seven have
+   point degree at most five (Erdos20ExtremalStructure).
+2. For anchor R={a,b,c}, exact pair traces have size <=1, and
+   s_a+p_bc <=3, s_b+p_ac <=3, s_c+p_ab <=3
+   (Erdos20RankThree.opposite_traces_sum_le_three).
+3. A pair has codegree at most two: three distinct triples through one pair
+   would be a sunflower with that pair as core.
+4. Intersecting sunflower-free ten-triple families have support six and are
+   regular of degree five (retained A1K extremal-structure theorem).
+
+PROOF, STEP 1: LOCAL DEGREE PATTERNS.
+For R={a,b,c}, let s_a count exact singleton trace {a}, and p_ab count exact
+pair trace {a,b}; similarly for the others. There is no empty trace because F
+is intersecting; the full trace has exactly the anchor R. Hence S+P=8,
+where S=s_a+s_b+s_c and P=p_ab+p_ac+p_bc. Each p is zero or one.
+Put q_a=s_a+p_bc, etc. Then q_a+q_b+q_c=8 and 0<=q_i<=3, so the q-values
+are 2,3,3 in some order. Furthermore
+  d(a)=1+q_a+P-2*p_bc,
+and likewise. Enumerating the four values P=0,1,2,3, and using d<=5, gives
+the following UNORDERED degree patterns for every member:
+  (2,5,5), (3,4,4), (3,4,5), (4,4,5), (4,5,5).
+This seven-variable arithmetic check can separately be proved by omega.
+In particular every supported point has degree 2,3,4 or 5.
+
+STEP 2: DEGREE TWO IS IMPOSSIBLE.
+Every member contains at most two degree-five points, so incidence counting
+gives 5 * (#degree-five points) <= 18; there are at most three such points.
+If d(x)=2, take an anchor through x. Its pattern is (2,5,5). In the above
+trace variables d(x)=2 forces P=1, p_(opposite x)=1 and both pair traces
+containing x to be zero. Its other x-containing member therefore meets the
+anchor exactly in {x}. The four other vertices of these two triples are
+distinct; all four have degree five by applying the member pattern to both
+triples. This contradicts the global bound of three degree-five points.
+
+STEP 3: ONLY THREE DEGREE CENSUSES REMAIN.
+Write b,c,d for the counts of degrees 3,4,5. From the four surviving member
+patterns: every member contains a degree-four point, at most one degree-three
+point, and at most two degree-five points. Consequently c>=3, b<=3, d<=3.
+The incidence identity is 3b+4c+5d=27. Its only nonnegative solutions under
+these constraints are
+  (b,c,d)=(0,3,3), (1,6,0), (2,4,1).
+For (1,6,0), the sole available member pattern is (3,4,4), so every member
+contains the unique degree-three point; its degree would be nine, absurd.
+
+STEP 4: EXCLUDE (b,c,d)=(2,4,1).
+Let l_1,l_2 be the two degree-three points, M the four degree-four points,
+and z the unique degree-five point. The possible member types are
+ B: {z}+a pair of M,          pattern (4,4,5),
+ C: {z,l_i,m},               pattern (3,4,5),
+ D: {l_i}+a pair of M,       pattern (3,4,4).
+Counting degree-three and degree-five incidences gives exactly B=3,C=2,D=4.
+The three M-pairs occurring in B form a simple three-edge graph G on four
+vertices. Each vertex degree in G is <=2, since otherwise the three B-triples
+would be a sunflower with core {z,m}. Thus G is a triangle plus an isolated
+vertex, or a three-edge path. This elementary classification has no ambient
+points omitted: M has exactly four vertices.
+
+If G is a triangle, every D-pair must be a two-vertex cover of that triangle
+(to intersect each B member), hence cannot contain the isolated M-vertex.
+The isolated vertex occurs only in the two C members, contradicting degree4.
+
+If G is path a-b-c-d, the two-vertex covers are precisely {a,c},{b,c},{b,d}.
+Let u,v,w be the numbers of D members using those pairs. Each is <=2 because
+there are only two possible l_i values, and u+v+w=4. In B the two endpoints
+a,d have combined degree two. In D their combined incidence is u+w=4-v.
+Their total required degree is eight, so their combined C-incidence is
+  8-2-(4-v)=2+v.
+There are only two C members and each has only one point of M. Therefore
+v=0 and u=w=2. Consequently both {l_1,a,c} and {l_2,b,d} occur, but are
+disjoint. This contradicts intersectingness. The other degree-three census
+is excluded, leaving (b,c,d)=(0,3,3) and support size six.
+
+STEP 5: IDENTIFY THE UNIQUE MISSING TRIPLE.
+Let L be the three degree-four points, H the three degree-five points.
+Every member has type A=(one L, two H) or B=(two L, one H). Their counts are
+A=6,B=3, by total cardinality and incidence at H. There are three pairs in H;
+each occurs in at most two A members. Since there are six A members, every
+H-pair occurs in exactly two. Thus every H-point appears in four A members
+and, having degree five, in exactly one B member.
+Each B member has a distinct complementary A-type triple in the six-point
+support. That complement is absent from F by intersectingness. Since exactly
+three of the nine possible A-type triples are absent, these three complements
+are exactly the missing A-type triples.
+For l in L, let b_l be the number of B members containing l. Exactly 3-b_l
+B members omit l, so the number of absent A-type triples with lone L-point l
+is 3-b_l. Thus the A-degree of l is 3-(3-b_l)=b_l. Its total degree is
+4=2*b_l, hence b_l=2. Each pair of L therefore occurs in exactly one B member.
+
+Adjoin L itself. It meets every old member. A sunflower involving it and two
+old members would need those old members to have the same trace on L.
+Two A members with that trace have the same lone L-point but their two H-pairs
+intersect (H has size three), so their total intersection is larger than the
+trace. Two B members with the same trace would have the same L-pair, which is
+impossible by the preceding uniqueness. A and B have different trace sizes.
+Thus adjoining L preserves three-sunflower-freeness and intersectingness.
+Uniqueness over an arbitrary ambient set follows from input 4: any ten-triple
+extension is supported on six points, so has the same support as F, and must
+raise each of the three degree-four points to five without raising a point
+already of degree five. Its added triple is exactly L.
+
+COROLLARY FOR A1K'S NINETEEN-MEMBER MAX-DEGREE-FIVE LEAF.
+Apply the retained decomposition of a nineteen-member sunflower-free triple
+family of maximum degree five into disjoint-support intersecting components
+of sizes ten and nine. The nine component uniquely extends to a ten-design
+on its same six-point support. Therefore the full nineteen-family has support
+exactly twelve, point-degree multiset (4^3,5^9), and uniquely extends to a
+twenty-member sunflower-free triple family by adjoining its degree-four set.
+For uniqueness among arbitrary twenty-member sunflower-free extensions use
+the retained extremal-twenty theorem (support12 and every degree5).
+
+DIAGNOSTIC CHECKS, NOT PART OF THE MATHEMATICAL PROOF.
+nine_diagnostic.py enumerates all labelled nine-member families on Fin6;
+120 satisfy the hypotheses and each has exactly one ten-member completion.
+Three canonical degree-three roots checked 210,210,84 six-member residual
+selections on Fin7 and found no examples, consistent with Step 4.
+
+OPEN FORMAL OBLIGATIONS.
+1. Compile the local trace-to-degree-pattern bridge and global census.
+2. Formalize Step4 graph classification (or its small complete Fin4 check).
+3. Formalize complement pairing and extension preservation in Step5.
+4. Assemble universal theorem and nineteen-family corollary; axiom audit.
+The proof above is a mathematical proof candidate until these checks finish.

@@ -1,0 +1,21 @@
+{
+  "module": "Local51",
+  "exit_code": 0,
+  "status": "completed",
+  "elapsed_seconds": 2.0440823369999634,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-j1",
+    "-M512",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/build/Local51.olean",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/Local51.lean"
+  ],
+  "source_sha256": "3b18d67905cd8920561b71cfc4e2a791dcdece66d3e7d7465684a301614b7077",
+  "source_stable": true,
+  "lean_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/build:/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/closure-rebuild/build:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/batteries/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/mathlib/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/plausible/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/Cli/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/Qq/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/importGraph/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/upstream/sunflower-lean/.lake/packages/aesop/.lake/build/lib/lean",
+  "object_sha256": "af06fc1c2e37167445b9c62e7ab314c78b5a333e7e347910d8fdbb6e4c6a72ff",
+  "output_sha256": "5f19f812e36032a0efd56aa70b4d448c8f056efd66ad9eb3a2c1c7917114bc4b",
+  "assurance": "elaborated",
+  "limits": "pinned existing dependency cache; not clean independent reproduction"
+}

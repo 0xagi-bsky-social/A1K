@@ -1,0 +1,121 @@
+{
+  "agent_id": "/root/r67_literature",
+  "role": "literature_reviewer",
+  "context_id": "/root/r67_literature",
+  "round": 1,
+  "snapshot_sha256": "7912a1f1de1f27d72b2a2e660626f338303bf8cf71085720b4c1e304e670b5ba",
+  "manuscript_sha256": "2c200bf5dff9e665e7dab3ba3f5a1ef019251d341a1913d1f5bd2fc3c086f937",
+  "summary": "The contract identifies a genuine directly comparable one-unit upper-bound target under matching conventions. Primary records support the separation from the ground-set theorem, the versioned comparison with upper 68, and the ordinary imported-theorem framing. The bounded novelty language is appropriate. A minor attribution revision is needed for the classical lower construction and triple extremum. This round does not certify the complete new proof or exhaustive originality.",
+  "evidence_ids": [
+    "literature-refresh",
+    "general-literature",
+    "external-scope",
+    "prior-ledger"
+  ],
+  "decision": "revise",
+  "required_revisions": [
+    "In Sections 2 and 3, credit the classical provenance of the 27-member construction and resulting lower 54 to Abbott and Hanson, and the exact triple extremum M(3,3)=20 to Abbott and Gardner. Add bibliographic references or explicitly attribute these through reference [1]; distinguish the classical construction from the new intersecting upper bound in [1]."
+  ],
+  "findings": [
+    {
+      "id": "LIT-R1-01",
+      "statement": "The manuscript names the recent source for the 27-member equality construction and uses the triple bound 20, but omits their classical provenance. Reference [1] explicitly credits Abbott and Hanson for its construction (6.14), and Abbott and Gardner for (6.1).",
+      "severity": "minor",
+      "status": "open",
+      "disposition": "Add the requested historical attribution without changing the imported theorem contracts. Evidence is [1], Section 6.1, paragraph after (6.14), Table 1, and references [2] and [4].",
+      "evidence_ids": [
+        "external-scope",
+        "literature-refresh"
+      ]
+    },
+    {
+      "id": "LIT-R1-02",
+      "statement": "The current novelty claim is bounded to the strongest comparable primary bound located by the recorded search; it does not claim exhaustive priority or a solution of the all-rank conjecture.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Retain these qualifications in the abstract, introduction and conclusion. Theorem 2 also appropriately declines a separately exhaustive novelty claim.",
+      "evidence_ids": [
+        "literature-refresh",
+        "general-literature"
+      ]
+    },
+    {
+      "id": "LIT-R1-03",
+      "statement": "The H27 source is a computer-assisted preprint whose original exhaustive computation has not been replayed locally; Jin is checked through an explicitly identified scholarly restatement.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "The manuscript discloses these boundaries adequately. Ordinary theorem import is a legitimate framing; the source status does not establish local independent certification.",
+      "evidence_ids": [
+        "external-scope",
+        "prior-ledger"
+      ]
+    }
+  ],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Frozen round identity and literal theorem",
+      "method": "Computed SHA-256 of manuscript bytes and of sorted compact UTF-8 snapshot JSON; read contract and roster.",
+      "observation": "Both hashes match the supplied commitments. Section 1 defines maximum family size, distinct members, exact rank four and empty-core sunflowers; exclusion of 68 therefore means M(4,3)<=67.",
+      "result": "supported",
+      "evidence_ids": []
+    },
+    {
+      "scope": "Direct rank-four comparison and source version",
+      "method": "Opened the primary aiXiv abstract record and compared it with Sections 1-2 and the frozen foundation ledger.",
+      "observation": "[aiXiv v1 record](https://aixiv.online/abs/2610.01292), abstract and submission history, reports exclusion of 69, upper 68, the same simplicity/rank/empty-core conventions, 9 October 2026 v1, and the cited companion commit. It explicitly does not exclude 68.",
+      "result": "supported",
+      "evidence_ids": [
+        "literature-refresh",
+        "prior-ledger"
+      ]
+    },
+    {
+      "scope": "H27 and unchanged lower bound",
+      "method": "Opened the primary versioned full text and inspected definitions, Proposition 6.7, Proposition 6.8 and Theorem 6.9.",
+      "observation": "[Axante et al. v1](https://arxiv.org/html/2609.06175v1), Sections 2.1 and 6.3-6.5, agrees with the manuscript conventions and states the intersecting upper 27 and unrestricted interval 54 to 83. Its arbitrary-support reduction precedes exhaustive search.",
+      "result": "supported",
+      "evidence_ids": [
+        "external-scope"
+      ]
+    },
+    {
+      "scope": "Historical attribution of imported finite facts",
+      "method": "Compared manuscript Sections 2-3 and references against the primary paper attribution around equations (6.1) and (6.14).",
+      "observation": "[Axante et al. v1](https://arxiv.org/html/2609.06175v1) identifies Abbott-Gardner (1969) for the triple extremum and Abbott-Hanson, On finite Delta-systems (1974), for the classical construction. These origins are missing from the reviewed manuscript bibliography and prose.",
+      "result": "contradicted",
+      "evidence_ids": [
+        "external-scope",
+        "literature-refresh"
+      ]
+    },
+    {
+      "scope": "Ground-set versus fixed-rank scope",
+      "method": "Opened the primary Bucić-He-Lee versioned abstract and compared its quantifiers with Theorem 1.",
+      "observation": "[Bucić-He-Lee v1](https://arxiv.org/abs/2610.26686v1), abstract, treats families of subsets of an n-element ground set and exponential growth in n for every k>=3. It is not the same parameter statement as the arbitrary-support rank-four upper 67. The manuscript makes this distinction explicitly.",
+      "result": "supported",
+      "evidence_ids": [
+        "general-literature"
+      ]
+    },
+    {
+      "scope": "Jin theorem contract in the cited restatement",
+      "method": "Opened Nikiforov PDF and inspected Theorem A on PDF page 2.",
+      "observation": "[Nikiforov v1](https://arxiv.org/pdf/1001.2070v1), Theorem A, has 1<=k<=9, triangle-freeness and strict minimum degree greater than (k+1)n/(3k+2), concluding a homomorphism to A_k. This matches Section 2; no assumed surjectivity is present.",
+      "result": "supported",
+      "evidence_ids": [
+        "external-scope"
+      ]
+    },
+    {
+      "scope": "Negative literature-search claim and reported formalization status",
+      "method": "Read FRONTIER_REFRESH.md, general.md and their named general-search-log.json; compared limitations with manuscript Section 2.",
+      "observation": "The logs distinguish indexed discovery from exhaustive archive enumeration and record inaccessible pinned formalization files. The manuscript preserves these limitations and does not assert a local build or transitive axiom audit of the external Lean project. I did not rerun the entire search.",
+      "result": "supported",
+      "evidence_ids": [
+        "literature-refresh",
+        "general-literature"
+      ]
+    }
+  ]
+}

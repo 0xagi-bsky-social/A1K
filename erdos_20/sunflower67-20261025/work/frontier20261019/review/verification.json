@@ -1,0 +1,109 @@
+[
+  {
+    "scope": "facts",
+    "status": "limited",
+    "method": "Initial coordinator comparison of actual local artifacts and primary retrieved text; specialist checks pending",
+    "observations": [
+      "Initial draft qualifications align checked roots with compiler receipts; full scholarly review pending"
+    ],
+    "limitations": [
+      "Initial check is bounded; autonomous agent review is not independent certification"
+    ],
+    "evidence_ids": [
+      "E01",
+      "E02",
+      "E05",
+      "E06",
+      "E16",
+      "E17"
+    ]
+  },
+  {
+    "scope": "citations",
+    "status": "limited",
+    "method": "Initial coordinator comparison of actual local artifacts and primary retrieved text; specialist checks pending",
+    "observations": [
+      "Initial draft qualifications align checked roots with compiler receipts; full scholarly review pending"
+    ],
+    "limitations": [
+      "Initial check is bounded; autonomous agent review is not independent certification"
+    ],
+    "evidence_ids": [
+      "E01",
+      "E02",
+      "E05",
+      "E06",
+      "E16",
+      "E17"
+    ]
+  },
+  {
+    "scope": "logic",
+    "status": "limited",
+    "method": "Initial coordinator comparison of actual local artifacts and primary retrieved text; specialist checks pending",
+    "observations": [
+      "Initial draft qualifications align checked roots with compiler receipts; full scholarly review pending"
+    ],
+    "limitations": [
+      "Initial check is bounded; autonomous agent review is not independent certification"
+    ],
+    "evidence_ids": [
+      "E01",
+      "E02",
+      "E05",
+      "E06",
+      "E16",
+      "E17"
+    ]
+  },
+  {
+    "scope": "methodology",
+    "status": "limited",
+    "method": "Initial coordinator comparison of actual local artifacts and primary retrieved text; specialist checks pending",
+    "observations": [
+      "Initial draft qualifications align checked roots with compiler receipts; full scholarly review pending"
+    ],
+    "limitations": [
+      "Initial check is bounded; autonomous agent review is not independent certification"
+    ],
+    "evidence_ids": [
+      "E01",
+      "E02",
+      "E05",
+      "E06",
+      "E16",
+      "E17"
+    ]
+  },
+  {
+    "scope": "data",
+    "status": "limited",
+    "method": "Initial coordinator comparison of actual local artifacts and primary retrieved text; specialist checks pending",
+    "observations": [
+      "Initial draft qualifications align checked roots with compiler receipts; full scholarly review pending"
+    ],
+    "limitations": [
+      "Initial check is bounded; autonomous agent review is not independent certification"
+    ],
+    "evidence_ids": [
+      "E01",
+      "E02",
+      "E05",
+      "E06",
+      "E16",
+      "E17"
+    ]
+  },
+  {
+    "scope": "text_reuse",
+    "status": "not-run",
+    "method": "Bounded local comparison assigned to copyeditor in review; not yet run",
+    "observations": [
+      "No corpus-wide originality service used"
+    ],
+    "limitations": [
+      "No broad originality or plagiarism-free certificate supported"
+    ],
+    "evidence_ids": []
+  }
+]

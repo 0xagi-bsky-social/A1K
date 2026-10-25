@@ -1,0 +1,13 @@
+{
+  "scope": "Round 9 bounded source audit; no compiler or historical-run replay.",
+  "h27_returned_commit": "d4d5723267c662291efdadfa6e7061d919e76fa9",
+  "h27_returned_commit_tree": "0a3e3838650fc981133940e798c9d220140e785e",
+  "round5_reconstructed_root": "0a3e3838650fc981133940e798c9d220140e785e",
+  "returned_tree_equals_round5_reconstruction": true,
+  "commit_is_earlier_reported_root_identifier": true,
+  "BHL_k3_N8_bound": "307670860178904352216321/404341874203444641792",
+  "BHL_k3_N8_approximate": 760.9176288877262,
+  "C7_4": 35,
+  "C8_4": 70,
+  "limitation": "The API commit metadata identifies the two values as commit and root tree. This does not establish why the earlier tree response mislabeled its sha, validate the historical H27 execution, or provide independent theorem certification."
+}

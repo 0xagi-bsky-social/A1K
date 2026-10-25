@@ -1,0 +1,14 @@
+{
+  "module": "MomentArithmetic",
+  "source_sha256": "2527798e0379bae7e7932b9d9529a7500941cd0237488d52a4c39e97c3c76a06",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/replay-receipt/build/MomentArithmetic.olean",
+    "MomentArithmetic.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 11.205,
+  "output": "'FrontierMomentArithmetic.three_pair_moment_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierMomentArithmetic.six_pair_moment_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+}

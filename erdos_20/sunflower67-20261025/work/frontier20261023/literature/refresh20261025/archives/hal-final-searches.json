@@ -1,0 +1,189 @@
+[
+  {
+    "name": "hal-all-title",
+    "q": "title_t:sunflower*",
+    "url": "https://api.archives-ouvertes.fr/search/?q=title_t%3Asunflower%2A&wt=json&rows=2000&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i%2Cdomain_s%2CprimaryDomain_s&sort=submittedDate_tdate+desc",
+    "retrieved_at": "2026-10-25T13:27:39.284114+00:00",
+    "status": 200,
+    "total": 1323,
+    "retrieved": 1323,
+    "candidate_documents": [
+      {
+        "domain_s": [
+          "0.sdv"
+        ],
+        "primaryDomain_s": "sdv",
+        "title_s": [
+          "An esterase neosynthesized in post-germinated sunflower seeds is related to a new family of lipolytic enzymes."
+        ],
+        "halId_s": "hal-03433722",
+        "uri_s": "https://hal.science/hal-03433722v1",
+        "version_i": 1,
+        "submittedDate_s": "2021-11-17 22:51:25",
+        "producedDate_s": "1997"
+      },
+      {
+        "domain_s": [
+          "0.sdv"
+        ],
+        "primaryDomain_s": "sdv",
+        "title_s": [
+          "Expression of five developmentally regulated gene families in sunflower immature embryos"
+        ],
+        "halId_s": "hal-02773268",
+        "uri_s": "https://hal.inrae.fr/hal-02773268v1",
+        "version_i": 1,
+        "submittedDate_s": "2020-06-04 13:19:38",
+        "producedDate_s": "1995-10-30"
+      },
+      {
+        "domain_s": [
+          "0.sdv"
+        ],
+        "primaryDomain_s": "sdv",
+        "title_s": [
+          "Importance de la resistance a la senescence et de la survie du feuillage dans l'elaboration du rendement du tournesol en eau limitante.",
+          "Importance of the opposition to the senescence and the leaf area survival in the elaboration of the sunflower yield in bounding water."
+        ],
+        "halId_s": "hal-02718905",
+        "uri_s": "https://hal.inrae.fr/hal-02718905v1",
+        "version_i": 1,
+        "submittedDate_s": "2020-06-01 21:53:24",
+        "producedDate_s": "1981"
+      },
+      {
+        "domain_s": [
+          "0.sdv"
+        ],
+        "primaryDomain_s": "sdv",
+        "title_s": [
+          "Cloning and mRNA transcription analysis of five developmentally regulated cDNA families in sunflower immature embryos"
+        ],
+        "halId_s": "hal-02683985",
+        "uri_s": "https://hal.inrae.fr/hal-02683985v1",
+        "version_i": 1,
+        "submittedDate_s": "2020-06-01 03:49:49",
+        "producedDate_s": "1997"
+      },
+      {
+        "domain_s": [
+          "0.sdv",
+          "1.sdv.ida"
+        ],
+        "primaryDomain_s": "sdv.ida",
+        "title_s": [
+          "Quantitation of short-chain glycerol-bound compounds in thermoxidized and used frying oils. A monitoring study during thermoxidation of olive and sunflower oils"
+        ],
+        "abstract_s": [
+          "Major short-chain glycerol-bound compounds were investigated in olive oil (OO) and conventional sunflower oil (SO) during thermoxiclation at 180 &DEG; C for 5, 10, and 15 h. These compounds included methyl heptanoate (C7:0), methyl octanoate (C8:0), methyl 8-oxo-octanoate (8-oxo-C8:0), methyl 9-oxononanoate (9-oxo-C9:0), dimethyl octanodiate (C8:0 diester), and dimethyl nonanodiate (C9:0 diester), which were analyzed by GC after derivatization of triacylglycerols to fatty acid methyl esters. An acceptable linear correlation (r = 0.967) was found between the total content of these compounds and the total content of polar compounds, suggesting that quantitation of the major short-chain glycerol-bound compounds provides a good indication of the total alteration level of oils heated at frying temperature. Samples with levels of polar compounds around 25% on oil showed total contents within 2-3 mg/g of oil. To determine the content of these compounds in used frying oils, 10 samples from restaurants and fried-food outlets in Spain were analyzed. Results showed total levels between 2.13 and 7.56 mg/g of oil in samples with contents of polar compounds ranging from 18.8 to 55.5% on oil. Samples with levels of polar compounds of &SIM; 25% showed total contents of the short-chain compounds similar to those found in the thermoxiclized oils, that is, within 2-3 mg/g of oil."
+        ],
+        "halId_s": "hal-02683436",
+        "uri_s": "https://hal.inrae.fr/hal-02683436v1",
+        "version_i": 1,
+        "submittedDate_s": "2020-06-01 03:16:41",
+        "producedDate_s": "2005"
+      },
+      {
+        "domain_s": [
+          "0.sdv",
+          "1.sdv.sa"
+        ],
+        "primaryDomain_s": "sdv.sa",
+        "title_s": [
+          "Atouts et besoins en innovations du tournesol pour une agriculture durable",
+          "Assets and innovation needs for sunflower in a sustainable agriculture"
+        ],
+        "abstract_s": [
+          "Les surfaces mondiales de tournesol se sont fortement accrues depuis 20 ans. En 2010, elles ont atteint 24 millions d\u2019hectares dont les deux tiers sont r\u00e9partis entre l\u2019Europe (4 millions d\u2019hectares) et les deux leaders, Russie et Ukraine (11,3 millions d\u2019hectares au total) qui poss\u00e8dent encore des marges importantes de progression. Cette situation dynamise la recherche, la s\u00e9lection, la production de semences, les \u00e9changes\u2026 d\u2019autant que les prix du tournesol sont bien orient\u00e9s et que son huile poss\u00e8de une image globalement positive. En France, le tournesol dispose de plus d\u2019autres atouts : vari\u00e9t\u00e9s ol\u00e9iques sur plus de 50% des surfaces, fili\u00e8re organis\u00e9e, pr\u00e9sence d\u2019importants centres de recherche des principaux semenciers, implication de l\u2019INRA, bonne adaptation aux exigencesenvironnementales croissantes. Mais, depuis 20 ans, les rendements moyens ont peu progress\u00e9, contribuant \u00e0 une forte baisse des surfaces (stabilis\u00e9es depuis 3 ans \u00e0 700 000 hectares) et \u00e0 leur concentration dans le Sud-Ouest et l\u2019Ouest-Atlantique. L\u2019am\u00e9lioration de la productivit\u00e9 appara\u00eet donc indispensable : elle passe avant tout par la s\u00e9lection de vari\u00e9t\u00e9s performantes et tol\u00e9rantes auxmaladies mais aussi par la mise au point d\u2019itin\u00e9raires techniques complets (vari\u00e9t\u00e9, date, densit\u00e9 de semis,\u2026) adapt\u00e9s \u00e0 une grande diversit\u00e9 de situations. Le contexte environnemental implique de mener des travaux sur les nouveaux syst\u00e8mes de d\u00e9sherbage avec d\u00e9sherbants de post-lev\u00e9e, le d\u00e9sherbage m\u00e9canique, la conduite de l\u2019interculture bl\u00e9-tournesol et l\u2019adaptation \u00e0 l\u2019\u00e9volution climatique. Au niveau transformation et d\u00e9bouch\u00e9s, plusieurs pistes de recherche apparaissent opportunes pour conforter ladurabilit\u00e9 de cette culture.",
+          "For the last 20 years, sunflower world acreages have largely increased. In 2010, they reached 24 million hectares. Two thirds are located in Europe (4 million hectares), in Russia and Ukraine (11.3 million hectares) where the acreage can still expand a lot. This situation is favourable for research, breeding, seeds production, exchange\u2026all the more that sunflower price seems well oriented and that its oil is globally well appreciated. In France, sunflower has other assets: oleic varieties on more than 50% surfaces, well organized supply chain, main seeds companies research centres, involvement of INRA, good adaptation to the environmental requirements. But, for 20 years, mean seed yields have lightly increased which contributed to a large fall of the acreages (now stabilized to 700 000 hectares) and to their concentration in two regions: South-West and West-Atlantic. Productivity improvement seems essential: it first needs the breeding of high yielding varieties with a good disease tolerance but also the setting of complete crop management system (variety, date of sowing, planting density\u2026) adapted to different situations. Because of the environmental context, it seems necessary to carry out studies on the new systems for weed control with post emergence herbicides, mechanical weed control, wheatsunflower intercrop cultivation and adaptation to climate change. As far as oilseed processing and outlets are concerned, several research points should be considered to ensure the sustainability of this crop."
+        ],
+        "halId_s": "hal-02642522",
+        "uri_s": "https://hal.inrae.fr/hal-02642522v1",
+        "version_i": 1,
+        "submittedDate_s": "2020-05-28 18:24:36",
+        "producedDate_s": "2011"
+      },
+      {
+        "domain_s": [
+          "0.sdv",
+          "1.sdv.bv"
+        ],
+        "primaryDomain_s": "sdv.bv",
+        "title_s": [
+          "Transcripts of sunflower antioxidant scavengers of the SOD and GPX families accumulate differentially in response to downy mildew infection, phytohormones, reactive oxygen species, nitric oxide, protein kinase and phosphatase inhibitors"
+        ],
+        "abstract_s": [
+          "absent"
+        ],
+        "halId_s": "hal-01190883",
+        "uri_s": "https://hal.science/hal-01190883v1",
+        "version_i": 1,
+        "submittedDate_s": "2015-09-01 15:23:10",
+        "producedDate_s": "2003"
+      }
+    ]
+  },
+  {
+    "name": "hal-free",
+    "q": "\"sunflower-free\"",
+    "url": "https://api.archives-ouvertes.fr/search/?q=%22sunflower-free%22&wt=json&rows=2000&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i%2Cdomain_s%2CprimaryDomain_s&sort=submittedDate_tdate+desc",
+    "retrieved_at": "2026-10-25T13:27:39.285826+00:00",
+    "status": 200,
+    "total": 0,
+    "retrieved": 0,
+    "candidate_documents": []
+  },
+  {
+    "name": "hal-conjecture",
+    "q": "\"sunflower conjecture\"",
+    "url": "https://api.archives-ouvertes.fr/search/?q=%22sunflower+conjecture%22&wt=json&rows=2000&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i%2Cdomain_s%2CprimaryDomain_s&sort=submittedDate_tdate+desc",
+    "retrieved_at": "2026-10-25T13:27:39.286399+00:00",
+    "status": 200,
+    "total": 0,
+    "retrieved": 0,
+    "candidate_documents": []
+  },
+  {
+    "name": "hal-delta-math",
+    "q": "\"delta-system\" AND (mathematics OR combinatorics OR sets)",
+    "url": "https://api.archives-ouvertes.fr/search/?q=%22delta-system%22+AND+%28mathematics+OR+combinatorics+OR+sets%29&wt=json&rows=2000&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i%2Cdomain_s%2CprimaryDomain_s&sort=submittedDate_tdate+desc",
+    "retrieved_at": "2026-10-25T13:27:39.290033+00:00",
+    "status": 200,
+    "total": 1,
+    "retrieved": 1,
+    "candidate_documents": [
+      {
+        "domain_s": [
+          "0.sdu",
+          "1.sdu.astr",
+          "2.sdu.astr.ep",
+          "0.sdu",
+          "1.sdu.stu",
+          "2.sdu.stu.st"
+        ],
+        "primaryDomain_s": "sdu.astr.ep",
+        "title_s": [
+          "Sedimentology and Stratigraphy of the Shenandoah Formation, Western Fan, Jezero Crater, Mars"
+        ],
+        "abstract_s": [
+          "Abstract Sedimentary fans are key targets of exploration on Mars because they record the history of surface aqueous activity and habitability. The sedimentary fan extending from the Neretva Vallis breach of Jezero crater's western rim is one of the Mars 2020 Perseverance rover's main exploration targets. Perseverance spent \u223c250 sols exploring and collecting seven rock cores from the lower \u223c25\u00a0m of sedimentary rock exposed within the fan's eastern scarp, a sequence informally named the \u201cShenandoah\u201d formation. This study describes the sedimentology and stratigraphy of the Shenandoah formation at two areas, \u201cCape Nukshak\u201d and \u201cHawksbill Gap,\u201d including a characterization, interpretation, and depositional framework for the facies that comprise it. The five main facies of the Shenandoah formation include: laminated mudstone, laminated sandstone, low\u2010angle cross stratified sandstone, thin\u2010bedded granule sandstone, and thick\u2010bedded granule\u2010pebble sandstone and conglomerate. These facies are organized into three facies associations (FA): FA1, comprised of laminated and soft sediment\u2010deformed sandstone interbedded with broad, unconfined coarser\u2010grained granule and pebbly sandstone intervals; FA2, comprised predominantly of laterally extensive, soft\u2010sediment deformed laminated, sulfate\u2010bearing mudstone with lenses of low\u2010angle cross\u2010stratified and scoured sandstone; and FA3, comprised of dipping planar, thin\u2010bedded sand\u2010gravel couplets. The depositional model favored for the Shenandoah formation involves the transition from a sand\u2010dominated distal alluvial fan setting (FA1) to a stable, widespread saline lake (FA2), followed by the progradation of a river delta system (FA3) into the lake basin. This sequence records the initiation of a relatively long\u2010lived, habitable lacustrine and deltaic environment within Jezero crater."
+        ],
+        "halId_s": "hal-04521140",
+        "uri_s": "https://hal.science/hal-04521140v1",
+        "version_i": 1,
+        "submittedDate_s": "2024-03-26 09:47:07",
+        "producedDate_s": "2024"
+      }
+    ]
+  },
+  {
+    "name": "hal-tournesol",
+    "q": "tournesol AND (combinatoire OR conjecture)",
+    "url": "https://api.archives-ouvertes.fr/search/?q=tournesol+AND+%28combinatoire+OR+conjecture%29&wt=json&rows=2000&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i%2Cdomain_s%2CprimaryDomain_s&sort=submittedDate_tdate+desc",
+    "retrieved_at": "2026-10-25T13:27:39.290676+00:00",
+    "status": 200,
+    "total": 0,
+    "retrieved": 0,
+    "candidate_documents": []
+  }
+]

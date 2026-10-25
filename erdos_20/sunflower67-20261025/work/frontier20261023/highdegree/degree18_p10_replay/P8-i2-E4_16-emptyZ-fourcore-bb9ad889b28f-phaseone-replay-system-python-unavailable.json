@@ -1,0 +1,30 @@
+{
+  "result": "FAIL",
+  "receipt_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_16-emptyZ-fourcore-bb9ad889b28f-phaseone.json",
+  "replayer_sha256": "cfc17728c08dce9a6e39eebc2e8a1d34790a6355cf9d20e681950cfa98721a2f",
+  "compute_limit_seconds": 20.0,
+  "assurance": "shared-producer necessary-model reconstruction and exact integer replay; mathematical premises remain imported; no solver, no Lean, no whole-branch claim",
+  "receipt_sha256": "484c705c21dd09e8c99b263dac6d7df234118fa2db564e4d44a2c9d9ac564a69",
+  "original_receipt": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_16-emptyZ-fourcore-bb9ad889b28f.json",
+    "sha256": "d8fd0d7836b553e6385ccfe1a7912f6c92ae56fbf0656dd9c67ebe15faf9853f"
+  },
+  "certificate_producer": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_phaseone.py",
+    "sha256": "6c325ebb06bbf00d76c7e262fd0e0d88d26e6fd527fdd7a153149e3621cfc07a"
+  },
+  "original_metadata_preserved": true,
+  "certificate_kind": "zero-infeasibility",
+  "objective": "all-zero",
+  "source": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_projection_v2.py",
+    "sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+    "matching_paths": [
+      "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_projection_v2.py",
+      "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_projection.py"
+    ],
+    "reconstruction": "same hashed producer build(), never run()"
+  },
+  "error": "ModuleNotFoundError: No module named 'scipy'",
+  "seconds": 0.11041708799893968
+}

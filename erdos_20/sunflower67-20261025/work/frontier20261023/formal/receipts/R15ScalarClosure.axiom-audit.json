@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "assurance": "axiom-audited",
+  "module": "R15ScalarClosure",
+  "source_sha256": "df94065a7262c59b5cfb12544f173ed58af57ea3498b78329274992650200117",
+  "object_sha256": "3789cb7e16acf364585446ed5098a2738fcbf3484d8cc2d05fb522e14d5ae1d0",
+  "compilation_receipt_sha256": "f592af4deba5d399f3fbf8666587a059e359c2b2425c3bee8f70cafcb9898578",
+  "log_sha256": "c6145b1f333045f81102ff7b7e4a4c57d265766a1b7ae68ec7952635e3e7f31a",
+  "auditor_sha256": "1163252ba276ab91502a4b8b294492b595a5e5519ec0720574beeb4089b99228",
+  "runtime_manifest_sha256": "82fbc8e9fed8db7432040b576e330bf194a723a89eb670322c5b8ea2fb2d16c6",
+  "roots": {
+    "outer_deletion_scalar_impossible": [
+      "Quot.sound",
+      "propext"
+    ],
+    "hub_strict_triangle_impossible": [
+      "Quot.sound",
+      "propext"
+    ],
+    "hub_deletion_scalar_impossible": [
+      "Quot.sound",
+      "propext"
+    ],
+    "rho_six_support_le_eleven": [
+      "Quot.sound",
+      "propext"
+    ],
+    "rho_six_requires_degree_five": [
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "repairs": 0,
+  "limitations": "Five literal arithmetic implications only; geometric premises remain separate. Existing pinned dependency cache, not clean replay or independent reproduction."
+}

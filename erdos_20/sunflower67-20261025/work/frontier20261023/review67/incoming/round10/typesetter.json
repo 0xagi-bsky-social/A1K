@@ -1,0 +1,80 @@
+{
+  "agent_id": "/root/r67_typeset",
+  "role": "typesetter",
+  "context_id": "/root/r67_typeset",
+  "round": 10,
+  "snapshot_sha256": "8fce38586c390bdaab230bf7c293c055b67a70eba1aebc54270521703d75805e",
+  "manuscript_sha256": "ec6872777eecaeca0563978e849f2b2fce2c48eb9e28e2efed87ba64b3128bb9",
+  "summary": "Accept this exact version for the separate final audits within my typesetting mandate. I inspected all eleven round-ten preview pages, checked source/HTML/PDF fidelity and revisited committed presentation objections. No necessary presentation repair remains. This is preview readiness, not final-publication PDF approval.",
+  "evidence_ids": ["preview-r10", "h27-identifier-clarification", "round9-committed", "definitions-map-r2"],
+  "decision": "accept",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "TYPESET-R4-PAGINATION",
+      "statement": "The outer-deletion introduction and both inequalities remain together on page 8.",
+      "severity": "note",
+      "status": "resolved",
+      "disposition": "The earlier optional pagination suggestion remains satisfied.",
+      "evidence_ids": ["preview-r10"]
+    },
+    {
+      "id": "TYPESET-R1-F4",
+      "statement": "Actual visual coverage is pages 1–11 of the bound round-ten preview.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Acceptance does not establish final-publication approval, mathematical correctness, semantic mathematics tagging or accessibility conformance.",
+      "evidence_ids": ["preview-r10"]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "/root/r67_typeset:round-1:required-revision-1",
+      "action": "Recheck CommonMark parsing, HTML/PDF tokens and visible formulas.",
+      "result": "Set difference and grouped indices survive; semicolon anchor arguments generate no accidental links. The nine links are intended.",
+      "status": "resolved"
+    },
+    {
+      "finding_id": "/root/r67_typeset:round-1:required-revision-2",
+      "action": "Read all eleven current preview pages.",
+      "result": "Spacing repairs persist, including the revised provenance prose and conclusion.",
+      "status": "resolved"
+    },
+    {
+      "finding_id": "/root/r67_typeset:round-1:required-revision-3",
+      "action": "Inspect definitions and later neighbourhood bounds.",
+      "result": "N[max], N[R] and μ remain distinct; the conclusion now explicitly says under μ ≥ 41.",
+      "status": "resolved"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Revised attribution and assurance limits",
+      "method": "Compare section 2 with the hash-verified identifier clarification, HTML/PDF text and page 2 image.",
+      "observation": "The commit/tree relationship is readable beside its source link. The earlier-response qualification and explicit absence of historical-run authentication remain in the same paragraph. The later audit is not presented as extending the literature cutoff.",
+      "result": "supported",
+      "evidence_ids": ["h27-identifier-clarification", "preview-r10"]
+    },
+    {
+      "scope": "Mathematical display and table fidelity",
+      "method": "Inspect pages 3–9, compare source formulas and selected extracted tokens, and verify sections 3–7 are unchanged from round nine.",
+      "observation": "The exact coefficient inequality retains its maximum and strict-comparison caveat. Page 6 preserves both negative numerators and the orbit table; page 7 preserves the maximum/existence distinction and conditional degree caps. Page 8 preserves both deletion inequality directions and the A3 positivity chain. Page 9 visibly retains μ ≥ 41.",
+      "result": "supported",
+      "evidence_ids": ["preview-r10", "round9-committed", "definitions-map-r2"]
+    },
+    {
+      "scope": "Whole-preview readability and cross-references",
+      "method": "Visually inspect every supplied page and compare CommonMark and HTML link inventories.",
+      "observation": "No clipping or overlapping text was observed. References remain attributable; the companion table repeats its header on page 11 and preserves filename/obligation associations. All nine parsed links match HTML targets. No relative R link recurs.",
+      "result": "supported",
+      "evidence_ids": ["preview-r10"]
+    },
+    {
+      "scope": "Exact-version readiness and prior objections",
+      "method": "Recompute manuscript, canonical snapshot, PDF, HTML and receipt bindings; inspect committed-history/index dispositions and revalidate my three required repairs.",
+      "observation": "All tested hashes match. The history contains 108 prior submissions; all 13 indexed required revisions have owner-recorded dispositions. My repairs remain supported by current inspection. The receipt reports 206 fragment checks; I independently checked selected tokens and all page images, not a second exhaustive fragment run.",
+      "result": "supported",
+      "evidence_ids": ["preview-r10", "round9-committed"]
+    }
+  ]
+}

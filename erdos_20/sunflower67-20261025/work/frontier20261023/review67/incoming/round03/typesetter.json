@@ -1,0 +1,96 @@
+{
+  "agent_id": "/root/r67_typeset",
+  "role": "typesetter",
+  "context_id": "/root/r67_typeset",
+  "round": 3,
+  "snapshot_sha256": "e5938f02a5708ea6c492eaada843dbfb15aa5645c66dec16a8bfbb44ee454e7f",
+  "manuscript_sha256": "254f159d0a48ab9dcad6370594e0a5b31853a0ca8c6a31597af9656a7b5b740c",
+  "summary": "The semicolon repair removes the two unintended Markdown links missed by my round-two source-only review. I independently confirmed six intended links and inspected all eleven supplied preview pages. Mathematical notation, formulas and tables are readable without observed clipping or missing glyphs. These checks support this preview's fidelity, not final publication or complete mathematical certification.",
+  "evidence_ids": ["preview-r3", "definitions-map-r2", "round2-committed"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "TYPESET-R1-F1",
+      "statement": "My round-two source check missed that s[i](R) and p[i,j](R) produced links to R. Actual CommonMark parsing reproduces that defect in round two and confirms its removal by s[i; R] and p[i,j; R] in round three.",
+      "severity": "major",
+      "status": "resolved",
+      "disposition": "The earlier source-fidelity closure is now supported by actual parser output, matching HTML anchors and visible corrected notation on preview page 4.",
+      "evidence_ids": ["preview-r3", "round2-committed"]
+    },
+    {
+      "id": "TYPESET-R1-F2",
+      "statement": "The spacing repairs remain intact in the inspected source and all preview pages.",
+      "severity": "minor",
+      "status": "resolved",
+      "disposition": "Retain the round-two closure; no new spacing defect requiring revision was identified.",
+      "evidence_ids": ["preview-r3"]
+    },
+    {
+      "id": "TYPESET-R1-F3",
+      "statement": "N[max], the neighbourhood set N[R], and the minimum mu remain explicitly distinguished, and that distinction is visible on preview page 3.",
+      "severity": "minor",
+      "status": "resolved",
+      "disposition": "Retain the round-two closure of the undefined-scalar objection.",
+      "evidence_ids": ["preview-r3", "definitions-map-r2"]
+    },
+    {
+      "id": "TYPESET-R1-F4",
+      "statement": "All eleven round-three preview PNGs have now been visually inspected. No final publication artifact has been approved, and semantic math tagging or PDF accessibility conformance has not been established.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Replace the previous no-render-inspected limitation with preview-only visual assurance. The renderer's additional page-11 provenance notice, including its phrase Local automated publication, does not constitute a final-acceptance claim by this reviewer.",
+      "evidence_ids": ["preview-r3"]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "/root/r67_typeset:round-1:required-revision-1",
+      "action": "Rechecked the earlier notation repair with an actual CommonMark parser, generated HTML anchor inspection and the supplied page images.",
+      "result": "Round two had two unintended relative links that my previous review missed; round three has only the six intended primary URLs. The anchor arguments, set-difference signs and grouped cyclic indices survive in the inspected preview.",
+      "status": "resolved"
+    },
+    {
+      "finding_id": "/root/r67_typeset:round-1:required-revision-2",
+      "action": "Read the corrected prose and references in the eleven-page preview and compared round-two and round-three numerical tokens.",
+      "result": "Spacing remains corrected; the complete ordered sequence of numerical tokens is unchanged across the new repairs.",
+      "status": "resolved"
+    },
+    {
+      "finding_id": "/root/r67_typeset:round-1:required-revision-3",
+      "action": "Inspect the scalar definition on preview page 3 and its degree-16 and cap-15 uses on pages 6–8.",
+      "result": "The maximum-neighbourhood quantity remains explicit and distinct from the set and minimum; its use in the graph-degree deduction remains readable.",
+      "status": "resolved"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Actual Markdown parsing and corrected anchor notation",
+      "method": "Parse both frozen manuscripts with markdown_it in CommonMark mode; independently inspect preview.html anchors using Python HTMLParser.",
+      "observation": "Round two yields destinations R and R plus six HTTPS URLs. Round three and its HTML each yield exactly the same six intended primary URLs, with no relative R destination. The HTML text and preview page 4 preserve s[i; R] and p[i,j; R].",
+      "result": "supported",
+      "evidence_ids": ["preview-r3", "round2-committed"]
+    },
+    {
+      "scope": "Definition and arbitrary-support qualifier fidelity",
+      "method": "Compare manuscript lines 37, 51, 53, 55 and 61 with their visible text on preview pages 3–4 and the previously inspected definitions map.",
+      "observation": "The complete link retains set difference; the R16 construction clearly has six outer triples on each triad and four hub triples; permitted lower-degree Q8 leaf sharing remains explicit. Exact residual trace classes and unrestricted exterior completions are visible. No visual omission converts the represented core into an ambient-support cutoff.",
+      "result": "supported",
+      "evidence_ids": ["preview-r3", "definitions-map-r2"]
+    },
+    {
+      "scope": "Complete preview visual inspection",
+      "method": "Actually view page-01.png through page-11.png at their supplied resolution, checking theorem statements, formulas, glyphs, margins, tables and pagination.",
+      "observation": "No missing mathematical glyph, cropped equation, overlapping text or cropped table was observed. Set difference and empty set are legible on pages 3–4; negative certificate numerators are intact on page 6; the incidence identity and root-tree table are legible on page 7; cyclic indices remain grouped on page 8. The evidence table on pages 10–11 repeats its header and keeps complete rows.",
+      "result": "supported",
+      "evidence_ids": ["preview-r3"]
+    },
+    {
+      "scope": "Numerical and artifact fidelity of this preview",
+      "method": "Compare all ordered digit runs in rounds two and three; visually compare the degree-17 and root-tree tables with the frozen source; recompute the manuscript, canonical snapshot, render receipt, HTML and PDF hashes.",
+      "observation": "The ordered numerical tokens are unchanged. The preview tables retain the degree-17 totals 131/92/94 and the tree node counts 3657/5109/3455 with colour-pair counts 101266/170054/113537 and zero surviving solutions. All supplied manuscript, snapshot and preview hash bindings match. This verifies transcription and artifact identity, not the underlying finite proof predicates.",
+      "result": "supported",
+      "evidence_ids": ["preview-r3"]
+    }
+  ]
+}

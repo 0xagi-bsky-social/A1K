@@ -1,0 +1,1016 @@
+{
+  "A3": {
+    "exceptional_profile_count": 23,
+    "exceptional_vectors": 52,
+    "missing_witnesses": 0,
+    "nonindependent_vectors": 1293,
+    "profiles": 70,
+    "witnesses": [
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 9,
+        "profile": 3,
+        "t": [
+          1,
+          7,
+          7,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 9,
+        "profile": 3,
+        "t": [
+          1,
+          8,
+          6,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          2,
+          3
+        ],
+        "external_members": 9,
+        "profile": 8,
+        "t": [
+          0,
+          1,
+          6,
+          8,
+          1,
+          0,
+          0,
+          0
+        ],
+        "witness": 1
+      },
+      {
+        "J": [
+          2,
+          3
+        ],
+        "external_members": 9,
+        "profile": 8,
+        "t": [
+          0,
+          1,
+          7,
+          7,
+          1,
+          0,
+          0,
+          0
+        ],
+        "witness": 1
+      },
+      {
+        "J": [
+          6,
+          7
+        ],
+        "external_members": 9,
+        "profile": 12,
+        "t": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          7,
+          7
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          6,
+          7
+        ],
+        "external_members": 9,
+        "profile": 12,
+        "t": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          8,
+          6
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          0,
+          7
+        ],
+        "external_members": 9,
+        "profile": 14,
+        "t": [
+          7,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          7
+        ],
+        "witness": 1
+      },
+      {
+        "J": [
+          0,
+          7
+        ],
+        "external_members": 9,
+        "profile": 14,
+        "t": [
+          8,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          6
+        ],
+        "witness": 1
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 9,
+        "profile": 15,
+        "t": [
+          1,
+          8,
+          6,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 9,
+        "profile": 15,
+        "t": [
+          1,
+          9,
+          5,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 10,
+        "profile": 16,
+        "t": [
+          1,
+          7,
+          7,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 10,
+        "profile": 16,
+        "t": [
+          1,
+          8,
+          6,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 9,
+        "profile": 17,
+        "t": [
+          1,
+          8,
+          6,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 9,
+        "profile": 17,
+        "t": [
+          1,
+          9,
+          5,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          2,
+          3
+        ],
+        "external_members": 9,
+        "profile": 18,
+        "t": [
+          0,
+          1,
+          5,
+          9,
+          1,
+          0,
+          0,
+          0
+        ],
+        "witness": 1
+      },
+      {
+        "J": [
+          2,
+          3
+        ],
+        "external_members": 9,
+        "profile": 18,
+        "t": [
+          0,
+          1,
+          6,
+          8,
+          1,
+          0,
+          0,
+          0
+        ],
+        "witness": 1
+      },
+      {
+        "J": [
+          6,
+          7
+        ],
+        "external_members": 10,
+        "profile": 21,
+        "t": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          8,
+          6
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          6,
+          7
+        ],
+        "external_members": 10,
+        "profile": 21,
+        "t": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          9,
+          5
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          2,
+          3
+        ],
+        "external_members": 9,
+        "profile": 22,
+        "t": [
+          0,
+          1,
+          6,
+          8,
+          1,
+          0,
+          0,
+          0
+        ],
+        "witness": 1
+      },
+      {
+        "J": [
+          2,
+          3
+        ],
+        "external_members": 9,
+        "profile": 22,
+        "t": [
+          0,
+          1,
+          7,
+          7,
+          1,
+          0,
+          0,
+          0
+        ],
+        "witness": 1
+      },
+      {
+        "J": [
+          3,
+          4
+        ],
+        "external_members": 9,
+        "profile": 30,
+        "t": [
+          0,
+          0,
+          1,
+          7,
+          7,
+          1,
+          0,
+          0
+        ],
+        "witness": 2
+      },
+      {
+        "J": [
+          3,
+          4
+        ],
+        "external_members": 9,
+        "profile": 30,
+        "t": [
+          0,
+          0,
+          1,
+          8,
+          6,
+          1,
+          0,
+          0
+        ],
+        "witness": 2
+      },
+      {
+        "J": [
+          6,
+          7
+        ],
+        "external_members": 9,
+        "profile": 30,
+        "t": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          6,
+          8
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          6,
+          7
+        ],
+        "external_members": 9,
+        "profile": 30,
+        "t": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          7,
+          7
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 9,
+        "profile": 31,
+        "t": [
+          1,
+          7,
+          7,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 9,
+        "profile": 31,
+        "t": [
+          1,
+          8,
+          6,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 10,
+        "profile": 32,
+        "t": [
+          1,
+          6,
+          8,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 10,
+        "profile": 32,
+        "t": [
+          1,
+          7,
+          7,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          6,
+          7
+        ],
+        "external_members": 10,
+        "profile": 37,
+        "t": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          7,
+          7
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          6,
+          7
+        ],
+        "external_members": 10,
+        "profile": 37,
+        "t": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          8,
+          6
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          6,
+          7
+        ],
+        "external_members": 9,
+        "profile": 45,
+        "t": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          6,
+          8
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          6,
+          7
+        ],
+        "external_members": 9,
+        "profile": 45,
+        "t": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          7,
+          7
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          6,
+          7
+        ],
+        "external_members": 9,
+        "profile": 50,
+        "t": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          7,
+          7
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          6,
+          7
+        ],
+        "external_members": 9,
+        "profile": 50,
+        "t": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          8,
+          6
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          6,
+          7
+        ],
+        "external_members": 9,
+        "profile": 51,
+        "t": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          6,
+          8
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          6,
+          7
+        ],
+        "external_members": 9,
+        "profile": 51,
+        "t": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          7,
+          7
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 9,
+        "profile": 53,
+        "t": [
+          1,
+          8,
+          6,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 9,
+        "profile": 53,
+        "t": [
+          1,
+          9,
+          5,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 9,
+        "profile": 54,
+        "t": [
+          1,
+          7,
+          7,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 9,
+        "profile": 54,
+        "t": [
+          1,
+          8,
+          6,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 11,
+        "profile": 55,
+        "t": [
+          1,
+          6,
+          8,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 11,
+        "profile": 55,
+        "t": [
+          1,
+          7,
+          7,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          6,
+          7
+        ],
+        "external_members": 11,
+        "profile": 55,
+        "t": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          8,
+          6
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          6,
+          7
+        ],
+        "external_members": 11,
+        "profile": 55,
+        "t": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          9,
+          5
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 10,
+        "profile": 56,
+        "t": [
+          1,
+          7,
+          7,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 10,
+        "profile": 56,
+        "t": [
+          1,
+          8,
+          6,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 10,
+        "profile": 57,
+        "t": [
+          1,
+          6,
+          8,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 10,
+        "profile": 57,
+        "t": [
+          1,
+          7,
+          7,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 9,
+        "profile": 58,
+        "t": [
+          1,
+          8,
+          6,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          1,
+          2
+        ],
+        "external_members": 9,
+        "profile": 58,
+        "t": [
+          1,
+          9,
+          5,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "witness": 0
+      },
+      {
+        "J": [
+          4,
+          5
+        ],
+        "external_members": 11,
+        "profile": 58,
+        "t": [
+          0,
+          0,
+          0,
+          1,
+          6,
+          8,
+          1,
+          0
+        ],
+        "witness": 3
+      },
+      {
+        "J": [
+          4,
+          5
+        ],
+        "external_members": 11,
+        "profile": 58,
+        "t": [
+          0,
+          0,
+          0,
+          1,
+          7,
+          7,
+          1,
+          0
+        ],
+        "witness": 3
+      }
+    ]
+  },
+  "A4": {
+    "exceptional_profile_count": 0,
+    "exceptional_vectors": 0,
+    "missing_witnesses": 0,
+    "nonindependent_vectors": 0,
+    "profiles": 1,
+    "witnesses": []
+  },
+  "quasi_table": {
+    "P10_automorphisms": 60,
+    "P8_covering_models": 15,
+    "maximum_quasi_sets": 1,
+    "models": 5,
+    "nonempty_quasi_sets": 54,
+    "omission_cases": 80
+  },
+  "status": "PASS_F69_FIBRE_QUASI_BRIDGE"
+}

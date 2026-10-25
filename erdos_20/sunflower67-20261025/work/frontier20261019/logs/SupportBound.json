@@ -1,0 +1,8 @@
+{
+  "file": "SupportBound.lean",
+  "source_sha256": "eb5a318572a786b44dd25f11e376f782d02ae61299f7be913e9a078d91049cfd",
+  "source_stable": true,
+  "exit_code": 0,
+  "seconds": 178.327,
+  "output": "'FrontierSupport.weighted_incidence_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierSupport.intersecting_degree_support_inequality' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierSupport.intersecting_twenty_eight_support_le_seventy_two' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'FrontierSupport.finite72_obstruction_of_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierSupport.intersecting_upper_twenty_seven_iff_no_finite72_obstruction' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'FrontierSupport.equal_intersections_iff_no_exact_two' depends on axioms: [propext, Quot.sound]\n"
+}

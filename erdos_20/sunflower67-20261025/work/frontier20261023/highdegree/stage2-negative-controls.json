@@ -1,0 +1,12 @@
+[
+  {
+    "mutation": "wrong_rhs",
+    "rejected": true,
+    "last_line": "AssertionError"
+  },
+  {
+    "mutation": "missing_row",
+    "rejected": true,
+    "last_line": "AssertionError: ('E05', 772, 0, 1)"
+  }
+]

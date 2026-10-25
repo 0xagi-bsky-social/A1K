@@ -1,0 +1,22 @@
+{
+  "result": "PASS",
+  "method": "factorized exhaustive pair/triple checker; no project imports",
+  "rectangles": 105,
+  "ordered_rectangle_pairs": 11025,
+  "unordered_rectangle_triples_with_repetition": 198485,
+  "block_state_triples": 27,
+  "literal_members": 252271,
+  "port_counts": [
+    33948,
+    64728,
+    64728,
+    88867
+  ],
+  "random_small_cases_cross_checked_by_brute_force": 180,
+  "full_domain_planted_sunflower_rejected": true,
+  "full_domain_empty_set_containment_rejected": true,
+  "witness_sha256": "9a4e625eaf4dabb5f10ab73db1e081e629b803c356d7b90939acd0634a3f4f54",
+  "checker_sha256": "9aa7b3f6d550c13e6ee936d00eb96e75a4fc005a2609c4c6361fae5b42e79150",
+  "seconds": 1.023587113013491,
+  "assurance": "certificate-diagnostic; separate algorithm in the same AI workflow; no Lean kernel check or independent third-party reproduction"
+}

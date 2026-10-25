@@ -1,0 +1,66 @@
+{
+  "agent_id": "/root/r67_data",
+  "role": "data_analyst",
+  "context_id": "/root/r67_data",
+  "round": 8,
+  "snapshot_sha256": "cdc2c6372cd2b87201867beb9d986ad0edc1edfe9eab72da3c627e1eb68cffd2",
+  "manuscript_sha256": "a8f164ea1218b704cccd43c618fc2166f5ab636d9c121e7713f7c797d221b2b9",
+  "summary": "Three constructive interface formulations withstand bounded checks: multiplicity-aware trace tables, separately typed absence facts, and distinct tree-node/leaf counts. The existing manuscript and companion already preserve these distinctions, so no mathematical repair is required. Frozen hashes and role match. No model rebuild, full tree replay, solver or compiler was run.",
+  "evidence_ids": [
+    "degree19",
+    "degree17",
+    "rho15",
+    "round7-committed",
+    "reviewer-r7-alpha",
+    "reviewer-r7-methodologist"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "data-R8-typed-evidence",
+      "statement": "Useful evidence summaries must preserve what is counted and what each check establishes; member multiplicities, absent complete sets, absent proper traces and terminal tree leaves are different objects.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "The existing explicit trace table, two absence registries and separate tree counters satisfy the tested interfaces. These are supported formulations, not newly implemented repairs or a whole-proof certificate.",
+      "evidence_ids": [
+        "degree19",
+        "degree17",
+        "rho15"
+      ]
+    }
+  ],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Explicit multiplicity table as a constructive formulation of proper traces",
+      "method": "Read D19-model-bridge.md Section2 and extract the literal upper-bound dictionary from degree19_projection_v5.py. Reproduce Beta's triple-trace control and construct a further pair-trace control using three exterior pairs forming a triangle.",
+      "observation": "The 21-member control has two completions of trace067 and no sunflower among1330 member triples. The new22-member control has three completions of trace06 and none among1540 triples. Both retain the complete degree19 root star. Bounds by trace size remain49,19,6,2,1, matching the written table. These small controls support retaining multiplicities; they do not satisfy the full size68 premises or prove the universal capacities.",
+      "result": "supported",
+      "evidence_ids": [
+        "degree19",
+        "round7-committed"
+      ]
+    },
+    {
+      "scope": "Typed absence facts when the represented core gains one exterior point",
+      "method": "Extract and evaluate the unchanged forbidden-trace predicate from check_d17_stage_plan_v9.py; independently interpret facts on literal four-set completions. Test all1471 traces on14 represented points with empty, full-four, proper-three and combined fact registries.",
+      "observation": "Across5884 tests there are no disagreements. The715 complete-four facts authorize715 traces; the231 proper-three facts authorize462, covering each original triple and its extension by the represented exterior point. Their union authorizes1177. Thus four-set absence is not promoted to proper-trace absence, while universally absent proper traces lift correctly. This checks the predicate interface, not each fact's antecedent proof or full stage replay.",
+      "result": "supported",
+      "evidence_ids": [
+        "degree17",
+        "reviewer-r7-methodologist"
+      ]
+    },
+    {
+      "scope": "Separate search states, terminal leaves and semantic replay coverage",
+      "method": "Recount the compressed cycle5 tree's record types and child graph; compare the actual round7 Alpha replay receipt and inspect replay_r15_rho6_tree.py's completeness checks.",
+      "observation": "All5109 nodes are reachable:1585 branches and3524 terminal leaves, with5108 child edges and exactly one parent per nonroot node. The fresh receipt binds these tree bytes and matches all counters; its wrong-target, omitted-child and wrong-source controls were rejected. Explicit node/leaf labels avoid inflating terminal coverage. This structural recount does not redo170054 colour-pair checks, authenticate the other two trees, or replace the ordinary support reduction. Fresh bounded controls are saved in /tmp/r67_data_round08/.",
+      "result": "supported",
+      "evidence_ids": [
+        "rho15",
+        "reviewer-r7-alpha"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Author response after complete round 5
+
+All60 actual submissions are committed through round5, whose commitment is a18e46355fc1b6bdbf9920a7d110635c45abc8e2850fbc7386705f9ba87345b0. This is an author response, not a reviewer resolution.
+
+The citation verifier requested /root/r67_citations:round-5:required-revision-1 (CV-R5-TREE-COMMITMENT). The new EXTERNAL-H27-TREE-INTEGRITY-ADDENDUM-20261024.md explicitly supersedes the complete-tree description in earlier frozen notes/manifests. The original recursive response and all original files remain unchanged. Root independently reconstructed the reported root mismatch with standard Git serialization and git hash-object; all18 subordinate tree commitments and both inspected blobs match. Main Section2 now limits the absence statement to the returned listing and explicitly describes the root discrepancy. No cause, repository-wide absence or mathematical invalidity is inferred. The citation verifier's transient fresh response could not be preserved; that limitation is recorded rather than fabricating recovered bytes.
+
+Theorems1 and2, Sections3–8 and all mathematical inputs are unchanged. H27 remains an essential imported computer-assisted theorem and its historical computation remains locally unreconstructed. The literature reviewer explicitly resolved the round4 README/script wording requirement in round5; the underlying external gap remains.
+
+Actual round5 execution includes the fresh D18 I06 baseline and malformed-multiplier rejection, all three R15 tree replays with three corruption controls, and bounded axiom-auditor/model-arithmetic adversarial tests. Their immutable artifacts are linked as new evidence. This strengthens only the observed scopes, not all possible errors or end-to-end Lean assurance. The typesetter inspected six actual preview pages; a fresh preview is required after the new source qualification.

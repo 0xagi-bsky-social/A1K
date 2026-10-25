@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20DesignNormalForm",
+  "source_sha256": "a7532384874059e56123cc7e7b9ff7ed38b156dd857834881be2a1f726d5692f",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20DesignNormalForm.olean",
+    "SunflowerLean/Erdos20DesignNormalForm.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 58.091,
+  "output": ""
+}

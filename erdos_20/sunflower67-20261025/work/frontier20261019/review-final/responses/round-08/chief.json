@@ -1,0 +1,36 @@
+{
+  "agent_id": "/root/review_coordinator/chief",
+  "role": "chief",
+  "context_id": "/root/review_coordinator/chief",
+  "round": 8,
+  "snapshot_sha256": "0906bbbda55b8bbd32d4b236c0e1bf2b6bfa63a2576f4b86c2f054fc152719f7",
+  "manuscript_sha256": "f66cc1eb92c514fa4b4457a934b9b6c334a01f424fbe818f4dc8070d7cec8326",
+  "summary": "F34 repairs the identified assurance misstatement and preserves the scientific content. No new blocking issue emerged from this scoped review. The rendering owner still needs to record visual verification and closure of the existing ledger item; final same-byte audits remain due. Frozen hashes match.",
+  "evidence_ids": [
+    "F34"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Historical assurance correction and present evidence",
+      "method": "Read the erratum, receipt, renderer, HTML displays and formula mappings; verified every manifest-listed file hash.",
+      "observation": "The erratum explicitly retracts the v4 MathML overstatement without rewriting history. The current HTML contains six MathML displays, and every TeX annotation matches its manuscript formula. PDF mappings preserve the displayed terms, inequality directions and correction signs. The receipt explicitly requires visual inspection and disclaims PDF accessibility conformance. This establishes source fidelity, not an unperformed browser or assistive-technology test.",
+      "result": "supported",
+      "evidence_ids": [
+        "F34"
+      ]
+    },
+    {
+      "scope": "Scientific invariance across the repair",
+      "method": "Reversed the six recorded formula edits in the current manuscript and hashed the reconstructed bytes.",
+      "observation": "The reconstructed hash equals my prior-round manuscript hash a5097eb4be3793ead393f3fdf6450e2250f3d0249c75ffaa740e5e46fd8d6f2c. Each edit only wraps the final period in a TeX text command. Theorems, hypotheses, numerical bounds, citations and limitations are unchanged.",
+      "result": "supported",
+      "evidence_ids": [
+        "F34"
+      ]
+    }
+  ]
+}

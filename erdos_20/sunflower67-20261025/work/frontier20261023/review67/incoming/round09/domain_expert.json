@@ -1,0 +1,58 @@
+{
+  "agent_id": "/root/r67_domain",
+  "role": "domain_expert",
+  "context_id": "/root/r67_domain",
+  "round": 9,
+  "snapshot_sha256": "e69d3e94ba58257c3ae8cffaa35f3d92d1c29455078d99d2b52dbd77cc22cab4",
+  "manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68",
+  "summary": "No necessary mathematical revision emerged. Independent bounded checks support the support-reduction constants, a tight deletion-cover interface and the refreshed general-theorem parameter comparison. Eleven principal mathematical evidence files retain their round 8 hashes and match disk. The manuscript changes concern source framing; the degree-case argument and its H27 assurance limitation remain unchanged.",
+  "evidence_ids": [
+    "rho15",
+    "cap15",
+    "global-dag",
+    "general-comparison-20261025",
+    "contract-amendment-20261025",
+    "external-h27-tree-correction"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [
+    {
+      "finding_id": "DOMAIN-R1-IMPORT-BOUNDARY",
+      "action": "Compared the source-prose amendment, manuscript diff and retained mathematical evidence.",
+      "result": "The October 25 refresh does not supply a local H27 ledger replay or resolve historical-run authentication. Section 2 explicitly retains that boundary and narrows PalomarArchive presence to an archive copy. The original import qualification remains applicable.",
+      "status": "claim-qualified"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Moment bound underlying the eleven-point reduction",
+      "method": "Read R15-degree2-independent-ordinary-check.md, Eleven-point support; independently enumerated SF2 graphs with 3–6 edges on six vertices, rejecting vertices of degree at least 3 and three-edge matchings.",
+      "observation": "Minimum numbers of degree-two vertices are 1,2,4,6, giving local intersecting-pair contributions 5/2,5,8,12. Component structure bounds SF2 support by three times its matching number, so six vertices cover this local domain. The affine majorant 19d/6−7 holds in each case. Conditional on the separately proved minimum used degree 3, I>=60 and total degree 45 yield n<=165/14, hence n<=11; maximum degree 4 would give I<=225/4<60. This checks the moment interface, not the degree-two motif exhaustion.",
+      "result": "supported",
+      "evidence_ids": [
+        "rho15"
+      ]
+    },
+    {
+      "scope": "Tight cover capacity with arbitrary exterior completions",
+      "method": "Read LOW15-A3-cover-independent-bridge.md and independently reconstructed P8-i2+H5 from literal triples, deleting shifted H5 blocks 014 and 234.",
+      "observation": "Thirteen triples remain. Direct enumeration gives the sole support three-cover {3,4,11} and eight four-covers containing no three-cover, hence capacity 2+8=10. No pair covers the remaining link; its maximum coverage is 10. Every ambient four-cover therefore contains that three-cover or equals one of the eight support four-covers. Global triple codegree 2 counts all exterior completions. The result contradicts the A3 two-cone requirement of at least 12 actual covers. Only this selected tight case was recalculated.",
+      "result": "supported",
+      "evidence_ids": [
+        "cap15"
+      ]
+    },
+    {
+      "scope": "Ground-set versus uniform-rank comparison after the fresh search",
+      "method": "Read the preserved Bucić–He–Lee primary theorem text in general/open01–03.json and assessment.json; independently substituted three petals and the smallest possible support of 68 distinct four-sets.",
+      "observation": "Theorem 1 gives 3(863/432)^N, with N the support size. Since binomial(7,4)=35, N>=8; already at 8 the displayed bound is 760.9176..., increasing thereafter. The four-coordinate vector expression is 1296D^2 and still depends on alphabet size. These displayed results do not directly imply upper 67. Manuscript Section 2 preserves the parameter distinction without claiming exhaustive priority or a local audit of the public Lean project.",
+      "result": "supported",
+      "evidence_ids": [
+        "general-comparison-20261025",
+        "contract-amendment-20261025"
+      ]
+    }
+  ]
+}

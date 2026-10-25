@@ -1,0 +1,15 @@
+{
+  "scope": "Byte-identical actual reviewer controls",
+  "files": [
+    {
+      "source": "/tmp/r67_data_round08/checks.py",
+      "preserved": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round08/data_analyst/checks.py",
+      "sha256": "ec9a7e16f18e654e9ee5a9d866e7f6cee79096293e51461e9dce08089dc4fae3"
+    },
+    {
+      "source": "/tmp/r67_data_round08/checks.json",
+      "preserved": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round08/data_analyst/checks.json",
+      "sha256": "82f589743066fec4122e1dc6758c4d4899e17c719bc3787c93cb0f27c9aafead"
+    }
+  ]
+}

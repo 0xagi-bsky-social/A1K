@@ -1,0 +1,73 @@
+{
+  "schema": "cap16-fibre-preparation-integrity-v1",
+  "status": "PREPARED_NOT_EXECUTED",
+  "frozen_diagnostics": {
+    "prior68_fibre_probe.cpp": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/analysis/prior68_fibre_probe.cpp",
+      "sha256": "d27445e1db4a8134ac0a3dc28b87c69101b9575c271525206dce6c2ef91b4f40"
+    },
+    "prior68_fibre_probe.txt": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/analysis/prior68_fibre_probe.txt",
+      "sha256": "0181409d2f6e1d978ad87a8356caa60272563e043ca699704981ff2a399a5867"
+    },
+    "prior68-research.md": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/analysis/prior68-research.md",
+      "sha256": "92caa67b0215e80b64b19f25b3d2ba8873f489fb9edc5d389ab3a23d79a9f912"
+    },
+    "prior68_cover_probe.py": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/analysis/prior68_cover_probe.py",
+      "sha256": "13c5468d86b8033cf2ef03811845108f9da7a95d31196590a5cef5bd57c4de37"
+    },
+    "prior68_cover_probe.json": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/analysis/prior68_cover_probe.json",
+      "sha256": "66b23589dd87a39a5b2e68d2f71a685b97c46a2fb9f7d992398772916e9bf592"
+    },
+    "prior68_graph_helpers.py": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/analysis/prior68_graph_helpers.py",
+      "sha256": "ce854973592b8f18bba7235386f8544367c7082a5b26f827fad95a62dd4d2fb1"
+    },
+    "prior68_graph_helpers.json": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/analysis/prior68_graph_helpers.json",
+      "sha256": "f59fe80d4f9c5fefb7185ee2544d57dc308fc48a295d1c211538e01a01a9e421"
+    }
+  },
+  "new_sources": {
+    "d16_fibre_reconstruction.cpp": "fa29e7cd616b68a3df3d2252397e30ebc3e6593c5c3d66f2720874d2c9002991",
+    "replay_d16_fibres.py": "37becdceb4ce6313ecf904d8eeb1f0e39e338350df691db0a75018c72252a674",
+    "replay_d16_i8_deletion_covers.py": "b2c164d3110bab41355784f013182eccfd54dffcd6ef55421e129ade51d1bd04"
+  },
+  "saved_diagnostic_claims": {
+    "profiles": [
+      543,
+      1541,
+      103,
+      1
+    ],
+    "nonindependent_stars": [
+      33912,
+      87790,
+      2621,
+      0
+    ],
+    "unresolved": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "alpha_excluded": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "cover_cases": 5576,
+    "cover_caps": [
+      1,
+      2,
+      4,
+      10
+    ]
+  },
+  "assurance": "Read-only current-byte integrity and source preparation; the old execution is not independently reconstructed by this manifest. New cover/fibre sources have not been executed; C++ has not been compiled."
+}

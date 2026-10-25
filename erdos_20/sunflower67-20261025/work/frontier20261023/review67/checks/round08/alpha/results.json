@@ -1,0 +1,54 @@
+{
+  "proper_trace": {
+    "family_size": 21,
+    "tested_member_triples": 1330,
+    "sunflowers": 0,
+    "trace_067_multiplicity": 2,
+    "third_completion_rejected": true
+  },
+  "C5_cost": {
+    "family_size": 16,
+    "tested_member_triples": 560,
+    "sunflowers": 0,
+    "complete_pair_link": "C5",
+    "degree": 16,
+    "internal_count": 1,
+    "degree_minus_internal": 15
+  },
+  "A3_positivity": {
+    "basis_identity_checks": 64,
+    "neighbourhoods_independent": true,
+    "deduction": "From sum(b)=3n and b_i<=H: a_i>=2n-5H; no occupied-fibre degree lower bound is used.",
+    "n68_H27_lower_bound": 1,
+    "n68_H28_lower_bound": -4,
+    "cap28_control": {
+      "masses": [
+        0,
+        15,
+        13,
+        0,
+        12,
+        0,
+        15,
+        13
+      ],
+      "adjacent_masses": [
+        12,
+        27,
+        28,
+        28,
+        28,
+        28,
+        28,
+        25
+      ],
+      "minimum_actual_degree": 25,
+      "independence": 28
+    }
+  },
+  "limitations": [
+    "The small families test weakened implications, not the size-68 theorem.",
+    "The A3 algebra does not prove Jin or H27.",
+    "No model builder, solver, compiler or broad replay was run."
+  ]
+}

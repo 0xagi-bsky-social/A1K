@@ -1,0 +1,327 @@
+{
+  "result": "PASS",
+  "assurance": "certificate-diagnostic: shared-producer model reconstruction and exact integer replay; no solver, no Lean, no independent model proof",
+  "receipt_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18/P10_001.json",
+  "replayer_sha256": "23f7a2bbd98374761de07da5e98c52cf5d3ed901499bd1c546f769df68cb038e",
+  "compute_limit_seconds": 20.0,
+  "receipt_sha256": "6068f0633cd620eebefaa18a9206f7c4adefe243fbfbe92208c09dcc70c61ad8",
+  "source": {
+    "name": "v1",
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_component_v1.py",
+    "sha256": "3463c85f1e22de41d1c41ce4e43b6d2ab3e2ccfe7b6aa870c3e200ef87964c02",
+    "matching_names": [
+      "v1"
+    ]
+  },
+  "local43": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/upstream/MU42/scripts/local43.py",
+    "sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+    "match": true
+  },
+  "case": {
+    "id": "P10_001",
+    "component": 10,
+    "outside": 8,
+    "r10": 0,
+    "r9": 0,
+    "interiors": [
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ]
+  },
+  "catalogue": {
+    "internal_count": 292,
+    "automorphism_count": 60,
+    "orbit_count": 13,
+    "orbit_size": 15,
+    "sha256": "37168963641376910c922ef83f2c6af1aebaed7c9335b5b04d059741f3308a05",
+    "coverage": "producer recursion checks equality of generated and orbit-covered assignments"
+  },
+  "literal_premises": {
+    "family": "finite simple SF4, empty-core sunflowers forbidden, cardinality at least 68",
+    "global_degree_cap": 18,
+    "minimum_closed_neighborhood": 41,
+    "complete_centre_link": "P10 plus a disjoint-support intersecting family of 8 triples",
+    "component_support": "six specified points; arbitrary exterior identities and multiplicities",
+    "internal_assignment": "exactly case.interiors",
+    "bootstrap": {
+      "r10": 0,
+      "r9": 0
+    },
+    "imported": "H27; universal SF2/SF3 capacities, I8/I9/I10, isolation, B4, R16/high-link structure, trace margins, C5 confinement, pair/singleton resources",
+    "boundary": "Rows are interpreted separately in D18-P10-internals.md; this replay does not prove their geometry."
+  },
+  "model": {
+    "columns": 3209,
+    "trace_columns": 41,
+    "upper_rows": 13,
+    "equal_rows": 422,
+    "live_sizes": [
+      173,
+      362,
+      173,
+      362,
+      96,
+      362,
+      558,
+      558,
+      362,
+      96
+    ],
+    "internal_degrees": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "degree_caps": [
+      16,
+      16,
+      16,
+      16,
+      15,
+      15
+    ],
+    "zero_trace_indices": [
+      0,
+      2,
+      6,
+      8,
+      11,
+      12,
+      15,
+      21,
+      23,
+      25,
+      29,
+      33,
+      34,
+      35,
+      37
+    ],
+    "sha256": "7b5ed05570b86a5c0fb48ca5307591ab6de717ebdd3962c823d8d2d0c95c5b44",
+    "all_coefficients_rhs_and_bounds": "validated Python integers, including zero-weight rows"
+  },
+  "exact": {
+    "scale": 10000000000,
+    "H": -370370376,
+    "minimum": -59,
+    "G": -370370317,
+    "negative": true,
+    "q_sha256_decimal_lines": "c6bc2e68a6f71a0fdcd854cd39c8cde0ae20ee9d16959cd4bb4e955702885c41",
+    "q_column_count": 3209,
+    "source_weights_nonnegative": true,
+    "weighted_rows": [
+      [
+        0,
+        370370370,
+        "A",
+        0,
+        "pair:0:None"
+      ],
+      [
+        4,
+        370370370,
+        "A",
+        4,
+        "pair:2:None"
+      ],
+      [
+        29,
+        246913580,
+        "E",
+        16,
+        "anchor:0-trace:3"
+      ],
+      [
+        31,
+        123456790,
+        "E",
+        18,
+        "anchor:0-trace:6"
+      ],
+      [
+        32,
+        1604938272,
+        "E",
+        19,
+        "anchor:0-trace:7"
+      ],
+      [
+        42,
+        123456790,
+        "E",
+        29,
+        "anchor:0-degree:0:15"
+      ],
+      [
+        112,
+        123456790,
+        "E",
+        99,
+        "anchor:2-trace:9"
+      ],
+      [
+        113,
+        185185185,
+        "E",
+        100,
+        "anchor:2-trace:12"
+      ],
+      [
+        114,
+        2037037037,
+        "E",
+        101,
+        "anchor:2-trace:13"
+      ],
+      [
+        195,
+        246913580,
+        "E",
+        182,
+        "anchor:4-trace:48"
+      ],
+      [
+        196,
+        246913580,
+        "E",
+        183,
+        "anchor:4-trace:49"
+      ],
+      [
+        398,
+        61728395,
+        "E",
+        385,
+        "anchor:9-trace:20"
+      ],
+      [
+        399,
+        61728395,
+        "E",
+        386,
+        "anchor:9-trace:36"
+      ],
+      [
+        400,
+        123456790,
+        "E",
+        387,
+        "anchor:9-trace:48"
+      ],
+      [
+        401,
+        185185185,
+        "E",
+        388,
+        "anchor:9-trace:52"
+      ],
+      [
+        410,
+        185185185,
+        "E",
+        397,
+        "anchor:9-degree:2:14"
+      ],
+      [
+        448,
+        123456790,
+        "-E",
+        13,
+        "anchor:0-trace:1"
+      ],
+      [
+        450,
+        246913580,
+        "-E",
+        15,
+        "anchor:0-trace:4"
+      ],
+      [
+        485,
+        123456790,
+        "-E",
+        50,
+        "anchor:0-degree:2:14"
+      ],
+      [
+        530,
+        246913580,
+        "-E",
+        95,
+        "anchor:2-trace:1"
+      ],
+      [
+        531,
+        185185185,
+        "-E",
+        96,
+        "anchor:2-trace:4"
+      ],
+      [
+        533,
+        61728395,
+        "-E",
+        98,
+        "anchor:2-trace:5"
+      ],
+      [
+        556,
+        61728395,
+        "-E",
+        121,
+        "anchor:2-degree:2:14"
+      ],
+      [
+        611,
+        1111111111,
+        "-E",
+        176,
+        "anchor:4-choice"
+      ],
+      [
+        612,
+        370370370,
+        "-E",
+        177,
+        "anchor:4-trace:1"
+      ],
+      [
+        628,
+        123456790,
+        "-E",
+        193,
+        "anchor:4-degree:0:15"
+      ],
+      [
+        816,
+        740740741,
+        "-E",
+        381,
+        "anchor:9-choice"
+      ],
+      [
+        817,
+        308641975,
+        "-E",
+        382,
+        "anchor:9-trace:4"
+      ]
+    ],
+    "assembled_order": [
+      "A",
+      "E",
+      "-E"
+    ],
+    "formula": "G = H - sum_j min(l_j*q_j, u_j*q_j), every original column, no artificial slack column"
+  },
+  "conclusion": "The hash-matched conditional model is exactly infeasible.",
+  "elapsed_seconds": 1.9671204219994252
+}

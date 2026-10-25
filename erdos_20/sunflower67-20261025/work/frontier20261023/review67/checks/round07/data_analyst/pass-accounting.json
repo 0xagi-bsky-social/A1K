@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "strict_upper": 29,
+    "negative_gap": 13,
+    "nonstrict": 1
+  },
+  "nonstrict": [
+    {
+      "receipt": "Ypattern01-Z.json",
+      "numerator": 490000000000,
+      "target_numerator": 490000000000,
+      "conclusion": "Exact bound matches but does not exclude 49 residuals."
+    }
+  ],
+  "scope": "Saved integer identities and flags; no model rebuilding or multiplier replay."
+}

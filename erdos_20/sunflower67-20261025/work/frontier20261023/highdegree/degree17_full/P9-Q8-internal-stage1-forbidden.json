@@ -1,0 +1,56 @@
+{
+  "forbidden": [
+    15,
+    23,
+    27,
+    29,
+    30,
+    39,
+    43,
+    45,
+    46,
+    51,
+    53,
+    54,
+    57,
+    58,
+    60,
+    1856,
+    1920,
+    2880,
+    2944,
+    3392,
+    3456,
+    3648,
+    3712,
+    4928,
+    4992,
+    5440,
+    5504,
+    5696,
+    5760,
+    6336,
+    6912,
+    7424,
+    7680
+  ],
+  "antecedent_progress": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-internal-Z-stage0-progress.json",
+  "sha256": "c52640705f4a0305006ed2bdf390b3db21ffc47e7b84cbf7fe2598fa1b10df8e",
+  "closed_cases": [
+    "IZ01",
+    "IZ03",
+    "IZ05",
+    "IZ07"
+  ],
+  "unclosed_cases": [
+    "IZ00",
+    "IZ02",
+    "IZ04",
+    "IZ06"
+  ],
+  "Y_antecedent": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-IY-active-v2-replayed-manifest.json",
+    "sha256": "fadd92fe79c991abd67629e421baea45a73567adefd692c65c3bfbf1e2b8cba7"
+  },
+  "scope": "producer-stage premises, exact replay and independent coverage separate"
+}

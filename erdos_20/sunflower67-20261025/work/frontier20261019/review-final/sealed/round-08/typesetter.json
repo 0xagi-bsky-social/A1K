@@ -1,0 +1,69 @@
+{
+  "content": {
+    "agent_id": "/root/review_coordinator/typesetter",
+    "role": "typesetter",
+    "context_id": "/root/review_coordinator/typesetter",
+    "round": 8,
+    "snapshot_sha256": "0906bbbda55b8bbd32d4b236c0e1bf2b6bfa63a2576f4b86c2f054fc152719f7",
+    "manuscript_sha256": "f66cc1eb92c514fa4b4457a934b9b6c334a01f424fbe818f4dc8070d7cec8326",
+    "summary": "The R7 assurance defect is resolved by an explicit historical erratum and actual MathML. All eight v5 pages were viewed. Heading, theorem, table, and six display-formula presentation improve, but inline multiplication asterisks are consumed as emphasis delimiters and need protection.",
+    "evidence_ids": [
+      "F34"
+    ],
+    "decision": "revise",
+    "required_revisions": [
+      "Protect inline multiplication expressions from Markdown emphasis parsing, including both small-L paragraphs; regenerate and inspect affected PDF pages and HTML source."
+    ],
+    "findings": [
+      {
+        "id": "/root/review_coordinator/typesetter:round-7:required-revision-1",
+        "statement": "F34 explicitly retracts F31's MathML overstatement and supplies six actual MathML displays with source annotations.",
+        "severity": "minor",
+        "status": "resolved",
+        "disposition": "Historical and current assurance are now distinguished.",
+        "evidence_ids": [
+          "F34"
+        ]
+      },
+      {
+        "id": "/root/review_coordinator/typesetter:round-8:required-revision-1",
+        "statement": "Page 5 italicizes prose between multiplication asterisks; HTML confirms L*L through S*S becomes an unintended em span. Page 4 also consumes multiplication markers.",
+        "severity": "minor",
+        "status": "open",
+        "disposition": "Use protected inline source/math spans to preserve the intended notation.",
+        "evidence_ids": [
+          "F34"
+        ]
+      }
+    ],
+    "revisions": [
+      {
+        "finding_id": "/root/review_coordinator/typesetter:round-7:required-revision-1",
+        "action": "Checked erratum, receipt, six mappings and generated MathML.",
+        "result": "The earlier overstatement is explicitly corrected.",
+        "status": "resolved"
+      }
+    ],
+    "checks": [
+      {
+        "scope": "v5 repair and complete page inspection",
+        "method": "Verified snapshot, manuscript, manifest and all fourteen file hashes; viewed pages 1–8; inspected HTML and receipt source.",
+        "observation": "Six display mappings preserve mathematical content; table headers repeat across pages 6–7 without clipping. HTML supplies six annotated MathML elements and overflow-x:auto containment. Browser behavior, assistive technology and PDF tagging were not tested. Inline-emphasis parsing remains the identified repair.",
+        "result": "supported",
+        "evidence_ids": [
+          "F34"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "tool": "collaboration.followup_task / specialist final response",
+    "call_id": "local-log:frontier20261019-final/round-08/typesetter/actual-public-response",
+    "context_id": "/root/review_coordinator/typesetter",
+    "recorded_at": "2026-10-19T14:36:31.756357+00:00",
+    "synthetic": false,
+    "public_response": "{\n  \"agent_id\": \"/root/review_coordinator/typesetter\",\n  \"role\": \"typesetter\",\n  \"context_id\": \"/root/review_coordinator/typesetter\",\n  \"round\": 8,\n  \"snapshot_sha256\": \"0906bbbda55b8bbd32d4b236c0e1bf2b6bfa63a2576f4b86c2f054fc152719f7\",\n  \"manuscript_sha256\": \"f66cc1eb92c514fa4b4457a934b9b6c334a01f424fbe818f4dc8070d7cec8326\",\n  \"summary\": \"The R7 assurance defect is resolved by an explicit historical erratum and actual MathML. All eight v5 pages were viewed. Heading, theorem, table, and six display-formula presentation improve, but inline multiplication asterisks are consumed as emphasis delimiters and need protection.\",\n  \"evidence_ids\": [\"F34\"],\n  \"decision\": \"revise\",\n  \"required_revisions\": [\"Protect inline multiplication expressions from Markdown emphasis parsing, including both small-L paragraphs; regenerate and inspect affected PDF pages and HTML source.\"],\n  \"findings\": [\n    {\n      \"id\": \"/root/review_coordinator/typesetter:round-7:required-revision-1\",\n      \"statement\": \"F34 explicitly retracts F31's MathML overstatement and supplies six actual MathML displays with source annotations.\",\n      \"severity\": \"minor\",\n      \"status\": \"resolved\",\n      \"disposition\": \"Historical and current assurance are now distinguished.\",\n      \"evidence_ids\": [\"F34\"]\n    },\n    {\n      \"id\": \"/root/review_coordinator/typesetter:round-8:required-revision-1\",\n      \"statement\": \"Page 5 italicizes prose between multiplication asterisks; HTML confirms L*L through S*S becomes an unintended em span. Page 4 also consumes multiplication markers.\",\n      \"severity\": \"minor\",\n      \"status\": \"open\",\n      \"disposition\": \"Use protected inline source/math spans to preserve the intended notation.\",\n      \"evidence_ids\": [\"F34\"]\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/review_coordinator/typesetter:round-7:required-revision-1\",\n      \"action\": \"Checked erratum, receipt, six mappings and generated MathML.\",\n      \"result\": \"The earlier overstatement is explicitly corrected.\",\n      \"status\": \"resolved\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"v5 repair and complete page inspection\",\n      \"method\": \"Verified snapshot, manuscript, manifest and all fourteen file hashes; viewed pages 1–8; inspected HTML and receipt source.\",\n      \"observation\": \"Six display mappings preserve mathematical content; table headers repeat across pages 6–7 without clipping. HTML supplies six annotated MathML elements and overflow-x:auto containment. Browser behavior, assistive technology and PDF tagging were not tested. Inline-emphasis parsing remains the identified repair.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"F34\"]\n    }\n  ]\n}\n",
+    "response_sha256": "048ef7744101cba21143b38bdee080f0c889f08412194b1c0b680375134dfe0b"
+  },
+  "record_sha256": "d1f3fd5a172435d9e6702d0707052079237e832bf1198855a6c204a3c3eee95c"
+}

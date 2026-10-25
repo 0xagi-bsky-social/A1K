@@ -1,0 +1,66 @@
+{
+  "agent_id": "/root/r67_citations",
+  "role": "citation_verifier",
+  "context_id": "/root/r67_citations",
+  "round": 4,
+  "snapshot_sha256": "4cf0b3152123ed8cf32e1f9498dc0aa735387f3a9e553fe489ca5ed760ff8b13",
+  "manuscript_sha256": "4adf68f1aeaea84d3ed409ba438aea0d2a001a041b03cc6a4b51c5bff9b23b4f",
+  "summary": "The inspected I7, B4 and high-link imports have the stated source scope. A bounded reconstruction matched the I7 catalogue and mixed-trace table, and the cited replay files matched the pinned source. No required revision arose. This does not certify all later models or finite leaves.",
+  "evidence_ids": ["definitions-map-r2", "global-dag", "prior-ledger", "degree17"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "CV-R4-I7-ASSURANCE",
+      "statement": "The finite I7 catalogue is supported by both its cited source and this bounded reconstruction, while applicability to arbitrary support rests on the separately stated geometric reduction.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "The manuscript and source map preserve that distinction. The wrapper's later global-use gate does not enter check_seven.verify or the preceding universal support argument. No complete R16 tree replay, solver or Lean job was run.",
+      "evidence_ids": ["global-dag", "prior-ledger", "definitions-map-r2"]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "CV-R2-SOURCE-MAP",
+      "action": "Followed I7/B4/high-link pointers into the pinned manuscript, catalogue checker, certificate and saved normal/optimized outputs.",
+      "result": "The inspected locations and import boundaries match. Bounded catalogue reconstruction strengthens this particular check without upgrading the entire proof's assurance.",
+      "status": "claim-qualified"
+    },
+    {
+      "finding_id": "CV-R3-GUARD-SENSITIVITY",
+      "action": "Rechecked the distinction between universal I7 classification, rho-guarded R16 classification and support separation in high links.",
+      "result": "The relevant guards remain explicit; there are no earlier required revisions outstanding for this reviewer.",
+      "status": "claim-qualified"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "I7 arbitrary-support reduction before finite enumeration",
+      "method": "Read pinned paper/main.tex lines465-529 and D17-I7-classification-route.md, especially the reconstructed support argument; checked the degree-count integer constraints independently.",
+      "observation": "Degree6 is excluded by the two-triangle cover obstruction; degree5 gives six-point C5 or the seven-point triangle-plus-path case. Degree1 gives the listed (3,3,0)/(3,2,1) alternatives. With degrees2-4, 2b+3c+4d=21 and 2d>=2b+c admit support at most6; direct bounded enumeration confirms no support7 tuple. Thus the finite six-point domain plus H7 follows from an ordinary universal reduction, not an ambient cutoff or an R16 embedding assumption.",
+      "result": "supported",
+      "evidence_ids": ["global-dag", "definitions-map-r2", "degree17"]
+    },
+    {
+      "scope": "I7 finite catalogue and arbitrary-exterior mixed-trace claims",
+      "method": "Wrote and executed a bounded standard-library bitmask reconstruction from the eight literal templates, without importing repository code: complementary-pair selections, equal-intersection tests, S6 orbits and all size1/2 traces.",
+      "observation": "All15360 selections yielded1860 valid families. Orbit sizes were120,360,60,240,360,360,360; their disjoint union equalled the valid set. All175 mixed traces matched the source table, and H7 was directly intersecting and sunflower-free. A forbidden trace has an actual-pair equal-intersection witness; adding exterior points changes none of those intersections. This checks that finite interface, not every downstream joint-realizability claim.",
+      "result": "supported",
+      "evidence_ids": ["global-dag", "definitions-map-r2", "degree17"]
+    },
+    {
+      "scope": "B4 and high-link geometric obligations",
+      "method": "Read pinned paper/main.tex proposition prop:i810, lemmas lem:isolation and lem:b4 at lines227-330, and lem:r16maximal at lines612-635; compared manuscript section3 and the source map.",
+      "observation": "B4 requires an actual triple with at least eight disjoint members. The disjoint class is intersecting; isolation excludes deleted P-blocks or exceptional Q8 hub-leaf triples from the complementary class because they would belong to the disjoint class. Q8 leaves remain shareable. In sizes17-20 every listed split contains a P9 or P10 component, so P-type isolation supplies disjoint supports. The source does not impose that stronger separation on lower-degree Q8/Q8 partitions.",
+      "result": "supported",
+      "evidence_ids": ["definitions-map-r2", "global-dag", "prior-ledger"]
+    },
+    {
+      "scope": "Citation pin, actual selected replay and wrapper scope",
+      "method": "Confirmed assignment hashes and prior HEAD; byte-compared main.tex and five R16 checker/certificate files against Git HEAD, the five computational files against the replayed package, and both saved R16 stdout hashes against the October20 receipt. Read verify.py and check_seven.py.",
+      "observation": "Both assignment hashes match. HEAD is90c03c79bcf44eb8f61dff1b86091b822cc4cd3c; all six HEAD comparisons, five package comparisons and two stdout commitments match. The package excludes main.tex, which was checked directly against Git. Both outputs contain the cited1860/15360/175 counts. check_seven.verify receives the catalogue alone; the wrapper's global_gate is reported metadata, not a premise of its universal I7 enumeration. Reusing those outputs is accurately described as selected prior replay, not all42 suites or independent human validation.",
+      "result": "supported",
+      "evidence_ids": ["prior-ledger", "global-dag", "degree17"]
+    }
+  ]
+}

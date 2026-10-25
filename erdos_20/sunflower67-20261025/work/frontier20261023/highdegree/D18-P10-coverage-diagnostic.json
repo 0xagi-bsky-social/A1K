@@ -1,0 +1,3441 @@
+{
+  "result": "COMPLETE_CONDITIONAL_MARKER_CHAIN",
+  "scope": "Independent literal geometry and stage-premise coverage; recorded scalar bound checks only. No LP coefficient replay, imported-lemma validation, terminal proof, or Lean proof.",
+  "geometry": {
+    "P8-i1": {
+      "catalogue_sha256": "dcbc8d58fe6ac610bcdb41f343e43864083a5afe9efe1990beff2efc195a38ec",
+      "automorphism_orders": {
+        "Y": 60,
+        "Z": 2,
+        "product": 120
+      },
+      "deletion_orbit_size": 30,
+      "domain_sizes": {
+        "internal-Z": 15,
+        "mixed-four-core": 465,
+        "mixed-three-core-plus-exterior": 180
+      },
+      "orbit_counts": {
+        "unmarked": 1,
+        "internal-Z": 9,
+        "mixed-four-core": 29,
+        "mixed-three-core-plus-exterior": 13
+      },
+      "reconstructed_geometry_sha256": "441fbe2d4baf0ed3bdbae0b95e3eadd3b7bff9328f2748d1c937c499b1f21b27"
+    },
+    "P8-i2": {
+      "catalogue_sha256": "1e0fae384d5a8f99ef8c4234fc17e6efd6809ffd252602962dce9fd2648265db",
+      "automorphism_orders": {
+        "Y": 60,
+        "Z": 4,
+        "product": 240
+      },
+      "deletion_orbit_size": 15,
+      "domain_sizes": {
+        "internal-Z": 15,
+        "mixed-four-core": 465,
+        "mixed-three-core-plus-exterior": 180
+      },
+      "orbit_counts": {
+        "unmarked": 1,
+        "internal-Z": 6,
+        "mixed-four-core": 20,
+        "mixed-three-core-plus-exterior": 9
+      },
+      "reconstructed_geometry_sha256": "f89a0ef6a2548bdb079a5f99f8a6144b83e1df3f1b0c2bbe579151f3d338d9d5"
+    },
+    "Q8": {
+      "catalogue_sha256": "f8f9d7247940bb9b21c8d061e870195e054d044ce09ec73c474a232c56a639e5",
+      "automorphism_orders": {
+        "Y": 60,
+        "Z": 24,
+        "product": 1440
+      },
+      "deletion_orbit_size": 0,
+      "domain_sizes": {
+        "internal-Z": 35,
+        "mixed-four-core": 665,
+        "mixed-three-core-plus-exterior": 231
+      },
+      "orbit_counts": {
+        "unmarked": 1,
+        "internal-Z": 8,
+        "mixed-four-core": 20,
+        "mixed-three-core-plus-exterior": 9
+      },
+      "reconstructed_geometry_sha256": "fe83d5f1a22bf6870c6e3816da3fe8734bdc08c9fba63e4c139abefe17391fbe"
+    }
+  },
+  "pattern_plan_checks": {
+    "Q8-I06": {
+      "plan_sha256": "99b691370ca1597ab0c461441841f8dfcbd519b9df1480470db840fab961af9a",
+      "all_labelled_patterns": 49,
+      "orbit_sizes": [
+        1,
+        6,
+        3,
+        6,
+        6,
+        12,
+        6,
+        3,
+        6
+      ],
+      "nonempty_orbits": 8
+    }
+  },
+  "receipt_inventory": [
+    {
+      "path": "P8-i1-E3_00-emptyZ-mixed3-ec437cbcee8c.json",
+      "sha256": "cc1af71bb98c7b374ab568598adebab649398a86bc43ab1999434924954ca1ce",
+      "kind": "P8-i1",
+      "case": "E3_00",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i1-E3_01-emptyZ-mixed3-7a9432eaaeb4.json",
+      "sha256": "3711da09e5226dceaa27ccc375261d46cd16262d3f7d246942cd2cc2a432c7b0",
+      "kind": "P8-i1",
+      "case": "E3_01",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i1-E3_02-emptyZ-mixed3-bcc1f743a022.json",
+      "sha256": "f9b692b456780a07631c8d7ea38ceaf41298ede4e57c09f18bfa9874b89fbbe2",
+      "kind": "P8-i1",
+      "case": "E3_02",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i1-E3_03-emptyZ-mixed3-71b11956034f.json",
+      "sha256": "35915d7524927a54c8a290cc41dd32dac14171feff51faa512b50fe0b155284f",
+      "kind": "P8-i1",
+      "case": "E3_03",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i1-E3_04-emptyZ-mixed3-0fbfb53a4620.json",
+      "sha256": "8c0788ac8a3d2937a82e438bbfc823049271fab16cb3d697b88c4182b640b117",
+      "kind": "P8-i1",
+      "case": "E3_04",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i1-E3_05-emptyZ-mixed3-68dd758dfc13.json",
+      "sha256": "5ba8383d9f72b837a520745d623e5eb907ea6beb5521a094c0aee25093c7fd76",
+      "kind": "P8-i1",
+      "case": "E3_05",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i1-E3_06-emptyZ-mixed3-4f5da5f40bf9.json",
+      "sha256": "4b6d7431b94bed55e7ef25b8618c371da372f120dc4e222bef1e23f24fae8a47",
+      "kind": "P8-i1",
+      "case": "E3_06",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i1-E3_07-emptyZ-mixed3-1d94643d8b85.json",
+      "sha256": "d2c00fd2baedd540006b2124f7611e333209b3c23d974ef003b2950a9387e1cc",
+      "kind": "P8-i1",
+      "case": "E3_07",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i1-E3_08-emptyZ-mixed3-773ad2eeb9b4.json",
+      "sha256": "7609aff5de497e60df5edd8182c0fcde55501cf89fc7f0e8e2f736325ebc2fcf",
+      "kind": "P8-i1",
+      "case": "E3_08",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i1-E3_09-emptyZ-mixed3-5683fa7dfe2c.json",
+      "sha256": "e09cd298c3f6f12f5e46ce55a53cd97d3b908f04dd89052c36dad41e10382391",
+      "kind": "P8-i1",
+      "case": "E3_09",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i1-E3_10-emptyZ-mixed3-3c948833114c.json",
+      "sha256": "7e85c8ae95547fc408d74ebafc7a452f10d56c9a234adb1f18adb09a89b6aa9e",
+      "kind": "P8-i1",
+      "case": "E3_10",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i1-E3_11-emptyZ-mixed3-bb1c177abfe9.json",
+      "sha256": "e1b7b694c352c1cc8f000f46821ac6140731b78cd446112c832e7291703b5444",
+      "kind": "P8-i1",
+      "case": "E3_11",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i1-E3_12-emptyZ-mixed3-30f6b6b6aee0.json",
+      "sha256": "f08de6c949a905ac57d6c43222b7290e2a1ca35dbb1be8784a21e4206c73dbea",
+      "kind": "P8-i1",
+      "case": "E3_12",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i1-E4_00-emptyZ-fourcore-8c72445a6335.json",
+      "sha256": "01c1dd342799178173413a8ae9026d43d75216b81e07fb800ec940a1f18c2ad2",
+      "kind": "P8-i1",
+      "case": "E4_00",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_01-emptyZ-fourcore-dcf32ecedcac.json",
+      "sha256": "9a527b60f2b180c4658fe9368b809a065e681c9bea337cbc3c10b76d248173e6",
+      "kind": "P8-i1",
+      "case": "E4_01",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_02-emptyZ-fourcore-ab2396bcfbcc.json",
+      "sha256": "96859bae0a06bfb7811d52e9ffb6a23e096681529c58c522d4282d894e374751",
+      "kind": "P8-i1",
+      "case": "E4_02",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_03-emptyZ-fourcore-8f2cab7cb801.json",
+      "sha256": "b3e4994419a79683659f268e03e7965696e605641d2d5c1f27a998aadda58a60",
+      "kind": "P8-i1",
+      "case": "E4_03",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_04-emptyZ-fourcore-c7ac0ef31523.json",
+      "sha256": "43307320cdb3b61b163aef6c5fc848243ba0d3f688ebc90e87964552db31b379",
+      "kind": "P8-i1",
+      "case": "E4_04",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_05-emptyZ-fourcore-69cddc887db0.json",
+      "sha256": "d9f541ade39b1a9110befd4a09824859800c41a58cd4f88a4b5eb3186213d52d",
+      "kind": "P8-i1",
+      "case": "E4_05",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_06-emptyZ-fourcore-672a4e4a8768.json",
+      "sha256": "d61c8ba60c04708eabb5b05a8dc504fe9f2a33fb80282f67627d7d1d42c4f53f",
+      "kind": "P8-i1",
+      "case": "E4_06",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_07-emptyZ-fourcore-7b134765acff.json",
+      "sha256": "97017b3ac4473552c0027a49f69a64d2b5181da84dc77b3b884ad8dc870fd946",
+      "kind": "P8-i1",
+      "case": "E4_07",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_08-emptyZ-fourcore-e6d8d192be60.json",
+      "sha256": "1416bfdc7c121064b98e3bd03499cf87ae12ab5116fdd9b98179488fcadf0f1a",
+      "kind": "P8-i1",
+      "case": "E4_08",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_09-emptyZ-fourcore-f70b31caedd4.json",
+      "sha256": "80680132bef654694b98876156ca5d1df5d5820d39ca2818ab3ef40c70832c89",
+      "kind": "P8-i1",
+      "case": "E4_09",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_10-emptyZ-fourcore-682bcd8e4fab.json",
+      "sha256": "0b8bde6071f3e9984bc44e0c888037de9d111a31cf9c3b68db30b588ad2f0990",
+      "kind": "P8-i1",
+      "case": "E4_10",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_11-emptyZ-fourcore-30cc7cbac2c3.json",
+      "sha256": "28b552beae9eff0f4e3d78229362c2f3742bb1b705a71e1ed51949bc7185c8ae",
+      "kind": "P8-i1",
+      "case": "E4_11",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_12-emptyZ-fourcore-43da6908cbbf.json",
+      "sha256": "4b09a1ef47a8bb282e2ea0adc52efdc5fe7aa8e4a5bfeaa07a342b9feaba0423",
+      "kind": "P8-i1",
+      "case": "E4_12",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_13-emptyZ-fourcore-e25027bc146b.json",
+      "sha256": "08f32f1df50fcba460c413e05850c6814661d5d478f16aea383a1f7c5ab5929d",
+      "kind": "P8-i1",
+      "case": "E4_13",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_14-emptyZ-fourcore-807463719db2.json",
+      "sha256": "1320d637f1ec5cf2b46315458ef1475331ae8eef59381785f34b9da4afc11a29",
+      "kind": "P8-i1",
+      "case": "E4_14",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_15-emptyZ-fourcore-6c4d10058c66.json",
+      "sha256": "a5241cda0b1f5b86b545bdb32a191e623446c320efd9c59f29f0b7a453299396",
+      "kind": "P8-i1",
+      "case": "E4_15",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_16-emptyZ-fourcore-f0273b745717.json",
+      "sha256": "a5f5e8ac3c66a9b2e178656c55860cfe83a3c37296041208dfa7f027fb84def7",
+      "kind": "P8-i1",
+      "case": "E4_16",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_17-emptyZ-fourcore-06580955f3d6.json",
+      "sha256": "da7209d542c13815a69cfb4ede3453defeb7ec517d209667941ef66c7d68be14",
+      "kind": "P8-i1",
+      "case": "E4_17",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_18-emptyZ-fourcore-bc5945dfc2c5-phaseone.json",
+      "sha256": "7d805e68b9ec087d8b60dd7b0180e31516a1173130885d7a6279436f9d479353",
+      "kind": "P8-i1",
+      "case": "E4_18",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_18-emptyZ-fourcore-bc5945dfc2c5.json",
+      "sha256": "e644aa053c9298d70129c5600763647262ef02f566ea4db237638bbde0c30841",
+      "kind": "P8-i1",
+      "case": "E4_18",
+      "strict_recorded_bound": false,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_19-emptyZ-fourcore-c7c2dd9866d5.json",
+      "sha256": "d01d61275ff57811693f16142c8bfe2f515fba221cd31b69057aea8799ec35e4",
+      "kind": "P8-i1",
+      "case": "E4_19",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_20-emptyZ-fourcore-a56cec5bafb9.json",
+      "sha256": "b1d6ec0d2b635c21fc229600aa73b9274a4a3cc085a32e161ba8c79d4a06f618",
+      "kind": "P8-i1",
+      "case": "E4_20",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_21-emptyZ-fourcore-f8498f4677c9.json",
+      "sha256": "722bb0262cd1f70c3902a6fe27d8bea07028604f15f0b7e3f35fd0e66dc938f9",
+      "kind": "P8-i1",
+      "case": "E4_21",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_22-emptyZ-fourcore-f4c50beb9394.json",
+      "sha256": "8e967b01d4c7a517556f2727f784046dd8139f656cd122e26d4c1c65a71fda72",
+      "kind": "P8-i1",
+      "case": "E4_22",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_23-emptyZ-fourcore-97a6c071b3a2.json",
+      "sha256": "33cf0a0aaa83d1ac018faf5bb236d2c2e6af0965d8392b29e503ce64c4eb5622",
+      "kind": "P8-i1",
+      "case": "E4_23",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_24-emptyZ-fourcore-4dd8663ab813.json",
+      "sha256": "548ce22dd2b67af21a9d2e34588326d0a3e5c7784e25f0389ccb1eafb92c0e41",
+      "kind": "P8-i1",
+      "case": "E4_24",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_25-emptyZ-fourcore-cc0723f995ff.json",
+      "sha256": "e10640f5477ec2eb56ecadf78ee0a25c44bff35ae0b0555b01e654fb829e91d2",
+      "kind": "P8-i1",
+      "case": "E4_25",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_26-emptyZ-fourcore-cb2cd2aebc21-phaseone.json",
+      "sha256": "4073766852bd1ffef6769da4888eed7cf12c6e827193be802640307c416a0d69",
+      "kind": "P8-i1",
+      "case": "E4_26",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_26-emptyZ-fourcore-cb2cd2aebc21.json",
+      "sha256": "26a7d0aabc61154632fb123342af0ef2641da411a3198bf51c7d6434d3434443",
+      "kind": "P8-i1",
+      "case": "E4_26",
+      "strict_recorded_bound": false,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_27-emptyZ-fourcore-3735ecdd0ff5-phaseone.json",
+      "sha256": "dbefb826395c1c44c53422b2f81cb7ab35232ccaff64dedad094f1cb340daaeb",
+      "kind": "P8-i1",
+      "case": "E4_27",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_27-emptyZ-fourcore-3735ecdd0ff5.json",
+      "sha256": "15e30eac0f9ea54998291dc7acb79e28b0580d957ad2825f878a14695f72119d",
+      "kind": "P8-i1",
+      "case": "E4_27",
+      "strict_recorded_bound": false,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-E4_28-emptyZ-fourcore-5a771f1732cb.json",
+      "sha256": "d5140431968467c7a55fbc242b3ff9db2f73015e2f7e932bc039fae06f1987a2",
+      "kind": "P8-i1",
+      "case": "E4_28",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-I00-internal-1b3a8c6bcda3.json",
+      "sha256": "b603712d5721de2176bcd475e19eec557f5f2e82a808b121126f54635336cada",
+      "kind": "P8-i1",
+      "case": "I00",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-I01-internal-2105205b1d45.json",
+      "sha256": "68985190b6b313a991061915cf426389d552c87b25688fe9e5af7948d66c4816",
+      "kind": "P8-i1",
+      "case": "I01",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-I02-internal-81d1b002252d.json",
+      "sha256": "f323b818c1c0cfd4a18cecfedb5f82e974f2b535e21f93a3b61ff5f5c63ee069",
+      "kind": "P8-i1",
+      "case": "I02",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-I03-internal-65848908014b.json",
+      "sha256": "49ab4bc251ad1a45ef72413592773a86faa6ce19e9c3e56caa9bfd32e41135d9",
+      "kind": "P8-i1",
+      "case": "I03",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-I04-internal-1560492ef3f8.json",
+      "sha256": "61dfadb5e38c8c56d00864c14936b0437c090458555a326f6b37260ed21811d6",
+      "kind": "P8-i1",
+      "case": "I04",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-I05-internal-e6bb97c30513.json",
+      "sha256": "ca19781b9483e8aebdd57eb68389c3bf5c228c37cf0c70dacb1c225130318854",
+      "kind": "P8-i1",
+      "case": "I05",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-I06-internal-fb8783e9020d.json",
+      "sha256": "337606c847e4b0194033f2eacd84a46b3ba0b19463d36d0dfce10d06535f01c8",
+      "kind": "P8-i1",
+      "case": "I06",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-I07-internal-285026855842.json",
+      "sha256": "a329c633f5ae01dc4dc9f09a580920fea25c85f6374ab18f461082875694aae8",
+      "kind": "P8-i1",
+      "case": "I07",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-I08-internal-381dc9370f7b.json",
+      "sha256": "e47e11e1ea548771bf0aff850400f5f684ab4034dbf8a29c7489722e33c50e2f",
+      "kind": "P8-i1",
+      "case": "I08",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i1-none-initial-fab616ade071.json",
+      "sha256": "d8892f320e53ea873a890080a1d9895bedc6b19d7ae6d39100962a585fd40f84",
+      "kind": "P8-i1",
+      "case": "none",
+      "strict_recorded_bound": false,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E3_00-emptyZ-mixed3-4470b2973b2f.json",
+      "sha256": "7bb193129ddc43d81cf8d0b092eb11ebd0b09ca8c455b850e24f1c744b5aea0e",
+      "kind": "P8-i2",
+      "case": "E3_00",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i2-E3_01-emptyZ-mixed3-d17354e43021.json",
+      "sha256": "9ad261cc02f4752c1fcd4db94d67fc6da0902d15d5031b8ec0fb6a16ccf401b8",
+      "kind": "P8-i2",
+      "case": "E3_01",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i2-E3_02-emptyZ-mixed3-b06a1e44e3b6.json",
+      "sha256": "120a4acd0afd9ab32a3a66fc93c528ba633c13bf042c14a29f32c3a85909e995",
+      "kind": "P8-i2",
+      "case": "E3_02",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i2-E3_03-emptyZ-mixed3-03f43222565c.json",
+      "sha256": "ed96085b26a8f463461d3114065fba7c88f8245f14fdc00091512012a70a55fd",
+      "kind": "P8-i2",
+      "case": "E3_03",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i2-E3_04-emptyZ-mixed3-e7aa79fada82.json",
+      "sha256": "f560dbc9f189b3fb8b9db2d331c9efa00e05ff508a2646c7a5f9347081324cf8",
+      "kind": "P8-i2",
+      "case": "E3_04",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i2-E3_05-emptyZ-mixed3-50e4f9f53318.json",
+      "sha256": "b79d4050520eef6d39ce3eb6f5405956c72d0cf52b73a6d7a42d78471f172e5a",
+      "kind": "P8-i2",
+      "case": "E3_05",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i2-E3_06-emptyZ-mixed3-73773197dde5.json",
+      "sha256": "53b09f49805d0db43a0b50cfe9b386b417e385e63c9e237d31682aac092469f0",
+      "kind": "P8-i2",
+      "case": "E3_06",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i2-E3_07-emptyZ-mixed3-ad7aec204d97.json",
+      "sha256": "bfc27411f9357ed583901ff9afb524b74aa14768f4f47a5fa84565c2e4c29851",
+      "kind": "P8-i2",
+      "case": "E3_07",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i2-E3_08-emptyZ-mixed3-d624de1f307c.json",
+      "sha256": "3a0165ca0550166f4312a9f767fc36f40dd800b5c5f09060ff74f4918298e280",
+      "kind": "P8-i2",
+      "case": "E3_08",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "P8-i2-E4_00-emptyZ-fourcore-e2c2516c8e1e.json",
+      "sha256": "2546897dab7bac89321942ee3889139b4e2d7de7c0ce0d8d17558541f93c0282",
+      "kind": "P8-i2",
+      "case": "E4_00",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_01-emptyZ-fourcore-35fc63918e49.json",
+      "sha256": "4ea1c8eaf0509140214fa38d21d639e81743e14e14d5bff53f313dcdd44b68ba",
+      "kind": "P8-i2",
+      "case": "E4_01",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_02-emptyZ-fourcore-07cb65334afb.json",
+      "sha256": "6466afcc33effe064ebf5ea2108c35f808b8b90b4f010fcbc61fca43509f3896",
+      "kind": "P8-i2",
+      "case": "E4_02",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_03-emptyZ-fourcore-f2212504d9b8.json",
+      "sha256": "0ca731229c93d94e5f6350a0963e6aac66c8406dfc7ee815f25905f3c1c31010",
+      "kind": "P8-i2",
+      "case": "E4_03",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_04-emptyZ-fourcore-34d443e8d0df.json",
+      "sha256": "96dd1690b7b219764a3f16775c5dd455359b35c39af84d463a88fdb6ab82b595",
+      "kind": "P8-i2",
+      "case": "E4_04",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_05-emptyZ-fourcore-bbddf08b2be0.json",
+      "sha256": "36a207250b74a4173650bc75ef66269433aa9727ab11e5d968be9e8646c800cd",
+      "kind": "P8-i2",
+      "case": "E4_05",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_06-emptyZ-fourcore-99193b7c1062.json",
+      "sha256": "0f1dafb10e667f3a4ba1773910eea463f386dd06fd425e612299d5c8fa79a113",
+      "kind": "P8-i2",
+      "case": "E4_06",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_07-emptyZ-fourcore-f697341b7378.json",
+      "sha256": "4f6e7dcb9ba3fe75d53cb330878711e56da21a39a50290358d0e2629362dfc40",
+      "kind": "P8-i2",
+      "case": "E4_07",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_08-emptyZ-fourcore-a78b815669a6.json",
+      "sha256": "7c1702c9a96564b86ae7bc7794f6cc78dd50f5bf48dad7d46b853e2dac9c8e96",
+      "kind": "P8-i2",
+      "case": "E4_08",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_09-emptyZ-fourcore-a2e00c6b454b-phaseone.json",
+      "sha256": "835e760391ffa648310ebeb633921d6027ab48a55af79acf426830ed2874c147",
+      "kind": "P8-i2",
+      "case": "E4_09",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_09-emptyZ-fourcore-a2e00c6b454b.json",
+      "sha256": "974851a9b7182a6199c9548059baa8328ae2fc4deb5cae109300ad948d55ee55",
+      "kind": "P8-i2",
+      "case": "E4_09",
+      "strict_recorded_bound": false,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_10-emptyZ-fourcore-9bad95935702.json",
+      "sha256": "a0b8b3941dab3162c24e05e9de15ac4aefbc73c50220a8cf72a17a9f7f2a8645",
+      "kind": "P8-i2",
+      "case": "E4_10",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_11-emptyZ-fourcore-ab3bf057d5b9.json",
+      "sha256": "fcf3c72d0053708b3753481d70d4f2bf7924c0fa0a5608b488c6f9b6c73f25de",
+      "kind": "P8-i2",
+      "case": "E4_11",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_12-emptyZ-fourcore-87d1fd6d5e2e.json",
+      "sha256": "d73710f594d7f6e66588684e109ceb3e05f2ce77076191915189816eb7f0e9cb",
+      "kind": "P8-i2",
+      "case": "E4_12",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_13-emptyZ-fourcore-1702d9f72f39.json",
+      "sha256": "9e5315cec07bcac6a7d1cdd3584270c5ca94da5881a1fe90396ba491e4fc5a7a",
+      "kind": "P8-i2",
+      "case": "E4_13",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_14-emptyZ-fourcore-9ae2a5adae34.json",
+      "sha256": "21224cec7d96838bfa464c73a4c63f899f42e7cb5d90d1a57d54528eaefa198a",
+      "kind": "P8-i2",
+      "case": "E4_14",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_15-emptyZ-fourcore-32737d70efe4-phaseone.json",
+      "sha256": "a5c6969828a77dc7517285cb74370d010d13fd87de5b91ad8f332c71aa9670ab",
+      "kind": "P8-i2",
+      "case": "E4_15",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_15-emptyZ-fourcore-32737d70efe4.json",
+      "sha256": "6f4b6e6da4cb50430d022347a740b08bc35998d4a90ba5fd0623e988c2f24ecd",
+      "kind": "P8-i2",
+      "case": "E4_15",
+      "strict_recorded_bound": false,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_16-emptyZ-fourcore-bb9ad889b28f-phaseone.json",
+      "sha256": "484c705c21dd09e8c99b263dac6d7df234118fa2db564e4d44a2c9d9ac564a69",
+      "kind": "P8-i2",
+      "case": "E4_16",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_16-emptyZ-fourcore-bb9ad889b28f.json",
+      "sha256": "d8fd0d7836b553e6385ccfe1a7912f6c92ae56fbf0656dd9c67ebe15faf9853f",
+      "kind": "P8-i2",
+      "case": "E4_16",
+      "strict_recorded_bound": false,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_17-emptyZ-fourcore-514b45b248fa.json",
+      "sha256": "69ca26413654f84b336f10d46c5134e5983562ace693b87cb337c86733cf2c20",
+      "kind": "P8-i2",
+      "case": "E4_17",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_18-emptyZ-fourcore-9711380f41e3.json",
+      "sha256": "ac4f3d306508ea9d2b5d30333c69a29017f3ab17a28e11032a25396d57f5a393",
+      "kind": "P8-i2",
+      "case": "E4_18",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-E4_19-emptyZ-fourcore-5ca172d21574.json",
+      "sha256": "d23bd1aece63b3ee3b253e5e88244dfacfbc5ecf1eef327a950d25da82db10b6",
+      "kind": "P8-i2",
+      "case": "E4_19",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-I00-internal-873b5c8d9e71.json",
+      "sha256": "6959a716f6d7e0ed71c96c3e3990d54c6da0b3bfe46cad8374e804ded63b2cce",
+      "kind": "P8-i2",
+      "case": "I00",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-I01-internal-4f054c54a8cb.json",
+      "sha256": "2febaf3e1ced2585c88617cbda38ff94f451b8ca00b461fe05e42dfa9c86130b",
+      "kind": "P8-i2",
+      "case": "I01",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-I02-internal-09d81d968837.json",
+      "sha256": "b1b02781aff7628d7fe410bdb0a3bdf51ffe863bb5e7c95774064711d6d4c590",
+      "kind": "P8-i2",
+      "case": "I02",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-I03-internal-3bf1d2695466.json",
+      "sha256": "8eaa37595baebf34ba28f6aeb5d6d23aee175e8c65f2416a83575e30597f41da",
+      "kind": "P8-i2",
+      "case": "I03",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-I04-internal-5ab9a5050e98.json",
+      "sha256": "841f532593fe71519afe3cb1582c1b8c01eb34b9ba07ab89f8ba8b874ee4c8fe",
+      "kind": "P8-i2",
+      "case": "I04",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-I05-internal-1f5deeb4d02c.json",
+      "sha256": "5d928ee002423df3bca62e37ebd5f54315d0a92d062f6e96e399cb6c972ab4f5",
+      "kind": "P8-i2",
+      "case": "I05",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "P8-i2-none-initial-45d454c09f2b.json",
+      "sha256": "cd1a3b85f77eb9d59bd0e24a4e9e72623f19846d1c5241cca7b950c5f2262151",
+      "kind": "P8-i2",
+      "case": "none",
+      "strict_recorded_bound": false,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E3_00-Q8-emptyZ-mixed3-d395d1035618.json",
+      "sha256": "d490a49c6a4070e0f11987bc8fb94dc92231faa33ff3eef2e2c79eb9bae8e73c",
+      "kind": "Q8",
+      "case": "E3_00",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "Q8-E3_01-Q8-emptyZ-mixed3-cb778f388c0e.json",
+      "sha256": "7571bc6f089917f54b7eb4eec52214602ba0d7c4c87f7b6a189055cc59ff208a",
+      "kind": "Q8",
+      "case": "E3_01",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "Q8-E3_02-Q8-emptyZ-mixed3-896d2cf8aa2e.json",
+      "sha256": "5116380603020c45139f0e93884d6bc8b32ad8d26c3e52cab9346e980a3a5eb4",
+      "kind": "Q8",
+      "case": "E3_02",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "Q8-E3_03-Q8-emptyZ-mixed3-82f42c52ebf2.json",
+      "sha256": "627e8785650edac8a59e36ed27cc3453398c98b75ab70c2ac9799c6970c14183",
+      "kind": "Q8",
+      "case": "E3_03",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "Q8-E3_04-Q8-emptyZ-mixed3-2606826338f1.json",
+      "sha256": "7bb4eaa86d4531493c92230a3af7399210377a8929b008237b0eca0310a37a4e",
+      "kind": "Q8",
+      "case": "E3_04",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "Q8-E3_05-Q8-emptyZ-mixed3-bc71b86169db-phaseone.json",
+      "sha256": "9b4afb8d331e669575ae91c8c2ae9cefcf9223a2bede3119cb943c55448781fa",
+      "kind": "Q8",
+      "case": "E3_05",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "Q8-E3_05-Q8-emptyZ-mixed3-bc71b86169db.json",
+      "sha256": "c20362f1b62101cc2620e9510ca82791fb886ea8a627f4bc5ab8488d14ac3636",
+      "kind": "Q8",
+      "case": "E3_05",
+      "strict_recorded_bound": false,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "Q8-E3_06-Q8-emptyZ-mixed3-5a9b080f4898.json",
+      "sha256": "c6053b1c3f34081033e7722a1da6ee6c88949552f59fa31c4e8b106810a6513c",
+      "kind": "Q8",
+      "case": "E3_06",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "Q8-E3_07-Q8-emptyZ-mixed3-548ce9f93b29-phaseone.json",
+      "sha256": "eb0e8ad70a5ffc1c71668fac91e4568c79d059b3ca7b520d6277d9c5f5a37e97",
+      "kind": "Q8",
+      "case": "E3_07",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "Q8-E3_07-Q8-emptyZ-mixed3-548ce9f93b29.json",
+      "sha256": "04ea2b409093920c1872d10f0697f4baeb069cf33eba9cc2cc02aebfd95e6518",
+      "kind": "Q8",
+      "case": "E3_07",
+      "strict_recorded_bound": false,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "Q8-E3_08-Q8-emptyZ-mixed3-3b5463d62c97.json",
+      "sha256": "e2746140f63dfd2d424f7ccf51427011f5c032820edbaa2f7af127b57a9d9faa",
+      "kind": "Q8",
+      "case": "E3_08",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": true
+    },
+    {
+      "path": "Q8-E4_00-Q8-emptyZ-fourcore-b9bbf298bac7-phaseone.json",
+      "sha256": "635f1daedff183e1cb089b70e65f9c2c7f6d8776783d3f0889f75861df1d4993",
+      "kind": "Q8",
+      "case": "E4_00",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_00-Q8-emptyZ-fourcore-b9bbf298bac7.json",
+      "sha256": "fdf06a9ecfe5942f9e840351012cb2221441c69ac4d11d960ba0c845440ccacb",
+      "kind": "Q8",
+      "case": "E4_00",
+      "strict_recorded_bound": false,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_01-Q8-emptyZ-fourcore-0433fedf8273.json",
+      "sha256": "6f27684095050c4a74912d7e15bdce8f561d2880626e2367d527859818edf1fc",
+      "kind": "Q8",
+      "case": "E4_01",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_02-Q8-emptyZ-fourcore-9975abe93a3a.json",
+      "sha256": "810513415d68bf684e6ba3611dee841802318e7858d5af4f7f88a6849697dcf2",
+      "kind": "Q8",
+      "case": "E4_02",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_03-Q8-emptyZ-fourcore-bd78c758d000.json",
+      "sha256": "6f5f4289db20a887a9ae438e288cd73e45ed98547c7b97c9e4e6e63adf9af0f1",
+      "kind": "Q8",
+      "case": "E4_03",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_04-Q8-emptyZ-fourcore-6f07b478531c.json",
+      "sha256": "55231050481f6708f065f12b4318a3ae632481d210c1006c2f9af7f47076b859",
+      "kind": "Q8",
+      "case": "E4_04",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_05-Q8-emptyZ-fourcore-a957cf15d4d7.json",
+      "sha256": "35aec88a86250d314b2f5fec03af833660a206a4906715ad8747d9389b754ce9",
+      "kind": "Q8",
+      "case": "E4_05",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_06-Q8-emptyZ-fourcore-07631fbcd6dc.json",
+      "sha256": "9dcc178df2fc881ccde1184dc8e228e4fc1fcc9ad8b86767719d2e2a86d422b6",
+      "kind": "Q8",
+      "case": "E4_06",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_07-Q8-emptyZ-fourcore-08d47fc4af1b.json",
+      "sha256": "81a761b957ce51aeb55164aca322ede61fb6cc162c0fdebcc96abb63feec5af4",
+      "kind": "Q8",
+      "case": "E4_07",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_08-Q8-emptyZ-fourcore-144b2b952759-phaseone.json",
+      "sha256": "a5ffe2ed2a9fcf79192953f93f2c2b61c77c6edfd931a50e7db4b1cbbf13b760",
+      "kind": "Q8",
+      "case": "E4_08",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_08-Q8-emptyZ-fourcore-144b2b952759.json",
+      "sha256": "2328be01580c5aa6d7336f0d8df1f1de237540b5010dfd203e457b071d75c707",
+      "kind": "Q8",
+      "case": "E4_08",
+      "strict_recorded_bound": false,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_09-Q8-emptyZ-fourcore-0f58d5ee537e.json",
+      "sha256": "fd5d5a074374323153ed2820e5df702ce6833253d6181af56fc03587ad1cb5be",
+      "kind": "Q8",
+      "case": "E4_09",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_10-Q8-emptyZ-fourcore-8f1350016099.json",
+      "sha256": "98df8e3c67b01f276e22004fff557f61e7f12ba2a5b018f45fc8797d7fef2319",
+      "kind": "Q8",
+      "case": "E4_10",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_11-Q8-emptyZ-fourcore-79629d87c4af.json",
+      "sha256": "4a630cc4a5c2b41e10c0981f055c9b4be71f3feca11d24a2b4fd1a13d8a92405",
+      "kind": "Q8",
+      "case": "E4_11",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_12-Q8-emptyZ-fourcore-877477d517aa.json",
+      "sha256": "d87a06d27abefe9b30200d2f335866e91971120a7dee121b15be61cb4ddf51fc",
+      "kind": "Q8",
+      "case": "E4_12",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_13-Q8-emptyZ-fourcore-319affc664a5.json",
+      "sha256": "f5f75ce41ce9a4f99d1b7e69a4b63453c3e269c34884e212a352442af79b10d9",
+      "kind": "Q8",
+      "case": "E4_13",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_14-Q8-emptyZ-fourcore-656a36cb186e.json",
+      "sha256": "070a4da7824412b89b3c1d527c33131c6e4b70fb3279c5aae3a34bbc2a786fce",
+      "kind": "Q8",
+      "case": "E4_14",
+      "strict_recorded_bound": false,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_14-fourcore-stage2-d44f054366ab.json",
+      "sha256": "52d514c9ce4d9b36b297ffb46c6446dd1808bb267e4a634f0cd8d9019d62e282",
+      "kind": "Q8",
+      "case": "E4_14",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 575,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_15-Q8-emptyZ-fourcore-220dbd250bd0.json",
+      "sha256": "9479a8a8d9e6406f3d0409d16d3dcec9c090766d1364e23f7863d29b90134947",
+      "kind": "Q8",
+      "case": "E4_15",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_16-Q8-emptyZ-fourcore-a17c5bac6bd3.json",
+      "sha256": "b9d1cc17b3479d0b86f699012a8a47eed0c1faf83a3788ae86437bf35eea2177",
+      "kind": "Q8",
+      "case": "E4_16",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_17-Q8-emptyZ-fourcore-5fbc26985ae2.json",
+      "sha256": "bde85f8ad749d2a89beec7e7137bb9d26d13ce75f27bb8cd1bead20f946b1929",
+      "kind": "Q8",
+      "case": "E4_17",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_18-Q8-emptyZ-fourcore-0251be7e8198.json",
+      "sha256": "3870abfd1d4e10b69903514067c3d92029ac25bc291ecc48d7ba178df3cbcd69",
+      "kind": "Q8",
+      "case": "E4_18",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-E4_19-Q8-emptyZ-fourcore-04504531fc7c.json",
+      "sha256": "99e5ff8d88df86c21f10b1de848653c6fcc52995d0966696d10cc79751d84512",
+      "kind": "Q8",
+      "case": "E4_19",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": true,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I00-internal-cdf71d704381.json",
+      "sha256": "d3e7bfb394ff74be796472c3edf506546310679d358a5dcf19116b46c0151e97",
+      "kind": "Q8",
+      "case": "I00",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I01-internal-be13884dd2c5.json",
+      "sha256": "fd6e2ed6339d024b9ff845c36b6259d24c0e2a88880584372783d87466a8fd91",
+      "kind": "Q8",
+      "case": "I01",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I02-core-rows-1535c5a9adc7.json",
+      "sha256": "2b5b47cedfd4ce4deecc068b8cd9eeb116edb915097f6ad67697efff60d8cc07",
+      "kind": "Q8",
+      "case": "I02",
+      "strict_recorded_bound": false,
+      "source_sha256": "f699b11692532e800ef87c17dc5a3b7baac7cae4c50b0fa01e8ae64c3cee604d",
+      "empty_z": false,
+      "forbidden_count": 20,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I02-hub-33cb65f97da6.json",
+      "sha256": "7a0bc18a3f1bfdde8b318dae602d23011bbf1f44ed7262b713428ea42109cd28",
+      "kind": "Q8",
+      "case": "I02",
+      "strict_recorded_bound": true,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 20,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I02-internal-0eca05ea6bab.json",
+      "sha256": "35f301fe04474542d69fa6c737c148f84faacd5d5e15e1dbb7d846f4714412ac",
+      "kind": "Q8",
+      "case": "I02",
+      "strict_recorded_bound": false,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I02-stage1-9adc8b1be060.json",
+      "sha256": "38100aa871c0ce840eef61132e5e165663c6dd7325542bc19f0a1919b8623b16",
+      "kind": "Q8",
+      "case": "I02",
+      "strict_recorded_bound": false,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 20,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I03-internal-632b027cdf77.json",
+      "sha256": "bacad7c95830bce99f09a73078abc79a128f9a95a5e560fe1419a2fec76a4b26",
+      "kind": "Q8",
+      "case": "I03",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I04-core-rows-34a380b01a4c.json",
+      "sha256": "cc776bc98ddb1a545453789de9feb6691467af488de7a83c6bfd6a40ea1088f2",
+      "kind": "Q8",
+      "case": "I04",
+      "strict_recorded_bound": false,
+      "source_sha256": "f699b11692532e800ef87c17dc5a3b7baac7cae4c50b0fa01e8ae64c3cee604d",
+      "empty_z": false,
+      "forbidden_count": 20,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I04-hub-5632ff86665f.json",
+      "sha256": "b86808ce6301a3a1258074d3c50a1a649c59ead12d9afee180b0f368fff16dd0",
+      "kind": "Q8",
+      "case": "I04",
+      "strict_recorded_bound": true,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 20,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I04-internal-1c1b99d2529e.json",
+      "sha256": "9198e0daed199e6080a96f5ea4b33911c31e77a00ae2e79ca46bba37737bec64",
+      "kind": "Q8",
+      "case": "I04",
+      "strict_recorded_bound": false,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I04-stage1-034b77985a74.json",
+      "sha256": "04a59fecdf0133771ce491022ab1aaf1398534da3ad53ee0e7965b90c6c3e3c4",
+      "kind": "Q8",
+      "case": "I04",
+      "strict_recorded_bound": false,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 20,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I05-core-rows-7c57df6053d1.json",
+      "sha256": "8925928bbd18340859d8694ec406f2e99bd1297f05ff434244092fe4a497b4bb",
+      "kind": "Q8",
+      "case": "I05",
+      "strict_recorded_bound": false,
+      "source_sha256": "f699b11692532e800ef87c17dc5a3b7baac7cae4c50b0fa01e8ae64c3cee604d",
+      "empty_z": false,
+      "forbidden_count": 20,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I05-hub-1e66e4e92265.json",
+      "sha256": "936942edabefcb9c9af5e40244a7e839968cb85bb22971e1e7ae767e9f83a1b2",
+      "kind": "Q8",
+      "case": "I05",
+      "strict_recorded_bound": true,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 20,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I05-internal-c42f7bc15d26.json",
+      "sha256": "a625ffc38bfcaffb0e7c218c9155c87e05d8d42c60dacde90782ec38bf88586c",
+      "kind": "Q8",
+      "case": "I05",
+      "strict_recorded_bound": false,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I05-stage1-66edd356b179.json",
+      "sha256": "d1f920cd9379a69425a7d9e86dc0e992859ee76c751ffbfd4cd6ae2b4e998278",
+      "kind": "Q8",
+      "case": "I05",
+      "strict_recorded_bound": false,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 20,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I06-clique-baa927a9bbf8.json",
+      "sha256": "c0512531e0c2409b4c63bac411fe5598fb9cb506ddfdb5036e60a19bda579738",
+      "kind": "Q8",
+      "case": "I06",
+      "strict_recorded_bound": false,
+      "source_sha256": "f82581d7034b65a3a890975925d45aa8822e81b6a6e549d43d76b66efbf14b58",
+      "empty_z": false,
+      "forbidden_count": 29,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I06-core-rows-3147f41a7207.json",
+      "sha256": "2ae5676350564de706c81a5ed5da41828cd18a85d17187dae1dc2d46ff63a2a8",
+      "kind": "Q8",
+      "case": "I06",
+      "strict_recorded_bound": false,
+      "source_sha256": "f699b11692532e800ef87c17dc5a3b7baac7cae4c50b0fa01e8ae64c3cee604d",
+      "empty_z": false,
+      "forbidden_count": 20,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I06-hub-d0fef5ece93f.json",
+      "sha256": "6efa796b6577d3b44c25cf7cd334036272f7366272a0f417e3e3624ddcbc312d",
+      "kind": "Q8",
+      "case": "I06",
+      "strict_recorded_bound": false,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 20,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I06-internal-31159b50b7c5.json",
+      "sha256": "442abdefd066a71a2141db1eab1acd06a13e0395a78dda1c72c3196c28fa4884",
+      "kind": "Q8",
+      "case": "I06",
+      "strict_recorded_bound": false,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I06-markedB4-d31e05613888.json",
+      "sha256": "d55fee56e2c559c35765ace08d522de9ec9dc1c8943d2ba5add9f60894bdb45d",
+      "kind": "Q8",
+      "case": "I06",
+      "strict_recorded_bound": false,
+      "source_sha256": "1c50c4ca52c325b12156389a71b0a491dc27ba8f5645745d6e6d30f882aa2def",
+      "empty_z": false,
+      "forbidden_count": 29,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I06-stage1-ad26f17c771e.json",
+      "sha256": "3af89634b631156337b4d55a893631665880972c52f8c8f258f14286d8a94758",
+      "kind": "Q8",
+      "case": "I06",
+      "strict_recorded_bound": false,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 20,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I06-stage2-e6c521cdd9ba.json",
+      "sha256": "32c6fed7b2ad450f166e77ec010281612a83c6a838df49d69415011dacc6cbd1",
+      "kind": "Q8",
+      "case": "I06",
+      "strict_recorded_bound": false,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 29,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I06-triangle-255df392c7d3.json",
+      "sha256": "92d4007fe7bcceb40037db44cd95ce498cded9caab211e5fc9d9fafaa667f8ee",
+      "kind": "Q8",
+      "case": "I06",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": false,
+      "forbidden_count": 29,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-I07-internal-edc40f3a3abc.json",
+      "sha256": "34f734ee4ad86a44c45eb8b136c902300afaaeca1c45a353070fb78ee0437603",
+      "kind": "Q8",
+      "case": "I07",
+      "strict_recorded_bound": true,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-none-I06pattern1-edcdbfdb661a.json",
+      "sha256": "47b586c98caf700d6511f749df6e38469d1b0d25df8eb1adc05c7b6ff06ef252",
+      "kind": "Q8",
+      "case": "none",
+      "strict_recorded_bound": false,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-none-I06pattern2-b7550406340e-phaseone.json",
+      "sha256": "e771496c99350194261f10d1b31e3e575f15b86afef7021a2909d1132c547ab5",
+      "kind": "Q8",
+      "case": "none",
+      "strict_recorded_bound": true,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-none-I06pattern2-b7550406340e.json",
+      "sha256": "4fa217ad8a9676a1ac7249a11976051b802c5ba640c08f2ac419911fd7397f8e",
+      "kind": "Q8",
+      "case": "none",
+      "strict_recorded_bound": false,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-none-I06pattern3-0c28c69951ac.json",
+      "sha256": "4c21056eeaadd3a40aec86e9872dd74136fc6e1f6c090d29f4058502ec9ea4a0",
+      "kind": "Q8",
+      "case": "none",
+      "strict_recorded_bound": true,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-none-I06pattern4-9d5193835322.json",
+      "sha256": "facc1f7d13b8dd0fd2ae778683f069ece6d43185c1e0a4e266441a87da8e1b26",
+      "kind": "Q8",
+      "case": "none",
+      "strict_recorded_bound": true,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-none-I06pattern5-495bf58bcf4d-phaseone.json",
+      "sha256": "c71dbef62232d1e0ac95c2c412e1822858745c351738f085e0da00cffbeb2079",
+      "kind": "Q8",
+      "case": "none",
+      "strict_recorded_bound": true,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-none-I06pattern5-495bf58bcf4d.json",
+      "sha256": "6cd6a00711eff39ffed052d62e2db2ce192e08a1df830ef7db99ab317b97591d",
+      "kind": "Q8",
+      "case": "none",
+      "strict_recorded_bound": false,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-none-I06pattern6-543ed0ac26ed-phaseone.json",
+      "sha256": "1d05308f28ae745acab64c9ba9023e19703cc3aa2082137cfc5e3969b9ad9349",
+      "kind": "Q8",
+      "case": "none",
+      "strict_recorded_bound": true,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-none-I06pattern6-543ed0ac26ed.json",
+      "sha256": "d575a6bd7e9057811437a135b2c4d57c62939fb3875539f8b8e5e488fcec6915",
+      "kind": "Q8",
+      "case": "none",
+      "strict_recorded_bound": false,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-none-I06pattern7-3d9ed35aba58-phaseone.json",
+      "sha256": "6310e017c0b445fd6d13bbe3b63483b476617c04bc61c43aa6d1cc1fe5fe8850",
+      "kind": "Q8",
+      "case": "none",
+      "strict_recorded_bound": true,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-none-I06pattern7-3d9ed35aba58.json",
+      "sha256": "c7b306e03c0d2aaf5e68305b05f9e3d1c6c454209eccec603b0f663334e229af",
+      "kind": "Q8",
+      "case": "none",
+      "strict_recorded_bound": false,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-none-I06pattern8-9739ac0d46bb-phaseone.json",
+      "sha256": "dd480bcc00b907e4646391f3a142e124e0b8a6a7878a61a5a2c1f058d7283693",
+      "kind": "Q8",
+      "case": "none",
+      "strict_recorded_bound": true,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-none-I06pattern8-9739ac0d46bb.json",
+      "sha256": "14293174f2c7c8ffe320499360e4a87fcecccc9a91aefdef635b506151eb916a",
+      "kind": "Q8",
+      "case": "none",
+      "strict_recorded_bound": false,
+      "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-none-I06singleton-triangle-45a76bed48c3.json",
+      "sha256": "975531ca274221ea2812122b2dc0bc8da234d1ab442366a32cbc64b8a86e591c",
+      "kind": "Q8",
+      "case": "none",
+      "strict_recorded_bound": true,
+      "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    },
+    {
+      "path": "Q8-none-initial-f76f0d5d9553.json",
+      "sha256": "c0099f9949632fb1069eb0620c3059a020231139db82808801f7585bd66d810e",
+      "kind": "Q8",
+      "case": "none",
+      "strict_recorded_bound": false,
+      "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0",
+      "empty_z": false,
+      "forbidden_count": 0,
+      "forbid_four_core": false
+    }
+  ],
+  "invalid_inventory_files": [],
+  "active_chain": {
+    "complete_conditional_marker_chain": true,
+    "base_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-P10-internals.md",
+      "sha256": "aae1930999fc4ebf2bdfe4c2fa985c065c65273e2be096c0ed49e7d11ab856fa"
+    },
+    "coverage": {
+      "P8-i1": {
+        "complete": true,
+        "direct_unmarked_contradiction": false,
+        "covered_orbits": 51,
+        "total_orbits": 51,
+        "missing_cases": []
+      },
+      "P8-i2": {
+        "complete": true,
+        "direct_unmarked_contradiction": false,
+        "covered_orbits": 35,
+        "total_orbits": 35,
+        "missing_cases": []
+      },
+      "Q8": {
+        "complete": true,
+        "direct_unmarked_contradiction": false,
+        "covered_orbits": 37,
+        "total_orbits": 37,
+        "missing_cases": []
+      }
+    },
+    "stages": [
+      {
+        "id": "P8-i1-internal",
+        "kind": "P8-i1",
+        "depends_on": [],
+        "newly_closed_traces": 15,
+        "receipts": [
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I00-internal-1b3a8c6bcda3.json",
+            "sha256": "b603712d5721de2176bcd475e19eec557f5f2e82a808b121126f54635336cada",
+            "case": "I00",
+            "required_exclusions": 0,
+            "orbit_size": 2,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 470000000870,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I01-internal-2105205b1d45.json",
+            "sha256": "68985190b6b313a991061915cf426389d552c87b25688fe9e5af7948d66c4816",
+            "case": "I01",
+            "required_exclusions": 0,
+            "orbit_size": 2,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 470000000717,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I02-internal-81d1b002252d.json",
+            "sha256": "f323b818c1c0cfd4a18cecfedb5f82e974f2b535e21f93a3b61ff5f5c63ee069",
+            "case": "I02",
+            "required_exclusions": 0,
+            "orbit_size": 1,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 470000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I03-internal-65848908014b.json",
+            "sha256": "49ab4bc251ad1a45ef72413592773a86faa6ce19e9c3e56caa9bfd32e41135d9",
+            "case": "I03",
+            "required_exclusions": 0,
+            "orbit_size": 2,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 482696093287,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I04-internal-1560492ef3f8.json",
+            "sha256": "61dfadb5e38c8c56d00864c14936b0437c090458555a326f6b37260ed21811d6",
+            "case": "I04",
+            "required_exclusions": 0,
+            "orbit_size": 2,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 473424660196,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I05-internal-e6bb97c30513.json",
+            "sha256": "ca19781b9483e8aebdd57eb68389c3bf5c228c37cf0c70dacb1c225130318854",
+            "case": "I05",
+            "required_exclusions": 0,
+            "orbit_size": 1,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 476774194057,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I06-internal-fb8783e9020d.json",
+            "sha256": "337606c847e4b0194033f2eacd84a46b3ba0b19463d36d0dfce10d06535f01c8",
+            "case": "I06",
+            "required_exclusions": 0,
+            "orbit_size": 2,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 473072869986,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I07-internal-285026855842.json",
+            "sha256": "a329c633f5ae01dc4dc9f09a580920fea25c85f6374ab18f461082875694aae8",
+            "case": "I07",
+            "required_exclusions": 0,
+            "orbit_size": 1,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 470000000035,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I08-internal-381dc9370f7b.json",
+            "sha256": "e47e11e1ea548771bf0aff850400f5f684ab4034dbf8a29c7489722e33c50e2f",
+            "case": "I08",
+            "required_exclusions": 0,
+            "orbit_size": 2,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 478095336881,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          }
+        ],
+        "pattern_coverage": null
+      },
+      {
+        "id": "P8-i1-fourcore",
+        "kind": "P8-i1",
+        "depends_on": [
+          "P8-i1-internal"
+        ],
+        "newly_closed_traces": 465,
+        "receipts": [
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_00-emptyZ-fourcore-8c72445a6335.json",
+            "sha256": "01c1dd342799178173413a8ae9026d43d75216b81e07fb800ec940a1f18c2ad2",
+            "case": "E4_00",
+            "required_exclusions": 15,
+            "orbit_size": 10,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 450000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_01-emptyZ-fourcore-dcf32ecedcac.json",
+            "sha256": "9a527b60f2b180c4658fe9368b809a065e681c9bea337cbc3c10b76d248173e6",
+            "case": "E4_01",
+            "required_exclusions": 15,
+            "orbit_size": 10,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 410000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_02-emptyZ-fourcore-ab2396bcfbcc.json",
+            "sha256": "96859bae0a06bfb7811d52e9ffb6a23e096681529c58c522d4282d894e374751",
+            "case": "E4_02",
+            "required_exclusions": 15,
+            "orbit_size": 20,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 450000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_03-emptyZ-fourcore-8f2cab7cb801.json",
+            "sha256": "b3e4994419a79683659f268e03e7965696e605641d2d5c1f27a998aadda58a60",
+            "case": "E4_03",
+            "required_exclusions": 15,
+            "orbit_size": 20,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 400000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_04-emptyZ-fourcore-c7ac0ef31523.json",
+            "sha256": "43307320cdb3b61b163aef6c5fc848243ba0d3f688ebc90e87964552db31b379",
+            "case": "E4_04",
+            "required_exclusions": 15,
+            "orbit_size": 30,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 438000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_05-emptyZ-fourcore-69cddc887db0.json",
+            "sha256": "d9f541ade39b1a9110befd4a09824859800c41a58cd4f88a4b5eb3186213d52d",
+            "case": "E4_05",
+            "required_exclusions": 15,
+            "orbit_size": 20,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 450000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_06-emptyZ-fourcore-672a4e4a8768.json",
+            "sha256": "d61c8ba60c04708eabb5b05a8dc504fe9f2a33fb80282f67627d7d1d42c4f53f",
+            "case": "E4_06",
+            "required_exclusions": 15,
+            "orbit_size": 20,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 400000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_07-emptyZ-fourcore-7b134765acff.json",
+            "sha256": "97017b3ac4473552c0027a49f69a64d2b5181da84dc77b3b884ad8dc870fd946",
+            "case": "E4_07",
+            "required_exclusions": 15,
+            "orbit_size": 30,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 452545455510,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_08-emptyZ-fourcore-e6d8d192be60.json",
+            "sha256": "1416bfdc7c121064b98e3bd03499cf87ae12ab5116fdd9b98179488fcadf0f1a",
+            "case": "E4_08",
+            "required_exclusions": 15,
+            "orbit_size": 30,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 455000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_09-emptyZ-fourcore-f70b31caedd4.json",
+            "sha256": "80680132bef654694b98876156ca5d1df5d5820d39ca2818ab3ef40c70832c89",
+            "case": "E4_09",
+            "required_exclusions": 15,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 455000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_10-emptyZ-fourcore-682bcd8e4fab.json",
+            "sha256": "0b8bde6071f3e9984bc44e0c888037de9d111a31cf9c3b68db30b588ad2f0990",
+            "case": "E4_10",
+            "required_exclusions": 15,
+            "orbit_size": 30,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 440000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_11-emptyZ-fourcore-30cc7cbac2c3.json",
+            "sha256": "28b552beae9eff0f4e3d78229362c2f3742bb1b705a71e1ed51949bc7185c8ae",
+            "case": "E4_11",
+            "required_exclusions": 15,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 390000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_12-emptyZ-fourcore-43da6908cbbf.json",
+            "sha256": "4b09a1ef47a8bb282e2ea0adc52efdc5fe7aa8e4a5bfeaa07a342b9feaba0423",
+            "case": "E4_12",
+            "required_exclusions": 15,
+            "orbit_size": 15,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 450000000003,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_13-emptyZ-fourcore-e25027bc146b.json",
+            "sha256": "08f32f1df50fcba460c413e05850c6814661d5d478f16aea383a1f7c5ab5929d",
+            "case": "E4_13",
+            "required_exclusions": 15,
+            "orbit_size": 6,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 447894737446,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_14-emptyZ-fourcore-807463719db2.json",
+            "sha256": "1320d637f1ec5cf2b46315458ef1475331ae8eef59381785f34b9da4afc11a29",
+            "case": "E4_14",
+            "required_exclusions": 15,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 440978261653,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_15-emptyZ-fourcore-6c4d10058c66.json",
+            "sha256": "a5241cda0b1f5b86b545bdb32a191e623446c320efd9c59f29f0b7a453299396",
+            "case": "E4_15",
+            "required_exclusions": 15,
+            "orbit_size": 15,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 447565543228,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_16-emptyZ-fourcore-f0273b745717.json",
+            "sha256": "a5f5e8ac3c66a9b2e178656c55860cfe83a3c37296041208dfa7f027fb84def7",
+            "case": "E4_16",
+            "required_exclusions": 15,
+            "orbit_size": 6,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 389352520134,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_17-emptyZ-fourcore-06580955f3d6.json",
+            "sha256": "da7209d542c13815a69cfb4ede3453defeb7ec517d209667941ef66c7d68be14",
+            "case": "E4_17",
+            "required_exclusions": 15,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 430000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_18-emptyZ-fourcore-bc5945dfc2c5-phaseone.json",
+            "sha256": "7d805e68b9ec087d8b60dd7b0180e31516a1173130885d7a6279436f9d479353",
+            "case": "E4_18",
+            "required_exclusions": 15,
+            "orbit_size": 10,
+            "certificate_kind": "zero-infeasibility",
+            "claimed_upper_numerator": -689655168,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_19-emptyZ-fourcore-c7c2dd9866d5.json",
+            "sha256": "d01d61275ff57811693f16142c8bfe2f515fba221cd31b69057aea8799ec35e4",
+            "case": "E4_19",
+            "required_exclusions": 15,
+            "orbit_size": 10,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 360000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_20-emptyZ-fourcore-a56cec5bafb9.json",
+            "sha256": "b1d6ec0d2b635c21fc229600aa73b9274a4a3cc085a32e161ba8c79d4a06f618",
+            "case": "E4_20",
+            "required_exclusions": 15,
+            "orbit_size": 15,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 448000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_21-emptyZ-fourcore-f8498f4677c9.json",
+            "sha256": "722bb0262cd1f70c3902a6fe27d8bea07028604f15f0b7e3f35fd0e66dc938f9",
+            "case": "E4_21",
+            "required_exclusions": 15,
+            "orbit_size": 30,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 447000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_22-emptyZ-fourcore-f4c50beb9394.json",
+            "sha256": "8e967b01d4c7a517556f2727f784046dd8139f656cd122e26d4c1c65a71fda72",
+            "case": "E4_22",
+            "required_exclusions": 15,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 430000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_23-emptyZ-fourcore-97a6c071b3a2.json",
+            "sha256": "33cf0a0aaa83d1ac018faf5bb236d2c2e6af0965d8392b29e503ce64c4eb5622",
+            "case": "E4_23",
+            "required_exclusions": 15,
+            "orbit_size": 30,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 447000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_24-emptyZ-fourcore-4dd8663ab813.json",
+            "sha256": "548ce22dd2b67af21a9d2e34588326d0a3e5c7784e25f0389ccb1eafb92c0e41",
+            "case": "E4_24",
+            "required_exclusions": 15,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 444655871913,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_25-emptyZ-fourcore-cc0723f995ff.json",
+            "sha256": "e10640f5477ec2eb56ecadf78ee0a25c44bff35ae0b0555b01e654fb829e91d2",
+            "case": "E4_25",
+            "required_exclusions": 15,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 440000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_26-emptyZ-fourcore-cb2cd2aebc21-phaseone.json",
+            "sha256": "4073766852bd1ffef6769da4888eed7cf12c6e827193be802640307c416a0d69",
+            "case": "E4_26",
+            "required_exclusions": 15,
+            "orbit_size": 12,
+            "certificate_kind": "zero-infeasibility",
+            "claimed_upper_numerator": -454544815,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_27-emptyZ-fourcore-3735ecdd0ff5-phaseone.json",
+            "sha256": "dbefb826395c1c44c53422b2f81cb7ab35232ccaff64dedad094f1cb340daaeb",
+            "case": "E4_27",
+            "required_exclusions": 15,
+            "orbit_size": 6,
+            "certificate_kind": "zero-infeasibility",
+            "claimed_upper_numerator": -454544815,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_28-emptyZ-fourcore-5a771f1732cb.json",
+            "sha256": "d5140431968467c7a55fbc242b3ff9db2f73015e2f7e932bc039fae06f1987a2",
+            "case": "E4_28",
+            "required_exclusions": 15,
+            "orbit_size": 6,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 448000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          }
+        ],
+        "pattern_coverage": null
+      },
+      {
+        "id": "P8-i1-mixed3",
+        "kind": "P8-i1",
+        "depends_on": [
+          "P8-i1-fourcore"
+        ],
+        "newly_closed_traces": 180,
+        "receipts": [
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_00-emptyZ-mixed3-ec437cbcee8c.json",
+            "sha256": "cc1af71bb98c7b374ab568598adebab649398a86bc43ab1999434924954ca1ce",
+            "case": "E3_00",
+            "required_exclusions": 495,
+            "orbit_size": 15,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 478378378462,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_01-emptyZ-mixed3-7a9432eaaeb4.json",
+            "sha256": "3711da09e5226dceaa27ccc375261d46cd16262d3f7d246942cd2cc2a432c7b0",
+            "case": "E3_01",
+            "required_exclusions": 495,
+            "orbit_size": 30,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 463750000031,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_02-emptyZ-mixed3-bcc1f743a022.json",
+            "sha256": "f9b692b456780a07631c8d7ea38ceaf41298ede4e57c09f18bfa9874b89fbbe2",
+            "case": "E3_02",
+            "required_exclusions": 495,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 474388889119,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_03-emptyZ-mixed3-71b11956034f.json",
+            "sha256": "35915d7524927a54c8a290cc41dd32dac14171feff51faa512b50fe0b155284f",
+            "case": "E3_03",
+            "required_exclusions": 495,
+            "orbit_size": 30,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 463750000013,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_04-emptyZ-mixed3-0fbfb53a4620.json",
+            "sha256": "8c0788ac8a3d2937a82e438bbfc823049271fab16cb3d697b88c4182b640b117",
+            "case": "E3_04",
+            "required_exclusions": 495,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 476052632007,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_05-emptyZ-mixed3-68dd758dfc13.json",
+            "sha256": "5ba8383d9f72b837a520745d623e5eb907ea6beb5521a094c0aee25093c7fd76",
+            "case": "E3_05",
+            "required_exclusions": 495,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 486981341896,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_06-emptyZ-mixed3-4f5da5f40bf9.json",
+            "sha256": "4b6d7431b94bed55e7ef25b8618c371da372f120dc4e222bef1e23f24fae8a47",
+            "case": "E3_06",
+            "required_exclusions": 495,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 473868726054,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_07-emptyZ-mixed3-1d94643d8b85.json",
+            "sha256": "d2c00fd2baedd540006b2124f7611e333209b3c23d974ef003b2950a9387e1cc",
+            "case": "E3_07",
+            "required_exclusions": 495,
+            "orbit_size": 6,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 471060788150,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_08-emptyZ-mixed3-773ad2eeb9b4.json",
+            "sha256": "7609aff5de497e60df5edd8182c0fcde55501cf89fc7f0e8e2f736325ebc2fcf",
+            "case": "E3_08",
+            "required_exclusions": 495,
+            "orbit_size": 6,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 476990360644,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_09-emptyZ-mixed3-5683fa7dfe2c.json",
+            "sha256": "e09cd298c3f6f12f5e46ce55a53cd97d3b908f04dd89052c36dad41e10382391",
+            "case": "E3_09",
+            "required_exclusions": 495,
+            "orbit_size": 15,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 443750000034,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_10-emptyZ-mixed3-3c948833114c.json",
+            "sha256": "7e85c8ae95547fc408d74ebafc7a452f10d56c9a234adb1f18adb09a89b6aa9e",
+            "case": "E3_10",
+            "required_exclusions": 495,
+            "orbit_size": 6,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 479188807239,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_11-emptyZ-mixed3-bb1c177abfe9.json",
+            "sha256": "e1b7b694c352c1cc8f000f46821ac6140731b78cd446112c832e7291703b5444",
+            "case": "E3_11",
+            "required_exclusions": 495,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 474377609332,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_12-emptyZ-mixed3-30f6b6b6aee0.json",
+            "sha256": "f08de6c949a905ac57d6c43222b7290e2a1ca35dbb1be8784a21e4206c73dbea",
+            "case": "E3_12",
+            "required_exclusions": 495,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 474377609317,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          }
+        ],
+        "pattern_coverage": null
+      },
+      {
+        "id": "P8-i2-internal",
+        "kind": "P8-i2",
+        "depends_on": [],
+        "newly_closed_traces": 15,
+        "receipts": [
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-I00-internal-873b5c8d9e71.json",
+            "sha256": "6959a716f6d7e0ed71c96c3e3990d54c6da0b3bfe46cad8374e804ded63b2cce",
+            "case": "I00",
+            "required_exclusions": 0,
+            "orbit_size": 1,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 470000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-I01-internal-4f054c54a8cb.json",
+            "sha256": "2febaf3e1ced2585c88617cbda38ff94f451b8ca00b461fe05e42dfa9c86130b",
+            "case": "I01",
+            "required_exclusions": 0,
+            "orbit_size": 4,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 470000000741,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-I02-internal-09d81d968837.json",
+            "sha256": "b1b02781aff7628d7fe410bdb0a3bdf51ffe863bb5e7c95774064711d6d4c590",
+            "case": "I02",
+            "required_exclusions": 0,
+            "orbit_size": 4,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 470000000008,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-I03-internal-3bf1d2695466.json",
+            "sha256": "8eaa37595baebf34ba28f6aeb5d6d23aee175e8c65f2416a83575e30597f41da",
+            "case": "I03",
+            "required_exclusions": 0,
+            "orbit_size": 4,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 470354542164,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-I04-internal-5ab9a5050e98.json",
+            "sha256": "841f532593fe71519afe3cb1582c1b8c01eb34b9ba07ab89f8ba8b874ee4c8fe",
+            "case": "I04",
+            "required_exclusions": 0,
+            "orbit_size": 1,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 480000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-I05-internal-1f5deeb4d02c.json",
+            "sha256": "5d928ee002423df3bca62e37ebd5f54315d0a92d062f6e96e399cb6c972ab4f5",
+            "case": "I05",
+            "required_exclusions": 0,
+            "orbit_size": 1,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 476470588321,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          }
+        ],
+        "pattern_coverage": null
+      },
+      {
+        "id": "P8-i2-fourcore",
+        "kind": "P8-i2",
+        "depends_on": [
+          "P8-i2-internal"
+        ],
+        "newly_closed_traces": 465,
+        "receipts": [
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_00-emptyZ-fourcore-e2c2516c8e1e.json",
+            "sha256": "2546897dab7bac89321942ee3889139b4e2d7de7c0ce0d8d17558541f93c0282",
+            "case": "E4_00",
+            "required_exclusions": 15,
+            "orbit_size": 20,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 470000000004,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_01-emptyZ-fourcore-35fc63918e49.json",
+            "sha256": "4ea1c8eaf0509140214fa38d21d639e81743e14e14d5bff53f313dcdd44b68ba",
+            "case": "E4_01",
+            "required_exclusions": 15,
+            "orbit_size": 20,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 426666668159,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_02-emptyZ-fourcore-07cb65334afb.json",
+            "sha256": "6466afcc33effe064ebf5ea2108c35f808b8b90b4f010fcbc61fca43509f3896",
+            "case": "E4_02",
+            "required_exclusions": 15,
+            "orbit_size": 20,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 460000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_03-emptyZ-fourcore-f2212504d9b8.json",
+            "sha256": "0ca731229c93d94e5f6350a0963e6aac66c8406dfc7ee815f25905f3c1c31010",
+            "case": "E4_03",
+            "required_exclusions": 15,
+            "orbit_size": 20,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 400000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_04-emptyZ-fourcore-34d443e8d0df.json",
+            "sha256": "96dd1690b7b219764a3f16775c5dd455359b35c39af84d463a88fdb6ab82b595",
+            "case": "E4_04",
+            "required_exclusions": 15,
+            "orbit_size": 60,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 461111112757,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_05-emptyZ-fourcore-bbddf08b2be0.json",
+            "sha256": "36a207250b74a4173650bc75ef66269433aa9727ab11e5d968be9e8646c800cd",
+            "case": "E4_05",
+            "required_exclusions": 15,
+            "orbit_size": 15,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 468181818414,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_06-emptyZ-fourcore-99193b7c1062.json",
+            "sha256": "0f1dafb10e667f3a4ba1773910eea463f386dd06fd425e612299d5c8fa79a113",
+            "case": "E4_06",
+            "required_exclusions": 15,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 465000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_07-emptyZ-fourcore-f697341b7378.json",
+            "sha256": "4f6e7dcb9ba3fe75d53cb330878711e56da21a39a50290358d0e2629362dfc40",
+            "case": "E4_07",
+            "required_exclusions": 15,
+            "orbit_size": 15,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 446666666668,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_08-emptyZ-fourcore-a78b815669a6.json",
+            "sha256": "7c1702c9a96564b86ae7bc7794f6cc78dd50f5bf48dad7d46b853e2dac9c8e96",
+            "case": "E4_08",
+            "required_exclusions": 15,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 390000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_09-emptyZ-fourcore-a2e00c6b454b-phaseone.json",
+            "sha256": "835e760391ffa648310ebeb633921d6027ab48a55af79acf426830ed2874c147",
+            "case": "E4_09",
+            "required_exclusions": 15,
+            "orbit_size": 20,
+            "certificate_kind": "zero-infeasibility",
+            "claimed_upper_numerator": -689655168,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_10-emptyZ-fourcore-9bad95935702.json",
+            "sha256": "a0b8b3941dab3162c24e05e9de15ac4aefbc73c50220a8cf72a17a9f7f2a8645",
+            "case": "E4_10",
+            "required_exclusions": 15,
+            "orbit_size": 20,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 360000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_11-emptyZ-fourcore-ab3bf057d5b9.json",
+            "sha256": "fcf3c72d0053708b3753481d70d4f2bf7924c0fa0a5608b488c6f9b6c73f25de",
+            "case": "E4_11",
+            "required_exclusions": 15,
+            "orbit_size": 60,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 444285718840,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_12-emptyZ-fourcore-87d1fd6d5e2e.json",
+            "sha256": "d73710f594d7f6e66588684e109ceb3e05f2ce77076191915189816eb7f0e9cb",
+            "case": "E4_12",
+            "required_exclusions": 15,
+            "orbit_size": 60,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 445285715722,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_13-emptyZ-fourcore-1702d9f72f39.json",
+            "sha256": "9e5315cec07bcac6a7d1cdd3584270c5ca94da5881a1fe90396ba491e4fc5a7a",
+            "case": "E4_13",
+            "required_exclusions": 15,
+            "orbit_size": 24,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 456666668444,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_14-emptyZ-fourcore-9ae2a5adae34.json",
+            "sha256": "21224cec7d96838bfa464c73a4c63f899f42e7cb5d90d1a57d54528eaefa198a",
+            "case": "E4_14",
+            "required_exclusions": 15,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 413750000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_15-emptyZ-fourcore-32737d70efe4-phaseone.json",
+            "sha256": "a5c6969828a77dc7517285cb74370d010d13fd87de5b91ad8f332c71aa9670ab",
+            "case": "E4_15",
+            "required_exclusions": 15,
+            "orbit_size": 24,
+            "certificate_kind": "zero-infeasibility",
+            "claimed_upper_numerator": -56021881,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_16-emptyZ-fourcore-bb9ad889b28f-phaseone.json",
+            "sha256": "484c705c21dd09e8c99b263dac6d7df234118fa2db564e4d44a2c9d9ac564a69",
+            "case": "E4_16",
+            "required_exclusions": 15,
+            "orbit_size": 12,
+            "certificate_kind": "zero-infeasibility",
+            "claimed_upper_numerator": -454544815,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_17-emptyZ-fourcore-514b45b248fa.json",
+            "sha256": "69ca26413654f84b336f10d46c5134e5983562ace693b87cb337c86733cf2c20",
+            "case": "E4_17",
+            "required_exclusions": 15,
+            "orbit_size": 15,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 430000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_18-emptyZ-fourcore-9711380f41e3.json",
+            "sha256": "ac4f3d306508ea9d2b5d30333c69a29017f3ab17a28e11032a25396d57f5a393",
+            "case": "E4_18",
+            "required_exclusions": 15,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 430000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_19-emptyZ-fourcore-5ca172d21574.json",
+            "sha256": "d23bd1aece63b3ee3b253e5e88244dfacfbc5ecf1eef327a950d25da82db10b6",
+            "case": "E4_19",
+            "required_exclusions": 15,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 449166667441,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          }
+        ],
+        "pattern_coverage": null
+      },
+      {
+        "id": "P8-i2-mixed3",
+        "kind": "P8-i2",
+        "depends_on": [
+          "P8-i2-fourcore"
+        ],
+        "newly_closed_traces": 180,
+        "receipts": [
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_00-emptyZ-mixed3-4470b2973b2f.json",
+            "sha256": "7bb193129ddc43d81cf8d0b092eb11ebd0b09ca8c455b850e24f1c744b5aea0e",
+            "case": "E3_00",
+            "required_exclusions": 495,
+            "orbit_size": 30,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 486875001194,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_01-emptyZ-mixed3-d17354e43021.json",
+            "sha256": "9ad261cc02f4752c1fcd4db94d67fc6da0902d15d5031b8ec0fb6a16ccf401b8",
+            "case": "E3_01",
+            "required_exclusions": 495,
+            "orbit_size": 30,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 463750000174,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_02-emptyZ-mixed3-b06a1e44e3b6.json",
+            "sha256": "120a4acd0afd9ab32a3a66fc93c528ba633c13bf042c14a29f32c3a85909e995",
+            "case": "E3_02",
+            "required_exclusions": 495,
+            "orbit_size": 24,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 478000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_03-emptyZ-mixed3-03f43222565c.json",
+            "sha256": "ed96085b26a8f463461d3114065fba7c88f8245f14fdc00091512012a70a55fd",
+            "case": "E3_03",
+            "required_exclusions": 495,
+            "orbit_size": 6,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 486666666719,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_04-emptyZ-mixed3-e7aa79fada82.json",
+            "sha256": "f560dbc9f189b3fb8b9db2d331c9efa00e05ff508a2646c7a5f9347081324cf8",
+            "case": "E3_04",
+            "required_exclusions": 495,
+            "orbit_size": 6,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 468333333342,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_05-emptyZ-mixed3-50e4f9f53318.json",
+            "sha256": "b79d4050520eef6d39ce3eb6f5405956c72d0cf52b73a6d7a42d78471f172e5a",
+            "case": "E3_05",
+            "required_exclusions": 495,
+            "orbit_size": 30,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 485985000999,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_06-emptyZ-mixed3-73773197dde5.json",
+            "sha256": "53b09f49805d0db43a0b50cfe9b386b417e385e63c9e237d31682aac092469f0",
+            "case": "E3_06",
+            "required_exclusions": 495,
+            "orbit_size": 24,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 469850208055,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_07-emptyZ-mixed3-ad7aec204d97.json",
+            "sha256": "bfc27411f9357ed583901ff9afb524b74aa14768f4f47a5fa84565c2e4c29851",
+            "case": "E3_07",
+            "required_exclusions": 495,
+            "orbit_size": 24,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 474377610120,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_08-emptyZ-mixed3-d624de1f307c.json",
+            "sha256": "3a0165ca0550166f4312a9f767fc36f40dd800b5c5f09060ff74f4918298e280",
+            "case": "E3_08",
+            "required_exclusions": 495,
+            "orbit_size": 6,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 470000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          }
+        ],
+        "pattern_coverage": null
+      },
+      {
+        "id": "Q8-initial-four",
+        "kind": "Q8",
+        "depends_on": [],
+        "newly_closed_traces": 20,
+        "receipts": [
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-I00-internal-cdf71d704381.json",
+            "sha256": "d3e7bfb394ff74be796472c3edf506546310679d358a5dcf19116b46c0151e97",
+            "case": "I00",
+            "required_exclusions": 0,
+            "orbit_size": 3,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 480000000237,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-I01-internal-be13884dd2c5.json",
+            "sha256": "fd6e2ed6339d024b9ff845c36b6259d24c0e2a88880584372783d87466a8fd91",
+            "case": "I01",
+            "required_exclusions": 0,
+            "orbit_size": 2,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 460000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-I03-internal-632b027cdf77.json",
+            "sha256": "bacad7c95830bce99f09a73078abc79a128f9a95a5e560fe1419a2fec76a4b26",
+            "case": "I03",
+            "required_exclusions": 0,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 430000000000,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-I07-internal-edc40f3a3abc.json",
+            "sha256": "34f734ee4ad86a44c45eb8b136c902300afaaeca1c45a353070fb78ee0437603",
+            "case": "I07",
+            "required_exclusions": 0,
+            "orbit_size": 3,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 480000000056,
+            "scale": 10000000000,
+            "source_sha256": "682c441de23f9008fa1cec531a888c12138bbce5ea867a50dd23fb81c5f17cd0"
+          }
+        ],
+        "pattern_coverage": null
+      },
+      {
+        "id": "Q8-hub-three",
+        "kind": "Q8",
+        "depends_on": [
+          "Q8-initial-four"
+        ],
+        "newly_closed_traces": 9,
+        "receipts": [
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-I02-hub-33cb65f97da6.json",
+            "sha256": "7a0bc18a3f1bfdde8b318dae602d23011bbf1f44ed7262b713428ea42109cd28",
+            "case": "I02",
+            "required_exclusions": 20,
+            "orbit_size": 6,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 490000000000,
+            "scale": 10000000000,
+            "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-I04-hub-5632ff86665f.json",
+            "sha256": "b86808ce6301a3a1258074d3c50a1a649c59ead12d9afee180b0f368fff16dd0",
+            "case": "I04",
+            "required_exclusions": 20,
+            "orbit_size": 2,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 490000000000,
+            "scale": 10000000000,
+            "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-I05-hub-1e66e4e92265.json",
+            "sha256": "936942edabefcb9c9af5e40244a7e839968cb85bb22971e1e7ae767e9f83a1b2",
+            "case": "I05",
+            "required_exclusions": 20,
+            "orbit_size": 1,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 490000000000,
+            "scale": 10000000000,
+            "source_sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f"
+          }
+        ],
+        "pattern_coverage": null
+      },
+      {
+        "id": "Q8-I06-triangle",
+        "kind": "Q8",
+        "depends_on": [
+          "Q8-hub-three"
+        ],
+        "newly_closed_traces": 6,
+        "receipts": [
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-I06-triangle-255df392c7d3.json",
+            "sha256": "92d4007fe7bcceb40037db44cd95ce498cded9caab211e5fc9d9fafaa667f8ee",
+            "case": "I06",
+            "required_exclusions": 29,
+            "orbit_size": 6,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 495000000000,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          }
+        ],
+        "pattern_coverage": null
+      },
+      {
+        "id": "Q8-fourcore-initial-nineteen",
+        "kind": "Q8",
+        "depends_on": [
+          "Q8-I06-triangle"
+        ],
+        "newly_closed_traces": 575,
+        "receipts": [
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_00-Q8-emptyZ-fourcore-b9bbf298bac7-phaseone.json",
+            "sha256": "635f1daedff183e1cb089b70e65f9c2c7f6d8776783d3f0889f75861df1d4993",
+            "case": "E4_00",
+            "required_exclusions": 35,
+            "orbit_size": 20,
+            "certificate_kind": "zero-infeasibility",
+            "claimed_upper_numerator": -2500000000,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_01-Q8-emptyZ-fourcore-0433fedf8273.json",
+            "sha256": "6f27684095050c4a74912d7e15bdce8f561d2880626e2367d527859818edf1fc",
+            "case": "E4_01",
+            "required_exclusions": 35,
+            "orbit_size": 20,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 360000000000,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_02-Q8-emptyZ-fourcore-9975abe93a3a.json",
+            "sha256": "810513415d68bf684e6ba3611dee841802318e7858d5af4f7f88a6849697dcf2",
+            "case": "E4_02",
+            "required_exclusions": 35,
+            "orbit_size": 15,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 400000000000,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_03-Q8-emptyZ-fourcore-bd78c758d000.json",
+            "sha256": "6f5f4289db20a887a9ae438e288cd73e45ed98547c7b97c9e4e6e63adf9af0f1",
+            "case": "E4_03",
+            "required_exclusions": 35,
+            "orbit_size": 30,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 470000000000,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_04-Q8-emptyZ-fourcore-6f07b478531c.json",
+            "sha256": "55231050481f6708f065f12b4318a3ae632481d210c1006c2f9af7f47076b859",
+            "case": "E4_04",
+            "required_exclusions": 35,
+            "orbit_size": 30,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 420000000000,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_05-Q8-emptyZ-fourcore-a957cf15d4d7.json",
+            "sha256": "35aec88a86250d314b2f5fec03af833660a206a4906715ad8747d9389b754ce9",
+            "case": "E4_05",
+            "required_exclusions": 35,
+            "orbit_size": 90,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 440000000000,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_06-Q8-emptyZ-fourcore-07631fbcd6dc.json",
+            "sha256": "9dcc178df2fc881ccde1184dc8e228e4fc1fcc9ad8b86767719d2e2a86d422b6",
+            "case": "E4_06",
+            "required_exclusions": 35,
+            "orbit_size": 18,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 460000000003,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_07-Q8-emptyZ-fourcore-08d47fc4af1b.json",
+            "sha256": "81a761b957ce51aeb55164aca322ede61fb6cc162c0fdebcc96abb63feec5af4",
+            "case": "E4_07",
+            "required_exclusions": 35,
+            "orbit_size": 45,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 446666666832,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_08-Q8-emptyZ-fourcore-144b2b952759-phaseone.json",
+            "sha256": "a5ffe2ed2a9fcf79192953f93f2c2b61c77c6edfd931a50e7db4b1cbbf13b760",
+            "case": "E4_08",
+            "required_exclusions": 35,
+            "orbit_size": 36,
+            "certificate_kind": "zero-infeasibility",
+            "claimed_upper_numerator": -3333333334,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_09-Q8-emptyZ-fourcore-0f58d5ee537e.json",
+            "sha256": "fd5d5a074374323153ed2820e5df702ce6833253d6181af56fc03587ad1cb5be",
+            "case": "E4_09",
+            "required_exclusions": 35,
+            "orbit_size": 6,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 460000000000,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_10-Q8-emptyZ-fourcore-8f1350016099.json",
+            "sha256": "98df8e3c67b01f276e22004fff557f61e7f12ba2a5b018f45fc8797d7fef2319",
+            "case": "E4_10",
+            "required_exclusions": 35,
+            "orbit_size": 20,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 470000000000,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_11-Q8-emptyZ-fourcore-79629d87c4af.json",
+            "sha256": "4a630cc4a5c2b41e10c0981f055c9b4be71f3feca11d24a2b4fd1a13d8a92405",
+            "case": "E4_11",
+            "required_exclusions": 35,
+            "orbit_size": 20,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 450000000000,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_12-Q8-emptyZ-fourcore-877477d517aa.json",
+            "sha256": "d87a06d27abefe9b30200d2f335866e91971120a7dee121b15be61cb4ddf51fc",
+            "case": "E4_12",
+            "required_exclusions": 35,
+            "orbit_size": 60,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 452857142903,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_13-Q8-emptyZ-fourcore-319affc664a5.json",
+            "sha256": "f5f75ce41ce9a4f99d1b7e69a4b63453c3e269c34884e212a352442af79b10d9",
+            "case": "E4_13",
+            "required_exclusions": 35,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 440000000234,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_15-Q8-emptyZ-fourcore-220dbd250bd0.json",
+            "sha256": "9479a8a8d9e6406f3d0409d16d3dcec9c090766d1364e23f7863d29b90134947",
+            "case": "E4_15",
+            "required_exclusions": 35,
+            "orbit_size": 72,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 470000000000,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_16-Q8-emptyZ-fourcore-a17c5bac6bd3.json",
+            "sha256": "b9d1cc17b3479d0b86f699012a8a47eed0c1faf83a3788ae86437bf35eea2177",
+            "case": "E4_16",
+            "required_exclusions": 35,
+            "orbit_size": 36,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 455000000000,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_17-Q8-emptyZ-fourcore-5fbc26985ae2.json",
+            "sha256": "bde85f8ad749d2a89beec7e7137bb9d26d13ce75f27bb8cd1bead20f946b1929",
+            "case": "E4_17",
+            "required_exclusions": 35,
+            "orbit_size": 15,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 470000000000,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_18-Q8-emptyZ-fourcore-0251be7e8198.json",
+            "sha256": "3870abfd1d4e10b69903514067c3d92029ac25bc291ecc48d7ba178df3cbcd69",
+            "case": "E4_18",
+            "required_exclusions": 35,
+            "orbit_size": 12,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 460000000000,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_19-Q8-emptyZ-fourcore-04504531fc7c.json",
+            "sha256": "99e5ff8d88df86c21f10b1de848653c6fcc52995d0966696d10cc79751d84512",
+            "case": "E4_19",
+            "required_exclusions": 35,
+            "orbit_size": 18,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 499666667050,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          }
+        ],
+        "pattern_coverage": null
+      },
+      {
+        "id": "Q8-fourcore-E4_14-stage2",
+        "kind": "Q8",
+        "depends_on": [
+          "Q8-fourcore-initial-nineteen"
+        ],
+        "newly_closed_traces": 90,
+        "receipts": [
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_14-fourcore-stage2-d44f054366ab.json",
+            "sha256": "52d514c9ce4d9b36b297ffb46c6446dd1808bb267e4a634f0cd8d9019d62e282",
+            "case": "E4_14",
+            "required_exclusions": 610,
+            "orbit_size": 90,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 497058823605,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          }
+        ],
+        "pattern_coverage": null
+      },
+      {
+        "id": "Q8-mixed3",
+        "kind": "Q8",
+        "depends_on": [
+          "Q8-fourcore-E4_14-stage2"
+        ],
+        "newly_closed_traces": 231,
+        "receipts": [
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_00-Q8-emptyZ-mixed3-d395d1035618.json",
+            "sha256": "d490a49c6a4070e0f11987bc8fb94dc92231faa33ff3eef2e2c79eb9bae8e73c",
+            "case": "E3_00",
+            "required_exclusions": 715,
+            "orbit_size": 30,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 486153846380,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_01-Q8-emptyZ-mixed3-cb778f388c0e.json",
+            "sha256": "7571bc6f089917f54b7eb4eec52214602ba0d7c4c87f7b6a189055cc59ff208a",
+            "case": "E3_01",
+            "required_exclusions": 715,
+            "orbit_size": 6,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 456666666714,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_02-Q8-emptyZ-mixed3-896d2cf8aa2e.json",
+            "sha256": "5116380603020c45139f0e93884d6bc8b32ad8d26c3e52cab9346e980a3a5eb4",
+            "case": "E3_02",
+            "required_exclusions": 715,
+            "orbit_size": 45,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 482708333381,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_03-Q8-emptyZ-mixed3-82f42c52ebf2.json",
+            "sha256": "627e8785650edac8a59e36ed27cc3453398c98b75ab70c2ac9799c6970c14183",
+            "case": "E3_03",
+            "required_exclusions": 715,
+            "orbit_size": 36,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 468377610089,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_04-Q8-emptyZ-mixed3-2606826338f1.json",
+            "sha256": "7bb4eaa86d4531493c92230a3af7399210377a8929b008237b0eca0310a37a4e",
+            "case": "E3_04",
+            "required_exclusions": 715,
+            "orbit_size": 18,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 462513285152,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_05-Q8-emptyZ-mixed3-bc71b86169db-phaseone.json",
+            "sha256": "9b4afb8d331e669575ae91c8c2ae9cefcf9223a2bede3119cb943c55448781fa",
+            "case": "E3_05",
+            "required_exclusions": 715,
+            "orbit_size": 30,
+            "certificate_kind": "zero-infeasibility",
+            "claimed_upper_numerator": -392156739,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_06-Q8-emptyZ-mixed3-5a9b080f4898.json",
+            "sha256": "c6053b1c3f34081033e7722a1da6ee6c88949552f59fa31c4e8b106810a6513c",
+            "case": "E3_06",
+            "required_exclusions": 715,
+            "orbit_size": 24,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 415000000000,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_07-Q8-emptyZ-mixed3-548ce9f93b29-phaseone.json",
+            "sha256": "eb0e8ad70a5ffc1c71668fac91e4568c79d059b3ca7b520d6277d9c5f5a37e97",
+            "case": "E3_07",
+            "required_exclusions": 715,
+            "orbit_size": 36,
+            "certificate_kind": "zero-infeasibility",
+            "claimed_upper_numerator": -6087734940,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          },
+          {
+            "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_08-Q8-emptyZ-mixed3-3b5463d62c97.json",
+            "sha256": "e2746140f63dfd2d424f7ccf51427011f5c032820edbaa2f7af127b57a9d9faa",
+            "case": "E3_08",
+            "required_exclusions": 715,
+            "orbit_size": 6,
+            "certificate_kind": "residual-upper-bound",
+            "claimed_upper_numerator": 416666666803,
+            "scale": 10000000000,
+            "source_sha256": "8d926ede018142db5909da443c55792d51625e4d1b0eaa22e4157aa0098edad7"
+          }
+        ],
+        "pattern_coverage": null
+      }
+    ]
+  },
+  "manifest_sha256": "41a906f71782390491b7e4ee001f5f97541703f593bad4403b4be2f10d9578df",
+  "checker_sha256": "5acf400ffc281ad607ddb806bfdb6e49e2798394590c4d8deb61b4655b3d41d7",
+  "seconds": 0.29915116899974237
+}

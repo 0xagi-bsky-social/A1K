@@ -1,0 +1,70 @@
+{
+  "D17_terminal": [
+    {
+      "kind": "P8-i1",
+      "allowed_core_trace_domain": 119,
+      "disjoint_hitting_trace_pairs": 132,
+      "counterexamples": 0,
+      "removed_capacity": 13,
+      "residual_upper": 40
+    },
+    {
+      "kind": "P8-i2",
+      "allowed_core_trace_domain": 119,
+      "disjoint_hitting_trace_pairs": 143,
+      "counterexamples": 0,
+      "removed_capacity": 13,
+      "residual_upper": 40
+    },
+    {
+      "kind": "Q8",
+      "allowed_core_trace_domain": 147,
+      "disjoint_hitting_trace_pairs": 132,
+      "counterexamples": 0,
+      "removed_capacity": 13,
+      "residual_upper": 40
+    }
+  ],
+  "D16_image_and_inverse": [
+    {
+      "k": 2,
+      "mapped_edges": 3,
+      "inverse_basis_identities": 25,
+      "independent_sets_checked": 0
+    },
+    {
+      "k": 3,
+      "mapped_edges": 9,
+      "inverse_basis_identities": 64,
+      "independent_sets_checked": 33
+    },
+    {
+      "k": 4,
+      "mapped_edges": 18,
+      "inverse_basis_identities": 121,
+      "independent_sets_checked": 89
+    },
+    {
+      "k": 5,
+      "mapped_edges": 30,
+      "inverse_basis_identities": 196,
+      "independent_sets_checked": 225
+    },
+    {
+      "k": 6,
+      "mapped_edges": 45,
+      "inverse_basis_identities": 289,
+      "independent_sets_checked": 545
+    }
+  ],
+  "D16_strict_Jin_margin": 4,
+  "D16_A1_contradiction": [
+    68,
+    54
+  ],
+  "D16_A2_contradiction": [
+    136,
+    135
+  ],
+  "scope": "Literal finite structural tests only; no fibre census, coefficient replay, proof-tree replay, solver or compiler."
+}

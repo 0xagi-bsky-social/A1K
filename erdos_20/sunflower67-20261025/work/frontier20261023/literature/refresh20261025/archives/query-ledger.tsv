@@ -1,0 +1,83 @@
+log_file	query_number	mode	exact_query	domains_or_url	retrieved	access_scope
+hal-final-searches.json	1	native-http	title_t:sunflower*	https://api.archives-ouvertes.fr/search/?q=title_t%3Asunflower%2A&wt=json&rows=2000&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i%2Cdomain_s%2CprimaryDomain_s&sort=submittedDate_tdate+desc	2026-10-25T13:27:39.284114+00:00	HTTP 200
+hal-final-searches.json	2	native-http	"""sunflower-free"""	https://api.archives-ouvertes.fr/search/?q=%22sunflower-free%22&wt=json&rows=2000&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i%2Cdomain_s%2CprimaryDomain_s&sort=submittedDate_tdate+desc	2026-10-25T13:27:39.285826+00:00	HTTP 200
+hal-final-searches.json	3	native-http	"""sunflower conjecture"""	https://api.archives-ouvertes.fr/search/?q=%22sunflower+conjecture%22&wt=json&rows=2000&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i%2Cdomain_s%2CprimaryDomain_s&sort=submittedDate_tdate+desc	2026-10-25T13:27:39.286399+00:00	HTTP 200
+hal-final-searches.json	4	native-http	"""delta-system"" AND (mathematics OR combinatorics OR sets)"	https://api.archives-ouvertes.fr/search/?q=%22delta-system%22+AND+%28mathematics+OR+combinatorics+OR+sets%29&wt=json&rows=2000&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i%2Cdomain_s%2CprimaryDomain_s&sort=submittedDate_tdate+desc	2026-10-25T13:27:39.290033+00:00	HTTP 200
+hal-final-searches.json	5	native-http	tournesol AND (combinatoire OR conjecture)	https://api.archives-ouvertes.fr/search/?q=tournesol+AND+%28combinatoire+OR+conjecture%29&wt=json&rows=2000&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i%2Cdomain_s%2CprimaryDomain_s&sort=submittedDate_tdate+desc	2026-10-25T13:27:39.290676+00:00	HTTP 200
+native-http-attempts.json	1	native-http		https://api.archives-ouvertes.fr/search/?q=sunflower&wt=json&rows=200&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i&sort=submittedDate_tdate+desc	2026-10-25T13:22:07.708335+00:00	<urlopen error [Errno -3] Temporary failure in name resolution>
+native-http-attempts.json	2	native-http		https://zenodo.org/api/records?q=%22sunflower+lemma%22+OR+%22sunflower+conjecture%22+OR+%22sunflower-free%22&size=100&sort=mostrecent	2026-10-25T13:22:07.709080+00:00	<urlopen error [Errno -3] Temporary failure in name resolution>
+native-http-attempts.json	3	native-http		https://osf.io/preprints/discover?q=sunflower	2026-10-25T13:22:07.709736+00:00	<urlopen error [Errno -3] Temporary failure in name resolution>
+native-http-attempts.json	4	native-http		https://www.preprints.org/search?search1=sunflower	2026-10-25T13:22:07.710266+00:00	<urlopen error [Errno -3] Temporary failure in name resolution>
+native-http-attempts.json	5	native-http		https://ai.vixra.org/abs/2601.0054	2026-10-25T13:22:07.711207+00:00	<urlopen error [Errno -3] Temporary failure in name resolution>
+native-http-attempts.json	6	native-http		https://mathoa.org/	2026-10-25T13:22:07.714340+00:00	<urlopen error [Errno -3] Temporary failure in name resolution>
+native-http-attempts.json	7	native-http		https://www.researchsquare.com/browse?term=sunflower	2026-10-25T13:22:07.721761+00:00	<urlopen error [Errno -3] Temporary failure in name resolution>
+native-http-attempts.json	8	native-http		https://www.techrxiv.org/search?query=sunflower	2026-10-25T13:22:07.722870+00:00	<urlopen error [Errno -3] Temporary failure in name resolution>
+native-http-escalated.json	1	native-http		https://api.archives-ouvertes.fr/search/?q=sunflower+OR+%22delta-system%22&fq=domain_s%3Amath%2A&wt=json&rows=200&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i&sort=submittedDate_tdate+desc	2026-10-25T13:25:17.599835+00:00	HTTP 200
+native-http-escalated.json	2	native-http		https://zenodo.org/api/records?q=%22sunflower+lemma%22+OR+%22sunflower+conjecture%22+OR+%22sunflower-free%22&size=100&sort=mostrecent	2026-10-25T13:25:17.601809+00:00	HTTP Error 403: Forbidden
+native-http-escalated.json	3	native-http		https://zenodo.org/api/records/18248679	2026-10-25T13:25:17.602782+00:00	HTTP Error 403: Forbidden
+native-http-escalated.json	4	native-http		https://osf.io/preprints/discover?q=sunflower	2026-10-25T13:25:17.607829+00:00	<urlopen error timed out>
+native-http-escalated.json	5	native-http		https://www.preprints.org/search?search1=sunflower	2026-10-25T13:25:17.610631+00:00	HTTP Error 403: Forbidden
+native-http-escalated.json	6	native-http		https://ai.vixra.org/abs/2601.0054	2026-10-25T13:25:17.614781+00:00	HTTP Error 406: Not Acceptable
+native-http-escalated.json	7	native-http		https://www.mathoa.org/about/	2026-10-25T13:25:17.620569+00:00	HTTP Error 403: Forbidden
+native-http-escalated.json	8	native-http		https://www.researchsquare.com/browse?term=sunflower	2026-10-25T13:25:17.625157+00:00	HTTP 200
+native-http-escalated.json	9	native-http		https://www.techrxiv.org/search?query=sunflower	2026-10-25T13:25:17.627782+00:00	HTTP Error 403: Forbidden
+native-http-escalated.json	10	native-http		https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6913500	2026-10-25T13:25:17.629784+00:00	HTTP Error 403: Forbidden
+native-refined.json	1	native-http		https://api.archives-ouvertes.fr/search/?q=title_t%3Asunflower&wt=json&rows=200&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i&sort=submittedDate_tdate+desc	2026-10-25T13:26:31.353107+00:00	HTTP 200
+native-refined.json	2	native-http		https://api.archives-ouvertes.fr/search/?q=%22sunflower+lemma%22&wt=json&rows=200&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i&sort=submittedDate_tdate+desc	2026-10-25T13:26:31.353933+00:00	HTTP 200
+native-refined.json	3	native-http		https://api.archives-ouvertes.fr/search/?q=%22delta-system%22&wt=json&rows=200&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i&sort=submittedDate_tdate+desc	2026-10-25T13:26:31.354421+00:00	HTTP 200
+native-refined.json	4	native-http		https://www.researchsquare.com/browse?unified=%22sunflower+lemma%22	2026-10-25T13:26:31.355495+00:00	HTTP 200
+native-refined.json	5	native-http		https://www.researchsquare.com/browse?unified=%22sunflower-free%22	2026-10-25T13:26:31.355966+00:00	HTTP 200
+native-refined.json	6	native-http		https://www.researchsquare.com/browse?unified=%22delta-system%22	2026-10-25T13:26:31.358775+00:00	HTTP 200
+native-refined.json	7	native-http		https://zenodo.org/records/18248679	2026-10-25T13:26:31.397372+00:00	HTTP Error 403: Forbidden
+search-a1.json	1	indexed-web	"site:hal.science (sunflower OR ""delta-system"") (""4-uniform"" OR ""four-uniform"" OR ""three petals"" OR ""3-sunflower"")"		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a1.json	2	indexed-web	"site:zenodo.org (sunflower OR ""delta-system"") (extremal OR uniform OR combinatorics)"		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a1.json	3	indexed-web	"site:osf.io (sunflower OR ""delta-system"") (conjecture OR uniform OR combinatorics)"		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a1.json	4	indexed-web	"site:preprints.org (sunflower OR ""delta-system"") (conjecture OR uniform OR combinatorics)"		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a10-triples.json	1	indexed-web	"""sunflower-free"" ""disjoint"" ""15"""		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a10-triples.json	2	indexed-web	"""sunflower-free"" ""fifteen"""		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a10-triples.json	3	indexed-web	"""sunflower"" ""disjointness graph"""		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a10-triples.json	4	indexed-web	"""sunflower-free"" ""triples"" ""seven"""		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a11.json	1	indexed-web	"""Erdős Problems via Bayesian Computation, I"" sunflower"		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a11.json	2	indexed-web	"""sunflower-free"" ""maximum degree"" ""15"""		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a11.json	3	indexed-web	"""sunflower"" ""delta-system"""	eprints.maths.ox.ac.uk;mpim-bonn.mpg.de;mis.mpg.de;figshare.com	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a11.json	4	indexed-web	"""sunflower-free"" ""families"""	eccc.weizmann.ac.il;eprint.iacr.org;optimization-online.org;episciences.org;ams.org;preprints.ru	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a12.json	1	indexed-web	"""Erdos Problems via Bayesian Computation"" sunflower theorem"		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a12.json	2	indexed-web	"""Exact Values and Proven Slack"" correction OR revised OR erratum"		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a12.json	3	indexed-web	"""sunflower"" ""extremal"""	researchsquare.com	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a12.json	4	indexed-web	"""sunflower"" ""set system"""	techrxiv.org;osf.io;preprints.org	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a14.json	1	indexed-web	"""18248679"""		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a14.json	2	indexed-web	"""Cody Shane Mitchell"" ""sunflower"""	zenodo.org	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a14.json	3	indexed-web	"""sunflower"" ""fifteen"" ""disjoint"""		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a14.json	4	indexed-web	"""3-uniform"" ""sunflower-free"" ""seven"""		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a15.json	1	indexed-web	"""sunflower-free"" ""correction"""	zenodo.org;osf.io;vixra.org;rxiv.org;preprints.org;ssrn.com;hal.science	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a15.json	2	indexed-web	"""delta-system"" ""triples"""	zenodo.org;osf.io;hal.science;researchsquare.com;techrxiv.org	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a15.json	3	indexed-web	"""sunflower"" ""4-uniform"""	eccc.weizmann.ac.il;figshare.com;mpim-bonn.mpg.de;episciences.org;mathoa.org	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a15.json	4	indexed-web	"""sunflower"" ""combinatorics"""	indiarxiv.org;engrxiv.org;preprints.scielo.org;scienceopen.com	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a18-final-exact.json	1	indexed-web	"""sunflower-free"" ""triples"" ""disjoint"" ""15"""	zenodo.org;osf.io;hal.science;ssrn.com;vixra.org;rxiv.org	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a18-final-exact.json	2	indexed-web	"""3-uniform"" ""sunflower"" ""disjoint"" ""seven"""		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a18-final-exact.json	3	indexed-web	"""sunflower"" ""4-uniform"" ""67"""	zenodo.org;osf.io;hal.science;researchsquare.com;preprints.org;techrxiv.org;ssrn.com	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a18-final-exact.json	4	indexed-web	"""four-element sets"" ""sunflower"""	zenodo.org;vixra.org;rxiv.org;osf.io	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a2.json	1	indexed-web	sunflower conjecture	hal.science;hal.archives-ouvertes.fr	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a2.json	2	indexed-web	sunflower lemma	zenodo.org	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a2.json	3	indexed-web	sunflower conjecture	osf.io	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a2.json	4	indexed-web	sunflower conjecture	preprints.org	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a3.json	1	indexed-web	"""sunflower"" ""conjecture"""	researchsquare.com	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a3.json	2	indexed-web	"""sunflower"" ""sets"""	ssrn.com	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a3.json	3	indexed-web	"""sunflower"" ""conjecture"""	vixra.org;rxiv.org	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a3.json	4	indexed-web	"""sunflower"" ""lemma"""	techrxiv.org	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a5.json	1	indexed-web	"""sunflower-free"" ""4"""	zenodo.org;osf.io;hal.science;hal.archives-ouvertes.fr	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a5.json	2	indexed-web	"""delta-system"" extremal"	researchsquare.com;preprints.org;ssrn.com;techrxiv.org	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a5.json	3	indexed-web	"""sunflower"" ""three"" ""four"""	vixra.org;rxiv.org	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a5.json	4	indexed-web	"""sunflower"" ""triple"" ""rho"""		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a6.json	1	indexed-web	"""sunflower"" ""combinatorics"""	mathoa.org	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a6.json	2	indexed-web	"""sunflower-free"" ""families"""	hal.science;hal.archives-ouvertes.fr	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a6.json	3	indexed-web	"""sunflower"" ""conjecture"""	zenodo.org;osf.io;engrxiv.org;mathrxiv.org	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a6.json	4	indexed-web	"""sunflower-free"" ""67"""	preprints.org;researchsquare.com;techrxiv.org;ssrn.com;vixra.org;rxiv.org	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a8.json	1	indexed-web	MathOA preprint repository mathematics		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a8.json	2	indexed-web	"""sunflower"" ""lemma"" HAL"		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a8.json	3	indexed-web	"""sunflower"" ""conjecture"" site:hal.science -site:cv.hal.science"		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a8.json	4	indexed-web	"""sunflower"" ""delta-system"" site:osf.io/preprints"		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a9.json	1	indexed-web	"MathOA ""Mathematics in Open Access"""		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a9.json	2	indexed-web	"""sunflower"" ""four"" ""sets"""	eccc.weizmann.ac.il;eccc.weizmann.ac.il;eprint.iacr.org	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a9.json	3	indexed-web	"""sunflower"" ""3"" ""4"""	mathrepo.mis.mpg.de;episciences.org;ams.org	2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration
+search-a9.json	4	indexed-web	"""sunflower-free"" ""fifteen"" OR ""15 triples"""		2026-10-25	Tool-returned ranked results; not exhaustive repository enumeration

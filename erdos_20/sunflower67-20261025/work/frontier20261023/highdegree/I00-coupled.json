@@ -1,0 +1,17 @@
+{
+  "case": "I00",
+  "mu": 41,
+  "assurance": "certificate-diagnostic; imported signature assumptions; no exact dual proof",
+  "universe": "arbitrary exterior support; shared12/13-point traces",
+  "r9_minimum": 0,
+  "r10_minimum": 0,
+  "minimum_used_degree_assumed": null,
+  "minimum_cooccurring_degree_sum": 19,
+  "catalog_rows": 27054,
+  "columns": 473554,
+  "status": 2,
+  "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+  "seconds": 10.887899652007036,
+  "source_sha256": "127fda4c85e179835be4a0b6810086c099f4d71d052a8f90a2f686cc9423d548",
+  "imported_source_sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b"
+}

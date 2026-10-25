@@ -1,0 +1,255 @@
+{
+  "snapshot": {
+    "run_id": "frontier20261020-boundary80-final-review",
+    "contract_sha256": "90d2d9a768c921fd7766a8bdf668ffbf291886ce0f2ed7a753bd988d3ecfddc5",
+    "roster_sha256": "3781e9aad13463cedea3be14fe6e134725b6e05b7aaa99ad8dd9c4c5d9076136",
+    "round": 1,
+    "phase": "contract-framing",
+    "manuscript_sha256": "2d1614a3ebd4ec37bfb6829ba68c462bbfb9ea678193e94baabed01893f5967d",
+    "previous_round_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "evidence": [
+      {
+        "id": "admission-v1",
+        "kind": "research-contract",
+        "description": "Substantial-target review admission",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/admission-v1/review-admission.json",
+        "method": "Root declaration bound to successful proof receipts",
+        "status": "limited",
+        "limitations": [
+          "Admission is a research decision, not independent certification"
+        ],
+        "content_sha256": "95a2713bd5350d74f80f5f0e6226406cc9ba32b8635ef9fd2fa98a5735426ac5"
+      },
+      {
+        "id": "primary-sources-v1",
+        "kind": "primary-source-ledger",
+        "description": "Actual 20 October search and primary-source retrieval notes",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/primary-sources-v1/primary-source-check-20261020.json",
+        "method": "Read local record of actual browser access",
+        "status": "limited",
+        "limitations": [
+          "Bounded searches; local notes do not authenticate external pages or prove exhaustive priority"
+        ],
+        "content_sha256": "3a3a84de13981539076dacb0b59efceb8360963e5173533a4671e2c71ab5842b"
+      },
+      {
+        "id": "terminal-audit-v1",
+        "kind": "formal-proof-receipt",
+        "description": "Eight terminal roots and expanded conditional theorem",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/terminal-audit-v1/FinalEightyAudit.json",
+        "method": "Successful Lean output with allow-listed axiom audit",
+        "status": "limited",
+        "limitations": [
+          "Same evaluator and cached dependencies; source closure pending"
+        ],
+        "content_sha256": "b0b35c7b4f712221ad7a18dc620880b383914450d258272dc6e26a21fbb2531a"
+      },
+      {
+        "id": "two-star-audit-v1",
+        "kind": "formal-proof-receipt",
+        "description": "Unconditional two-independent-twenty-star theorem and literal Profile B exclusion",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/two-star-audit-v1/TwoHighEightyAudit.json",
+        "method": "Successful Lean output and printed theorem",
+        "status": "limited",
+        "limitations": [
+          "Same evaluator and cached dependencies; source closure pending"
+        ],
+        "content_sha256": "115ab7cff2d18b6d78515628dff3917bfd45384e546d24e802735f7039253e8d"
+      },
+      {
+        "id": "profile-a-audit-v1",
+        "kind": "formal-proof-receipt",
+        "description": "Literal Profile A exclusion from I27",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/profile-a-audit-v1/ProfileAClosedAudit.json",
+        "method": "Successful Lean audit output",
+        "status": "limited",
+        "limitations": [
+          "Same evaluator and cached dependencies; source closure pending"
+        ],
+        "content_sha256": "61f49ee5379931a6c33fa669878bd8ce2db9b5668a12afbb89d2f5b71ba62883"
+      },
+      {
+        "id": "lean-source-formal-v1",
+        "kind": "formal-source",
+        "description": "formal Lean source snapshot",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-formal-v1",
+        "method": "Byte copying and SHA-256 manifest",
+        "status": "available",
+        "limitations": [],
+        "content_sha256": "0c5914e468740d6de8be7f36ae37aa95817442d0b02fd546a1260683a978b55d"
+      },
+      {
+        "id": "lean-source-theory-v1",
+        "kind": "formal-source",
+        "description": "theory Lean source snapshot",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-theory-v1",
+        "method": "Byte copying and SHA-256 manifest",
+        "status": "available",
+        "limitations": [],
+        "content_sha256": "e0e67cb5efece6e4dfce3d0b2701efb3c89c72c6ac158c24a18c04f364cb5388"
+      },
+      {
+        "id": "lean-source-compute-v1",
+        "kind": "formal-source",
+        "description": "compute Lean source snapshot",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-compute-v1",
+        "method": "Byte copying and SHA-256 manifest",
+        "status": "available",
+        "limitations": [],
+        "content_sha256": "0f2542a2f9d02d393b36015c7473c20f2804b3094ffb11b0a87c49109c99495c"
+      },
+      {
+        "id": "universal45-diagnostic-v1",
+        "kind": "exploratory-computation",
+        "description": "Python finite relative-geometry diagnostic for stronger45 conjecture",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/universal45-diagnostic-v1/universal_two_star.json",
+        "method": "Recorded exact finite enumeration",
+        "status": "limited",
+        "limitations": [
+          "No Lean normalization or universal45 theorem"
+        ],
+        "content_sha256": "4189d47f0ba96c4f8e4ce8719c71290b28258b73ae4b93c2ed0005d616fa0591"
+      },
+      {
+        "id": "universal45-crosscheck-v1",
+        "kind": "exploratory-computation",
+        "description": "C++ diagnostic crosscheck",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/universal45-crosscheck-v1/b_universal_check.json",
+        "method": "Recorded finite enumeration",
+        "status": "limited",
+        "limitations": [
+          "External diagnostic, not kernel proof"
+        ],
+        "content_sha256": "99420e08e17e639deae4146e1e569a18282623765a1e4e25a6a03032edbea1f2"
+      },
+      {
+        "id": "sharp45-failure-v1",
+        "kind": "failed-formal-attempt",
+        "description": "Resource-limited45 witness attempt",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/sharp45-failure-v1/Sharp45.json",
+        "method": "Retained unsuccessful Lean run",
+        "status": "limited",
+        "limitations": [
+          "No successful proof receipt"
+        ],
+        "content_sha256": "ad7be50ed8eaccb3927465177f10eb79efdc40cc044d9cd48428ed5fa89b746d"
+      },
+      {
+        "id": "closure-pending-v1",
+        "kind": "source-rebuild-status",
+        "description": "Source-closure status at review initialization",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-pending-v1/summary.json",
+        "method": "Frozen status receipt",
+        "status": "limited",
+        "limitations": [
+          "Source-closure rebuild pending/retry underway; no completion inferred"
+        ],
+        "content_sha256": "de11e63ae63bf201dd2babc661f3f6c903dada70f023bf49a9b2adc2d682d5d4"
+      }
+    ],
+    "evidence_sha256": "923dabf57aa65e09cc061d775ac77d6f05a8fb1fd14a9bcfe5b41f787d67573f",
+    "verification": [
+      {
+        "scope": "facts",
+        "status": "limited",
+        "method": "Read primary-source record and proof receipts",
+        "observations": [
+          "Definitions and assurance boundaries ready for independent role audit"
+        ],
+        "limitations": [
+          "Source ledger is bounded; specialist analysis pending"
+        ],
+        "evidence_ids": [
+          "primary-sources-v1",
+          "terminal-audit-v1"
+        ]
+      },
+      {
+        "scope": "citations",
+        "status": "limited",
+        "method": "Check supplied primary record locators",
+        "observations": [
+          "Primary arXiv and pinned A1K references explicitly separated"
+        ],
+        "limitations": [
+          "No exhaustive bibliography or priority claim"
+        ],
+        "evidence_ids": [
+          "primary-sources-v1"
+        ]
+      },
+      {
+        "scope": "logic",
+        "status": "limited",
+        "method": "Inspect successful printed Lean theorem and axiom receipts",
+        "observations": [
+          "I27 remains antecedent; unconditional two-star root has no I27 antecedent"
+        ],
+        "limitations": [
+          "Source-closure pending; detailed specialist proof audit still required"
+        ],
+        "evidence_ids": [
+          "terminal-audit-v1",
+          "two-star-audit-v1",
+          "profile-a-audit-v1"
+        ]
+      },
+      {
+        "scope": "methodology",
+        "status": "limited",
+        "method": "Inspect admission and diagnostic scope",
+        "observations": [
+          "Actual-family proof distinguished from exploratory enumeration"
+        ],
+        "limitations": [
+          "Formal and ordinary mathematical assurance differ"
+        ],
+        "evidence_ids": [
+          "admission-v1",
+          "universal45-diagnostic-v1"
+        ]
+      },
+      {
+        "scope": "data",
+        "status": "limited",
+        "method": "Read exact diagnostic outputs and failed attempt",
+        "observations": [
+          "No universal45 or SAT UNSAT premise claimed"
+        ],
+        "limitations": [
+          "Diagnostic pipeline not kernel verified; specialist recomputation pending"
+        ],
+        "evidence_ids": [
+          "universal45-diagnostic-v1",
+          "universal45-crosscheck-v1",
+          "sharp45-failure-v1"
+        ]
+      },
+      {
+        "scope": "text_reuse",
+        "status": "limited",
+        "method": "No broad corpus detector run",
+        "observations": [
+          "Accessible-source local comparison assigned to copyeditor"
+        ],
+        "limitations": [
+          "No exhaustive originality or plagiarism-free claim"
+        ],
+        "evidence_ids": [
+          "primary-sources-v1"
+        ]
+      }
+    ],
+    "verification_sha256": "18da38e2a36b09e6ca9ee2e73f05596f1f8379a65f4e71a0159600e7494454aa",
+    "public_state": {
+      "review_status": "First genuine review after actual A/B exclusions and axiom-audited I27 to G80.",
+      "coordinator_changes": [
+        "Normalized public banner and display math before first freeze"
+      ],
+      "pending_evidence": [
+        "Source-closure rebuild is running; do not infer completed coverage."
+      ]
+    }
+  },
+  "snapshot_sha256": "9c981e93769180665f8e1003e30db2aa0fdb52c055b579a03c361bcc9b5c2849"
+}

@@ -1,0 +1,206 @@
+{
+  "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "grade": "source-inspected",
+  "inventory": [
+    {
+      "id": "112",
+      "priority": "direct existing lemma; regression only",
+      "solution": "OAI.Computability.DepthThree.Sunflower",
+      "theorems": [
+        "OAI.DepthThreeLowerBound.finite_uniform_sunflower",
+        "OAI.DepthThreeLowerBound.no_nonempty_core_sunflower_occurrence_le"
+      ],
+      "strength": "rank s r petals threshold s!*(r-1)^s; per-point occurrence in rank i+1 <= i!*(r-1)^i under no nonempty-core r sunflower",
+      "a1k": "already available same Erdős–Rado bound; rank4 r3 gives384/degrees48; not improve93/degrees20"
+    },
+    {
+      "id": "176",
+      "priority": "direct weighted-spread library reuse; conditional mathematical tool",
+      "solution": "OAI.Combinatorics.GraphThreshold.SpreadCounting",
+      "theorems": [
+        "OAI.LeanBlast.SecondKahnKalai.IsSpread.containment_le",
+        "OAI.LeanBlast.SecondKahnKalai.intersection_card_ge_le_target",
+        "OAI.LeanBlast.SecondKahnKalai.expectation_intersection_le_binomial",
+        "OAI.LeanBlast.SecondKahnKalai.intersection_moment_le"
+      ],
+      "strength": "finite law normalized nonnegative real weights; forall nonempty J probability(J subset A)<=a^cardJ; intersection tails and all nonnegative histogram moments bounded by binomial terms",
+      "a1k": "IsRSpread F r implies IsSpread uniformF A (r:real)^-1 after cardinal/probability cast bridge; does not itself yield3disjoint petals orsharp81",
+      "audit": "3localOAI module closure source-preflightpass, spread-preflight.json"
+    },
+    {
+      "id": "175",
+      "priority": "closest indirect probability set-family tools",
+      "solution": "OAI.Combinatorics.ExpectationThreshold.Main",
+      "theorems": [
+        "OAI.TalagrandThreshold.talagrand_expectation_threshold_equivalence",
+        "OAI.TalagrandThreshold.fractionalCover_rounding",
+        "OAI.TalagrandThreshold.Selector.rawRowEncoding_injective"
+      ],
+      "strength": "qf(F)<=25*512^4*q(F); unrestricted fractional containment cover cost1/2 rounds at r/(25*512^4)",
+      "a1k": "upward closure/weighted-cover representation bridge required; constant 1717986918400 too coarse for sharp81"
+    },
+    {
+      "id": "175",
+      "priority": "certificate/probability architecture",
+      "solution": "OAI.Combinatorics.DiscreteConvexity.Main",
+      "theorems": [
+        "OAI.TalagrandDiscreteConvexity.original_density_small",
+        "OAI.TalagrandDiscreteConvexity.FiniteLaw.exists_forall_of_const"
+      ],
+      "strength": "family Bernoulli-p mass>=1-2^-75 gives p-small exceptional family outside unions of2^75 members; finite union bound needs no independent rows",
+      "a1k": "no disjointness or distinctness of union rows; cannot get3 petals directly"
+    },
+    {
+      "id": "184",
+      "priority": "indirect graph degree lemmas",
+      "solution": "OAI.Combinatorics.CliqueFree.Main",
+      "theorems": [
+        "OAI.CliqueFreeLog.logarithmic_independence_bound",
+        "OAI.CliqueFreeIndependence.WeightedGraph.degree_cutoff_card"
+      ],
+      "strength": "for fixed r>=4, existential positive c_r, K_r-free graph avgdegree d>=2 has alpha>=c_r*n*logd/d; half vertices degree<=2d",
+      "a1k": "disjointness graph useful but exact independent-size28 not guaranteed; intersection graph often complete"
+    },
+    {
+      "id": "186",
+      "priority": "restricted scope",
+      "solution": "OAI.Combinatorics.SharpThreshold.Main",
+      "theorems": [
+        "OAI.Problem313.variance_influence_bound",
+        "OAI.Problem313.sharp_threshold_width"
+      ],
+      "strength": "graphs only width<=2^19*log(1/(2eps))/log(n)^2; no selected hypergraph root",
+      "a1k": "monotone invariant property possible only after bridge; asymptotic coarse constants not81"
+    },
+    {
+      "id": "162",
+      "priority": "counterexample hypergraph model; bridge only",
+      "solution": "OAI.Combinatorics.BalancedRyser.Main",
+      "theorems": [
+        "OAI.Balanced.main_result"
+      ],
+      "strength": "every sufficiently large prime q has finite intersecting(q+1)-partite uniform hypergraph cover=q+1 all partsq+1 nonisolated",
+      "a1k": "rankpartite hypothesis not consequence sunflower-free; negative existential, not sunflower cardinal upperbound"
+    },
+    {
+      "id": "162",
+      "priority": "counterexample hypergraph model; bridge only",
+      "solution": "OAI.Combinatorics.Ryser.Construction.Main",
+      "theorems": [
+        "OAI.RyserCoveringCounterexample.exists_prime_eventually_counterexampleRank",
+        "OAI.RyserOdd.eventualOddFailures_and_infinite"
+      ],
+      "strength": "r=p^n+1, fixed p eventually prime n; eventual p==2mod3 and odd n>threshold; matching1 coverr",
+      "a1k": "ranks/partiteness not general finite4set families; source negative construction cannot upperbound"
+    },
+    {
+      "id": "113",
+      "priority": "matching entropy only indirect",
+      "solution": "OAI.Combinatorics.PerfectMatching.Main",
+      "theorems": [
+        "OAI.MatchingEntropy.entropy_main",
+        "OAI.MatchingEntropy.uniform_decomposition_mem",
+        "OAI.MatchingEntropy.count_main"
+      ],
+      "strength": "loopless labelled multigraph perfect matching polytope; F-H<=8m(1-exp(-F/m)); decomposable into k perfect matchings gives explicit count lowerbound",
+      "a1k": "hypergraph3matching absence different object; reduction must preserve matching structure"
+    },
+    {
+      "id": "113",
+      "priority": "documented other source root",
+      "solution": "OAI.Combinatorics.MatchingEntropy.Main",
+      "theorems": [
+        "OAI.MatchingEntropyBounds.Refined.pointwise_entropy"
+      ],
+      "strength": "F-(2-2/m)B<=H<=F; no paper global face-dimension bound in selected comparator",
+      "a1k": "terminal root inspected but full closure not independently scanned"
+    },
+    {
+      "id": "187",
+      "priority": "finite certificate architecture, most portable engineering pattern",
+      "solution": "OAI.Combinatorics.SnakyCertificate.Main",
+      "theorems": [
+        "OAI.SnakyCertificate.certificate_correct",
+        "OAI.SnakyCertificate.rowAt_unique"
+      ],
+      "strength": "older35move supplement610entries616rows1837placements4outputs AllRows; decide+kernel chunks10; recursive backward refs plus cached equations",
+      "a1k": "adapt data language/soundness/shards/reconstruction/completeness; not genericSAT checker or sharp81 proof"
+    },
+    {
+      "id": "187",
+      "priority": "current21game theorem; not chosen auditroot",
+      "solution": "OAI.GameTheory.SnakyTwentyOne.Main",
+      "theorems": [
+        "OAI.SnakyPrototype.snaky_winning_strategy_21_with_legal_states"
+      ],
+      "strength": "legal winning policy with21actual Maker moves against every legal Breakerreply; row_works727",
+      "a1k": "read root only; separate JSON/module tree; old certificate full reachability to21root not examined"
+    },
+    {
+      "id": "120",
+      "priority": "paper only",
+      "solution": null,
+      "theorems": [],
+      "strength": "CONTENTS noLean link; docs120404",
+      "a1k": "no verified selected tool available"
+    },
+    {
+      "id": "171",
+      "priority": "paper only",
+      "solution": null,
+      "theorems": [],
+      "strength": "hypercubeRamsey CONTENTS noLean link docs171404",
+      "a1k": "not sourceverified"
+    },
+    {
+      "id": "126",
+      "priority": "scope downgrade",
+      "solution": "OAI.Combinatorics.MatchingPSD.Main",
+      "theorems": [
+        "OAI.PerfectMatchingPSD.main",
+        "OAI.PerfectMatchingPSD.affine_lift_lower_bound"
+      ],
+      "strength": "superpolynomial >n^C eventuallyevenn; paper exponential positive-shift statement excluded",
+      "a1k": "complexitylowerbound not finitecombinatorialsharp bound"
+    },
+    {
+      "id": "185",
+      "priority": "exclude finite use",
+      "solution": "OAI.Combinatorics.InfiniteMatroid.Main",
+      "theorems": [
+        "OAI.InfiniteMatroidCounterexample.main"
+      ],
+      "strength": "countablyinfinite selfdual partitional matroids notfinitary/cofinitary; nointersection/packingcovering",
+      "a1k": "infinitecounterexample not finite4sets"
+    }
+  ],
+  "other_documented_candidates": {
+    "111": "matroid prophet expected reward2^-310; needs matroid, no sharp sunflower",
+    "114": "common equalrank matroid basesFPRAS; paperinteger polymatroids not selected",
+    "115": "matrix row/columnsum sampling/counting; profiles plausible diagnostic but cannot deterministic absencecertify",
+    "118": "binpacking unboundedLP gaps/hardness; negative complexity",
+    "131": "simplegraph switchchain mixing2n^8, connectivity; sampler not impossibilityproof",
+    "156": "Borsuk rankone orthogonalprojectors not finite4sets",
+    "157": "Hadwiger/listcolor/minor not needed graph invariant",
+    "159": "reciprocalsum progression main only; two sunflowernamed modules Liealgebra vanishing",
+    "161": "fixed35v66e Sidorenko host graph counterexample only; noforcing theorem selected",
+    "170": "asymptotic fixeds>=5 logarithmicexponent, no finite constants at rank4",
+    "173": "oriented secondneighbourhood existence; not allvertex degreebound",
+    "174": "thinspanningtrees allcuts; no suitable connectedness/multigraph bridge",
+    "176": "fixedgraph expectation threshold logarithmicfactor; no universal setfamily sharp bound",
+    "179": "circulantHadamard orders1/4, evenBarker2/4; finite algebraic certificates but no setfamilyconnection",
+    "180": "cubic bipartite planar3connected Hamiltonicity; extra constraints absent",
+    "181": "linear edgepartition cycles/singletons absoluteC unknown; not3matching",
+    "183": "planar halvingpair powerbound under geometric genericity",
+    "188": "randomtriangle removal asymptoticL2 n^1.5 leave; no deterministic sunflowerabsence",
+    "189": "exactcyclecliqueRamsey specialcycle forbidden; no immediate27intersecting bridge",
+    "190": "fixed66x66 inducedordered matrix removalcounterexample; directionwrong",
+    "192": "Fourierdeg square root counterexamples; graphdegree unrelated",
+    "266": "MUB family≤5 not manuscript≤3; separate cube cancellation supportive statement"
+  },
+  "limits": [
+    "No build/Comparator/#print axioms observed.",
+    "Root-reachable OAI module closures are source-scanned; Mathlib not scanned.",
+    "Truncated repo tree inspected only partial source inventory."
+  ]
+}

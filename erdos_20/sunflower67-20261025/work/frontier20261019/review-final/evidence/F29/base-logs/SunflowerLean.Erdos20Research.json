@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20Research",
+  "source_sha256": "b4d860cc6df3df2140a6ed95060c193a3f40c4fe6cbbbcc8f3d6d12e6db9b670",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20Research.olean",
+    "SunflowerLean/Erdos20Research.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 8.583,
+  "output": "SunflowerLean/Erdos20Research.lean:56:47: warning: try 'simp' instead of 'simpa'\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\nSunflowerLean/Erdos20Research.lean:58:47: warning: try 'simp' instead of 'simpa'\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\nSunflowerLean/Erdos20Research.lean:268:4: warning: Try `simp at hmem` instead of `simpa using hmem`\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\n'Erdos20Research.inter_eq_core_of_codim_one' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Research.extensionStar_isSunflower' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Research.extensionStar_card_lt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Research.extensionStar_card_le_pred' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Research.lowerShadow_extension_degree_le' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Research.incidence_swap' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Research.incidence_left_count' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Research.incidence_inequality' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Research.sunflowerFree_shadow_inequality' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Research.final_shifted_set_has_no_original_one_step_source' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n"
+}

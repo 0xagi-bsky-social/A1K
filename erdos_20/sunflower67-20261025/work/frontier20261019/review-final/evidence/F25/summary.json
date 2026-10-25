@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "protected_closure_member": false,
+  "records": [
+    {
+      "case": "missing_root",
+      "source_sha256": "e7c5b61d53ad3ede0cdce2e5fcff3636fbd2d01e35efbeed97db1838cb8917b8",
+      "exit_code": 1,
+      "expected_marker": "FRONTIER_MISSING_ROOT",
+      "output": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/negative-control-receipt/missing_root.lean:2:0: error: FRONTIER_MISSING_ROOT: DefinitelyMissing.noSuchRoot\n",
+      "passed": true
+    },
+    {
+      "case": "non_theorem",
+      "source_sha256": "e34ccb07449c676fdf23f0aefc6fbc0d9fe572c66ef8f68160ecdf03e590e065",
+      "exit_code": 1,
+      "expected_marker": "FRONTIER_NOT_THEOREM",
+      "output": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/negative-control-receipt/non_theorem.lean:2:0: error: FRONTIER_NOT_THEOREM: FrontierSupport.FiniteIntersectingObstructionOn\n",
+      "passed": true
+    },
+    {
+      "case": "disallowed_axiom",
+      "source_sha256": "ac6f87d88e89e55586db37e8bd005992e49e05574cba35cba782512cc81a8905",
+      "exit_code": 1,
+      "expected_marker": "FRONTIER_DISALLOWED",
+      "output": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/negative-control-receipt/disallowed_axiom.lean:6:0: error: FRONTIER_DISALLOWED: root=IsolatedNegativeControl.forbiddenRoot; unexpected=[IsolatedNegativeControl.intentionallyUntrusted]\n",
+      "passed": true
+    }
+  ]
+}

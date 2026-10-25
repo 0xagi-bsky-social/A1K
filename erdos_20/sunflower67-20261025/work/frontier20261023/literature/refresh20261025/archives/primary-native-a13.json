@@ -1,0 +1,27 @@
+{
+  "retrieval_date": "2026-10-25",
+  "request": {
+    "open": [
+      {
+        "ref_id": "https://zenodo.org/records/18248679"
+      },
+      {
+        "ref_id": "https://papers.ssrn.com/sol3/Delivery.cfm/6913500.pdf?abstractid=6913500&mirid=1"
+      },
+      {
+        "ref_id": "https://www.mathoa.org/about/"
+      },
+      {
+        "ref_id": "https://www.researchsquare.com/browse?term=sunflower"
+      },
+      {
+        "ref_id": "https://www.techrxiv.org/search?query=sunflower"
+      },
+      {
+        "ref_id": "https://hal.science/search/index/q/sunflower"
+      }
+    ],
+    "response_length": "long"
+  },
+  "result": "Internal Error ()\nciteturn228view0 [wordlim: 200] Source: open({\"ref_id\":\"https://zenodo.org/records/18248679\",\"lineno\":null}); Total lines: 1\nL0: URL https://zenodo.org/records/18248679 is not accessible via this tool.\n--------------------------------------------------------------------------------\nInternal Error ()\nciteturn228view1 [wordlim: 200] Source: open({\"ref_id\":\"https://papers.ssrn.com/sol3/Delivery.cfm/6913500.pdf?abstractid=6913500&mirid=1\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://papers.ssrn.com/sol3/Delivery.cfm/6913500.pdf?abstractid=6913500&mirid=1: (403) Forbidden\n--------------------------------------------------------------------------------\nInternal Error ()\nciteturn228view2 [wordlim: 200] Source: open({\"ref_id\":\"https://www.mathoa.org/about/\",\"lineno\":null}); Total lines: 1\nL0: Failed to fetch https://www.mathoa.org/about/: (502) Bad Gateway\n--------------------------------------------------------------------------------\nInternal Error ()\nciteturn228view3 [wordlim: 200] Source: open({\"ref_id\":\"https://www.researchsquare.com/browse?term=sunflower\",\"lineno\":null}); Total lines: 1\nL0: URL https://www.researchsquare.com/browse?term=sunflower is not accessible via this tool.\n--------------------------------------------------------------------------------\nInternal Error ()\nciteturn228view4 [wordlim: 200] Source: open({\"ref_id\":\"https://www.techrxiv.org/search?query=sunflower\",\"lineno\":null}); Total lines: 1\nL0: URL https://www.techrxiv.org/search?query=sunflower is not accessible via this tool.\n--------------------------------------------------------------------------------\nInternal Error ()\nciteturn228view5 [wordlim: 200] Source: open({\"ref_id\":\"https://hal.science/search/index/q/sunflower\",\"lineno\":null}); Total lines: 1\nL0: URL https://hal.science/search/index/q/sunflower is not accessible via this tool.\n"
+}

@@ -36,8 +36,14 @@ def main() -> None:
     index = repo / "erdos_20/indexes/lean-source-files.csv"
     with index.open(newline="", encoding="utf-8") as source:
         rows = list(csv.DictReader(source))
-    if len(rows) != 348:
-        fail(f"Expected 348 shipped source instances; found {len(rows)}")
+    summary = json.loads((repo / "erdos_20/sunflower67-20261025/transfer-summary.json").read_text())
+    expected_count = 348 + summary["additional_lean_file_instances"]
+    if len(rows) != expected_count:
+        fail(f"Expected {expected_count} shipped source instances; found {len(rows)}")
+    with (repo / "erdos_20/indexes/v13-source-files.csv").open(newline="", encoding="utf-8") as source:
+        historical = list(csv.DictReader(source))
+    if len(historical) != 348 or rows[:348] != historical:
+        fail("The original 348-source inventory was not preserved")
 
     expected = set()
     for row in rows:
@@ -52,8 +58,13 @@ def main() -> None:
         if hashlib.sha256(data).hexdigest() != row["sha256"]:
             fail(f"SHA-256 mismatch: {relative}")
 
+    optional_upstream = (
+        "erdos_20/sunflower67-20261025/work/frontier20261020/prior-art68/repository/",
+        "erdos_20/sunflower67-20261025/work/frontier20261020/prior-art68/replay-quick-20261020/package/",
+    )
     actual = {str(path.relative_to(repo)) for path in
-              (repo / "erdos_20").rglob("*.lean")}
+              (repo / "erdos_20").rglob("*.lean")
+              if not str(path.relative_to(repo)).startswith(optional_upstream)}
     if actual != expected:
         fail(f"Inventory mismatch: missing {sorted(expected - actual)}; "
              f"extra {sorted(actual - expected)}")
@@ -63,7 +74,7 @@ def main() -> None:
         references = list(csv.DictReader(source))
     if len(references) != 21:
         fail(f"Expected 21 linked references; found {len(references)}")
-    original_paths = {row["original_relative_path"] for row in rows}
+    original_paths = {row["original_relative_path"] for row in historical}
     reference_paths = set()
     for row in references:
         original = row["original_relative_path"]
@@ -98,10 +109,56 @@ def main() -> None:
         if not target.is_file() or hashlib.sha256(target.read_bytes()).hexdigest() != digest:
             fail(f"Protected v13 input mismatch: {relative}")
 
-    production = sum(row["role"] == "latest-production" for row in rows)
+    artifact_index = repo / "erdos_20/indexes/sunflower67-artifacts.csv"
+    with artifact_index.open(newline="", encoding="utf-8") as source:
+        artifacts = list(csv.DictReader(source))
+    if len(artifacts) != summary["copied_files"]:
+        fail("Latest artifact count mismatch")
+    artifact_paths = set()
+    total_bytes = 0
+    for row in artifacts:
+        relative = row["repository_path"]
+        if relative in artifact_paths or not relative.startswith("erdos_20/sunflower67-20261025/work/"):
+            fail(f"Invalid or repeated latest artifact: {relative}")
+        artifact_paths.add(relative)
+        data = repository_file(repo, relative).read_bytes()
+        total_bytes += len(data)
+        if len(data) != int(row["size_bytes"]) or hashlib.sha256(data).hexdigest() != row["sha256"]:
+            fail(f"Latest artifact commitment mismatch: {relative}")
+    if total_bytes != summary["copied_bytes"]:
+        fail("Latest artifact byte count mismatch")
+    actual_artifacts = {str(path.relative_to(repo)) for path in
+                        (repo / "erdos_20/sunflower67-20261025/work").rglob("*") if path.is_file()
+                        and not str(path.relative_to(repo)).startswith(optional_upstream)}
+    if actual_artifacts != artifact_paths:
+        fail("Latest research tree differs from its artifact inventory")
+    historical_hashes = {row["sha256"] for row in historical}
+    new_hashes = {row["sha256"] for row in rows[348:]} - historical_hashes
+    if len(new_hashes) != summary["new_distinct_lean_contents_vs_v13"]:
+        fail("New distinct Lean content count mismatch")
+    with (repo / "erdos_20/indexes/sunflower67-external-references.csv").open(newline="", encoding="utf-8") as source:
+        latest_refs = list(csv.DictReader(source))
+    if len(latest_refs) != summary["external_reference_records"]:
+        fail("Latest external-reference count mismatch")
+    reference_names = set()
+    for row in latest_refs:
+        relative = Path(row["source_relative_path"])
+        if relative.is_absolute() or ".." in relative.parts or str(relative) in reference_names:
+            fail("Unsafe or repeated latest external-reference path")
+        reference_names.add(str(relative))
+        if not re.fullmatch(r"[0-9a-f]{64}", row["sha256"]):
+            fail("Invalid latest external-reference hash")
+        if row["immutable_url"] and not row["immutable_url"].startswith("https://"):
+            fail("Invalid latest external-reference URL")
+        if str(Path("erdos_20/sunflower67-20261025") / relative) in artifact_paths:
+            fail(f"Linked third-party reference was unexpectedly copied: {relative}")
+
+    production = sum(row["role"] == "latest-production" for row in historical)
     if production != 155:
         fail(f"Expected 155 production modules; found {production}")
-    print(f"Verified {len(rows)} Lean source files, including {production} v13 modules.")
+    print(f"Verified {len(rows)} Lean source instances, including {production} retained v13 modules.")
+    print(f"Verified {len(artifacts)} later source/evidence artifacts and {len(new_hashes)} new distinct Lean contents.")
+    print(f"Checked {len(latest_refs)} later external-reference commitments; upstream contents were not fetched.")
     print(f"Checked {len(references)} pinned reference links; all 369 original sources are accounted for.")
     print(f"Verified {len(manifest)} original protected v13 inputs.")
     print("Lean compilation, proof verification and remote reference retrieval were not run.")

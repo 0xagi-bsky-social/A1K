@@ -1,0 +1,77 @@
+{
+  "SF2_complete_links": {
+    "max_intersection_cost": {
+      "1": "0",
+      "2": "1",
+      "3": "5/2",
+      "4": "5",
+      "5": "8",
+      "6": "12"
+    },
+    "root_types": {
+      "5": [
+        [
+          "C5"
+        ],
+        [
+          "P3",
+          "C3"
+        ]
+      ],
+      "6": [
+        [
+          "C3",
+          "C3"
+        ]
+      ]
+    },
+    "derived_support_cap": 11
+  },
+  "D17_P10": {
+    "meeting_coefficients": {
+      "1": [
+        5
+      ],
+      "2": [
+        8
+      ],
+      "3": [
+        9,
+        10
+      ]
+    },
+    "admitted_scalar_tuples": 39,
+    "maximum": 234,
+    "maximizers_OHPE": [
+      [
+        21,
+        6,
+        18,
+        6
+      ]
+    ],
+    "required": 240
+  },
+  "A3_star": {
+    "mass_profiles": 266,
+    "independent_supports": 32,
+    "feasible_nonindependent_support_weight_summaries": 392,
+    "all_have_four_consecutive_support": true,
+    "endpoint_weights": [
+      1,
+      2
+    ],
+    "interior_weights_at_least": 4,
+    "actual_cover_lower_bounds": [
+      10,
+      11,
+      12
+    ]
+  },
+  "limits": [
+    "SF2 component classification is conditional on the elementary maximum-degree/matching characterization.",
+    "D17 check verifies the scalar contradiction after the written C5, pair-pool and H27 premises.",
+    "A3 check verifies the star-support and cover-count interface after a homomorphism with the stated masses exists.",
+    "No model builder, solver, external source search, compiler or large replay was run."
+  ]
+}

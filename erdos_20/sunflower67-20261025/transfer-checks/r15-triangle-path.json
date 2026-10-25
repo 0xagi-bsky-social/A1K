@@ -1,0 +1,35 @@
+{
+  "kind": "triangle_path",
+  "nodes": 3455,
+  "counts": {
+    "count": 14,
+    "min": 539,
+    "colour": 1785,
+    "branch": 1117,
+    "solution": 0
+  },
+  "colour_pairs_checked": 113537,
+  "seconds": 0.44955312900128774,
+  "status": "PASS",
+  "tree": "/home/user/Documents/Codex/2026-10-13/https-cf7bbd09-a1k-agentic-532eedc9400a09d5-workers/work/publish-sunflower-20261025/repository/erdos_20/sunflower67-20261025/work/frontier20261023/highdegree/R15-rho6-triangle-path-search.json.gz",
+  "tree_sha256": "1d85a5e1bed32296fad779fc0cd62a5701f5a844559f1a4356d809f9beed2fbd",
+  "checker_sha256": "020a9c4c6bf3ee0c22771e87fbcf0fe850e87053fd5e87a06879d4d59f99c522",
+  "negative_controls": [
+    {
+      "name": "wrong_target",
+      "rejected": true,
+      "reason": "literal scope changed"
+    },
+    {
+      "name": "omitted_child",
+      "rejected": true,
+      "reason": "omitted branch child"
+    },
+    {
+      "name": "wrong_source",
+      "rejected": true,
+      "reason": "wrong producer identity"
+    }
+  ],
+  "assurance": "Independent set-based finite proof-tree replay; conditional ordinary support reduction; not Lean."
+}

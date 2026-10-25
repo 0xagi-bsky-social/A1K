@@ -1,0 +1,284 @@
+[
+  {
+    "id": "admission-v1",
+    "kind": "research-contract",
+    "description": "Substantial-target review admission",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/admission-v1/review-admission.json",
+    "method": "Root declaration bound to successful proof receipts",
+    "status": "limited",
+    "limitations": [
+      "Admission is a research decision, not independent certification"
+    ],
+    "content_sha256": "95a2713bd5350d74f80f5f0e6226406cc9ba32b8635ef9fd2fa98a5735426ac5"
+  },
+  {
+    "id": "primary-sources-v1",
+    "kind": "primary-source-ledger",
+    "description": "Actual 20 October search and primary-source retrieval notes",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/primary-sources-v1/primary-source-check-20261020.json",
+    "method": "Read local record of actual browser access",
+    "status": "limited",
+    "limitations": [
+      "Bounded searches; local notes do not authenticate external pages or prove exhaustive priority"
+    ],
+    "content_sha256": "3a3a84de13981539076dacb0b59efceb8360963e5173533a4671e2c71ab5842b"
+  },
+  {
+    "id": "terminal-audit-v1",
+    "kind": "formal-proof-receipt",
+    "description": "Eight terminal roots and expanded conditional theorem",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/terminal-audit-v1/FinalEightyAudit.json",
+    "method": "Successful Lean output with allow-listed axiom audit",
+    "status": "limited",
+    "limitations": [
+      "Same evaluator and cached dependencies; source closure pending"
+    ],
+    "content_sha256": "b0b35c7b4f712221ad7a18dc620880b383914450d258272dc6e26a21fbb2531a"
+  },
+  {
+    "id": "two-star-audit-v1",
+    "kind": "formal-proof-receipt",
+    "description": "Unconditional two-independent-twenty-star theorem and literal Profile B exclusion",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/two-star-audit-v1/TwoHighEightyAudit.json",
+    "method": "Successful Lean output and printed theorem",
+    "status": "limited",
+    "limitations": [
+      "Same evaluator and cached dependencies; source closure pending"
+    ],
+    "content_sha256": "115ab7cff2d18b6d78515628dff3917bfd45384e546d24e802735f7039253e8d"
+  },
+  {
+    "id": "profile-a-audit-v1",
+    "kind": "formal-proof-receipt",
+    "description": "Literal Profile A exclusion from I27",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/profile-a-audit-v1/ProfileAClosedAudit.json",
+    "method": "Successful Lean audit output",
+    "status": "limited",
+    "limitations": [
+      "Same evaluator and cached dependencies; source closure pending"
+    ],
+    "content_sha256": "61f49ee5379931a6c33fa669878bd8ce2db9b5668a12afbb89d2f5b71ba62883"
+  },
+  {
+    "id": "lean-source-formal-v1",
+    "kind": "formal-source",
+    "description": "formal Lean source snapshot",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-formal-v1",
+    "method": "Byte copying and SHA-256 manifest",
+    "status": "available",
+    "limitations": [],
+    "content_sha256": "0c5914e468740d6de8be7f36ae37aa95817442d0b02fd546a1260683a978b55d"
+  },
+  {
+    "id": "lean-source-theory-v1",
+    "kind": "formal-source",
+    "description": "theory Lean source snapshot",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-theory-v1",
+    "method": "Byte copying and SHA-256 manifest",
+    "status": "available",
+    "limitations": [],
+    "content_sha256": "e0e67cb5efece6e4dfce3d0b2701efb3c89c72c6ac158c24a18c04f364cb5388"
+  },
+  {
+    "id": "lean-source-compute-v1",
+    "kind": "formal-source",
+    "description": "compute Lean source snapshot",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-compute-v1",
+    "method": "Byte copying and SHA-256 manifest",
+    "status": "available",
+    "limitations": [],
+    "content_sha256": "0f2542a2f9d02d393b36015c7473c20f2804b3094ffb11b0a87c49109c99495c"
+  },
+  {
+    "id": "universal45-diagnostic-v1",
+    "kind": "exploratory-computation",
+    "description": "Python finite relative-geometry diagnostic for stronger45 conjecture",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/universal45-diagnostic-v1/universal_two_star.json",
+    "method": "Recorded exact finite enumeration",
+    "status": "limited",
+    "limitations": [
+      "No Lean normalization or universal45 theorem"
+    ],
+    "content_sha256": "4189d47f0ba96c4f8e4ce8719c71290b28258b73ae4b93c2ed0005d616fa0591"
+  },
+  {
+    "id": "universal45-crosscheck-v1",
+    "kind": "exploratory-computation",
+    "description": "C++ diagnostic crosscheck",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/universal45-crosscheck-v1/b_universal_check.json",
+    "method": "Recorded finite enumeration",
+    "status": "limited",
+    "limitations": [
+      "External diagnostic, not kernel proof"
+    ],
+    "content_sha256": "99420e08e17e639deae4146e1e569a18282623765a1e4e25a6a03032edbea1f2"
+  },
+  {
+    "id": "sharp45-failure-v1",
+    "kind": "failed-formal-attempt",
+    "description": "Resource-limited45 witness attempt",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/sharp45-failure-v1/Sharp45.json",
+    "method": "Retained unsuccessful Lean run",
+    "status": "limited",
+    "limitations": [
+      "No successful proof receipt"
+    ],
+    "content_sha256": "ad7be50ed8eaccb3927465177f10eb79efdc40cc044d9cd48428ed5fa89b746d"
+  },
+  {
+    "id": "closure-pending-v1",
+    "kind": "source-rebuild-status",
+    "description": "Source-closure status at review initialization",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-pending-v1/summary.json",
+    "method": "Frozen status receipt",
+    "status": "limited",
+    "limitations": [
+      "Source-closure rebuild pending/retry underway; no completion inferred"
+    ],
+    "content_sha256": "de11e63ae63bf201dd2babc661f3f6c903dada70f023bf49a9b2adc2d682d5d4"
+  },
+  {
+    "id": "closure-complete-v1",
+    "kind": "source-closure-verification",
+    "description": "Completed source closure:161 modules,63 fresh and98 source-matched prior successful rebuilds",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-complete-v1/summary.json",
+    "method": "Read completed rebuild output and freeze exact bytes",
+    "status": "available",
+    "limitations": [
+      "Same evaluator and pinned dependency caches; not a clean-toolchain or independent reproduction"
+    ],
+    "content_sha256": "b77a97fb49054440e4cbf077add8f60b491b1c973972aad768e9035502d0931c"
+  },
+  {
+    "id": "closure-manifest-v1",
+    "kind": "source-closure-verification",
+    "description": "Exact source closure manifest",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-manifest-v1/manifest.json",
+    "method": "Read completed rebuild output and freeze exact bytes",
+    "status": "available",
+    "limitations": [
+      "Same evaluator and pinned dependency caches; not a clean-toolchain or independent reproduction"
+    ],
+    "content_sha256": "a7e07753ef9b6e48992297177601cf17653710cad014cb2ed72362aab7f02666"
+  },
+  {
+    "id": "closure-audit-roots-v1",
+    "kind": "source-closure-verification",
+    "description": "66 unique reaudited roots:64 Frontier and2 inherited",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-audit-roots-v1/audit-root-summary.json",
+    "method": "Read completed rebuild output and freeze exact bytes",
+    "status": "available",
+    "limitations": [
+      "Same evaluator and pinned dependency caches; not a clean-toolchain or independent reproduction"
+    ],
+    "content_sha256": "f0519f021466fc9cc793022aa7601c753643a4c20ae836a7572dc89d9d72d385"
+  },
+  {
+    "id": "portable-formal-v1",
+    "kind": "formal-source-and-reproduction",
+    "description": "Portable161source closure with manifests, audit logs, reproduction recipe and attribution",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/portable-formal-v1",
+    "method": "Frozen source bundle with per-file SHA-256",
+    "status": "available",
+    "limitations": [
+      "Recipe requires pinned Lean and mathlib dependencies; no separate-environment replay"
+    ],
+    "content_sha256": "461afa967fae6df8d3b54a209d4c1e6a6fd9470ad69f2b8f1295a5923de82067"
+  },
+  {
+    "id": "preview-d786-v1",
+    "kind": "rendered-preview",
+    "description": "Six-page matching manuscript preview for d786448baf9b, HTML/PDF and renderer fidelity record",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/preview-d786-v1",
+    "method": "Exact copied preview bytes and per-file hashes",
+    "status": "available",
+    "limitations": [
+      "Typesetter visual audit pending; renderer record is not independent validation"
+    ],
+    "content_sha256": "ac8feccd6bc4d8b72a28bcd176f8b0914904236c8fc2a9c4d434b78e608aee1d"
+  },
+  {
+    "id": "text-reuse-check-v1",
+    "kind": "bounded-text-comparison",
+    "description": "Actual copyeditor selected-passage comparison against accessible named primary sources",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/text-reuse-check-v1/comparison.json",
+    "method": "Manual semantic/wording comparison in actual specialist context",
+    "status": "limited",
+    "limitations": [
+      "No broad corpus detector or exhaustive source comparison; no plagiarism-free claim"
+    ],
+    "content_sha256": "ecd652b20cf9c75703f72b435e951ff71891446c490b24e8c024e021ad0d7f90"
+  },
+  {
+    "id": "preview-d9be-v1",
+    "kind": "rendered-preview",
+    "description": "Matching sixpage preview for d9bebce34491 including precise attribution and proposition labels",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/preview-d9be-v1",
+    "method": "Frozen exact preview bytes with per-file hashes and renderer mappings",
+    "status": "available",
+    "limitations": [
+      "HTML browser visual QA unavailable; new PDF version requires typesetter comparison"
+    ],
+    "content_sha256": "d06193629789d8263a6059a3ba480b0b718a490871a28aeb5f714a131e0aebb1"
+  },
+  {
+    "id": "root-visual-d9be-v1",
+    "kind": "rendered-visual-inspection",
+    "description": "Actual root full sixpage inspection of d9be preview with page image hashes",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/root-visual-d9be-v1/review.json",
+    "method": "Actual visual inspection recorded by root context",
+    "status": "limited",
+    "limitations": [
+      "Root environment, not independent visual certification; later manuscript previews require matching review"
+    ],
+    "content_sha256": "3a85477e5b7d50b49c9cd468c7aa0224eb47476b624b95d334fca5bdc7919547"
+  },
+  {
+    "id": "preview-686c-v1",
+    "kind": "rendered-preview",
+    "description": "Matching sixpage686c manuscript preview with narrowed local-proof computation scope",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/preview-686c-v1",
+    "method": "Frozen exact bytes and renderer mappings",
+    "status": "available",
+    "limitations": [
+      "HTML browser visual QA unavailable; current preview comparison pending"
+    ],
+    "content_sha256": "da1b26e6c59f22d2cb069f443e4e3127fe6839776837d4443bf8fd3c1c3b42dc"
+  },
+  {
+    "id": "root-visual-686c-v1",
+    "kind": "rendered-visual-inspection",
+    "description": "Actual root current sixpage PDF inspection: five pages byte-identical to inspected predecessor, changed page5 directly inspected",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/root-visual-686c-v1/review.json",
+    "method": "Page-image hash comparison and direct changed-page inspection by root",
+    "status": "limited",
+    "limitations": [
+      "Same environment; HTML browser rendering unavailable; no independent certification"
+    ],
+    "content_sha256": "9eddfc8672d00f5e918eb07cae7ad8f1bfef7073056e2e940ba9e4de7889c0c1"
+  },
+  {
+    "id": "sat-unknown-v1",
+    "kind": "failed-computational-attempt",
+    "description": "Actual ProfileA solver log, UNKNOWN result and encoding metadata retained for nonresult verification",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/sat-unknown-v1",
+    "method": "Frozen original log/result bytes; log records120second wall-time and result file says UNKNOWN",
+    "status": "available",
+    "limitations": [
+      "No witness or UNSAT certificate; no theorem inference from timeout"
+    ],
+    "content_sha256": "3aa74dc3667512ae0ec5d0209bb1a0d16db70e1680b48de38bd737fb7366eb6d"
+  },
+  {
+    "id": "preview-c476-v1",
+    "kind": "rendered-preview",
+    "description": "Current six-page manuscript c476 with explicit singleton-trace cap justification; exact PDF/HTML and formula mappings",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/preview-c476-v1/custom-rendering.json",
+    "method": "Local rendering plus 124 visible-prose fragment checks and six exact display mappings",
+    "status": "available",
+    "limitations": [
+      "HTML browser visual QA unavailable; current PDF visual inspection follows."
+    ],
+    "content_sha256": "47555336c1a396655900d91a45faf81cf76c9c091b5e62ba72692df6d13ffec1"
+  }
+]

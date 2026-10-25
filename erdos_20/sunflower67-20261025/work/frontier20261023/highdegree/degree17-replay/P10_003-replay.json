@@ -1,0 +1,290 @@
+{
+  "result": "PASS",
+  "assurance": "certificate-diagnostic: shared-producer model reconstruction and exact integer replay; no solver, no Lean, no independent model proof",
+  "receipt_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_003.json",
+  "replayer_sha256": "1e6ef9e322b31593e12483a1e53937bf950f424d8c29433793f40ed98198608a",
+  "compute_limit_seconds": 20,
+  "python_executable": "/usr/bin/python3",
+  "python_version": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+  "receipt_sha256": "0a11eafebcd27267baaae77ec1c7b6cfea44a937e85a8865338ab7dc158851a5",
+  "source": {
+    "name": "current",
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_component.py",
+    "sha256": "1e3eaa89225246bb695740792bcaf0a5c365eb50c4212467aeb3c9569d7658d0",
+    "matching_names": [
+      "current"
+    ]
+  },
+  "local43": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/upstream/MU42/scripts/local43.py",
+    "sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+    "match": true
+  },
+  "dependencies": {
+    "pinned": {
+      "repository/companion/upstream/MU42/scripts/local43.py": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+      "FOUNDATION_LEDGER.md": "3658ac4e94efe4bc5240856300c79c43d1388085c2126cb926df64dd48881992",
+      "analysis/mu41/mu41-analysis.md": "5b9821b942b6e782725c970332e00611eda29f238b96ca345b9c99f11f89744e",
+      "replay-selected-20261020/RECEIPT.json": "930a417d5f24c10056c9b10fb436fc7e52bdb13d327ed262edb895d1fd5eae8f",
+      "repository/paper/main.tex": "4aa36c9d56af5a8e3bdb44749107820549a73e0d3405e6c700104fa4c30e5c21",
+      "repository/companion/terminal/cross15/results/cross16_certificate.json": "fa9e49530acf9170b073c4ed24fde9ae9eb30ff78bf1edeed2a8f21018ed839b",
+      "repository/companion/terminal/cross15/src/verify.py": "f72bdb066eb40ebd3a5c072d0ed8431a547d06ae8d5581c408a44326df31422d"
+    },
+    "ordinary_bridge_sha256": {
+      "D17-research.md": "62b6cca0a0ea4659cde49a55cd51a40c713a798c0590474c1451b8f758caf1f5",
+      "D18-R99-bridge.md": "9f49028338cc787da8f65022ce399643a54214d59192a09ea4b164014847ae9c",
+      "D19-singleton-I04.md": "a074a1fe9cd5882a375457ebefe996d2e4e2d7a67b93f697e84d80e9580c57d6",
+      "C5-internal-compatibility.md": "056dea7da66635141b1350a4cc761bbdc11f1e7c7a755fa042c162d0dfd86c17"
+    },
+    "source_commit_metadata": "90c03c79bcf44eb8f61dff1b86091b822cc4cd3c",
+    "historical_adaptation_source": {
+      "path": "work/frontier20261023/highdegree/degree18_component.py",
+      "sha256": "8300c77fb1bf46c35f0028debf91b41a6ed07b035d9d324fb1239b98cc5bc557",
+      "description": "D18 component source including whole-pool rows, read 2026-10-23"
+    },
+    "scope": "The declared dependency files and ordinary notes are hash-checked; their external mathematical proofs are not replayed, and the historical adaptation source is not imported."
+  },
+  "case": {
+    "id": "P10_003",
+    "component": 10,
+    "outside": 7,
+    "r10": 0,
+    "r9": 0,
+    "interiors": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ]
+    ]
+  },
+  "catalogue": {
+    "internal_count": 292,
+    "automorphism_count": 60,
+    "orbit_count": 13,
+    "orbit_size": 30,
+    "sha256": "37168963641376910c922ef83f2c6af1aebaed7c9335b5b04d059741f3308a05",
+    "coverage": "producer recursion checks equality of generated and orbit-covered assignments"
+  },
+  "literal_premises": {
+    "family": "finite simple SF4, empty-core sunflowers forbidden, cardinality exactly 68",
+    "global_degree_cap": 17,
+    "minimum_closed_neighborhood": 41,
+    "minimum_used_degree": 7,
+    "complete_centre_link": "P10 plus a disjoint-support intersecting family of 7 triples",
+    "component_support": "six specified points; arbitrary exterior identities and multiplicities",
+    "internal_assignment": "exactly case.interiors",
+    "bootstrap": {
+      "r10": 0,
+      "r9": 0
+    },
+    "imported": "H27; universal SF2/SF3 capacities, I8/I9/I10, isolation, B4, R16/high-link structure, trace margins, C5/P5 confinement and cover capacity, pair/singleton resources; prior crowding26, minimum used degree7, HP15, ONE-HIGH",
+    "boundary": "Rows are interpreted separately in D17-P10-internals.md; this replay does not prove their geometry."
+  },
+  "premise_sha256": "c9bdab09d5975429f1bddaed87fc230391ab27d0543958c04f5f5dc767f8f8ae",
+  "model": {
+    "columns": 820,
+    "trace_columns": 41,
+    "upper_rows": 98,
+    "equal_rows": 402,
+    "live_sizes": [
+      9,
+      9,
+      2,
+      62,
+      2,
+      170,
+      269,
+      170,
+      12,
+      12
+    ],
+    "internal_degrees": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "internal_cover_degrees": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "degree_caps": [
+      17,
+      17,
+      16,
+      16,
+      16,
+      16
+    ],
+    "zero_trace_indices": [
+      0,
+      2,
+      5,
+      6,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      29,
+      30,
+      32,
+      33,
+      34,
+      35,
+      37,
+      40
+    ],
+    "sha256": "14fc489a6dfd896c75257b681dce36f741d9ca2dc6084b352997b176b4543d98",
+    "all_coefficients_rhs_and_bounds": "validated Python integers, including zero-weight rows"
+  },
+  "exact": {
+    "scale": 10000000000,
+    "H": -4363636364,
+    "minimum": -7,
+    "G": -4363636357,
+    "negative": true,
+    "q_sha256_decimal_lines": "a4e8290b3e946e8c2167050593788c941f3eefa8d52e989e3dbab61435899b89",
+    "q_column_count": 820,
+    "source_weights_nonnegative": true,
+    "weighted_rows": [
+      [
+        41,
+        441558442,
+        "A",
+        41,
+        "whole-pool:2:3"
+      ],
+      [
+        51,
+        831168831,
+        "A",
+        51,
+        "whole-pool:4:4"
+      ],
+      [
+        191,
+        311688312,
+        "E",
+        93,
+        "anchor:2-trace:1"
+      ],
+      [
+        193,
+        441558442,
+        "E",
+        95,
+        "anchor:2-trace:8"
+      ],
+      [
+        269,
+        779220779,
+        "E",
+        171,
+        "anchor:4-trace:1"
+      ],
+      [
+        270,
+        831168831,
+        "E",
+        172,
+        "anchor:4-trace:16"
+      ],
+      [
+        428,
+        3272727273,
+        "E",
+        330,
+        "anchor:8-trace:12"
+      ],
+      [
+        429,
+        207792208,
+        "E",
+        331,
+        "anchor:8-trace:36"
+      ],
+      [
+        430,
+        389610390,
+        "E",
+        332,
+        "anchor:8-trace:40"
+      ],
+      [
+        466,
+        155844156,
+        "E",
+        368,
+        "anchor:9-trace:20"
+      ],
+      [
+        467,
+        519480519,
+        "E",
+        369,
+        "anchor:9-trace:36"
+      ],
+      [
+        594,
+        207792208,
+        "-E",
+        94,
+        "anchor:2-trace:4"
+      ],
+      [
+        673,
+        519480519,
+        "-E",
+        173,
+        "anchor:4-trace:32"
+      ],
+      [
+        827,
+        779220779,
+        "-E",
+        327,
+        "anchor:8-trace:4"
+      ],
+      [
+        867,
+        311688312,
+        "-E",
+        367,
+        "anchor:9-trace:32"
+      ]
+    ],
+    "assembled_order": [
+      "A",
+      "E",
+      "-E"
+    ],
+    "formula": "G = H - sum_j min(l_j*q_j, u_j*q_j), every original column, no artificial slack column"
+  },
+  "all_bound_inputs_unchanged": true,
+  "conclusion": "The hash-matched conditional model is exactly infeasible.",
+  "elapsed_seconds": 1.6039172199998575
+}

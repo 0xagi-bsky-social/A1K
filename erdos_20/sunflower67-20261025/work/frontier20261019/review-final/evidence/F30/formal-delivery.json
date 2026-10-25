@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "archive": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal-source-and-receipts.zip",
+  "sha256": "81665e2eb4fe39260e8d8daf2ad1d922bc77647e1b255f6337872ee407dd9cff",
+  "bytes": 526700,
+  "source_and_receipt_files": 342,
+  "all_entries_hash_verified": true,
+  "compiled_object_files_included": false,
+  "protected_source_tree_sha256": "e8d5fcf9c4fa004085678e6076b16ff1385a3b30244216715fe32eea62737d74",
+  "proof_status": "axiom-audited; full A1K source closure rebuilt against pinned Lean/mathlib caches",
+  "research_review_status": "ongoing separately; archive does not assert scholarly acceptance"
+}

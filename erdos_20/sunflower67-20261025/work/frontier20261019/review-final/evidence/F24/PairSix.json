@@ -1,0 +1,14 @@
+{
+  "module": "PairSix",
+  "source_sha256": "27a4dfc4f7a411a61cc5073bd7c86d7527e73778f7f72b4c8a5a6d6963599b0f",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/replay-receipt/build/PairSix.olean",
+    "PairSix.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 13.952,
+  "output": "'FrontierPairSix.common_point_of_incidence_defect' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierPairSix.thirteen_six_four_common_point' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierPairSix.avoiding_pair_shape' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierPairSix.x_only_card_thirteen' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierPairSix.x_only_point_capacity_four' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierPairSix.pair_avoiding_common_point' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierPairSix.triangle_anchor_multiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierPairSix.degree_nineteen_pair_six_avoiding_common_point' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n"
+}

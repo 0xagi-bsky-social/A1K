@@ -1,0 +1,15 @@
+{
+  "valid": true,
+  "publication_eligible": true,
+  "errors": [],
+  "assurance": "Local integrity and declared tool provenance only; no cryptographic agent authentication, proven isolation, organizational independence, or independent certification.",
+  "independent_certification": "not-assessed",
+  "manuscript_sha256": "ec6872777eecaeca0563978e849f2b2fce2c48eb9e28e2efed87ba64b3128bb9",
+  "submission_count": 120,
+  "final_round": 10,
+  "bundle_sha256": "e9429086a25e44dd824287479acf1c07b8f533f226ccf87b695f2e7f4566cb23",
+  "contract_sha256": "dc1ac6ab08e52d7aabff32b4bda2a080f472a14b27a5a2a61540cf1f51e10841",
+  "run_id": "sunflower67-20261024-native",
+  "final_round_sha256": "0c89a73e8c6422fb0931f9bbac95f176b7d451969087504e05a15e56847b504c",
+  "synthetic": false
+}

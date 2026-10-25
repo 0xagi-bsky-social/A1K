@@ -1,0 +1,153 @@
+{
+  "round": 10,
+  "agent_id": "/root/r67_alpha",
+  "h27": {
+    "commit": "d4d5723267c662291efdadfa6e7061d919e76fa9",
+    "tree_from_metadata": "0a3e3838650fc981133940e798c9d220140e785e",
+    "independent_rehash_of_retained_payload": "0a3e3838650fc981133940e798c9d220140e785e",
+    "root_payload_bytes": 266,
+    "limitation": "Metadata relationship and preserved-payload consistency only; no H27 run authentication."
+  },
+  "neighbourhood_implications": {
+    "H27": "For every actual R, |D(R)|<=27 gives |N[R]|>=41 at cardinality68, hence mu>=41.",
+    "graph_identity": "delta(G)=68-N[max]; Delta(G)=68-mu.",
+    "D16_minimum_graph_degree": 24,
+    "cap15_minimum_graph_degree": 25
+  },
+  "retained_guard_phrases": [
+    "\u03bc \u2265 41",
+    "N[max] \u2264 43",
+    "Choose a point of maximum degree.",
+    "Only these latter two branches impose global degree cap 5.",
+    "At \u03c1 \u2264 6",
+    "At \u03c1 = 7",
+    "At \u03c1 = 8",
+    "The root pairs p0i remain allowed.",
+    "All fibres are therefore occupied. Now b[i] \u2265 25",
+    "Proper traces retain arbitrary multiplicities",
+    "two sibling exclusions cannot assume each other",
+    "equality with the target is not an exclusion"
+  ],
+  "branch_partition": [
+    20,
+    19,
+    18,
+    17,
+    16,
+    "at most15"
+  ],
+  "required_revision_count": 13,
+  "latest_original_reviewer_resolutions": {
+    "/root/r67_alpha:round-1:required-revision-1": {
+      "agent_id": "/root/r67_alpha",
+      "round": 9,
+      "action": "Checked the manuscript diff against the prior reviewed definition and graph interpretation.",
+      "finding_id": "/root/r67_alpha:round-1:required-revision-1",
+      "result": "The explicit actual-member maximum definition remains unchanged and resolved.",
+      "status": "resolved"
+    },
+    "/root/r67_chief:round-1:required-revision-1": {
+      "agent_id": "/root/r67_chief",
+      "round": 9,
+      "action": "Compared the complete manuscript diff and retained definitions.",
+      "finding_id": "/root/r67_chief:round-1:required-revision-1",
+      "result": "The neighbourhood maximum, universal quantifier and actual-anchor definitions remain unchanged and resolved.",
+      "status": "resolved"
+    },
+    "/root/r67_copy:round-1:required-revision-1": {
+      "agent_id": "/root/r67_copy",
+      "round": 9,
+      "action": "Rechecked current prose and CommonMark parse.",
+      "finding_id": "/root/r67_copy:round-1:required-revision-1",
+      "result": "Spacing repair persists; all eight links target intended HTTPS sources.",
+      "status": "resolved"
+    },
+    "/root/r67_copy:round-1:required-revision-2": {
+      "agent_id": "/root/r67_copy",
+      "round": 9,
+      "action": "Re-read Section 3 definitions.",
+      "finding_id": "/root/r67_copy:round-1:required-revision-2",
+      "result": "N[R], minimum \u03bc and N[max] remain distinct; semicolon indices produce no accidental links.",
+      "status": "resolved"
+    },
+    "/root/r67_literature:round-1:required-revision-1": {
+      "agent_id": "/root/r67_literature",
+      "round": 9,
+      "action": "Checked the exact manuscript diff and retained Section 2 attribution.",
+      "finding_id": "/root/r67_literature:round-1:required-revision-1",
+      "result": "Abbott\u2013Hanson and Abbott\u2013Gardner attribution through [1] remains unchanged and satisfactory.",
+      "status": "resolved"
+    },
+    "/root/r67_typeset:round-1:required-revision-1": {
+      "agent_id": "/root/r67_typeset",
+      "round": 9,
+      "action": "Compare source, HTML/PDF tokens and actual page images.",
+      "finding_id": "/root/r67_typeset:round-1:required-revision-1",
+      "result": "Set difference, grouped indices and semicolon anchor arguments survive; all eight parsed links are intended.",
+      "status": "resolved"
+    },
+    "/root/r67_typeset:round-1:required-revision-2": {
+      "agent_id": "/root/r67_typeset",
+      "round": 9,
+      "action": "Read every current preview page, including new prose and references.",
+      "finding_id": "/root/r67_typeset:round-1:required-revision-2",
+      "result": "The spacing repairs persist without an observed new presentation defect.",
+      "status": "resolved"
+    },
+    "/root/r67_typeset:round-1:required-revision-3": {
+      "agent_id": "/root/r67_typeset",
+      "round": 9,
+      "action": "Inspect the definitions on page 3 and scalar uses on page 8.",
+      "finding_id": "/root/r67_typeset:round-1:required-revision-3",
+      "result": "N[max], N[R] and mu remain explicit and distinct.",
+      "status": "resolved"
+    },
+    "/root/r67_writer:round-1:required-revision-1": {
+      "agent_id": "/root/r67_writer",
+      "round": 9,
+      "action": "Read the complete revised definitions.",
+      "finding_id": "/root/r67_writer:round-1:required-revision-1",
+      "result": "Literal models, exact traces and neighbourhood quantifiers remain explicit.",
+      "status": "resolved"
+    },
+    "/root/r67_writer:round-1:required-revision-2": {
+      "agent_id": "/root/r67_writer",
+      "round": 9,
+      "action": "Rechecked the companion map against the proof sequence.",
+      "finding_id": "/root/r67_writer:round-1:required-revision-2",
+      "result": "Support reduction, finite exhaustion, exact-rho classification and cover obligations remain separately located.",
+      "status": "resolved"
+    },
+    "/root/r67_writer:round-3:required-revision-1": {
+      "agent_id": "/root/r67_writer",
+      "round": 9,
+      "action": "Rechecked section 5.2.",
+      "finding_id": "/root/r67_writer:round-3:required-revision-1",
+      "result": "Maximum-degree root selection and the conditional cap-5 branches remain explicit.",
+      "status": "resolved"
+    },
+    "/root/r67_literature:round-4:required-revision-1": {
+      "agent_id": "/root/r67_literature",
+      "round": 9,
+      "action": "Compared the revised H27 timing sentence and retained source limitations with both superseding addenda.",
+      "finding_id": "/root/r67_literature:round-4:required-revision-1",
+      "result": "The disclosure repair remains resolved. The October 25 search updates comparison coverage without claiming to authenticate H27\u2019s historical run or complete repository tree.",
+      "status": "resolved"
+    },
+    "/root/r67_citations:round-5:required-revision-1": {
+      "agent_id": "/root/r67_citations",
+      "round": 9,
+      "action": "Rechecked Section 2's retained qualification and its revised chronological wording against the original addendum and new metadata.",
+      "finding_id": "/root/r67_citations:round-5:required-revision-1",
+      "result": "The wording requirement remains resolved. The October 25 comparison is explicitly separate from the October 24 integrity audit; no historical-run authentication or cryptographic completeness of the original returned response is newly claimed.",
+      "status": "resolved"
+    }
+  },
+  "unresolved_required_revision_ids": [],
+  "changed_existing_evidence_commitments": [],
+  "limitations": [
+    "No heavy computations rerun.",
+    "Resolution ledger is not mathematical proof or a new reviewer vote.",
+    "This round assesses readiness for separate final audits only."
+  ]
+}

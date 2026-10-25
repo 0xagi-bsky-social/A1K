@@ -1,0 +1,12 @@
+[
+  {
+    "control": "wrong-source",
+    "rejected": true,
+    "error": "ReplayError: No supported projection file exactly matches the receipt source hash"
+  },
+  {
+    "control": "wrong-bound",
+    "rejected": true,
+    "error": "ReplayError: Stored upper-bound upper_numerator disagrees"
+  }
+]

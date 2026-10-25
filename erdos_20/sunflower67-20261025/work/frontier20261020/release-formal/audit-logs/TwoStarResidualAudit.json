@@ -1,0 +1,15 @@
+{
+  "module": "TwoStarResidualAudit",
+  "source_sha256": "5201bee026cf531e603a220e7c32424311bd454be5ab69bec6c61e748423e915",
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "--memory=1024",
+    "--threads=1",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/closure-rebuild/build/TwoStarResidualAudit.olean",
+    "TwoStarResidualAudit.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 3.631634177058004,
+  "output": "PROFILE_A_BRIDGE_AXIOM_AUDIT {\"axioms\":[\"Classical.choice\",\"Quot.sound\",\"propext\"],\"root\":\"FrontierTwoStarResidual.independent_center_outside_link\",\"status\":\"pass\"}\nPROFILE_A_BRIDGE_AXIOM_AUDIT {\"axioms\":[\"Classical.choice\",\"Quot.sound\",\"propext\"],\"root\":\"FrontierTwoStarResidual.residual_meets_link_support_ge_three\",\"status\":\"pass\"}\n"
+}

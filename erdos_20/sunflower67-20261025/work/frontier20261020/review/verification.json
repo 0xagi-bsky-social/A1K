@@ -1,0 +1,101 @@
+[
+  {
+    "scope": "facts",
+    "status": "limited",
+    "method": "Actual literature/citation specialist primary-page retrieval and locator checks in committed rounds1\u20132",
+    "observations": [
+      "External I27 located at Proposition6.7; maximum27 at Proposition6.8;54\u201383 at Theorem6.9; source conventions and A1K conditional baseline compatible"
+    ],
+    "limitations": [
+      "Bounded source coverage; external enumeration not rerun or kernel imported; no exhaustive novelty claim"
+    ],
+    "evidence_ids": [
+      "primary-sources-v1",
+      "terminal-audit-v1"
+    ]
+  },
+  {
+    "scope": "citations",
+    "status": "limited",
+    "method": "Actual literature/citation specialist primary-page retrieval and locator checks in committed rounds1\u20132",
+    "observations": [
+      "External I27 located at Proposition6.7; maximum27 at Proposition6.8;54\u201383 at Theorem6.9; source conventions and A1K conditional baseline compatible"
+    ],
+    "limitations": [
+      "Bounded source coverage; external enumeration not rerun or kernel imported; no exhaustive novelty claim"
+    ],
+    "evidence_ids": [
+      "primary-sources-v1"
+    ]
+  },
+  {
+    "scope": "logic",
+    "status": "limited",
+    "method": "Actual logic/domain/Alpha/Beta specialist proof and assumption checks through committed round 5, with successful Lean theorem and transitive-axiom receipts",
+    "observations": [
+      "I27 remains an antecedent; unconditional two-star root has no I27 antecedent; closure receipt records63fresh and98source-matched reused modules, with66unique auditedroots",
+      "Round 5 verified 281 local import edges in topological order and checked exact integer thresholds and degenerate cases; no substantive proof defect identified."
+    ],
+    "limitations": [
+      "Same evaluator with pinned dependency caches; no clean-toolchain replay or independent human certification."
+    ],
+    "evidence_ids": [
+      "terminal-audit-v1",
+      "two-star-audit-v1",
+      "profile-a-audit-v1",
+      "closure-complete-v1",
+      "closure-audit-roots-v1",
+      "portable-formal-v1"
+    ]
+  },
+  {
+    "scope": "methodology",
+    "status": "limited",
+    "method": "Inspect admission and diagnostic scope",
+    "observations": [
+      "Actual-family arguments separated from diagnostics;161portable sourcehashes and63fresh/98matched split checked by methodologist",
+      "Round 5 checks confirmed import closure and diagnostic coverage limits; exploratory cap 45 and relaxed SAT UNKNOWN are excluded from proof premises."
+    ],
+    "limitations": [
+      "Formal and ordinary mathematical assurance differ"
+    ],
+    "evidence_ids": [
+      "admission-v1",
+      "universal45-diagnostic-v1",
+      "portable-formal-v1",
+      "closure-complete-v1"
+    ]
+  },
+  {
+    "scope": "data",
+    "status": "limited",
+    "method": "Actual data/domain/logic reviewers exact integer and auxiliary finite checks in committed rounds 1\u20135",
+    "observations": [
+      "Degree profiles and residual incidence totals agree; diagnostic histograms agree and20475=C(28,4); diagnostic results remain outside proof premises",
+      "Reproduced residual m<=40, four Profile A census triples, auxiliary C5/four-point graph caps, and separate literature 54-member witness check over all 24804 triples."
+    ],
+    "limitations": [
+      "Diagnostic normalization and full finite pipeline are not kernel verified"
+    ],
+    "evidence_ids": [
+      "universal45-diagnostic-v1",
+      "universal45-crosscheck-v1",
+      "sharp45-failure-v1"
+    ]
+  },
+  {
+    "scope": "text_reuse",
+    "status": "limited",
+    "method": "Actual copyeditor selected-passage comparison against accessible primary sources",
+    "observations": [
+      "No distinctive unattributed extended prose match found in compared passages; detailed coverage retained"
+    ],
+    "limitations": [
+      "No exhaustive originality or plagiarism-free claim"
+    ],
+    "evidence_ids": [
+      "primary-sources-v1",
+      "text-reuse-check-v1"
+    ]
+  }
+]

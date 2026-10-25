@@ -1,0 +1,36 @@
+{
+  "agent_id": "/root/review80_coordinator/typesetter",
+  "role": "typesetter",
+  "context_id": "/root/review80_coordinator/typesetter",
+  "round": 4,
+  "snapshot_sha256": "c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329",
+  "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+  "summary": "The revised Section 6 disclosure is present verbatim in HTML and PDF and visibly separates the local hypothetical I(27) use, the corollary’s external enumeration and non-premise exploratory work. The axiom-audited label and same-evaluator/clean-replay limitations remain legible on the same PDF page. No new presentation defect was found. HTML browser visual QA remains unperformed.",
+  "evidence_ids": [
+    "preview-686c-v1"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Method disclosure fidelity",
+      "method": "Diff round-03 and round-04 frozen sources; compare the entire changed Section 6 paragraph against HTML text and whitespace-normalized PDF extraction; render and visually inspect page 5 of preview-686c-v1.",
+      "observation": "The only manuscript change is the Section 6 introductory paragraph. It appears verbatim in both formats and is visually complete on page 5. Its three statements preserve the local hypothesis, the external corollary dependency and the exploratory/non-premise distinction. The matching preview manuscript hash equals the frozen round hash.",
+      "result": "supported",
+      "evidence_ids": [
+        "preview-686c-v1"
+      ]
+    },
+    {
+      "scope": "Assurance labels and methodological limits",
+      "method": "Inspect current PDF page 5 and corresponding HTML markup for assurance wording and the stronger-cap disclaimer. Reuse prior page inspections only for unchanged content; do not infer browser appearance from HTML source.",
+      "observation": "The bold axiom-audited label is immediately followed by same-evaluator, pinned-dependency and no-complete-clean-replay limits. The bold statement that universal bound 45 is not established remains visible beside the diagnostic discussion. Thus visual emphasis does not promote exploratory results into proved claims. Earlier optional table-break polish and the HTML visual-coverage limitation remain unchanged.",
+      "result": "supported",
+      "evidence_ids": [
+        "preview-686c-v1"
+      ]
+    }
+  ]
+}

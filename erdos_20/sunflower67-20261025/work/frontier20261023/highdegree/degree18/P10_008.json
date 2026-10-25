@@ -1,0 +1,63 @@
+{
+  "case": {
+    "id": "P10_008",
+    "component": 10,
+    "outside": 8,
+    "r10": 0,
+    "r9": 0,
+    "interiors": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ]
+    ]
+  },
+  "source_sha256": "3463c85f1e22de41d1c41ce4e43b6d2ab3e2ccfe7b6aa870c3e200ef87964c02",
+  "local43_sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+  "status": 0,
+  "columns": 753,
+  "upper_rows": 13,
+  "equal_rows": 422,
+  "live_sizes": [
+    0,
+    0,
+    0,
+    120,
+    0,
+    120,
+    286,
+    120,
+    0,
+    0
+  ],
+  "seconds": 0.38787356299962994,
+  "assurance": "discovery plus exact integer box diagnostic; conditional imported geometry, not Lean",
+  "phaseone_slack": 1.0,
+  "certificate": {
+    "scale": 10000000000,
+    "H": -10000000000,
+    "minimum": 0,
+    "G": -10000000000,
+    "negative": true,
+    "weights": [
+      [
+        447,
+        10000000000
+      ]
+    ]
+  }
+}

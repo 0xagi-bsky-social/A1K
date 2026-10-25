@@ -1,0 +1,70 @@
+{
+  "scope": "Independent exact integer recomputation of stated finite grid, diagnostic only",
+  "feasible_rows": 1204,
+  "maximum": 2250,
+  "maximizers": [
+    [
+      16,
+      15,
+      15,
+      18,
+      840
+    ]
+  ],
+  "disjointness_correction_checked": [
+    {
+      "intersection_size": 1,
+      "j": 0,
+      "lhs": 0,
+      "rhs": 0
+    },
+    {
+      "intersection_size": 1,
+      "j": 1,
+      "lhs": 0,
+      "rhs": 0
+    },
+    {
+      "intersection_size": 2,
+      "j": 0,
+      "lhs": 1,
+      "rhs": 0
+    },
+    {
+      "intersection_size": 2,
+      "j": 1,
+      "lhs": 1,
+      "rhs": 0
+    },
+    {
+      "intersection_size": 2,
+      "j": 2,
+      "lhs": 1,
+      "rhs": 1
+    },
+    {
+      "intersection_size": 3,
+      "j": 0,
+      "lhs": 2,
+      "rhs": 0
+    },
+    {
+      "intersection_size": 3,
+      "j": 1,
+      "lhs": 2,
+      "rhs": 0
+    },
+    {
+      "intersection_size": 3,
+      "j": 2,
+      "lhs": 2,
+      "rhs": 1
+    },
+    {
+      "intersection_size": 3,
+      "j": 3,
+      "lhs": 2,
+      "rhs": 2
+    }
+  ]
+}

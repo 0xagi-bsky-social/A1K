@@ -1,0 +1,136 @@
+{
+  "all_bound_inputs_unchanged": true,
+  "assurance": "Independent exact finite reconstruction with an ordinary arbitrary-support cover bridge and explicit imported graph/local theorems; not Lean or an unconditional global extremal proof.",
+  "compiled_binary_sha256": "81642d67920fc4c9159c3525b19b8c592f182296f4cd8e4f6ce2e6aa96cf54b3",
+  "compiler": "/usr/bin/g++",
+  "complete_conditional_k_exclusion": true,
+  "cover_checker": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/replay_d16_i8_deletion_covers.py",
+    "sha256": "b2c164d3110bab41355784f013182eccfd54dffcd6ef55421e129ade51d1bd04"
+  },
+  "cover_ordinary_bridge": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D16-I8-deletion-cover-reconstruction.md",
+    "sha256": "77dac237fa1861d05f18d4c07790712049046b9362bcd320f98979be10159093"
+  },
+  "cover_receipt": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D16-I8-cover-independent-replay.json",
+    "sha256": "0d2a2adc503b3ad1bd9a05dba60e98a4930672dae9b3205f5ed1b2f47f9226f4"
+  },
+  "frozen_diagnostic_dependencies": {
+    "prior68-research.md": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/analysis/prior68-research.md",
+      "sha256": "92caa67b0215e80b64b19f25b3d2ba8873f489fb9edc5d389ab3a23d79a9f912"
+    },
+    "prior68_cover_probe.json": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/analysis/prior68_cover_probe.json",
+      "sha256": "66b23589dd87a39a5b2e68d2f71a685b97c46a2fb9f7d992398772916e9bf592"
+    },
+    "prior68_cover_probe.py": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/analysis/prior68_cover_probe.py",
+      "sha256": "13c5468d86b8033cf2ef03811845108f9da7a95d31196590a5cef5bd57c4de37"
+    },
+    "prior68_fibre_probe.cpp": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/analysis/prior68_fibre_probe.cpp",
+      "sha256": "d27445e1db4a8134ac0a3dc28b87c69101b9575c271525206dce6c2ef91b4f40"
+    },
+    "prior68_fibre_probe.txt": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/analysis/prior68_fibre_probe.txt",
+      "sha256": "0181409d2f6e1d978ad87a8356caa60272563e043ca699704981ff2a399a5867"
+    }
+  },
+  "independent_source": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/d16_fibre_reconstruction.cpp",
+    "sha256": "fa29e7cd616b68a3df3d2252397e30ebc3e6593c5c3d66f2720874d2c9002991"
+  },
+  "k": 6,
+  "literal_premises": {
+    "H27_independence_cap": 27,
+    "Jin_image": "surjective A_k, k in3..6; stated ordinary deletion map",
+    "SF4_simple_empty_core_forbidden": true,
+    "actual_neighbourhood_upper": 44,
+    "actual_point_star_size": 16,
+    "ambient_support_cutoff": null,
+    "complete_R16_absent": "imported R61 at mu>=41 and Delta<=18",
+    "cover_capacities": [
+      1,
+      2,
+      4,
+      10
+    ],
+    "exact_singleton_upper": 8,
+    "family_size": 68,
+    "non_R16_link": "B4 separated I8+I8 with only shared Q8 leaves"
+  },
+  "old_output_scope": "The saved bytes match pinned diagnostic summaries; their original execution is not rerun or independently established by reading them.",
+  "program_exit_code": 0,
+  "program_stderr": "",
+  "reconstruction": {
+    "complete_k_domain": true,
+    "excluded_by_cap": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "first_profile": 0,
+    "independent_supports_window_checked": 545,
+    "k": 6,
+    "profile_total": 1,
+    "profiles": [
+      {
+        "a": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "first_unresolved": [],
+        "index": 0,
+        "r": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "stars": 0,
+        "unresolved": 0
+      }
+    ],
+    "schema": "d16-fibre-edge-partition-census-v1",
+    "search_nodes": 18,
+    "seconds": 0.000711302,
+    "stars": 0,
+    "stop_profile": 1,
+    "unresolved": 0
+  },
+  "replayer_sha256": "37becdceb4ce6313ecf904d8eeb1f0e39e338350df691db0a75018c72252a674",
+  "schema": "d16-independent-fibre-replay-v1",
+  "seconds": 0.9324464959936449,
+  "status": "PASS"
+}

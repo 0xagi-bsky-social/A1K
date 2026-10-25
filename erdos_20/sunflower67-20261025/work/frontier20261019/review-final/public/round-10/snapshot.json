@@ -1,0 +1,938 @@
+{
+  "snapshot": {
+    "run_id": "frontier20261019-final-formal53-review",
+    "contract_sha256": "2ca6e74f4eed7747f06819153e04b28ae9dec3bf5fe7b0134f0c49c724f0271a",
+    "roster_sha256": "4888b11e09f8ee46953a5e850332935392314cc299978a3461f753db9d8db21d",
+    "round": 10,
+    "phase": "same-version-acceptance",
+    "manuscript_sha256": "3ee74792dff98a43231d07100d0034b485a6f91beb2b565ffb15d22f5a40e365",
+    "previous_round_sha256": "c58a0609eb17f14c4ecde24db3ca227e2eedcab166ee054ba7cf80804ab4f1ef",
+    "evidence": [
+      {
+        "id": "F01",
+        "kind": "formal-source-package",
+        "description": "Frozen fourteen new Lean modules and 155 pinned A1K sources. Manifest paths resolve relative to this manifest directory; all copied files are approved evidence.",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/formal/source-manifest.json",
+        "method": "Copied packaged sources and actual SHA256 manifest",
+        "status": "limited",
+        "limitations": [
+          "Compiled dependency objects are retained; no clean mathlib rebuild"
+        ],
+        "content_sha256": "a20772968e780ca4a212681bab595f468be51dae715de5dfd9eed1baa6c76a68"
+      },
+      {
+        "id": "F02",
+        "kind": "local-artifact",
+        "description": "Stable original compiler receipt: SupportBound",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F02/SupportBound.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Local compiler and retained dependency object trust"
+        ],
+        "content_sha256": "e4c8d132ecb8f012b3bffa746e6214bd6bd41f97f101ec8b566ed01f03904f96"
+      },
+      {
+        "id": "F03",
+        "kind": "local-artifact",
+        "description": "Stable original compiler receipt: Support56",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F03/Support56.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Local compiler and retained dependency object trust"
+        ],
+        "content_sha256": "1c0b383df8d449df2ab7bd6b524d784238eb2586f21132159613c77ba6aff9c6"
+      },
+      {
+        "id": "F04",
+        "kind": "local-artifact",
+        "description": "Stable original compiler receipt: FourStar",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F04/FourStar.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Local compiler and retained dependency object trust"
+        ],
+        "content_sha256": "c0d37ffa971120e67a080574c916a24fa7d94d223b58ddfbdf97779443a4d1bc"
+      },
+      {
+        "id": "F05",
+        "kind": "local-artifact",
+        "description": "Stable original compiler receipt: SupportGrid",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F05/SupportGrid.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Local compiler and retained dependency object trust"
+        ],
+        "content_sha256": "b666d76adef6203e8f9048fee76f85684802612f4f730f69c2ab748468ef50b5"
+      },
+      {
+        "id": "F06",
+        "kind": "local-artifact",
+        "description": "Stable original compiler receipt: SupportGrid53",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F06/SupportGrid53.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Local compiler and retained dependency object trust"
+        ],
+        "content_sha256": "a19e036af5aefa0156c0d5e858894bc2e876ee9cafece26a33be77bf0467c304"
+      },
+      {
+        "id": "F07",
+        "kind": "local-artifact",
+        "description": "Stable original compiler receipt: DegreeEnvelope",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F07/DegreeEnvelope.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Local compiler and retained dependency object trust"
+        ],
+        "content_sha256": "80804e05d84c83961bab3fd458a3248d6d58444d79ee564cccdf5471056f651f"
+      },
+      {
+        "id": "F08",
+        "kind": "local-artifact",
+        "description": "Stable original compiler receipt: SupportFacts",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F08/SupportFacts.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Local compiler and retained dependency object trust"
+        ],
+        "content_sha256": "213de2523a3c34d4b4576fd95e73fad226716ad8b5465f632563de767f116164"
+      },
+      {
+        "id": "F09",
+        "kind": "local-artifact",
+        "description": "Stable original compiler receipt: MomentArithmetic",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F09/MomentArithmetic.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Local compiler and retained dependency object trust"
+        ],
+        "content_sha256": "25d0e0d5c8e984ac25bc5ea3dd78c1a3060ab3acfbd1c166372886d759a5250a"
+      },
+      {
+        "id": "F10",
+        "kind": "local-artifact",
+        "description": "Stable original compiler receipt: SupportFinish56",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F10/SupportFinish56.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Local compiler and retained dependency object trust"
+        ],
+        "content_sha256": "af6b76f04a5ada5452bf97a9924240e65c19db74d6b5cec0ab205235734f1e1c"
+      },
+      {
+        "id": "F11",
+        "kind": "local-artifact",
+        "description": "Stable original compiler receipt: SupportFinish53",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F11/SupportFinish53.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Local compiler and retained dependency object trust"
+        ],
+        "content_sha256": "fcff39df417e07a1024d3dde5c4a7f61ef7426ce58473ab193be44b0610a23e4"
+      },
+      {
+        "id": "F12",
+        "kind": "local-artifact",
+        "description": "Stable original compiler receipt: SupportReduction",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F12/SupportReduction.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Local compiler and retained dependency object trust"
+        ],
+        "content_sha256": "ba272200f773e22f51dcfbee48a4a7678b00dd12e14fd53b04b08f38f1e6119e"
+      },
+      {
+        "id": "F13",
+        "kind": "local-artifact",
+        "description": "Stable original compiler receipt: LiteralStatements",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F13/LiteralStatements.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Local compiler and retained dependency object trust"
+        ],
+        "content_sha256": "04a0d0551a8c9216b65ff24852588e16dbb860570cabeffc65ebd7db909656ee"
+      },
+      {
+        "id": "F14",
+        "kind": "local-artifact",
+        "description": "Stable original compiler receipt: FrontierAudit",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F14/FrontierAudit.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Local compiler and retained dependency object trust"
+        ],
+        "content_sha256": "6b2517e7dfbba6eeaf30df9ee84b6c5286e73a8194713283ce919dcd874eadc4"
+      },
+      {
+        "id": "F15",
+        "kind": "local-artifact",
+        "description": "Stable original compiler receipt: PairSix",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F15/PairSix.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Local compiler and retained dependency object trust"
+        ],
+        "content_sha256": "aa9f54903824c08b9e0acc9fadc2fbe9278f2cdafe5f324daa94f1831883e07d"
+      },
+      {
+        "id": "F16",
+        "kind": "primary-web-output",
+        "description": "Actual retrieved primary arXiv/A1K metadata and introductory text",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F16/primary-web-initial.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Tool-returned representation; bounded source access"
+        ],
+        "content_sha256": "dd6d8820fb61e8983d750f1256fb8d2c73558fd651f3d459af35ae3852015226"
+      },
+      {
+        "id": "F17",
+        "kind": "primary-web-output",
+        "description": "Actual retrieved arXiv sections 6.3/8 and A1K T7/T8 text",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F17/primary-web-targeted.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "No independent replay of external enumeration"
+        ],
+        "content_sha256": "8d7cc0d21ea02e6f22861916398214a1ca73d2c83cc1fe752c82b115ed6a222d"
+      },
+      {
+        "id": "F18",
+        "kind": "local-artifact",
+        "description": "Exact ordinary-integer 6031-quadruple diagnostic",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F18/support53-diagnostic.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Diagnostic code is not the universal formal proof"
+        ],
+        "content_sha256": "7408cdb1ed41da0a7711d8f80979d468516ab7799b20fafcaa243ca4835ca392"
+      },
+      {
+        "id": "F19",
+        "kind": "local-artifact",
+        "description": "Exact 1204-triple grid diagnostic",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F19/independent-support56-grid.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Ordinary diagnostic; Lean leaf separately recorded"
+        ],
+        "content_sha256": "3d437c2364693d7c179d6ad2c54fda9b2d475e57fe8a23035447067aca62a589"
+      },
+      {
+        "id": "F20",
+        "kind": "primary-connector-output",
+        "description": "Actual GitHub compare result for pinned and observed OpenAI heads",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F20/openai-head-delta.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Bounded repository comparison; no claim of external authenticity"
+        ],
+        "content_sha256": "45de8204c5f36ab17a0b32ca08afaf87430daabb62ad9d040b53f606b8883f7c"
+      },
+      {
+        "id": "F21",
+        "kind": "local-artifact",
+        "description": "Actual failed Profile A model-building attempt",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F21/profile_a_result.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "No solver call and no SAT/UNSAT conclusion"
+        ],
+        "content_sha256": "cd02dc03af078a84a6930d615b985ad90b815f3acac530a13965f5c62de81800"
+      },
+      {
+        "id": "F22",
+        "kind": "local-artifact",
+        "description": "Actual packaged source scan result",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F22/source-scan-final.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Lexical/source scan only; axiom audit supplies distinct evidence"
+        ],
+        "content_sha256": "2a0c4881a71302386d49c3bc821c698ce807fdc5dafa61869c26d2291d6a2788"
+      },
+      {
+        "id": "F23",
+        "kind": "local-artifact",
+        "description": "Observed Lean runtime/version and local environment",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F23/observed-runtime.json",
+        "method": "Copied actual local bytes before final round 1",
+        "status": "limited",
+        "limitations": [
+          "Not independent environment control"
+        ],
+        "content_sha256": "82fbc8e9fed8db7432040b576e330bf194a723a89eb670322c5b8ea2fb2d16c6"
+      },
+      {
+        "id": "F24",
+        "kind": "new-module-replay",
+        "description": "Fresh empty-output-directory replay: fourteen new modules and 66-root audit. Individual receipts in this directory are approved evidence.",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F24/summary.json",
+        "method": "Actual replay script execution and copied receipts",
+        "status": "limited",
+        "limitations": [
+          "Retained A1K and mathlib dependency objects; not a clean full rebuild or independent reproduction"
+        ],
+        "content_sha256": "67aab1c86f5b6740b318234c943e549575b56d4b0c5d6adc394c403a868afb6d"
+      },
+      {
+        "id": "F25",
+        "kind": "negative-control-receipt",
+        "description": "Actual Lean audit failures for missing root, non-theorem and disallowed axiom; all directory files approved evidence",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F25/summary.json",
+        "method": "Observed isolated Lean failures and copied actual outputs",
+        "status": "limited",
+        "limitations": [
+          "Controls validate audit rejection behavior, not independent proof correctness"
+        ],
+        "content_sha256": "4a5bc04e31c836a3e24514aaaef531d6757cb81f092cf5ca29075e151e8ea9a0"
+      },
+      {
+        "id": "F26",
+        "kind": "exact-diagnostic",
+        "description": "Exact numeric relaxation sensitivity; adjacent Python script is approved evidence",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F26/envelope_sensitivity.json",
+        "method": "Ordinary exact Python enumeration",
+        "status": "limited",
+        "limitations": [
+          "No new Lean theorem; maximizing degree tuples are not set families"
+        ],
+        "content_sha256": "c30a16d16fc95db418e1df16d15b0a56cb41ec9dac67e8cddc518713301ce541"
+      },
+      {
+        "id": "F27",
+        "kind": "rendered-preview",
+        "description": "Actual v2 HTML/PDF, eight rendered PNG pages, renderer source and receipts, all files in manifest approved evidence",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/preview/v2/manifest.json",
+        "method": "Local native HTML plus ReportLab paragraph-continuity PDF; Poppler page rendering and prose checks",
+        "status": "limited",
+        "limitations": [
+          "Preview, not publication; readable source notation; no PDF tagging claim; generic validator wording about MathML is not a claim that the unavailable converter ran"
+        ],
+        "content_sha256": "3e5f929b1d757d7305f30a0ea7174be216b3b1010024dc1916282c40977c09ad"
+      },
+      {
+        "id": "F28",
+        "kind": "rendered-preview",
+        "description": "Actual v3 HTML/PDF and eight PNG pages bound to revised bibliography; all manifest files approved evidence",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/preview/v3/manifest.json",
+        "method": "Local native HTML and ReportLab PDF; Poppler rendering and prose checks",
+        "status": "limited",
+        "limitations": [
+          "Preview only; source notation remains readable but not fully typeset; no tagging claim"
+        ],
+        "content_sha256": "8bea1fa8b7ef5abefad24406778efea529a26c20b5f421f1dbb3afc45da39011"
+      },
+      {
+        "id": "F29",
+        "kind": "source-closure-replay",
+        "description": "Composite 100 inherited plus 14 new module source rebuild and 66-root audit; all JSON receipts and driver sources in directory approved",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F29/summary.json",
+        "method": "Actual serial source rebuild; frozen composite and child receipts",
+        "status": "limited",
+        "limitations": [
+          "Lean/mathlib/third-party package caches retained; same host/controller; child generic wording qualified by composite input provenance"
+        ],
+        "content_sha256": "4205ed4fddb1a906a1bf6a0f8bdbbcf27b2a9038f069f36a4f153b0be37c36fd"
+      },
+      {
+        "id": "F30",
+        "kind": "artifact-integrity",
+        "description": "Formal source and receipts archive delivery receipt plus adjacent independent coordinator hash check",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F30/formal-delivery.json",
+        "method": "Actual ZIP entry hashes checked for 342 files and 172 protected source entries",
+        "status": "limited",
+        "limitations": [
+          "Unsigned local integrity; no independent certification"
+        ],
+        "content_sha256": "44187cd50cbe1d9d3c7d66e3142f443b59034494acc4ccb7f492a43a6356b1d5"
+      },
+      {
+        "id": "F31",
+        "kind": "rendered-preview",
+        "description": "Actual v4 HTML/PDF, eight PNG pages, renderer and receipts; all manifest files approved evidence",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/preview/v4/manifest.json",
+        "method": "Native HTML and corrected-heading ReportLab PDF; Poppler rendering/prose checks",
+        "status": "limited",
+        "limitations": [
+          "Preview only; readable source notation; no tagging conformance claim"
+        ],
+        "content_sha256": "13eb8edc7efcac01cae7cc3084cb2711ab0394ca076a3de2cdf0ac83f244a529"
+      },
+      {
+        "id": "F32",
+        "kind": "bounded-text-comparison",
+        "description": "Actual copyeditor exact-token comparison and adjacent executable script; agent-reviewed matches, no human review",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F32/copyeditor-reuse.json",
+        "method": "NFKC casefold word tokens, maximal contiguous matches of at least eight tokens, separate accessible primary excerpt segments",
+        "status": "limited",
+        "limitations": [
+          "Only F16/F17 accessible excerpts; no paraphrase detection, comprehensive originality, or mathematical priority certification"
+        ],
+        "content_sha256": "c451cc8004a1d55eaa1cb8e6cc5b0f6edeae681f8f16a80284c6c1f68e2369b8"
+      },
+      {
+        "id": "F33",
+        "kind": "historical-source-inventory",
+        "description": "Earlier pinned OpenAI source inventory, source preflight and CONTENTS bytes; all manifest files approved for source-provenance review only",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F33/manifest.json",
+        "method": "Preserved actual earlier source inventory and source-only preflight records",
+        "status": "limited",
+        "limitations": [
+          "Historical source inventory does not establish current compiler/runtime coverage or intellectual novelty; no OpenAI theorem is a protected premise"
+        ],
+        "content_sha256": "c055c15ed2740dac2de750166195d4f8992a568123783710ff07d7db927c912e"
+      },
+      {
+        "id": "F34",
+        "kind": "rendered-preview-and-correction",
+        "description": "Actual v5 eight-page PDF, HTML with six semantic MathML displays and scroll containment, eight PNGs, exact formula mappings and source changes, renderer, receipt and historical v4 receipt erratum; all manifest files approved evidence",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/preview/v5/manifest.json",
+        "method": "Native HTML math conversion plus local bounded PDF mappings; Poppler prose extraction and page rendering",
+        "status": "limited",
+        "limitations": [
+          "Preview only; historical v4 receipt overstatement corrected explicitly without changing frozen records",
+          "PDF source-style code blocks retained; no browser-layout or accessibility conformance certification"
+        ],
+        "content_sha256": "dbdeedc91bfb0094eebccf10a08b62d9b2fefe311266b573aba896e5aef8999d"
+      },
+      {
+        "id": "F35",
+        "kind": "rendered-preview",
+        "description": "Actual v6 HTML/PDF, eight PNG pages, source changes, mappings, renderer, receipts and erratum; all manifest files approved evidence",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/preview/v6/manifest.json",
+        "method": "Native MathML plus explicit PDF formula mappings; multiplication in inline expressions now protected from Markdown emphasis",
+        "status": "limited",
+        "limitations": [
+          "No browser/accessibility conformance certification; source-style math code blocks retained"
+        ],
+        "content_sha256": "f037bfd49dd04502041b9da705c207807e4f289d08028843eb6741b6a3263a0a"
+      },
+      {
+        "id": "F36",
+        "kind": "bounded-text-comparison",
+        "description": "Actual round-8 fresh manuscript comparison and adjacent computation/script; all files in directory approved evidence",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F36/reuse-agent-review.json",
+        "method": "Agent-executed exact token comparison and inspection of every reported match",
+        "status": "limited",
+        "limitations": [
+          "Binds v5 manuscript before inline-code repair; round9 rerun assigned on exact v6 bytes",
+          "F16/F17 accessible excerpts only; no semantic plagiarism or priority certification"
+        ],
+        "content_sha256": "981665715db13f389b6587ce2c38357bea686c9e94d2a8dc17d1d3ec17b89fbf"
+      },
+      {
+        "id": "F37",
+        "kind": "delivery-link-layout",
+        "description": "Actual preview and planned release relative-link existence/hash comparison; referenced target files approved for read-only integrity verification",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F37/link-layout-check.json",
+        "method": "Filesystem path resolution and SHA256 equality",
+        "status": "limited",
+        "limitations": [
+          "No cross-viewer relative-URI behavior certification; publication gate remains pending"
+        ],
+        "content_sha256": "6e81543d53a5cc6dede7c0e944a6588c2923c19520310d403e807e5bf54f8933"
+      },
+      {
+        "id": "F38",
+        "kind": "final-bounded-text-comparison",
+        "description": "Actual round9 comparison of exact final v6 manuscript; adjacent computation and executable script approved evidence",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F38/reuse-agent-review.json",
+        "method": "Agent-executed normalized exact-token comparison and explicit classification of all matches",
+        "status": "limited",
+        "limitations": [
+          "Only accessible F16/F17 source excerpt segments; no human review, semantic-paraphrase detection, comprehensive originality or priority certification"
+        ],
+        "content_sha256": "b792da5956f7fdfadc657c20405d081dfeb968abfc220a91b9d9ca4c287346f1"
+      }
+    ],
+    "evidence_sha256": "815a0ee46fa8bbeae4119cc594f3610eaac71b5cb779b2b2ef9585eb096ddbd7",
+    "verification": [
+      {
+        "scope": "facts",
+        "status": "limited",
+        "method": "Actual final rounds 1–9 compared theorem statements, primary-source claims, compiler receipts, exact arithmetic and final rendering repairs",
+        "observations": [
+          "All main universal support and finite-reduction roots appear in successful local audit; external I27 enumeration is attributed but not imported as proof",
+          "Both finite maxima, contradiction margins and all representation counts reproduced exactly in scoped reviewer calculations"
+        ],
+        "limitations": [
+          "Bounded local checks; not independent certification"
+        ],
+        "evidence_ids": [
+          "F01",
+          "F14",
+          "F16",
+          "F17",
+          "F24",
+          "F29"
+        ]
+      },
+      {
+        "scope": "citations",
+        "status": "limited",
+        "method": "Primary-source excerpt comparison by citation and literature reviewers",
+        "observations": [
+          "ArXiv authors/date/numerical claims and A1K Fin85/three-condition scope checked; unsupported article cutoff/version metadata removed after R2",
+          "Round9 citation owner verified repaired preview and planned-release relative-link targets and exact archive identity."
+        ],
+        "limitations": [
+          "Accessible primary excerpts only; no literature-wide priority claim"
+        ],
+        "evidence_ids": [
+          "F16",
+          "F17",
+          "F35",
+          "F37"
+        ]
+      },
+      {
+        "scope": "logic",
+        "status": "limited",
+        "method": "Actual source tracing of complete support assemblies and finite relabeling, plus endpoint and counterexample checks in rounds 3–4",
+        "observations": [
+          "Reflexive intersection and Type versus Type-u interfaces are explicit; reduction proves equivalence without excluding the target",
+          "Round9 actual checks confirmed exhaustive small-L branches, preserved formula signs and correct counterexample selection/relabeling."
+        ],
+        "limitations": [
+          "Bounded local assurance using pinned external package caches; no independent certification"
+        ],
+        "evidence_ids": [
+          "F01",
+          "F13",
+          "F14",
+          "F24",
+          "F29",
+          "F35"
+        ]
+      },
+      {
+        "scope": "methodology",
+        "status": "limited",
+        "method": "Inspected actual new-module replay, axiom auditor source and negative controls",
+        "observations": [
+          "Fourteen modules rebuilt in empty new-output directory; 66 roots audited; three invalid audit controls rejected",
+          "Subsequent composite replay rebuilt 100 inherited A1K source modules and all 14 new modules against fresh A1K objects; no retained A1K objects in that replay"
+        ],
+        "limitations": [
+          "No independent host or complete mathlib source rebuild"
+        ],
+        "evidence_ids": [
+          "F01",
+          "F24",
+          "F25",
+          "F29"
+        ]
+      },
+      {
+        "scope": "data",
+        "status": "limited",
+        "method": "Actual independent implementations in round5 reran sorted quadruple grid, full triple grid, sensitivity and representation arithmetic",
+        "observations": [
+          "1204 admissible triples with maximum2250; 8855 sorted quadruples,6031 admissible with maximum4475; budget59 relaxation maximum4553; all stated representation counts matched"
+        ],
+        "limitations": [
+          "Same control environment; no measured runtime comparison, set-family realization or completed finite exclusion"
+        ],
+        "evidence_ids": [
+          "F18",
+          "F19",
+          "F26"
+        ]
+      },
+      {
+        "scope": "text_reuse",
+        "status": "limited",
+        "method": "Copyeditor executed a fresh comparison of the exact final v6 manuscript and inspected every reported match in round9",
+        "observations": [
+          "Only three occurrences of the cited nine-token paper title met the eight-token threshold across accessible F16/F17 excerpts; final manuscript digest bound by F38."
+        ],
+        "limitations": [
+          "No human review, broad originality/semantic-paraphrase service, or unprovided-source comparison."
+        ],
+        "evidence_ids": [
+          "F16",
+          "F17",
+          "F38"
+        ]
+      }
+    ],
+    "verification_sha256": "8cc321c5ebae8f1352d18d85b4f60da209822b3be9e8e36b4f06a689b3ee0009",
+    "public_state": {
+      "prior_round": 9,
+      "prior_round_sha256": "c58a0609eb17f14c4ecde24db3ca227e2eedcab166ee054ba7cf80804ab4f1ef",
+      "committed_findings": [
+        {
+          "agent_id": "/root/review_coordinator/academic_writer",
+          "role": "academic_writer",
+          "summary": "The Round 8 rendering requirement is fulfilled. All four protected products are readable in the affected PDF pages and preserved literally in HTML. No argumentative meaning changed, and the manuscript digest matches the snapshot.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [
+            {
+              "disposition": "Closed after inspection of the regenerated pages and HTML.",
+              "evidence_ids": [
+                "F35"
+              ],
+              "id": "/root/review_coordinator/academic_writer:round-8:required-revision-1",
+              "severity": "minor",
+              "statement": "The unintended Markdown emphasis and consumed multiplication operators have been repaired.",
+              "status": "resolved"
+            }
+          ],
+          "revisions": [
+            {
+              "action": "Wrapped four inline expressions across three prose lines in code markup and regenerated the render.",
+              "finding_id": "/root/review_coordinator/academic_writer:round-8:required-revision-1",
+              "result": "Literal products survive; surrounding prose has normal emphasis.",
+              "status": "resolved"
+            }
+          ],
+          "checks": [
+            {
+              "evidence_ids": [
+                "F35"
+              ],
+              "method": "Viewed F35 pages 4–5, read the three affected HTML paragraphs, and compared the recorded before/after source changes.",
+              "observation": "L*L-3*L, L*L-6L, S*S-6S, and 6U-L*L+6L appear intact. The HTML uses code elements rather than emphasis spans. The case thresholds, inequality directions, constants, maximizing tuple, and contradiction margins are unchanged.",
+              "result": "supported",
+              "scope": "Repair fidelity in small-L explanations and maximum statement"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review_coordinator/alpha",
+          "role": "alpha",
+          "summary": "The attempted member-collapse and insufficient-capacity attacks on finite reduction fail against the actual source. The equivalence retains exactly the required hypotheses and does not establish exclusion. Both frozen hashes match.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "F01"
+              ],
+              "method": "Traced SupportReduction through inherited exists_intersecting_fin_relabel, map_restrictSet, cardinality preservation, and sunflower reflection.",
+              "observation": "A counterexample with more than 27 members supplies an exact 28-member subfamily; hereditary predicates are explicitly transferred before applying support53. Restricting to its union has a recovery map, preventing member collapse. The support equivalence followed by Fin.castLEEmb injects into Fin53 even when fewer than 53 points are used; surjectivity is unnecessary. Embedding lemmas preserve member/family sizes and reflect distinct-petal sunflowers. The named I(27) is Type-level, while counterexample reduction accepts Type u. Neither the equivalence nor padding supplies finite nonexistence, whole-family support control for larger counterexamples, or an extremal improvement, and the manuscript does not claim these.",
+              "result": "supported",
+              "scope": "Selection, injective relabeling, and universe transfer"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review_coordinator/beta",
+          "role": "beta",
+          "summary": "The final exposition preserves the distinction between universal moment inequalities and their specialized support applications. No optimality or completed exclusion claim has appeared. I verified frozen hashes, inspected the universal source statements, and visually checked the F35 repair on pages 4–5.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "F01"
+              ],
+              "method": "Compared three_star_second_moment and four_star_second_moment with Theorems 2–4 and the final limitations.",
+              "observation": "Both universal statements require uniformity, intersection, and distinct selected points, but no sunflower-freeness. Their integer corrections contain respectively three/one and six/four pair/triple terms. The support conclusions additionally specialize to rank 4 and cardinality 28 and use the sunflower-derived caps. The conclusion retains the finite exclusion, boundary exclusions, optimality limitation, and local reproducibility caveats.",
+              "result": "supported",
+              "scope": "Universal versus specialized conclusions"
+            },
+            {
+              "evidence_ids": [
+                "F35"
+              ],
+              "method": "Read the inline source changes and inspected the corresponding rendered paragraphs.",
+              "observation": "Literal multiplication signs now survive Markdown parsing. The cases L=0,1,2 and 0<=L<=5 still use nonnegativity, while monotonicity remains confined to the stated larger ranges. Neither thresholds nor inequality directions changed.",
+              "result": "supported",
+              "scope": "F35 small-L semantic repair"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review_coordinator/chief",
+          "role": "chief",
+          "summary": "The inspected repairs preserve scientific content and address the concrete rendering/link defects. Main-claim limits remain intact. The public state still lists three owner-specific round-8 obligations; their closure and final same-byte acceptance remain pending. This review does not declare the publication gate passed. Frozen and inspected evidence hashes match.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "F35"
+              ],
+              "method": "Reversed F35 inline edits, compared the resulting hash with my round-8 hash, and checked HTML code spans plus all six annotation/mapping sources.",
+              "observation": "Reversal exactly reproduces f66cc1eb92c514fa4b4457a934b9b6c334a01f424fbe818f4dc8070d7cec8326. Four expressions now preserve their multiplication signs as code; all six displayed formulas match the manuscript. The changes add only code delimiters. Finite exclusion, extremal improvement, sharpness and independent certification remain unclaimed. Owner visual verification of affected pages is separate from this source check.",
+              "result": "supported",
+              "scope": "Source-diff, formula fidelity and claim limits"
+            },
+            {
+              "evidence_ids": [
+                "F35",
+                "F37"
+              ],
+              "method": "Resolved both actual HTML relative links and independently hashed their preview and planned-release target files against F37.",
+              "observation": "Both targets exist in both layouts; manifest and archive bytes match their recorded identities. Thus the recorded filesystem defect is repaired. Cross-viewer PDF URI behavior is untested, as disclosed; the citation owner must explicitly close its committed obligation.",
+              "result": "supported",
+              "scope": "Preview and planned-release link integrity"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review_coordinator/citation_verifier",
+          "role": "citation_verifier",
+          "summary": "The reference [5] delivery defect is resolved at the filesystem and artifact-identity level. Current frozen and rendered-file hashes match. Cross-viewer PDF link activation remains untested.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [
+            {
+              "disposition": "Accept the staged-layout repair while retaining the PDF-viewer behavior limitation.",
+              "evidence_ids": [
+                "F30",
+                "F35",
+                "F37"
+              ],
+              "id": "/root/review_coordinator/citation_verifier:round-8:required-revision-1",
+              "severity": "minor",
+              "statement": "Both formerly missing sibling targets now exist and match the planned publication targets.",
+              "status": "resolved"
+            }
+          ],
+          "revisions": [
+            {
+              "action": "Independently resolved actual HTML/PDF reference [5] URIs and hashed preview/publication target files.",
+              "finding_id": "/root/review_coordinator/citation_verifier:round-8:required-revision-1",
+              "result": "Manifest hashes match a2077296… and archive hashes match F30's 81665e2e… in both locations.",
+              "status": "resolved"
+            }
+          ],
+          "checks": [
+            {
+              "evidence_ids": [
+                "F30",
+                "F35",
+                "F37"
+              ],
+              "method": "Parsed F35 HTML hrefs/PDF annotations and checked F37 target paths directly.",
+              "observation": "Both formats retain the intended relative targets. Each resolves from the preview directory to an existing file; planned-release sibling files have identical bytes. The archive digest equals F30, and PDF bibliography text preserves both labels. These checks establish path and content correctness, without certifying every PDF viewer's handling of relative URI actions.",
+              "result": "supported",
+              "scope": "Reference [5] repaired delivery"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review_coordinator/copyeditor",
+          "role": "copyeditor",
+          "summary": "The exact final-byte rerun found only the attributed nine-token paper title, appearing three times across repeated source excerpts. All matches were inspected. The four repaired inline multiplication expressions retain their mathematical text inside code delimiters. No further copy or attribution revision is required within this bounded audit. All input hashes match.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "F16",
+                "F17",
+                "F32"
+              ],
+              "method": "Executed the verified F32 script on round-09: NFKC casefolded word tokens, URL/citation removal, eight-token maximal exact-match threshold, and source-segment separation. Inspected all matches and four repaired expressions.",
+              "observation": "Only numbered F16 arXiv and F17 arXiv/A1K excerpts were compared. Every match belongs to cited reference [3]; no other exact overlap reaches the threshold. This is agent review without human review, semantic-paraphrase testing, comprehensive originality, or priority certification. Fresh receipts are analysis/round-09/copyeditor/reuse-computation.json and reuse-agent-review.json beneath review-final. Earlier receipts remain unchanged; delimiter inspection is source-level.",
+              "result": "supported",
+              "scope": "Final text reuse and inline-expression copy audit"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review_coordinator/data_analyst",
+          "role": "data_analyst",
+          "summary": "The final maximizing evaluations and their contradiction margins are correct. F35 preserves the protected multiplication terms, and representation counts remain explicitly distinguished from measured speedups. All inspected hashes match.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "F35"
+              ],
+              "method": "Substituted both displayed tuples into the final manuscript formulas using exact Python integers. Inspected F35 inline-source changes and HTML code spans, then extracted its PDF text with pdftotext.",
+              "observation": "For (16,15,15), L=18 and U=840 give 3*840-18*18+3*18=2250, twelve below 2262. For (19,14,13,13), L=31 and U=875 give 6*875-31*31+6*31=4475, thirteen below 4488. All four protected inline terms retain literal multiplication in HTML and PDF. The representation paragraph retains its count ordering and explicit no-measured-speedup qualification. This final check verifies evaluations and textual integrity, not another exhaustive grid run or visual-layout certification.",
+              "result": "supported",
+              "scope": "Displayed evaluations and final inline arithmetic integrity"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review_coordinator/domain_expert",
+          "role": "domain_expert",
+          "summary": "The inline repairs preserve the algebra, and the support-53 conclusion still feeds precisely the stated Fin 53 obstruction equivalence. Mathematical thresholds and the unresolved local exclusion are consistent. Snapshot, manuscript, F35 manifest and inspected file hashes match.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "F01",
+                "F35"
+              ],
+              "method": "Compared F35's three edited lines with the manuscript and HTML code spans; re-read the Fin 53 source construction against the final theorem and limitation paragraphs.",
+              "observation": "All four expressions retain literal multiplication and signs: L*L-3*L, L*L-6L, S*S-6S and 6U-L*L+6L. The contradiction remains 4475<4488 under n>=54, establishing n<=53. From any family larger than 27, exactly 28 members inherit uniformity, intersection and sunflower-freeness; the assembled support bound then permits injective relabeling into Fin 53. The equivalence does not assert that the resulting finite obstruction is absent. The manuscript continues to distinguish the external computational I(27) report from the unproved local exclusion.",
+              "result": "supported",
+              "scope": "Final inline expressions and reduction logic"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review_coordinator/literature_reviewer",
+          "role": "literature_reviewer",
+          "summary": "The final citation-sensitive claims remain accurate after the layout repairs. External I(27) and the interval 54 <= f(4,3) <= 83 are attributed, while the local contribution remains the smaller formal obstruction target with exclusion obligations outstanding. Frozen and inspected evidence hashes match.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "F16",
+                "F17",
+                "F35"
+              ],
+              "method": "Compared abstract, scope, and conclusion with F16/F17; read F35 formula/inline change records, HTML attribution and references, and extracted PDF text.",
+              "observation": "F35 changes protect punctuation and multiplication syntax; they introduce no citation or status change. Reference [3] retains the versioned primary link and sections 6.3/8. The final prose preserves the computed-versus-formal distinction, identifies the 85-point baseline, and does not turn conditional G(80) into an unconditional bound. The two profile exclusions and finite refutation remain unresolved locally. No further attribution repair is required within the inspected corpus.",
+              "result": "supported",
+              "scope": "Final attribution after presentation changes"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review_coordinator/logic_auditor",
+          "role": "logic_auditor",
+          "summary": "The small-L case split is exhaustive and the corrected inline typography preserves it in HTML and PDF. The finite equivalence remains an unconditional equivalence, without an unconditional exclusion conclusion. Snapshot, manuscript, and F35 manifest hashes verify.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "F01",
+                "F35"
+              ],
+              "method": "Checked F35 HTML and extracted PDF against manuscript; independently evaluated the finite small cases and factored the general quadratic difference; compared MomentArithmetic.",
+              "observation": "For k=3, L=0,1,2 gives L²−kL=0,−2,−2; for k=6, L=0 through 5 gives 0,−5,−8,−9,−8,−5. Nonnegative binomial sums suffice there. For S≥L≥k, the difference is (S−L)(S+L−k)≥0. These branches cover all nonnegative integer L. Corrections of one and four give 6(378−1)=2262 and 12(378−4)=4488; combining with 2P≤U preserves both thresholds. Literal multiplication characters now survive both outputs.",
+              "result": "supported",
+              "scope": "Small-L cases and contradiction constants"
+            },
+            {
+              "evidence_ids": [
+                "F01"
+              ],
+              "method": "Rechecked both implication proofs in SupportReduction against the final prose.",
+              "observation": "I(27) and finite nonexistence are introduced only as temporary assumptions in their respective implication proofs. The theorem proves their equivalence, not either proposition separately; the surrounding search and conclusion paragraphs retain this limitation.",
+              "result": "supported",
+              "scope": "Theorem 5 conclusion strength"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review_coordinator/methodologist",
+          "role": "methodologist",
+          "summary": "The final provenance counts reconcile with the archive and rebuild evidence. Manuscript and canonical snapshot hashes match. Source retention, compilation coverage, root auditing, and delivery integrity remain distinct claims.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "F29",
+                "F30",
+                "F37"
+              ],
+              "method": "Counted manifest modules, checked F29 counts, resolved both F37 target pairs, and verified the archive's 342 payload hashes.",
+              "observation": "The manifest contains 155 inherited and fourteen new Lean sources; F29 rebuilds only the root-reachable 100 inherited plus fourteen new modules and audits sixty-six roots. The archive has 342 payload files plus its hash inventory, with no compiled objects. Both preview/release target pairs match their recorded hashes. These delivery checks establish local byte identity, not viewer compatibility or theorem correctness. The manuscript explicitly retains cached Lean/mathlib/package trust and disclaims clean full-tree rebuilding and independently controlled reproduction.",
+              "result": "supported",
+              "scope": "Final provenance counts and delivery scope"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review_coordinator/typesetter",
+          "role": "typesetter",
+          "summary": "The inline-multiplication repair is complete. I viewed all eight actual v6 pages, including detailed comparison of pages 4–5, and found no additional necessary layout repair. Source-level containment and staged file links are verified within the stated limits.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [
+            {
+              "disposition": "Closed after PDF image and HTML-source inspection.",
+              "evidence_ids": [
+                "F35"
+              ],
+              "id": "/root/review_coordinator/typesetter:round-8:required-revision-1",
+              "severity": "minor",
+              "statement": "All four inline multiplication expressions retain their asterisks; the unintended prose italics are absent.",
+              "status": "resolved"
+            }
+          ],
+          "revisions": [
+            {
+              "action": "Compared the three-line source diff, four protected code spans, and rendered pages 4–5.",
+              "finding_id": "/root/review_coordinator/typesetter:round-8:required-revision-1",
+              "result": "Notation preserved without unintended emphasis.",
+              "status": "resolved"
+            }
+          ],
+          "checks": [
+            {
+              "evidence_ids": [
+                "F35"
+              ],
+              "method": "Verified round and preview hashes and all fifteen manifest files; viewed pages 1–8 against Markdown.",
+              "observation": "Formulas, equation labels, headings, repeated table headers and reference continuations remain readable without visible clipping. The repaired paragraphs preserve multiplication and ordinary prose styling.",
+              "result": "supported",
+              "scope": "Complete v6 PDF presentation"
+            },
+            {
+              "evidence_ids": [
+                "F35",
+                "F37"
+              ],
+              "method": "Inspected six scroll wrappers and CSS; recomputed hashes and sizes for both preview and release targets in F37.",
+              "observation": "Both relative hrefs occur in HTML and all four target copies match. overflow-x:auto and max-width:100% are present. Browser scrolling, PDF-viewer link behavior, tagging and assistive technology remain untested.",
+              "result": "supported",
+              "scope": "HTML containment and staged links"
+            }
+          ]
+        }
+      ],
+      "outstanding_issues": {},
+      "coordinator_changes": [
+        "No manuscript or renderer change after round9. Appended the real exact-final-byte text comparison as F38 and updated scoped verification observations from actual completed reviews."
+      ]
+    }
+  },
+  "snapshot_sha256": "8759736df13c8e52744023b23d5cab5f435603e02b4d682967b2f70439202dd0"
+}

@@ -1,0 +1,46 @@
+{
+  "agent_id": "/root/review_coordinator/typesetter",
+  "role": "typesetter",
+  "context_id": "/root/review_coordinator/typesetter",
+  "round": 9,
+  "snapshot_sha256": "857bbfd81dca2ae61ee6af3097e6b29403b49028356b723e6e51b6c0640292a8",
+  "manuscript_sha256": "3ee74792dff98a43231d07100d0034b485a6f91beb2b565ffb15d22f5a40e365",
+  "summary": "The inline-multiplication repair is complete. I viewed all eight actual v6 pages, including detailed comparison of pages 4–5, and found no additional necessary layout repair. Source-level containment and staged file links are verified within the stated limits.",
+  "evidence_ids": ["F35", "F37"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "/root/review_coordinator/typesetter:round-8:required-revision-1",
+      "statement": "All four inline multiplication expressions retain their asterisks; the unintended prose italics are absent.",
+      "severity": "minor",
+      "status": "resolved",
+      "disposition": "Closed after PDF image and HTML-source inspection.",
+      "evidence_ids": ["F35"]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "/root/review_coordinator/typesetter:round-8:required-revision-1",
+      "action": "Compared the three-line source diff, four protected code spans, and rendered pages 4–5.",
+      "result": "Notation preserved without unintended emphasis.",
+      "status": "resolved"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Complete v6 PDF presentation",
+      "method": "Verified round and preview hashes and all fifteen manifest files; viewed pages 1–8 against Markdown.",
+      "observation": "Formulas, equation labels, headings, repeated table headers and reference continuations remain readable without visible clipping. The repaired paragraphs preserve multiplication and ordinary prose styling.",
+      "result": "supported",
+      "evidence_ids": ["F35"]
+    },
+    {
+      "scope": "HTML containment and staged links",
+      "method": "Inspected six scroll wrappers and CSS; recomputed hashes and sizes for both preview and release targets in F37.",
+      "observation": "Both relative hrefs occur in HTML and all four target copies match. overflow-x:auto and max-width:100% are present. Browser scrolling, PDF-viewer link behavior, tagging and assistive technology remain untested.",
+      "result": "supported",
+      "evidence_ids": ["F35", "F37"]
+    }
+  ]
+}

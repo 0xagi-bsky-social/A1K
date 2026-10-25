@@ -1,0 +1,192 @@
+{
+  "node_id": "AHS27IsolationAudit",
+  "evidence": [
+    "SRC",
+    "ELAB",
+    "KERNEL"
+  ],
+  "assurance": "axiom-audited",
+  "timestamp_utc": "2026-10-23T12:27:48.370452+00:00",
+  "task_mode": "audit",
+  "source": "work/frontier20261023/formal/AHS27IsolationAudit.lean",
+  "source_sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+  "source_stable_during_compile": true,
+  "bounded_receipt": "work/frontier20261023/formal/receipts/AHS27IsolationAudit.bounded.json",
+  "bounded_receipt_sha256": "ed8fb9c0f733c8cb0ca388dce8ac5c63ed9aff9d5afed7edf0bed45b61475dbd",
+  "output": "work/frontier20261023/formal/receipts/AHS27IsolationAudit.bounded.log",
+  "output_sha256": "38c62a8e2566ba25e215b596d925da8242e156f72540ef845e28f4861b8df994",
+  "runtime_config": "work/frontier20261019/runtime.json",
+  "runtime_config_sha256": "82fbc8e9fed8db7432040b576e330bf194a723a89eb670322c5b8ea2fb2d16c6",
+  "observed_lean_version": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)",
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "actual_roots": [
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierAHS27.AHS_card",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierAHS27.AHS_uniform",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierAHS27.AHS_intersecting",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierAHS27.AHS_eq_chooseTwoGroups",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierAHS27.group_card",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierAHS27.groups_disjoint",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierAHS27.groups_cover",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierAHS27.AHS_support",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierAHS27.trace_blockers",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierAHS27.map_trace_subset",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierAHS27.trace_card_le",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierAHS27.map_inter_arbitrary",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierAHS27.extra_trace_not_mem",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierAHS27.embedded_AHS_extra_disjoint_of_trace_property",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierAHS27.embedded_AHS_extra_disjoint",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierAHS27.rank_four_embedded_AHS_extra_disjoint",
+      "status": "pass"
+    }
+  ],
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-j1",
+    "-M512",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/build/AHS27IsolationAudit.olean",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/AHS27IsolationAudit.lean"
+  ],
+  "resource_limits": {
+    "threads": 1,
+    "memory_mb": 512,
+    "timeout_seconds": 120
+  },
+  "elapsed_seconds": 30.629929273000016,
+  "evaluator_identity": "Codex local_arithmetic subagent; same-session evaluation",
+  "independence_class": "same-agent bounded elaboration and Lean environment axiom audit",
+  "limitations": [
+    "Pinned existing dependency cache; not a clean replay or independent reproduction.",
+    "The separate AHS27SunflowerFree import and its two roots are deliberately absent; no new sunflower-free construction claim is established by this audit."
+  ]
+}

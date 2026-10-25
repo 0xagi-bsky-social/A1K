@@ -1,0 +1,66 @@
+{
+  "agent_id": "/root/r67_domain",
+  "role": "domain_expert",
+  "context_id": "/root/r67_domain",
+  "round": 7,
+  "snapshot_sha256": "27c12126b19a0258f4f2fefc8ee5d528eb5ad1fe7cabf43512ce95a370032455",
+  "manuscript_sha256": "a8f164ea1218b704cccd43c618fc2166f5ab636d9c121e7713f7c797d221b2b9",
+  "summary": "Three targeted challenges found no new local defect: the hub-deletion equality guard survives arbitrary exterior points, the A3 support exclusions use valid homomorphism implications, and the committed cap28 counterexample confirms the exact H27 dependence. Frozen hashes match. This remains ordinary theorem-import assurance with the disclosed external provenance limitation.",
+  "evidence_ids": [
+    "cap15",
+    "direct-jin",
+    "round5-committed",
+    "external-h27-scope-correction",
+    "external-h27-tree-correction"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "DOMAIN-R5-H27-SENSITIVITY",
+      "statement": "The low-degree fibre conclusion materially requires the independence bound27; weakening it to28 admits empty fibres despite order68 and minimum degree25.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Independently reproduced Alpha's committed graph witness. This does not refute H27 or produce a sunflower-family counterexample. Manuscript Section2 correctly preserves H27 as an imported theorem and discloses the unresolved historical-run authentication limit.",
+      "evidence_ids": [
+        "direct-jin",
+        "round5-committed",
+        "external-h27-scope-correction",
+        "external-h27-tree-correction"
+      ]
+    }
+  ],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Hidden exterior points or missing-anchor assumption in the hub-deletion B4 guard",
+      "method": "Read LOW15-R15-hub-deletion-exclusion.md, Actual anchors and Literal B4 equality guard; independently enumerated triple covers of the five-edge triangle-plus-path on its six vertices plus four fresh representatives.",
+      "observation": "The only covers are {0,4,5}, {0,4,6}, {0,5,6}. A triple uses at most three exterior points, so this covers every exterior pattern. Thus equality forces p_ik+(T-t_i)+q=0 while permitting p_0i. Only the three surviving hub cones are used as anchors; the missing fourth is never assumed actual.",
+      "result": "supported",
+      "evidence_ids": [
+        "cap15"
+      ]
+    },
+    {
+      "scope": "False complete-blowup assumption or overlooked nonindependent star support",
+      "method": "Inspected LOW15-A3-star-fibre-reduction.md, Support of a degree15 star; enumerated the 266 r-profiles and feasible positive weights for eight disputed support patterns under t_i<=a_i and q_i<=r_i.",
+      "observation": "Chord plus one isolate has maximum11; chord plus both isolates has4; the two path-plus-isolate patterns have10; the remaining path has3; a difference3 edge plus either single isolate has11. The four-index window admits180 weight15 cases, always endpoint weights1–2 and interior weights>=4. The inequality degree<=b_i-q_i follows because star members intersect, without demanding all permissible graph edges.",
+      "result": "supported",
+      "evidence_ids": [
+        "cap15",
+        "direct-jin"
+      ]
+    },
+    {
+      "scope": "Whether the H27 source limitation is mathematically dispensable",
+      "method": "Rechecked committed alpha-h27-sensitivity-001 by literal A3 adjacency and enumeration of all independent image subsets.",
+      "observation": "Masses (0,15,13,0,12,0,15,13) give order68, no triangle, independence number28, actual minimum degree25 and empty fibres0,3,5. Adjacent masses are (12,27,28,28,28,28,28,25). Therefore H28 cannot replace H27 in the positivity interface. Section6 uses exactly27 before deriving positivity, then invokes lower adjacent masses only on occupied fibres.",
+      "result": "supported",
+      "evidence_ids": [
+        "direct-jin",
+        "round5-committed",
+        "external-h27-scope-correction"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "html_limits": [
+    "Markdown parser unavailable: the HTML preserves the complete manuscript as escaped, wrapped source text."
+  ],
+  "pdf": {
+    "available": false,
+    "renderer": null,
+    "attempts": [
+      {
+        "renderer": "chromium",
+        "executable": "/usr/bin/chromium",
+        "sandbox_enabled": true,
+        "exit_code": -5,
+        "wall_seconds": 0.38945242296904325,
+        "diagnostic_sha256": "8bd421b454e40d8c6ce35f043a2f3abc4443132733a33341e84731aa768bf151"
+      },
+      {
+        "renderer": "chromium",
+        "executable": "/usr/bin/chromium",
+        "sandbox_enabled": false,
+        "exit_code": -5,
+        "wall_seconds": 0.16143842600286007,
+        "diagnostic_sha256": "ea2a244c3f9bf44e30cb4881baddb4f5dc0a72cc46a3b78186ed0682b69c2edd"
+      },
+      {
+        "renderer": "chromium",
+        "executable": "/opt/google/chrome/google-chrome",
+        "sandbox_enabled": true,
+        "exit_code": -5,
+        "wall_seconds": 0.216840599081479,
+        "diagnostic_sha256": "0e44730f4cff04bf67eed2e596926dd33d85b5ecb63730d952df7a1877a653cd"
+      },
+      {
+        "renderer": "chromium",
+        "executable": "/opt/google/chrome/google-chrome",
+        "sandbox_enabled": false,
+        "exit_code": -5,
+        "wall_seconds": 0.10968383797444403,
+        "diagnostic_sha256": "ef8c23c99af30a9b1762cea12cfc412ba1af18542b54d8f729459582e7d6740f"
+      },
+      {
+        "renderer": "reportlab",
+        "status": "unavailable-or-failed",
+        "reason": "PDF omits or changes visible prose fragments: 1"
+      }
+    ],
+    "limitations": [
+      "No installed local renderer produced a validated PDF. Reviewed Markdown and self-contained HTML remain available; review validity is unchanged."
+    ]
+  }
+}

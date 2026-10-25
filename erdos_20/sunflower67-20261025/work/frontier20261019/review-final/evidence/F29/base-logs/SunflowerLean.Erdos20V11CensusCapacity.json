@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20V11CensusCapacity",
+  "source_sha256": "cc250abc298df1971bb58a74e63e041b4d86e47420ad6ebafa643490241715c7",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20V11CensusCapacity.olean",
+    "SunflowerLean/Erdos20V11CensusCapacity.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 8.646,
+  "output": ""
+}

@@ -1,0 +1,87 @@
+{
+  "agent_id": "/root/r67_citations",
+  "role": "citation_verifier",
+  "context_id": "/root/r67_citations",
+  "round": 2,
+  "snapshot_sha256": "24271b347fc88951e8452a2b73e02bbc873403d9211341187c2678c3aa5c6fe7",
+  "manuscript_sha256": "529389d30265046b63d2082aeffe5fef0db73a17b5083a724d06721c4ee1ff62",
+  "summary": "The revised historical attribution and inspected source-map entries match their cited sources. Universal structural imports are distinguished from guarded local results and new size-15 work. No required citation revision arises in this round; full proof acceptance remains pending.",
+  "evidence_ids": ["definitions-map-r2", "prior-ledger", "prior-unlock", "external-scope", "rho15", "cap15", "round1-committed"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "CV-R2-SOURCE-MAP",
+      "statement": "The inspected map correctly identifies source locations and distinguishes imported R16/I7 structure, guarded cross-star/crowding/R61 facts, and the newly assembled size-15 domains.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "This is source-and-scope verification. Reading theorem statements, bridges and receipt metadata does not independently validate every finite predicate or the complete proof. No heavy replay was run.",
+      "evidence_ids": ["definitions-map-r2", "prior-unlock", "rho15", "cap15"]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "CV-R1-IMPORT-SCOPE",
+      "action": "Rechecked round-two manuscript sections 2 and 7 and followed the source map into the pinned prior manuscript and crowding companion.",
+      "result": "The distinction between imported ordinary theorems, selected local replay and end-to-end formal assurance remains explicit; the inspected additional imports preserve their original hypotheses.",
+      "status": "claim-qualified"
+    },
+    {
+      "finding_id": "CV-R1-PRIORITY-SCOPE",
+      "action": "Rechecked the bounded novelty language and compared the new historical-attribution sentence with Axante et al., section 6 and references 2 and 4.",
+      "result": "The manuscript retains the search limitation and now credits the classical construction and triple maximum through an identified intermediary. Round one had no required revisions owned by this reviewer.",
+      "status": "claim-qualified"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Frozen identity and prior source version",
+      "method": "Computed the manuscript byte hash and canonical snapshot hash, checked the definitions-map evidence hash, inspected the roster, and queried the local prior repository HEAD and its main.tex diff against HEAD.",
+      "observation": "Both assignment hashes and the map hash match. The roster retains citation_verifier for /root/r67_citations. Prior HEAD is 90c03c79bcf44eb8f61dff1b86091b822cc4cd3c, and paper/main.tex has no diff against that commit.",
+      "result": "supported",
+      "evidence_ids": ["definitions-map-r2", "prior-ledger"]
+    },
+    {
+      "scope": "Historical attribution added in manuscript section 2",
+      "method": "Opened the versioned Axante et al. primary HTML and inspected section 6.1 equation 6.1, the construction preceding Proposition 6.8, Table 1, and references 2 and 4.",
+      "observation": "The intermediary credits f(3,3)=20 to Abbott and Gardner, the 27-member construction to Abbott and Hanson, and the published lower 54 to the latter. References 2 and 4 identify their 1969 and 1974 works. The manuscript accurately states that these attributions are made through [1]; this review did not inspect those historical originals. [Axante et al., v1](https://arxiv.org/html/2609.06175v1).",
+      "result": "supported",
+      "evidence_ids": ["external-scope", "definitions-map-r2"]
+    },
+    {
+      "scope": "Definitions, exact trace classes and B4 source mapping",
+      "method": "Read pinned paper/main.tex lines 128-166, 206-226 and 278-373 against the revised section 3 and definitions-map-r2.",
+      "observation": "The complete link, closed neighbourhood, point/codegree distinction, literal P10/Q8 definitions and exact singleton/pair/triple trace identities match. Lemma lem:b4 applies to an actual triple with at least eight disjoint members; its anchor application yields the stated intersecting near part. The prior source expressly preserves Q8 leaf sharing rather than isolating all seven support points.",
+      "result": "supported",
+      "evidence_ids": ["definitions-map-r2", "prior-ledger"]
+    },
+    {
+      "scope": "Universal R16 and high-link theorem locators",
+      "method": "Read pinned paper/main.tex lines 443-635, including theorem thm:r16class, its eight-type I7 catalogue and lemma lem:r16maximal; compared the map's quoted ranges and statements.",
+      "observation": "R16 is restricted to |L|=16 and rho(L)<=7. The catalogue proof supplies an arbitrary-support reduction before enumeration and mixed-trace obstructions valid with exterior points. The high-link lemma states exactly the listed degree-17 through degree-20 alternatives on disjoint supports. The map does not misrepresent this as a classification of every size-16 link.",
+      "result": "supported",
+      "evidence_ids": ["definitions-map-r2", "prior-ledger"]
+    },
+    {
+      "scope": "Cross-star, crowding and R61 hypotheses",
+      "method": "Read pinned paper/main.tex lines 968-1088, especially lem:crowding26, its cross-star paragraph, and thm:r61, and compared PRIOR_DELTA18_UNLOCK.md and manuscript section 3.",
+      "observation": "Crowding26 and R61 explicitly require mu>=41 and Delta<=18; R61 also requires a complete R16 link. The cross-star paragraph requires both centres outside both supports, intersecting cross-intersecting tails and actual lifted members. Its total-tail threshold 16 and actual-root upper bound d(x)+d(y)-d(xy)+4<=40 support the manuscript's bound 15 only after the stated guards hold.",
+      "result": "supported",
+      "evidence_ids": ["prior-unlock", "prior-ledger", "definitions-map-r2"]
+    },
+    {
+      "scope": "Companion-only minimum degree 7 and support 23 attribution",
+      "method": "Followed prior-unlock to analysis/mu41/mu41-analysis.md section 3 and then read companion/terminal/crowding/code/verify.py functions mathematical_replay and local_and_global_checks, lines 148-250.",
+      "observation": "The frozen companion explicitly checks hypotheses minimum_closed_neighbourhood=41 and maximum_point_degree=18 and declares minimum_used_degree=7 and support_at_cardinality_68=23. Its code reconstructs rooted projections/private-point restrictions and the reciprocal bound 439/1260; the linked written analysis supplies the private-point and incidence transfer. Its global_67_proved flag is false. Thus these are accurately attributed prior guarded ingredients, not an earlier global upper 67 or a new support discovery.",
+      "result": "supported",
+      "evidence_ids": ["prior-unlock", "prior-ledger"]
+    },
+    {
+      "scope": "New exact-rho7 classification and rho<=6 source separation",
+      "method": "Read LOW15-R15-rho7-classification.md, R15-degree2-independent-ordinary-check.md, R15-rho6-completed-evidence.md and the opening assembly in LOW15-complete-argument.md; inspected the degree-two and three tree replay JSON records.",
+      "observation": "The rho7 classification expressly assumes equality rho=7 and cites prior catalogue lines 465-529 and H2 shape arguments at 574-611. The separate rho<=6 route derives minimum degree and support before fresh size-15 trees. The cited receipts contain 91/78 motifs, 74761 six-subsets, tree nodes 3657/5109/3455, and zero recorded solutions, matching the map. This establishes accurate provenance and recorded counts, not a fresh replay of their mathematical coverage.",
+      "result": "supported",
+      "evidence_ids": ["definitions-map-r2", "rho15", "cap15"]
+    }
+  ]
+}

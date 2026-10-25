@@ -1,0 +1,287 @@
+{
+  "task": "Fresh literature gate — alternate preprint archives",
+  "retrieval_date": "2026-10-25",
+  "timezone": "America/New_York",
+  "target_comparator": {
+    "main": "M(4,3) <= 67 for simple exactly-four-uniform families on arbitrary support containing no sunflower of three distinct sets, including empty-core sunflowers.",
+    "structural": "Every simple exactly-three-uniform 15-member sunflower-free family on arbitrary support contains an actual member disjoint from at least seven other members. rho is maximum degree in the member-disjointness graph, not maximum point degree.",
+    "scope": "Literature search and claim-scope triage only; no specialist review, theorem validation, manuscript edit, review vote, or publication."
+  },
+  "conclusion": {
+    "bounded_result": "No independently authored source claiming the same or stronger arbitrary-support four-uniform upper bound <=67, and no source stating the exact universal 15-triple disjointness lemma, was identified in the retrieved material from this subtask.",
+    "limitation": "This is a bounded search result, not evidence that no such paper exists, and not global novelty certification. Indexing gaps, inaccessible primary texts, and broad native-search semantics remain explicit.",
+    "concrete_unresolved_leads": [
+      "SSRN 6913500: topical 2026 paper; indexed primary abstract read, full text unavailable (403). Abstract does not state a finite rank-four bound; unseen full text cannot be excluded.",
+      "Zenodo 18248679: secondary Synapse record suggests a version 2 of Mitchell's power-set sunflower paper; primary page/API/DOI retrieval failed. Version/date and full scope of that Zenodo record are not primary-verified."
+    ]
+  },
+  "primary_findings": [
+    {
+      "id": "mitchell-v1",
+      "title": "Exact Values and Proven Slack in the Erdős-Szemerédi Sunflower Problem: A Comprehensive Analysis with Directions for Future Research",
+      "author": "Cody Shane Mitchell",
+      "primary_url": "https://www.ai.vixra.org/pdf/2601.0054v1.pdf",
+      "repository_listing": "https://ai.vixra.org/all/2601",
+      "version_date": "PDF v1 dated 2026-01-14; listing submission 2026-01-14 21:04:10",
+      "inspected": "Primary PDF extracted text, including definitions 1.1–1.2, Remark 1.3 and computational formulation in Section 2; primary repository monthly listing.",
+      "scope": "The paper explicitly focuses on arbitrary subsets of a fixed [n], using a forcing threshold m(n,3), and reports small fixed-ground-set values. This differs from the exactly-four-uniform arbitrary-support maximum.",
+      "comparison": "No <=67 comparator or universal 15-triple disjointness statement located in inspected scope. Claims are recorded, not validated.",
+      "version_gap": "Secondary Synapse lists a putative v2 with lower bounds through n=9 and points to Zenodo18248679; not promoted to primary-verified version.",
+      "evidence_files": [
+        "search-a3.json",
+        "primary-a7.json",
+        "search-a12.json",
+        "primary-native-a13.json",
+        "search-a14.json",
+        "primary-a17.json"
+      ]
+    },
+    {
+      "id": "ssrn-bayesian",
+      "title": "Erdős Problems via Bayesian Computation, I",
+      "authors": [
+        "Nicholas G. Polson",
+        "Vadim Sokolov",
+        "Daniel Zantedeschi"
+      ],
+      "primary_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6913500",
+      "doi": "10.2139/ssrn.6913500",
+      "version_date": "Indexed primary record: written 2026-06-10, posted 2026-07-03, 40 pages; numbered version not exposed.",
+      "inspected": "Indexed primary abstract and metadata, not full text.",
+      "scope": "Bayesian reformulations of nine Erdős-catalogue problems, including sunflower-free families.",
+      "comparison": "No finite rank-four <=67 or exact 15-triple statement in retrieved abstract; full-text exclusion remains open.",
+      "access_gap": "Both abstract-page open and Delivery PDF direct requests returned 403; shell native request also 403.",
+      "evidence_files": [
+        "search-a3.json",
+        "search-a11.json",
+        "search-a12.json",
+        "primary-native-a13.json",
+        "native-http-escalated.json"
+      ]
+    },
+    {
+      "id": "zenodo-bls",
+      "title": "Exact Divisibility Threshold for Weight Generation in Binary Linear Spaces",
+      "author": "Meryem Katircioglu",
+      "primary_url": "https://zenodo.org/records/20624929",
+      "doi": "10.5281/zenodo.20624929",
+      "version_date": "Published 2026-06-10, v1; metadata modified 2026-06-19.",
+      "inspected": "Live primary landing-page metadata and abstract.",
+      "scope": "Bounded-width binary linear spaces, weight generation and divisibility; sunflower lemma is a keyword.",
+      "comparison": "Visible description gives no comparable sunflower extremal bound; full text not obtained.",
+      "access_gap": "PDF click returned cache miss; native Zenodo API requests returned403.",
+      "evidence_files": [
+        "search-a2.json",
+        "primary-a7.json",
+        "native-a16.json"
+      ]
+    },
+    {
+      "id": "preprints-pnp",
+      "title": "On P Versus NP",
+      "author": "L. Gordeev",
+      "primary_url": "https://www.preprints.org/manuscript/202609.1991",
+      "version_date": "v1, submitted 2026-09-20, posted 2026-09-23; page marks latest version.",
+      "inspected": "Primary rendered manuscript HTML, abstract and sunflower Lemma3 excerpt.",
+      "scope": "Complexity claim applying the classical Erdos–Rado factorial sunflower lemma to double sets.",
+      "comparison": "Visible sunflower result is an application of the classical lemma, not a finite arbitrary-support rank-four improvement.",
+      "evidence_files": [
+        "search-a2.json",
+        "primary-a7.json"
+      ]
+    },
+    {
+      "id": "eccc-survey",
+      "title": "Sunflowers: from soil to oil",
+      "author": "Anup Rao",
+      "primary_url": "https://eccc.weizmann.ac.il/report/2022/005/",
+      "version_date": "Initial 2022-01-11; latest displayed revision #3, 2022-10-05 19:09.",
+      "inspected": "Primary version history and abstract; search also returned revision2 PDF.",
+      "scope": "Expository general sunflower bounds; revision3 fixes typos and minor errors.",
+      "comparison": "Older background; no newly located <=67 or 15-triple claim.",
+      "evidence_files": [
+        "search-a9.json",
+        "primary-a17.json"
+      ]
+    },
+    {
+      "id": "eccc-asu",
+      "title": "On Sunflowers and Matrix Multiplication",
+      "authors": [
+        "Noga Alon",
+        "Amir Shpilka",
+        "Chris Umans"
+      ],
+      "primary_url": "https://eccc.weizmann.ac.il/report/2011/067/",
+      "version_date": "Posted 2011-04-25 23:15; comment dated2011-07-31 identifies a possible bound-variable typo in Def2.1.",
+      "inspected": "Primary abstract and comment metadata.",
+      "scope": "Connections between sunflower conjecture variants and matrix multiplication.",
+      "comparison": "Older background; no new comparable finite-rank statement.",
+      "evidence_files": [
+        "search-a11.json",
+        "primary-a17.json"
+      ]
+    },
+    {
+      "id": "rho-disambiguation",
+      "title": "Thresholds for the Frankl-Wang 3/7 conjecture on maximum-degree ratios",
+      "authors": [
+        "Zejun Huang",
+        "Zhiyi Liu",
+        "Lu Lu",
+        "Tingzeng Wu"
+      ],
+      "primary_url": "https://arxiv.org/abs/2607.02589",
+      "version_date": "v1, 2026-07-01 06:55:18UTC; only v1 shown on retrieved page.",
+      "inspected": "Primary abstract and version history.",
+      "scope": "varrho means maximum POINT degree divided by family size for intersecting families.",
+      "comparison": "Different invariant and hypotheses from maximum MEMBER-DISJOINTNESS degree; its k=3 result does not state the target 15-triple lemma.",
+      "evidence_files": [
+        "search-a18-final-exact.json",
+        "primary-a19-rho-disambiguation.json"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "repository": "HAL / archives-ouvertes",
+      "domains": [
+        "hal.science",
+        "hal.archives-ouvertes.fr",
+        "api.archives-ouvertes.fr"
+      ],
+      "indexed_scope": "Phrase and domain searches in a1,a2,a5,a6,a8,a14,a15,a18; no target comparator returned.",
+      "native_scope": "Live public API succeeded. title_t:sunflower* returned1323 metadata records and all1323 were saved; mathematical-domain and title-term screening found no target comparator. Exact metadata queries 'sunflower lemma', 'sunflower-free', 'sunflower conjecture' returned0. 'delta-system' returned32 metadata records; delta-system AND mathematical terms returned one unrelated planetary-geology record. French tournesol AND (combinatoire OR conjecture) returned0.",
+      "caveat": "Metadata/title search only, not full repository PDF search. Initial domain_s:math* filter was mis-specified for prefixed domain values and its zero is disregarded. Final broader title search and phrase searches replace it.",
+      "evidence_files": [
+        "native-refined.json",
+        "hal-final-searches.json",
+        "hal-all-title.json",
+        "hal-free.json",
+        "hal-conjecture.json",
+        "hal-delta-math.json",
+        "hal-tournesol.json"
+      ]
+    },
+    {
+      "repository": "Zenodo",
+      "domains": [
+        "zenodo.org"
+      ],
+      "indexed_scope": "Topic and exact-bound searches plus title follow-ups; two topical records/leads noted above.",
+      "native_scope": "Native search/API requests403; public record20624929 accessible in web extraction; record18248679 inaccessible.",
+      "caveat": "Native corpus coverage incomplete; possible v2 lead unresolved."
+    },
+    {
+      "repository": "OSF / OSF Preprints",
+      "domains": [
+        "osf.io",
+        "share.osf.io"
+      ],
+      "indexed_scope": "Sunflower conjecture, delta-system, sunflower-free, triple/disjointness and four-element-set searches; no target comparator returned.",
+      "native_scope": "osf.io/search/?q=sunflower unavailable in web tool; /preprints/discover?q=sunflower unavailable in web tool and timed out in direct network attempt.",
+      "caveat": "Indexed-only topic coverage; no native search completion."
+    },
+    {
+      "repository": "Preprints.org",
+      "domains": [
+        "preprints.org"
+      ],
+      "indexed_scope": "Sunflower/delta-system/extremal searches and exact-bound variants; Gordeev classical-lemma application and unrelated phyllotaxis paper returned.",
+      "native_scope": "Search page inaccessible/403; primary Gordeev manuscript HTML readable.",
+      "caveat": "No complete native catalog enumeration."
+    },
+    {
+      "repository": "Research Square",
+      "domains": [
+        "researchsquare.com"
+      ],
+      "indexed_scope": "Sunflower conjecture, extremal, delta-system and exact bound searches returned no target comparator.",
+      "native_scope": "Live browse with confirmed unified field. First10 records saved for each query: quoted 'sunflower lemma' total343, quoted 'sunflower-free' total24085, quoted 'delta-system' total98690. Returned first pages were unrelated. Search appears token-broad and does not enforce exact phrases.",
+      "caveat": "Only first page per refined query retrieved. Initial term=sunflower parameter was ignored and showed unfiltered485009-record corpus; that response is not counted as a valid sunflower search."
+    },
+    {
+      "repository": "SSRN",
+      "domains": [
+        "ssrn.com",
+        "papers.ssrn.com"
+      ],
+      "indexed_scope": "Sunflower sets/delta-system and exact-bound queries; topical Bayesian paper found.",
+      "native_scope": "Primary abstract page and PDF returned403.",
+      "caveat": "Full text of topical paper unresolved."
+    },
+    {
+      "repository": "viXra / ai.viXra / rxiv mirrors",
+      "domains": [
+        "vixra.org",
+        "ai.vixra.org",
+        "rxiv.org",
+        "vixra.rxiv.org"
+      ],
+      "indexed_scope": "Sunflower conjecture, three/four sets, corrections, extremal/four-element-set queries and monthly/category listing retrieval.",
+      "native_scope": "Primary monthly indexed listing and v1 PDF read; abs page direct fetch406/web unavailable.",
+      "caveat": "No complete native fulltext enumeration; mirrored listings are one source family, not independent corroboration."
+    },
+    {
+      "repository": "TechRxiv",
+      "domains": [
+        "techrxiv.org"
+      ],
+      "indexed_scope": "Sunflower lemma, delta-system, set-system and exact-bound variants returned no target comparator.",
+      "native_scope": "Search URL unavailable in web tool and403 by direct network request.",
+      "caveat": "Indexed-only coverage."
+    },
+    {
+      "repository": "MathOA",
+      "domains": [
+        "mathoa.org"
+      ],
+      "indexed_scope": "Sunflower combinatorics and four-uniform queries returned no target comparator; organizational discovery search done.",
+      "native_scope": "Homepage/about unavailable502/403.",
+      "caveat": "MathOA is identified by its founders' institutional presentation and registry as an OA publishing-support organization; no standalone searchable preprint catalog was confirmed. Do not count it as a completely searched repository.",
+      "discovery_primary_url": "https://indico.math.cnrs.fr/event/14572/contributions/14597/attachments/6150/10729/PresentationMathOA.pdf"
+    },
+    {
+      "repository": "Additional discovered/related repositories",
+      "domains": [
+        "eccc.weizmann.ac.il",
+        "eprint.iacr.org",
+        "mathrepo.mis.mpg.de",
+        "mpim-bonn.mpg.de",
+        "mis.mpg.de",
+        "figshare.com",
+        "episciences.org",
+        "ams.org",
+        "optimization-online.org",
+        "eprints.maths.ox.ac.uk",
+        "preprints.ru",
+        "indiarxiv.org",
+        "engrxiv.org",
+        "mathrxiv.org",
+        "preprints.scielo.org",
+        "scienceopen.com"
+      ],
+      "indexed_scope": "Grouped, domain-restricted sunflower/delta-system, uniform-family and extremal queries in a6,a9,a11,a15. ECCC returned older primary records detailed above; no target comparator returned for the other domains.",
+      "native_scope": "ECCC primary report pages accessible, including version histories. Other listed repositories not natively enumerated.",
+      "caveat": "Grouped indexed search is limited coverage and not a complete search of each repository. The guessed ECCC keyword/16911 URL was inaccessible and is not counted as valid native coverage."
+    }
+  ],
+  "contamination_and_scope_notes": [
+    "A1K rank-four page, VibeMathed upper68 record, ProofAtlas sunflower page and stockedge/frontier-research surfaced in unrestricted searches. They are related user/AI research or status sources, not independent corroboration of the new claim.",
+    "The main arXiv/aiXiv source families and current finite-bound comparators are assigned to the parent/other agents. Incidental leads were sent to parent without treating summaries as primary theorem evidence.",
+    "Numeric-only query18248679 was used solely to trace an already discovered DOI identifier; substantive topic searches used meaningful sunflower/delta-system/uniform/triple/disjointness phrases.",
+    "No proof validity judgment or reviewer vote is contained in this report."
+  ],
+  "files": {
+    "query_ledger": "query-ledger.tsv",
+    "manifest": "artifact-manifest.json",
+    "raw_web_tool_logs": "search-a*.json, primary-*.json, native-a16.json",
+    "raw_native_responses": "*.body and hal-*.json",
+    "access_logs": [
+      "native-http-attempts.json",
+      "native-http-escalated.json",
+      "native-refined.json",
+      "hal-final-searches.json"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "result": "PASS",
+  "assurance": "shared-producer model reconstruction and exact integer certificate replay only; premises not re-proved; no solver, no Lean, no final review",
+  "receipt_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_r99/I04-pooled-stage1-none.json",
+  "receipt_sha256": "f2f7f1d99648703fb39f59094938e33204ebb5b58c15e4d53686bcaeafa4d3bc",
+  "replayer_sha256": "9a99d0a379fdf38f5c1228a6dbd381e9c3236668083db6ac127c9a9d31516229",
+  "compute_limit_seconds": 30,
+  "receipt_kind": "upper-bound",
+  "source": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_r99_projection_v3.py",
+    "sha256": "eaf95c1159c85387c8953eec5cd70c9782485286493640b2df9252584f8e823f",
+    "source_match": true,
+    "matching_paths": [
+      "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_r99_projection_v3.py",
+      "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_r99_projection.py"
+    ],
+    "reconstruction": "same producer build(), never run()"
+  },
+  "dependencies": {
+    "local43_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/upstream/MU42/scripts/local43.py",
+    "local43_sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+    "local43_source_match": true,
+    "marker_catalogue": "Generated literally by the exact hashed model; separate coverage check required"
+  },
+  "target_residuals": 50,
+  "literal_premises": {
+    "receipt_metadata": {
+      "target_residuals": 50,
+      "mu": 41,
+      "point_cap": 18,
+      "assurance": "certificate-diagnostic; imported universal geometry; not Lean or complete branch proof"
+    },
+    "case": "I04",
+    "empty": "none",
+    "assigned": null,
+    "forbidden": [
+      15,
+      23,
+      29,
+      30,
+      39,
+      43,
+      45,
+      51,
+      54,
+      960,
+      1472,
+      1856,
+      1920,
+      2496,
+      2752,
+      2880,
+      3264,
+      3456
+    ],
+    "fixed_link": "complete degree-18 P9 plus P9 link in the matched producer",
+    "conditional_inputs": [
+      "the source's universal incidence and exact-trace capacities and H27 disjoint-class bounds",
+      "mu at least 41, point degrees at most 18, and the source's actual-anchor pair-degree-sum constraints",
+      "the matched local43 and projection high-link, C5/P5, internal-cost, and catalogue filters",
+      "the stated marker, component assignments, emptiness, and forbidden-trace assumptions"
+    ],
+    "status": "Literal imported model premises are recorded, not independently proved or transported from a set family here."
+  },
+  "model": {
+    "trace_columns": 794,
+    "original_columns": 218857,
+    "inequality_rows": 975,
+    "equality_rows": 144,
+    "catalogue_sizes": [
+      17029,
+      17029,
+      14827,
+      14827,
+      17029,
+      14827,
+      14827,
+      14827,
+      14827,
+      10643,
+      10643,
+      4462,
+      4462,
+      14016,
+      7890,
+      9004,
+      9004,
+      7890
+    ]
+  },
+  "integer_model_validation": "all stored coefficients, RHS values, and box bounds are finite integers",
+  "exact_replay": {
+    "scale": 10000000000,
+    "H": 490680907874,
+    "q_column_count": 218857,
+    "q_sha256_decimal_lines": "b0198daaf5ac07ca5d2ae007b1ed03843a5decd6e37a8a7815ef0f66b52eb5f9",
+    "inequality_weights_nonnegative": true,
+    "correction": 8651540322,
+    "upper_numerator": 499332448196,
+    "reduced_upper": [
+      124833112049,
+      2500000000
+    ],
+    "target_numerator": 500000000000,
+    "below_target": true,
+    "numerical_display": "not used or trusted"
+  },
+  "conclusion": "Exact conditional bound excludes 50 residuals.",
+  "seconds": 7.400676678000309
+}

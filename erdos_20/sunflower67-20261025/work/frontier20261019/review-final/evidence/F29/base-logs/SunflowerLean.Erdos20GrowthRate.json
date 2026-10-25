@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20GrowthRate",
+  "source_sha256": "123682cd2803110b0137109e19a97efd304bf2891c5a2ff4073ba32d41a2ab71",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20GrowthRate.olean",
+    "SunflowerLean/Erdos20GrowthRate.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 7.414,
+  "output": ""
+}

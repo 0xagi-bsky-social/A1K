@@ -1,0 +1,31 @@
+{
+  "agent_id": "/root/review_coordinator/copyeditor",
+  "role": "copyeditor",
+  "context_id": "/root/review_coordinator/copyeditor",
+  "round": 8,
+  "snapshot_sha256": "0906bbbda55b8bbd32d4b236c0e1bf2b6bfa63a2576f4b86c2f054fc152719f7",
+  "manuscript_sha256": "f66cc1eb92c514fa4b4457a934b9b6c334a01f424fbe818f4dc8070d7cec8326",
+  "summary": "A fresh execution on the revised manuscript found three occurrences of one nine-token bibliographic title and no other match reaching the threshold. I inspected every occurrence and found no attribution repair needed. This bounded agent comparison establishes neither comprehensive originality nor mathematical priority. Frozen manuscript, snapshot, source, and executable-script hashes match.",
+  "evidence_ids": [
+    "F16",
+    "F17",
+    "F32"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Fresh exact-byte text-reuse comparison",
+      "method": "Executed the F32 script against round-08 using NFKC casefolded word tokens, citation/URL removal, and maximal exact matches of at least eight tokens; examined all match contexts.",
+      "observation": "The corpus comprises numbered F16 arXiv and F17 arXiv/A1K excerpt lines, separated at gaps. All matches identify reference [3]'s cited title; repeated source excerpts explain duplicate occurrences. No human review, semantic-paraphrase detection, or unprovided-source comparison occurred. Fresh computation and agent classification are saved in analysis/round-08/copyeditor/reuse-computation.json and reuse-agent-review.json beneath review-final; F32 was preserved.",
+      "result": "supported",
+      "evidence_ids": [
+        "F16",
+        "F17",
+        "F32"
+      ]
+    }
+  ]
+}

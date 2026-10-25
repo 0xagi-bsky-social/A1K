@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20GraphEqualityEndpoint",
+  "source_sha256": "4b5c3cdc57aba2c19b9a828dedb3f5f7bddd20f97303b1ae017fd6df467c61bd",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20GraphEqualityEndpoint.olean",
+    "SunflowerLean/Erdos20GraphEqualityEndpoint.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 4.973,
+  "output": ""
+}

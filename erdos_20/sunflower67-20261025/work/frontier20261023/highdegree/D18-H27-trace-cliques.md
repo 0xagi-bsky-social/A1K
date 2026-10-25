@@ -1,0 +1,7 @@
+# H27 for literal trace cliques
+
+Let residual SF4 members avoid root x and let U contain all points of the fixed actual root cones except x, and every point of any other fixed actual member. Traces on U keep arbitrary exterior completions and integer multiplicities. Two trace classes s,t force their actual members to intersect if s∩t is nonempty, or some fixed actual member B is disjoint from s∪t: in the latter case two disjoint residuals and B would form an empty-core sunflower. The root x is absent from all residuals. The same test on s=t establishes the within-class condition, including the empty trace.
+
+Every collection of classes satisfying this pairwise test therefore counts an actual intersecting SF4 family. H27 gives sum of its trace multiplicities≤27. A literal row can be verified using only bit intersections with the known fixed members; it does not import a finite ambient universe or binary proper traces. Fixed members must really be present.
+
+The frozen v6 model stores cliques discovered from the Q8-I06 v5 relaxation, then verifies every pair literally against the model's actual fixed members. It greedily extends each by any available trace class passing the same test with itself and every existing class. Every extension preserves the proof. Only kind Q8 and the actual marker I06 enable these particular seeds. The numerical search which found them does not enter the mathematical premise. These are additional consequences of H27, not an independent proof of H27 or a global bound67.

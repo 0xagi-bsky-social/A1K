@@ -1,0 +1,27 @@
+{
+  "schema": "d17-h7-internal-split-plan-v1",
+  "earlier_plan": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/H7-earlier17-explicit-plan.json",
+    "sha256": "bf2898075e00d0b639fd34ca21d6bf1602a8d9fc2d4aa5fe516c95d933f21785"
+  },
+  "equality_receipt": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/H7-IZ13-equality-extraction.json",
+    "sha256": "1b3bb0d03179708ccdd299f50aece40f34b474389f4dcb4d8175f30136defb15"
+  },
+  "branches": [
+    {
+      "triangle_vertex": 0,
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H7-IZ13-equality-t0-v5-b1d22e9249b0-phaseone.json",
+      "receipt_sha256": "692f74311a2600aafa823ffbf2a1546329de2926e1e81c78a61cee85dd4400dd",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_replay/P10-H7-IZ13-equality-t0-v5-b1d22e9249b0-phaseone-replay.json",
+      "replay_sha256": "a3b7563c17bb341e45341506184ef766a1cc0ff57a2fb025a99b816b6599b32b"
+    },
+    {
+      "triangle_vertex": 13,
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H7-IZ13-equality-t13-v5-56d5af3180da-phaseone.json",
+      "receipt_sha256": "df0c81cc2aaff82daa5a7361b5c4ff13ae77561e4abc26ff2fa5cf792687923c",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_replay/P10-H7-IZ13-equality-t13-v5-56d5af3180da-phaseone-replay.json",
+      "replay_sha256": "009c618146dd2a6cf731f3056707b749e220abc91bbbf720519cf45aa38567db"
+    }
+  ]
+}

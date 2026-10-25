@@ -1,0 +1,39 @@
+{
+  "content": {
+    "agent_id": "/root/review_coordinator/alpha",
+    "role": "alpha",
+    "context_id": "/root/review_coordinator/alpha",
+    "round": 8,
+    "snapshot_sha256": "0906bbbda55b8bbd32d4b236c0e1bf2b6bfa63a2576f4b86c2f054fc152719f7",
+    "manuscript_sha256": "f66cc1eb92c514fa4b4457a934b9b6c334a01f424fbe818f4dc8070d7cec8326",
+    "summary": "No mathematical transcription error was found in the six formula mappings. The current receipt and erratum appropriately limit browser and accessibility assurance. Both frozen hashes and the inspected F34 artifact hashes match.",
+    "evidence_ids": [
+      "F34"
+    ],
+    "decision": "continue",
+    "required_revisions": [],
+    "findings": [],
+    "revisions": [],
+    "checks": [
+      {
+        "scope": "Formula fidelity and rendering-assurance boundary",
+        "method": "Compared all six manuscript displays with receipt PDF mappings and actual HTML MathML trees/TeX annotations; inspected renderer and erratum.",
+        "observation": "All six annotations exactly match the manuscript and mapping sources. Inequality directions, squared degrees, negative triple correction, binomial lower indices 2 and 3, and the Fin72 nonexistence equivalence are preserved. The source changes only move terminal punctuation into text notation. MathML is present, but exact annotation preservation alone does not certify assistive-technology interpretation. The erratum explicitly retracts the earlier zero-MathML overstatement, while current limitations disclaim browser/accessibility conformance and require separate PDF visual inspection. This review is source-level mapping verification, not a browser or PDF layout certification.",
+        "result": "supported",
+        "evidence_ids": [
+          "F34"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "tool": "collaboration.followup_task / specialist final response",
+    "call_id": "local-log:frontier20261019-final/round-08/alpha/actual-public-response",
+    "context_id": "/root/review_coordinator/alpha",
+    "recorded_at": "2026-10-19T14:34:14.229971+00:00",
+    "synthetic": false,
+    "public_response": "{\n  \"agent_id\": \"/root/review_coordinator/alpha\",\n  \"role\": \"alpha\",\n  \"context_id\": \"/root/review_coordinator/alpha\",\n  \"round\": 8,\n  \"snapshot_sha256\": \"0906bbbda55b8bbd32d4b236c0e1bf2b6bfa63a2576f4b86c2f054fc152719f7\",\n  \"manuscript_sha256\": \"f66cc1eb92c514fa4b4457a934b9b6c334a01f424fbe818f4dc8070d7cec8326\",\n  \"summary\": \"No mathematical transcription error was found in the six formula mappings. The current receipt and erratum appropriately limit browser and accessibility assurance. Both frozen hashes and the inspected F34 artifact hashes match.\",\n  \"evidence_ids\": [\"F34\"],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Formula fidelity and rendering-assurance boundary\",\n      \"method\": \"Compared all six manuscript displays with receipt PDF mappings and actual HTML MathML trees/TeX annotations; inspected renderer and erratum.\",\n      \"observation\": \"All six annotations exactly match the manuscript and mapping sources. Inequality directions, squared degrees, negative triple correction, binomial lower indices 2 and 3, and the Fin72 nonexistence equivalence are preserved. The source changes only move terminal punctuation into text notation. MathML is present, but exact annotation preservation alone does not certify assistive-technology interpretation. The erratum explicitly retracts the earlier zero-MathML overstatement, while current limitations disclaim browser/accessibility conformance and require separate PDF visual inspection. This review is source-level mapping verification, not a browser or PDF layout certification.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"F34\"]\n    }\n  ]\n}\n",
+    "response_sha256": "6bbc95b6ad6a986e0d65758ce3c038c0f96382c84918589fc9a873a0685ea0ac"
+  },
+  "record_sha256": "a39808962c1762ec90a897bce110ad514c80fcc3cc09367b49944dc9d2bc6e2f"
+}

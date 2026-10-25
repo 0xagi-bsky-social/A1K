@@ -1,0 +1,112 @@
+{
+  "agent_id": "/root/r67_literature",
+  "role": "literature_reviewer",
+  "context_id": "/root/r67_literature",
+  "round": 5,
+  "snapshot_sha256": "85c7f735ba798c6812c979258f6eb3854dee7055d525e2bd4fd9e315b71ce261",
+  "manuscript_sha256": "460a3cba8460d551fe8c44b69dac7f1a9b9bae09743c85c519a4d92f30a76ae4",
+  "summary": "The H27 scope correction satisfies my round-four request. The superseding note and main paragraph distinguish inspected operations, unavailable provenance, ordinary theorem import and local replay. Preserved source bytes match their stated commitments. The later source audit is explicitly separated from the novelty cutoff. H27 remains an essential external dependency; resolving the description does not repair or independently verify its historical provenance.",
+  "evidence_ids": [
+    "external-h27-scope-correction",
+    "external-h27-source-r4",
+    "external-scope",
+    "direct-jin",
+    "literature-refresh",
+    "round4-committed",
+    "round2-committed"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "LIT-R4-01",
+      "statement": "The inaccurate compression of the external H27 audit boundary has been corrected.",
+      "severity": "minor",
+      "status": "resolved",
+      "disposition": "The addendum explicitly withdraws the broad archive-authentication wording, records the missing provenance pointer, distinguishes the README claim from the visible script and limits absence observations to the inspected tracked tree. Main Section 2 and the companion map expose this correction. The underlying external provenance gap is disclosed, not repaired.",
+      "evidence_ids": [
+        "external-h27-scope-correction",
+        "external-h27-source-r4"
+      ]
+    },
+    {
+      "id": "LIT-R4-02",
+      "statement": "The exact cap 27 remains quantitatively essential to the displayed argument.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "The corrected note retains the h=27 versus h=28 sensitivity calculation and expressly declines to claim robustness under a weaker cap. Ordinary citation of H27 is still the mathematical dependency; local source hashes and new finite checks do not independently establish it.",
+      "evidence_ids": [
+        "external-h27-scope-correction",
+        "direct-jin"
+      ]
+    },
+    {
+      "id": "LIT-R1-01",
+      "statement": "The earlier classical attribution repair remains satisfied.",
+      "severity": "minor",
+      "status": "resolved",
+      "disposition": "The current source-scope addition retains the Abbott-Hanson and Abbott-Gardner attributions through [1].",
+      "evidence_ids": [
+        "round2-committed"
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "/root/r67_literature:round-4:required-revision-1",
+      "action": "Inspected the superseding H27 addendum, new Section 2 paragraph, saved README/script, manifest and actual connector results.",
+      "result": "Satisfied. The requested access and inspection limitation is recorded without claiming a repaired provenance chain or withdrawing the ordinary theorem import.",
+      "status": "resolved"
+    },
+    {
+      "finding_id": "/root/r67_literature:round-1:required-revision-1",
+      "action": "Checked the retained attribution in the current manuscript against my earlier committed resolution.",
+      "result": "The historical attribution remains correct and unchanged.",
+      "status": "resolved"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Substantive correction of H27 assurance wording",
+      "method": "Read EXTERNAL-H27-SCOPE-ADDENDUM-20261024.md and the round04-to-round05 manuscript diff; compared them with my exact committed request and the saved upstream text.",
+      "observation": "The addendum expressly supersedes the older wording, reports no explicit three-compressed-archive hash comparison in the inspected top-level script, distinguishes intended C checks from executed checks, and states that source-to-historical-run identity and target-28 exhaustion were not verified here. The new main paragraph carries the same limitation.",
+      "result": "supported",
+      "evidence_ids": [
+        "external-h27-scope-correction",
+        "external-h27-source-r4",
+        "round4-committed"
+      ]
+    },
+    {
+      "scope": "Integrity of preserved source-inspection evidence",
+      "method": "Recomputed SHA256 for both saved text files and all four tool-result files; reconstructed Git blob SHA1 values from blob headers and text bytes; parsed the saved tree and 404 payload.",
+      "observation": "All six SHA256 comparisons pass. The text reproduces README blob db9b1966f961156b0c7e4b8b158f9e171cddd33b and script blob d3b4ae7f1a2abce5561c3d033bd5e0a04744c17a, matching my round-four fetches. The preserved tree is untruncated, has 117 entries and no case-insensitive provenance path; the saved provenance response contains HTTP 404. These establish local record consistency, not historical execution authentication.",
+      "result": "supported",
+      "evidence_ids": [
+        "external-h27-source-r4",
+        "external-h27-scope-correction"
+      ]
+    },
+    {
+      "scope": "Source-audit timing versus novelty cutoff",
+      "method": "Compared the contract cutoff, literature-refresh evidence, new main paragraph and addendum timing section.",
+      "observation": "The novelty cutoff remains 2026-10-24 07:57:31 UTC. The new audit is described as obtained later during review, approximately 10:00 UTC, and explicitly does not extend the novelty search. I verified this distinction in the recorded text; I did not perform a later comprehensive priority search or independently authenticate the exact acquisition timestamp.",
+      "result": "supported",
+      "evidence_ids": [
+        "literature-refresh",
+        "external-h27-scope-correction",
+        "external-h27-source-r4"
+      ]
+    },
+    {
+      "scope": "Remaining numerical dependence on H27",
+      "method": "Reconstructed all eight A3 incidence identities coefficient by coefficient using standard-library lists, then substituted h=27 and h=28 in the deficit calculation.",
+      "observation": "Every identity b[i]+b[i+3]+b[i+5]=68+a[i] holds symbolically. With b[i]<=h, the coarse fibre lower bound is 136-5h. Thus h=27 gives mu>=41 and a[i]>=1, while h=28 gives mu>=40 and only a[i]>=-4. The addendum accurately retains this sensitivity. No external program, solver or large replay was run.",
+      "result": "supported",
+      "evidence_ids": [
+        "direct-jin",
+        "external-h27-scope-correction"
+      ]
+    }
+  ]
+}

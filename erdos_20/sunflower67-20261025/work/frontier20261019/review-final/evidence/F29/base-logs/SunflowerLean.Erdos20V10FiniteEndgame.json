@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20V10FiniteEndgame",
+  "source_sha256": "75e483978d632e0076c6cf140c9e22c5d38da7c11814794de00ec26e083925b7",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20V10FiniteEndgame.olean",
+    "SunflowerLean/Erdos20V10FiniteEndgame.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 3.937,
+  "output": ""
+}

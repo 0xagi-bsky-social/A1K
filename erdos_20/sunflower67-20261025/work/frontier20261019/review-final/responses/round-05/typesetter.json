@@ -1,0 +1,23 @@
+{
+  "agent_id": "/root/review_coordinator/typesetter",
+  "role": "typesetter",
+  "context_id": "/root/review_coordinator/typesetter",
+  "round": 5,
+  "snapshot_sha256": "dea273c3fee450a2176a86272c1baab2b216ca04a3c39ebd79c7f8ca6746b76e",
+  "manuscript_sha256": "a5097eb4be3793ead393f3fdf6450e2250f3d0249c75ffaa740e5e46fd8d6f2c",
+  "summary": "The sampled numerical content agrees with the frozen Markdown and remains legible. Coverage extended through page 8 because the representation counts appear there. The verification table is readable source notation with wrapped pipe-delimited rows, rather than a typeset two-column table.",
+  "evidence_ids": ["F31"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Numerical and table fidelity on pages 6–8",
+      "method": "Verified fresh snapshot and manuscript hashes, preview binding and inspected-page hashes; visually compared all three PNG pages with the exact Markdown.",
+      "observation": "Page 6 preserves 4488, 4475, (19,14,13,13), domain inequalities, 8,855 and 6,031. Page 7 retains all seven verification rows and their module associations. Page 8 preserves all eight representation counts and the 4553-versus-4488 sensitivity qualification. No clipped digits, lost inequality signs, or overlapping text were visible. This checks presentation fidelity, not independent arithmetic correctness or PDF accessibility.",
+      "result": "supported",
+      "evidence_ids": ["F31"]
+    }
+  ]
+}

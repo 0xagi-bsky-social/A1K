@@ -1,0 +1,216 @@
+[
+  {
+    "id": "E01",
+    "kind": "local-artifact",
+    "description": "Local Lean source for universal support inequality, support72 and finite-obstruction equivalence",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/E01/SupportBound.lean",
+    "method": "Read and copied actual local bytes before opening first review snapshot",
+    "status": "limited",
+    "limitations": [
+      "Locally compiled against retained dependency objects; source is not an independent verification"
+    ],
+    "content_sha256": "eb5a318572a786b44dd25f11e376f782d02ae61299f7be913e9a078d91049cfd"
+  },
+  {
+    "id": "E02",
+    "kind": "local-artifact",
+    "description": "Actual compiler output for six printed SupportBound roots",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/E02/SupportBound.json",
+    "method": "Read and copied actual local bytes before opening first review snapshot",
+    "status": "limited",
+    "limitations": [
+      "Printed root axioms and exit status are local compiler evidence, not clean dependency rebuild"
+    ],
+    "content_sha256": "e4c8d132ecb8f012b3bffa746e6214bd6bd41f97f101ec8b566ed01f03904f96"
+  },
+  {
+    "id": "E03",
+    "kind": "local-artifact",
+    "description": "Finite support56 numerical grid source",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/E03/SupportGrid.lean",
+    "method": "Read and copied actual local bytes before opening first review snapshot",
+    "status": "available",
+    "limitations": [],
+    "content_sha256": "89a2adeb63ff66e859e2829f9aed4ab4497b7be31a9decca551f7f6cec98869e"
+  },
+  {
+    "id": "E04",
+    "kind": "local-artifact",
+    "description": "Actual exit-zero SupportGrid compiler receipt",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/E04/SupportGrid.json",
+    "method": "Read and copied actual local bytes before opening first review snapshot",
+    "status": "limited",
+    "limitations": [
+      "Grid leaf and wrapper only; no full support56 structural assembly"
+    ],
+    "content_sha256": "b666d76adef6203e8f9048fee76f85684802612f4f730f69c2ab748468ef50b5"
+  },
+  {
+    "id": "E05",
+    "kind": "local-artifact",
+    "description": "Universal three-star second-moment Lean source",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/E05/Support56.lean",
+    "method": "Read and copied actual local bytes before opening first review snapshot",
+    "status": "limited",
+    "limitations": [
+      "Does not finish support56 assembly"
+    ],
+    "content_sha256": "7a1e6e9ce8ed3f485803aea7a035dd319b61f8622b8dce299c4bc020e62f9e08"
+  },
+  {
+    "id": "E06",
+    "kind": "local-artifact",
+    "description": "Exit-zero stable-source receipt for universal second-moment root",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/E06/Support56.json",
+    "method": "Read and copied actual local bytes before opening first review snapshot",
+    "status": "limited",
+    "limitations": [
+      "Retained dependency object trust; printed roots scope only"
+    ],
+    "content_sha256": "1c0b383df8d449df2ab7bd6b524d784238eb2586f21132159613c77ba6aff9c6"
+  },
+  {
+    "id": "E07",
+    "kind": "local-artifact",
+    "description": "Elementary support56 mathematical argument",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/E07/support56-draft.md",
+    "method": "Read and copied actual local bytes before opening first review snapshot",
+    "status": "limited",
+    "limitations": [
+      "Universal Lean assembly not complete"
+    ],
+    "content_sha256": "806bf680ee454fcbf3d2c321f845bbe868ac45f9e0b044d1d5110f1538d324bf"
+  },
+  {
+    "id": "E08",
+    "kind": "local-artifact",
+    "description": "Elementary nine-triple classification and completion proof",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/E08/nine-classification-proof.txt",
+    "method": "Read and copied actual local bytes before opening first review snapshot",
+    "status": "limited",
+    "limitations": [
+      "Universal Lean assembly not complete"
+    ],
+    "content_sha256": "9227cf33697a579d4d03ed9c359a37ebdb6ea0e4715a0ecff310b1cbaf06ef6f"
+  },
+  {
+    "id": "E09",
+    "kind": "local-artifact",
+    "description": "Trace arithmetic formalization",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/E09/ProfileNine.lean",
+    "method": "Read and copied actual local bytes before opening first review snapshot",
+    "status": "limited",
+    "limitations": [
+      "Arithmetic ledger is not full classification"
+    ],
+    "content_sha256": "244df780c3eb8c9b8e09991c8c7e6d16f3b346776121a0362f5d647586a01e30"
+  },
+  {
+    "id": "E10",
+    "kind": "local-artifact",
+    "description": "Exit-zero two-root trace ledger compiler receipt",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/E10/ProfileNine.receipt.json",
+    "method": "Read and copied actual local bytes before opening first review snapshot",
+    "status": "limited",
+    "limitations": [
+      "No universal completion theorem established by this receipt"
+    ],
+    "content_sha256": "4b4968e391ec87e0c21821c66e2eae2ace89eedb4736acf73b456e8fa41c2061"
+  },
+  {
+    "id": "E11",
+    "kind": "local-artifact",
+    "description": "Separately computed exact finite-grid diagnostic",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/E11/independent-support56-grid.json",
+    "method": "Read and copied actual local bytes before opening first review snapshot",
+    "status": "limited",
+    "limitations": [
+      "Ordinary Python diagnostic; no formal semantic bridge"
+    ],
+    "content_sha256": "3d437c2364693d7c179d6ad2c54fda9b2d475e57fe8a23035447067aca62a589"
+  },
+  {
+    "id": "E12",
+    "kind": "local-artifact",
+    "description": "Exact local nine-triple finite diagnostics",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/E12/nine-diagnostic-results.json",
+    "method": "Read and copied actual local bytes before opening first review snapshot",
+    "status": "limited",
+    "limitations": [
+      "Finite support enumeration does not prove arbitrary-support classification"
+    ],
+    "content_sha256": "e5fc9ec1b54066d57c1e2719ffb5c2ccb14910e08ca40e7a821df589618d0a1d"
+  },
+  {
+    "id": "E13",
+    "kind": "local-artifact",
+    "description": "Failed Profile A model-building attempt",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/E13/profile_a_result.json",
+    "method": "Read and copied actual local bytes before opening first review snapshot",
+    "status": "limited",
+    "limitations": [
+      "Solver not called; no SAT/UNSAT conclusion"
+    ],
+    "content_sha256": "cd02dc03af078a84a6930d615b985ad90b815f3acac530a13965f5c62de81800"
+  },
+  {
+    "id": "E14",
+    "kind": "local-artifact",
+    "description": "Observed Lean runtime and pinned dependency revision comparison",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/E14/runtime.json",
+    "method": "Read and copied actual local bytes before opening first review snapshot",
+    "status": "limited",
+    "limitations": [
+      "Revision comparison does not authenticate object bytes"
+    ],
+    "content_sha256": "82fbc8e9fed8db7432040b576e330bf194a723a89eb670322c5b8ea2fb2d16c6"
+  },
+  {
+    "id": "E15",
+    "kind": "local-artifact",
+    "description": "155 pinned source files compare without mismatch",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/E15/cache-source-comparison.json",
+    "method": "Read and copied actual local bytes before opening first review snapshot",
+    "status": "limited",
+    "limitations": [
+      "Matching source does not authenticate compiled cache"
+    ],
+    "content_sha256": "aeb74095f83dd51798e8de43d5184d0e41caec2337c6c299efe2128e7c09d0da"
+  },
+  {
+    "id": "E16",
+    "kind": "primary-web-tool-output",
+    "description": "Actual web tool returned primary source text, including bibliographic metadata",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/primary-web-initial.json",
+    "method": "web.run open/find on 2026-10-19",
+    "status": "limited",
+    "limitations": [
+      "Tool-returned representation, not authenticated full HTTP bytes; bounded retrieval and no exhaustive literature coverage"
+    ],
+    "content_sha256": "dd6d8820fb61e8983d750f1256fb8d2c73558fd651f3d459af35ae3852015226"
+  },
+  {
+    "id": "E17",
+    "kind": "primary-web-tool-output",
+    "description": "Actual web tool targeted arXiv 6.3/8 and A1K finite-reduction passages",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/primary-web-targeted.json",
+    "method": "web.run open/find on 2026-10-19",
+    "status": "limited",
+    "limitations": [
+      "Tool-returned representation, not authenticated full HTTP bytes; bounded retrieval and no exhaustive literature coverage"
+    ],
+    "content_sha256": "8d7cc0d21ea02e6f22861916398214a1ca73d2c83cc1fe752c82b115ed6a222d"
+  },
+  {
+    "id": "E18",
+    "kind": "pinned-source-snapshot",
+    "description": "Ten relevant retained A1K source modules; manifest points to copied source files",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review/evidence/E18/manifest.json",
+    "method": "Copied pinned local source bytes and recorded each digest",
+    "status": "limited",
+    "limitations": [
+      "Source reading does not rebuild cached dependency objects"
+    ],
+    "content_sha256": "60e2067ac57d2efa1dc61d4e9d116e24dfa59514a2a6a1a859f2555daab8da12"
+  }
+]

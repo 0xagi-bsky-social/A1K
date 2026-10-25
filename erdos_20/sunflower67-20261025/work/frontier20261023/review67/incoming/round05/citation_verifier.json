@@ -1,0 +1,62 @@
+{
+  "agent_id": "/root/r67_citations",
+  "role": "citation_verifier",
+  "context_id": "/root/r67_citations",
+  "round": 5,
+  "snapshot_sha256": "85c7f735ba798c6812c979258f6eb3854dee7055d525e2bd4fd9e315b71ce261",
+  "manuscript_sha256": "460a3cba8460d551fe8c44b69dac7f1a9b9bae09743c85c519a4d92f30a76ae4",
+  "summary": "The H27 README/script correction and sensitivity calculation are supported, and the sampled non-H27 artifact linkage matches. One additional source-audit qualification is required: the returned tree entries do not reproduce their reported root Git tree identifier. This is an evidence-integrity issue, not a counterexample to H27 or the proposed bound.",
+  "evidence_ids": ["external-h27-scope-correction", "external-h27-source-r4", "external-scope", "direct-jin", "cap15", "definitions-map-r2"],
+  "decision": "revise",
+  "required_revisions": [
+    "Document and reconcile the H27 root-tree commitment discrepancy in the source-audit addendum/manifest. Standard Git serialization of the seven returned root entries hashes to 0a3e3838650fc981133940e798c9d220140e785e, not the reported d4d5723267c662291efdadfa6e7061d919e76fa9. Until resolved, describe provenance-path absence as an observation about the returned listing rather than a cryptographically verified complete tracked tree, and preserve the mismatch without altering the original response."
+  ],
+  "findings": [
+    {
+      "id": "CV-R5-TREE-COMMITMENT",
+      "statement": "The saved recursive tree response has117 entries and truncated=false, but its seven immediate root entries reconstruct Git tree0a3e3838650fc981133940e798c9d220140e785e instead of its declared d4d5723267c662291efdadfa6e7061d919e76fa9. A fresh nonrecursive connector fetch returned the same seven entries and declared identifier.",
+      "severity": "minor",
+      "status": "open",
+      "disposition": "Qualify the complete-tree claim or resolve the discrepancy. Both text blobs reproduce their identifiers and all18 represented non-root trees reconstruct correctly, so the issue is specifically the root commitment. No conclusion about the underlying mathematical theorem or hidden archive contents follows.",
+      "evidence_ids": ["external-h27-source-r4", "external-h27-scope-correction"]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "CV-R1-IMPORT-SCOPE",
+      "action": "Reassessed the earlier source-scope assessment against the newly preserved primary supplement text and superseding addendum.",
+      "result": "The broad archive-authentication description is now explicitly withdrawn, and the essential unreproduced H27 dependency remains visible. The new root-tree discrepancy requires the narrower qualification requested above.",
+      "status": "claim-qualified"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "H27 primary links, fetched blobs and tree evidence",
+      "method": "Matched saved response contents and SHA256 values, reconstructed both Git blob SHA1 values, mapped the two manuscript paths to tree entries, reconstructed all represented Git trees, and cross-checked the root with git hash-object and a fresh nonrecursive GitHub connector fetch.",
+      "observation": "README db9b1966f961156b0c7e4b8b158f9e171cddd33b and script d3b4ae7f1a2abce5561c3d033bd5e0a04744c17a match their bytes and listed paths. All four saved tool-result hashes match. The117-entry response contains no provenance path and its recorded fetch returns404. All18 non-root trees reconstruct, but the root reconstructs as0a3e3838650fc981133940e798c9d220140e785e rather than its declared identifier. The fresh response repeats the discrepancy. [Reported root tree](https://api.github.com/repos/bogdan27182/sunflower-paper/git/trees/d4d5723267c662291efdadfa6e7061d919e76fa9).",
+      "result": "contradicted",
+      "evidence_ids": ["external-h27-source-r4", "external-h27-scope-correction"]
+    },
+    {
+      "scope": "Visible audit-script operations versus README assurance",
+      "method": "Read the complete saved README and shell-script blobs without execution and compared them with manuscript section2 and the addendum's corrected distinction.",
+      "observation": "The README says three archive hashes are checked. The script extracts three archives, invokes a run-record verifier, compares two assembled frontier hashes, and runs small controls; it contains no explicit compressed-archive hash comparisons. The new wording accurately limits inspection to these visible operations and does not claim source-to-historical-run authentication or a target28 rerun. The source acquisition is separately dated after the novelty-search cutoff.",
+      "result": "supported",
+      "evidence_ids": ["external-h27-source-r4", "external-h27-scope-correction"]
+    },
+    {
+      "scope": "Essential H27 input and numerical sensitivity",
+      "method": "Compared the imported intersecting-family theorem scope with external-scope and independently expanded the direct A3 deficit argument for a generic intersecting cap h.",
+      "observation": "The bound gives mu>=68-h. With total fibre mass68, sum(e)=8h-204 and a_i=3h-68-e_i-e_(i+3)-e_(i+5), hence a_i>=136-5h. At h=27 these yield41 and1; at h=28 they yield40 and-4. Thus the stated cap18 package threshold and positive-fibre argument cannot simply be reused with a weaker intersecting cap. The addendum accurately states this sensitivity rather than claiming robustness to an unverified replacement.",
+      "result": "supported",
+      "evidence_ids": ["external-h27-scope-correction", "external-scope", "direct-jin"]
+    },
+    {
+      "scope": "Non-H27 source-to-artifact linkage for cap15 covers",
+      "method": "Read replay_low15_eight_seven_covers.py and its ordinary cover bridge; extracted PINS using AST without execution; compared the source hash, all six dependency hashes, receipt premises and canonical case-relation digest with LOW15-eight-seven-cover-independent-replay.json.",
+      "observation": "The checker source, all six dependencies and the relation digest match. Its model construction checks the analytical safe-leaf condition, retains permitted Q8 sharing, and restricts to the P8-i2 domain only through a pinned prior exclusion. Its C3/P4 computation implements the bridge's2|C3|+|P4| bound using simplicity and triple codegree2, with ambient_support_cutoff=null. This verifies the stated linkage and premises beyond a2541-case count; it is not a fresh cover replay.",
+      "result": "supported",
+      "evidence_ids": ["cap15", "definitions-map-r2"]
+    }
+  ]
+}

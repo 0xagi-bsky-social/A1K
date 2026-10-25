@@ -1,0 +1,95 @@
+{
+  "multiplicity_controls": [
+    {
+      "members": 21,
+      "root_degree": 19,
+      "member_triples_checked": 1330,
+      "sunflowers": 0,
+      "proper_trace_counts": [
+        [
+          [
+            0,
+            6,
+            7
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "members": 22,
+      "root_degree": 19,
+      "member_triples_checked": 1540,
+      "sunflowers": 0,
+      "proper_trace_counts": [
+        [
+          [
+            0,
+            6
+          ],
+          3
+        ]
+      ]
+    }
+  ],
+  "source_upper_boxes": {
+    "0": 49,
+    "1": 19,
+    "2": 6,
+    "3": 2,
+    "4": 1
+  },
+  "typed_absence_controls": {
+    "source_sha256": "e8553f1726e58d30032294c4e96711a1c3507d4cb381ad532982c1a4003f805b",
+    "four_facts": 715,
+    "proper_three_facts": 231,
+    "results": [
+      {
+        "facts": "empty",
+        "tests": 1471,
+        "accepted": 0,
+        "mismatches": 0
+      },
+      {
+        "facts": "full-four-only",
+        "tests": 1471,
+        "accepted": 715,
+        "mismatches": 0
+      },
+      {
+        "facts": "proper-three-only",
+        "tests": 1471,
+        "accepted": 462,
+        "mismatches": 0
+      },
+      {
+        "facts": "both",
+        "tests": 1471,
+        "accepted": 1177,
+        "mismatches": 0
+      }
+    ]
+  },
+  "tree_census": {
+    "nodes": 5109,
+    "branches": 1585,
+    "terminal_leaves": 3524,
+    "histogram": {
+      "branch": 1585,
+      "count": 38,
+      "colour": 3054,
+      "min": 432
+    },
+    "edges": 5108,
+    "nonroot_one_parent": true,
+    "root_has_no_parent": true,
+    "reachable": 5109,
+    "fresh_replay_binds_tree": true,
+    "fresh_replay_counters_match": true,
+    "supplied_controls_rejected": [
+      "wrong_target",
+      "omitted_child",
+      "wrong_source"
+    ]
+  }
+}

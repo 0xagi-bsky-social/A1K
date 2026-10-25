@@ -1,0 +1,117 @@
+{
+  "S1": {
+    "kind": "statement",
+    "roots": [
+      "FrontierLiteralStatements.literal_support56",
+      "FrontierLiteralStatements.literal_support53"
+    ],
+    "status": "axiom-audited"
+  },
+  "D1": {
+    "kind": "external-library",
+    "source": "A1K@0e9aee578a7bb3dbc665630c759297514f88a81d",
+    "lemmas": "degree\u226419, pair codegree\u22646, residual-link sunflower bounds and injective finite relabelling",
+    "status": "100root-reachableA1Kmodules source-rebuilt; pinnedmathlibcache retained"
+  },
+  "T1": {
+    "kind": "structural",
+    "module": "DegreeEnvelope",
+    "status": "axiom-audited",
+    "description": "Joint top-three/four choices, tail envelopes, positive supported degrees"
+  },
+  "T2": {
+    "kind": "structural",
+    "module": "Support56",
+    "status": "axiom-audited",
+    "description": "Universal three-star moment and rank-four triple codegree\u22642"
+  },
+  "T3": {
+    "kind": "structural",
+    "module": "FourStar",
+    "status": "axiom-audited",
+    "description": "Universal four-star moment and four degree sum\u226460"
+  },
+  "A1": {
+    "kind": "analytic",
+    "module": "MomentArithmetic",
+    "status": "axiom-audited",
+    "description": "Exact integer quadratic lower bounds including smallL"
+  },
+  "F1": {
+    "kind": "finite-exact",
+    "module": "SupportGrid",
+    "status": "axiom-audited",
+    "description": "Exact kernel decide upper bound2250"
+  },
+  "F2": {
+    "kind": "finite-exact",
+    "module": "SupportGrid53",
+    "status": "axiom-audited",
+    "description": "Exact kernel decide upper bound4475"
+  },
+  "C56": {
+    "kind": "assembly",
+    "module": "SupportFinish56",
+    "inputs": [
+      "D1",
+      "T1",
+      "T2",
+      "A1",
+      "F1"
+    ],
+    "status": "axiom-audited"
+  },
+  "C53": {
+    "kind": "assembly",
+    "module": "SupportFinish53",
+    "inputs": [
+      "D1",
+      "T1",
+      "T3",
+      "A1",
+      "F2"
+    ],
+    "status": "axiom-audited"
+  },
+  "R1": {
+    "kind": "representation-bridge",
+    "module": "SupportReduction",
+    "inputs": [
+      "C56",
+      "C53",
+      "D1"
+    ],
+    "status": "axiom-audited",
+    "description": "Counterexample reductions and I27 iff noFin56/53obstruction"
+  },
+  "V1": {
+    "kind": "audit",
+    "module": "FrontierAudit",
+    "status": "pass",
+    "roots": 66,
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "O1": {
+    "kind": "finite-exact",
+    "statement": "\u00acFiniteIntersectingObstructionOn53",
+    "status": "OPEN; no search exclusion or certificate"
+  },
+  "O2": {
+    "kind": "assembly",
+    "statement": "IntersectingRankFourUpper27",
+    "inputs": [
+      "R1",
+      "O1"
+    ],
+    "status": "OPEN in this formal development"
+  },
+  "O3": {
+    "kind": "finite-exact",
+    "statement": "\u00acProfileARealizable and \u00acProfileBRealizable",
+    "status": "OPEN; not proved"
+  }
+}

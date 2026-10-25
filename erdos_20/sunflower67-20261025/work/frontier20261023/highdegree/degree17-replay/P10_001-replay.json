@@ -1,0 +1,294 @@
+{
+  "result": "PASS",
+  "assurance": "certificate-diagnostic: shared-producer model reconstruction and exact integer replay; no solver, no Lean, no independent model proof",
+  "receipt_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_001.json",
+  "replayer_sha256": "1e6ef9e322b31593e12483a1e53937bf950f424d8c29433793f40ed98198608a",
+  "compute_limit_seconds": 20,
+  "python_executable": "/usr/bin/python3",
+  "python_version": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+  "receipt_sha256": "d137abe7764749ecd0452fd94f8d234d706612883b7f247c334e47a35259f73d",
+  "source": {
+    "name": "current",
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_component.py",
+    "sha256": "1e3eaa89225246bb695740792bcaf0a5c365eb50c4212467aeb3c9569d7658d0",
+    "matching_names": [
+      "current"
+    ]
+  },
+  "local43": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/upstream/MU42/scripts/local43.py",
+    "sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+    "match": true
+  },
+  "dependencies": {
+    "pinned": {
+      "repository/companion/upstream/MU42/scripts/local43.py": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+      "FOUNDATION_LEDGER.md": "3658ac4e94efe4bc5240856300c79c43d1388085c2126cb926df64dd48881992",
+      "analysis/mu41/mu41-analysis.md": "5b9821b942b6e782725c970332e00611eda29f238b96ca345b9c99f11f89744e",
+      "replay-selected-20261020/RECEIPT.json": "930a417d5f24c10056c9b10fb436fc7e52bdb13d327ed262edb895d1fd5eae8f",
+      "repository/paper/main.tex": "4aa36c9d56af5a8e3bdb44749107820549a73e0d3405e6c700104fa4c30e5c21",
+      "repository/companion/terminal/cross15/results/cross16_certificate.json": "fa9e49530acf9170b073c4ed24fde9ae9eb30ff78bf1edeed2a8f21018ed839b",
+      "repository/companion/terminal/cross15/src/verify.py": "f72bdb066eb40ebd3a5c072d0ed8431a547d06ae8d5581c408a44326df31422d"
+    },
+    "ordinary_bridge_sha256": {
+      "D17-research.md": "62b6cca0a0ea4659cde49a55cd51a40c713a798c0590474c1451b8f758caf1f5",
+      "D18-R99-bridge.md": "9f49028338cc787da8f65022ce399643a54214d59192a09ea4b164014847ae9c",
+      "D19-singleton-I04.md": "a074a1fe9cd5882a375457ebefe996d2e4e2d7a67b93f697e84d80e9580c57d6",
+      "C5-internal-compatibility.md": "056dea7da66635141b1350a4cc761bbdc11f1e7c7a755fa042c162d0dfd86c17"
+    },
+    "source_commit_metadata": "90c03c79bcf44eb8f61dff1b86091b822cc4cd3c",
+    "historical_adaptation_source": {
+      "path": "work/frontier20261023/highdegree/degree18_component.py",
+      "sha256": "8300c77fb1bf46c35f0028debf91b41a6ed07b035d9d324fb1239b98cc5bc557",
+      "description": "D18 component source including whole-pool rows, read 2026-10-23"
+    },
+    "scope": "The declared dependency files and ordinary notes are hash-checked; their external mathematical proofs are not replayed, and the historical adaptation source is not imported."
+  },
+  "case": {
+    "id": "P10_001",
+    "component": 10,
+    "outside": 7,
+    "r10": 0,
+    "r9": 0,
+    "interiors": [
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ]
+  },
+  "catalogue": {
+    "internal_count": 292,
+    "automorphism_count": 60,
+    "orbit_count": 13,
+    "orbit_size": 15,
+    "sha256": "37168963641376910c922ef83f2c6af1aebaed7c9335b5b04d059741f3308a05",
+    "coverage": "producer recursion checks equality of generated and orbit-covered assignments"
+  },
+  "literal_premises": {
+    "family": "finite simple SF4, empty-core sunflowers forbidden, cardinality exactly 68",
+    "global_degree_cap": 17,
+    "minimum_closed_neighborhood": 41,
+    "minimum_used_degree": 7,
+    "complete_centre_link": "P10 plus a disjoint-support intersecting family of 7 triples",
+    "component_support": "six specified points; arbitrary exterior identities and multiplicities",
+    "internal_assignment": "exactly case.interiors",
+    "bootstrap": {
+      "r10": 0,
+      "r9": 0
+    },
+    "imported": "H27; universal SF2/SF3 capacities, I8/I9/I10, isolation, B4, R16/high-link structure, trace margins, C5/P5 confinement and cover capacity, pair/singleton resources; prior crowding26, minimum used degree7, HP15, ONE-HIGH",
+    "boundary": "Rows are interpreted separately in D17-P10-internals.md; this replay does not prove their geometry."
+  },
+  "premise_sha256": "8dd9168f7aa37ba0b79799fedd9408dd02dd8d421cfecafc7af8ba92c043b3f6",
+  "model": {
+    "columns": 1381,
+    "trace_columns": 41,
+    "upper_rows": 97,
+    "equal_rows": 382,
+    "live_sizes": [
+      65,
+      146,
+      65,
+      146,
+      19,
+      146,
+      265,
+      265,
+      146,
+      19
+    ],
+    "internal_degrees": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "internal_cover_degrees": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "degree_caps": [
+      16,
+      16,
+      16,
+      16,
+      15,
+      15
+    ],
+    "zero_trace_indices": [
+      0,
+      2,
+      6,
+      8,
+      11,
+      12,
+      15,
+      21,
+      23,
+      25,
+      29,
+      33,
+      34,
+      35,
+      37
+    ],
+    "sha256": "772026993f6e6537a738b6df0ba909e781fa1dcef0aceddb1f26b9f8925f7e4a",
+    "all_coefficients_rhs_and_bounds": "validated Python integers, including zero-weight rows"
+  },
+  "exact": {
+    "scale": 10000000000,
+    "H": -1428571432,
+    "minimum": -30,
+    "G": -1428571402,
+    "negative": true,
+    "q_sha256_decimal_lines": "463dd8e8f492607c5eeeb40ff45775b7eb775925bcebf5d19de475d56f7647ad",
+    "q_column_count": 1381,
+    "source_weights_nonnegative": true,
+    "weighted_rows": [
+      [
+        84,
+        357142857,
+        "A",
+        84,
+        "pair:0:None"
+      ],
+      [
+        88,
+        357142857,
+        "A",
+        88,
+        "pair:2:None"
+      ],
+      [
+        113,
+        178571429,
+        "E",
+        16,
+        "anchor:0-trace:3"
+      ],
+      [
+        115,
+        178571429,
+        "E",
+        18,
+        "anchor:0-trace:6"
+      ],
+      [
+        116,
+        1785714286,
+        "E",
+        19,
+        "anchor:0-trace:7"
+      ],
+      [
+        189,
+        178571429,
+        "E",
+        92,
+        "anchor:2-trace:9"
+      ],
+      [
+        190,
+        178571429,
+        "E",
+        93,
+        "anchor:2-trace:12"
+      ],
+      [
+        191,
+        1785714286,
+        "E",
+        94,
+        "anchor:2-trace:13"
+      ],
+      [
+        265,
+        357142857,
+        "E",
+        168,
+        "anchor:4-trace:48"
+      ],
+      [
+        449,
+        357142857,
+        "E",
+        352,
+        "anchor:9-trace:48"
+      ],
+      [
+        492,
+        178571429,
+        "-E",
+        13,
+        "anchor:0-trace:1"
+      ],
+      [
+        494,
+        178571429,
+        "-E",
+        15,
+        "anchor:0-trace:4"
+      ],
+      [
+        567,
+        178571429,
+        "-E",
+        88,
+        "anchor:2-trace:1"
+      ],
+      [
+        568,
+        178571429,
+        "-E",
+        89,
+        "anchor:2-trace:4"
+      ],
+      [
+        641,
+        1428571429,
+        "-E",
+        162,
+        "anchor:4-choice"
+      ],
+      [
+        642,
+        357142857,
+        "-E",
+        163,
+        "anchor:4-trace:1"
+      ],
+      [
+        825,
+        1428571429,
+        "-E",
+        346,
+        "anchor:9-choice"
+      ],
+      [
+        826,
+        357142857,
+        "-E",
+        347,
+        "anchor:9-trace:4"
+      ]
+    ],
+    "assembled_order": [
+      "A",
+      "E",
+      "-E"
+    ],
+    "formula": "G = H - sum_j min(l_j*q_j, u_j*q_j), every original column, no artificial slack column"
+  },
+  "all_bound_inputs_unchanged": true,
+  "conclusion": "The hash-matched conditional model is exactly infeasible.",
+  "elapsed_seconds": 2.0157816219998494
+}

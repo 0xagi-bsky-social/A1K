@@ -1,0 +1,25 @@
+{
+  "available": true,
+  "renderer": "local-reportlab-paragraph-continuity",
+  "attempts": [
+    {
+      "renderer": "reportlab",
+      "python_executable": "/home/user/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "exit_code": 0,
+      "diagnostic_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "limitations": [
+    "LaTeX and Markdown inline notation remain readable source text in PDF; consult Markdown for exact notation.",
+    "PDF semantic tagging and accessibility conformance are not established."
+  ],
+  "validation": {
+    "header_and_eof": "checked",
+    "page_count": 9,
+    "text_extraction": "checked-title-and-nonempty-content",
+    "title_metadata": "checked",
+    "extracted_text_sha256": "20a7ff88eb6663fbff3f761aff93b53c0c3769db22adf53d8720b44870686682",
+    "visible_prose_fragments_checked": 141,
+    "math_layout_verification": "Semantic MathML and exact source preserved in HTML; PDF formulas require visual inspection."
+  }
+}

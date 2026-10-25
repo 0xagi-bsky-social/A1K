@@ -1,0 +1,26 @@
+{
+  "scope": "Guarded theorem domains and counting interfaces only; no numerical model reconstruction",
+  "rho_partition": {
+    "size": 15,
+    "support": 13,
+    "rho": 8,
+    "sunflower_free": true,
+    "branch": "rho=8; excluded from support<=11 and R16-minus-one premises"
+  },
+  "trace_refinement": {
+    "coarse_triple_count": 2,
+    "refined_proper_count": 1,
+    "refined_full_count": 1,
+    "incidence_count": 2,
+    "fine_trace_domain": 1093,
+    "coarse_trace_domain": 794,
+    "incidence_identity_checks": 325714
+  },
+  "A3_interface": {
+    "coefficient_identities_verified": true,
+    "derived_bound": "a_i >= 2*n - 5*h from b_i<=h, before using occupied-fibre degree bounds",
+    "n68_h27_lower_bound": 1,
+    "n68_h28_lower_bound": -4
+  },
+  "result": "PASS"
+}

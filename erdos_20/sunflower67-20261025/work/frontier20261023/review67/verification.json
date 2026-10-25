@@ -1,0 +1,134 @@
+[
+  {
+    "scope": "facts",
+    "status": "limited",
+    "method": "Primary theorem/definition inspection and actual committed rounds1\u20139, with later H27 commit metadata read separately.",
+    "observations": [
+      "Matching rank-four conventions and upper68 comparator were checked; theorem imports remain explicit.",
+      "Fresh commit metadata maps the earlier reported H27 identifier to a commit whose tree matches the prior reconstruction."
+    ],
+    "limitations": [
+      "No local replay or authentication of the complete external H27 historical ledger.",
+      "Identifier relationship does not establish the origin of the inconsistent earlier response."
+    ],
+    "evidence_ids": [
+      "global-dag",
+      "round9-committed",
+      "external-h27-scope-correction",
+      "external-h27-tree-correction",
+      "h27-identifier-clarification"
+    ]
+  },
+  {
+    "scope": "citations",
+    "status": "limited",
+    "method": "October25 primary retrievals, exact parameter comparisons and actual literature/citation reviews of the retained records.",
+    "observations": [
+      "Strongest directly inspected comparable upper remains68; no retrieved primary result gives an equal or stronger arbitrary-support rank-four upper67.",
+      "General support-size bounds, restricted families and public archive metadata were distinguished; cutoff is2026-10-25T13:36:25Z."
+    ],
+    "limitations": [
+      "Bounded discovery, not exhaustive global priority; SSRN6913500 full text and several native searches remain inaccessible/incomplete.",
+      "Original Jin exact theorem checked via Nikiforov restatement, not original full text.",
+      "Subsequent H27 identifier inspection does not extend the novelty search cutoff."
+    ],
+    "evidence_ids": [
+      "literature-refresh-20261025",
+      "general-comparison-20261025",
+      "rank4-search-20261025",
+      "round9-committed",
+      "h27-identifier-clarification"
+    ]
+  },
+  {
+    "scope": "logic",
+    "status": "limited",
+    "method": "Ordinary bridge and quantifier audits, acyclic-stage coverage, scoped Lean axioms and actual bounded reviewer reconstructions.",
+    "observations": [
+      "Global degree-case composition, actual-member maxima and positive-fibre-before-lower-bound ordering were checked.",
+      "The original maximum-degree root-selection request was explicitly resolved by its original writer in round4 and retained through round9.",
+      "Five arithmetic roots retain axiom-audited receipts; parameterized terminal interfaces retain mathematical hypotheses."
+    ],
+    "limitations": [
+      "The entire67 theorem is not an end-to-end Lean proof.",
+      "Checks and axiom lists do not by themselves discharge theorem parameters or authenticate imported computation."
+    ],
+    "evidence_ids": [
+      "global-dag",
+      "formal-scalar",
+      "formal-asymmetric",
+      "direct-jin",
+      "round4-committed",
+      "round9-committed"
+    ]
+  },
+  {
+    "scope": "methodology",
+    "status": "limited",
+    "method": "Inspection of arbitrary-support representation, literal complete coverage, stage ancestry and actual deletion/cover/fibre implications.",
+    "observations": [
+      "No global ambient-support cutoff is imposed on high-degree projections.",
+      "Round9 independently rebuilt six raw12 exceptional cover cases and inspected the actual-mask fibre inclusion condition."
+    ],
+    "limitations": [
+      "No complete independent reconstruction of every necessary-model row.",
+      "Selected reconstructions are narrower than the full deletion/fibre census."
+    ],
+    "evidence_ids": [
+      "degree17",
+      "degree16",
+      "cap15",
+      "reviewer-r9-controls",
+      "round9-committed"
+    ]
+  },
+  {
+    "scope": "data",
+    "status": "limited",
+    "method": "Recorded exact integer replay, independent literal coverage, covers/fibres/trees, negative controls and bounded fresh arithmetic/source-record checks.",
+    "observations": [
+      "All active new finite predicates have recorded completed exact checks, with ordinary geometric bridges.",
+      "Earlier actual controls reject omitted coverage, cyclic dependencies, wrong signs/scale and non-strict equality; round9 retains their historical status rather than calling them fresh reruns.",
+      "Round9 independently checked general-bound arithmetic, query record totals, D19 equality coefficients and selected cover/moment interfaces."
+    ],
+    "limitations": [
+      "High-degree coefficient replay shares model builders; integrity hashes are not source authentication.",
+      "No whole-proof replay was performed during the new literature refresh or round9."
+    ],
+    "evidence_ids": [
+      "degree19",
+      "degree18",
+      "degree17",
+      "degree16",
+      "rho15",
+      "q8-negative",
+      "reviewer-controls-r3",
+      "reviewer-r5-data_analyst",
+      "reviewer-r5-logic_auditor",
+      "reviewer-r9-controls",
+      "round9-committed"
+    ]
+  },
+  {
+    "scope": "text_reuse",
+    "status": "limited",
+    "method": "Actual copyeditor source inspection and bounded normalized-token comparisons in committed rounds, including new round9 prose against four accessed sources.",
+    "observations": [
+      "Earlier one-source comparison found a20-token bibliographic match and16-token attributed theorem fragment, with no identified distinctive unattributed passage.",
+      "Round9 changed-prose matches against README, metadata, Solution and SSRN abstract were3,2,2,2 generic tokens.",
+      "Final-round additions are explicitly attributed identifier metadata and the clarified inequality phrase; all are exposed in the bound author response."
+    ],
+    "limitations": [
+      "No broad-corpus detector or plagiarism-free certification.",
+      "Coverage describes actual inspected texts and prior-round checks; final same-version reviewer outputs separately assess the latest additions."
+    ],
+    "evidence_ids": [
+      "prior-ledger",
+      "round1-committed",
+      "round2-committed",
+      "round3-committed",
+      "round9-committed",
+      "h27-identifier-clarification"
+    ]
+  }
+]

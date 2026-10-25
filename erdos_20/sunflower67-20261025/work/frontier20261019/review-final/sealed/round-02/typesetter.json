@@ -1,0 +1,48 @@
+{
+  "content": {
+    "agent_id": "/root/review_coordinator/typesetter",
+    "role": "typesetter",
+    "context_id": "/root/review_coordinator/typesetter",
+    "round": 2,
+    "snapshot_sha256": "ca231dc7862039c04067c0ccc5ee58f1cdfdf600d9f9e0bf498878efcf4c78cc",
+    "manuscript_sha256": "2489c2194f27ff2597d9e2c670d9d51ea4ba505363a7ae62e307ee489e87195f",
+    "summary": "The v2 preview is bound to the frozen manuscript. Actual inspection of pages 1 and 4 supports readable hierarchy and faithful source notation within that coverage. It does not establish whole-document visual quality, HTML rendering, PDF tagging, or accessibility conformance.",
+    "evidence_ids": [
+      "F27"
+    ],
+    "decision": "continue",
+    "required_revisions": [],
+    "findings": [],
+    "revisions": [],
+    "checks": [
+      {
+        "scope": "Preview source binding",
+        "method": "Recomputed canonical snapshot and manuscript hashes, F27 manifest hash, and all twelve listed file hashes and byte counts.",
+        "observation": "Every comparison matched; the manifest manuscript digest equals this round's inspected Markdown digest.",
+        "result": "supported",
+        "evidence_ids": [
+          "F27"
+        ]
+      },
+      {
+        "scope": "Rendered pages 1 and 4",
+        "method": "Viewed both supplied PNG pages with view_image and compared their text and formulas with frozen Markdown.",
+        "observation": "Page 1 visibly distinguishes title, section headings, and body. Page 4 retains subtraction signs, inequalities, labels (1)–(3), and the opening sum-of-squares chain without visible clipping. ASCII binom, underscores, and source-style identifiers remain readable rather than fully typeset mathematics.",
+        "result": "supported",
+        "evidence_ids": [
+          "F27"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "tool": "collaboration.followup_task / specialist final response",
+    "call_id": "local-log:frontier20261019-final/round-02/typesetter/actual-public-response",
+    "context_id": "/root/review_coordinator/typesetter",
+    "recorded_at": "2026-10-19T13:45:49.274464+00:00",
+    "synthetic": false,
+    "public_response": "{\n  \"agent_id\": \"/root/review_coordinator/typesetter\",\n  \"role\": \"typesetter\",\n  \"context_id\": \"/root/review_coordinator/typesetter\",\n  \"round\": 2,\n  \"snapshot_sha256\": \"ca231dc7862039c04067c0ccc5ee58f1cdfdf600d9f9e0bf498878efcf4c78cc\",\n  \"manuscript_sha256\": \"2489c2194f27ff2597d9e2c670d9d51ea4ba505363a7ae62e307ee489e87195f\",\n  \"summary\": \"The v2 preview is bound to the frozen manuscript. Actual inspection of pages 1 and 4 supports readable hierarchy and faithful source notation within that coverage. It does not establish whole-document visual quality, HTML rendering, PDF tagging, or accessibility conformance.\",\n  \"evidence_ids\": [\"F27\"],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Preview source binding\",\n      \"method\": \"Recomputed canonical snapshot and manuscript hashes, F27 manifest hash, and all twelve listed file hashes and byte counts.\",\n      \"observation\": \"Every comparison matched; the manifest manuscript digest equals this round's inspected Markdown digest.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"F27\"]\n    },\n    {\n      \"scope\": \"Rendered pages 1 and 4\",\n      \"method\": \"Viewed both supplied PNG pages with view_image and compared their text and formulas with frozen Markdown.\",\n      \"observation\": \"Page 1 visibly distinguishes title, section headings, and body. Page 4 retains subtraction signs, inequalities, labels (1)–(3), and the opening sum-of-squares chain without visible clipping. ASCII binom, underscores, and source-style identifiers remain readable rather than fully typeset mathematics.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\"F27\"]\n    }\n  ]\n}\n",
+    "response_sha256": "0ffbd95cb00f2f0eac3514a2d296937efc83a0cfa19a40fb83d050e587cf0938"
+  },
+  "record_sha256": "9da2438069b5472969af8c6efdaccdc09b038f48ebb5b50f14b598fec2fc4e4a"
+}

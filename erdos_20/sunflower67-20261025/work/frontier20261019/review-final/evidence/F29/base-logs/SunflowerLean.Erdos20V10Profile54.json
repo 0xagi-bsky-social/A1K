@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20V10Profile54",
+  "source_sha256": "2f0b2745f6ff844dcb3fd7a61ac64367227690a393f3d2d5977f875a580f460b",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20V10Profile54.olean",
+    "SunflowerLean/Erdos20V10Profile54.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 6.078,
+  "output": "SunflowerLean/Erdos20V10Profile54.lean:11:31: warning: unused variable `htc`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n"
+}

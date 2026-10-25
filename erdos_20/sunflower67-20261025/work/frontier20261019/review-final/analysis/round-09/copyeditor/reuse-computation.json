@@ -1,0 +1,69 @@
+{
+  "manuscript_sha256": "3ee74792dff98a43231d07100d0034b485a6f91beb2b565ffb15d22f5a40e365",
+  "snapshot_sha256": "857bbfd81dca2ae61ee6af3097e6b29403b49028356b723e6e51b6c0640292a8",
+  "script_sha256": "b79d3ea2cf790a461049015834e4faf706f9c689697f0babd111d848e1110237",
+  "method": "NFKC casefolded word tokens; remove citation artifacts and URLs; exact maximal contiguous matches of at least eight tokens; primary excerpt line ranges are not joined across gaps; duplicate excerpts remain separately counted.",
+  "corpus": "Only frozen F16 and F17 returned arXiv/A1K primary-source excerpts; no web-wide, semantic-paraphrase, or global originality test.",
+  "manuscript_tokens": 3607,
+  "results": [
+    {
+      "evidence_id": "F16",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F16/primary-web-initial.json",
+      "sha256": "dd6d8820fb61e8983d750f1256fb8d2c73558fd651f3d459af35ae3852015226",
+      "source_segments": 1,
+      "source_tokens_including_repeated_excerpts": 3368,
+      "maximal_match_occurrences": 1,
+      "unique_matched_passages": [
+        "sunflower free uniform families recursive constructions and explicit bounds"
+      ],
+      "matches": [
+        {
+          "manuscript_token_start": 3518,
+          "source_token_start": 68,
+          "token_count": 9,
+          "normalized_match": "sunflower free uniform families recursive constructions and explicit bounds",
+          "segment_index": 0,
+          "source_line_range": [
+            0,
+            292
+          ]
+        }
+      ]
+    },
+    {
+      "evidence_id": "F17",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F17/primary-web-targeted.json",
+      "sha256": "8d7cc0d21ea02e6f22861916398214a1ca73d2c83cc1fe752c82b115ed6a222d",
+      "source_segments": 24,
+      "source_tokens_including_repeated_excerpts": 3465,
+      "maximal_match_occurrences": 2,
+      "unique_matched_passages": [
+        "sunflower free uniform families recursive constructions and explicit bounds"
+      ],
+      "matches": [
+        {
+          "manuscript_token_start": 3518,
+          "source_token_start": 44,
+          "token_count": 9,
+          "normalized_match": "sunflower free uniform families recursive constructions and explicit bounds",
+          "segment_index": 0,
+          "source_line_range": [
+            15,
+            61
+          ]
+        },
+        {
+          "manuscript_token_start": 3518,
+          "source_token_start": 30,
+          "token_count": 9,
+          "normalized_match": "sunflower free uniform families recursive constructions and explicit bounds",
+          "segment_index": 17,
+          "source_line_range": [
+            29,
+            58
+          ]
+        }
+      ]
+    }
+  ]
+}

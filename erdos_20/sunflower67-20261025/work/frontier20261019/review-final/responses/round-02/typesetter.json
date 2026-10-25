@@ -1,0 +1,30 @@
+{
+  "agent_id": "/root/review_coordinator/typesetter",
+  "role": "typesetter",
+  "context_id": "/root/review_coordinator/typesetter",
+  "round": 2,
+  "snapshot_sha256": "ca231dc7862039c04067c0ccc5ee58f1cdfdf600d9f9e0bf498878efcf4c78cc",
+  "manuscript_sha256": "2489c2194f27ff2597d9e2c670d9d51ea4ba505363a7ae62e307ee489e87195f",
+  "summary": "The v2 preview is bound to the frozen manuscript. Actual inspection of pages 1 and 4 supports readable hierarchy and faithful source notation within that coverage. It does not establish whole-document visual quality, HTML rendering, PDF tagging, or accessibility conformance.",
+  "evidence_ids": ["F27"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Preview source binding",
+      "method": "Recomputed canonical snapshot and manuscript hashes, F27 manifest hash, and all twelve listed file hashes and byte counts.",
+      "observation": "Every comparison matched; the manifest manuscript digest equals this round's inspected Markdown digest.",
+      "result": "supported",
+      "evidence_ids": ["F27"]
+    },
+    {
+      "scope": "Rendered pages 1 and 4",
+      "method": "Viewed both supplied PNG pages with view_image and compared their text and formulas with frozen Markdown.",
+      "observation": "Page 1 visibly distinguishes title, section headings, and body. Page 4 retains subtraction signs, inequalities, labels (1)–(3), and the opening sum-of-squares chain without visible clipping. ASCII binom, underscores, and source-style identifiers remain readable rather than fully typeset mathematics.",
+      "result": "supported",
+      "evidence_ids": ["F27"]
+    }
+  ]
+}

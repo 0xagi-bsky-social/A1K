@@ -1,0 +1,15 @@
+{
+  "module": "ProfileAFibersAudit",
+  "source_sha256": "64ec1c607829f2189324e8ea8adbbe8e75e3e7dd6c1afc1b70ac5ed9b7ca1a6e",
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "--memory=1024",
+    "--threads=1",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/closure-rebuild/build/ProfileAFibersAudit.olean",
+    "ProfileAFibersAudit.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 3.7099291660124436,
+  "output": "PROFILE_A_BRIDGE_AXIOM_AUDIT {\"axioms\":[\"Classical.choice\",\"Quot.sound\",\"propext\"],\"root\":\"FrontierProfileAFibers.row_key_card_two\",\"status\":\"pass\"}\nPROFILE_A_BRIDGE_AXIOM_AUDIT {\"axioms\":[\"Classical.choice\",\"Quot.sound\",\"propext\"],\"root\":\"FrontierProfileAFibers.key_card_two\",\"status\":\"pass\"}\nPROFILE_A_BRIDGE_AXIOM_AUDIT {\"axioms\":[\"Classical.choice\",\"Quot.sound\",\"propext\"],\"root\":\"FrontierProfileAFibers.fiber_card_le_four\",\"status\":\"pass\"}\nPROFILE_A_BRIDGE_AXIOM_AUDIT {\"axioms\":[\"Classical.choice\",\"Quot.sound\",\"propext\"],\"root\":\"FrontierProfileAFibers.rows_card_le_four_mul_keys\",\"status\":\"pass\"}\n"
+}

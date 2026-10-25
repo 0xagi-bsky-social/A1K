@@ -1,0 +1,35 @@
+{
+  "status": "PREPARED_EXPLICIT_DAG_NOT_A_COMPLETED_REPLAY_OR_COVERAGE_CLAIM",
+  "prior_nodes": 70,
+  "new_E3_nodes": 24,
+  "total_nodes": 94,
+  "new_phaseone_nodes": 8,
+  "new_trace_upper_nodes": 16,
+  "all_new_nodes_use_exact_prior70": true,
+  "no_E3_sibling_dependency": true,
+  "ordinary_terminal_bound": 40,
+  "required_residuals": 51,
+  "executed": "metadata preparation only; no model, LP, numerical replay or Lean",
+  "artifacts": [
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/append_d17_q8_e3_plan_v9.py",
+      "sha256": "66ec94601ff4914b40710d10d2bc18dcd16af50efa4fe9611d3b00905036fb9c"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-Q8-E3-terminal-support.md",
+      "sha256": "4aa3cbe2efbfe38b88a1eedbf14d823ddf8f654235024242c20f2de84253748e"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-E4-complete-plan-v9.json",
+      "sha256": "a57524270adb7b3e983f118ab050902fcc683057dd1b058df273a95da5c7347b"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-exterior-E3-v9-progress.json",
+      "sha256": "6549864275dafb5bc95c66b0c60eb5ed3ecaa8792a690028ac5ae56e99e0e0f7"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-complete-plan-v9.json",
+      "sha256": "b2a30c54e4a8f72c3fb161274159a3c3deadd073ef2d72415f5cad9924ebf156"
+    }
+  ]
+}

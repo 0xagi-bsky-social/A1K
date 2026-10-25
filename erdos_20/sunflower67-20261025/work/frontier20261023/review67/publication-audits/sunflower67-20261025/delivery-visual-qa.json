@@ -1,0 +1,131 @@
+{
+  "schema_version": "sunflower67-delivery-visual-qa/1",
+  "reviewer": "/root/r67_typeset",
+  "role": "Typesetting and Formatting Specialist",
+  "audit_kind": "Non-voting final delivery visual QA; not an additional scholarly round",
+  "non_voting": true,
+  "performed_at_utc": "2026-10-25T14:38:40.609834+00:00",
+  "decision": "pass_for_delivery_with_stated_limitations",
+  "summary": "All eleven pages of the actual published PDF were visually inspected. No clipping, overlap, unreadable mathematical glyph, broken table continuation or source/receipt inconsistency was observed. No delivery repair is required within this inspection scope.",
+  "pdf_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/publication/sunflower67-20261025/report.pdf",
+  "pdf_sha256": "ca8a81f4578ff4a26289ecf2733afd27b69d9b8de7d30fe06c977b71921b5d55",
+  "manuscript_sha256": "ec6872777eecaeca0563978e849f2b2fce2c48eb9e28e2efed87ba64b3128bb9",
+  "publication_receipt_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/publication/sunflower67-20261025.publication.json",
+  "publication_receipt_sha256": "2d5fe851cceee074efb860ac4e60e2fd815f523b014b4c2c51b36ca0ce2b48f4",
+  "inspected_page_count": 11,
+  "inspected_page_paths": [
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/publication-audits/sunflower67-20261025/visual-pages/page-01.png",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/publication-audits/sunflower67-20261025/visual-pages/page-02.png",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/publication-audits/sunflower67-20261025/visual-pages/page-03.png",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/publication-audits/sunflower67-20261025/visual-pages/page-04.png",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/publication-audits/sunflower67-20261025/visual-pages/page-05.png",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/publication-audits/sunflower67-20261025/visual-pages/page-06.png",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/publication-audits/sunflower67-20261025/visual-pages/page-07.png",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/publication-audits/sunflower67-20261025/visual-pages/page-08.png",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/publication-audits/sunflower67-20261025/visual-pages/page-09.png",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/publication-audits/sunflower67-20261025/visual-pages/page-10.png",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/publication-audits/sunflower67-20261025/visual-pages/page-11.png"
+  ],
+  "inspected_page_sha256": {
+    "page-01.png": "d3a9014ab9c40f4223d13f1f286285c01cf6960b80cec7da5b3e34f35b918e63",
+    "page-02.png": "37262ccfcf2b28ab6716a55228b7a50a643b86915aef1ba7efc32846a9c0d87e",
+    "page-03.png": "b9f47f70a07943a13b1bf6c09915e51b34eed6aa51f0836695b5c9784244b14b",
+    "page-04.png": "a028a540c95187d358a3674516d0d5adf1ba6215ef96051d62b4209e089058d5",
+    "page-05.png": "3f973292595a8342743ee9392ee01687fbcb0d294a4ad86630388d7a8253608a",
+    "page-06.png": "559788fe4d71a419074b55e1bf6bb058e188510465d3c0a5346f6dc63ee0c75b",
+    "page-07.png": "5d016df740c5153e72350954acac4ede29106ae855cceba54388b51163acce04",
+    "page-08.png": "8fe53084538fb750704f7694754372bef00184f867417af8410b48793a49d56a",
+    "page-09.png": "fe524750fa61e15223f2e7dc853dfe9d2a4725f7b9056511475880b369a4b1a6",
+    "page-10.png": "6faf1f3497e42ab3c6532f256f7693053bf363bcce76d0b7bf71c4e0a13dc917",
+    "page-11.png": "50a7712851288f32a0af189ea4e778317e0cbfe0e297fb0977ce20831f1e9b15"
+  },
+  "inspection_method": "Called view_image on each of the eleven actual publication-audit PNGs. Independently rerasterized report.pdf with Poppler at 90 dpi in a temporary directory; all eleven resulting PNG hashes matched the inspected images. No prior-preview image was substituted.",
+  "findings": [
+    {
+      "id": "DELIVERY-VISUAL-01",
+      "severity": "note",
+      "status": "passed",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "observation": "Margins, headings, footers and page transitions are readable. No clipping, text overlap or missing-glyph box was observed. The long source paragraph remains continuous on page 2; the conclusion is complete on page 9."
+    },
+    {
+      "id": "DELIVERY-MATH-02",
+      "severity": "note",
+      "status": "passed",
+      "pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "observation": "The maximum-size bound and forcing threshold remain distinct. Set difference, bracket indices, semicolon anchor arguments and N[max]/N[R]/μ are visible. The coefficient maximum, inequality directions, strict-comparison and no-rounding caveats survive. Both negative numerators on page 6 retain their minus signs. Theorem 2 retains its maximum/existence definition; root-degree caps and the A3 positivity chain remain legible. The conclusion visibly says under μ ≥ 41."
+    },
+    {
+      "id": "DELIVERY-TABLE-03",
+      "severity": "note",
+      "status": "passed",
+      "pages": [
+        6,
+        7,
+        10,
+        11
+      ],
+      "observation": "The orbit and root-case tables retain their row/column associations. The companion table continues on page 11 with its header repeated, readable filenames and complete conclusions. No row content overlaps a border or footer."
+    },
+    {
+      "id": "DELIVERY-SCOPE-04",
+      "severity": "note",
+      "status": "qualified",
+      "pages": [
+        2,
+        3,
+        9,
+        11
+      ],
+      "observation": "Historical H27 authentication, literature-search coverage, non-end-to-end formal verification and local-review limitations remain visible. The receipt generic MathML wording is not taken as evidence of semantic tagging; its explicit literal-Unicode limitations control this audit."
+    }
+  ],
+  "receipt_and_text_checks": {
+    "actual_publication_result_matches_sibling_receipt": true,
+    "all_three_artifact_hashes_and_byte_counts_match_receipt": true,
+    "published_markdown_byte_identical_to_round10_manuscript": true,
+    "pdf_page_count": 11,
+    "pdf_title_metadata_matches": true,
+    "plain_pdftotext_sha256": "9851315f0021e8248e33810ae1988e28c2dbe1a7250f1fe708901fa11775a883",
+    "plain_pdftotext_sha256_matches_receipt": true,
+    "receipt_reported_visible_prose_fragments_checked": 206,
+    "independent_text_check_scope": "Re-extracted all PDF text and matched its receipt hash; independently checked selected mathematical and caveat tokens. Did not perform a second exhaustive 206-fragment comparison.",
+    "source_html_pdf_link_target_count": 9,
+    "source_html_pdf_link_targets_match_in_order": true,
+    "link_check_method": "CommonMark link parsing, HTML anchor parsing and Poppler pdfinfo -url annotations.",
+    "live_link_destinations_reopened": false,
+    "pdfinfo_tagged": "no"
+  },
+  "required_repairs": [],
+  "limitations": [
+    "Visual inspection covers the supplied 765-by-990-pixel, 90-dpi rasterization of all eleven published pages and selected text/token checks; it is not a universal semantic-equivalence proof.",
+    "Mathematics retains literal Unicode and bracketed-index notation. No semantic mathematics tagging or accessibility conformance is certified.",
+    "This delivery QA is non-voting and does not add a scholarly review, establish mathematical correctness or supply independent human certification.",
+    "Link targets were compared across the delivered formats; their external availability or contents were not re-audited."
+  ],
+  "historical_byte_qa_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/publication-audits/sunflower67-20261025/byte-and-page-qa.json",
+  "historical_byte_qa_sha256": "b3c04a71f7ff8b15c997292d989eac9f4c4405277e16699db174b1132c6967a1",
+  "historical_byte_qa_preserved": true,
+  "published_artifacts_modified": false
+}

@@ -1,0 +1,19 @@
+/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/TerminalAsymmetric.lean:23:0: warning: automatically included section variable(s) unused in theorem `FrontierTerminal.TwoAvoidance.toOneAvoidance`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/TerminalAsymmetric.lean:31:0: warning: automatically included section variable(s) unused in theorem `FrontierTerminal.not_oneAvoidance_empty`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'FrontierTerminal.asymmetric_disjoint_union_trace_ge_five' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FrontierTerminal.asymmetric_disjoint_terminal_pair_has_pureY_transversal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'FrontierTerminal.asymmetric_without_pureY_intersecting' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FrontierTerminal.asymmetric_terminal_separation_card_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FrontierTerminal.asymmetric_terminal_residual_card_le_37' depends on axioms: [propext, Classical.choice, Quot.sound]

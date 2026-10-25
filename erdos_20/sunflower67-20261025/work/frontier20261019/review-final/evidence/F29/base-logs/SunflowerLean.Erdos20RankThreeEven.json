@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20RankThreeEven",
+  "source_sha256": "8e3b0aa0f0e45b055cadeb16491cfc0701e87677d829a0830b9d22f4a0b1be85",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20RankThreeEven.olean",
+    "SunflowerLean/Erdos20RankThreeEven.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 3.409,
+  "output": ""
+}

@@ -1,0 +1,7 @@
+{
+  "file": "SupportGrid.lean",
+  "source_sha256": "89a2adeb63ff66e859e2829f9aed4ab4497b7be31a9decca551f7f6cec98869e",
+  "exit_code": 0,
+  "seconds": 124.208,
+  "output": "'FrontierSupportGrid.grid_bound' does not depend on any axioms\n'FrontierSupportGrid.natural_grid_bound' depends on axioms: [propext, Quot.sound]\n"
+}

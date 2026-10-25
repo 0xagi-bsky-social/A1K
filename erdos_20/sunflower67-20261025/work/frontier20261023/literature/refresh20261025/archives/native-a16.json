@@ -1,0 +1,27 @@
+{
+  "retrieval_date": "2026-10-25",
+  "request": {
+    "click": [
+      {
+        "ref_id": "turn215view2",
+        "id": 3
+      }
+    ],
+    "open": [
+      {
+        "ref_id": "https://api.archives-ouvertes.fr/search/?q=sunflower&wt=json&rows=100"
+      },
+      {
+        "ref_id": "https://zenodo.org/search?q=%22sunflower-free%22&l=list&p=1&s=10&sort=newest"
+      },
+      {
+        "ref_id": "https://osf.io/preprints/discover?q=sunflower"
+      },
+      {
+        "ref_id": "https://eccc.weizmann.ac.il/keyword/16911/"
+      }
+    ],
+    "response_length": "long"
+  },
+  "result": "Internal Error ()\nciteturn233view0 [wordlim: 200] Source: open({\"ref_id\":\"https://api.archives-ouvertes.fr/search/?q=sunflower&wt=json&rows=100\",\"lineno\":null}); Total lines: 1\nL0: URL https://api.archives-ouvertes.fr/search/?q=sunflower&rows=100&wt=json is not accessible via this tool.\n--------------------------------------------------------------------------------\nInternal Error ()\nciteturn233view1 [wordlim: 200] Source: open({\"ref_id\":\"https://zenodo.org/search?q=%22sunflower-free%22&l=list&p=1&s=10&sort=newest\",\"lineno\":null}); Total lines: 1\nL0: URL https://zenodo.org/search?l=list&p=1&q=%22sunflower-free%22&s=10&sort=newest is not accessible via this tool.\n--------------------------------------------------------------------------------\nInternal Error ()\nciteturn233view2 [wordlim: 200] Source: open({\"ref_id\":\"https://osf.io/preprints/discover?q=sunflower\",\"lineno\":null}); Total lines: 1\nL0: URL https://osf.io/preprints/discover?q=sunflower is not accessible via this tool.\n--------------------------------------------------------------------------------\nInternal Error ()\nciteturn233view3 [wordlim: 200] Source: open({\"ref_id\":\"https://eccc.weizmann.ac.il/keyword/16911/\",\"lineno\":null}); Total lines: 1\nL0: URL https://eccc.weizmann.ac.il/keyword/16911/ is not accessible via this tool.\n--------------------------------------------------------------------------------\nInternal Error ()\nciteturn233view4 [wordlim: 200] Source: click({\"ref_id\":\"turn215view2\",\"id\":3}); Total lines: 1\nL0: Failed to fetch https://zenodo.org/records/20624929/files/Divisibility_submission_final_090626.pdf?download=1: Cache miss\n"
+}

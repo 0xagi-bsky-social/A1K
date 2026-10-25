@@ -1,0 +1,200 @@
+{
+  "R16_low_disjoint": [
+    {
+      "branch": 3391,
+      "colour": 3014,
+      "count": 6300,
+      "kind": "two_triangles",
+      "min": 3652,
+      "nodes": 16357,
+      "proper_colour_pairs_checked": 40205,
+      "solutions": 0
+    },
+    {
+      "branch": 1434,
+      "colour": 2809,
+      "count": 1095,
+      "kind": "cycle5",
+      "min": 536,
+      "nodes": 5874,
+      "proper_colour_pairs_checked": 37029,
+      "solutions": 0
+    },
+    {
+      "branch": 864,
+      "colour": 1588,
+      "count": 536,
+      "kind": "triangle_path",
+      "min": 653,
+      "nodes": 3641,
+      "proper_colour_pairs_checked": 22719,
+      "solutions": 0
+    }
+  ],
+  "contract": {
+    "I7_support_cap": 7,
+    "R16_disjoint_cap": 7,
+    "R16_size": 16,
+    "formalized": false,
+    "global67_proved": false,
+    "global_gate": "all used points degree16 AND every singleton of every anchor at most7"
+  },
+  "mutations": {
+    "names": [
+      "missing_seven_type",
+      "wrong_orbit_size",
+      "missing_mixed_trace",
+      "false_mixed_witness",
+      "duplicate_catalogue_root",
+      "lower_target_to_15",
+      "raise_disjoint_cap_to_7",
+      "raise_minimum_degree_to_4",
+      "reduce_support_cap_to_10",
+      "delete_seed_block",
+      "delete_root_branch",
+      "delete_candidate_from_cover",
+      "false_count_at_root",
+      "cyclic_child",
+      "orphan_record"
+    ],
+    "rejected": 15
+  },
+  "projection_limit": {
+    "denominators": [
+      1,
+      2,
+      3,
+      6
+    ],
+    "equalities": 1,
+    "inequalities": 191,
+    "noncentral_mass": 52,
+    "root_star_mass": 16,
+    "status": "EXACT_RELAXATION_FEASIBLE_NOT_A_FAMILY",
+    "variables": 386
+  },
+  "seven": {
+    "independent_complement_selections": 15360,
+    "labelled_on_six": 1860,
+    "mixed_traces_checked": 175,
+    "one_type_on_seven_points": 1,
+    "orbit_sizes": [
+      120,
+      360,
+      60,
+      240,
+      360,
+      360,
+      360
+    ],
+    "seven_isomorphism_types_on_six_points": 7,
+    "status": "PASS"
+  },
+  "status": "PASS",
+  "structural_checks": {
+    "R16_degrees": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      6,
+      6,
+      6,
+      6
+    ],
+    "R16_disjoint_histogram": {
+      "3": 4,
+      "7": 12
+    },
+    "R16_sectors": [
+      {
+        "faces": 6,
+        "triangle_degrees": [
+          3,
+          3,
+          4,
+          4,
+          4
+        ],
+        "vertices": 5
+      },
+      {
+        "faces": 6,
+        "triangle_degrees": [
+          3,
+          3,
+          4,
+          4,
+          4
+        ],
+        "vertices": 5
+      },
+      {
+        "faces": 4,
+        "triangle_degrees": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "vertices": 4
+      }
+    ],
+    "SF2_graphs_checked": 1198,
+    "SF2_histogram": {
+      "0": 1,
+      "1": 15,
+      "2": 105,
+      "3": 380,
+      "4": 555,
+      "5": 132,
+      "6": 10
+    },
+    "arithmetic_68_candidates": [
+      [
+        3,
+        1,
+        5
+      ]
+    ],
+    "cap_eight_countercontrol": true,
+    "core_six_allowed_traces": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "normalized_components": [
+      {
+        "four_roles": 5,
+        "name": "simplex_boundary",
+        "six_roles": 0,
+        "tetrahedra": 5,
+        "vertices": 5
+      },
+      {
+        "four_roles": 2,
+        "name": "tetrahedron_suspension",
+        "six_roles": 4,
+        "tetrahedra": 8,
+        "vertices": 6
+      },
+      {
+        "four_roles": 0,
+        "name": "triangle_join",
+        "six_roles": 6,
+        "tetrahedra": 9,
+        "vertices": 6
+      }
+    ],
+    "status": "PASS"
+  }
+}

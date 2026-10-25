@@ -1,0 +1,27 @@
+AHS27_AXIOM_AUDIT {"axioms":["Classical.choice","Quot.sound","propext"],"root":"FrontierAHS27.AHS_card","status":"pass"}
+AHS27_AXIOM_AUDIT {"axioms":["Classical.choice","Quot.sound","propext"],"root":"FrontierAHS27.AHS_uniform","status":"pass"}
+AHS27_AXIOM_AUDIT {"axioms":["Classical.choice","Quot.sound","propext"],"root":"FrontierAHS27.AHS_intersecting","status":"pass"}
+AHS27_AXIOM_AUDIT {"axioms":["Classical.choice","Quot.sound","propext"],"root":"FrontierAHS27.AHS_eq_chooseTwoGroups","status":"pass"}
+AHS27_AXIOM_AUDIT {"axioms":["Classical.choice","Quot.sound","propext"],"root":"FrontierAHS27.group_card","status":"pass"}
+AHS27_AXIOM_AUDIT {"axioms":["Classical.choice","Quot.sound","propext"],"root":"FrontierAHS27.groups_disjoint","status":"pass"}
+AHS27_AXIOM_AUDIT {"axioms":["Classical.choice","Quot.sound","propext"],"root":"FrontierAHS27.groups_cover","status":"pass"}
+AHS27_AXIOM_AUDIT {"axioms":["Classical.choice","Quot.sound","propext"],"root":"FrontierAHS27.AHS_support","status":"pass"}
+AHS27_AXIOM_AUDIT {"axioms":["Classical.choice","Quot.sound","propext"],"root":"FrontierAHS27.trace_blockers","status":"pass"}
+AHS27_AXIOM_AUDIT {"axioms":["Classical.choice","Quot.sound","propext"],"root":"FrontierAHS27.map_trace_subset","status":"pass"}
+AHS27_AXIOM_AUDIT {"axioms":["Classical.choice","Quot.sound","propext"],"root":"FrontierAHS27.trace_card_le","status":"pass"}
+AHS27_AXIOM_AUDIT {"axioms":["Classical.choice","Quot.sound","propext"],"root":"FrontierAHS27.map_inter_arbitrary","status":"pass"}
+AHS27_AXIOM_AUDIT {"axioms":["Classical.choice","Quot.sound","propext"],"root":"FrontierAHS27.extra_trace_not_mem","status":"pass"}
+AHS27_AXIOM_AUDIT {"axioms":["Classical.choice","Quot.sound","propext"],"root":"FrontierAHS27.embedded_AHS_extra_disjoint_of_trace_property","status":"pass"}
+AHS27_AXIOM_AUDIT {"axioms":["Classical.choice","Quot.sound","propext"],"root":"FrontierAHS27.embedded_AHS_extra_disjoint","status":"pass"}
+AHS27_AXIOM_AUDIT {"axioms":["Classical.choice","Quot.sound","propext"],"root":"FrontierAHS27.rank_four_embedded_AHS_extra_disjoint","status":"pass"}
+theorem FrontierAHS27.embedded_AHS_extra_disjoint.{u} : ∀ {α : Type u} [inst : DecidableEq α] (e : Fin 9 ↪ α)
+  (F : Finset (Finset α)),
+  IsSunflowerFree F 3 →
+    Erdos20FiniteReduction.mapFamily e FrontierAHS27.AHS ⊆ F →
+      ∀ C ∈ F,
+        C.card ≤ 4 →
+          C ∉ Erdos20FiniteReduction.mapFamily e FrontierAHS27.AHS → Disjoint C (FrontierAHS27.blockSupport e) :=
+fun {α} [DecidableEq α] e F hfree hcontain C hC hcard hout =>
+  FrontierAHS27.embedded_AHS_extra_disjoint_of_trace_property FrontierAHS27.trace_blockers e F hfree hcontain C hC hcard
+    hout
+'FrontierAHS27.embedded_AHS_extra_disjoint' depends on axioms: [propext, Classical.choice, Quot.sound]

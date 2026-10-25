@@ -1,0 +1,1967 @@
+{
+  "snapshot": {
+    "contract_sha256": "90d2d9a768c921fd7766a8bdf668ffbf291886ce0f2ed7a753bd988d3ecfddc5",
+    "evidence": [
+      {
+        "content_sha256": "95a2713bd5350d74f80f5f0e6226406cc9ba32b8635ef9fd2fa98a5735426ac5",
+        "description": "Substantial-target review admission",
+        "id": "admission-v1",
+        "kind": "research-contract",
+        "limitations": [
+          "Admission is a research decision, not independent certification"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/admission-v1/review-admission.json",
+        "method": "Root declaration bound to successful proof receipts",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "3a3a84de13981539076dacb0b59efceb8360963e5173533a4671e2c71ab5842b",
+        "description": "Actual 20 October search and primary-source retrieval notes",
+        "id": "primary-sources-v1",
+        "kind": "primary-source-ledger",
+        "limitations": [
+          "Bounded searches; local notes do not authenticate external pages or prove exhaustive priority"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/primary-sources-v1/primary-source-check-20261020.json",
+        "method": "Read local record of actual browser access",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "b0b35c7b4f712221ad7a18dc620880b383914450d258272dc6e26a21fbb2531a",
+        "description": "Eight terminal roots and expanded conditional theorem",
+        "id": "terminal-audit-v1",
+        "kind": "formal-proof-receipt",
+        "limitations": [
+          "Same evaluator and cached dependencies; source closure pending"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/terminal-audit-v1/FinalEightyAudit.json",
+        "method": "Successful Lean output with allow-listed axiom audit",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "115ab7cff2d18b6d78515628dff3917bfd45384e546d24e802735f7039253e8d",
+        "description": "Unconditional two-independent-twenty-star theorem and literal Profile B exclusion",
+        "id": "two-star-audit-v1",
+        "kind": "formal-proof-receipt",
+        "limitations": [
+          "Same evaluator and cached dependencies; source closure pending"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/two-star-audit-v1/TwoHighEightyAudit.json",
+        "method": "Successful Lean output and printed theorem",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "61f49ee5379931a6c33fa669878bd8ce2db9b5668a12afbb89d2f5b71ba62883",
+        "description": "Literal Profile A exclusion from I27",
+        "id": "profile-a-audit-v1",
+        "kind": "formal-proof-receipt",
+        "limitations": [
+          "Same evaluator and cached dependencies; source closure pending"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/profile-a-audit-v1/ProfileAClosedAudit.json",
+        "method": "Successful Lean audit output",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "0c5914e468740d6de8be7f36ae37aa95817442d0b02fd546a1260683a978b55d",
+        "description": "formal Lean source snapshot",
+        "id": "lean-source-formal-v1",
+        "kind": "formal-source",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-formal-v1",
+        "method": "Byte copying and SHA-256 manifest",
+        "status": "available"
+      },
+      {
+        "content_sha256": "e0e67cb5efece6e4dfce3d0b2701efb3c89c72c6ac158c24a18c04f364cb5388",
+        "description": "theory Lean source snapshot",
+        "id": "lean-source-theory-v1",
+        "kind": "formal-source",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-theory-v1",
+        "method": "Byte copying and SHA-256 manifest",
+        "status": "available"
+      },
+      {
+        "content_sha256": "0f2542a2f9d02d393b36015c7473c20f2804b3094ffb11b0a87c49109c99495c",
+        "description": "compute Lean source snapshot",
+        "id": "lean-source-compute-v1",
+        "kind": "formal-source",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-compute-v1",
+        "method": "Byte copying and SHA-256 manifest",
+        "status": "available"
+      },
+      {
+        "content_sha256": "4189d47f0ba96c4f8e4ce8719c71290b28258b73ae4b93c2ed0005d616fa0591",
+        "description": "Python finite relative-geometry diagnostic for stronger45 conjecture",
+        "id": "universal45-diagnostic-v1",
+        "kind": "exploratory-computation",
+        "limitations": [
+          "No Lean normalization or universal45 theorem"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/universal45-diagnostic-v1/universal_two_star.json",
+        "method": "Recorded exact finite enumeration",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "99420e08e17e639deae4146e1e569a18282623765a1e4e25a6a03032edbea1f2",
+        "description": "C++ diagnostic crosscheck",
+        "id": "universal45-crosscheck-v1",
+        "kind": "exploratory-computation",
+        "limitations": [
+          "External diagnostic, not kernel proof"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/universal45-crosscheck-v1/b_universal_check.json",
+        "method": "Recorded finite enumeration",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "ad7be50ed8eaccb3927465177f10eb79efdc40cc044d9cd48428ed5fa89b746d",
+        "description": "Resource-limited45 witness attempt",
+        "id": "sharp45-failure-v1",
+        "kind": "failed-formal-attempt",
+        "limitations": [
+          "No successful proof receipt"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/sharp45-failure-v1/Sharp45.json",
+        "method": "Retained unsuccessful Lean run",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "de11e63ae63bf201dd2babc661f3f6c903dada70f023bf49a9b2adc2d682d5d4",
+        "description": "Source-closure status at review initialization",
+        "id": "closure-pending-v1",
+        "kind": "source-rebuild-status",
+        "limitations": [
+          "Source-closure rebuild pending/retry underway; no completion inferred"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-pending-v1/summary.json",
+        "method": "Frozen status receipt",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "b77a97fb49054440e4cbf077add8f60b491b1c973972aad768e9035502d0931c",
+        "description": "Completed source closure:161 modules,63 fresh and98 source-matched prior successful rebuilds",
+        "id": "closure-complete-v1",
+        "kind": "source-closure-verification",
+        "limitations": [
+          "Same evaluator and pinned dependency caches; not a clean-toolchain or independent reproduction"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-complete-v1/summary.json",
+        "method": "Read completed rebuild output and freeze exact bytes",
+        "status": "available"
+      },
+      {
+        "content_sha256": "a7e07753ef9b6e48992297177601cf17653710cad014cb2ed72362aab7f02666",
+        "description": "Exact source closure manifest",
+        "id": "closure-manifest-v1",
+        "kind": "source-closure-verification",
+        "limitations": [
+          "Same evaluator and pinned dependency caches; not a clean-toolchain or independent reproduction"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-manifest-v1/manifest.json",
+        "method": "Read completed rebuild output and freeze exact bytes",
+        "status": "available"
+      },
+      {
+        "content_sha256": "f0519f021466fc9cc793022aa7601c753643a4c20ae836a7572dc89d9d72d385",
+        "description": "66 unique reaudited roots:64 Frontier and2 inherited",
+        "id": "closure-audit-roots-v1",
+        "kind": "source-closure-verification",
+        "limitations": [
+          "Same evaluator and pinned dependency caches; not a clean-toolchain or independent reproduction"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-audit-roots-v1/audit-root-summary.json",
+        "method": "Read completed rebuild output and freeze exact bytes",
+        "status": "available"
+      },
+      {
+        "content_sha256": "461afa967fae6df8d3b54a209d4c1e6a6fd9470ad69f2b8f1295a5923de82067",
+        "description": "Portable161source closure with manifests, audit logs, reproduction recipe and attribution",
+        "id": "portable-formal-v1",
+        "kind": "formal-source-and-reproduction",
+        "limitations": [
+          "Recipe requires pinned Lean and mathlib dependencies; no separate-environment replay"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/portable-formal-v1",
+        "method": "Frozen source bundle with per-file SHA-256",
+        "status": "available"
+      },
+      {
+        "content_sha256": "ac8feccd6bc4d8b72a28bcd176f8b0914904236c8fc2a9c4d434b78e608aee1d",
+        "description": "Six-page matching manuscript preview for d786448baf9b, HTML/PDF and renderer fidelity record",
+        "id": "preview-d786-v1",
+        "kind": "rendered-preview",
+        "limitations": [
+          "Typesetter visual audit pending; renderer record is not independent validation"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/preview-d786-v1",
+        "method": "Exact copied preview bytes and per-file hashes",
+        "status": "available"
+      }
+    ],
+    "evidence_sha256": "1bd8ee5d797e2ad7d5fa02d683785e6d8df6eba3525c5c3b4117e1d69656ec31",
+    "manuscript_sha256": "d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6",
+    "phase": "source-map",
+    "previous_round_sha256": "dd835cf4004f712ed4d6e0ccd6d5836c04cfdc33a62b0610bfff379dd18ad058",
+    "public_state": {
+      "committed_findings": [
+        {
+          "agent_id": "/root/review80_coordinator/academic_writer",
+          "checks": [
+            {
+              "evidence_ids": [],
+              "method": "Read the complete frozen manuscript and compared each abstract claim with Theorems 1–3, Corollary 4, and the scope paragraphs in Sections 5–7. Verified the reviewed manuscript SHA-256 against the frozen snapshot.",
+              "observation": "Theorem 1 explicitly requires two distinct degree-twenty centers that never co-occur and imposes no support bound. Theorem 3 retains I(27); the external theorem is invoked only in Corollary 4. The abstract preserves exactly those distinctions. The assurance label is axiom-audited and the source-rebuild limitation is disclosed.",
+              "result": "supported",
+              "scope": "Abstract-to-main-statement hypothesis alignment"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Traced definitions from the abstract through Section 1 and Corollary 4, checking whether every quantity in 54 ≤ f(4,3) ≤ 80 has an explicit convention.",
+              "observation": "G(N), the sunflower definition, distinctness and empty cores are specified, but f(4,3) is not defined. This is a definitional ambiguity rather than evidence of a mathematical error; the intended maximum-size convention is inferable but should be written.",
+              "result": "contradicted",
+              "scope": "Self-contained interpretation of the numerical endpoint"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Compared the introduction, main theorem list and closing contribution paragraph for inherited/new and ordinary/formal distinctions.",
+              "observation": "Inherited degree/link/profile statements are identified as inherited; new actual-family profile exclusions are distinguished from numerical diagnostics; the preprint bound 83 and inherited conditional bound 81 are separate comparisons. Universal45, all-rank resolution, exhaustive priority and independent certification are expressly unclaimed. This framing is internally consistent; I have not independently verified external sources in this phase.",
+              "result": "supported",
+              "scope": "Contribution and novelty calibration"
+            }
+          ],
+          "decision": "revise",
+          "findings": [
+            {
+              "disposition": "Add the explicit maximum-size and pairwise-intersection definitions near G(N) and I(N); existing numerical claims need no change if this intended convention is confirmed.",
+              "evidence_ids": [],
+              "id": "notation-convention",
+              "severity": "minor",
+              "statement": "The numerical contribution uses f(4,3) in the abstract and Corollary 4 but never defines f; the common maximum-size and forcing-threshold conventions differ by one. The word intersecting is also left implicit.",
+              "status": "open"
+            }
+          ],
+          "required_revisions": [
+            "In Section 1 explicitly define intersecting as pairwise nonempty intersection for distinct members, and define f(k,r) (or at least f(4,3)) as the maximum size of an r-sunflower-free k-uniform family. State that it is the maximum-size convention, so readers using the forcing-threshold convention do not read the displayed bound off by one."
+          ],
+          "revisions": [],
+          "role": "academic_writer",
+          "summary": "The abstract and main statements consistently distinguish the local conditional implication I(27) ⇒ G(80), the unconditional two-star structural theorem, and the ordinary corollary that invokes an external computational theorem. The numerical improvement is explicitly relative to two identified baselines and carries no global-priority claim. One definition repair is needed for a fully self-contained numerical statement: f(4,3) is used without specifying whether it denotes a maximum sunflower-free size or a forcing threshold, and the intersecting convention is implicit."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/alpha",
+          "checks": [
+            {
+              "evidence_ids": [
+                "terminal-audit-v1",
+                "two-star-audit-v1",
+                "profile-a-audit-v1"
+              ],
+              "method": "Read the frozen admission record and exact printed theorem outputs in terminal, two-star and Profile A receipts; compare antecedents with Theorems 1–3 and the abstract.",
+              "observation": "The expanded terminal proposition has a universally quantified I27 antecedent and conclusion G80; its sunflower predicate allows an arbitrary core and uses a three-element subfamily. The independent_twenty_stars root has four-uniformity, sunflower-freeness, distinct centers, degrees twenty, and no joint center membership, with no I27 input. This matches the manuscript and establishes more than an undischarged A/B implication.",
+              "result": "supported",
+              "scope": "Conditional versus unconditional quantifiers and admission"
+            },
+            {
+              "evidence_ids": [
+                "terminal-audit-v1"
+              ],
+              "method": "Check degree-profile sums and the meanings of finite family, distinct petals, empty core, and extremal-function notation against the literal terminal proposition.",
+              "observation": "Profile A gives 20+16·19=324=4·81; Profile B gives 40+14·19+18=324. The literal three-element subfamily predicate excludes repetitions and permits empty core as claimed. The undefined f notation leaves a preventable maximum-versus-threshold ambiguity.",
+              "result": "inconclusive",
+              "scope": "Definition and boundary arithmetic consistency"
+            }
+          ],
+          "decision": "revise",
+          "findings": [
+            {
+              "disposition": "Add one explicit definition near Section 1 or the first occurrence of f(4,3).",
+              "evidence_ids": [],
+              "id": "f-convention",
+              "severity": "minor",
+              "statement": "The paper defines G(N) and I(N), but never defines f(4,3). Both maximum-free-size and forcing-threshold conventions occur for sunflower extremal functions; they differ by one, so Corollary 4 should state the intended convention.",
+              "status": "open"
+            },
+            {
+              "disposition": "Substantial-target admission is supported at the stated same-evaluator axiom-audit assurance level; source closure and prior-art detail remain for later phases.",
+              "evidence_ids": [
+                "admission-v1",
+                "terminal-audit-v1",
+                "two-star-audit-v1",
+                "profile-a-audit-v1"
+              ],
+              "id": "admission-boundary",
+              "severity": "note",
+              "statement": "The supplied receipts show nontrivial actual-family theorem interfaces: Profile A is excluded from I27, Profile B is excluded, and I27→G80 is proved by composition; the unconditional two-star root quantifies over arbitrary finite four-uniform sunflower-free families.",
+              "status": "resolved"
+            }
+          ],
+          "required_revisions": [
+            "Define f(4,3) explicitly as the maximum cardinality of a finite four-uniform three-sunflower-free family (if that is the intended convention), so the displayed 54 ≤ f(4,3) ≤ 80 cannot be read as a forcing-threshold statement."
+          ],
+          "revisions": [],
+          "role": "alpha",
+          "summary": "The frozen question meets substantial-target admission: the printed terminal theorem composes actual Profile A and B exclusions, and the two-star theorem has explicit family hypotheses with no I27 antecedent. The manuscript consistently separates the local conditional global theorem, the unconditional structural theorem, the external ordinary corollary, and failed diagnostics. One definition should be made explicit before final acceptance: f(4,3) must denote the maximum sunflower-free family size rather than the forcing threshold."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/beta",
+          "checks": [
+            {
+              "evidence_ids": [
+                "lean-source-theory-v1"
+              ],
+              "method": "Read the frozen abstract, definitions, Theorems 1–3 and the complete literal terminal proposition in FinalEighty.lean; compare the quantifiers and antecedents.",
+              "observation": "The terminal root retains universally quantified intersecting bound 27 as an explicit argument. The manuscript describes the two-star bound separately, permits empty sunflower cores and distinct finite-set members, and does not promote the external I27 theorem to a local kernel proof.",
+              "result": "supported",
+              "scope": "Framing and formal hypothesis boundary"
+            },
+            {
+              "evidence_ids": [
+                "lean-source-theory-v1"
+              ],
+              "method": "Read TwoHighIncidence.lean and independently eliminate q from the two counted inequalities: 9(3m≤14|U|−5q)+5(2m≤9q).",
+              "observation": "The result is 37m≤126|U|. The Lean statement needs only four-uniform H, both traces of size at least three, and degree caps 14 on U and 9 on U∩V. No sunflower or ground-size hypothesis is concealed; setting |U|=12 yields m≤40 because 37·41=1517>1512.",
+              "result": "supported",
+              "scope": "Reusable overlap incidence lemma"
+            },
+            {
+              "evidence_ids": [
+                "lean-source-theory-v1"
+              ],
+              "method": "Independently verify the weight pigeonhole argument and inspect how key_heavy and concentrated_impossible use it in ProfileAConcentrated.lean.",
+              "observation": "A used extension pair has total weight at least nine, so one endpoint has weight at least five. A different heavy pair omitting that endpoint would make the total at least fourteen, contradicting ten. Every used key therefore extends through that same point; five design triples through it give at most five keys, hence at most twenty rows. The argument does not require enumerating extension-pair permutations.",
+              "result": "supported",
+              "scope": "Constructive scope of the extension concentration step"
+            }
+          ],
+          "decision": "continue",
+          "findings": [
+            {
+              "disposition": "The manuscript may optionally state this weighted-pair lemma explicitly to make the general contribution easier to reuse; its current argument is sufficient for the stated application.",
+              "evidence_ids": [
+                "lean-source-theory-v1"
+              ],
+              "id": "B1-reusable-concentration",
+              "severity": "note",
+              "statement": "The common-extension-point argument can be understood independently of canonical design coordinates: nonnegative weights of total at most ten, and a nonempty family of two-element sets each carrying weight at least nine, force a common point of weight at least five. This is a useful reusable structural ingredient already correctly applied in Section 4.3.",
+              "status": "claim-qualified"
+            }
+          ],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "beta",
+          "summary": "The frozen question and principal statements correctly distinguish the conditional global bound from the unconditional two-star theorem. The reusable incidence lemma has precisely the combinatorial hypotheses asserted, and the extension-weight step is a valid abstract concentration argument. These contributions are substantial actual-family structure; no numerical-profile or diagnostic argument is being substituted for realizability. Later phases should audit the inherited design and trace inputs and rebuild coverage."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/chief",
+          "checks": [
+            {
+              "evidence_ids": [
+                "admission-v1",
+                "terminal-audit-v1",
+                "profile-a-audit-v1"
+              ],
+              "method": "Read the frozen manuscript, admission declaration, and the three successful audit receipts; compared explicit theorem types with the stated research question.",
+              "observation": "The Profile A audit prints I(27) implies nonrealizability of A; the terminal audit supplies B exclusion and I(27) implies G(80). Thus this is not merely an implication retaining both A/B exclusions as undischarged premises. No completed source-closure replay is inferred.",
+              "result": "supported",
+              "scope": "Admission and material contribution"
+            },
+            {
+              "evidence_ids": [
+                "terminal-audit-v1",
+                "profile-a-audit-v1"
+              ],
+              "method": "Recomputed degree sums and followed the stated reduction from G(81) plus the exhaustive 81-member dichotomy to G(80).",
+              "observation": "Both profiles have 17 supported points and total degree 324: 20+16·19=324 and 2·20+14·19+18=324=4·81. Excluding both profiles under I(27) removes the only equality case of the inherited upper bound 81; integrality then yields 80. The external I(27) theorem is needed only to instantiate this implication for the ordinary global corollary.",
+              "result": "supported",
+              "scope": "Boundary framing and numerical meaning"
+            },
+            {
+              "evidence_ids": [
+                "two-star-audit-v1"
+              ],
+              "method": "Matched Theorem 1 to the fully printed two-star theorem and examined its independence from the Profile B support/degree census.",
+              "observation": "The printed theorem quantifies over arbitrary Type u and Finset families without I(27), a fixed support, or a degree-eighteen point. Its result is therefore broader than literal Profile B exclusion while remaining fixed rank four. The general all-rank sunflower conjecture is not implied.",
+              "result": "supported",
+              "scope": "Scope of unconditional structural theorem"
+            }
+          ],
+          "decision": "continue",
+          "findings": [
+            {
+              "disposition": "Maintain this separation through the final version; no revision required in the current framing.",
+              "evidence_ids": [
+                "terminal-audit-v1",
+                "two-star-audit-v1"
+              ],
+              "id": "C1-assurance-scope",
+              "severity": "note",
+              "statement": "The inspected printed terminal proposition contains I(27) as a universally quantified antecedent, whereas the printed independent-twenty-stars root contains only uniformity, sunflower-freeness, distinct centers, exact degrees and noncooccurrence. This supports the manuscript's distinction between conditional global formal theorem and unconditional structural theorem.",
+              "status": "resolved"
+            }
+          ],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "chief",
+          "summary": "The question is substantial and correctly framed: the manuscript supplies both actual-family boundary exclusions and a separate unrestricted two-star theorem. The global Lean theorem remains conditional on I(27), while the numerical G(80) deduction is explicitly an ordinary corollary using external computational mathematics. Admission to substantive review is justified; acceptance awaits the later proof, source and reproducibility phases."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/citation_verifier",
+          "checks": [
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Opened the arXiv abstract and version-one HTML directly; compared manuscript References 1 and Section 1 with the author line, submission history, introduction and Section 2.1.",
+              "observation": "The five author names, title, v1 date of 5 September 2026, distinct finite-family convention, and permission for an empty sunflower core agree. Direct source: https://arxiv.org/abs/2609.06175 and https://arxiv.org/html/2609.06175v1.",
+              "result": "supported",
+              "scope": "External bibliographic identity and definition conventions"
+            },
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Opened the public A1K report and read its version banner, definitions, boundary discussion and Theorem T8; compared to manuscript Sections 1-2.",
+              "observation": "The report identifies version 13 with cutoff 22 September 2026, I(27) implies G(81), and three still-open inputs to G(80). The manuscript correctly presents its two profile exclusions as additions to that reduction. Source: https://a1k.ai/agentic-math/rank-four-sunflower-free-families.",
+              "result": "supported",
+              "scope": "Inherited contribution boundary"
+            },
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Compared the abstract and Corollary 4 assurance language with the arXiv abstract and Section 6.3 opening, then checked the stated local proposition.",
+              "observation": "The external source asserts intersecting maximum 27 and an exhaustive 28-row exclusion problem. The manuscript retains I(27) as a local Lean hypothesis and identifies the unconditional ordinary corollary as depending on that external result. Enumeration correctness and its code were not independently rerun in this framing review.",
+              "result": "supported",
+              "scope": "External theorem versus local formal claim"
+            }
+          ],
+          "decision": "continue",
+          "findings": [
+            {
+              "disposition": "Recommend defining f(w,k), or at least f(4,3), at first use; this is an exposition improvement, not a mathematical blocker.",
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "id": "cv-r1-f-notation",
+              "severity": "minor",
+              "statement": "The manuscript uses f(4,3) in its abstract and Corollary 4 without an explicit local definition; its intended maximum-family-size meaning is recoverable from the cited source.",
+              "status": "open"
+            }
+          ],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "citation_verifier",
+          "summary": "The framing accurately separates the new conditional G(80) theorem from the external I(27) input and the earlier A1K reduction. Direct primary-source access confirms the bibliographic identity and definition conventions. No required framing revision arose; explicit introduction of f(4,3) would improve self-containment."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/copyeditor",
+          "checks": [
+            {
+              "evidence_ids": [],
+              "method": "Read the frozen abstract, Sections 1–2 and concluding limitations against the frozen question and constraints; traced every I(27), G(80), two-star, 45 and all-rank assertion.",
+              "observation": "The external I(27) dependency is explicit in Theorem 3 and Corollary 4; the two-star result states distinct centers and no shared member; unrestricted support refers to the structural theorem and public finite-family bound. The universal45 and all-rank claims are expressly withheld.",
+              "result": "supported",
+              "scope": "Question, definitions and assertion modality"
+            },
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Read the primary-source ledger, bibliography and frozen text_reuse verification entry; assessed what their stated methods actually support.",
+              "observation": "Inherited A1K claims and the external Axante et al. theorem are attributed separately. The ledger contains retrieval summaries, not full source text; reading it does not itself constitute source-text comparison. The snapshot accurately labels text reuse limited and assigns a later accessible-source comparison; no corpus-wide originality claim occurs in the manuscript.",
+              "result": "supported",
+              "scope": "Attribution framing and promised text-reuse coverage"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Read the exact frozen manuscript for symbol introduction, prose/math transitions and repeated local notation.",
+              "observation": "The two minor findings identify the undefined extremal notation and fused word-number tokens. A and B are used both as profile labels and design-support names, but the local phrases make the distinction recoverable. No copyediting issue presently changes the stated mathematical claim.",
+              "result": "supported",
+              "scope": "Mathematical copyediting"
+            }
+          ],
+          "decision": "continue",
+          "findings": [
+            {
+              "disposition": "Add the definition near the first appearance or in Section 1. This is an expository clarification, not a mathematical defect.",
+              "evidence_ids": [],
+              "id": "copy-r1-extremal-notation",
+              "severity": "minor",
+              "statement": "The symbol f(4,3) first appears in the abstract without an explicit definition. G(N) and I(N) are defined, but a short definition of f(4,3) as the maximum cardinality of a four-uniform three-sunflower-free family would make the numerical corollary self-contained.",
+              "status": "open"
+            },
+            {
+              "disposition": "Insert spaces in Section 3.2, Section 4 introductory proof, and Section 4.1 during editorial revision.",
+              "evidence_ids": [],
+              "id": "copy-r1-spacing",
+              "severity": "minor",
+              "statement": "Running prose contains fused word-number tokens: “by9”, “by5”, “plus2” and “is66”.",
+              "status": "open"
+            }
+          ],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "copyeditor",
+          "summary": "The framing consistently distinguishes the conditional local Lean implication, the unconditional two-star theorem and the ordinary corollary using attributed external I(27). Definitions identify distinct petals and allow empty cores. Two minor editorial improvements remain; source-text comparison has not yet been performed and no originality certificate is supported."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/data_analyst",
+          "checks": [
+            {
+              "evidence_ids": [],
+              "method": "Recomputed exact integer incidence sums in Python from the frozen manuscript.",
+              "observation": "Profile A: 20+16*19=324=4*81. Profile B: 2*20+14*19+18=324. Profile A after deleting 20 star members has 61 members and degree sum 12*14+4*19=244=4*61. Both profiles have 17 supported points; four outsiders remain after the center and 12 link-support points. The comparisons 83-80=3 and 81-80=1 are correct.",
+              "result": "supported",
+              "scope": "Degree-profile and residual-family numerical framing"
+            },
+            {
+              "evidence_ids": [
+                "universal45-diagnostic-v1",
+                "universal45-crosscheck-v1"
+              ],
+              "method": "Read both frozen JSON diagnostic outputs; compare histograms and recompute binomial candidate count.",
+              "observation": "C(28,4)=20,475. Both outputs report 156,960 geometries and histogram 0:156,938, 1:10, 3:10, 5:2, which sums to 156,960. Maximum compatible candidate count is 5. These are stored-output consistency checks, not an independently rerun geometry coverage proof.",
+              "result": "supported",
+              "scope": "Exploratory enumeration framing"
+            }
+          ],
+          "decision": "continue",
+          "findings": [
+            {
+              "disposition": "Keep the explicit non-result wording and the normalization limitation throughout subsequent revision.",
+              "evidence_ids": [
+                "universal45-diagnostic-v1",
+                "universal45-crosscheck-v1"
+              ],
+              "id": "diagnostic-scope",
+              "severity": "note",
+              "statement": "Agreement of the two recorded histograms and the correct candidate-space size supports the reported diagnostic counts only; it does not establish that the relative-geometry normalization covers arbitrary two-star families. Section 6 retains that distinction explicitly.",
+              "status": "claim-qualified"
+            }
+          ],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "data_analyst",
+          "summary": "The numerical framing is internally consistent: both proposed 81-member profiles satisfy the four-uniform incidence total, the residual census agrees with Profile A, and the bound-improvement arithmetic is correct. The manuscript explicitly separates structural theorems from the unproved stronger45 diagnostic. This phase does not establish the diagnostic normalization or rerun its full search."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/domain_expert",
+          "checks": [
+            {
+              "evidence_ids": [
+                "lean-source-theory-v1"
+              ],
+              "method": "Compared Section 1 with the frozen literal_intersecting_twenty_seven_implies_eighty source, including the finite-subfamily cardinality and pairwise-intersection quantifiers.",
+              "observation": "The source requires every family member to have cardinality exactly four and forbids a three-element subfamily with a common pairwise intersection; Finset eliminates repetitions and the existential core has no nonemptiness hypothesis. This matches the prose, including empty-core sunflowers.",
+              "result": "supported",
+              "scope": "Exact rank-four and sunflower conventions"
+            },
+            {
+              "evidence_ids": [
+                "two-star-audit-v1",
+                "lean-source-theory-v1"
+              ],
+              "method": "Read the printed independent_twenty_stars_card_le_eighty theorem in the frozen audit and the expanded terminal implication source.",
+              "observation": "The two-star statement quantifies over arbitrary Type u and needs only uniformity, sunflower-freeness, two distinct degree-twenty points, and their non-cooccurrence. The global terminal theorem retains the universally quantified intersecting bound as hI. No ground-set cutoff occurs in either conclusion.",
+              "result": "supported",
+              "scope": "Unconditional structural statement versus conditional global statement"
+            },
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Compared the contribution statements with the frozen primary-source access ledger and the listed inherited premises; did not independently retrieve the external sources in this phase.",
+              "observation": "The manuscript claims improvement relative to the inspected 83 bound and inherited 81 corollary, while declining exhaustive priority. The ledger supports that bounded framing but cannot establish global novelty.",
+              "result": "supported",
+              "scope": "Contribution and novelty framing"
+            }
+          ],
+          "decision": "continue",
+          "findings": [
+            {
+              "disposition": "Add one sentence defining f(4,3) as the maximum cardinality of a finite three-sunflower-free family of distinct four-element sets. This is an expository precision request, not an objection to the quantified theorem.",
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "id": "f-convention",
+              "severity": "minor",
+              "statement": "The manuscript defines G and I but uses f(4,3) without explicitly defining whether f is the maximum size of a sunflower-free family or the minimum size forcing a sunflower. The displayed 54 to 80 interval uses the former convention.",
+              "status": "open"
+            },
+            {
+              "disposition": "Retain this boundary and the explicit external-I(27) distinction in all final formats.",
+              "evidence_ids": [
+                "lean-source-theory-v1",
+                "two-star-audit-v1",
+                "primary-sources-v1"
+              ],
+              "id": "inherited-versus-new",
+              "severity": "note",
+              "statement": "The degree-twenty link classification, at-most-two-high-point theorem, I(27) to G(81), and boundary reduction are explicitly inherited; only the actual A/B exclusions and their structural lemmas are claimed as present contributions.",
+              "status": "claim-qualified"
+            }
+          ],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "domain_expert",
+          "summary": "The framed result concerns finite simple four-uniform families and three distinct petals with an empty core allowed. The printed expanded implication matches those conventions, and the printed independent-two-star root has no I(27), support-size, or coordinate-enumeration hypothesis. The contribution boundary is appropriately the two actual-family exclusions relative to the inherited structural results; priority remains bounded by the disclosed search. One notation clarification would avoid the common maximum-versus-forcing-threshold ambiguity in f(4,3)."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/literature_reviewer",
+          "checks": [
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Read the frozen manuscript and ledger, then independently opened https://arxiv.org/html/2609.06175v1 and inspected definitions, Section 6.3 and Section 8 with web.run.",
+              "observation": "The source uses finite distinct uniform members and permits empty cores, identifies the intersecting maximum as 27 in Proposition 6.8, and separates the upper-bound enumeration from the stated Lean scope. Those conventions match the manuscript. I did not rerun the enumeration.",
+              "result": "supported",
+              "scope": "External I27 attribution and compatible definitions"
+            },
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Independently opened https://a1k.ai/agentic-math/rank-four-sunflower-free-families and compared its T3/T8 and status discussion with frozen Sections 1, 2 and 7.",
+              "observation": "The earlier report states I27 implies G81, leaves both literal A/B exclusions open, and records G80 as an unmet local goal. The present claimed contribution is framed as discharging those exclusions while retaining I27, which is a coherent advance relative to that source. This check establishes no global priority.",
+              "result": "supported",
+              "scope": "Contribution relative to the preceding A1K endpoint"
+            }
+          ],
+          "decision": "continue",
+          "findings": [
+            {
+              "disposition": "Retain explicit external-I27 and bounded-comparison qualifiers in later versions.",
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "id": "LIT-01",
+              "severity": "note",
+              "statement": "The numerical comparison is accurate within the named source family: 80 improves 83 by three and the earlier I27-dependent 81 endpoint by one. The manuscript does not claim that the earlier A1K development already proved unconditional local G81.",
+              "status": "resolved"
+            },
+            {
+              "disposition": "Optional editorial clarification; current mathematical bounds remain interpretable.",
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "id": "LIT-02",
+              "severity": "minor",
+              "statement": "The manuscript uses f(4,3) without a direct standalone definition of f, although the extremal interpretation follows from context and agrees with the external preprint. A short maximum-cardinality definition would avoid confusion with a forcing-threshold convention.",
+              "status": "open"
+            }
+          ],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "literature_reviewer",
+          "summary": "The framing correctly distinguishes the new conditional upper bound from its ordinary corollary using an external computer-assisted theorem. Direct primary-page inspection supports the compared endpoints 83 and 81 and the claim that both profile exclusions remained open in the earlier A1K report. The text appropriately declines exhaustive priority; source mapping and proof-level comparison remain for later phases."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/logic_auditor",
+          "checks": [
+            {
+              "evidence_ids": [
+                "terminal-audit-v1",
+                "lean-source-theory-v1"
+              ],
+              "method": "Read the frozen manuscript Sections 1, 2 and 5 against FinalEighty.lean and the expanded theorem in FinalEightyAudit.json; unpacked the finite H-cardinality-three and pairwise-intersection clauses.",
+              "observation": "Both sides quantify all finite families over α : Type with DecidableEq. H.card = 3 supplies distinct petals; core has no nonempty restriction; four-uniformity makes the diagonal clause in the intersecting assumption harmless. The terminal Type interface and the structural Type* interface are disclosed.",
+              "result": "supported",
+              "scope": "Quantifier and sunflower-definition fidelity"
+            },
+            {
+              "evidence_ids": [
+                "two-star-audit-v1",
+                "lean-source-compute-v1"
+              ],
+              "method": "Read TwoHighEighty.lean and its printed public theorem; traced the degree-at-most-nineteen hypothesis to the inherited unconditional high-point cap in the wrapper.",
+              "observation": "The public two-star theorem requires only four-uniformity, sunflower-freeness, distinct centers of degree twenty and no cooccurrence. It has no I(27), finite-support cutoff, or diagnostic premise. The lower-level theorem accepts the other-degree cap, which the public wrapper derives.",
+              "result": "supported",
+              "scope": "No silently assumed I(27) in unconditional two-star theorem"
+            },
+            {
+              "evidence_ids": [
+                "terminal-audit-v1",
+                "two-star-audit-v1",
+                "profile-a-audit-v1",
+                "lean-source-theory-v1",
+                "lean-source-compute-v1"
+              ],
+              "method": "Inspected audit source for theorem/Prop checks and Lean.collectAxioms allow-list; parsed 31 terminal, two-star and Profile-A audit records, and recomputed manuscript, receipt and recorded-output SHA-256 values.",
+              "observation": "All 31 audit entries report pass with exactly the permitted logical foundation names; all recomputed hashes match. FinalEighty takes hI as a function argument and ProfileAClosed propagates it. This is receipt/source inspection, not a fresh Lean replay or completed dependency-source rebuild.",
+              "result": "supported",
+              "scope": "Declared axiom boundary and receipt consistency"
+            }
+          ],
+          "decision": "continue",
+          "findings": [
+            {
+              "disposition": "Retain the explicit antecedent and external-computation qualification in subsequent versions.",
+              "evidence_ids": [
+                "terminal-audit-v1",
+                "profile-a-audit-v1",
+                "lean-source-theory-v1"
+              ],
+              "id": "R1-I27-boundary",
+              "severity": "note",
+              "statement": "The abstract, Theorem 3, Corollary 4, and expanded Lean proposition consistently preserve the external I(27) boundary; no unconditional local global-eightyth theorem is asserted.",
+              "status": "claim-qualified"
+            }
+          ],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "logic_auditor",
+          "summary": "The framing distinguishes the universal conditional I(27) ⇒ G(80), the unconditional two-independent-twenty-star bound, and the ordinary external-I(27) corollary correctly. The fully expanded terminal proposition matches finite distinct four-set families with three distinct sunflower petals and permits empty core. I(27) is an explicit quantified antecedent, not a hidden project axiom in the inspected source and audit receipts. Detailed proof and source-closure verification remain later-phase work."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/methodologist",
+          "checks": [
+            {
+              "evidence_ids": [
+                "admission-v1",
+                "terminal-audit-v1",
+                "two-star-audit-v1",
+                "profile-a-audit-v1"
+              ],
+              "method": "Read the frozen admission record and three audit receipts; matched their file SHA256 values to the snapshot and compared printed antecedents/conclusions to Theorems 1–3.",
+              "observation": "All four hashes match. Profile A is printed under IntersectingRankFourUpper 27, Profile B and the terminal implication are passing audit roots, and the printed two-star theorem is quantified over arbitrary finite families and Type u_1 with degree20/noncooccurrence hypotheses. The conditional/global and unconditional/structural scopes are consistent.",
+              "result": "supported",
+              "scope": "Review-admission criterion against literal theorem outputs"
+            },
+            {
+              "evidence_ids": [
+                "terminal-audit-v1",
+                "two-star-audit-v1"
+              ],
+              "method": "Read frozen sections 1–2 and 5–7 and trace which statements are designated inherited, newly proved, externally supplied, or exploratory.",
+              "observation": "Distinct sets, three petals, empty cores, fixed rank, and finite arbitrary support are explicit. I27 is external for the ordinary corollary and a quantified formal antecedent; the 45 diagnostic and UNKNOWN SAT attempt are not used as proof premises. Source closure is not assumed completed.",
+              "result": "supported",
+              "scope": "Definitions, contribution scope, and diagnostic-to-theorem separation"
+            }
+          ],
+          "decision": "continue",
+          "findings": [
+            {
+              "disposition": "Admission is methodologically justified for review; this is not yet a full proof or source-closure audit.",
+              "evidence_ids": [
+                "admission-v1",
+                "terminal-audit-v1",
+                "two-star-audit-v1",
+                "profile-a-audit-v1"
+              ],
+              "id": "M1-assurance-boundary",
+              "severity": "note",
+              "statement": "Admission receipts print the literal I27-to-G80 proposition and a two-star theorem with actual family hypotheses, so the admitted target is more than an assembled list of undischarged A/B premises. I27 remains an antecedent rather than an audited project axiom.",
+              "status": "resolved"
+            },
+            {
+              "disposition": "Preserve these boundaries in all subsequent revisions and assess their actual finite coverage in the reproducibility phase.",
+              "evidence_ids": [],
+              "id": "M1-exploratory-boundary",
+              "severity": "note",
+              "statement": "Section 6 expressly withholds universal45 and SAT-UNSAT claims and retains failed Lean witness attempts; neither diagnostic is a premise of the proposed 80 proof.",
+              "status": "claim-qualified"
+            },
+            {
+              "disposition": "The manuscript already makes this distinction. Later rounds should assess any newly supplied source-closure evidence at its actual coverage.",
+              "evidence_ids": [
+                "terminal-audit-v1",
+                "two-star-audit-v1",
+                "profile-a-audit-v1"
+              ],
+              "id": "M1-closure-limits",
+              "severity": "note",
+              "statement": "The frozen evidence still describes cached dependencies and a pending source-closure rebuild. Its assurance presently supports the reported elaboration/axiom audit, not a complete source rebuild or independent replay.",
+              "status": "claim-qualified"
+            }
+          ],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "methodologist",
+          "summary": "The question and admission threshold are properly framed around actual-family Profile A/B exclusions and a conditional global implication. The frozen receipts support admission to substantive review, while their cached-dependency limitations prevent a stronger source-rebuild conclusion at this phase. The manuscript clearly distinguishes local formal results, an ordinary corollary using external I27, and unproved exploratory cap45 diagnostics."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/typesetter",
+          "checks": [
+            {
+              "evidence_ids": [],
+              "method": "Read the exact frozen manuscript from title through references and map abstract claims to numbered statements and subsequent proof sections.",
+              "observation": "Theorem 1 is followed by the Section 3 proof; Theorem 2 by Section 4; Theorem 3 explicitly relies on inherited classification and the two exclusions. Corollary 4 visibly retains its external I(27) dependency, so the typography and heading hierarchy do not conflate ordinary and local formal claims.",
+              "result": "supported",
+              "scope": "Question, definitions and claim hierarchy"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Count display delimiters, inspect the six displayed equation blocks and the principal-root table, and search for words joined to digits in the explanatory arithmetic.",
+              "observation": "All twelve display delimiters pair into six blocks, equations occupy their own paragraphs, and the seven principal roots have descriptive row labels. Four joined prose/number tokens need copy cleanup. The longest root name is too long to assume ordinary table wrapping without a rendered check.",
+              "result": "supported",
+              "scope": "Mathematical source readability"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Inspect the frozen snapshot evidence inventory for HTML/PDF preview evidence.",
+              "observation": "The inventory contains no rendered preview evidence. Font coverage, equation layout, page breaks and table overflow have not yet been visually checked.",
+              "result": "inconclusive",
+              "scope": "Visual QA and cross-format fidelity"
+            }
+          ],
+          "decision": "continue",
+          "findings": [
+            {
+              "disposition": "Insert normal word/number spacing before the integrated-manuscript render.",
+              "evidence_ids": [],
+              "id": "T1-prose-number-spacing",
+              "severity": "minor",
+              "statement": "Section 3.2 contains joined tokens \"by9\" and \"by5\"; Section 4 contains \"plus2\" and Section 4.1 \"is66\". These are minor source typography defects in sentences explaining the displayed arithmetic.",
+              "status": "open"
+            },
+            {
+              "disposition": "Reserve visual and cross-format acceptance until frozen rendered artifacts exist; no visual inspection is claimed now.",
+              "evidence_ids": [],
+              "id": "T1-render-coverage",
+              "severity": "note",
+              "statement": "No rendered HTML or PDF belongs to this snapshot. Long Lean declarations in the Section 5 table and mixed Unicode inline notation/TeX display notation require later rendered inspection.",
+              "status": "open"
+            }
+          ],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "typesetter",
+          "summary": "The frozen source presents the question and contribution in a coherent theorem-first structure: inherited inputs precede the claims, the two proof sections follow their statement order, and the assurance boundary appears before reproducibility detail. Mathematical source is inspectable, but this first snapshot contains no rendered HTML or PDF, so visual readability and cross-format fidelity remain untested."
+        }
+      ],
+      "coordinator_changes": [
+        "Section1 now explicitly defines intersecting and maximum-cardinality f(4,3), explains forcing threshold f+1 and reflexive formal predicate equivalence",
+        "Fixed four fused word-number tokens",
+        "Added reusable nonempty collection integer-weight pair statement in Section4.3",
+        "Sourceclosure completed:161 modules,63 fresh and98 matched prior rebuilt modules,66unique axiom-auditedroots; same evaluator and dependency caches",
+        "Renderer-compatible period syntax; matching sixpage HTML/PDF preview added"
+      ],
+      "outstanding_issues": {
+        "/root/review80_coordinator/academic_writer:round-1:required-revision-1": {
+          "owner": "/root/review80_coordinator/academic_writer",
+          "text": "In Section 1 explicitly define intersecting as pairwise nonempty intersection for distinct members, and define f(k,r) (or at least f(4,3)) as the maximum size of an r-sunflower-free k-uniform family. State that it is the maximum-size convention, so readers using the forcing-threshold convention do not read the displayed bound off by one."
+        },
+        "/root/review80_coordinator/alpha:round-1:required-revision-1": {
+          "owner": "/root/review80_coordinator/alpha",
+          "text": "Define f(4,3) explicitly as the maximum cardinality of a finite four-uniform three-sunflower-free family (if that is the intended convention), so the displayed 54 ≤ f(4,3) ≤ 80 cannot be read as a forcing-threshold statement."
+        }
+      },
+      "prior_round": 1,
+      "prior_round_sha256": "dd835cf4004f712ed4d6e0ccd6d5836c04cfdc33a62b0610bfff379dd18ad058"
+    },
+    "roster_sha256": "3781e9aad13463cedea3be14fe6e134725b6e05b7aaa99ad8dd9c4c5d9076136",
+    "round": 2,
+    "run_id": "frontier20261020-boundary80-final-review",
+    "verification": [
+      {
+        "evidence_ids": [
+          "primary-sources-v1",
+          "terminal-audit-v1"
+        ],
+        "limitations": [
+          "Source ledger is bounded; specialist analysis pending"
+        ],
+        "method": "Read primary-source record and proof receipts",
+        "observations": [
+          "Definitions and assurance boundaries ready for independent role audit"
+        ],
+        "scope": "facts",
+        "status": "limited"
+      },
+      {
+        "evidence_ids": [
+          "primary-sources-v1"
+        ],
+        "limitations": [
+          "No exhaustive bibliography or priority claim"
+        ],
+        "method": "Check supplied primary record locators",
+        "observations": [
+          "Primary arXiv and pinned A1K references explicitly separated"
+        ],
+        "scope": "citations",
+        "status": "limited"
+      },
+      {
+        "evidence_ids": [
+          "terminal-audit-v1",
+          "two-star-audit-v1",
+          "profile-a-audit-v1",
+          "closure-complete-v1",
+          "closure-audit-roots-v1",
+          "portable-formal-v1"
+        ],
+        "limitations": [
+          "Same evaluator with pinned dependency caches; detailed specialist mathematical audit continues"
+        ],
+        "method": "Read successful printed Lean theorem and transitive axiom receipts plus completed source-closure receipt",
+        "observations": [
+          "I27 remains an antecedent; unconditional two-star root has no I27 antecedent; closure receipt records63fresh and98source-matched reused modules, with66unique auditedroots"
+        ],
+        "scope": "logic",
+        "status": "limited"
+      },
+      {
+        "evidence_ids": [
+          "admission-v1",
+          "universal45-diagnostic-v1"
+        ],
+        "limitations": [
+          "Formal and ordinary mathematical assurance differ"
+        ],
+        "method": "Inspect admission and diagnostic scope",
+        "observations": [
+          "Actual-family proof distinguished from exploratory enumeration"
+        ],
+        "scope": "methodology",
+        "status": "limited"
+      },
+      {
+        "evidence_ids": [
+          "universal45-diagnostic-v1",
+          "universal45-crosscheck-v1",
+          "sharp45-failure-v1"
+        ],
+        "limitations": [
+          "Diagnostic pipeline not kernel verified; specialist recomputation pending"
+        ],
+        "method": "Read exact diagnostic outputs and failed attempt",
+        "observations": [
+          "No universal45 or SAT UNSAT premise claimed"
+        ],
+        "scope": "data",
+        "status": "limited"
+      },
+      {
+        "evidence_ids": [
+          "primary-sources-v1"
+        ],
+        "limitations": [
+          "No exhaustive originality or plagiarism-free claim"
+        ],
+        "method": "No broad corpus detector run",
+        "observations": [
+          "Accessible-source local comparison assigned to copyeditor"
+        ],
+        "scope": "text_reuse",
+        "status": "limited"
+      }
+    ],
+    "verification_sha256": "18fb2d59b84bce3874486715fb40014cf36ad25061abcaef793ae72d601cb34f"
+  },
+  "snapshot_sha256": "1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619",
+  "submissions": [
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/academic_writer",
+        "checks": [
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Read the frozen source ledger and directly opened the cited arXiv version, inspecting its definitions, Section 6.3, Section 6.4 and Section 8.",
+            "observation": "[Axante et al.](https://arxiv.org/html/2609.06175v1) uses the maximum-size convention, describes exhaustive enumeration for the intersecting upper bound, states 54 ≤ f(4,3) ≤ 83, and separates its Lean coverage. The manuscript attributes these points accurately; this check did not rerun that enumeration.",
+            "result": "supported",
+            "scope": "External theorem attribution and terminology"
+          },
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Compared Section 1 and Section 7 with the directly opened public A1K report, especially its Theorem T8 and discussion of open inputs.",
+            "observation": "The [A1K report](https://a1k.ai/agentic-math/rank-four-sunflower-free-families) leaves I(27) and both actual-profile exclusions open. The manuscript claims the exclusions as its new work and retains I(27) as external. No unqualified priority conclusion is drawn from the bounded search.",
+            "result": "supported",
+            "scope": "Inherited-versus-new contribution boundary"
+          },
+          {
+            "evidence_ids": [],
+            "method": "Verified the round-2 manuscript SHA-256 and reread its new definitions paragraph; compared it to my round-1 required revision.",
+            "observation": "The text explicitly defines intersecting and f(4,3), explains the forcing threshold, and accounts for equality in the formal intersection predicate because every member has size four. This fully closes the prior revision.",
+            "result": "supported",
+            "scope": "Persistence and closure of the prior required revision"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/academic_writer",
+        "decision": "continue",
+        "evidence_ids": [
+          "primary-sources-v1"
+        ],
+        "findings": [
+          {
+            "disposition": "The formerly ambiguous convention is explicit and agrees with the cited preprint.",
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "id": "notation-convention",
+            "severity": "minor",
+            "statement": "Section 1 now defines pairwise intersection, maximum-cardinality f(4,3), and the associated forcing threshold f(4,3)+1.",
+            "status": "resolved"
+          }
+        ],
+        "manuscript_sha256": "d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Checked the new definitions paragraph in frozen Section 1 against the exact requested repair.",
+            "finding_id": "/root/review80_coordinator/academic_writer:round-1:required-revision-1",
+            "result": "Both definitions and the off-by-one threshold distinction are present; no numerical change is required.",
+            "status": "resolved"
+          },
+          {
+            "action": "Reassessed the original finding using frozen round-2 Section 1.",
+            "finding_id": "/root/review80_coordinator/academic_writer:notation-convention",
+            "result": "Resolved by explicit maximum-size and intersecting conventions.",
+            "status": "resolved"
+          }
+        ],
+        "role": "academic_writer",
+        "round": 2,
+        "snapshot_sha256": "1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619",
+        "summary": "The definitions repair resolves my round-1 objection. Source attribution now supports a self-contained reading: the inherited structural reduction, new profile exclusions, external intersecting extremum, and limited literature comparison are kept distinct. Direct primary-page inspection corroborated the external theorem and convention without broadening the frozen novelty claim. No new required revision arises in this source-mapping phase."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-02/academic_writer/actual-public-response",
+        "context_id": "/root/review80_coordinator/academic_writer",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/academic_writer\",\n  \"role\": \"academic_writer\",\n  \"context_id\": \"/root/review80_coordinator/academic_writer\",\n  \"round\": 2,\n  \"snapshot_sha256\": \"1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619\",\n  \"manuscript_sha256\": \"d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6\",\n  \"summary\": \"The definitions repair resolves my round-1 objection. Source attribution now supports a self-contained reading: the inherited structural reduction, new profile exclusions, external intersecting extremum, and limited literature comparison are kept distinct. Direct primary-page inspection corroborated the external theorem and convention without broadening the frozen novelty claim. No new required revision arises in this source-mapping phase.\",\n  \"evidence_ids\": [\n    \"primary-sources-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"notation-convention\",\n      \"statement\": \"Section 1 now defines pairwise intersection, maximum-cardinality f(4,3), and the associated forcing threshold f(4,3)+1.\",\n      \"severity\": \"minor\",\n      \"status\": \"resolved\",\n      \"disposition\": \"The formerly ambiguous convention is explicit and agrees with the cited preprint.\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/review80_coordinator/academic_writer:round-1:required-revision-1\",\n      \"action\": \"Checked the new definitions paragraph in frozen Section 1 against the exact requested repair.\",\n      \"result\": \"Both definitions and the off-by-one threshold distinction are present; no numerical change is required.\",\n      \"status\": \"resolved\"\n    },\n    {\n      \"finding_id\": \"/root/review80_coordinator/academic_writer:notation-convention\",\n      \"action\": \"Reassessed the original finding using frozen round-2 Section 1.\",\n      \"result\": \"Resolved by explicit maximum-size and intersecting conventions.\",\n      \"status\": \"resolved\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"External theorem attribution and terminology\",\n      \"method\": \"Read the frozen source ledger and directly opened the cited arXiv version, inspecting its definitions, Section 6.3, Section 6.4 and Section 8.\",\n      \"observation\": \"[Axante et al.](https://arxiv.org/html/2609.06175v1) uses the maximum-size convention, describes exhaustive enumeration for the intersecting upper bound, states 54 ≤ f(4,3) ≤ 83, and separates its Lean coverage. The manuscript attributes these points accurately; this check did not rerun that enumeration.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Inherited-versus-new contribution boundary\",\n      \"method\": \"Compared Section 1 and Section 7 with the directly opened public A1K report, especially its Theorem T8 and discussion of open inputs.\",\n      \"observation\": \"The [A1K report](https://a1k.ai/agentic-math/rank-four-sunflower-free-families) leaves I(27) and both actual-profile exclusions open. The manuscript claims the exclusions as its new work and retains I(27) as external. No unqualified priority conclusion is drawn from the bounded search.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Persistence and closure of the prior required revision\",\n      \"method\": \"Verified the round-2 manuscript SHA-256 and reread its new definitions paragraph; compared it to my round-1 required revision.\",\n      \"observation\": \"The text explicitly defines intersecting and f(4,3), explains the forcing threshold, and accounts for equality in the formal intersection predicate because every member has size four. This fully closes the prior revision.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": []\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:01:22.603120+00:00",
+        "response_sha256": "a2e1ef09d74c467cb589e27fd97cc96d097a2fcca11960e873dc4b03aac25df7",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "dded8503b12a7d17ffceda1681c96b856f14d5561bc3c36738c0ffb9189c1844"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/alpha",
+        "checks": [
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Direct web.run opens/finds of https://arxiv.org/html/2609.06175v1 (Sections 6.3 and 8) and https://a1k.ai/agentic-math/rank-four-sunflower-free-families; compared with the frozen source ledger.",
+            "observation": "The preprint states Proposition 6.7 with intersecting cap 27 and describes exhaustive canonical search; it reports the numerical interval 54–83 and separates exhaustive computations from its Lean scope. A1K Theorem T8 retains I27 and both profile exclusions. These observations support the manuscript comparison, without rerunning the external enumeration or establishing global priority.",
+            "result": "supported",
+            "scope": "External I27 and comparison baseline"
+          },
+          {
+            "evidence_ids": [
+              "lean-source-theory-v1",
+              "closure-complete-v1",
+              "closure-manifest-v1"
+            ],
+            "method": "Read frozen FinalEighty.lean and ProfileAClosed.lean and checked closure-summary/module-manifest cardinalities.",
+            "observation": "FinalEighty imports ProfileAClosed and TwoHighEighty and passes the explicit I27 argument plus literal Profile B exclusion to the inherited assembly. The manifest has 161 distinct modules, split into 63 fresh and 98 source-matched prior rebuilds. This is consistent with the manuscript’s cached-dependency limitation; it does not establish a fresh toolchain or independent environment replay.",
+            "result": "supported",
+            "scope": "Local source dependency and rebuild assurance"
+          },
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Read abstract, Section 7 and ledger negative-search statement looking for inference from failed search to exhaustive absence.",
+            "observation": "The claims compare two identified baselines and explicitly limit the search result to verified sources. No assertion of universal priority, consensus or human certification is made. The ledger alone would not authenticate the sources; my direct checks above cover the decisive theorem statements only.",
+            "result": "supported",
+            "scope": "Adversarial novelty scope"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/alpha",
+        "decision": "continue",
+        "evidence_ids": [
+          "primary-sources-v1",
+          "lean-source-theory-v1",
+          "closure-complete-v1",
+          "closure-manifest-v1",
+          "portable-formal-v1"
+        ],
+        "findings": [
+          {
+            "disposition": "The round-one definition ambiguity is closed.",
+            "evidence_ids": [],
+            "id": "f-convention",
+            "severity": "minor",
+            "statement": "Section 1 now defines f(4,3) as maximum sunflower-free size and distinguishes the forcing threshold f(4,3)+1.",
+            "status": "resolved"
+          }
+        ],
+        "manuscript_sha256": "d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Checked the new definition in frozen Section 1.",
+            "finding_id": "/root/review80_coordinator/alpha:round-1:required-revision-1",
+            "result": "The maximum-cardinality convention and the one-unit forcing-threshold difference are explicit.",
+            "status": "resolved"
+          },
+          {
+            "action": "Verified the notation repair against the frozen manuscript.",
+            "finding_id": "/root/review80_coordinator/alpha:f-convention",
+            "result": "No off-by-one ambiguity remains.",
+            "status": "resolved"
+          }
+        ],
+        "role": "alpha",
+        "round": 2,
+        "snapshot_sha256": "1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619",
+        "summary": "The source map supports the bounded comparison: direct primary-page checks confirm the external intersecting result and its computer-assisted provenance, and the public A1K report leaves the prior A/B exclusions open. The local terminal source explicitly composes the two exclusions under I27. The repaired f convention resolves my round-one requirement. No unsupported global-priority or independent-replay claim was found."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-02/alpha/actual-public-response",
+        "context_id": "/root/review80_coordinator/alpha",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/alpha\",\n  \"role\": \"alpha\",\n  \"context_id\": \"/root/review80_coordinator/alpha\",\n  \"round\": 2,\n  \"snapshot_sha256\": \"1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619\",\n  \"manuscript_sha256\": \"d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6\",\n  \"summary\": \"The source map supports the bounded comparison: direct primary-page checks confirm the external intersecting result and its computer-assisted provenance, and the public A1K report leaves the prior A/B exclusions open. The local terminal source explicitly composes the two exclusions under I27. The repaired f convention resolves my round-one requirement. No unsupported global-priority or independent-replay claim was found.\",\n  \"evidence_ids\": [\n    \"primary-sources-v1\",\n    \"lean-source-theory-v1\",\n    \"closure-complete-v1\",\n    \"closure-manifest-v1\",\n    \"portable-formal-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"f-convention\",\n      \"statement\": \"Section 1 now defines f(4,3) as maximum sunflower-free size and distinguishes the forcing threshold f(4,3)+1.\",\n      \"severity\": \"minor\",\n      \"status\": \"resolved\",\n      \"disposition\": \"The round-one definition ambiguity is closed.\",\n      \"evidence_ids\": []\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/review80_coordinator/alpha:round-1:required-revision-1\",\n      \"action\": \"Checked the new definition in frozen Section 1.\",\n      \"result\": \"The maximum-cardinality convention and the one-unit forcing-threshold difference are explicit.\",\n      \"status\": \"resolved\"\n    },\n    {\n      \"finding_id\": \"/root/review80_coordinator/alpha:f-convention\",\n      \"action\": \"Verified the notation repair against the frozen manuscript.\",\n      \"result\": \"No off-by-one ambiguity remains.\",\n      \"status\": \"resolved\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"External I27 and comparison baseline\",\n      \"method\": \"Direct web.run opens/finds of https://arxiv.org/html/2609.06175v1 (Sections 6.3 and 8) and https://a1k.ai/agentic-math/rank-four-sunflower-free-families; compared with the frozen source ledger.\",\n      \"observation\": \"The preprint states Proposition 6.7 with intersecting cap 27 and describes exhaustive canonical search; it reports the numerical interval 54–83 and separates exhaustive computations from its Lean scope. A1K Theorem T8 retains I27 and both profile exclusions. These observations support the manuscript comparison, without rerunning the external enumeration or establishing global priority.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Local source dependency and rebuild assurance\",\n      \"method\": \"Read frozen FinalEighty.lean and ProfileAClosed.lean and checked closure-summary/module-manifest cardinalities.\",\n      \"observation\": \"FinalEighty imports ProfileAClosed and TwoHighEighty and passes the explicit I27 argument plus literal Profile B exclusion to the inherited assembly. The manifest has 161 distinct modules, split into 63 fresh and 98 source-matched prior rebuilds. This is consistent with the manuscript’s cached-dependency limitation; it does not establish a fresh toolchain or independent environment replay.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"lean-source-theory-v1\",\n        \"closure-complete-v1\",\n        \"closure-manifest-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Adversarial novelty scope\",\n      \"method\": \"Read abstract, Section 7 and ledger negative-search statement looking for inference from failed search to exhaustive absence.\",\n      \"observation\": \"The claims compare two identified baselines and explicitly limit the search result to verified sources. No assertion of universal priority, consensus or human certification is made. The ledger alone would not authenticate the sources; my direct checks above cover the decisive theorem statements only.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:02:32.935448+00:00",
+        "response_sha256": "d5479b5e0a755c4adbb2131594a8bae9713c1d2a076d1c487217d74124025df7",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "ee5a3d63e2f4a24a161db0aaabf26444eff3ccddc0790ef3177ca6ac051d50be"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/beta",
+        "checks": [
+          {
+            "evidence_ids": [
+              "portable-formal-v1"
+            ],
+            "method": "Read Erdos20RankFour.singleton_trace_card_le_ten, singleton_intersection_card_le_forty and the new MeetingDefect.twice_meeting_add_two_le_degree_sum_add_forty in the frozen portable source.",
+            "observation": "The ten bound comes from intersecting rank-three residuals of an exact singleton trace, with sunflower-freeness inherited from the actual family. The new inequality retains actual anchor degrees and the anchor excess of two; it does not assume I27 or a numerical boundary profile. This supports the intended inherited/new division.",
+            "result": "supported",
+            "scope": "Inherited exact-trace bound versus new meeting inequality"
+          },
+          {
+            "evidence_ids": [
+              "portable-formal-v1"
+            ],
+            "method": "Read Erdos20ExtremalTransversals.extremal_twenty_transversal_card_ge_six, Erdos20V8Stability.ten_three_point_transversal_iff_member, and both theorems in the new MinimumTransversals.lean.",
+            "observation": "Restriction to disjoint six-point supports gives at least three transversal points in each component. Total size six forces exactly three in each, and the inherited three-point characterization identifies both projections as design blocks. The new helper maintains one prescribed pair of components throughout the argument, closing the synchronization requirement.",
+            "result": "supported",
+            "scope": "Minimum-transversal source chain"
+          },
+          {
+            "evidence_ids": [
+              "portable-formal-v1"
+            ],
+            "method": "Compare the revised prose with GenericHeavyExtensions.heavy_extensions_common_point and heavy_design_keys_card_le_five, including the map-injectivity proof.",
+            "observation": "The formal weights are naturals on a finite support containing every extension pair. A heavy pair yields an endpoint of weight at least five; any pair omitting it would force total at least fourteen. The selected common point lies outside every used key by the definition of extension, so erasing it proves injectivity of key-to-triple. The empty-key case is separately harmless for the cardinality bound.",
+            "result": "supported",
+            "scope": "Reusable heavy-pair lemma scope"
+          },
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Read the frozen primary-source ledger and compare its bounded retrieval claims with Sections 2 and 7.",
+            "observation": "The manuscript does not assert exhaustive priority or a local formal I27 proof. The ledger reports actual primary-source retrieval but has no exact external content hash and no independently rerun enumeration. I did not reaccess those external pages in this phase; the local source tracing cannot strengthen that assurance.",
+            "result": "inconclusive",
+            "scope": "External source and novelty gaps"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/beta",
+        "decision": "continue",
+        "evidence_ids": [
+          "portable-formal-v1",
+          "primary-sources-v1"
+        ],
+        "findings": [
+          {
+            "disposition": "Optional precision: call this a direct consequence of inherited componentwise transversal results, with the synchronized formulation supplied by the new helper. This does not alter the proof or the bounded contribution claim.",
+            "evidence_ids": [
+              "portable-formal-v1"
+            ],
+            "id": "B2-minimum-transversal-source-map",
+            "severity": "minor",
+            "statement": "Section 1 groups the minimum-six-transversal characterization among inherited statements. Its mathematical ingredients are inherited, while the synchronized two-component formulation used by the new proof is assembled in FrontierMinimumTransversals.two_designs_transversal_six.",
+            "status": "claim-qualified"
+          }
+        ],
+        "manuscript_sha256": "d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Checked the newly explicit weighted-pair statement in Section 4.3 against heavy_extensions_common_point.",
+            "finding_id": "/root/review80_coordinator/beta:B1-reusable-concentration",
+            "result": "The statement now names a nonempty collection, two-element sets, nonnegative integer weights, total at most ten and weight at least nine on every pair. It accurately captures the reusable lemma.",
+            "status": "resolved"
+          }
+        ],
+        "role": "beta",
+        "round": 2,
+        "snapshot_sha256": "1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619",
+        "summary": "The source map supports the proposed structural contribution and the new weighted-pair statement has the needed nonemptiness and integer-weight scope. I traced the singleton-trace cap and extremal-link transversal facts to inherited sources, and the degree-sensitive meeting and heavy-extension composition to new Frontier sources. The six-point minimum-transversal characterization is a direct consequence of inherited results but is explicitly assembled in a new helper; identifying that helper would sharpen attribution. This review checks the frozen local source map, not exhaustive literature priority or independent execution of external I27."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-02/beta/actual-public-response",
+        "context_id": "/root/review80_coordinator/beta",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/beta\",\n  \"role\": \"beta\",\n  \"context_id\": \"/root/review80_coordinator/beta\",\n  \"round\": 2,\n  \"snapshot_sha256\": \"1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619\",\n  \"manuscript_sha256\": \"d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6\",\n  \"summary\": \"The source map supports the proposed structural contribution and the new weighted-pair statement has the needed nonemptiness and integer-weight scope. I traced the singleton-trace cap and extremal-link transversal facts to inherited sources, and the degree-sensitive meeting and heavy-extension composition to new Frontier sources. The six-point minimum-transversal characterization is a direct consequence of inherited results but is explicitly assembled in a new helper; identifying that helper would sharpen attribution. This review checks the frozen local source map, not exhaustive literature priority or independent execution of external I27.\",\n  \"evidence_ids\": [\n    \"portable-formal-v1\",\n    \"primary-sources-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"B2-minimum-transversal-source-map\",\n      \"statement\": \"Section 1 groups the minimum-six-transversal characterization among inherited statements. Its mathematical ingredients are inherited, while the synchronized two-component formulation used by the new proof is assembled in FrontierMinimumTransversals.two_designs_transversal_six.\",\n      \"severity\": \"minor\",\n      \"status\": \"claim-qualified\",\n      \"disposition\": \"Optional precision: call this a direct consequence of inherited componentwise transversal results, with the synchronized formulation supplied by the new helper. This does not alter the proof or the bounded contribution claim.\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/review80_coordinator/beta:B1-reusable-concentration\",\n      \"action\": \"Checked the newly explicit weighted-pair statement in Section 4.3 against heavy_extensions_common_point.\",\n      \"result\": \"The statement now names a nonempty collection, two-element sets, nonnegative integer weights, total at most ten and weight at least nine on every pair. It accurately captures the reusable lemma.\",\n      \"status\": \"resolved\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Inherited exact-trace bound versus new meeting inequality\",\n      \"method\": \"Read Erdos20RankFour.singleton_trace_card_le_ten, singleton_intersection_card_le_forty and the new MeetingDefect.twice_meeting_add_two_le_degree_sum_add_forty in the frozen portable source.\",\n      \"observation\": \"The ten bound comes from intersecting rank-three residuals of an exact singleton trace, with sunflower-freeness inherited from the actual family. The new inequality retains actual anchor degrees and the anchor excess of two; it does not assume I27 or a numerical boundary profile. This supports the intended inherited/new division.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Minimum-transversal source chain\",\n      \"method\": \"Read Erdos20ExtremalTransversals.extremal_twenty_transversal_card_ge_six, Erdos20V8Stability.ten_three_point_transversal_iff_member, and both theorems in the new MinimumTransversals.lean.\",\n      \"observation\": \"Restriction to disjoint six-point supports gives at least three transversal points in each component. Total size six forces exactly three in each, and the inherited three-point characterization identifies both projections as design blocks. The new helper maintains one prescribed pair of components throughout the argument, closing the synchronization requirement.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Reusable heavy-pair lemma scope\",\n      \"method\": \"Compare the revised prose with GenericHeavyExtensions.heavy_extensions_common_point and heavy_design_keys_card_le_five, including the map-injectivity proof.\",\n      \"observation\": \"The formal weights are naturals on a finite support containing every extension pair. A heavy pair yields an endpoint of weight at least five; any pair omitting it would force total at least fourteen. The selected common point lies outside every used key by the definition of extension, so erasing it proves injectivity of key-to-triple. The empty-key case is separately harmless for the cardinality bound.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"External source and novelty gaps\",\n      \"method\": \"Read the frozen primary-source ledger and compare its bounded retrieval claims with Sections 2 and 7.\",\n      \"observation\": \"The manuscript does not assert exhaustive priority or a local formal I27 proof. The ledger reports actual primary-source retrieval but has no exact external content hash and no independently rerun enumeration. I did not reaccess those external pages in this phase; the local source tracing cannot strengthen that assurance.\",\n      \"result\": \"inconclusive\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:03:24.894581+00:00",
+        "response_sha256": "1ef47bc7491e1c718a30f7a1a32ca2af640947facdc0816bfadbfc7a8195f339",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "d1184cff79ee743cb737b9193be0724c7b587161ae1cb47a171566f68b155616"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/chief",
+        "checks": [
+          {
+            "evidence_ids": [
+              "portable-formal-v1"
+            ],
+            "method": "Read portable FinalEighty.lean, ProfileAClosed.lean and inherited SunflowerLean/Erdos20V13Boundary.lean, then compared their types and applications with Sections 1, 2 and 7.",
+            "observation": "The inherited theorem requires hI, notA and notB. The new ProfileAClosed declaration constructs notA from hI; FinalEighty supplies the separately proved notB. Thus the new terminal declaration removes both realizability premises but preserves I(27). The inherited predicates quantify over actual families, not abstract degree tuples.",
+            "result": "supported",
+            "scope": "Inherited versus new proof dependency map"
+          },
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Direct web.run access to https://arxiv.org/html/2609.06175v1 and https://a1k.ai/agentic-math/rank-four-sunflower-free-families; inspected the former abstract, Sections 6.3 and 8, and the latter Theorem T8.",
+            "observation": "The preprint explicitly reports the intersecting maximum 27 and global upper 83, with the 28-row nonexistence problem assigned to exhaustive enumeration. Its stated Lean scope does not convert that enumeration into the local formal antecedent. A1K T8 leaves all three ordinary inputs open, matching the manuscript comparison. This direct check corroborates the frozen primary-source ledger but does not establish exhaustive priority or reproduce the external enumeration.",
+            "result": "supported",
+            "scope": "External mathematical input and comparison baseline"
+          },
+          {
+            "evidence_ids": [
+              "closure-complete-v1",
+              "closure-manifest-v1",
+              "portable-formal-v1"
+            ],
+            "method": "Inspected the completed closure summary, portable README, attribution and inherited-source-comparison record; checked the stated accounting and its limitations.",
+            "observation": "The receipt identifies 161 modules, partitioned into 63 fresh and 98 source-matched earlier rebuilt modules, and retains the same-evaluator/dependency-cache qualification. The portable recipe offers a full source rebuild without claiming it has occurred in another environment. The manuscript accurately describes a stronger local source check rather than independent certification. I have not yet rerun that portable recipe.",
+            "result": "supported",
+            "scope": "Source closure and portability claim calibration"
+          },
+          {
+            "evidence_ids": [],
+            "method": "Read all committed prior finding summaries and compared the revised first definition paragraph with the numerical corollary and formal intersecting predicate.",
+            "observation": "f(4,3) is now explicitly maximum sunflower-free cardinality, with forcing threshold f+1. Intersecting means distinct members meet; four-uniformity makes each self-intersection nonempty, so the reflexive formal version is equivalent. This resolves the substantive ambiguity identified by the earlier specialist findings; their authors retain responsibility for formal closure records.",
+            "result": "supported",
+            "scope": "Adequacy of prior-round definition repair"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/chief",
+        "decision": "continue",
+        "evidence_ids": [
+          "primary-sources-v1",
+          "portable-formal-v1",
+          "closure-complete-v1",
+          "closure-manifest-v1"
+        ],
+        "findings": [],
+        "manuscript_sha256": "d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6",
+        "required_revisions": [],
+        "revisions": [],
+        "role": "chief",
+        "round": 2,
+        "snapshot_sha256": "1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619",
+        "summary": "The inherited/new/external source map is coherent. I traced the terminal source composition to the inherited literal profile reduction, directly checked the two primary pages, and inspected the new closure and portable-source records. The source-closure improvement supports the stated bounded assurance, while external I(27), complete clean replay, exhaustive priority and cap45 remain accurately outside the local proof claim. The new definitions repair the prior notation ambiguity."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-02/chief/actual-public-response",
+        "context_id": "/root/review80_coordinator/chief",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/chief\",\n  \"role\": \"chief\",\n  \"context_id\": \"/root/review80_coordinator/chief\",\n  \"round\": 2,\n  \"snapshot_sha256\": \"1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619\",\n  \"manuscript_sha256\": \"d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6\",\n  \"summary\": \"The inherited/new/external source map is coherent. I traced the terminal source composition to the inherited literal profile reduction, directly checked the two primary pages, and inspected the new closure and portable-source records. The source-closure improvement supports the stated bounded assurance, while external I(27), complete clean replay, exhaustive priority and cap45 remain accurately outside the local proof claim. The new definitions repair the prior notation ambiguity.\",\n  \"evidence_ids\": [\n    \"primary-sources-v1\",\n    \"portable-formal-v1\",\n    \"closure-complete-v1\",\n    \"closure-manifest-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Inherited versus new proof dependency map\",\n      \"method\": \"Read portable FinalEighty.lean, ProfileAClosed.lean and inherited SunflowerLean/Erdos20V13Boundary.lean, then compared their types and applications with Sections 1, 2 and 7.\",\n      \"observation\": \"The inherited theorem requires hI, notA and notB. The new ProfileAClosed declaration constructs notA from hI; FinalEighty supplies the separately proved notB. Thus the new terminal declaration removes both realizability premises but preserves I(27). The inherited predicates quantify over actual families, not abstract degree tuples.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"External mathematical input and comparison baseline\",\n      \"method\": \"Direct web.run access to https://arxiv.org/html/2609.06175v1 and https://a1k.ai/agentic-math/rank-four-sunflower-free-families; inspected the former abstract, Sections 6.3 and 8, and the latter Theorem T8.\",\n      \"observation\": \"The preprint explicitly reports the intersecting maximum 27 and global upper 83, with the 28-row nonexistence problem assigned to exhaustive enumeration. Its stated Lean scope does not convert that enumeration into the local formal antecedent. A1K T8 leaves all three ordinary inputs open, matching the manuscript comparison. This direct check corroborates the frozen primary-source ledger but does not establish exhaustive priority or reproduce the external enumeration.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Source closure and portability claim calibration\",\n      \"method\": \"Inspected the completed closure summary, portable README, attribution and inherited-source-comparison record; checked the stated accounting and its limitations.\",\n      \"observation\": \"The receipt identifies 161 modules, partitioned into 63 fresh and 98 source-matched earlier rebuilt modules, and retains the same-evaluator/dependency-cache qualification. The portable recipe offers a full source rebuild without claiming it has occurred in another environment. The manuscript accurately describes a stronger local source check rather than independent certification. I have not yet rerun that portable recipe.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"closure-complete-v1\",\n        \"closure-manifest-v1\",\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Adequacy of prior-round definition repair\",\n      \"method\": \"Read all committed prior finding summaries and compared the revised first definition paragraph with the numerical corollary and formal intersecting predicate.\",\n      \"observation\": \"f(4,3) is now explicitly maximum sunflower-free cardinality, with forcing threshold f+1. Intersecting means distinct members meet; four-uniformity makes each self-intersection nonempty, so the reflexive formal version is equivalent. This resolves the substantive ambiguity identified by the earlier specialist findings; their authors retain responsibility for formal closure records.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": []\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T08:56:45.644554+00:00",
+        "response_sha256": "df8a13a30f28c29486346424c35b2fec43d4b2495e04180fe177622a0b375fd7",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "6453fc3e9c382c11f22a6d643ffb6e68a285b51d04b6e0a5fb2c35e227850fae"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/citation_verifier",
+        "checks": [
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Opened version-one HTML at Section 6.3 and inspected its statement/proof sequence, then read Section 8.",
+            "observation": "Proposition 6.7 is the required upper bound. Lemma 6.6 supplies canonical-construction coverage; the proof depends on the completed external search below 11,720 depth-six roots. Section 8 separates these computations from its Lean scope. No enumeration rerun or code-correctness proof was performed here. Source: https://arxiv.org/html/2609.06175v1#S6.SS3 and https://arxiv.org/html/2609.06175v1#S8.",
+            "result": "supported",
+            "scope": "Exact external I27 theorem and computational scope"
+          },
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Read Proposition 6.8, the paragraph starting Section 6.4, and Theorem 6.9; compare abstract and Corollary 4.",
+            "observation": "The source attributes the 27 construction to Abbott and Hanson; two disjoint copies provide 54, and Theorem 6.9 states the compared 83 ceiling. Its version remains v1. The manuscript uses the same maximum-size convention. Source: https://arxiv.org/html/2609.06175v1#S6.SS4.",
+            "result": "supported",
+            "scope": "Lower construction and named comparison"
+          },
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Opened the public A1K repository README and compared its current collection and hypothesis sections with the frozen manuscript and already accessed version-thirteen report.",
+            "observation": "The README identifies the version-13 collection and explicitly leaves I27 and both profile exclusions unproved. This supports the contribution comparison. The repository homepage is mutable; the manuscript separately pins inherited code by commit, and this check did not authenticate every file at that commit. Source: https://github.com/0xagi-bsky-social/A1K.",
+            "result": "supported",
+            "scope": "A1K prior endpoint and provenance limitation"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/citation_verifier",
+        "decision": "continue",
+        "evidence_ids": [
+          "primary-sources-v1"
+        ],
+        "findings": [
+          {
+            "disposition": "Optionally add Proposition 6.7 to Corollary 4 and Theorem 6.9 to the 54/83 comparison; existing citations already reach the correct source.",
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "id": "cv-r2-exact-locator",
+            "severity": "minor",
+            "statement": "The exact upper-bound result used is Proposition 6.7; Proposition 6.8 adds the matching lower construction. The manuscript currently cites their containing Section 6.3.",
+            "status": "open"
+          }
+        ],
+        "manuscript_sha256": "d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Inspected the new final sentences of the first paragraph of Section 1.",
+            "finding_id": "/root/review80_coordinator/citation_verifier:cv-r1-f-notation",
+            "result": "They define f(4,3) as maximum cardinality and distinguish the forcing threshold f(4,3)+1.",
+            "status": "resolved"
+          }
+        ],
+        "role": "citation_verifier",
+        "round": 2,
+        "snapshot_sha256": "1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619",
+        "summary": "Direct source mapping confirms the cited intersecting upper theorem, the numerical comparison, and the distinction between external enumeration and local Lean evidence. The notation issue is resolved. The existing Section 6.3 citation is adequate; proposition-level labels would improve navigation."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-02/citation_verifier/actual-public-response",
+        "context_id": "/root/review80_coordinator/citation_verifier",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/citation_verifier\",\n  \"role\": \"citation_verifier\",\n  \"context_id\": \"/root/review80_coordinator/citation_verifier\",\n  \"round\": 2,\n  \"snapshot_sha256\": \"1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619\",\n  \"manuscript_sha256\": \"d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6\",\n  \"summary\": \"Direct source mapping confirms the cited intersecting upper theorem, the numerical comparison, and the distinction between external enumeration and local Lean evidence. The notation issue is resolved. The existing Section 6.3 citation is adequate; proposition-level labels would improve navigation.\",\n  \"evidence_ids\": [\n    \"primary-sources-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"cv-r2-exact-locator\",\n      \"statement\": \"The exact upper-bound result used is Proposition 6.7; Proposition 6.8 adds the matching lower construction. The manuscript currently cites their containing Section 6.3.\",\n      \"severity\": \"minor\",\n      \"status\": \"open\",\n      \"disposition\": \"Optionally add Proposition 6.7 to Corollary 4 and Theorem 6.9 to the 54/83 comparison; existing citations already reach the correct source.\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/review80_coordinator/citation_verifier:cv-r1-f-notation\",\n      \"action\": \"Inspected the new final sentences of the first paragraph of Section 1.\",\n      \"result\": \"They define f(4,3) as maximum cardinality and distinguish the forcing threshold f(4,3)+1.\",\n      \"status\": \"resolved\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Exact external I27 theorem and computational scope\",\n      \"method\": \"Opened version-one HTML at Section 6.3 and inspected its statement/proof sequence, then read Section 8.\",\n      \"observation\": \"Proposition 6.7 is the required upper bound. Lemma 6.6 supplies canonical-construction coverage; the proof depends on the completed external search below 11,720 depth-six roots. Section 8 separates these computations from its Lean scope. No enumeration rerun or code-correctness proof was performed here. Source: https://arxiv.org/html/2609.06175v1#S6.SS3 and https://arxiv.org/html/2609.06175v1#S8.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Lower construction and named comparison\",\n      \"method\": \"Read Proposition 6.8, the paragraph starting Section 6.4, and Theorem 6.9; compare abstract and Corollary 4.\",\n      \"observation\": \"The source attributes the 27 construction to Abbott and Hanson; two disjoint copies provide 54, and Theorem 6.9 states the compared 83 ceiling. Its version remains v1. The manuscript uses the same maximum-size convention. Source: https://arxiv.org/html/2609.06175v1#S6.SS4.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    },\n    {\n      \"scope\": \"A1K prior endpoint and provenance limitation\",\n      \"method\": \"Opened the public A1K repository README and compared its current collection and hypothesis sections with the frozen manuscript and already accessed version-thirteen report.\",\n      \"observation\": \"The README identifies the version-13 collection and explicitly leaves I27 and both profile exclusions unproved. This supports the contribution comparison. The repository homepage is mutable; the manuscript separately pins inherited code by commit, and this check did not authenticate every file at that commit. Source: https://github.com/0xagi-bsky-social/A1K.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:01:06.653032+00:00",
+        "response_sha256": "dbb3eccea7914ae7fa68d75fc4cb76a309283e057e760b60aa918f2f03588e07",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "9f40cacd36eaf64b52d93375a66144fb89842c1325c18778030d68d382b7f1d3"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/copyeditor",
+        "checks": [
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Opened https://arxiv.org/html/2609.06175v1 directly and read its abstract, definition sections, Proposition 6.7 in Section 6.3 and Section 8; compared these with the frozen manuscript.",
+            "observation": "The external source states the intersecting upper bound through computation and separates the relevant enumerations from its listed Lean coverage. The manuscript attributes the result and preserves that distinction. Its f(4,3) convention agrees with the source. This check does not rerun the computation.",
+            "result": "supported",
+            "scope": "Attribution to accessible external theorem source"
+          },
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Opened the cited A1K version-thirteen report and compared its introductory definitions, profile table, T5 and T8 with frozen Section 1 and Section 7.",
+            "observation": "The report supplies the two profiles and at-most-two-high-points result, while explicitly retaining three inputs to its eighty implication. The manuscript identifies these as inherited and attributes its advance to excluding the profiles. No source-map contradiction identified.",
+            "result": "supported",
+            "scope": "Inherited/new contribution boundary"
+          },
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Manually compared selected definitions, claim summaries, formalization-scope and inherited-profile passages from both accessible webpages against the frozen manuscript. Scope and observations retained in scratch/copyeditor/round-02-passage-comparison.json.",
+            "observation": "Shared vocabulary and mathematical statements are conventional or explicitly attributed. I identified no distinctive unattributed extended prose match in the selected passages. This observation supports only those passages: no automated similarity score, broad corpus detector or comprehensive originality claim was produced.",
+            "result": "supported",
+            "scope": "Bounded accessible-source passage reuse"
+          },
+          {
+            "evidence_ids": [],
+            "method": "Verified the exact frozen manuscript hash, read Section 1 and searched the four previously flagged strings.",
+            "observation": "Explicit extremal notation and all four spacing repairs are present; both earlier minor findings are closed.",
+            "result": "supported",
+            "scope": "Prior copyediting repairs"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/copyeditor",
+        "decision": "continue",
+        "evidence_ids": [
+          "primary-sources-v1"
+        ],
+        "findings": [
+          {
+            "disposition": "Round 1 notation suggestion is satisfied.",
+            "evidence_ids": [],
+            "id": "copy-r1-extremal-notation",
+            "severity": "minor",
+            "statement": "Section 1 now defines f(4,3) using the maximum-family-size convention and explicitly distinguishes the forcing threshold.",
+            "status": "resolved"
+          },
+          {
+            "disposition": "Round 1 spacing suggestion is satisfied.",
+            "evidence_ids": [],
+            "id": "copy-r1-spacing",
+            "severity": "minor",
+            "statement": "All four previously identified fused word-number tokens have been repaired.",
+            "status": "resolved"
+          }
+        ],
+        "manuscript_sha256": "d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Checked the new definition in frozen Section 1.",
+            "finding_id": "/root/review80_coordinator/copyeditor:copy-r1-extremal-notation",
+            "result": "Maximum-size convention and f(4,3)+1 forcing threshold are explicit.",
+            "status": "resolved"
+          },
+          {
+            "action": "Read repaired sentences and searched frozen text for by9, by5, plus2 and is66.",
+            "finding_id": "/root/review80_coordinator/copyeditor:copy-r1-spacing",
+            "result": "None remain; all four sentences have correct spacing.",
+            "status": "resolved"
+          }
+        ],
+        "role": "copyeditor",
+        "round": 2,
+        "snapshot_sha256": "1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619",
+        "summary": "The notation and spacing repairs are complete. Direct reading of selected passages from the two named primary sources supports the manuscript’s attribution and claim distinctions. Manual comparison identified no distinctive unattributed extended prose match in those passages; this is a bounded accessible-source review, not a corpus-wide originality assessment."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-02/copyeditor/actual-public-response",
+        "context_id": "/root/review80_coordinator/copyeditor",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/copyeditor\",\n  \"role\": \"copyeditor\",\n  \"context_id\": \"/root/review80_coordinator/copyeditor\",\n  \"round\": 2,\n  \"snapshot_sha256\": \"1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619\",\n  \"manuscript_sha256\": \"d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6\",\n  \"summary\": \"The notation and spacing repairs are complete. Direct reading of selected passages from the two named primary sources supports the manuscript’s attribution and claim distinctions. Manual comparison identified no distinctive unattributed extended prose match in those passages; this is a bounded accessible-source review, not a corpus-wide originality assessment.\",\n  \"evidence_ids\": [\n    \"primary-sources-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"copy-r1-extremal-notation\",\n      \"statement\": \"Section 1 now defines f(4,3) using the maximum-family-size convention and explicitly distinguishes the forcing threshold.\",\n      \"severity\": \"minor\",\n      \"status\": \"resolved\",\n      \"disposition\": \"Round 1 notation suggestion is satisfied.\",\n      \"evidence_ids\": []\n    },\n    {\n      \"id\": \"copy-r1-spacing\",\n      \"statement\": \"All four previously identified fused word-number tokens have been repaired.\",\n      \"severity\": \"minor\",\n      \"status\": \"resolved\",\n      \"disposition\": \"Round 1 spacing suggestion is satisfied.\",\n      \"evidence_ids\": []\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/review80_coordinator/copyeditor:copy-r1-extremal-notation\",\n      \"action\": \"Checked the new definition in frozen Section 1.\",\n      \"result\": \"Maximum-size convention and f(4,3)+1 forcing threshold are explicit.\",\n      \"status\": \"resolved\"\n    },\n    {\n      \"finding_id\": \"/root/review80_coordinator/copyeditor:copy-r1-spacing\",\n      \"action\": \"Read repaired sentences and searched frozen text for by9, by5, plus2 and is66.\",\n      \"result\": \"None remain; all four sentences have correct spacing.\",\n      \"status\": \"resolved\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Attribution to accessible external theorem source\",\n      \"method\": \"Opened https://arxiv.org/html/2609.06175v1 directly and read its abstract, definition sections, Proposition 6.7 in Section 6.3 and Section 8; compared these with the frozen manuscript.\",\n      \"observation\": \"The external source states the intersecting upper bound through computation and separates the relevant enumerations from its listed Lean coverage. The manuscript attributes the result and preserves that distinction. Its f(4,3) convention agrees with the source. This check does not rerun the computation.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Inherited/new contribution boundary\",\n      \"method\": \"Opened the cited A1K version-thirteen report and compared its introductory definitions, profile table, T5 and T8 with frozen Section 1 and Section 7.\",\n      \"observation\": \"The report supplies the two profiles and at-most-two-high-points result, while explicitly retaining three inputs to its eighty implication. The manuscript identifies these as inherited and attributes its advance to excluding the profiles. No source-map contradiction identified.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Bounded accessible-source passage reuse\",\n      \"method\": \"Manually compared selected definitions, claim summaries, formalization-scope and inherited-profile passages from both accessible webpages against the frozen manuscript. Scope and observations retained in scratch/copyeditor/round-02-passage-comparison.json.\",\n      \"observation\": \"Shared vocabulary and mathematical statements are conventional or explicitly attributed. I identified no distinctive unattributed extended prose match in the selected passages. This observation supports only those passages: no automated similarity score, broad corpus detector or comprehensive originality claim was produced.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Prior copyediting repairs\",\n      \"method\": \"Verified the exact frozen manuscript hash, read Section 1 and searched the four previously flagged strings.\",\n      \"observation\": \"Explicit extremal notation and all four spacing repairs are present; both earlier minor findings are closed.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": []\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:04:31.851081+00:00",
+        "response_sha256": "e291abba6b764e76985322a1dabe47c83aa1744277b3e2132456a75a43b9307c",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "d7e9a2765a909001ae320135c49084bcb539aab0fd0f91e623ab43a8aca912c3"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/data_analyst",
+        "checks": [
+          {
+            "evidence_ids": [
+              "closure-complete-v1",
+              "closure-manifest-v1",
+              "portable-formal-v1"
+            ],
+            "method": "Parsed frozen summary and manifest; counted unique module names and mode partitions, compared the summary module lists, recomputed the manifest digest, and SHA-256 checked every source listed in the portable source manifest.",
+            "observation": "161 distinct modules partition into 63 fresh and 98 reused with no intersection; their union equals the manifest. The summary manifest digest matches. All 161 portable source hashes match their files and the corresponding closure-manifest hashes. These are actual byte/count checks; I did not rerun Lean in this phase.",
+            "result": "supported",
+            "scope": "Closure count and source-byte accounting"
+          },
+          {
+            "evidence_ids": [
+              "closure-audit-roots-v1",
+              "portable-formal-v1"
+            ],
+            "method": "Counted distinct names and namespace prefixes in the frozen root audit summary and read the portable README.",
+            "observation": "The summary lists 66 distinct passing roots, comprising 64 Frontier roots and two inherited roots. The portable README correctly distinguishes the recorded 63/98 closure from its proposed full 161-source rebuild recipe and retains the same-evaluator limitation.",
+            "result": "supported",
+            "scope": "Root count and assurance framing"
+          },
+          {
+            "evidence_ids": [
+              "lean-source-theory-v1"
+            ],
+            "method": "Read frozen TwoHighIncidence.lean, ProfileACounts.lean and ProfileAClosed.lean and traced manuscript constants to theorem statements.",
+            "observation": "The incidence source states 37*H.card <= 126*U.card under four-uniformity, two >=3 trace hypotheses and degree caps 14/9, then specializes |U|=12 to |H|<=40. ProfileACounts derives total61, outsider incidence76, n2=n0+15, degree-sum upper66 and final windows n0 in[9,12], n2 in[24,27]. ProfileAClosed retains I27 as an argument. None of these inspected arguments takes the cap45 diagnostic as a premise.",
+            "result": "supported",
+            "scope": "Source map for analytic constants"
+          },
+          {
+            "evidence_ids": [
+              "universal45-diagnostic-v1",
+              "universal45-crosscheck-v1",
+              "portable-formal-v1"
+            ],
+            "method": "Compared Section6 with the previously read frozen diagnostic records and the accepted portable proof-bundle scope statement.",
+            "observation": "The 156,960 geometry and20,475 candidate counts are attributed to external exact diagnostics. Both normalized coverage and the universal45 conclusion remain unproved here; the source bundle explicitly excludes exploratory cap45 and failed bitmask/UNKNOWN SAT attempts.",
+            "result": "supported",
+            "scope": "Diagnostic evidence versus theorem evidence"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/data_analyst",
+        "decision": "continue",
+        "evidence_ids": [
+          "lean-source-theory-v1",
+          "closure-complete-v1",
+          "closure-manifest-v1",
+          "closure-audit-roots-v1",
+          "portable-formal-v1",
+          "universal45-diagnostic-v1",
+          "universal45-crosscheck-v1"
+        ],
+        "findings": [],
+        "manuscript_sha256": "d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6",
+        "required_revisions": [],
+        "revisions": [],
+        "role": "data_analyst",
+        "round": 2,
+        "snapshot_sha256": "1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619",
+        "summary": "The newly supplied source-closure counts reconcile across the summary, manifest and portable bundle, and the principal numerical inequalities trace to explicit finite-family theorem interfaces. Exploratory geometry counts remain outside the accepted proof premises. The counts certify recorded scope, not independent replay."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-02/data_analyst/actual-public-response",
+        "context_id": "/root/review80_coordinator/data_analyst",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/data_analyst\",\n  \"role\": \"data_analyst\",\n  \"context_id\": \"/root/review80_coordinator/data_analyst\",\n  \"round\": 2,\n  \"snapshot_sha256\": \"1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619\",\n  \"manuscript_sha256\": \"d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6\",\n  \"summary\": \"The newly supplied source-closure counts reconcile across the summary, manifest and portable bundle, and the principal numerical inequalities trace to explicit finite-family theorem interfaces. Exploratory geometry counts remain outside the accepted proof premises. The counts certify recorded scope, not independent replay.\",\n  \"evidence_ids\": [\n    \"lean-source-theory-v1\",\n    \"closure-complete-v1\",\n    \"closure-manifest-v1\",\n    \"closure-audit-roots-v1\",\n    \"portable-formal-v1\",\n    \"universal45-diagnostic-v1\",\n    \"universal45-crosscheck-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Closure count and source-byte accounting\",\n      \"method\": \"Parsed frozen summary and manifest; counted unique module names and mode partitions, compared the summary module lists, recomputed the manifest digest, and SHA-256 checked every source listed in the portable source manifest.\",\n      \"observation\": \"161 distinct modules partition into 63 fresh and 98 reused with no intersection; their union equals the manifest. The summary manifest digest matches. All 161 portable source hashes match their files and the corresponding closure-manifest hashes. These are actual byte/count checks; I did not rerun Lean in this phase.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"closure-complete-v1\",\n        \"closure-manifest-v1\",\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Root count and assurance framing\",\n      \"method\": \"Counted distinct names and namespace prefixes in the frozen root audit summary and read the portable README.\",\n      \"observation\": \"The summary lists 66 distinct passing roots, comprising 64 Frontier roots and two inherited roots. The portable README correctly distinguishes the recorded 63/98 closure from its proposed full 161-source rebuild recipe and retains the same-evaluator limitation.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"closure-audit-roots-v1\",\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Source map for analytic constants\",\n      \"method\": \"Read frozen TwoHighIncidence.lean, ProfileACounts.lean and ProfileAClosed.lean and traced manuscript constants to theorem statements.\",\n      \"observation\": \"The incidence source states 37*H.card <= 126*U.card under four-uniformity, two >=3 trace hypotheses and degree caps 14/9, then specializes |U|=12 to |H|<=40. ProfileACounts derives total61, outsider incidence76, n2=n0+15, degree-sum upper66 and final windows n0 in[9,12], n2 in[24,27]. ProfileAClosed retains I27 as an argument. None of these inspected arguments takes the cap45 diagnostic as a premise.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"lean-source-theory-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Diagnostic evidence versus theorem evidence\",\n      \"method\": \"Compared Section6 with the previously read frozen diagnostic records and the accepted portable proof-bundle scope statement.\",\n      \"observation\": \"The 156,960 geometry and20,475 candidate counts are attributed to external exact diagnostics. Both normalized coverage and the universal45 conclusion remain unproved here; the source bundle explicitly excludes exploratory cap45 and failed bitmask/UNKNOWN SAT attempts.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"universal45-diagnostic-v1\",\n        \"universal45-crosscheck-v1\",\n        \"portable-formal-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T08:59:41.373647+00:00",
+        "response_sha256": "344b9c40d9386d1e91b8ee39c19cf4c074c798fa13c172d80de5e5dba7cff751",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "6415561dba357a3f5f0a1f96a153bdf399e25357b3d4e2acb4a222f6a9089549"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/domain_expert",
+        "checks": [
+          {
+            "evidence_ids": [
+              "portable-formal-v1"
+            ],
+            "method": "Inspected frozen portable sources Erdos20ExtremalTwenty.lean lines 219-254, Erdos20ExtremalTransversals.lean lines 37-96, Erdos20V8Stability.lean lines 51-78, and MinimumTransversals.lean lines 9-81.",
+            "observation": "The two-design theorem requires only triple uniformity, sunflower-freeness and cardinality twenty, and supplies disjoint six-point supports, point degree five, and pair codegree two. The inherited transversal lower bound is six; the local classification of all minimum six-transversals follows by splitting into the two supports and applying the inherited three-transversal iff block lemma. No I(27) assumption occurs in these interfaces.",
+            "result": "supported",
+            "scope": "Inherited degree-twenty design and transversal dependency map"
+          },
+          {
+            "evidence_ids": [
+              "portable-formal-v1"
+            ],
+            "method": "Read the frozen high_points_card_le_two signature in Erdos20V12HighCardTwo.lean lines 88-94 and the literal profiles plus terminal reduction in Erdos20V13Boundary.lean lines 25-73.",
+            "observation": "The at-most-two-high-point theorem is unconditional on I(27), cardinality and support. The profile reduction is explicitly conditional on I(27), and its realizability definitions include actual uniform sunflower-free families of cardinality 81 and the no-two-highs-per-member condition. Thus the theorem inputs are not merely numerical censuses.",
+            "result": "supported",
+            "scope": "Global high-point bound and exact boundary dependencies"
+          },
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Actually opened https://arxiv.org/html/2609.06175v1 and https://a1k.ai/agentic-math/rank-four-sunflower-free-families with web.run and inspected the relevant source sections; compared with the frozen ledger.",
+            "observation": "The arXiv source defines f by maximum size, permits empty cores, and gives the intersecting maximum in Proposition 6.8 using the upper enumeration of Proposition 6.7. Its numerical global bound is 83. The A1K public report states the unconditional high-point theorem and conditional bound 81, leaving the final eighty obligations open. I did not rerun the external enumeration or establish exhaustive priority.",
+            "result": "supported",
+            "scope": "Primary-source agreement and remaining external gap"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/domain_expert",
+        "decision": "continue",
+        "evidence_ids": [
+          "portable-formal-v1",
+          "primary-sources-v1"
+        ],
+        "findings": [
+          {
+            "disposition": "The off-by-one convention ambiguity identified in round 1 is closed.",
+            "evidence_ids": [],
+            "id": "f-convention",
+            "severity": "minor",
+            "statement": "Section 1 now defines f(4,3) as the maximum cardinality and gives the forcing-threshold conversion f(4,3)+1.",
+            "status": "resolved"
+          },
+          {
+            "disposition": "Maintain the existing external-I(27) and same-evaluator qualifications.",
+            "evidence_ids": [
+              "portable-formal-v1",
+              "primary-sources-v1"
+            ],
+            "id": "source-assurance-boundary",
+            "severity": "note",
+            "statement": "The ordinary corollary uses the external canonical enumeration, while the inherited structural inputs are represented by local Lean theorems; a source-closure bundle is not an independent replay of the external enumeration.",
+            "status": "claim-qualified"
+          }
+        ],
+        "manuscript_sha256": "d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Checked the newly explicit maximum-size definition and forcing-threshold sentence in Section 1.",
+            "finding_id": "/root/review80_coordinator/domain_expert:f-convention",
+            "result": "The intended convention is now unambiguous and agrees with the primary preprint.",
+            "status": "resolved"
+          }
+        ],
+        "role": "domain_expert",
+        "round": 2,
+        "snapshot_sha256": "1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619",
+        "summary": "The source map supports the required inherited design and high-point statements without importing I(27) into those structural lemmas. The public preprint independently retrieved in this round matches the manuscript conventions and explicitly supplies the external intersecting bound; the public A1K report matches the inherited conditional endpoint. The f(4,3) notation issue is resolved. The minimum-transversal classification is implemented by a local wrapper around inherited component facts, which is a valid dependency and does not threaten the theorem."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-02/domain_expert/actual-public-response",
+        "context_id": "/root/review80_coordinator/domain_expert",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/domain_expert\",\n  \"role\": \"domain_expert\",\n  \"context_id\": \"/root/review80_coordinator/domain_expert\",\n  \"round\": 2,\n  \"snapshot_sha256\": \"1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619\",\n  \"manuscript_sha256\": \"d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6\",\n  \"summary\": \"The source map supports the required inherited design and high-point statements without importing I(27) into those structural lemmas. The public preprint independently retrieved in this round matches the manuscript conventions and explicitly supplies the external intersecting bound; the public A1K report matches the inherited conditional endpoint. The f(4,3) notation issue is resolved. The minimum-transversal classification is implemented by a local wrapper around inherited component facts, which is a valid dependency and does not threaten the theorem.\",\n  \"evidence_ids\": [\n    \"portable-formal-v1\",\n    \"primary-sources-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"f-convention\",\n      \"statement\": \"Section 1 now defines f(4,3) as the maximum cardinality and gives the forcing-threshold conversion f(4,3)+1.\",\n      \"severity\": \"minor\",\n      \"status\": \"resolved\",\n      \"disposition\": \"The off-by-one convention ambiguity identified in round 1 is closed.\",\n      \"evidence_ids\": []\n    },\n    {\n      \"id\": \"source-assurance-boundary\",\n      \"statement\": \"The ordinary corollary uses the external canonical enumeration, while the inherited structural inputs are represented by local Lean theorems; a source-closure bundle is not an independent replay of the external enumeration.\",\n      \"severity\": \"note\",\n      \"status\": \"claim-qualified\",\n      \"disposition\": \"Maintain the existing external-I(27) and same-evaluator qualifications.\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\",\n        \"primary-sources-v1\"\n      ]\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/review80_coordinator/domain_expert:f-convention\",\n      \"action\": \"Checked the newly explicit maximum-size definition and forcing-threshold sentence in Section 1.\",\n      \"result\": \"The intended convention is now unambiguous and agrees with the primary preprint.\",\n      \"status\": \"resolved\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Inherited degree-twenty design and transversal dependency map\",\n      \"method\": \"Inspected frozen portable sources Erdos20ExtremalTwenty.lean lines 219-254, Erdos20ExtremalTransversals.lean lines 37-96, Erdos20V8Stability.lean lines 51-78, and MinimumTransversals.lean lines 9-81.\",\n      \"observation\": \"The two-design theorem requires only triple uniformity, sunflower-freeness and cardinality twenty, and supplies disjoint six-point supports, point degree five, and pair codegree two. The inherited transversal lower bound is six; the local classification of all minimum six-transversals follows by splitting into the two supports and applying the inherited three-transversal iff block lemma. No I(27) assumption occurs in these interfaces.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Global high-point bound and exact boundary dependencies\",\n      \"method\": \"Read the frozen high_points_card_le_two signature in Erdos20V12HighCardTwo.lean lines 88-94 and the literal profiles plus terminal reduction in Erdos20V13Boundary.lean lines 25-73.\",\n      \"observation\": \"The at-most-two-high-point theorem is unconditional on I(27), cardinality and support. The profile reduction is explicitly conditional on I(27), and its realizability definitions include actual uniform sunflower-free families of cardinality 81 and the no-two-highs-per-member condition. Thus the theorem inputs are not merely numerical censuses.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Primary-source agreement and remaining external gap\",\n      \"method\": \"Actually opened https://arxiv.org/html/2609.06175v1 and https://a1k.ai/agentic-math/rank-four-sunflower-free-families with web.run and inspected the relevant source sections; compared with the frozen ledger.\",\n      \"observation\": \"The arXiv source defines f by maximum size, permits empty cores, and gives the intersecting maximum in Proposition 6.8 using the upper enumeration of Proposition 6.7. Its numerical global bound is 83. The A1K public report states the unconditional high-point theorem and conditional bound 81, leaving the final eighty obligations open. I did not rerun the external enumeration or establish exhaustive priority.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T08:57:04.216511+00:00",
+        "response_sha256": "aa78824d7d7978a2ee64c9d647101fcc350a46d031aa5659df352ec7c560ae8e",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "757c6b8be83b0fb0f78b567c382e0475633dbd105f3df6c80a9ad345659ee579"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/literature_reviewer",
+        "checks": [
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Used web.run to reopen https://arxiv.org/abs/2609.06175 and https://arxiv.org/html/2609.06175v1 at Section 6.3; inspected the displayed submission history and theorem sequence.",
+            "observation": "The record displays v1, dated 5 September 2026, with no displayed journal reference. Proposition 6.7 gives I27 by exhaustive search, Proposition 6.8 combines it with the 27 construction, and Theorem 6.9 states 54 to 83. Section 6.5 distinguishes subtree search from frontier/result accounting. I have not rerun those computations.",
+            "result": "supported",
+            "scope": "Exact external theorem and preprint status"
+          },
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Compared the frozen ledger with fresh searches for exact f(4,3)/80 and the authors/81; screened returned titles and relevant primary-page matches.",
+            "observation": "The returned relevant comparison was the existing A1K page; unrelated notation matches do not bear on the theorem. No newly verified primary result displaced the named baselines in this limited check. The article, author code and associated run artifacts form one evidentiary source family; the A1K report and A1K repository are likewise related. The manuscript claims no independent corroboration or exhaustive novelty.",
+            "result": "supported",
+            "scope": "Novelty search scope and related-source dependence"
+          },
+          {
+            "evidence_ids": [],
+            "method": "Read the exact frozen Section 1 and checked its maximum-size convention against the statement 54 <= f(4,3) <= 80.",
+            "observation": "The previously implicit definition is explicit, with forcing threshold f(4,3)+1; no off-by-one ambiguity remains.",
+            "result": "supported",
+            "scope": "Definition repair"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/literature_reviewer",
+        "decision": "continue",
+        "evidence_ids": [
+          "primary-sources-v1"
+        ],
+        "findings": [
+          {
+            "disposition": "The prior notation clarification is fully addressed.",
+            "evidence_ids": [],
+            "id": "LIT-02",
+            "severity": "minor",
+            "statement": "Section 1 now defines f(4,3) as maximum sunflower-free cardinality and explicitly distinguishes the forcing threshold; it also defines intersecting.",
+            "status": "resolved"
+          },
+          {
+            "disposition": "Optional locator refinement, not a source-validity objection.",
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "id": "LIT-03",
+            "severity": "note",
+            "statement": "The precise upper-bound citation is Proposition 6.7 in Section 6.3; adding its number would sharpen the already-correct section link.",
+            "status": "resolved"
+          }
+        ],
+        "manuscript_sha256": "d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Checked the new Section 1 definitions against the first-round notation concern.",
+            "finding_id": "/root/review80_coordinator/literature_reviewer:LIT-02",
+            "result": "Maximum-cardinality and forcing-threshold conventions are explicit and consistent with the numerical bounds.",
+            "status": "resolved"
+          }
+        ],
+        "role": "literature_reviewer",
+        "round": 2,
+        "snapshot_sha256": "1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619",
+        "summary": "The repaired notation now matches the external source unambiguously. Direct source mapping identifies Proposition 6.7 as the exact I27 input, Proposition 6.8 as the matching extremum, and Theorem 6.9 as the 83 baseline. The section-level citation is already correct. The bounded literature claim remains justified only as a search observation, with no global-priority or independent-source conclusion."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-02/literature_reviewer/actual-public-response",
+        "context_id": "/root/review80_coordinator/literature_reviewer",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/literature_reviewer\",\n  \"role\": \"literature_reviewer\",\n  \"context_id\": \"/root/review80_coordinator/literature_reviewer\",\n  \"round\": 2,\n  \"snapshot_sha256\": \"1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619\",\n  \"manuscript_sha256\": \"d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6\",\n  \"summary\": \"The repaired notation now matches the external source unambiguously. Direct source mapping identifies Proposition 6.7 as the exact I27 input, Proposition 6.8 as the matching extremum, and Theorem 6.9 as the 83 baseline. The section-level citation is already correct. The bounded literature claim remains justified only as a search observation, with no global-priority or independent-source conclusion.\",\n  \"evidence_ids\": [\n    \"primary-sources-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"LIT-02\",\n      \"statement\": \"Section 1 now defines f(4,3) as maximum sunflower-free cardinality and explicitly distinguishes the forcing threshold; it also defines intersecting.\",\n      \"severity\": \"minor\",\n      \"status\": \"resolved\",\n      \"disposition\": \"The prior notation clarification is fully addressed.\",\n      \"evidence_ids\": []\n    },\n    {\n      \"id\": \"LIT-03\",\n      \"statement\": \"The precise upper-bound citation is Proposition 6.7 in Section 6.3; adding its number would sharpen the already-correct section link.\",\n      \"severity\": \"note\",\n      \"status\": \"resolved\",\n      \"disposition\": \"Optional locator refinement, not a source-validity objection.\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/review80_coordinator/literature_reviewer:LIT-02\",\n      \"action\": \"Checked the new Section 1 definitions against the first-round notation concern.\",\n      \"result\": \"Maximum-cardinality and forcing-threshold conventions are explicit and consistent with the numerical bounds.\",\n      \"status\": \"resolved\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Exact external theorem and preprint status\",\n      \"method\": \"Used web.run to reopen https://arxiv.org/abs/2609.06175 and https://arxiv.org/html/2609.06175v1 at Section 6.3; inspected the displayed submission history and theorem sequence.\",\n      \"observation\": \"The record displays v1, dated 5 September 2026, with no displayed journal reference. Proposition 6.7 gives I27 by exhaustive search, Proposition 6.8 combines it with the 27 construction, and Theorem 6.9 states 54 to 83. Section 6.5 distinguishes subtree search from frontier/result accounting. I have not rerun those computations.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Novelty search scope and related-source dependence\",\n      \"method\": \"Compared the frozen ledger with fresh searches for exact f(4,3)/80 and the authors/81; screened returned titles and relevant primary-page matches.\",\n      \"observation\": \"The returned relevant comparison was the existing A1K page; unrelated notation matches do not bear on the theorem. No newly verified primary result displaced the named baselines in this limited check. The article, author code and associated run artifacts form one evidentiary source family; the A1K report and A1K repository are likewise related. The manuscript claims no independent corroboration or exhaustive novelty.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Definition repair\",\n      \"method\": \"Read the exact frozen Section 1 and checked its maximum-size convention against the statement 54 <= f(4,3) <= 80.\",\n      \"observation\": \"The previously implicit definition is explicit, with forcing threshold f(4,3)+1; no off-by-one ambiguity remains.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": []\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T08:58:05.683100+00:00",
+        "response_sha256": "4c37ce8a4946789b3ad1af8bbe9710db41e102bbccb21f8c454e214ffc523614",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "c8edf6f0bfd773b520fc4418d0a1ee22955e6211a8a3c294194e48287dea9e0c"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/logic_auditor",
+        "checks": [
+          {
+            "evidence_ids": [
+              "portable-formal-v1"
+            ],
+            "method": "Read frozen FinalEighty.lean, ProfileAClosed.lean, ProfileABridge.lean, TwoHighEighty.lean and Erdos20V13Boundary.lean, including literal profile definitions and unrestricted_eighty_of_three_open_inputs.",
+            "observation": "The inherited reduction first derives |F|≤81 from hI, turns failure of ≤80 into equality 81, derives support/profile and one-high-per-member facts, and constructs an actual A or B existential witness. The new Profile-A bridge constructs the residual family by filtering out its center; the new B proof extracts the two-high count and member cap from its existential witness. FinalEighty supplies both actual negations while retaining hI. No argument merely excludes arithmetic rows without connecting to F.",
+            "result": "supported",
+            "scope": "Terminal theorem dependency and actual-family realizability"
+          },
+          {
+            "evidence_ids": [
+              "portable-formal-v1"
+            ],
+            "method": "Read concentrated_impossible and traced its five-key bound, four-per-key fiber bound and lower bound from final_count_window; checked the source declaration using hI.",
+            "observation": "The contradiction combines n2≤4|K|≤20 with the hI-dependent lower bound n2≥24. The five-key argument is supplied by heavy_design_keys_card_le_five using actual tail-degree weights and the bound |tails|≤10. The source dependency agrees with the manuscript concentration argument and keeps the intersecting input localized as a parameter.",
+            "result": "supported",
+            "scope": "Profile-A terminal concentration dependencies"
+          },
+          {
+            "evidence_ids": [
+              "portable-formal-v1",
+              "closure-complete-v1",
+              "closure-manifest-v1",
+              "closure-audit-roots-v1"
+            ],
+            "method": "Recomputed SHA-256 of all 161 portable source entries; compared fresh/reused counts in closure summary with the manifest; parsed all eight frozen audit logs and compared their root union with audit-root-summary.json.",
+            "observation": "All 161 source commitments match. The summary lists 63 fresh and 98 source-matched reused modules. Audit logs contain 69 occurrences comprising 66 unique roots, exactly matching the summary; every occurrence reports pass and only Classical.choice, Quot.sound and propext. This establishes internal source/receipt consistency, not new independent compilation or authentication of the prior runs.",
+            "result": "supported",
+            "scope": "Completed source closure and axiom-log consistency"
+          },
+          {
+            "evidence_ids": [
+              "portable-formal-v1",
+              "terminal-audit-v1"
+            ],
+            "method": "Read Erdos20V8Targets definitions and the closure FinalEightyAudit printed proposition, then compared the revised manuscript definition of intersecting and maximum-size f(4,3).",
+            "observation": "I(27) is universally quantified over finite four-uniform intersecting sunflower-free families; it is not supplied by an axiom or an external-search receipt. The manuscript now explicitly states the maximum-size convention and equivalence of the diagonal intersecting formulation on four-sets. External-enumeration validity remains an external-source obligation beyond this local dependency check.",
+            "result": "supported",
+            "scope": "Ordinary external theorem versus formal assumption boundary"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/logic_auditor",
+        "decision": "continue",
+        "evidence_ids": [
+          "portable-formal-v1",
+          "closure-complete-v1",
+          "closure-manifest-v1",
+          "closure-audit-roots-v1",
+          "terminal-audit-v1"
+        ],
+        "findings": [
+          {
+            "disposition": "Use the completed closure as bounded same-evaluator evidence; preserve the disclosed clean-replay and independence limitations.",
+            "evidence_ids": [
+              "portable-formal-v1",
+              "closure-complete-v1",
+              "closure-manifest-v1"
+            ],
+            "id": "R2-source-map-coverage",
+            "severity": "note",
+            "statement": "The source map now exposes the inherited literal-profile definitions and terminal reduction together with the new bridges and exclusions, closing the source-access gap present at review initialization.",
+            "status": "resolved"
+          }
+        ],
+        "manuscript_sha256": "d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6",
+        "required_revisions": [],
+        "revisions": [],
+        "role": "logic_auditor",
+        "round": 2,
+        "snapshot_sha256": "1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619",
+        "summary": "The frozen portable sources provide an explicit dependency chain from the terminal conditional theorem through actual Profile A and B exclusions to the inherited eighty-one/profile reduction. The new closure receipts substantiate the stated 161-module coverage and repeat the axiom boundary on 66 distinct roots. I verified source-byte commitments and audit-log/summary agreement; I did not replay Lean or the 98 prior compilations. No source-map defect requiring a manuscript change was found."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-02/logic_auditor/actual-public-response",
+        "context_id": "/root/review80_coordinator/logic_auditor",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/logic_auditor\",\n  \"role\": \"logic_auditor\",\n  \"context_id\": \"/root/review80_coordinator/logic_auditor\",\n  \"round\": 2,\n  \"snapshot_sha256\": \"1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619\",\n  \"manuscript_sha256\": \"d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6\",\n  \"summary\": \"The frozen portable sources provide an explicit dependency chain from the terminal conditional theorem through actual Profile A and B exclusions to the inherited eighty-one/profile reduction. The new closure receipts substantiate the stated 161-module coverage and repeat the axiom boundary on 66 distinct roots. I verified source-byte commitments and audit-log/summary agreement; I did not replay Lean or the 98 prior compilations. No source-map defect requiring a manuscript change was found.\",\n  \"evidence_ids\": [\n    \"portable-formal-v1\",\n    \"closure-complete-v1\",\n    \"closure-manifest-v1\",\n    \"closure-audit-roots-v1\",\n    \"terminal-audit-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"R2-source-map-coverage\",\n      \"statement\": \"The source map now exposes the inherited literal-profile definitions and terminal reduction together with the new bridges and exclusions, closing the source-access gap present at review initialization.\",\n      \"severity\": \"note\",\n      \"status\": \"resolved\",\n      \"disposition\": \"Use the completed closure as bounded same-evaluator evidence; preserve the disclosed clean-replay and independence limitations.\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\",\n        \"closure-complete-v1\",\n        \"closure-manifest-v1\"\n      ]\n    }\n  ],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Terminal theorem dependency and actual-family realizability\",\n      \"method\": \"Read frozen FinalEighty.lean, ProfileAClosed.lean, ProfileABridge.lean, TwoHighEighty.lean and Erdos20V13Boundary.lean, including literal profile definitions and unrestricted_eighty_of_three_open_inputs.\",\n      \"observation\": \"The inherited reduction first derives |F|≤81 from hI, turns failure of ≤80 into equality 81, derives support/profile and one-high-per-member facts, and constructs an actual A or B existential witness. The new Profile-A bridge constructs the residual family by filtering out its center; the new B proof extracts the two-high count and member cap from its existential witness. FinalEighty supplies both actual negations while retaining hI. No argument merely excludes arithmetic rows without connecting to F.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Profile-A terminal concentration dependencies\",\n      \"method\": \"Read concentrated_impossible and traced its five-key bound, four-per-key fiber bound and lower bound from final_count_window; checked the source declaration using hI.\",\n      \"observation\": \"The contradiction combines n2≤4|K|≤20 with the hI-dependent lower bound n2≥24. The five-key argument is supplied by heavy_design_keys_card_le_five using actual tail-degree weights and the bound |tails|≤10. The source dependency agrees with the manuscript concentration argument and keeps the intersecting input localized as a parameter.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Completed source closure and axiom-log consistency\",\n      \"method\": \"Recomputed SHA-256 of all 161 portable source entries; compared fresh/reused counts in closure summary with the manifest; parsed all eight frozen audit logs and compared their root union with audit-root-summary.json.\",\n      \"observation\": \"All 161 source commitments match. The summary lists 63 fresh and 98 source-matched reused modules. Audit logs contain 69 occurrences comprising 66 unique roots, exactly matching the summary; every occurrence reports pass and only Classical.choice, Quot.sound and propext. This establishes internal source/receipt consistency, not new independent compilation or authentication of the prior runs.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\",\n        \"closure-complete-v1\",\n        \"closure-manifest-v1\",\n        \"closure-audit-roots-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Ordinary external theorem versus formal assumption boundary\",\n      \"method\": \"Read Erdos20V8Targets definitions and the closure FinalEightyAudit printed proposition, then compared the revised manuscript definition of intersecting and maximum-size f(4,3).\",\n      \"observation\": \"I(27) is universally quantified over finite four-uniform intersecting sunflower-free families; it is not supplied by an axiom or an external-search receipt. The manuscript now explicitly states the maximum-size convention and equivalence of the diagonal intersecting formulation on four-sets. External-enumeration validity remains an external-source obligation beyond this local dependency check.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\",\n        \"terminal-audit-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:00:01.073311+00:00",
+        "response_sha256": "c975c484f87c59371b0e15f2e9d0112b8ffa6216c65f39933417a9ac3ae45945",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "5ea797da858f0f01087263ce2f9ad96d2e65798bd97720de51f38e34e95f675e"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/methodologist",
+        "checks": [
+          {
+            "evidence_ids": [
+              "closure-complete-v1",
+              "closure-manifest-v1",
+              "closure-audit-roots-v1",
+              "portable-formal-v1"
+            ],
+            "method": "Rehashed all 161 portable sources; cross-matched each module and SHA256 with the closure manifest; counted rebuild modes; parsed audit logs and compared passing root names with the 66-root summary.",
+            "observation": "All 161 source hashes match. Counts are 63 fresh compilations and 98 source-matched previous rebuilds. All 66 unique summary roots appear as passing audit occurrences and use only the three stated logical axioms. This check read retained outputs and did not rerun Lean or verify a separate runtime.",
+            "result": "supported",
+            "scope": "Frozen source-closure provenance and root coverage"
+          },
+          {
+            "evidence_ids": [
+              "primary-sources-v1",
+              "portable-formal-v1"
+            ],
+            "method": "Read portable README/rebuild.py and the frozen source ledger, then compared the manuscript placement of inherited inputs, external I27, new proof roots, and excluded diagnostics.",
+            "observation": "The recipe checks source hashes then compiles all listed modules in order using caller-provisioned pinned external caches; it is described as a recipe rather than an executed separate-machine replay. The source map does not treat external I27 or finite cap45 diagnostics as local kernel proofs. External primary-source content itself was not newly retrieved by this reviewer.",
+            "result": "supported",
+            "scope": "Evidence map and reproduction recipe limits"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/methodologist",
+        "decision": "continue",
+        "evidence_ids": [
+          "primary-sources-v1",
+          "closure-complete-v1",
+          "closure-manifest-v1",
+          "closure-audit-roots-v1",
+          "portable-formal-v1"
+        ],
+        "findings": [
+          {
+            "disposition": "Section 5 may report the completed closure with the existing same-evaluator and cached-dependency qualification.",
+            "evidence_ids": [
+              "closure-complete-v1",
+              "closure-manifest-v1",
+              "closure-audit-roots-v1",
+              "portable-formal-v1"
+            ],
+            "id": "M2-closure-provenance",
+            "severity": "note",
+            "statement": "The completed closure record and frozen portable source package consistently distinguish fresh compilation from source-matched prior rebuild reuse; their 161 modules and 66 audited roots agree with the inspected files.",
+            "status": "resolved"
+          },
+          {
+            "disposition": "This limit is already disclosed. The local formal implication remains a separate, stronger-checkable claim about the conditional deduction.",
+            "evidence_ids": [
+              "primary-sources-v1",
+              "portable-formal-v1"
+            ],
+            "id": "M2-external-map",
+            "severity": "note",
+            "statement": "The ordinary corollary still depends on the externally reported enumeration theorem I27. The supplied source ledger is a bounded retrieval record, without exact external source bytes or an independent rerun of that enumeration.",
+            "status": "claim-qualified"
+          }
+        ],
+        "manuscript_sha256": "d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Compared completed closure manifest, portable source hashes and actual saved audit outputs against the new Section 5 account.",
+            "finding_id": "/root/review80_coordinator/methodologist:M1-closure-limits",
+            "result": "The previously pending local closure is now documented. Clean-toolchain and independent replay remain unclaimed.",
+            "status": "claim-qualified"
+          }
+        ],
+        "role": "methodologist",
+        "round": 2,
+        "snapshot_sha256": "1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619",
+        "summary": "The source map distinguishes external I27, inherited structural reductions, new A/B exclusions and exploratory computations. The new closure evidence supports the qualified 161-module account: all packaged source hashes agree, the 63/98 split is internally consistent, and all 66 summarized roots occur in successful audit logs. This establishes a source-matched local closure, not a clean or separate-environment replay."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-02/methodologist/actual-public-response",
+        "context_id": "/root/review80_coordinator/methodologist",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/methodologist\",\n  \"role\": \"methodologist\",\n  \"context_id\": \"/root/review80_coordinator/methodologist\",\n  \"round\": 2,\n  \"snapshot_sha256\": \"1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619\",\n  \"manuscript_sha256\": \"d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6\",\n  \"summary\": \"The source map distinguishes external I27, inherited structural reductions, new A/B exclusions and exploratory computations. The new closure evidence supports the qualified 161-module account: all packaged source hashes agree, the 63/98 split is internally consistent, and all 66 summarized roots occur in successful audit logs. This establishes a source-matched local closure, not a clean or separate-environment replay.\",\n  \"evidence_ids\": [\n    \"primary-sources-v1\",\n    \"closure-complete-v1\",\n    \"closure-manifest-v1\",\n    \"closure-audit-roots-v1\",\n    \"portable-formal-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"M2-closure-provenance\",\n      \"statement\": \"The completed closure record and frozen portable source package consistently distinguish fresh compilation from source-matched prior rebuild reuse; their 161 modules and 66 audited roots agree with the inspected files.\",\n      \"severity\": \"note\",\n      \"status\": \"resolved\",\n      \"disposition\": \"Section 5 may report the completed closure with the existing same-evaluator and cached-dependency qualification.\",\n      \"evidence_ids\": [\n        \"closure-complete-v1\",\n        \"closure-manifest-v1\",\n        \"closure-audit-roots-v1\",\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"id\": \"M2-external-map\",\n      \"statement\": \"The ordinary corollary still depends on the externally reported enumeration theorem I27. The supplied source ledger is a bounded retrieval record, without exact external source bytes or an independent rerun of that enumeration.\",\n      \"severity\": \"note\",\n      \"status\": \"claim-qualified\",\n      \"disposition\": \"This limit is already disclosed. The local formal implication remains a separate, stronger-checkable claim about the conditional deduction.\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\",\n        \"portable-formal-v1\"\n      ]\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/review80_coordinator/methodologist:M1-closure-limits\",\n      \"action\": \"Compared completed closure manifest, portable source hashes and actual saved audit outputs against the new Section 5 account.\",\n      \"result\": \"The previously pending local closure is now documented. Clean-toolchain and independent replay remain unclaimed.\",\n      \"status\": \"claim-qualified\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Frozen source-closure provenance and root coverage\",\n      \"method\": \"Rehashed all 161 portable sources; cross-matched each module and SHA256 with the closure manifest; counted rebuild modes; parsed audit logs and compared passing root names with the 66-root summary.\",\n      \"observation\": \"All 161 source hashes match. Counts are 63 fresh compilations and 98 source-matched previous rebuilds. All 66 unique summary roots appear as passing audit occurrences and use only the three stated logical axioms. This check read retained outputs and did not rerun Lean or verify a separate runtime.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"closure-complete-v1\",\n        \"closure-manifest-v1\",\n        \"closure-audit-roots-v1\",\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Evidence map and reproduction recipe limits\",\n      \"method\": \"Read portable README/rebuild.py and the frozen source ledger, then compared the manuscript placement of inherited inputs, external I27, new proof roots, and excluded diagnostics.\",\n      \"observation\": \"The recipe checks source hashes then compiles all listed modules in order using caller-provisioned pinned external caches; it is described as a recipe rather than an executed separate-machine replay. The source map does not treat external I27 or finite cap45 diagnostics as local kernel proofs. External primary-source content itself was not newly retrieved by this reviewer.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\",\n        \"portable-formal-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T08:58:22.963248+00:00",
+        "response_sha256": "7593c48607409c61ab7321a835e24d6a026c2a87045f1f8ae88cce06cccdc9d2",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "bfe4b4b448baba6ea29dfbff51b2153e86f4569d66a8b978997577efe655dcc4"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/typesetter",
+        "checks": [
+          {
+            "evidence_ids": [
+              "preview-d786-v1"
+            ],
+            "method": "Recomputed every hash in preview-d786-v1/manifest.json and compared its manuscript bytes with round-02.",
+            "observation": "All four artifact entries match their manifest hashes, and the preview manuscript SHA-256 equals d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6.",
+            "result": "supported",
+            "scope": "Frozen preview provenance"
+          },
+          {
+            "evidence_ids": [
+              "preview-d786-v1"
+            ],
+            "method": "Rendered all six exact PDF pages with pdftoppm at 1500-pixel maximum dimension and visually inspected all page images. Compared the six displayed formulas against the frozen Markdown and the recorded explicit mappings.",
+            "observation": "All six formulas preserve inequality directions, coefficients, set-cardinality bars, subscripts and the summation index. No clipped equations, missing glyph boxes or table text loss were observed. The table is readable with two awkward but complete identifier wraps; ordinary inline subscript notation remains literal underscore source notation. Page numbering and references are visible.",
+            "result": "supported",
+            "scope": "PDF mathematical and reference legibility"
+          },
+          {
+            "evidence_ids": [
+              "preview-d786-v1",
+              "primary-sources-v1"
+            ],
+            "method": "Compared the frozen primary-source ledger with the manuscript source labels; extracted HTML href values and PDF URI annotations. Inspected MathML and TeX annotations for all six displays.",
+            "observation": "All eight source-link occurrences survive in HTML and PDF, including the version-pinned Section 6.3 and Section 8 arXiv anchors. The public A1K report/repository labels remain distinct from the pinned source commit. Six MathML blocks retain the exact displayed TeX source. This is conversion and local-ledger checking, not fresh external source retrieval or authentication.",
+            "result": "supported",
+            "scope": "Source map and citation locator conversion"
+          },
+          {
+            "evidence_ids": [
+              "preview-d786-v1"
+            ],
+            "method": "Attempted a local Playwright render of the frozen HTML and attempted to open that exact file in the in-app browser.",
+            "observation": "Playwright lacked its Chromium executable, and the in-app browser reported unavailable. No HTML browser screenshot was obtained; responsive layout remains unverified.",
+            "result": "inconclusive",
+            "scope": "HTML browser rendering"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/typesetter",
+        "decision": "continue",
+        "evidence_ids": [
+          "preview-d786-v1",
+          "primary-sources-v1"
+        ],
+        "findings": [
+          {
+            "disposition": "Inspect the frozen HTML in an available browser or add tested wrapping before claiming complete HTML visual QA. Playwright launch failed because its Chromium executable was absent; the in-app browser was also unavailable.",
+            "evidence_ids": [
+              "preview-d786-v1"
+            ],
+            "id": "T2-html-visual-coverage",
+            "severity": "note",
+            "statement": "HTML source fidelity is checked, but HTML visual layout has not been observed in a browser. The CSS does not explicitly allow long inline code in the declaration table to wrap, so narrow-screen overflow remains an untested risk.",
+            "status": "open"
+          },
+          {
+            "disposition": "Optional layout polish; no result or identifier is omitted in the inspected PDF.",
+            "evidence_ids": [
+              "preview-d786-v1"
+            ],
+            "id": "T2-table-breaks",
+            "severity": "minor",
+            "statement": "PDF page 4 ends with the Section 5 heading and introductory sentence; the table starts on page 5. Two long Lean roots wrap within identifier words (including \"eighty\"). The complete text remains visible, but joining the section lead to the table and choosing punctuation/underscore break opportunities would improve source lookup.",
+            "status": "open"
+          }
+        ],
+        "manuscript_sha256": "d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Checked the current frozen source and corresponding PDF prose for all four joined tokens.",
+            "finding_id": "/root/review80_coordinator/typesetter:T1-prose-number-spacing",
+            "result": "All four are repaired to \"by 9\", \"by 5\", \"plus 2\" and \"is 66\".",
+            "status": "resolved"
+          },
+          {
+            "action": "Rendered the exact frozen PDF with pdftoppm and inspected pages 1–6; checked HTML source and source-to-display mappings.",
+            "finding_id": "/root/review80_coordinator/typesetter:T1-render-coverage",
+            "result": "PDF visual inspection is complete for this hash. HTML browser inspection remains unavailable and is carried explicitly as T2-html-visual-coverage.",
+            "status": "claim-qualified"
+          }
+        ],
+        "role": "typesetter",
+        "round": 2,
+        "snapshot_sha256": "1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619",
+        "summary": "The matching six-page PDF has now been rendered and all six pages visually inspected. Mathematical displays, theorem labels, root table and references are readable without observed clipping or missing glyphs. The four spacing defects are repaired. HTML source preserves the six formulas and all eight external-link occurrences, but browser visual QA could not run because the browser executable and in-app browser were unavailable. Source attribution is explicit and locators survive conversion."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-02/typesetter/actual-public-response",
+        "context_id": "/root/review80_coordinator/typesetter",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/typesetter\",\n  \"role\": \"typesetter\",\n  \"context_id\": \"/root/review80_coordinator/typesetter\",\n  \"round\": 2,\n  \"snapshot_sha256\": \"1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619\",\n  \"manuscript_sha256\": \"d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6\",\n  \"summary\": \"The matching six-page PDF has now been rendered and all six pages visually inspected. Mathematical displays, theorem labels, root table and references are readable without observed clipping or missing glyphs. The four spacing defects are repaired. HTML source preserves the six formulas and all eight external-link occurrences, but browser visual QA could not run because the browser executable and in-app browser were unavailable. Source attribution is explicit and locators survive conversion.\",\n  \"evidence_ids\": [\n    \"preview-d786-v1\",\n    \"primary-sources-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"T2-html-visual-coverage\",\n      \"statement\": \"HTML source fidelity is checked, but HTML visual layout has not been observed in a browser. The CSS does not explicitly allow long inline code in the declaration table to wrap, so narrow-screen overflow remains an untested risk.\",\n      \"severity\": \"note\",\n      \"status\": \"open\",\n      \"disposition\": \"Inspect the frozen HTML in an available browser or add tested wrapping before claiming complete HTML visual QA. Playwright launch failed because its Chromium executable was absent; the in-app browser was also unavailable.\",\n      \"evidence_ids\": [\n        \"preview-d786-v1\"\n      ]\n    },\n    {\n      \"id\": \"T2-table-breaks\",\n      \"statement\": \"PDF page 4 ends with the Section 5 heading and introductory sentence; the table starts on page 5. Two long Lean roots wrap within identifier words (including \\\"eighty\\\"). The complete text remains visible, but joining the section lead to the table and choosing punctuation/underscore break opportunities would improve source lookup.\",\n      \"severity\": \"minor\",\n      \"status\": \"open\",\n      \"disposition\": \"Optional layout polish; no result or identifier is omitted in the inspected PDF.\",\n      \"evidence_ids\": [\n        \"preview-d786-v1\"\n      ]\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/review80_coordinator/typesetter:T1-prose-number-spacing\",\n      \"action\": \"Checked the current frozen source and corresponding PDF prose for all four joined tokens.\",\n      \"result\": \"All four are repaired to \\\"by 9\\\", \\\"by 5\\\", \\\"plus 2\\\" and \\\"is 66\\\".\",\n      \"status\": \"resolved\"\n    },\n    {\n      \"finding_id\": \"/root/review80_coordinator/typesetter:T1-render-coverage\",\n      \"action\": \"Rendered the exact frozen PDF with pdftoppm and inspected pages 1–6; checked HTML source and source-to-display mappings.\",\n      \"result\": \"PDF visual inspection is complete for this hash. HTML browser inspection remains unavailable and is carried explicitly as T2-html-visual-coverage.\",\n      \"status\": \"claim-qualified\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Frozen preview provenance\",\n      \"method\": \"Recomputed every hash in preview-d786-v1/manifest.json and compared its manuscript bytes with round-02.\",\n      \"observation\": \"All four artifact entries match their manifest hashes, and the preview manuscript SHA-256 equals d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"preview-d786-v1\"\n      ]\n    },\n    {\n      \"scope\": \"PDF mathematical and reference legibility\",\n      \"method\": \"Rendered all six exact PDF pages with pdftoppm at 1500-pixel maximum dimension and visually inspected all page images. Compared the six displayed formulas against the frozen Markdown and the recorded explicit mappings.\",\n      \"observation\": \"All six formulas preserve inequality directions, coefficients, set-cardinality bars, subscripts and the summation index. No clipped equations, missing glyph boxes or table text loss were observed. The table is readable with two awkward but complete identifier wraps; ordinary inline subscript notation remains literal underscore source notation. Page numbering and references are visible.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"preview-d786-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Source map and citation locator conversion\",\n      \"method\": \"Compared the frozen primary-source ledger with the manuscript source labels; extracted HTML href values and PDF URI annotations. Inspected MathML and TeX annotations for all six displays.\",\n      \"observation\": \"All eight source-link occurrences survive in HTML and PDF, including the version-pinned Section 6.3 and Section 8 arXiv anchors. The public A1K report/repository labels remain distinct from the pinned source commit. Six MathML blocks retain the exact displayed TeX source. This is conversion and local-ledger checking, not fresh external source retrieval or authentication.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"preview-d786-v1\",\n        \"primary-sources-v1\"\n      ]\n    },\n    {\n      \"scope\": \"HTML browser rendering\",\n      \"method\": \"Attempted a local Playwright render of the frozen HTML and attempted to open that exact file in the in-app browser.\",\n      \"observation\": \"Playwright lacked its Chromium executable, and the in-app browser reported unavailable. No HTML browser screenshot was obtained; responsive layout remains unverified.\",\n      \"result\": \"inconclusive\",\n      \"evidence_ids\": [\n        \"preview-d786-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:06:00.091752+00:00",
+        "response_sha256": "f527f78779001672c899f880054a6c81729533a13175c2bbf2c9e526d2ff5b5c",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "315a811d9d9aab920956d08f67c7d5e23c480c028854771c3f25b6ffc6d412f3"
+    }
+  ],
+  "round_sha256": "313e7b67556eaa6cbcbf71902a838ffce29afa301cefefb4cd59c416d7d74328"
+}

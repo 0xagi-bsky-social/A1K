@@ -1,0 +1,29 @@
+{
+  "result": "PASS",
+  "scope": "literal orbit and staged-assumption coverage; no LP, universal premise proof, or Lean",
+  "automorphisms": [
+    60,
+    6
+  ],
+  "external_orbits": 28,
+  "external_markers": 685,
+  "first_stage_cases": 23,
+  "forbidden_traces": 681,
+  "remaining_markers": [
+    4544,
+    5888,
+    6720,
+    7296
+  ],
+  "P9_internal_orbits": {
+    "I01": 3,
+    "I02": 3,
+    "I03": 6,
+    "I04": 3
+  },
+  "P10_internal_assignments": 292,
+  "P10_internal_orbits": 13,
+  "seconds": 0.03784515500046837,
+  "checker_sha256": "2f71db29ef307a28492d2142f16309feb6cc9710e0f8902dc75f937574978cf8",
+  "catalogue_sha256": "92c66019c6125a10c71c6c3762e98e42e3ccb5961343c4ee3b2a37989be62107"
+}

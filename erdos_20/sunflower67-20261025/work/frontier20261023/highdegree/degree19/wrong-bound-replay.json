@@ -1,0 +1,78 @@
+{
+  "result": "FAIL",
+  "assurance": "shared-producer model reconstruction and exact integer certificate replay only; premises not re-proved; no solver, no Lean, no final review",
+  "receipt_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree19/negative-controls/wrong-bound.json",
+  "receipt_sha256": "5f6791c6ac047609f5e1cf3b79dee8d9eb7ce64f6f7069a4c531d62dc8dd3ccc",
+  "replayer_sha256": "dcbaf18d9cb0eef16cc6068194785507ab26fe7e946659d59a26d26cd0a3432c",
+  "compute_limit_seconds": 30,
+  "receipt_kind": "upper-bound",
+  "source": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree19_projection_v1.py",
+    "sha256": "12186333d2aa4a1a476c42a92608d50bea886db071fa82bd9b87dc93a3482c2e",
+    "source_match": true,
+    "matching_paths": [
+      "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree19_projection_v1.py"
+    ],
+    "reconstruction": "same producer build(), never run()"
+  },
+  "dependencies": {
+    "local43_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/upstream/MU42/scripts/local43.py",
+    "local43_sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+    "local43_source_match": true,
+    "orbit_catalogue_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/upstream/D19/data/ORBIT_CATALOGUE.json",
+    "orbit_catalogue_sha256": "92c66019c6125a10c71c6c3762e98e42e3ccb5961343c4ee3b2a37989be62107",
+    "orbit_catalogue_hash_present_in_receipt": false,
+    "limitation": "Ordinary receipts do not hash the orbit catalogue; its current bytes are bound to this replay output only."
+  },
+  "target_residuals": 49,
+  "literal_premises": {
+    "receipt_metadata": {
+      "target_residuals": 49,
+      "mu": 41,
+      "point_cap": 19,
+      "assurance": "certificate-diagnostic; imported universal geometry; not Lean or complete branch proof"
+    },
+    "case": "I01",
+    "empty": "none",
+    "assigned": null,
+    "forbidden": [],
+    "fixed_link": "complete degree-19 P10 plus P9 link in the matched producer",
+    "conditional_inputs": [
+      "the source's universal incidence and exact-trace capacities and H27 disjoint-class bounds",
+      "mu at least 41, point degrees at most 19, and the source's actual-anchor pair-degree-sum constraints",
+      "the matched local43 and projection high-link, C5/P5, internal-cost, and catalogue filters",
+      "the stated marker, component assignments, emptiness, and forbidden-trace assumptions"
+    ],
+    "status": "Literal imported model premises are recorded, not independently proved or transported from a set family here."
+  },
+  "model": {
+    "trace_columns": 794,
+    "original_columns": 369709,
+    "inequality_rows": 787,
+    "equality_rows": 152,
+    "catalogue_sizes": [
+      20021,
+      20021,
+      20021,
+      20021,
+      20021,
+      20021,
+      20021,
+      20021,
+      20021,
+      20021,
+      19783,
+      12447,
+      17658,
+      23030,
+      19783,
+      17658,
+      17658,
+      17658,
+      23030
+    ]
+  },
+  "integer_model_validation": "all stored coefficients, RHS values, and box bounds are finite integers",
+  "error": "ReplayError: Stored upper-bound upper_numerator disagrees",
+  "seconds": 6.561614780999662
+}

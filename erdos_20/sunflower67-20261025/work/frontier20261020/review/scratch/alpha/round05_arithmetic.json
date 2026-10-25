@@ -1,0 +1,35 @@
+{
+  "incidence_max_m": 40,
+  "q_at_m40": [
+    9
+  ],
+  "floor_1512_over_37": 40,
+  "census_before_nine_min_n2": 15,
+  "refined_census": [
+    [
+      9,
+      28,
+      24
+    ],
+    [
+      10,
+      26,
+      25
+    ],
+    [
+      11,
+      24,
+      26
+    ],
+    [
+      12,
+      22,
+      27
+    ]
+  ],
+  "general_closed_meeting_cap": 57,
+  "H2_closed_meeting_cap": 52,
+  "minimum_H2_disjoint_completions": 9,
+  "max_outsider_graph_edges": 4,
+  "scope": "Exact checks of stated inequalities and four-vertex graphs only; no family existence or new global bound claim"
+}

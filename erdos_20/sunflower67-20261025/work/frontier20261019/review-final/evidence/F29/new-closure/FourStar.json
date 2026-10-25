@@ -1,0 +1,14 @@
+{
+  "module": "FourStar",
+  "source_sha256": "30549257a1cac4bca14648cce52ea74b7ce41d384a2da8470ff519b794f39a01",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/new-closure/build/FourStar.olean",
+    "FourStar.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 9.266,
+  "output": "'FrontierFourStar.corrected_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierFourStar.four_star_second_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierFourStar.four_star_sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierFourStar.four_star_twice_sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierFourStar.four_degree_sum_le_sixty' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+}

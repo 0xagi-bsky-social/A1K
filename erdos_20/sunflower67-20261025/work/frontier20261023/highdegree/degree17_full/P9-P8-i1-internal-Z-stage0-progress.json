@@ -1,0 +1,86 @@
+{
+  "kind": "P9-P8-i1",
+  "completed": 9,
+  "total": 9,
+  "source_sha256": "a1beae56f60205a48442a1c6a31d2148557443511fb119a1936ffda8578bebf2",
+  "records": [
+    {
+      "case": "IZ00",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i1-IZ00-internal-Z-stage0-v4-f12fa3f0e1db.json",
+      "sha256": "351d7964acd6eb3cd277b406bec6d06e0733e18c7b0a6fbd9ea7c8e8198904e3",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 50.3314069669
+    },
+    {
+      "case": "IZ01",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i1-IZ01-internal-Z-stage0-v4-c4ba02598496.json",
+      "sha256": "de5aa594792d68607522e5631dcfbe6b03b2371caa4455eb09fabf3a63d10288",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 50.1904762201
+    },
+    {
+      "case": "IZ02",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i1-IZ02-internal-Z-stage0-v4-3beba681792e.json",
+      "sha256": "63e3b0d180e7f98c36071743161f20de3fc9bf6107d2fae5bb257ca2d2151deb",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 50.6666666674
+    },
+    {
+      "case": "IZ03",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i1-IZ03-internal-Z-stage0-v4-f82d0f6b3c4d.json",
+      "sha256": "d3c1333b89745c3aabe494e496ae268b923ed906480c9be32088e1c8ad5e026c",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 50.9435921484
+    },
+    {
+      "case": "IZ04",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i1-IZ04-internal-Z-stage0-v4-38286d69de3b.json",
+      "sha256": "87c297a71d2583f4661081884cf0190b2339783ddac62575f4597044b7008625",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 50.5053764195
+    },
+    {
+      "case": "IZ05",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i1-IZ05-internal-Z-stage0-v4-032cbe0b7e92.json",
+      "sha256": "9212368b46bf88049b57651a53d9e63c5a455e8a852e7692359e75774c2d0336",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 50.6666666859
+    },
+    {
+      "case": "IZ06",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i1-IZ06-internal-Z-stage0-v4-e683d2d5b1c0.json",
+      "sha256": "2aef13acb857cd064bff4d1e03c585a6cab5cf87204ea09ec360ea5b4085023a",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 50.2916666668
+    },
+    {
+      "case": "IZ07",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i1-IZ07-internal-Z-stage0-v4-96a0a0e70ddd.json",
+      "sha256": "2f2412b39a0e902def4a8da9d2c070e75d0d714bb877aaa02faeebbef5919ea6",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 50.0215057671
+    },
+    {
+      "case": "IZ08",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i1-IZ08-internal-Z-stage0-v4-7185cf853be5.json",
+      "sha256": "47e461b4d5137d15f0cbfcf99b6814543d0f82dd0f9292c79aebe61071715958",
+      "status": 0,
+      "strict_diagnostic": false,
+      "upper": 51.1177006514
+    }
+  ],
+  "Y_antecedent": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-IY-active-v2-replayed-manifest.json",
+    "sha256": "fadd92fe79c991abd67629e421baea45a73567adefd692c65c3bfbf1e2b8cba7"
+  },
+  "all_completed_strict": false,
+  "assurance": "Producer diagnostics only; no exact replay or branch closure implied."
+}

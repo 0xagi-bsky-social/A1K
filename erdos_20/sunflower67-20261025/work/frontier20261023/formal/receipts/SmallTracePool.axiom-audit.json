@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "assurance": "axiom-audited",
+  "module": "SmallTracePool",
+  "source_sha256": "e25e9d1e1fb539e257d76aef2176e481f743cdffaed1969c5a75207a929024ae",
+  "object_sha256": "717ef1661cabf1713a7163dffd05a92a7621bee7075073ce196050bcdbce882b",
+  "compilation_receipt_sha256": "9c70f6969578ff1948afdc5b5895c09ffc2ba847fb70f621eeb7fe667031574b",
+  "log_sha256": "8f14968d7abbf43797a442812a061fefef97a3cd0c7701a422a55f86a281f628",
+  "roots": {
+    "residual_smallTracePool_intersecting": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "residual_smallTracePool_card_le_27": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "twice_card_le_trace_sum_add_small_add_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "residual_twice_card_le_trace_sum_add_small_add_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "zeroTracePool_card_ge_eleven_of_counts": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "residual_zeroTracePool_card_ge_eleven": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "imported_terminal_source_sha256": "01ec3df7f6137df13697246ec36768157740221d349fc08fe58f2ed7bc699dfc",
+  "imported_terminal_object_sha256": "c4658d66701ceaf5b0b43ef2099c0f2b0997f7852995a24bb24667bace07459b",
+  "runtime_manifest_sha256": "82fbc8e9fed8db7432040b576e330bf194a723a89eb670322c5b8ea2fb2d16c6",
+  "repairs": 2,
+  "limitations": "Existing pinned dependency cache, not clean replay or independent reproduction; H27 and TwoAvoidance are explicit application hypotheses."
+}

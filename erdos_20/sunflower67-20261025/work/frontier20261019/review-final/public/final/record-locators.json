@@ -1,0 +1,129 @@
+{
+  "full_committed_records": [
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/committed/round-01.json",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/committed/round-02.json",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/committed/round-03.json",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/committed/round-04.json",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/committed/round-05.json",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/committed/round-06.json",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/committed/round-07.json",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/committed/round-08.json",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/committed/round-09.json",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/committed/round-10.json"
+  ],
+  "roster": [
+    {
+      "agent_id": "/root/review_coordinator/chief",
+      "context_id": "/root/review_coordinator/chief",
+      "expertise": "Extremal set theory and synthesis of proof assurance",
+      "mandate": "Perform distinct substantive chief analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+      "model": "unknown",
+      "provider": "unknown",
+      "role": "chief"
+    },
+    {
+      "agent_id": "/root/review_coordinator/domain_expert",
+      "context_id": "/root/review_coordinator/domain_expert",
+      "expertise": "Extremal hypergraphs, support bounds and triple design structure",
+      "mandate": "Perform distinct substantive domain_expert analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+      "model": "unknown",
+      "provider": "unknown",
+      "role": "domain_expert"
+    },
+    {
+      "agent_id": "/root/review_coordinator/literature_reviewer",
+      "context_id": "/root/review_coordinator/literature_reviewer",
+      "expertise": "Sunflower literature and primary-source prior art",
+      "mandate": "Perform distinct substantive literature_reviewer analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+      "model": "unknown",
+      "provider": "unknown",
+      "role": "literature_reviewer"
+    },
+    {
+      "agent_id": "/root/review_coordinator/methodologist",
+      "context_id": "/root/review_coordinator/methodologist",
+      "expertise": "Proof obligations, finite enumeration coverage and reproducibility",
+      "mandate": "Perform distinct substantive methodologist analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+      "model": "unknown",
+      "provider": "unknown",
+      "role": "methodologist"
+    },
+    {
+      "agent_id": "/root/review_coordinator/data_analyst",
+      "context_id": "/root/review_coordinator/data_analyst",
+      "expertise": "Exact integer combinatorics, grids and diagnostic computation",
+      "mandate": "Perform distinct substantive data_analyst analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+      "model": "unknown",
+      "provider": "unknown",
+      "role": "data_analyst"
+    },
+    {
+      "agent_id": "/root/review_coordinator/logic_auditor",
+      "context_id": "/root/review_coordinator/logic_auditor",
+      "expertise": "Quantifiers, double counting and Lean/prose semantics",
+      "mandate": "Perform distinct substantive logic_auditor analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+      "model": "unknown",
+      "provider": "unknown",
+      "role": "logic_auditor"
+    },
+    {
+      "agent_id": "/root/review_coordinator/citation_verifier",
+      "context_id": "/root/review_coordinator/citation_verifier",
+      "expertise": "Theorem locators, mathematical facts and source provenance",
+      "mandate": "Perform distinct substantive citation_verifier analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+      "model": "unknown",
+      "provider": "unknown",
+      "role": "citation_verifier"
+    },
+    {
+      "agent_id": "/root/review_coordinator/academic_writer",
+      "context_id": "/root/review_coordinator/academic_writer",
+      "expertise": "Rigorous mathematical exposition and contribution framing",
+      "mandate": "Perform distinct substantive academic_writer analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+      "model": "unknown",
+      "provider": "unknown",
+      "role": "academic_writer"
+    },
+    {
+      "agent_id": "/root/review_coordinator/alpha",
+      "context_id": "/root/review_coordinator/alpha",
+      "expertise": "Adversarial proof audit, counterexamples and overstatement",
+      "mandate": "Perform distinct substantive alpha analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+      "model": "unknown",
+      "provider": "unknown",
+      "role": "alpha"
+    },
+    {
+      "agent_id": "/root/review_coordinator/beta",
+      "context_id": "/root/review_coordinator/beta",
+      "expertise": "Constructive combinatorial repair and domain fit",
+      "mandate": "Perform distinct substantive beta analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+      "model": "unknown",
+      "provider": "unknown",
+      "role": "beta"
+    },
+    {
+      "agent_id": "/root/review_coordinator/copyeditor",
+      "context_id": "/root/review_coordinator/copyeditor",
+      "expertise": "Mathematical copyediting, attribution and bounded text reuse",
+      "mandate": "Perform distinct substantive copyeditor analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+      "model": "unknown",
+      "provider": "unknown",
+      "role": "copyeditor"
+    },
+    {
+      "agent_id": "/root/review_coordinator/typesetter",
+      "context_id": "/root/review_coordinator/typesetter",
+      "expertise": "Mathematical typography, artifact fidelity and visual QA",
+      "mandate": "Perform distinct substantive typesetter analysis for every synchronous review phase; preserve objections, evidence scope and isolation",
+      "model": "unknown",
+      "provider": "unknown",
+      "role": "typesetter"
+    }
+  ],
+  "limitations": [
+    "Actual separate collaboration contexts; same control environment and unknown provider/model metadata; no organizational independence",
+    "Local unsigned hashes and declared tool provenance only; no independent human certification",
+    "Bounded source and text comparison; no exhaustive originality claim"
+  ]
+}

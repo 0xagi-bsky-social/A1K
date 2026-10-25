@@ -31,3 +31,7 @@ Thumbs.db
 
 # Intentionally track every shipped .lean file, Lake manifest, and historical
 # evidence log. A failed control or an older source is part of this collection.
+
+# Optional upstream checkouts are provisioned locally, not redistributed.
+erdos_20/sunflower67-20261025/work/frontier20261020/prior-art68/repository/
+erdos_20/sunflower67-20261025/work/frontier20261020/prior-art68/replay-quick-20261020/package/

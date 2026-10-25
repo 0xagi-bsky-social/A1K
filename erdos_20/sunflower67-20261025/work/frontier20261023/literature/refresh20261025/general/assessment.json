@@ -1,0 +1,202 @@
+{
+  "task": "General sunflower frontier comparison; literature gate only",
+  "cutoff_local_date": "2026-10-25",
+  "timezone": "America/New_York",
+  "finished_access_utc": "2026-10-25 13:25:30 UTC",
+  "scope": "Compare current general sunflower results with the claimed ordinary computer-assisted upper M(4,3)<=67 for simple arbitrary-support four-uniform families, forbidding three distinct sets with identical pairwise intersections, including an empty core.",
+  "outcome": "No inspected general theorem directly supplies an arbitrary-support M(4,3)<=67 upper bound. This is a bounded source-search result, not an exhaustive priority certificate, proof-validity decision, review vote, or publication authorization.",
+  "primary_results": [
+    {
+      "id": "BHL2026",
+      "source": "https://arxiv.org/html/2610.26686v1",
+      "record": "https://arxiv.org/abs/2610.26686",
+      "version_seen": "v1 only; submitted 2026-10-19 16:32:32 UTC",
+      "theorem_locations": [
+        "Theorem 1",
+        "Theorem 2",
+        "Section 5"
+      ],
+      "statements": "Theorem 1: k>=3, N>=1, F subset of 2^[N], no k-sunflower => |F|<=3(2-1/(16k^3))^N. Theorem 2: V_k(D,n)<=((2k)^(2/(k-1)) D^(1-1/(k-1)))^n.",
+      "parameter_comparison": "N is support size, not uniform rank. At k=3 the first bound is 3(863/432)^N. A 68-member four-uniform family requires N>=8 since binomial(7,4)=35; already at N=8 this bound exceeds 760. The four-coordinate vector specialization is 1296 D^2 and is alphabet-dependent. Neither displayed theorem directly supplies <=67. Section 5 distinguishes the unsolved uniform problem and says the k=3 set bound does not improve Naslund–Sawin's exponential base.",
+      "definition_match": "Distinct members and arbitrary common intersection; empty core included.",
+      "evidence": [
+        "open01.json",
+        "open02.json",
+        "open03.json",
+        "open04.json",
+        "open09.json"
+      ]
+    },
+    {
+      "id": "BHL-public-code",
+      "source": "https://github.com/mbucic4/erdos-szemeredi-sunflowers/tree/8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7",
+      "solution": "https://github.com/mbucic4/erdos-szemeredi-sunflowers/blob/8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7/Solution.lean",
+      "metadata": "https://github.com/mbucic4/erdos-szemeredi-sunflowers/blob/8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7/formalization.yaml",
+      "commit": "8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7",
+      "commit_date": "2026-10-21T20:19:37Z",
+      "public_artifact_status": "Author repository and matching PalomarArchive copy are publicly readable. This supersedes discovered aggregator statements that no public artifact was located.",
+      "inspected_declarations": [
+        "ErdosSzemeredi.vector_bound",
+        "ErdosSzemeredi.set_bound",
+        "ErdosSzemeredi.sunflower_conjecture"
+      ],
+      "observed_scope": "Solution.lean exposes exactly the vector bound, the support-size set bound, and one c_k<2 uniformly in admissible support sizes. Formalization metadata reports Lean4.35.0-rc2, no proof holes in Solution, standard axioms, and retained independent kernel logs. Challenge.lean intentionally contains statement holes and is not the proof.",
+      "boundary": "No compilation, replay, proof audit, or new verification was performed. README/metadata still describe preparation and no registration; existence of the archive is not alone evidence of registry endorsement. Neither code nor metadata claims M(4,3)<=67.",
+      "archive": "https://github.com/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2",
+      "evidence": [
+        "github01.json",
+        "github03.json",
+        "github04.json",
+        "github05.json",
+        "github06.json",
+        "github07.json",
+        "github08.json",
+        "github09.json",
+        "github10.json"
+      ]
+    },
+    {
+      "id": "Ahmadi-Norouzi2026",
+      "source": "https://arxiv.org/html/2606.30593v1",
+      "record": "https://arxiv.org/abs/2606.30593",
+      "version_seen": "v1 only; submitted 2026-06-29 17:35:08 UTC; HTML title block also displays August24,2026",
+      "theorem_location": "Theorem 1.4",
+      "statement": "For three-sunflower-free F subset of 2^[N], |F|=O(N^(1/6)(3/2^(2/3))^N).",
+      "parameter_comparison": "Polynomial-factor improvement of the nonuniform support-size bound. It is neither support-independent nor an explicit small-rank upper of67.",
+      "evidence": [
+        "open06.json",
+        "open07.json"
+      ]
+    },
+    {
+      "id": "Ge-Wang-Xu-Zhao2026",
+      "source": "https://arxiv.org/html/2609.18995",
+      "record": "https://arxiv.org/abs/2609.18995",
+      "version_seen": "v1; returned primary HTML labels 17Jul2026 despite September identifier; retain raw metadata rather than normalize this discrepancy",
+      "theorem_location": "Theorem 1.1",
+      "statement": "An ell-bounded system with VC dimension<=d and no r-sunflower has size<=sum_{j=0}^ell (50dr)^j; in particular, an ell-uniform system of size>(50dr)^ell contains an r-sunflower.",
+      "parameter_comparison": "Every four-uniform family has VC dimension<=4. Taking ell=4,d=4,r=3 yields upper600^4=129600000000, far above67. The theorem does apply via bounded rank but does not supersede the claimed finite bound.",
+      "evidence": [
+        "search03.json",
+        "open05.json"
+      ]
+    },
+    {
+      "id": "Shangguan2026",
+      "source": "https://arxiv.org/html/2609.30263v1",
+      "record": "https://arxiv.org/abs/2609.30263",
+      "version_seen": "v1 only; submitted2026-09-24 17:59:39 UTC",
+      "theorem_location": "Corollary5.1; robust precursor Corollary1.4",
+      "statement": "For an absolute C>0, every n-uniform family with VC dimension<=d and size>(Cr log(d+1))^n contains an r-sunflower.",
+      "parameter_comparison": "At rank4, petals3, VC dimension<=4, the expression is (3C log5)^4. The statement supplies no explicit C giving a67 bound; proof uses a spread constant>=1 and enlarges constants. This asymptotic refinement is relevant background, not a direct numerical replacement.",
+      "evidence": [
+        "search04.json",
+        "open08.json",
+        "open09.json"
+      ]
+    },
+    {
+      "id": "Mishra2026",
+      "source": "https://arxiv.org/html/2606.02667v2",
+      "record": "https://arxiv.org/abs/2606.02667",
+      "version_seen": "v2; revised2026-06-08; current title 'Erdos Rado Sunflower Theorem for Shifted Families'",
+      "theorem_location": "Theorem1",
+      "statement": "For shifted families, f'(k,s)<=s^(2k) when k<=s-1, otherwise f'(k,s)<=2f'(k-1,s).",
+      "parameter_comparison": "The shifted-family hypothesis excludes direct application to arbitrary four-uniform families. The paper only controls sunflower-number growth under shifting by a factor2, not preservation of three-sunflower-freeness. Its displayed recurrence at k4,s3 gives324. Older indexed title/abstract claiming the unrestricted conjecture is stale.",
+      "evidence": [
+        "search01.json",
+        "open02.json",
+        "open03.json",
+        "open04.json"
+      ]
+    },
+    {
+      "id": "Fukuyama2026revision",
+      "source": "https://arxiv.org/html/2212.13609v3",
+      "record": "https://arxiv.org/abs/2212.13609",
+      "version_seen": "v3; revised2026-06-22; comment says it fixes error ofv2",
+      "theorem_location": "Theorem1.1",
+      "statement": "Claims existence of absolute c>0 such that |F|>(c k^4)^m forces a k-sunflower for sets of size at mostm.",
+      "parameter_comparison": "No explicit usable c supplies upper67 at m4,k3: displayed expression becomes(81c)^4. Treat as a source claim whose validity was not adjudicated. Current BHL discussion still describes unrestricted Erdos–Rado as open. No source-based basis here to convert this into priority against67.",
+      "evidence": [
+        "search01.json",
+        "open02.json",
+        "open03.json",
+        "open09.json"
+      ]
+    },
+    {
+      "id": "BCW2021baseline",
+      "source": "https://arxiv.org/html/2009.09327v2",
+      "theorem_location": "Theorem1",
+      "statement": "For some C>=4, Sun(p,k)<=(Cp log k)^k for allp,k>=2.",
+      "parameter_comparison": "This is support-independent, but its bound at petals3, rank4 is far greater than67, even at the lower allowed C=4. Sun is a forcing threshold, so the extremal maximum convention differs by1.",
+      "evidence": [
+        "search04.json",
+        "open08.json"
+      ]
+    },
+    {
+      "id": "ECCC-TR26-220",
+      "source": "https://eccc.weizmann.ac.il/report/2026/220/download/",
+      "record": "https://eccc.weizmann.ac.il/report/2026/220/",
+      "version_seen": "28September2026; no revision shown on inspected report page",
+      "theorem_location": "Theorem1.1 / Corollary2.11; Definition2.10",
+      "statement": "Derandomized robust sunflower theorem for width-w monotone DNFs under pseudo-independent distributions. The sunflower conclusion is a high-probability residual-DNF property.",
+      "parameter_comparison": "Robust/distributional conclusion is not the exact three-petal relation. Inspected theorem has asymptotic parameters, no exact rank4 threshold67. No direct numerical replacement identified.",
+      "evidence": [
+        "open01.json",
+        "open04.json",
+        "open06.json"
+      ]
+    },
+    {
+      "id": "ECCC-TR26-205",
+      "source": "https://eccc.weizmann.ac.il/report/2026/205/download/",
+      "record": "https://eccc.weizmann.ac.il/report/2026/205/",
+      "version_seen": "22September2026; no revision shown on inspected report page",
+      "theorem_location": "Theorem1, Corollary2",
+      "statement": "For k>=4 petals, a tensor faithfully realizing the set-sunflower relation on the full Boolean cube has maximal slice rank2^N; distinct-input variant has lower bound2^(N-k).",
+      "parameter_comparison": "A method obstruction, not a finite-family upper bound. Here4 means petals, not rank. It does not invalidate the BHL vector tester or address the target three-petal rank4 bound.",
+      "evidence": [
+        "search04.json",
+        "open08.json",
+        "open09.json",
+        "open10.json"
+      ]
+    }
+  ],
+  "institutional_checks": [
+    {
+      "url": "https://www.ibs.re.kr/ecopro/papers/",
+      "observation": "Search index returned BHL with page update23Oct2026. Direct open returned a stale June16 list; later domain-restricted search reported robots.txt block. This cannot independently establish a revised paper version.",
+      "evidence": [
+        "search01.json",
+        "open01.json",
+        "search05.json"
+      ]
+    },
+    {
+      "url": "https://dimag.ibs.re.kr/event/2026-10-28/",
+      "observation": "Institutional indexed seminar announcement names BHL and the same support-size conjecture; event is after cutoff and not evidence it already occurred.",
+      "evidence": [
+        "search05.json"
+      ]
+    },
+    {
+      "url": "https://uwaterloo.ca/combinatorics-and-optimization/events/combinatorics-and-optimization-reading-group-arkaprava",
+      "observation": "Indexed26Oct announcement distinguishes BHL from uniform Erdos–Rado; future event not treated as completed review.",
+      "evidence": [
+        "search02.json"
+      ]
+    }
+  ],
+  "search_limits": [
+    "Actual queries and returned outputs are retained in search01–05, open01–10, and github01–12 JSON files. Discovery was bounded and not exhaustive.",
+    "The arXiv recent-by-announcement search returned a cached list beginning27September and omitting the known19October BHL paper. It was not used to certify absence of newer work. Parent reports a separate live UI check; that evidence is outside this subtask.",
+    "Palomar Sept25 Sunflower bounds entry was found in search, but both versioned and unversioned direct opens failed. It was not promoted into a theorem-level finding.",
+    "GitHub search covers indexed/default-branch sources; absence of further matches cannot establish unpublished or unindexed absence.",
+    "No manuscript files were edited; no review votes, compilation, proof replay, publishing, or external messages occurred."
+  ],
+  "novelty_implication": "The inspected broad results do not erase a valid new numerical improvement to67 for the exact target family. They do require accurate framing: no all-rank conjecture resolution, no first general AI-assisted sunflower result, and no claim that BHL formalization remains unavailable. A1K validity and priority against specialized finite-parameter work remain for the parent gate and are not certified here."
+}

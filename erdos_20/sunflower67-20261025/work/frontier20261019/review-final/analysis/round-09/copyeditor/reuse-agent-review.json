@@ -1,0 +1,46 @@
+{
+  "reviewer": "/root/review_coordinator/copyeditor",
+  "human_review_occurred": false,
+  "manuscript_sha256": "3ee74792dff98a43231d07100d0034b485a6f91beb2b565ffb15d22f5a40e365",
+  "snapshot_sha256": "857bbfd81dca2ae61ee6af3097e6b29403b49028356b723e6e51b6c0640292a8",
+  "computation_sha256": "71d37081b5142cdfce8a3272f71aa04454cdf2085dbc19c1dff458bfaf4a2acb",
+  "matches_reviewed": [
+    {
+      "evidence_id": "F16",
+      "source_line_range": [
+        0,
+        292
+      ],
+      "token_count": 9,
+      "classification": "Cited bibliographic title in reference [3]."
+    },
+    {
+      "evidence_id": "F17",
+      "source_line_range": [
+        15,
+        61
+      ],
+      "token_count": 9,
+      "classification": "Cited bibliographic title in reference [3]."
+    },
+    {
+      "evidence_id": "F17",
+      "source_line_range": [
+        29,
+        58
+      ],
+      "token_count": 9,
+      "classification": "Cited bibliographic title in reference [3]."
+    }
+  ],
+  "inline_source_copy_check": {
+    "L*L-3*L": true,
+    "L*L-6L": true,
+    "S*S-6S": true,
+    "6U-L*L+6L": true
+  },
+  "corpus": "Only numbered page-text lines in F16 arXiv and F17 arXiv/A1K frozen excerpts. F16 contains no A1K page text.",
+  "method": "F32 executable: NFKC casefolded word tokens, URL/citation removal, maximal exact contiguous matches of at least eight tokens, no joining across omitted source-line ranges.",
+  "conclusion": "Three occurrence records identify the same nine-token title; no other exact overlap reached the threshold. All four reviewed multiplication expressions are enclosed in inline code delimiters.",
+  "limitations": "Agent review only; no human review, semantic-paraphrase or unprovided-source comparison, comprehensive originality, or mathematical priority certification. Code-delimiter check concerns source, not a new rendered-page inspection."
+}

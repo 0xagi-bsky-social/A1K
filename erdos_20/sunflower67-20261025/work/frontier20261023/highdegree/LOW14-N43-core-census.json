@@ -1,0 +1,601 @@
+{
+  "schema": "cap14-N43-seven-point-core-census-v1",
+  "assurance": "Exact finite core census conditional on the ordinary arbitrary-support reduction; no completion exclusion, solver, model reconstruction, or Lean.",
+  "literal_premises": [
+    "F is finite simple SF4 and has size68, global point cap14, and all actual neighbourhoods at least41.",
+    "All exact singleton counts are at most8, as derived by the ordinary cap14 P9 exclusion.",
+    "The actual root0123 has neighbourhood43; its complete >=2-root-point core has the seven-point form proved in LOW14-Wagner-research.md.",
+    "Root points have global degree14, singleton8, and no exact triple-root trace; arbitrary residual exterior support is allowed."
+  ],
+  "source_sha256": "fd70bfb6a3839dd7fe74ecc513e6aa696933e1b4fc865191df906030bb9b7e82",
+  "ordinary_bridge_sha256": "ec20be7dedd072a8c95b80029236265aefbad2d2519c157002a83cd10e7944b2",
+  "root_pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "exterior_edges": [
+    48,
+    80,
+    96
+  ],
+  "action": "All24 permutations of root points and all6 permutations of the exterior triangle; entire core transported.",
+  "totals": [
+    {
+      "type": [
+        0,
+        2,
+        3
+      ],
+      "raw": 9,
+      "valid": 9
+    },
+    {
+      "type": [
+        1,
+        1,
+        3
+      ],
+      "raw": 81,
+      "valid": 18
+    },
+    {
+      "type": [
+        1,
+        2,
+        2
+      ],
+      "raw": 729,
+      "valid": 63
+    }
+  ],
+  "raw_assignments": 819,
+  "valid_representative_assignments": 90,
+  "canonical_records": 9,
+  "records": [
+    {
+      "type": [
+        0,
+        2,
+        3
+      ],
+      "canonical_core": [
+        15,
+        51,
+        53,
+        58,
+        60,
+        83,
+        85,
+        90,
+        92,
+        99,
+        108
+      ],
+      "p_row": [
+        3,
+        2,
+        0,
+        0,
+        2,
+        3
+      ],
+      "orbit_size_under_S4_times_S3": 18,
+      "representative_domain_count": 3,
+      "id": "NO43_000",
+      "root_points": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exterior_triangle": [
+        4,
+        5,
+        6
+      ],
+      "core_degrees": [
+        6,
+        6,
+        6,
+        6,
+        8,
+        6,
+        6
+      ],
+      "root_singletons": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "root_neighbourhood": 43
+    },
+    {
+      "type": [
+        1,
+        2,
+        2
+      ],
+      "canonical_core": [
+        15,
+        51,
+        53,
+        58,
+        60,
+        83,
+        85,
+        90,
+        92,
+        102,
+        105
+      ],
+      "p_row": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2
+      ],
+      "orbit_size_under_S4_times_S3": 9,
+      "representative_domain_count": 3,
+      "id": "NO43_001",
+      "root_points": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exterior_triangle": [
+        4,
+        5,
+        6
+      ],
+      "core_degrees": [
+        6,
+        6,
+        6,
+        6,
+        8,
+        6,
+        6
+      ],
+      "root_singletons": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "root_neighbourhood": 43
+    },
+    {
+      "type": [
+        0,
+        2,
+        3
+      ],
+      "canonical_core": [
+        15,
+        51,
+        53,
+        58,
+        60,
+        83,
+        85,
+        90,
+        101,
+        106,
+        108
+      ],
+      "p_row": [
+        2,
+        3,
+        0,
+        0,
+        3,
+        2
+      ],
+      "orbit_size_under_S4_times_S3": 36,
+      "representative_domain_count": 6,
+      "id": "NO43_002",
+      "root_points": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exterior_triangle": [
+        4,
+        5,
+        6
+      ],
+      "core_degrees": [
+        6,
+        6,
+        6,
+        6,
+        7,
+        7,
+        6
+      ],
+      "root_singletons": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "root_neighbourhood": 43
+    },
+    {
+      "type": [
+        1,
+        2,
+        2
+      ],
+      "canonical_core": [
+        15,
+        51,
+        53,
+        58,
+        60,
+        83,
+        85,
+        90,
+        102,
+        105,
+        108
+      ],
+      "p_row": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2
+      ],
+      "orbit_size_under_S4_times_S3": 72,
+      "representative_domain_count": 24,
+      "id": "NO43_003",
+      "root_points": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exterior_triangle": [
+        4,
+        5,
+        6
+      ],
+      "core_degrees": [
+        6,
+        6,
+        6,
+        6,
+        7,
+        7,
+        6
+      ],
+      "root_singletons": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "root_neighbourhood": 43
+    },
+    {
+      "type": [
+        1,
+        1,
+        3
+      ],
+      "canonical_core": [
+        15,
+        51,
+        53,
+        58,
+        60,
+        83,
+        86,
+        89,
+        92,
+        99,
+        108
+      ],
+      "p_row": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        3
+      ],
+      "orbit_size_under_S4_times_S3": 18,
+      "representative_domain_count": 6,
+      "id": "NO43_004",
+      "root_points": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exterior_triangle": [
+        4,
+        5,
+        6
+      ],
+      "core_degrees": [
+        6,
+        6,
+        6,
+        6,
+        8,
+        6,
+        6
+      ],
+      "root_singletons": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "root_neighbourhood": 43
+    },
+    {
+      "type": [
+        1,
+        2,
+        2
+      ],
+      "canonical_core": [
+        15,
+        51,
+        53,
+        58,
+        60,
+        83,
+        86,
+        89,
+        92,
+        101,
+        106
+      ],
+      "p_row": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2
+      ],
+      "orbit_size_under_S4_times_S3": 36,
+      "representative_domain_count": 12,
+      "id": "NO43_005",
+      "root_points": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exterior_triangle": [
+        4,
+        5,
+        6
+      ],
+      "core_degrees": [
+        6,
+        6,
+        6,
+        6,
+        8,
+        6,
+        6
+      ],
+      "root_singletons": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "root_neighbourhood": 43
+    },
+    {
+      "type": [
+        1,
+        2,
+        2
+      ],
+      "canonical_core": [
+        15,
+        51,
+        53,
+        58,
+        60,
+        83,
+        86,
+        89,
+        102,
+        105,
+        108
+      ],
+      "p_row": [
+        2,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "orbit_size_under_S4_times_S3": 36,
+      "representative_domain_count": 12,
+      "id": "NO43_006",
+      "root_points": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exterior_triangle": [
+        4,
+        5,
+        6
+      ],
+      "core_degrees": [
+        6,
+        6,
+        6,
+        6,
+        7,
+        7,
+        6
+      ],
+      "root_singletons": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "root_neighbourhood": 43
+    },
+    {
+      "type": [
+        1,
+        1,
+        3
+      ],
+      "canonical_core": [
+        15,
+        51,
+        53,
+        58,
+        60,
+        83,
+        86,
+        92,
+        99,
+        105,
+        108
+      ],
+      "p_row": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        3
+      ],
+      "orbit_size_under_S4_times_S3": 36,
+      "representative_domain_count": 12,
+      "id": "NO43_007",
+      "root_points": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exterior_triangle": [
+        4,
+        5,
+        6
+      ],
+      "core_degrees": [
+        6,
+        6,
+        6,
+        6,
+        7,
+        7,
+        6
+      ],
+      "root_singletons": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "root_neighbourhood": 43
+    },
+    {
+      "type": [
+        1,
+        2,
+        2
+      ],
+      "canonical_core": [
+        15,
+        51,
+        53,
+        58,
+        60,
+        83,
+        86,
+        92,
+        101,
+        105,
+        106
+      ],
+      "p_row": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2
+      ],
+      "orbit_size_under_S4_times_S3": 36,
+      "representative_domain_count": 12,
+      "id": "NO43_008",
+      "root_points": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exterior_triangle": [
+        4,
+        5,
+        6
+      ],
+      "core_degrees": [
+        6,
+        6,
+        6,
+        6,
+        7,
+        7,
+        6
+      ],
+      "root_singletons": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "root_neighbourhood": 43
+    }
+  ],
+  "seconds": 0.03443242100001953
+}

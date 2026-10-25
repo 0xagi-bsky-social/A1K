@@ -1,0 +1,12 @@
+{
+  "source_sha256": "27b82d9e124257e547034497fce9220dba08406b55e66d836ef1da218d4e4e0b",
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "--memory=768",
+    "--threads=1",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/root_proofs/build/Sharp45.olean",
+    "Sharp45.lean"
+  ],
+  "status": "started"
+}

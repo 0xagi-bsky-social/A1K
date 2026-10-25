@@ -1,0 +1,24 @@
+{
+  "random_seed": 6703,
+  "exact_box_models": 1000,
+  "feasible_points_checked": 1806,
+  "all_satisfy_published_inequality": true,
+  "selector_omission_counterexample": {
+    "row": "x-s <= 0",
+    "box": "0 <= x,s <= 1",
+    "objective": "x",
+    "nonnegative_weight": 1,
+    "feasible_point": [
+      1,
+      1
+    ],
+    "full_bound": 1,
+    "bound_if_selector_correction_omitted": 0
+  },
+  "strict_threshold_tests": {
+    "below_by_one": true,
+    "equal_excluded": false,
+    "above_by_one_excluded": false
+  },
+  "proof": "From q.z <= H and coordinate bounds on (D*c-q).z, sum the coordinate maxima. Nonnegative inequality multipliers, signed equality multipliers, positive D, and every coordinate are necessary to this derivation."
+}

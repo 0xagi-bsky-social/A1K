@@ -1,0 +1,870 @@
+{
+  "manifest_sha256": "41a906f71782390491b7e4ee001f5f97541703f593bad4403b4be2f10d9578df",
+  "replayer_sha256": "d69a6ef6c4ff9096af11af947dd8ac5aed3f82ec0fcba72bf5d4a42b725864bd",
+  "count": 123,
+  "all_pass": true,
+  "assurance": "shared-producer exact integer arithmetic and dependency replay; ordinary model bridge and independent orbit/stage coverage are separate; not Lean or final review",
+  "records": [
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I00-internal-1b3a8c6bcda3.json",
+      "receipt_sha256": "b603712d5721de2176bcd475e19eec557f5f2e82a808b121126f54635336cada",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-I00-internal-1b3a8c6bcda3-replay.json",
+      "replay_sha256": "895b8bf2d8e68a0c3afb1b8e219be891260952ad1a002607690ff1c6545d4e94",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I01-internal-2105205b1d45.json",
+      "receipt_sha256": "68985190b6b313a991061915cf426389d552c87b25688fe9e5af7948d66c4816",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-I01-internal-2105205b1d45-replay.json",
+      "replay_sha256": "727602d05d509766902f42c8086fe95842d162391c16b1351317703ac7455def",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I02-internal-81d1b002252d.json",
+      "receipt_sha256": "f323b818c1c0cfd4a18cecfedb5f82e974f2b535e21f93a3b61ff5f5c63ee069",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-I02-internal-81d1b002252d-replay.json",
+      "replay_sha256": "6778b398cf5dd13c0447f8ebfeaf543b6529754561e7c50cd3ebaa8b2bf616f0",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I03-internal-65848908014b.json",
+      "receipt_sha256": "49ab4bc251ad1a45ef72413592773a86faa6ce19e9c3e56caa9bfd32e41135d9",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-I03-internal-65848908014b-replay.json",
+      "replay_sha256": "b6ddccebf11fbe1dcba0b1d0379e05cc331d0058a35b1f1ad30e011785cb8241",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I04-internal-1560492ef3f8.json",
+      "receipt_sha256": "61dfadb5e38c8c56d00864c14936b0437c090458555a326f6b37260ed21811d6",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-I04-internal-1560492ef3f8-replay.json",
+      "replay_sha256": "d7f3e803a108751c0b027cf2cb525c022e55dec31ad37325a9a0d308beb376c5",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I05-internal-e6bb97c30513.json",
+      "receipt_sha256": "ca19781b9483e8aebdd57eb68389c3bf5c228c37cf0c70dacb1c225130318854",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-I05-internal-e6bb97c30513-replay.json",
+      "replay_sha256": "12c6378b61031f8b84cc204c3cd8653b1e742c3caad9ebf547e721a99c1833e6",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I06-internal-fb8783e9020d.json",
+      "receipt_sha256": "337606c847e4b0194033f2eacd84a46b3ba0b19463d36d0dfce10d06535f01c8",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-I06-internal-fb8783e9020d-replay.json",
+      "replay_sha256": "4b057891ed06f6792a51333ecefcdb48b34dac75160be8b6f2368b5bd5033ff1",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I07-internal-285026855842.json",
+      "receipt_sha256": "a329c633f5ae01dc4dc9f09a580920fea25c85f6374ab18f461082875694aae8",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-I07-internal-285026855842-replay.json",
+      "replay_sha256": "8414c664a254a71c070ad4c0c9ae4c76462cb041c655f03dfb58d03f7ebd48b5",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-I08-internal-381dc9370f7b.json",
+      "receipt_sha256": "e47e11e1ea548771bf0aff850400f5f684ab4034dbf8a29c7489722e33c50e2f",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-I08-internal-381dc9370f7b-replay.json",
+      "replay_sha256": "20b494646f4af28317f0f32df92cb796a751c5b1ddd53cb919010b97a2247266",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_00-emptyZ-fourcore-8c72445a6335.json",
+      "receipt_sha256": "01c1dd342799178173413a8ae9026d43d75216b81e07fb800ec940a1f18c2ad2",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_00-emptyZ-fourcore-8c72445a6335-replay.json",
+      "replay_sha256": "1288bfa7cb7b9a9bc5a0b27d4b861706cbd673592ae83ca159505e8867d9e8db",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_01-emptyZ-fourcore-dcf32ecedcac.json",
+      "receipt_sha256": "9a527b60f2b180c4658fe9368b809a065e681c9bea337cbc3c10b76d248173e6",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_01-emptyZ-fourcore-dcf32ecedcac-replay.json",
+      "replay_sha256": "4e4aafde5240c97290b476d49798fd5a8abbf47064c2b4ee99e9a62fa47e180a",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_02-emptyZ-fourcore-ab2396bcfbcc.json",
+      "receipt_sha256": "96859bae0a06bfb7811d52e9ffb6a23e096681529c58c522d4282d894e374751",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_02-emptyZ-fourcore-ab2396bcfbcc-replay.json",
+      "replay_sha256": "fffe181a7d022b2d0023840121e797c50dc746ac3d191ca00448f220b60d90b9",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_03-emptyZ-fourcore-8f2cab7cb801.json",
+      "receipt_sha256": "b3e4994419a79683659f268e03e7965696e605641d2d5c1f27a998aadda58a60",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_03-emptyZ-fourcore-8f2cab7cb801-replay.json",
+      "replay_sha256": "fd855b515d3cf0190eb99c1e52ff67315ea8e45ac53e9d5e6f1aed63bb907636",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_04-emptyZ-fourcore-c7ac0ef31523.json",
+      "receipt_sha256": "43307320cdb3b61b163aef6c5fc848243ba0d3f688ebc90e87964552db31b379",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_04-emptyZ-fourcore-c7ac0ef31523-replay.json",
+      "replay_sha256": "1e1ae024f47dc18cf490073f18a115127a29b7a69a7cd212d058af07287a9039",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_05-emptyZ-fourcore-69cddc887db0.json",
+      "receipt_sha256": "d9f541ade39b1a9110befd4a09824859800c41a58cd4f88a4b5eb3186213d52d",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_05-emptyZ-fourcore-69cddc887db0-replay.json",
+      "replay_sha256": "ac252403bd6474850f0fc04d8b96aebccfaaf473a2c4df2acf35fb753cf2e938",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_06-emptyZ-fourcore-672a4e4a8768.json",
+      "receipt_sha256": "d61c8ba60c04708eabb5b05a8dc504fe9f2a33fb80282f67627d7d1d42c4f53f",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_06-emptyZ-fourcore-672a4e4a8768-replay.json",
+      "replay_sha256": "7887ae25897f434c4dcba75bb6b32aa817af8bdbf9d972bd860054b44610530e",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_07-emptyZ-fourcore-7b134765acff.json",
+      "receipt_sha256": "97017b3ac4473552c0027a49f69a64d2b5181da84dc77b3b884ad8dc870fd946",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_07-emptyZ-fourcore-7b134765acff-replay.json",
+      "replay_sha256": "eddf2117e71e81ed91cabe8c5324fb33b91edb7a77d8cd5ad8916ea7790b24e5",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_08-emptyZ-fourcore-e6d8d192be60.json",
+      "receipt_sha256": "1416bfdc7c121064b98e3bd03499cf87ae12ab5116fdd9b98179488fcadf0f1a",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_08-emptyZ-fourcore-e6d8d192be60-replay.json",
+      "replay_sha256": "4edf235295b55784b309dc8900b685dfc9a6795da4d88328c55ecc1dc7c765be",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_09-emptyZ-fourcore-f70b31caedd4.json",
+      "receipt_sha256": "80680132bef654694b98876156ca5d1df5d5820d39ca2818ab3ef40c70832c89",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_09-emptyZ-fourcore-f70b31caedd4-replay.json",
+      "replay_sha256": "3736eee52f4bed35e69a4e04801b08b5212b2965cd689ce7f92edef4ee0cd21b",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_10-emptyZ-fourcore-682bcd8e4fab.json",
+      "receipt_sha256": "0b8bde6071f3e9984bc44e0c888037de9d111a31cf9c3b68db30b588ad2f0990",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_10-emptyZ-fourcore-682bcd8e4fab-replay.json",
+      "replay_sha256": "a22f0fd7a425faecfb5f586dc7ad678a1f737cdfac1729d2941afb04ca21ebdc",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_11-emptyZ-fourcore-30cc7cbac2c3.json",
+      "receipt_sha256": "28b552beae9eff0f4e3d78229362c2f3742bb1b705a71e1ed51949bc7185c8ae",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_11-emptyZ-fourcore-30cc7cbac2c3-replay.json",
+      "replay_sha256": "5a8deda78e4c9fc3f2406c9dd6509d6ae782c7ee4d507e2f3af66b56b55a4917",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_12-emptyZ-fourcore-43da6908cbbf.json",
+      "receipt_sha256": "4b09a1ef47a8bb282e2ea0adc52efdc5fe7aa8e4a5bfeaa07a342b9feaba0423",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_12-emptyZ-fourcore-43da6908cbbf-replay.json",
+      "replay_sha256": "74acfff78a185980fe315fec7c3cb274b1d584f11fd7dae55e1ed25bf34c7542",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_13-emptyZ-fourcore-e25027bc146b.json",
+      "receipt_sha256": "08f32f1df50fcba460c413e05850c6814661d5d478f16aea383a1f7c5ab5929d",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_13-emptyZ-fourcore-e25027bc146b-replay.json",
+      "replay_sha256": "3febb26e681df35ee6c9425174fe2834adf530938eac88b25531e88a7e7d029b",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_14-emptyZ-fourcore-807463719db2.json",
+      "receipt_sha256": "1320d637f1ec5cf2b46315458ef1475331ae8eef59381785f34b9da4afc11a29",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_14-emptyZ-fourcore-807463719db2-replay.json",
+      "replay_sha256": "b27d26ed4d7db35195d6ac2f56d860ad3306d2479ce0942c8ad94ea0eecd3fd5",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_15-emptyZ-fourcore-6c4d10058c66.json",
+      "receipt_sha256": "a5241cda0b1f5b86b545bdb32a191e623446c320efd9c59f29f0b7a453299396",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_15-emptyZ-fourcore-6c4d10058c66-replay.json",
+      "replay_sha256": "528f61e1403af52abbd3ac345e73fb3d27f88be9fa8fd25a5a4221ef7c69b387",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_16-emptyZ-fourcore-f0273b745717.json",
+      "receipt_sha256": "a5f5e8ac3c66a9b2e178656c55860cfe83a3c37296041208dfa7f027fb84def7",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_16-emptyZ-fourcore-f0273b745717-replay.json",
+      "replay_sha256": "3a24ae287bc051e87a3355c0782176a9b5196d9ce186d7fafbac43ef0a80cd42",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_17-emptyZ-fourcore-06580955f3d6.json",
+      "receipt_sha256": "da7209d542c13815a69cfb4ede3453defeb7ec517d209667941ef66c7d68be14",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_17-emptyZ-fourcore-06580955f3d6-replay.json",
+      "replay_sha256": "c601d98675e07ea57f430932586eee4430fdd700fb97279f2386bafde89972c2",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_18-emptyZ-fourcore-bc5945dfc2c5-phaseone.json",
+      "receipt_sha256": "7d805e68b9ec087d8b60dd7b0180e31516a1173130885d7a6279436f9d479353",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_18-emptyZ-fourcore-bc5945dfc2c5-phaseone-replay.json",
+      "replay_sha256": "2e63c28ac96b9bfe8e17019a027dd7d254fc906e205f9b0b80d9b3035b44e1a1",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_19-emptyZ-fourcore-c7c2dd9866d5.json",
+      "receipt_sha256": "d01d61275ff57811693f16142c8bfe2f515fba221cd31b69057aea8799ec35e4",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_19-emptyZ-fourcore-c7c2dd9866d5-replay.json",
+      "replay_sha256": "216873f12013f11867b1b4b0f3c4784de58865a19866cda8593fc1b5516aab2a",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_20-emptyZ-fourcore-a56cec5bafb9.json",
+      "receipt_sha256": "b1d6ec0d2b635c21fc229600aa73b9274a4a3cc085a32e161ba8c79d4a06f618",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_20-emptyZ-fourcore-a56cec5bafb9-replay.json",
+      "replay_sha256": "1a864fa1963aaee6315aa3f72f5b654e0016a7a0b81ae85f4cae9aca793b6b6f",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_21-emptyZ-fourcore-f8498f4677c9.json",
+      "receipt_sha256": "722bb0262cd1f70c3902a6fe27d8bea07028604f15f0b7e3f35fd0e66dc938f9",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_21-emptyZ-fourcore-f8498f4677c9-replay.json",
+      "replay_sha256": "ea4da66c865aae373ff8fa1a6a4a8b3d62b2f6b639b243e8f32d9f3b7e340517",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_22-emptyZ-fourcore-f4c50beb9394.json",
+      "receipt_sha256": "8e967b01d4c7a517556f2727f784046dd8139f656cd122e26d4c1c65a71fda72",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_22-emptyZ-fourcore-f4c50beb9394-replay.json",
+      "replay_sha256": "5072055e2949de02a77b4fb469a1da9adefd6849baae2cdae49896908e3fbe87",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_23-emptyZ-fourcore-97a6c071b3a2.json",
+      "receipt_sha256": "33cf0a0aaa83d1ac018faf5bb236d2c2e6af0965d8392b29e503ce64c4eb5622",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_23-emptyZ-fourcore-97a6c071b3a2-replay.json",
+      "replay_sha256": "245af4846b935eea84aeea8d6afc85e0a348a5e4f2e50e474dab29318f230113",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_24-emptyZ-fourcore-4dd8663ab813.json",
+      "receipt_sha256": "548ce22dd2b67af21a9d2e34588326d0a3e5c7784e25f0389ccb1eafb92c0e41",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_24-emptyZ-fourcore-4dd8663ab813-replay.json",
+      "replay_sha256": "d26b39fe86b6e30f74d3a2530446bdc52efefd4784a2171c07ec8562abd64f79",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_25-emptyZ-fourcore-cc0723f995ff.json",
+      "receipt_sha256": "e10640f5477ec2eb56ecadf78ee0a25c44bff35ae0b0555b01e654fb829e91d2",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_25-emptyZ-fourcore-cc0723f995ff-replay.json",
+      "replay_sha256": "2dddcca0c844ca8d594915419b5576c8be30968f062a4b1c14ae019c09104b97",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_26-emptyZ-fourcore-cb2cd2aebc21-phaseone.json",
+      "receipt_sha256": "4073766852bd1ffef6769da4888eed7cf12c6e827193be802640307c416a0d69",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_26-emptyZ-fourcore-cb2cd2aebc21-phaseone-replay.json",
+      "replay_sha256": "4a75bd9e60a7beafb26ed6d63cf37bafe0a95b00b50c806278209e63fe47bff5",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_27-emptyZ-fourcore-3735ecdd0ff5-phaseone.json",
+      "receipt_sha256": "dbefb826395c1c44c53422b2f81cb7ab35232ccaff64dedad094f1cb340daaeb",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_27-emptyZ-fourcore-3735ecdd0ff5-phaseone-replay.json",
+      "replay_sha256": "995ff28fa2d7f1cb17b0aecabbbac5c198cf9401cf9797baa8374c695f1f57d4",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E4_28-emptyZ-fourcore-5a771f1732cb.json",
+      "receipt_sha256": "d5140431968467c7a55fbc242b3ff9db2f73015e2f7e932bc039fae06f1987a2",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E4_28-emptyZ-fourcore-5a771f1732cb-replay.json",
+      "replay_sha256": "e5e373394227dcfceee6432b80662f9eb8dd3f55e43a959463b201b55eaf5816",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_00-emptyZ-mixed3-ec437cbcee8c.json",
+      "receipt_sha256": "cc1af71bb98c7b374ab568598adebab649398a86bc43ab1999434924954ca1ce",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E3_00-emptyZ-mixed3-ec437cbcee8c-replay.json",
+      "replay_sha256": "41f5ff48d05efc57e390d5b8d8a12b828fa6b661f2f3df81155ab49813dc9a97",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_01-emptyZ-mixed3-7a9432eaaeb4.json",
+      "receipt_sha256": "3711da09e5226dceaa27ccc375261d46cd16262d3f7d246942cd2cc2a432c7b0",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E3_01-emptyZ-mixed3-7a9432eaaeb4-replay.json",
+      "replay_sha256": "06e1ba5d8c530c9f360926a98cc333274570badbd9c2ec5ca48bc02f0b9b333d",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_02-emptyZ-mixed3-bcc1f743a022.json",
+      "receipt_sha256": "f9b692b456780a07631c8d7ea38ceaf41298ede4e57c09f18bfa9874b89fbbe2",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E3_02-emptyZ-mixed3-bcc1f743a022-replay.json",
+      "replay_sha256": "bc00f392372921f2b883c1f5e8c63c85abee8aa297ee8f1bb8f0a3b6f9dcd705",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_03-emptyZ-mixed3-71b11956034f.json",
+      "receipt_sha256": "35915d7524927a54c8a290cc41dd32dac14171feff51faa512b50fe0b155284f",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E3_03-emptyZ-mixed3-71b11956034f-replay.json",
+      "replay_sha256": "2556a39fcd850aaaf5e3f1019049b5d993073eac7c449e2acb2349a220c01bd0",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_04-emptyZ-mixed3-0fbfb53a4620.json",
+      "receipt_sha256": "8c0788ac8a3d2937a82e438bbfc823049271fab16cb3d697b88c4182b640b117",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E3_04-emptyZ-mixed3-0fbfb53a4620-replay.json",
+      "replay_sha256": "7cdac80ee4daf1070d16981aa77296c4d67a6b47d9b3342004446abd5edc925a",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_05-emptyZ-mixed3-68dd758dfc13.json",
+      "receipt_sha256": "5ba8383d9f72b837a520745d623e5eb907ea6beb5521a094c0aee25093c7fd76",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E3_05-emptyZ-mixed3-68dd758dfc13-replay.json",
+      "replay_sha256": "95f6c57d0e5706ba15c45f746c683f22fadc043efe47cac6257014f98dfadf27",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_06-emptyZ-mixed3-4f5da5f40bf9.json",
+      "receipt_sha256": "4b6d7431b94bed55e7ef25b8618c371da372f120dc4e222bef1e23f24fae8a47",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E3_06-emptyZ-mixed3-4f5da5f40bf9-replay.json",
+      "replay_sha256": "6948e2372497ec36768f59bdf23ea61a51cfb04ed1e5cab9f6f79fb42ee40249",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_07-emptyZ-mixed3-1d94643d8b85.json",
+      "receipt_sha256": "d2c00fd2baedd540006b2124f7611e333209b3c23d974ef003b2950a9387e1cc",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E3_07-emptyZ-mixed3-1d94643d8b85-replay.json",
+      "replay_sha256": "d98fb90f738456175499051259fc4fcc6111c8985532460d8ec9deda3f9b5186",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_08-emptyZ-mixed3-773ad2eeb9b4.json",
+      "receipt_sha256": "7609aff5de497e60df5edd8182c0fcde55501cf89fc7f0e8e2f736325ebc2fcf",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E3_08-emptyZ-mixed3-773ad2eeb9b4-replay.json",
+      "replay_sha256": "043e71cede31bcdf2d18781e9de9fbe8553aa8ca1b4f1171fb636197c2ec4c7f",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_09-emptyZ-mixed3-5683fa7dfe2c.json",
+      "receipt_sha256": "e09cd298c3f6f12f5e46ce55a53cd97d3b908f04dd89052c36dad41e10382391",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E3_09-emptyZ-mixed3-5683fa7dfe2c-replay.json",
+      "replay_sha256": "be8422fe33ac1cc5dc4d43c42f518f54c76590340fa5e556189c561a88e666b6",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_10-emptyZ-mixed3-3c948833114c.json",
+      "receipt_sha256": "7e85c8ae95547fc408d74ebafc7a452f10d56c9a234adb1f18adb09a89b6aa9e",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E3_10-emptyZ-mixed3-3c948833114c-replay.json",
+      "replay_sha256": "193696393ca5b8ac5e1ba2197d4f62d26c03bdb9e5336f28264db07f65e6d75c",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_11-emptyZ-mixed3-bb1c177abfe9.json",
+      "receipt_sha256": "e1b7b694c352c1cc8f000f46821ac6140731b78cd446112c832e7291703b5444",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E3_11-emptyZ-mixed3-bb1c177abfe9-replay.json",
+      "replay_sha256": "29fdeead23b4ded49e834c318e0d23dfc850659d1b9a9fda72f9bc6c2bfdfc32",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i1-E3_12-emptyZ-mixed3-30f6b6b6aee0.json",
+      "receipt_sha256": "f08de6c949a905ac57d6c43222b7290e2a1ca35dbb1be8784a21e4206c73dbea",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i1-E3_12-emptyZ-mixed3-30f6b6b6aee0-replay.json",
+      "replay_sha256": "bd2927009a1f779946ba574732d5058ea9c9ed96ce6d33772efcde3d2a4aeeb6",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-I00-internal-873b5c8d9e71.json",
+      "receipt_sha256": "6959a716f6d7e0ed71c96c3e3990d54c6da0b3bfe46cad8374e804ded63b2cce",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-I00-internal-873b5c8d9e71-replay.json",
+      "replay_sha256": "06e5f82e3f58ae5daf4ba5dd21af86b95b2b5234a54fe7ba287d8434c28ab3db",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-I01-internal-4f054c54a8cb.json",
+      "receipt_sha256": "2febaf3e1ced2585c88617cbda38ff94f451b8ca00b461fe05e42dfa9c86130b",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-I01-internal-4f054c54a8cb-replay.json",
+      "replay_sha256": "ad0af11595612405086e8d6d8d775608309129bbd56c72e63ce102f952062474",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-I02-internal-09d81d968837.json",
+      "receipt_sha256": "b1b02781aff7628d7fe410bdb0a3bdf51ffe863bb5e7c95774064711d6d4c590",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-I02-internal-09d81d968837-replay.json",
+      "replay_sha256": "80ae09b407709097a3adcffc1a03167000da8620c670c5c4aca4a092e07d6252",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-I03-internal-3bf1d2695466.json",
+      "receipt_sha256": "8eaa37595baebf34ba28f6aeb5d6d23aee175e8c65f2416a83575e30597f41da",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-I03-internal-3bf1d2695466-replay.json",
+      "replay_sha256": "8a26c1b4609fbf6275f5fbf4aaf27456279342133618362666f1d70e40a0ca5a",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-I04-internal-5ab9a5050e98.json",
+      "receipt_sha256": "841f532593fe71519afe3cb1582c1b8c01eb34b9ba07ab89f8ba8b874ee4c8fe",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-I04-internal-5ab9a5050e98-replay.json",
+      "replay_sha256": "feb9e7531b68fb64590bc092299d119a31b892200317c52f83b0e2dd35ec8b1d",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-I05-internal-1f5deeb4d02c.json",
+      "receipt_sha256": "5d928ee002423df3bca62e37ebd5f54315d0a92d062f6e96e399cb6c972ab4f5",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-I05-internal-1f5deeb4d02c-replay.json",
+      "replay_sha256": "5fbc49a1f91f5da9a0af48c82fc8e1dbc870eb836d0fd44a7feec398def76325",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_00-emptyZ-fourcore-e2c2516c8e1e.json",
+      "receipt_sha256": "2546897dab7bac89321942ee3889139b4e2d7de7c0ce0d8d17558541f93c0282",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_00-emptyZ-fourcore-e2c2516c8e1e-replay.json",
+      "replay_sha256": "6fc8c9ddef474994ad880577b9c0c61d1795ad9be4c6aeb613681a67b539d4af",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_01-emptyZ-fourcore-35fc63918e49.json",
+      "receipt_sha256": "4ea1c8eaf0509140214fa38d21d639e81743e14e14d5bff53f313dcdd44b68ba",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_01-emptyZ-fourcore-35fc63918e49-replay.json",
+      "replay_sha256": "123271e7fb1eae5155a74599cba260e5bc1ea34f79b554e6640b6761eaa4c00f",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_02-emptyZ-fourcore-07cb65334afb.json",
+      "receipt_sha256": "6466afcc33effe064ebf5ea2108c35f808b8b90b4f010fcbc61fca43509f3896",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_02-emptyZ-fourcore-07cb65334afb-replay.json",
+      "replay_sha256": "faeafc4b60ecd754fe3ad118a2863392eac9c4bedf1dec086969609a7cfcc4e1",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_03-emptyZ-fourcore-f2212504d9b8.json",
+      "receipt_sha256": "0ca731229c93d94e5f6350a0963e6aac66c8406dfc7ee815f25905f3c1c31010",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_03-emptyZ-fourcore-f2212504d9b8-replay.json",
+      "replay_sha256": "34c8f0c25d45363c504795a3ea090380384ee55dd3189d0ad84616cbfa347782",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_04-emptyZ-fourcore-34d443e8d0df.json",
+      "receipt_sha256": "96dd1690b7b219764a3f16775c5dd455359b35c39af84d463a88fdb6ab82b595",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_04-emptyZ-fourcore-34d443e8d0df-replay.json",
+      "replay_sha256": "83f6250af424651e20aec2b28eff421bd8752e2d9a6c24b876ef64019c013c5c",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_05-emptyZ-fourcore-bbddf08b2be0.json",
+      "receipt_sha256": "36a207250b74a4173650bc75ef66269433aa9727ab11e5d968be9e8646c800cd",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_05-emptyZ-fourcore-bbddf08b2be0-replay.json",
+      "replay_sha256": "471de6c0b0d64c3b32c0892418e5a0e409c01227dbbb9022ac3cf0190780d263",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_06-emptyZ-fourcore-99193b7c1062.json",
+      "receipt_sha256": "0f1dafb10e667f3a4ba1773910eea463f386dd06fd425e612299d5c8fa79a113",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_06-emptyZ-fourcore-99193b7c1062-replay.json",
+      "replay_sha256": "cf00de39963792724f8f0ee83a31b617393c4195e4d5c98c4d59ae2eb743776b",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_07-emptyZ-fourcore-f697341b7378.json",
+      "receipt_sha256": "4f6e7dcb9ba3fe75d53cb330878711e56da21a39a50290358d0e2629362dfc40",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_07-emptyZ-fourcore-f697341b7378-replay.json",
+      "replay_sha256": "66e2aa35adf63799a02bf75d02be73c83de3378aa6d6a32cf2b5bf75a17d9633",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_08-emptyZ-fourcore-a78b815669a6.json",
+      "receipt_sha256": "7c1702c9a96564b86ae7bc7794f6cc78dd50f5bf48dad7d46b853e2dac9c8e96",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_08-emptyZ-fourcore-a78b815669a6-replay.json",
+      "replay_sha256": "305d82b5fb9dc97e2e32de203c46284ca2219e02e88b5a7c032149a6536a84b0",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_09-emptyZ-fourcore-a2e00c6b454b-phaseone.json",
+      "receipt_sha256": "835e760391ffa648310ebeb633921d6027ab48a55af79acf426830ed2874c147",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_09-emptyZ-fourcore-a2e00c6b454b-phaseone-replay.json",
+      "replay_sha256": "da1f02ff5f05e271ee6211a1e9d3b5f231dd5655780dbe34720ad340de643b65",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_10-emptyZ-fourcore-9bad95935702.json",
+      "receipt_sha256": "a0b8b3941dab3162c24e05e9de15ac4aefbc73c50220a8cf72a17a9f7f2a8645",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_10-emptyZ-fourcore-9bad95935702-replay.json",
+      "replay_sha256": "87a4fc0bb94b3806cf8796cd1168feb908e96814835ede1746fbb3862c575a34",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_11-emptyZ-fourcore-ab3bf057d5b9.json",
+      "receipt_sha256": "fcf3c72d0053708b3753481d70d4f2bf7924c0fa0a5608b488c6f9b6c73f25de",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_11-emptyZ-fourcore-ab3bf057d5b9-replay.json",
+      "replay_sha256": "30be44ddd32476d50916db567906fbbd61b0d291e233617458b8e501dd840dc7",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_12-emptyZ-fourcore-87d1fd6d5e2e.json",
+      "receipt_sha256": "d73710f594d7f6e66588684e109ceb3e05f2ce77076191915189816eb7f0e9cb",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_12-emptyZ-fourcore-87d1fd6d5e2e-replay.json",
+      "replay_sha256": "bcf846486947eb2119e3a8888745e4c4099ae4f829f69eb670e1085f85f719d8",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_13-emptyZ-fourcore-1702d9f72f39.json",
+      "receipt_sha256": "9e5315cec07bcac6a7d1cdd3584270c5ca94da5881a1fe90396ba491e4fc5a7a",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_13-emptyZ-fourcore-1702d9f72f39-replay.json",
+      "replay_sha256": "6af788ea49d0dbd6b4cb3cd9ea7b2a0cd1f04a8c564b1a891e3578c0a45b74c6",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_14-emptyZ-fourcore-9ae2a5adae34.json",
+      "receipt_sha256": "21224cec7d96838bfa464c73a4c63f899f42e7cb5d90d1a57d54528eaefa198a",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_14-emptyZ-fourcore-9ae2a5adae34-replay.json",
+      "replay_sha256": "c2daf09d2cd0c23f65d73badd1c6d9b45d41a010c3e609a7f814de934f5b03d3",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_15-emptyZ-fourcore-32737d70efe4-phaseone.json",
+      "receipt_sha256": "a5c6969828a77dc7517285cb74370d010d13fd87de5b91ad8f332c71aa9670ab",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_15-emptyZ-fourcore-32737d70efe4-phaseone-replay.json",
+      "replay_sha256": "4d91e0bc982544b8f8a5411e3470d5b7aebc9640920360e6bc54ac40eb6fc174",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_16-emptyZ-fourcore-bb9ad889b28f-phaseone.json",
+      "receipt_sha256": "484c705c21dd09e8c99b263dac6d7df234118fa2db564e4d44a2c9d9ac564a69",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_16-emptyZ-fourcore-bb9ad889b28f-phaseone-replay.json",
+      "replay_sha256": "1af6938e6266f2e18787d858e74d1176d6018a6c8cd70270914755828fff9e8e",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_17-emptyZ-fourcore-514b45b248fa.json",
+      "receipt_sha256": "69ca26413654f84b336f10d46c5134e5983562ace693b87cb337c86733cf2c20",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_17-emptyZ-fourcore-514b45b248fa-replay.json",
+      "replay_sha256": "ad82cb9fc54f1f5be389268cd6c4c3f4fbae3fe3e58ee5aa2e7e132bbecef8b0",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_18-emptyZ-fourcore-9711380f41e3.json",
+      "receipt_sha256": "ac4f3d306508ea9d2b5d30333c69a29017f3ab17a28e11032a25396d57f5a393",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_18-emptyZ-fourcore-9711380f41e3-replay.json",
+      "replay_sha256": "c2a630f45355348477e83ffd16bec63bb49a3632602cf72341123bdd7317e255",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E4_19-emptyZ-fourcore-5ca172d21574.json",
+      "receipt_sha256": "d23bd1aece63b3ee3b253e5e88244dfacfbc5ecf1eef327a950d25da82db10b6",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E4_19-emptyZ-fourcore-5ca172d21574-replay.json",
+      "replay_sha256": "66ea288ac8f42bcb5fa2548f5d013f95f3270e17f35dc53e61aa4d81a7668419",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_00-emptyZ-mixed3-4470b2973b2f.json",
+      "receipt_sha256": "7bb193129ddc43d81cf8d0b092eb11ebd0b09ca8c455b850e24f1c744b5aea0e",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E3_00-emptyZ-mixed3-4470b2973b2f-replay.json",
+      "replay_sha256": "d0d4dc0be26cd97326551b249f8a658c8f896ecca28f26d10485085c4195b054",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_01-emptyZ-mixed3-d17354e43021.json",
+      "receipt_sha256": "9ad261cc02f4752c1fcd4db94d67fc6da0902d15d5031b8ec0fb6a16ccf401b8",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E3_01-emptyZ-mixed3-d17354e43021-replay.json",
+      "replay_sha256": "110d06500714dda48c6fe8d94ca6f4a5c96bbf23aa2833e82d7083810b0e04f1",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_02-emptyZ-mixed3-b06a1e44e3b6.json",
+      "receipt_sha256": "120a4acd0afd9ab32a3a66fc93c528ba633c13bf042c14a29f32c3a85909e995",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E3_02-emptyZ-mixed3-b06a1e44e3b6-replay.json",
+      "replay_sha256": "3c7834f1a49f13555c86cfb354fb32943311b73cac42f639f37224c67d57356a",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_03-emptyZ-mixed3-03f43222565c.json",
+      "receipt_sha256": "ed96085b26a8f463461d3114065fba7c88f8245f14fdc00091512012a70a55fd",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E3_03-emptyZ-mixed3-03f43222565c-replay.json",
+      "replay_sha256": "4a5b12fe912c7ecb6e9c27bef2b219530b228718d1e66da22a575dc6838364f6",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_04-emptyZ-mixed3-e7aa79fada82.json",
+      "receipt_sha256": "f560dbc9f189b3fb8b9db2d331c9efa00e05ff508a2646c7a5f9347081324cf8",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E3_04-emptyZ-mixed3-e7aa79fada82-replay.json",
+      "replay_sha256": "a9131372b467659211ceaf15896bb729329b2184533340271c833ee586b8d951",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_05-emptyZ-mixed3-50e4f9f53318.json",
+      "receipt_sha256": "b79d4050520eef6d39ce3eb6f5405956c72d0cf52b73a6d7a42d78471f172e5a",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E3_05-emptyZ-mixed3-50e4f9f53318-replay.json",
+      "replay_sha256": "435ba8d26d1875edd3d2c18dd44b65f990e06b66e6fd106f946f8f6762eed206",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_06-emptyZ-mixed3-73773197dde5.json",
+      "receipt_sha256": "53b09f49805d0db43a0b50cfe9b386b417e385e63c9e237d31682aac092469f0",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E3_06-emptyZ-mixed3-73773197dde5-replay.json",
+      "replay_sha256": "b87a352456db8e1a7ed618520c3a877877fd2c15c05ce868d484e4eb6966a4a8",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_07-emptyZ-mixed3-ad7aec204d97.json",
+      "receipt_sha256": "bfc27411f9357ed583901ff9afb524b74aa14768f4f47a5fa84565c2e4c29851",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E3_07-emptyZ-mixed3-ad7aec204d97-replay.json",
+      "replay_sha256": "4ab85a7c57024546ffd9497fd4ad2fc17b92e7065a13a7ad85c6fcc1890154de",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/P8-i2-E3_08-emptyZ-mixed3-d624de1f307c.json",
+      "receipt_sha256": "3a0165ca0550166f4312a9f767fc36f40dd800b5c5f09060ff74f4918298e280",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/P8-i2-E3_08-emptyZ-mixed3-d624de1f307c-replay.json",
+      "replay_sha256": "557c2a8fabd3cd1942eabc92faf76e1f100e4054a985a3d9af6c07b3b4cfa620",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-I00-internal-cdf71d704381.json",
+      "receipt_sha256": "d3e7bfb394ff74be796472c3edf506546310679d358a5dcf19116b46c0151e97",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-I00-internal-cdf71d704381-replay.json",
+      "replay_sha256": "cbd13bb12afa19e270217791850da358b5accf243efaa14576c9dc3ee3f360b9",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-I01-internal-be13884dd2c5.json",
+      "receipt_sha256": "fd6e2ed6339d024b9ff845c36b6259d24c0e2a88880584372783d87466a8fd91",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-I01-internal-be13884dd2c5-replay.json",
+      "replay_sha256": "db354679afc6235a87ff09b939cf2bd70274c5bddfd59647139390102d5cab62",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-I03-internal-632b027cdf77.json",
+      "receipt_sha256": "bacad7c95830bce99f09a73078abc79a128f9a95a5e560fe1419a2fec76a4b26",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-I03-internal-632b027cdf77-replay.json",
+      "replay_sha256": "fb3dfce680e45bca548a2b8f6e05ad0f72a54c020bd36795051aa82213cf5621",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-I07-internal-edc40f3a3abc.json",
+      "receipt_sha256": "34f734ee4ad86a44c45eb8b136c902300afaaeca1c45a353070fb78ee0437603",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-I07-internal-edc40f3a3abc-replay.json",
+      "replay_sha256": "648d798109af19f75d95d9ec34a9589ef969b039f90ded9f7fe8a66210fae779",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-I02-hub-33cb65f97da6.json",
+      "receipt_sha256": "7a0bc18a3f1bfdde8b318dae602d23011bbf1f44ed7262b713428ea42109cd28",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-I02-hub-33cb65f97da6-replay.json",
+      "replay_sha256": "b474d2d4f8fb007b677563692aa8b5d071ef1d61c785c3dcbb02de73b605144c",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-I04-hub-5632ff86665f.json",
+      "receipt_sha256": "b86808ce6301a3a1258074d3c50a1a649c59ead12d9afee180b0f368fff16dd0",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-I04-hub-5632ff86665f-replay.json",
+      "replay_sha256": "91270cdc2128f631549833ff0edf77787dd1a0952d3361ab5cae980bd96dd197",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-I05-hub-1e66e4e92265.json",
+      "receipt_sha256": "936942edabefcb9c9af5e40244a7e839968cb85bb22971e1e7ae767e9f83a1b2",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-I05-hub-1e66e4e92265-replay.json",
+      "replay_sha256": "5d6bfff1d4f46de018fc38203bcc2bf300d536504640a4b6f6acdfe8d452e0ca",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-I06-triangle-255df392c7d3.json",
+      "receipt_sha256": "92d4007fe7bcceb40037db44cd95ce498cded9caab211e5fc9d9fafaa667f8ee",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-I06-triangle-255df392c7d3-replay.json",
+      "replay_sha256": "8d6d0c62b91c225d3aa676959025e7efe8f079ed2fd2f063f15e27095371d192",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_00-Q8-emptyZ-fourcore-b9bbf298bac7-phaseone.json",
+      "receipt_sha256": "635f1daedff183e1cb089b70e65f9c2c7f6d8776783d3f0889f75861df1d4993",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_00-Q8-emptyZ-fourcore-b9bbf298bac7-phaseone-replay.json",
+      "replay_sha256": "aac7196d5dd777495458bce7cd154efc0facb2d072c7fde277abfd7edf28bba1",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_01-Q8-emptyZ-fourcore-0433fedf8273.json",
+      "receipt_sha256": "6f27684095050c4a74912d7e15bdce8f561d2880626e2367d527859818edf1fc",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_01-Q8-emptyZ-fourcore-0433fedf8273-replay.json",
+      "replay_sha256": "41f55d0ec6d7d617963a2945451c1a643bd342c5d5d3b69bcfa4cfa9b653d75e",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_02-Q8-emptyZ-fourcore-9975abe93a3a.json",
+      "receipt_sha256": "810513415d68bf684e6ba3611dee841802318e7858d5af4f7f88a6849697dcf2",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_02-Q8-emptyZ-fourcore-9975abe93a3a-replay.json",
+      "replay_sha256": "e561185c702edfc56042120d5fb183f0d581f9d174d6493cc1c61ee46223deed",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_03-Q8-emptyZ-fourcore-bd78c758d000.json",
+      "receipt_sha256": "6f5f4289db20a887a9ae438e288cd73e45ed98547c7b97c9e4e6e63adf9af0f1",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_03-Q8-emptyZ-fourcore-bd78c758d000-replay.json",
+      "replay_sha256": "702a2e7fe675024159b9c70e173e1e6ffbd846954eb6a61adf7cb75515d97aa1",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_04-Q8-emptyZ-fourcore-6f07b478531c.json",
+      "receipt_sha256": "55231050481f6708f065f12b4318a3ae632481d210c1006c2f9af7f47076b859",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_04-Q8-emptyZ-fourcore-6f07b478531c-replay.json",
+      "replay_sha256": "5acc4a09363b192d8474872529be4494cfbd1493103cd5100abea7d61e83dcde",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_05-Q8-emptyZ-fourcore-a957cf15d4d7.json",
+      "receipt_sha256": "35aec88a86250d314b2f5fec03af833660a206a4906715ad8747d9389b754ce9",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_05-Q8-emptyZ-fourcore-a957cf15d4d7-replay.json",
+      "replay_sha256": "22d00f34074336c6075c884092b4463df865c9b027ba579e4aa7cb3fae0c79f6",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_06-Q8-emptyZ-fourcore-07631fbcd6dc.json",
+      "receipt_sha256": "9dcc178df2fc881ccde1184dc8e228e4fc1fcc9ad8b86767719d2e2a86d422b6",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_06-Q8-emptyZ-fourcore-07631fbcd6dc-replay.json",
+      "replay_sha256": "2b777b9d4691d78bc3be06018136b2f4b0b63a5a4d3089c95ba1868d5135fe57",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_07-Q8-emptyZ-fourcore-08d47fc4af1b.json",
+      "receipt_sha256": "81a761b957ce51aeb55164aca322ede61fb6cc162c0fdebcc96abb63feec5af4",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_07-Q8-emptyZ-fourcore-08d47fc4af1b-replay.json",
+      "replay_sha256": "c4d1df06d17de1aa2595c06193d16880fb585a574a00c8de86ed90adda0a5096",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_08-Q8-emptyZ-fourcore-144b2b952759-phaseone.json",
+      "receipt_sha256": "a5ffe2ed2a9fcf79192953f93f2c2b61c77c6edfd931a50e7db4b1cbbf13b760",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_08-Q8-emptyZ-fourcore-144b2b952759-phaseone-replay.json",
+      "replay_sha256": "be15ca5f8486ac8b5712a58311c07907fda84f6ca9942ba0eaae1ba6a81c4cb9",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_09-Q8-emptyZ-fourcore-0f58d5ee537e.json",
+      "receipt_sha256": "fd5d5a074374323153ed2820e5df702ce6833253d6181af56fc03587ad1cb5be",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_09-Q8-emptyZ-fourcore-0f58d5ee537e-replay.json",
+      "replay_sha256": "4a9b0c0b39668b497fe72e01d6285f973cba80af259efdc1f9f9ab0526ec5df0",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_10-Q8-emptyZ-fourcore-8f1350016099.json",
+      "receipt_sha256": "98df8e3c67b01f276e22004fff557f61e7f12ba2a5b018f45fc8797d7fef2319",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_10-Q8-emptyZ-fourcore-8f1350016099-replay.json",
+      "replay_sha256": "9e0aee7b5c628a3635d16bd5f7be651c6833a3291b22cf2bc7a30c11a21af462",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_11-Q8-emptyZ-fourcore-79629d87c4af.json",
+      "receipt_sha256": "4a630cc4a5c2b41e10c0981f055c9b4be71f3feca11d24a2b4fd1a13d8a92405",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_11-Q8-emptyZ-fourcore-79629d87c4af-replay.json",
+      "replay_sha256": "46d9f60f75970ab1b253b95e59a31c4d23d00d52127a49221d021215d466eddb",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_12-Q8-emptyZ-fourcore-877477d517aa.json",
+      "receipt_sha256": "d87a06d27abefe9b30200d2f335866e91971120a7dee121b15be61cb4ddf51fc",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_12-Q8-emptyZ-fourcore-877477d517aa-replay.json",
+      "replay_sha256": "934aacf3ae1789ce2dfd93ddba19a002e07bf4f6d79b1ef5b8e3cde27af8c480",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_13-Q8-emptyZ-fourcore-319affc664a5.json",
+      "receipt_sha256": "f5f75ce41ce9a4f99d1b7e69a4b63453c3e269c34884e212a352442af79b10d9",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_13-Q8-emptyZ-fourcore-319affc664a5-replay.json",
+      "replay_sha256": "07aa075d4447d8b47e3f7cde843c4d72e833e3605dada966700fd72a7483595d",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_15-Q8-emptyZ-fourcore-220dbd250bd0.json",
+      "receipt_sha256": "9479a8a8d9e6406f3d0409d16d3dcec9c090766d1364e23f7863d29b90134947",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_15-Q8-emptyZ-fourcore-220dbd250bd0-replay.json",
+      "replay_sha256": "a830ae0ab4feec711b62b2ea4fb2a39120105292926382d5d54286c8b5888b50",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_16-Q8-emptyZ-fourcore-a17c5bac6bd3.json",
+      "receipt_sha256": "b9d1cc17b3479d0b86f699012a8a47eed0c1faf83a3788ae86437bf35eea2177",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_16-Q8-emptyZ-fourcore-a17c5bac6bd3-replay.json",
+      "replay_sha256": "ebfe1af76513038be00b7d5f73ce6d253e50f20812b3061f710e5ec6ffcd7ce3",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_17-Q8-emptyZ-fourcore-5fbc26985ae2.json",
+      "receipt_sha256": "bde85f8ad749d2a89beec7e7137bb9d26d13ce75f27bb8cd1bead20f946b1929",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_17-Q8-emptyZ-fourcore-5fbc26985ae2-replay.json",
+      "replay_sha256": "059edd9fffa57775c27a5e2bfd91a08a98aec44aada3b915b1ca50eba9df92d9",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_18-Q8-emptyZ-fourcore-0251be7e8198.json",
+      "receipt_sha256": "3870abfd1d4e10b69903514067c3d92029ac25bc291ecc48d7ba178df3cbcd69",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_18-Q8-emptyZ-fourcore-0251be7e8198-replay.json",
+      "replay_sha256": "1799559f8a942320439299e3557d47c3e2a747c2799a232fe12e186df9792d6e",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_19-Q8-emptyZ-fourcore-04504531fc7c.json",
+      "receipt_sha256": "99e5ff8d88df86c21f10b1de848653c6fcc52995d0966696d10cc79751d84512",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_19-Q8-emptyZ-fourcore-04504531fc7c-replay.json",
+      "replay_sha256": "4fb0dc9fea19cb16ba64f1bdbb9ba1ae4bbfde87d49d9238cb179c93b56bb166",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E4_14-fourcore-stage2-d44f054366ab.json",
+      "receipt_sha256": "52d514c9ce4d9b36b297ffb46c6446dd1808bb267e4a634f0cd8d9019d62e282",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E4_14-fourcore-stage2-d44f054366ab-replay.json",
+      "replay_sha256": "bcd1e723d7f0cdcde0edee541c57073c1834f4a683a7d45bffb154cf1b94b447",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_00-Q8-emptyZ-mixed3-d395d1035618.json",
+      "receipt_sha256": "d490a49c6a4070e0f11987bc8fb94dc92231faa33ff3eef2e2c79eb9bae8e73c",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E3_00-Q8-emptyZ-mixed3-d395d1035618-replay.json",
+      "replay_sha256": "32cd834844bf0870d5fd4cb163c11f02863f25fee6ecd9132853aaa60018389e",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_01-Q8-emptyZ-mixed3-cb778f388c0e.json",
+      "receipt_sha256": "7571bc6f089917f54b7eb4eec52214602ba0d7c4c87f7b6a189055cc59ff208a",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E3_01-Q8-emptyZ-mixed3-cb778f388c0e-replay.json",
+      "replay_sha256": "3c9b83b023ac9c7e2b16967e88a61dcd3106cd928df74b95f0876fd39c4803af",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_02-Q8-emptyZ-mixed3-896d2cf8aa2e.json",
+      "receipt_sha256": "5116380603020c45139f0e93884d6bc8b32ad8d26c3e52cab9346e980a3a5eb4",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E3_02-Q8-emptyZ-mixed3-896d2cf8aa2e-replay.json",
+      "replay_sha256": "73af27550d64e4b3b9a967d77aafd6b0f2566d2672f05e94ffc396b061e09b93",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_03-Q8-emptyZ-mixed3-82f42c52ebf2.json",
+      "receipt_sha256": "627e8785650edac8a59e36ed27cc3453398c98b75ab70c2ac9799c6970c14183",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E3_03-Q8-emptyZ-mixed3-82f42c52ebf2-replay.json",
+      "replay_sha256": "7eac5a9299575bd8735e9914fa68dcf407b63494cd385d9e281c0c0dd54c4b96",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_04-Q8-emptyZ-mixed3-2606826338f1.json",
+      "receipt_sha256": "7bb4eaa86d4531493c92230a3af7399210377a8929b008237b0eca0310a37a4e",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E3_04-Q8-emptyZ-mixed3-2606826338f1-replay.json",
+      "replay_sha256": "41fe4f3bc1f0b81b4cdec113fc4a9a6ad0f72116107c0c338940aa38c662489c",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_05-Q8-emptyZ-mixed3-bc71b86169db-phaseone.json",
+      "receipt_sha256": "9b4afb8d331e669575ae91c8c2ae9cefcf9223a2bede3119cb943c55448781fa",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E3_05-Q8-emptyZ-mixed3-bc71b86169db-phaseone-replay.json",
+      "replay_sha256": "80d02f70d1497295320821ce0a459fecd66fa99463e7a53bd19e3df22612ed12",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_06-Q8-emptyZ-mixed3-5a9b080f4898.json",
+      "receipt_sha256": "c6053b1c3f34081033e7722a1da6ee6c88949552f59fa31c4e8b106810a6513c",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E3_06-Q8-emptyZ-mixed3-5a9b080f4898-replay.json",
+      "replay_sha256": "d668125d12d0cf0f2b1143dfe9e674778b42c2667a160a348b169256b9bd5cd5",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_07-Q8-emptyZ-mixed3-548ce9f93b29-phaseone.json",
+      "receipt_sha256": "eb0e8ad70a5ffc1c71668fac91e4568c79d059b3ca7b520d6277d9c5f5a37e97",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E3_07-Q8-emptyZ-mixed3-548ce9f93b29-phaseone-replay.json",
+      "replay_sha256": "2fef7881bebfcec951fc3cd606ccb6282316a853c1c80f71b5f3f32ebf2817ce",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10/Q8-E3_08-Q8-emptyZ-mixed3-3b5463d62c97.json",
+      "receipt_sha256": "e2746140f63dfd2d424f7ccf51427011f5c032820edbaa2f7af127b57a9d9faa",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_replay/Q8-E3_08-Q8-emptyZ-mixed3-3b5463d62c97-replay.json",
+      "replay_sha256": "1073f364796c3929a49efd0394807c545fc16187a33fbb5a9eb379d01e1be015",
+      "result": "PASS"
+    }
+  ]
+}

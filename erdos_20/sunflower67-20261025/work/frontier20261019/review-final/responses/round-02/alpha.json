@@ -1,0 +1,23 @@
+{
+  "agent_id": "/root/review_coordinator/alpha",
+  "role": "alpha",
+  "context_id": "/root/review_coordinator/alpha",
+  "round": 2,
+  "snapshot_sha256": "ca231dc7862039c04067c0ccc5ee58f1cdfdf600d9f9e0bf498878efcf4c78cc",
+  "manuscript_sha256": "2489c2194f27ff2597d9e2c670d9d51ea4ba505363a7ae62e307ee489e87195f",
+  "summary": "The formal-authority claim survives this bounded provenance challenge. Fourteen replay receipts match the source manifest and report stable source with exit zero; the audit output contains 66 root records. The manuscript correctly retains the inherited-object trust boundary. Canonical snapshot and manuscript hashes match. No clean dependency rebuild or independent reproduction was performed in this review.",
+  "evidence_ids": ["F01", "F24", "F25"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Axiom-audit authority versus inherited compiled-object provenance",
+      "method": "Compared all fourteen F24 receipt source hashes against F01; inspected FrontierAudit.lean, its actual replay output, and F25 negative controls.",
+      "observation": "The auditor checks existence, theorem kind, proposition type, and transitive axiom allowlisting; controls record rejection of missing, non-theorem, and disallowed-axiom cases. These establish the claimed local audit behavior, not authenticity of inherited object bytes. F24 explicitly discloses reused A1K/mathlib objects, and the manuscript preserves that limitation instead of promoting source agreement into full rebuild assurance.",
+      "result": "supported",
+      "evidence_ids": ["F01", "F24", "F25"]
+    }
+  ]
+}

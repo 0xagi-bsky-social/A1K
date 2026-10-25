@@ -1,0 +1,352 @@
+{
+  "P8_orbit_sizes": [
+    30,
+    15
+  ],
+  "capacities": [
+    1,
+    2,
+    4,
+    10
+  ],
+  "exception_witnesses": [
+    {
+      "common_points": [
+        2
+      ],
+      "four_cover_count": 12,
+      "model": "0/0",
+      "omitted_triples": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "support": [
+        2,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "three_cover_count": 0
+    },
+    {
+      "common_points": [
+        9
+      ],
+      "four_cover_count": 12,
+      "model": "0/0",
+      "omitted_triples": [
+        [
+          7,
+          8,
+          12
+        ],
+        [
+          7,
+          11,
+          12
+        ],
+        [
+          8,
+          10,
+          11
+        ]
+      ],
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9
+      ],
+      "three_cover_count": 0
+    },
+    {
+      "common_points": [
+        11
+      ],
+      "four_cover_count": 12,
+      "model": "0/1",
+      "omitted_triples": [
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          8,
+          10,
+          12
+        ],
+        [
+          9,
+          10,
+          12
+        ]
+      ],
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        11
+      ],
+      "three_cover_count": 0
+    },
+    {
+      "common_points": [
+        10
+      ],
+      "four_cover_count": 12,
+      "model": "0/1",
+      "omitted_triples": [
+        [
+          7,
+          11,
+          12
+        ],
+        [
+          8,
+          9,
+          11
+        ],
+        [
+          9,
+          11,
+          12
+        ]
+      ],
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        10
+      ],
+      "three_cover_count": 0
+    },
+    {
+      "common_points": [
+        8
+      ],
+      "four_cover_count": 12,
+      "model": "0/2",
+      "omitted_triples": [
+        [
+          7,
+          9,
+          10
+        ],
+        [
+          7,
+          9,
+          11
+        ],
+        [
+          7,
+          10,
+          11
+        ]
+      ],
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "three_cover_count": 0
+    },
+    {
+      "common_points": [
+        7
+      ],
+      "four_cover_count": 12,
+      "model": "0/2",
+      "omitted_triples": [
+        [
+          8,
+          9,
+          10
+        ],
+        [
+          8,
+          9,
+          11
+        ],
+        [
+          8,
+          10,
+          11
+        ]
+      ],
+      "support": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "three_cover_count": 0
+    }
+  ],
+  "model_count": 8,
+  "models": [
+    {
+      "model": "0/0",
+      "pair_count_improvements": 2,
+      "raw_upper": {
+        "0": 0,
+        "1": 0,
+        "2": 4,
+        "3": 12
+      },
+      "upper": {
+        "0": 0,
+        "1": 0,
+        "2": 4,
+        "3": 10
+      }
+    },
+    {
+      "model": "0/1",
+      "pair_count_improvements": 2,
+      "raw_upper": {
+        "0": 0,
+        "1": 2,
+        "2": 4,
+        "3": 12
+      },
+      "upper": {
+        "0": 0,
+        "1": 2,
+        "2": 4,
+        "3": 10
+      }
+    },
+    {
+      "model": "0/2",
+      "pair_count_improvements": 2,
+      "raw_upper": {
+        "0": 0,
+        "1": 2,
+        "2": 4,
+        "3": 12
+      },
+      "upper": {
+        "0": 0,
+        "1": 2,
+        "2": 4,
+        "3": 10
+      }
+    },
+    {
+      "model": "1/1",
+      "pair_count_improvements": 0,
+      "raw_upper": {
+        "0": 1,
+        "1": 2,
+        "2": 4,
+        "3": 10
+      },
+      "upper": {
+        "0": 1,
+        "1": 2,
+        "2": 4,
+        "3": 10
+      }
+    },
+    {
+      "model": "1/2",
+      "pair_count_improvements": 0,
+      "raw_upper": {
+        "0": 1,
+        "1": 2,
+        "2": 4,
+        "3": 10
+      },
+      "upper": {
+        "0": 1,
+        "1": 2,
+        "2": 4,
+        "3": 10
+      }
+    },
+    {
+      "model": "2/2",
+      "pair_count_improvements": 0,
+      "raw_upper": {
+        "0": 1,
+        "1": 2,
+        "2": 4,
+        "3": 8
+      },
+      "upper": {
+        "0": 1,
+        "1": 2,
+        "2": 4,
+        "3": 8
+      }
+    },
+    {
+      "model": "Q/Q overlap 1",
+      "pair_count_improvements": 0,
+      "raw_upper": {
+        "0": 1,
+        "1": 2,
+        "2": 4,
+        "3": 8
+      },
+      "upper": {
+        "0": 1,
+        "1": 2,
+        "2": 4,
+        "3": 8
+      }
+    },
+    {
+      "model": "Q/Q overlap 2",
+      "pair_count_improvements": 0,
+      "raw_upper": {
+        "0": 1,
+        "1": 2,
+        "2": 4,
+        "3": 8
+      },
+      "upper": {
+        "0": 1,
+        "1": 2,
+        "2": 4,
+        "3": 8
+      }
+    }
+  ],
+  "omission_cases": 5576,
+  "pair_count_improvements": 6,
+  "status": "DIAGNOSTIC_PASS"
+}

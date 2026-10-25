@@ -1,0 +1,26 @@
+{
+  "scope": "Fresh bounded checks executed after copying the unchanged sources into this repository archive. Not a whole-proof replay, new Lean build, or independent mathematical certification.",
+  "python": "Python 3.13",
+  "checks": [
+    {
+      "file": "cap15-covers.json",
+      "status": "PASS"
+    },
+    {
+      "file": "d16-covers.json",
+      "status": "PASS"
+    },
+    {
+      "file": "r15-cycle5.json",
+      "status": "PASS"
+    },
+    {
+      "file": "r15-triangle-path.json",
+      "status": "PASS"
+    },
+    {
+      "file": "r15-two-triangles.json",
+      "status": "PASS"
+    }
+  ]
+}

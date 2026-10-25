@@ -1,0 +1,14 @@
+{
+  "module": "SupportBound",
+  "source_sha256": "eb5a318572a786b44dd25f11e376f782d02ae61299f7be913e9a078d91049cfd",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/new-closure/build/SupportBound.olean",
+    "SupportBound.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 7.751,
+  "output": "'FrontierSupport.weighted_incidence_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierSupport.intersecting_degree_support_inequality' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierSupport.intersecting_twenty_eight_support_le_seventy_two' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'FrontierSupport.finite72_obstruction_of_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierSupport.intersecting_upper_twenty_seven_iff_no_finite72_obstruction' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'FrontierSupport.equal_intersections_iff_no_exact_two' depends on axioms: [propext, Quot.sound]\n"
+}

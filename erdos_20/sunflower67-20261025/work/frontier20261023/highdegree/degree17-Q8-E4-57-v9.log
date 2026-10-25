@@ -1,0 +1,4 @@
+{"phase": "built", "kind": "P9-Q8", "case": "E4_57", "columns": 39327, "rows": 1347, "catalogue_sizes": [2018, 2018, 854, 854, 2018, 854, 854, 854, 854, 4078, 4078, 2212, 4078, 4078, 2212, 3160, 3160], "seconds": 3.4442578129965113}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-E4_57-exterior-E4-v9-fc5d08aabad5.json", "status": 0, "upper": 51.5066998789, "below51": false, "seconds": 4.364766136000981}
+{"case": "E4_57", "completed": 58, "total": 58, "strict_diagnostic": false, "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-E4_57-exterior-E4-v9-fc5d08aabad5.json"}
+{"stopped": true, "reason": "Nonstrict or unfinished case; no later stage promoted"}

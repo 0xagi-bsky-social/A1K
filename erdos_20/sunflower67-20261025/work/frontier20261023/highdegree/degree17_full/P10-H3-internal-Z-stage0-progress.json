@@ -1,0 +1,51 @@
+{
+  "kind": "P10-H3",
+  "completed": 5,
+  "total": 5,
+  "source_sha256": "a1beae56f60205a48442a1c6a31d2148557443511fb119a1936ffda8578bebf2",
+  "records": [
+    {
+      "case": "IZ00",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-IZ00-internal-Z-stage0-v4-ca03801a258d.json",
+      "sha256": "a7226629d67903a2cc606d50e29035d0756afa33b93a5a9909535e9681d0632f",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 48.615384634
+    },
+    {
+      "case": "IZ01",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-IZ01-internal-Z-stage0-v4-0b70e7bf7e0d.json",
+      "sha256": "4fb9810cb21e50102ef84b75ed59b59b5507f6c15ff99a96f3edd2cb665bbee8",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 48.3529413741
+    },
+    {
+      "case": "IZ02",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-IZ02-internal-Z-stage0-v4-e21d65be7840.json",
+      "sha256": "69a83edd7e69611b19abb48a17967565576e64a4860ee520db56e63aea5e5e1e",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 49.0
+    },
+    {
+      "case": "IZ03",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-IZ03-internal-Z-stage0-v4-1cf38aa31f31.json",
+      "sha256": "39c6d5a8118b8ba48709221c0f53573de69592cd20d1945dd6b180401a5d1555",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 48.5625000092
+    },
+    {
+      "case": "IZ04",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-IZ04-internal-Z-stage0-v4-6ddfce420fd9.json",
+      "sha256": "93d02a862d8bd80db9be8032efa735994a119e066367d856571ab5e5c77a5e05",
+      "status": 0,
+      "strict_diagnostic": true,
+      "upper": 48.2631580339
+    }
+  ],
+  "Y_antecedent": null,
+  "all_completed_strict": true,
+  "assurance": "Producer diagnostics only; no exact replay or branch closure implied."
+}

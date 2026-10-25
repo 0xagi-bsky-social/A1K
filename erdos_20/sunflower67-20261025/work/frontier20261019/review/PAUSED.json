@@ -1,0 +1,18 @@
+{
+  "status": "paused-by-user",
+  "recorded_at": "2026-10-19T13:17:15.473496+00:00",
+  "reason": "User requires complete universal Lean support56 and support53 assembly before final 12-by-10 review, final audits, and publication.",
+  "preliminary_only": true,
+  "registered_roles": 12,
+  "committed_rounds": 0,
+  "open_round": 1,
+  "actual_recorded_submissions": 8,
+  "final_audits": 0,
+  "published": false,
+  "manuscript_sha256": "976c7317f428b7a240bf9b115196d753bc765ee9384836f44c79f771fad356bd",
+  "snapshot_sha256": "11f2d2653c902a45a6c436f9d3e618a63f3bd094793dd3a8e9f2731d18411ec7",
+  "event_head_sha256": "cc58f062adaf9d94279d11382454182ba37b68f71232587d68c67a0191db077a",
+  "resume_instruction": "Preserve this incomplete run as preliminary. Start a fresh final-review run or explicitly prospectively restart on the completed formal evidence snapshot; do not count these incomplete preliminary submissions as the mandatory final process.",
+  "active_review_agents_observed": 0,
+  "coordinator_background_jobs": 0
+}

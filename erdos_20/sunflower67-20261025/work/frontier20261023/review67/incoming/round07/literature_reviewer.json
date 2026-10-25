@@ -1,0 +1,85 @@
+{
+  "agent_id": "/root/r67_literature",
+  "role": "literature_reviewer",
+  "context_id": "/root/r67_literature",
+  "round": 7,
+  "snapshot_sha256": "27c12126b19a0258f4f2fefc8ee5d528eb5ad1fe7cabf43512ce95a370032455",
+  "manuscript_sha256": "a8f164ea1218b704cccd43c618fc2166f5ab636d9c121e7713f7c797d221b2b9",
+  "summary": "Three skeptical challenges did not reveal a new source-scope error or invalidate the bounded comparison. H27 remains an essential, unreplayed external computation; the prior upper-68 result shares that dependency and cannot independently corroborate it. The disclosed provenance limitation remains substantive. Continued review is warranted without new required wording changes.",
+  "evidence_ids": [
+    "external-scope",
+    "external-h27-tree-correction",
+    "external-h27-scope-correction",
+    "prior-ledger",
+    "literature-refresh",
+    "general-literature",
+    "prior-unlock",
+    "cap15",
+    "round6-committed"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "LIT-R7-01",
+      "statement": "Citing both H27 and the prior upper-68 theorem does not provide two independent confirmations of the intersecting cap: the latter expressly imports the former.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Preserve Section 2’s ordinary-import and historical-run limitations. The committed Alpha tree objection remains valid evidence about provenance, but supplies neither a counterexample nor a proof of H27. Local degree-case successes do not close this external assurance gap.",
+      "evidence_ids": [
+        "external-scope",
+        "external-h27-tree-correction",
+        "round6-committed"
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "/root/r67_literature:round-4:required-revision-1",
+      "action": "Reassessed the source disclosure against fresh primary statements and the superseding tree qualification.",
+      "result": "The disclosure repair remains resolved, including the correction to my earlier completeness wording; authentication itself remains unestablished.",
+      "status": "resolved"
+    },
+    {
+      "finding_id": "/root/r67_literature:round-1:required-revision-1",
+      "action": "Checked unchanged Section 2 against the reopened construction attribution.",
+      "result": "Classical attribution remains explicit and satisfactory.",
+      "status": "resolved"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Challenge: H27 conceals a support cutoff or gains spurious corroboration",
+      "method": "Reopened the primary H27 decision problem, equation 6.13, Lemma 6.6, Proposition 6.7 and computational verification; compared the prior preprint’s explicit import.",
+      "observation": "[H27](https://arxiv.org/html/2609.06175v1) derives support at most 85 for a hypothetical 28-member intersecting family; its 128-column capacity exceeds that bound. The unrestricted theorem statement matches the manuscript. Section 6.5 distinguishes exhaustive searches from completed-record verification. The [prior preprint](https://aixiv.online/abs/2610.01292) explicitly imports H27 without rerunning it. Historical execution authentication remains unverified here.",
+      "result": "inconclusive",
+      "evidence_ids": [
+        "external-scope",
+        "external-h27-scope-correction",
+        "prior-ledger"
+      ]
+    },
+    {
+      "scope": "Challenge: a later general result already subsumes upper 67",
+      "method": "Reopened both versioned primary records; evaluated the later theorem’s explicit bound using exact rational arithmetic and read its Section 5 limitations.",
+      "observation": "The prior v1 still states maximum 68 and explicitly excludes any claim to exclude size 68. [Bucić–He–Lee, Theorem 1](https://arxiv.org/html/2610.26686v1) gives 3(863/432)^n for three petals. A 68-member simple four-uniform family needs n≥8; this bound already exceeds 760 there and increases. Their vector bound remains alphabet-dependent. Thus this direct competitor does not yield 67; this is not exhaustive exclusion of all possible derived corollaries or unlocated work. Reopening sources does not extend the manuscript’s search cutoff.",
+      "result": "supported",
+      "evidence_ids": [
+        "literature-refresh",
+        "general-literature"
+      ]
+    },
+    {
+      "scope": "Challenge: the cap14 closure borrows an invalid prior cross-star theorem",
+      "method": "Compared committed Alpha’s identified interface directly with pinned main.tex lines 1003–1024 and LOW14-NO43-ordinary-closure’s matching and cross-star sections.",
+      "observation": "The source requires both centres outside both actual tail supports. The new proof separately excludes Q8 leaf overlap using an actual two-edge matching, then uses an opposite core member to establish cross-intersection of the 8+8 tails. The resulting bound is 14+14−1+4=31<41. Core isolation alone would fail this guard, but the additional argument is present. This inspects the import bridge, not every prior certificate.",
+      "result": "supported",
+      "evidence_ids": [
+        "prior-ledger",
+        "prior-unlock",
+        "cap15",
+        "round6-committed"
+      ]
+    }
+  ]
+}

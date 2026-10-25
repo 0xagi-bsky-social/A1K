@@ -1,0 +1,8 @@
+{
+  "candidate_completions": 25,
+  "pair_checks": 300,
+  "coordinate_compatibility_mismatches": [],
+  "maximum_compatible_clique": 4,
+  "naive_intersecting_only_counterexample_size": 5,
+  "scope": "Canonical local diagnostic only; no universal proof or normalization claim"
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "assurance": "axiom-audited",
+  "module": "ComplementaryTraces",
+  "source_sha256": "7c26ba9f1d63d7edce06404b6bfeffbec1f73b4c6e93ccfbb584282e540467b7",
+  "object_sha256": "1834c37f153ba8ec1a555346ff029ec2f89f513f9f75fe4734352db97ab09346",
+  "compilation_receipt_sha256": "e137558523be3a2e49063396ba9d9dca959a87af27754bb76ac625eef2055496",
+  "log_sha256": "3b9dd2e2a71fdf158665b3eeb088ebed7db607aff37b9a8a2ef957495307756a",
+  "roots": {
+    "lifted_disjoint_intersection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "no_two_disjoint_traces_with_surviving_cone": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "imported_terminal_source_sha256": "01ec3df7f6137df13697246ec36768157740221d349fc08fe58f2ed7bc699dfc",
+  "imported_terminal_object_sha256": "c4658d66701ceaf5b0b43ef2099c0f2b0997f7852995a24bb24667bace07459b",
+  "runtime_manifest_sha256": "82fbc8e9fed8db7432040b576e330bf194a723a89eb670322c5b8ea2fb2d16c6",
+  "repairs": 0,
+  "limitations": "Existing pinned dependency cache; not clean replay or independent reproduction. Literal set obstruction only; no complete P9 classification or global extremal theorem is asserted."
+}

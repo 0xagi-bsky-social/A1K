@@ -1,0 +1,68 @@
+{
+  "agent_id": "/root/r67_beta",
+  "role": "beta",
+  "context_id": "/root/r67_beta",
+  "round": 3,
+  "snapshot_sha256": "e5938f02a5708ea6c492eaada843dbfb15aa5645c66dec16a8bfbb44ee454e7f",
+  "manuscript_sha256": "254f159d0a48ab9dcad6370594e0a5b31853a0ca8c6a31597af9656a7b5b740c",
+  "summary": "The inspected degree16 graph and cover interfaces survive the targeted tests. The empty-fibre reductions, cyclic identities and independent-support argument are valid; the down-set inequality uses the necessary actual-subset guard. Explicit small families refute stronger internal-cover and cardinality-only variants, which the proof correctly avoids. All six raw12 exceptions reconstruct with the stated pair-incidence correction. No new revision is required in this scope.",
+  "evidence_ids": ["degree16", "round2-committed"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "beta-R3-F1",
+      "statement": "Exterior completion multiplicity and actual deletion-set inclusion are essential guards, not dispensable modelling details.",
+      "severity": "note",
+      "status": "resolved",
+      "disposition": "The explicit counterexamples in checks 2 and 3 invalidate stronger variants but do not contradict the manuscript. D16-I8-deletion-cover-reconstruction.md retains both guards, and d16_fibre_reconstruction.cpp uses occupied-neighbour mask inclusion rather than comparing deletion cardinalities.",
+      "evidence_ids": ["degree16"]
+    },
+    {
+      "id": "beta-R3-F2",
+      "statement": "The three-deletion capacity ten is an actual-family bound; it is not a universal bound of ten on the raw candidate list.",
+      "severity": "note",
+      "status": "resolved",
+      "disposition": "All six stated exceptions have twelve candidate four-sets. Their common point and six-point residual support give the valid ambient triple-codegree incidence bound of ten, exactly as the proof states.",
+      "evidence_ids": ["degree16"]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "beta-R2-F3",
+      "action": "Extended the bounded audit to the degree16 graph interface, full-cover models and six exceptional deletion cases.",
+      "result": "These interfaces are supported. The complete 5576-case cover replay and 124323-vector fibre census were not rerun, so the earlier finite-verification qualification remains. Beta had no outstanding required revisions in either committed round. The current manuscript and canonical snapshot hashes match the assignment.",
+      "status": "claim-qualified"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Degree16 Andrasfai regimes and independent star supports",
+      "method": "Inspect D16-complete-argument.md, Graph representation, and LOW15-NO9-fibre-route.md, Exact graph domain and Star constraints. Independently check every edge of the empty-vertex maps A[k]-{0}->A[k-1] for k=2 through 6, expand every cyclic inverse identity, and test independent subsets through size k+1 for k=3 through 6.",
+      "observation": "All maps preserve edges. The Jin margin is 24*20-7*68=4 for k=6, whereas k=5 gives equality and cannot be used directly. Every tested inverse coefficient vector is one copy of every fibre plus an extra copy of fibre i. The independent subsets number 33,89,225,545 and all lie in a cyclic k-window; there is no independent subset of size k+1, so this also covers larger sizes. Surjectivity precedes b[i]>=24. A1 and A2 contradict alpha<=27 via 68>54 and 136>135. The window supplies at least eight nonstar full covers without assuming complete inter-fibre edges.",
+      "result": "supported",
+      "evidence_ids": ["degree16"]
+    },
+    {
+      "scope": "Homomorphism-only reasoning and the actual down-set guard",
+      "method": "Inspect D16-fibre-independent-preparation.md, Exact down-set inequality, and the mask test in d16_fibre_reconstruction.cpp. Construct a small SF4 family and an explicit homomorphism to A3 to test the stronger cardinality-only substitute.",
+      "observation": "Take star members A={0,1,2,3}, B={0,4,5,6}, and Q={1,7,8,9}, mapped to fibres 0,1,6. Its only disjointness edge BQ maps to an A3 edge. Here D[3]={A} and D[6]={B}, both of size one, but Q misses the undeleted B when D[3] is deleted. Thus q[j]<=q[i] cannot replace D[j] subset D[i]. The actual code checks (missing[j] & ~missing[i])==0 and retains star multiplicities in q. The bound q[i]<=b[i]-24 for occupied star fibres counts forced missing edges and remains valid when further permitted edges are absent. This example tests the local implication, not the size68 theorem.",
+      "result": "supported",
+      "evidence_ids": ["degree16"]
+    },
+    {
+      "scope": "Eight link geometries, full-cover uniqueness and arbitrary exterior completions",
+      "method": "Reconstruct all eight literal P8/Q8 models, including one and two shared Q8 leaves; test their SF3 condition, point degrees and full support covers. Independently construct two exterior cover completions after a prescribed three-triple deletion.",
+      "observation": "All eight models have sixteen triples and maximum point degree at most five; none has a support three-cover and their full four-cover counts are 0,0,0,1,1,1,1,1. For P1=P10 minus {012,015}, let L=P1 union (P1+7), D={045,124,245}, and C={3,10,11}. The eighteen-member family consisting of all {99} union T for T in L, together with C union {100} and C union {101}, is simple SF4 with maximum degree16. Both exterior members cover L minus D. This concretely refutes an internal-only or binary proper-trace shortcut. The actual bridge allows these two completions: at least thirteen link triples remain, two support points meet at most ten, and triple codegree two bounds all completions of each support three-cover.",
+      "result": "supported",
+      "evidence_ids": ["degree16"]
+    },
+    {
+      "scope": "All six exceptional raw12 deletion cases",
+      "method": "Read the six exception witnesses in D16-I8-cover-independent-replay.json; reconstruct each stated literal model and deleted triples independently, enumerate its support three- and four-covers, and rederive the incidence correction.",
+      "observation": "Each exception has no three-cover, exactly twelve four-covers, one recorded common point and six other used points. The common points reconstruct as 2,9,11,10,8,7 in receipt order. For example, model 0/0 with deletions {015,045,134} has twelve raw covers through point2. Every actual cover consumes three pair incidences after removing the common point, while each pair has capacity at most two from the ambient triple-codegree bound. Hence 3m<=2*binom(6,2)=30 and m<=10. No exterior cover exists in these cases because C3 is empty. This checks all six corrections, not the remaining deletion census.",
+      "result": "supported",
+      "evidence_ids": ["degree16"]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "assurance": "axiom-audited",
+  "roots": {
+    "FrontierTerminal.disjoint_union_trace_ge_six": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrontierTerminal.residual_intersecting_of_trace_le_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrontierTerminal.disjoint_terminal_pair_opposing": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrontierTerminal.residual_intersecting_of_no_pureY": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrontierTerminal.residual_card_le_27_of_trace_le_two": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrontierTerminal.residual_card_le_27_of_no_pureY": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "FrontierTerminal.terminal_separation_card_bound": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "source_sha256": "01ec3df7f6137df13697246ec36768157740221d349fc08fe58f2ed7bc699dfc",
+  "compile_receipt_sha256": "4ff8e80030a1e8e8e39bb2b8c7fb42b734cc3d6f0fb5e3ff4cf729ffa2c22eaa",
+  "output_sha256": "bb791ab3857986919462dc18793c7733c3e1e32b979622f09211e444415a5082",
+  "object_sha256": "c4658d66701ceaf5b0b43ef2099c0f2b0997f7852995a24bb24667bace07459b",
+  "runtime_manifest_sha256": "82fbc8e9fed8db7432040b576e330bf194a723a89eb670322c5b8ea2fb2d16c6",
+  "import": "AHS27Data",
+  "import_source_sha256": "b1afbe3b98217a3d1e25c85f10c26611d16b659e1e38402a5fb09a1ffaf821be",
+  "import_object_sha256": "bd978accc6f898728c8e4d909c3957a7c88647fafdb3326fc2ec91a39289c33e",
+  "bounded_compile_runs": 2,
+  "repair_cycles": 0,
+  "final_compile_seconds": 5.202556823999657,
+  "limits": "Existing pinned dependency cache; not a clean replay or independent reproduction. H27 remains an explicit parameter only for cardinality conclusions."
+}

@@ -1,0 +1,15 @@
+{
+  "source": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/profile/ProfileNineExtra.lean",
+  "source_sha256": "9d93dd3a3a32936948631c949d47fbc858c073370b8e7b49ee3ccb330f29eb4a",
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/profile/ProfileNineExtra.olean",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/profile/ProfileNineExtra.lean"
+  ],
+  "exit_code": 1,
+  "seconds": 62.30654944595881,
+  "output": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/profile/ProfileNineExtra.lean:29:2: error: Tactic `simp` failed with a nested error:\nmaximum recursion depth has been reached\nuse `set_option maxRecDepth <num>` to increase limit\nuse `set_option diagnostics true` to get diagnostic information\n'FrontierNine.nine_member_degree_five_cap' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'FrontierNine.nine_degree_five_class_card_le_three' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'FrontierNine.nine_no_degree_two' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n'FrontierNine.nine_supported_degree_ge_three' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]\n",
+  "assurance": "draft",
+  "limitation": "uses hash-matched retained project objects and pinned dependency cache"
+}

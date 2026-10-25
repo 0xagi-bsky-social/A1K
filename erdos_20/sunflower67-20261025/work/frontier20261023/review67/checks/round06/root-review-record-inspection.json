@@ -1,0 +1,36 @@
+{
+  "scope": "Record identities/counts only; not substitute scientific review",
+  "completed": [
+    {
+      "round": 1,
+      "submissions": 12,
+      "unique_contexts": 12,
+      "commitment": "fb2726b5269510ab1553df41269143788c269cbfee4a7a0ddcabe9586680417c"
+    },
+    {
+      "round": 2,
+      "submissions": 12,
+      "unique_contexts": 12,
+      "commitment": "387db6231c836b280e29f1cd06815453495f6df43cde27e6e5d9bc4c168ecc3b"
+    },
+    {
+      "round": 3,
+      "submissions": 12,
+      "unique_contexts": 12,
+      "commitment": "f6adf56e50f0aafe7d62a132292b475ef9ff89162aeb7eb4c98c5efa8996d41f"
+    },
+    {
+      "round": 4,
+      "submissions": 12,
+      "unique_contexts": 12,
+      "commitment": "95d7f0bfa1fc24f03ada6a48587ff29dfedf92eda58e273084ea9486d5cf1b19"
+    },
+    {
+      "round": 5,
+      "submissions": 12,
+      "unique_contexts": 12,
+      "commitment": "a18e46355fc1b6bdbf9920a7d110635c45abc8e2850fbc7386705f9ba87345b0"
+    }
+  ],
+  "exact_current_manuscript": "a8f164ea1218b704cccd43c618fc2166f5ab636d9c121e7713f7c797d221b2b9"
+}

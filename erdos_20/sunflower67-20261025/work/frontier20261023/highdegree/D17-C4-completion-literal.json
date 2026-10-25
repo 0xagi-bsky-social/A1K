@@ -1,0 +1,330 @@
+{
+  "result": "PASS_LITERAL_C4_TEMPLATE_COMPLETIONS",
+  "models": 65,
+  "points_checked": 392,
+  "C4_points": [
+    {
+      "template": "H1",
+      "point": 5,
+      "neighbours": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "completions": [
+        [
+          2,
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "template": "H2",
+      "point": 3,
+      "neighbours": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "completions": [
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "template": "H2",
+      "point": 4,
+      "neighbours": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "completions": [
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "template": "H2",
+      "point": 5,
+      "neighbours": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "edges": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "completions": [
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "template": "H7",
+      "point": 4,
+      "neighbours": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "completions": [
+        [
+          0,
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "template": "Q8",
+      "point": 2,
+      "neighbours": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "completions": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "template": "Q8",
+      "point": 3,
+      "neighbours": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "completions": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "template": "Q8",
+      "point": 4,
+      "neighbours": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "completions": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    }
+  ],
+  "imported_I7_certificate": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/r16/results/seven_certificate.json",
+    "sha256": "fe172301b201819c029d9a1b7e8931f516cbd90aa978977118b7853b2ead7164"
+  },
+  "premises": [
+    "Universal I7 and I8 classification on arbitrary support is imported.",
+    "Complete degree17 SF3 link has separated P10+I7 or P9+I8 form.",
+    "The pair-link is complete C4, not merely an embedded C4."
+  ],
+  "assurance": "Exact literal template validation only; no new classification, solver, Lean, or complete branch proof.",
+  "source_sha256": "a1dfbf89fd0a992c3ab87ff600a374af2703673d61b01b78a960d6d52d8d5f88",
+  "ordinary_bridge_sha256": "47d39e647d8e4c14864de262c46ce576d08a12f66b046d51af6554476efabd77",
+  "seconds": 0.003945083997678012
+}

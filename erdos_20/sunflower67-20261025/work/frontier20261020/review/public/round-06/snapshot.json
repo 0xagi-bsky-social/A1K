@@ -1,0 +1,778 @@
+{
+  "snapshot": {
+    "run_id": "frontier20261020-boundary80-final-review",
+    "contract_sha256": "90d2d9a768c921fd7766a8bdf668ffbf291886ce0f2ed7a753bd988d3ecfddc5",
+    "roster_sha256": "3781e9aad13463cedea3be14fe6e134725b6e05b7aaa99ad8dd9c4c5d9076136",
+    "round": 6,
+    "phase": "integrated-draft",
+    "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+    "previous_round_sha256": "4271fe95261bea1ba647db6105f6327cfb8a3f0dd504d84b78268241c8acc401",
+    "evidence": [
+      {
+        "id": "admission-v1",
+        "kind": "research-contract",
+        "description": "Substantial-target review admission",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/admission-v1/review-admission.json",
+        "method": "Root declaration bound to successful proof receipts",
+        "status": "limited",
+        "limitations": [
+          "Admission is a research decision, not independent certification"
+        ],
+        "content_sha256": "95a2713bd5350d74f80f5f0e6226406cc9ba32b8635ef9fd2fa98a5735426ac5"
+      },
+      {
+        "id": "primary-sources-v1",
+        "kind": "primary-source-ledger",
+        "description": "Actual 20 October search and primary-source retrieval notes",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/primary-sources-v1/primary-source-check-20261020.json",
+        "method": "Read local record of actual browser access",
+        "status": "limited",
+        "limitations": [
+          "Bounded searches; local notes do not authenticate external pages or prove exhaustive priority"
+        ],
+        "content_sha256": "3a3a84de13981539076dacb0b59efceb8360963e5173533a4671e2c71ab5842b"
+      },
+      {
+        "id": "terminal-audit-v1",
+        "kind": "formal-proof-receipt",
+        "description": "Eight terminal roots and expanded conditional theorem",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/terminal-audit-v1/FinalEightyAudit.json",
+        "method": "Successful Lean output with allow-listed axiom audit",
+        "status": "limited",
+        "limitations": [
+          "Same evaluator and cached dependencies; source closure pending"
+        ],
+        "content_sha256": "b0b35c7b4f712221ad7a18dc620880b383914450d258272dc6e26a21fbb2531a"
+      },
+      {
+        "id": "two-star-audit-v1",
+        "kind": "formal-proof-receipt",
+        "description": "Unconditional two-independent-twenty-star theorem and literal Profile B exclusion",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/two-star-audit-v1/TwoHighEightyAudit.json",
+        "method": "Successful Lean output and printed theorem",
+        "status": "limited",
+        "limitations": [
+          "Same evaluator and cached dependencies; source closure pending"
+        ],
+        "content_sha256": "115ab7cff2d18b6d78515628dff3917bfd45384e546d24e802735f7039253e8d"
+      },
+      {
+        "id": "profile-a-audit-v1",
+        "kind": "formal-proof-receipt",
+        "description": "Literal Profile A exclusion from I27",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/profile-a-audit-v1/ProfileAClosedAudit.json",
+        "method": "Successful Lean audit output",
+        "status": "limited",
+        "limitations": [
+          "Same evaluator and cached dependencies; source closure pending"
+        ],
+        "content_sha256": "61f49ee5379931a6c33fa669878bd8ce2db9b5668a12afbb89d2f5b71ba62883"
+      },
+      {
+        "id": "lean-source-formal-v1",
+        "kind": "formal-source",
+        "description": "formal Lean source snapshot",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-formal-v1",
+        "method": "Byte copying and SHA-256 manifest",
+        "status": "available",
+        "limitations": [],
+        "content_sha256": "0c5914e468740d6de8be7f36ae37aa95817442d0b02fd546a1260683a978b55d"
+      },
+      {
+        "id": "lean-source-theory-v1",
+        "kind": "formal-source",
+        "description": "theory Lean source snapshot",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-theory-v1",
+        "method": "Byte copying and SHA-256 manifest",
+        "status": "available",
+        "limitations": [],
+        "content_sha256": "e0e67cb5efece6e4dfce3d0b2701efb3c89c72c6ac158c24a18c04f364cb5388"
+      },
+      {
+        "id": "lean-source-compute-v1",
+        "kind": "formal-source",
+        "description": "compute Lean source snapshot",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-compute-v1",
+        "method": "Byte copying and SHA-256 manifest",
+        "status": "available",
+        "limitations": [],
+        "content_sha256": "0f2542a2f9d02d393b36015c7473c20f2804b3094ffb11b0a87c49109c99495c"
+      },
+      {
+        "id": "universal45-diagnostic-v1",
+        "kind": "exploratory-computation",
+        "description": "Python finite relative-geometry diagnostic for stronger45 conjecture",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/universal45-diagnostic-v1/universal_two_star.json",
+        "method": "Recorded exact finite enumeration",
+        "status": "limited",
+        "limitations": [
+          "No Lean normalization or universal45 theorem"
+        ],
+        "content_sha256": "4189d47f0ba96c4f8e4ce8719c71290b28258b73ae4b93c2ed0005d616fa0591"
+      },
+      {
+        "id": "universal45-crosscheck-v1",
+        "kind": "exploratory-computation",
+        "description": "C++ diagnostic crosscheck",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/universal45-crosscheck-v1/b_universal_check.json",
+        "method": "Recorded finite enumeration",
+        "status": "limited",
+        "limitations": [
+          "External diagnostic, not kernel proof"
+        ],
+        "content_sha256": "99420e08e17e639deae4146e1e569a18282623765a1e4e25a6a03032edbea1f2"
+      },
+      {
+        "id": "sharp45-failure-v1",
+        "kind": "failed-formal-attempt",
+        "description": "Resource-limited45 witness attempt",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/sharp45-failure-v1/Sharp45.json",
+        "method": "Retained unsuccessful Lean run",
+        "status": "limited",
+        "limitations": [
+          "No successful proof receipt"
+        ],
+        "content_sha256": "ad7be50ed8eaccb3927465177f10eb79efdc40cc044d9cd48428ed5fa89b746d"
+      },
+      {
+        "id": "closure-pending-v1",
+        "kind": "source-rebuild-status",
+        "description": "Source-closure status at review initialization",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-pending-v1/summary.json",
+        "method": "Frozen status receipt",
+        "status": "limited",
+        "limitations": [
+          "Source-closure rebuild pending/retry underway; no completion inferred"
+        ],
+        "content_sha256": "de11e63ae63bf201dd2babc661f3f6c903dada70f023bf49a9b2adc2d682d5d4"
+      },
+      {
+        "id": "closure-complete-v1",
+        "kind": "source-closure-verification",
+        "description": "Completed source closure:161 modules,63 fresh and98 source-matched prior successful rebuilds",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-complete-v1/summary.json",
+        "method": "Read completed rebuild output and freeze exact bytes",
+        "status": "available",
+        "limitations": [
+          "Same evaluator and pinned dependency caches; not a clean-toolchain or independent reproduction"
+        ],
+        "content_sha256": "b77a97fb49054440e4cbf077add8f60b491b1c973972aad768e9035502d0931c"
+      },
+      {
+        "id": "closure-manifest-v1",
+        "kind": "source-closure-verification",
+        "description": "Exact source closure manifest",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-manifest-v1/manifest.json",
+        "method": "Read completed rebuild output and freeze exact bytes",
+        "status": "available",
+        "limitations": [
+          "Same evaluator and pinned dependency caches; not a clean-toolchain or independent reproduction"
+        ],
+        "content_sha256": "a7e07753ef9b6e48992297177601cf17653710cad014cb2ed72362aab7f02666"
+      },
+      {
+        "id": "closure-audit-roots-v1",
+        "kind": "source-closure-verification",
+        "description": "66 unique reaudited roots:64 Frontier and2 inherited",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-audit-roots-v1/audit-root-summary.json",
+        "method": "Read completed rebuild output and freeze exact bytes",
+        "status": "available",
+        "limitations": [
+          "Same evaluator and pinned dependency caches; not a clean-toolchain or independent reproduction"
+        ],
+        "content_sha256": "f0519f021466fc9cc793022aa7601c753643a4c20ae836a7572dc89d9d72d385"
+      },
+      {
+        "id": "portable-formal-v1",
+        "kind": "formal-source-and-reproduction",
+        "description": "Portable161source closure with manifests, audit logs, reproduction recipe and attribution",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/portable-formal-v1",
+        "method": "Frozen source bundle with per-file SHA-256",
+        "status": "available",
+        "limitations": [
+          "Recipe requires pinned Lean and mathlib dependencies; no separate-environment replay"
+        ],
+        "content_sha256": "461afa967fae6df8d3b54a209d4c1e6a6fd9470ad69f2b8f1295a5923de82067"
+      },
+      {
+        "id": "preview-d786-v1",
+        "kind": "rendered-preview",
+        "description": "Six-page matching manuscript preview for d786448baf9b, HTML/PDF and renderer fidelity record",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/preview-d786-v1",
+        "method": "Exact copied preview bytes and per-file hashes",
+        "status": "available",
+        "limitations": [
+          "Typesetter visual audit pending; renderer record is not independent validation"
+        ],
+        "content_sha256": "ac8feccd6bc4d8b72a28bcd176f8b0914904236c8fc2a9c4d434b78e608aee1d"
+      },
+      {
+        "id": "text-reuse-check-v1",
+        "kind": "bounded-text-comparison",
+        "description": "Actual copyeditor selected-passage comparison against accessible named primary sources",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/text-reuse-check-v1/comparison.json",
+        "method": "Manual semantic/wording comparison in actual specialist context",
+        "status": "limited",
+        "limitations": [
+          "No broad corpus detector or exhaustive source comparison; no plagiarism-free claim"
+        ],
+        "content_sha256": "ecd652b20cf9c75703f72b435e951ff71891446c490b24e8c024e021ad0d7f90"
+      },
+      {
+        "id": "preview-d9be-v1",
+        "kind": "rendered-preview",
+        "description": "Matching sixpage preview for d9bebce34491 including precise attribution and proposition labels",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/preview-d9be-v1",
+        "method": "Frozen exact preview bytes with per-file hashes and renderer mappings",
+        "status": "available",
+        "limitations": [
+          "HTML browser visual QA unavailable; new PDF version requires typesetter comparison"
+        ],
+        "content_sha256": "d06193629789d8263a6059a3ba480b0b718a490871a28aeb5f714a131e0aebb1"
+      },
+      {
+        "id": "root-visual-d9be-v1",
+        "kind": "rendered-visual-inspection",
+        "description": "Actual root full sixpage inspection of d9be preview with page image hashes",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/root-visual-d9be-v1/review.json",
+        "method": "Actual visual inspection recorded by root context",
+        "status": "limited",
+        "limitations": [
+          "Root environment, not independent visual certification; later manuscript previews require matching review"
+        ],
+        "content_sha256": "3a85477e5b7d50b49c9cd468c7aa0224eb47476b624b95d334fca5bdc7919547"
+      },
+      {
+        "id": "preview-686c-v1",
+        "kind": "rendered-preview",
+        "description": "Matching sixpage686c manuscript preview with narrowed local-proof computation scope",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/preview-686c-v1",
+        "method": "Frozen exact bytes and renderer mappings",
+        "status": "available",
+        "limitations": [
+          "HTML browser visual QA unavailable; current preview comparison pending"
+        ],
+        "content_sha256": "da1b26e6c59f22d2cb069f443e4e3127fe6839776837d4443bf8fd3c1c3b42dc"
+      },
+      {
+        "id": "root-visual-686c-v1",
+        "kind": "rendered-visual-inspection",
+        "description": "Actual root current sixpage PDF inspection: five pages byte-identical to inspected predecessor, changed page5 directly inspected",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/root-visual-686c-v1/review.json",
+        "method": "Page-image hash comparison and direct changed-page inspection by root",
+        "status": "limited",
+        "limitations": [
+          "Same environment; HTML browser rendering unavailable; no independent certification"
+        ],
+        "content_sha256": "9eddfc8672d00f5e918eb07cae7ad8f1bfef7073056e2e940ba9e4de7889c0c1"
+      },
+      {
+        "id": "sat-unknown-v1",
+        "kind": "failed-computational-attempt",
+        "description": "Actual ProfileA solver log, UNKNOWN result and encoding metadata retained for nonresult verification",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/sat-unknown-v1",
+        "method": "Frozen original log/result bytes; log records120second wall-time and result file says UNKNOWN",
+        "status": "available",
+        "limitations": [
+          "No witness or UNSAT certificate; no theorem inference from timeout"
+        ],
+        "content_sha256": "3aa74dc3667512ae0ec5d0209bb1a0d16db70e1680b48de38bd737fb7366eb6d"
+      }
+    ],
+    "evidence_sha256": "d3c8c87d5118c95259a111a2879b56976c68f6d0173560d6a43d4cf58805fefa",
+    "verification": [
+      {
+        "scope": "facts",
+        "status": "limited",
+        "method": "Actual literature/citation specialist primary-page retrieval and locator checks in committed rounds1–2",
+        "observations": [
+          "External I27 located at Proposition6.7; maximum27 at Proposition6.8;54–83 at Theorem6.9; source conventions and A1K conditional baseline compatible"
+        ],
+        "limitations": [
+          "Bounded source coverage; external enumeration not rerun or kernel imported; no exhaustive novelty claim"
+        ],
+        "evidence_ids": [
+          "primary-sources-v1",
+          "terminal-audit-v1"
+        ]
+      },
+      {
+        "scope": "citations",
+        "status": "limited",
+        "method": "Actual literature/citation specialist primary-page retrieval and locator checks in committed rounds1–2",
+        "observations": [
+          "External I27 located at Proposition6.7; maximum27 at Proposition6.8;54–83 at Theorem6.9; source conventions and A1K conditional baseline compatible"
+        ],
+        "limitations": [
+          "Bounded source coverage; external enumeration not rerun or kernel imported; no exhaustive novelty claim"
+        ],
+        "evidence_ids": [
+          "primary-sources-v1"
+        ]
+      },
+      {
+        "scope": "logic",
+        "status": "limited",
+        "method": "Actual logic/domain/Alpha/Beta specialist proof and assumption checks through committed round 5, with successful Lean theorem and transitive-axiom receipts",
+        "observations": [
+          "I27 remains an antecedent; unconditional two-star root has no I27 antecedent; closure receipt records63fresh and98source-matched reused modules, with66unique auditedroots",
+          "Round 5 verified 281 local import edges in topological order and checked exact integer thresholds and degenerate cases; no substantive proof defect identified."
+        ],
+        "limitations": [
+          "Same evaluator with pinned dependency caches; no clean-toolchain replay or independent human certification."
+        ],
+        "evidence_ids": [
+          "terminal-audit-v1",
+          "two-star-audit-v1",
+          "profile-a-audit-v1",
+          "closure-complete-v1",
+          "closure-audit-roots-v1",
+          "portable-formal-v1"
+        ]
+      },
+      {
+        "scope": "methodology",
+        "status": "limited",
+        "method": "Inspect admission and diagnostic scope",
+        "observations": [
+          "Actual-family arguments separated from diagnostics;161portable sourcehashes and63fresh/98matched split checked by methodologist",
+          "Round 5 checks confirmed import closure and diagnostic coverage limits; exploratory cap 45 and relaxed SAT UNKNOWN are excluded from proof premises."
+        ],
+        "limitations": [
+          "Formal and ordinary mathematical assurance differ"
+        ],
+        "evidence_ids": [
+          "admission-v1",
+          "universal45-diagnostic-v1",
+          "portable-formal-v1",
+          "closure-complete-v1"
+        ]
+      },
+      {
+        "scope": "data",
+        "status": "limited",
+        "method": "Actual data/domain/logic reviewers exact integer and auxiliary finite checks in committed rounds 1–5",
+        "observations": [
+          "Degree profiles and residual incidence totals agree; diagnostic histograms agree and20475=C(28,4); diagnostic results remain outside proof premises",
+          "Reproduced residual m<=40, four Profile A census triples, auxiliary C5/four-point graph caps, and separate literature 54-member witness check over all 24804 triples."
+        ],
+        "limitations": [
+          "Diagnostic normalization and full finite pipeline are not kernel verified"
+        ],
+        "evidence_ids": [
+          "universal45-diagnostic-v1",
+          "universal45-crosscheck-v1",
+          "sharp45-failure-v1"
+        ]
+      },
+      {
+        "scope": "text_reuse",
+        "status": "limited",
+        "method": "Actual copyeditor selected-passage comparison against accessible primary sources",
+        "observations": [
+          "No distinctive unattributed extended prose match found in compared passages; detailed coverage retained"
+        ],
+        "limitations": [
+          "No exhaustive originality or plagiarism-free claim"
+        ],
+        "evidence_ids": [
+          "primary-sources-v1",
+          "text-reuse-check-v1"
+        ]
+      }
+    ],
+    "verification_sha256": "8ad48b94d1627af00ae90385daff08808f670efc07bf9c04d8d003f1c7f74ac1",
+    "public_state": {
+      "prior_round": 5,
+      "prior_round_sha256": "4271fe95261bea1ba647db6105f6327cfb8a3f0dd504d84b78268241c8acc401",
+      "committed_findings": [
+        {
+          "agent_id": "/root/review80_coordinator/academic_writer",
+          "role": "academic_writer",
+          "summary": "The proof’s numerical statements consistently identify their counted objects: members, point incidences, closed meeting neighbors, completions and key fibers. Direct arithmetic checks reproduce the stated contradictions. The diagnostic counts also agree with their reported objects without supporting an additional universal theorem. No exposition revision is required.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [],
+              "method": "Read frozen Sections 3–4 and recomputed the incidence, meeting-neighborhood, census and fiber bounds in Python using exact integers. Checked feasible integer q from 0 through 12 in the two displayed incidence constraints.",
+              "observation": "The incidence inequalities permit at most m=40; 9·168=1512<37·41=1517. Profile A’s residual incidences total 12·14+4·19=244=4·61. An H2 row has degree sum 66, hence at most 52 closed meeting neighbors and at least nine disjoint completions. The census then gives n2≥24, while five keys with at most four outsider pairs each give n2≤20. Each transition refers to the appropriate family or incidence count.",
+              "result": "supported",
+              "scope": "Arithmetic-to-object correspondence in the two profile exclusions"
+            },
+            {
+              "evidence_ids": [
+                "universal45-diagnostic-v1",
+                "universal45-crosscheck-v1"
+              ],
+              "method": "Parsed the two frozen diagnostic outputs and recalculated the candidate-space size and histogram total; compared the numerical interpretation with Section 6. This did not rerun the full geometry enumeration.",
+              "observation": "C(28,4)=20,475, both histograms agree and sum to 156,960, and the reported residual maximum five suggests total 40+5=45. Section 6 identifies those as normalized finite diagnostics and expressly leaves normalization and the universal45 theorem unestablished. These checks support reporting accuracy, not proof coverage.",
+              "result": "supported",
+              "scope": "Diagnostic cardinalities and assurance wording"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/alpha",
+          "role": "alpha",
+          "summary": "Exact arithmetic and degenerate-case checks confirm the integer rounding, closed-neighborhood correction, nonempty H2 choice and final graph-fiber cap. The inequalities alone permit m=40 at q=9, so the manuscript appropriately concludes eighty without promoting the stronger45 diagnostic. No correction is required.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [],
+              "method": "Run scratch/alpha/round05_arithmetic.py to enumerate all integral q in 0..12 and m in 0..99 satisfying the two displayed inequalities; check the exact elimination arithmetic. Larger m are already excluded by 2m≤9q≤108.",
+              "observation": "The maximum feasible m is40, attained numerically only at q=9. The displayed cancellation gives37m≤1512 and floor(1512/37)=40, with37·41=1517. Empty overlap correctly forces m=0. This verifies the bound and shows that these incidence inequalities do not establish cap45 or attainability of any family.",
+              "result": "supported",
+              "scope": "Two-star threshold and incidence robustness"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Independently evaluate the closed-neighborhood bounds, enumerate nonnegative census solutions, and enumerate all64 simple graphs on four outsider points in scratch/alpha/round05_arithmetic.py.",
+              "observation": "The +2 correction gives meeting caps57 and52 and hence nine disjoint completions for an H2 row. Before using that row, the census already forces n2≥15, so its selection is noncircular. Adding n0≥9 leaves exactly(9,28,24),(10,26,25),(11,24,26),(12,22,27) for(n0,n1,n2). Every four-vertex graph with maximum degree≤2 has at most four edges; combining five keys with this cap gives20<24.",
+              "result": "supported",
+              "scope": "Profile A rounding, nonempty choice and graph fibers"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/beta",
+          "role": "beta",
+          "summary": "Exact integer checks confirm the bound forty residual members and the two auxiliary bounds of four used in Profile A. A deliberate relaxation shows why the inherited at-most-two-high-points theorem matters: replacing residual caps fourteen/nine by fifteen/ten permits forty-five in the scalar model. The manuscript uses the stronger justified caps and does not mistake scalar feasibility for actual-family realizability.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "portable-formal-v1"
+              ],
+              "method": "Independently enumerate q=0,...,12 and m=0,...,61 satisfying 2m≤9q and 3m≤14(12−q)+9q; repeat with degree caps fifteen and ten. Retain executable arithmetic in scratch/beta/round05_bounds.py.",
+              "observation": "The exact caps allow maximum m=40, only at q=9. Directly, m=41 would force q≥10 from overlap incidence and q≤9 from U incidence. Relaxed caps permit m=45,q=9, confirming that the proof needs the inherited high-point restriction to obtain the residual degree cap fourteen rather than fifteen. This is an auxiliary scalar calculation; it asserts no family with m=40 or m=45 exists.",
+              "result": "supported",
+              "scope": "Integer margins and robustness of the two-star incidence bound"
+            },
+            {
+              "evidence_ids": [
+                "portable-formal-v1"
+              ],
+              "method": "Enumerate all subfamilies of the five edges of C5 for pairwise intersection, and all sixty-four graphs on four labeled vertices for the actual three-edge sunflower predicate; compare with Sections 4.2 and 4.3.",
+              "observation": "An intersecting C5 edge family has at most two edges, so the two coordinate projections allow at most four distinct completions. A three-sunflower-free graph on four vertices has at most four edges; exactly three labeled maximal four-edge families occur, each a four-cycle. Thus the separate completion and outsider-fiber bounds are exact for their auxiliary graph hypotheses. These checks corroborate the prose argument without claiming a new formal proof.",
+              "result": "supported",
+              "scope": "Small auxiliary combinatorial caps in Profile A"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/chief",
+          "role": "chief",
+          "summary": "Independent exact-integer checks reproduce both contradiction margins: the two-star residual count is at most 40 for every possible overlap size, and Profile A needs at least 24 two-outsider rows while its final fiber bound allows at most 20. The newly frozen SAT records substantiate only the stated UNKNOWN nonresult, with an explicitly relaxed encoding. Existing local proof assurance remains unchanged and accurately limited.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [],
+              "method": "Computed min(floor(9q/2),floor((168-5q)/3)) for q=0,…,12 and solved the Profile A count equations for n0=9,…,12; retained scratch/chief/round05_arithmetic.json.",
+              "observation": "The residual maximum is 40, attained by the relaxed inequalities only at q=9; q=10 already gives at most 39. Profile A permits precisely (n0,n1,n2)=(9,28,24),(10,26,25),(11,24,26),(12,22,27) at this count stage. The degree-sum meeting bound is 52, giving nine disjoint completions, and n2≤4·5=20 contradicts every count row by at least four. These are checks of necessary inequalities, not realizability assertions.",
+              "result": "supported",
+              "scope": "Robustness of the two numerical endpoints"
+            },
+            {
+              "evidence_ids": [
+                "sat-unknown-v1"
+              ],
+              "method": "Read sat-unknown-v1/encoding.json, relax.sol and the terminal resource/status log lines; compared their scope with Section 6 and the previously verified structural dependency map.",
+              "observation": "The solution file explicitly contains c UNKNOWN and the log records 120.00 seconds real time with exit 0, which is not a SAT or UNSAT certificate. The encoding discloses omitted zero-high three-low sunflower constraints, so even a model of this relaxation would need further validation. The manuscript claims no witness or refutation and does not use the solver in either profile exclusion; the claim/evidence boundary is adequate.",
+              "result": "supported",
+              "scope": "Frozen solver nonresult versus accepted proof evidence"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/citation_verifier",
+          "role": "citation_verifier",
+          "summary": "The reported diagnostic counts and source-closure module split agree with their frozen receipts, and the retained timeout substantiates the failed-witness disclosure. Neither those records nor the prior external-source inspection is promoted into independent reproduction or a formal I27 proof. No citation or numerical-provenance revision is needed.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "universal45-diagnostic-v1",
+                "universal45-crosscheck-v1"
+              ],
+              "method": "Parsed the two frozen diagnostic JSON files; recomputed their SHA256 values, histogram and support-stratum totals, and binomial(28,4); compared to Section 6.",
+              "observation": "Both hashes match the snapshot. The histograms agree and sum to 156,960; the support strata have the same total. There are 22 nonempty cases, with maximum candidate count five, while binomial(28,4)=20,475. This is a consistency audit of recorded results, not a rerun or proof that the normalization covers every actual family. The manuscript preserves that limitation.",
+              "result": "supported",
+              "scope": "Diagnostic count provenance and arithmetic robustness"
+            },
+            {
+              "evidence_ids": [
+                "closure-complete-v1",
+                "sharp45-failure-v1",
+                "primary-sources-v1"
+              ],
+              "method": "Read and hash-check the closure and failed-witness receipts, count unique fresh/reused module names and compare Sections 5–7 with the previously verified external Proposition 6.7 and Section 8.",
+              "observation": "The closure lists 63 fresh and 98 reused modules with no overlap, totaling 161. The failed witness records exit 124 after a 100-second timeout. The manuscript describes these at their actual assurance levels and still places the external enumerative I27 theorem outside local Lean verification. I did not rebuild Lean or rerun the external search in this phase. External scope reference: https://arxiv.org/html/2609.06175v1#S8.",
+              "result": "supported",
+              "scope": "Reproducibility claims and external-theorem boundary"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/copyeditor",
+          "role": "copyeditor",
+          "summary": "Numerical wording in the incidence argument, exploratory diagnostics and source-closure account matches direct integer checks and the frozen receipts. The text preserves the distinction between a diagnostic maximum of five residual candidates, a suggested total forty-five, and the accepted total eighty. No new copyediting or provenance issue identified.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [],
+              "method": "Read Section 3 and independently evaluated its weighted coefficients, constants and integer threshold in Python.",
+              "observation": "Multipliers 9 and 5 give coefficient 37 and cancel q; 9·168=1512, 37·41=1517 and floor(1512/37)=40. The stated residual-to-total transition is 40+40=80, while the boundary profile would require 41 residual members. No floor/ceiling or residual/total mismatch was found.",
+              "result": "supported",
+              "scope": "Numerical transitions in the two-star exposition"
+            },
+            {
+              "evidence_ids": [
+                "universal45-diagnostic-v1",
+                "universal45-crosscheck-v1"
+              ],
+              "method": "Read both frozen diagnostic JSON records and checked their SHA-256 values, histograms and candidate-set count against Section 6; directly computed C(28,4).",
+              "observation": "Both records give 156960 geometries, the same histogram and candidate_R=20475=C(28,4). The recorded maximum five supports the wording that forty-five is suggested for two independent twenty-stars, with the missing normalization proof explicitly retained. Agreement of these outputs is not described as a Lean proof; I did not rerun either enumerator.",
+              "result": "supported",
+              "scope": "Diagnostic terminology versus recorded coverage"
+            },
+            {
+              "evidence_ids": [
+                "sharp45-failure-v1",
+                "closure-complete-v1"
+              ],
+              "method": "Read and hash-checked the completed closure summary and retained failed witness receipt; counted fresh/reused module lists and compared the timeout wording.",
+              "observation": "The module lists contain 63 fresh and 98 reused entries, totaling 161. The failed attempt has exit 124 and states a 100-second subprocess timeout, consistent with elapsed time about 100.56 seconds and the manuscript’s imposed-limit wording. The receipt is not counted as a successful proof. This checks receipt-to-prose fidelity, not independent replay.",
+              "result": "supported",
+              "scope": "Reproduction and failure numbers"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/data_analyst",
+          "role": "data_analyst",
+          "summary": "The exact outsider census has precisely the four claimed admissible count triples after the nine-completion and I27 restrictions. Detailed diagnostic bitmasks reconcile with their aggregate histogram, and newly frozen SAT output confirms UNKNOWN. These checks support recorded calculations and disclosures without promoting exploratory45 to a theorem.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [],
+              "method": "Enumerated nonnegative integer solutions to n0+n1+n2=61 and n1+2n2=76 with n0>=9,n2<=27; separately evaluated the meeting inequality for every possible outsider count0,...,4.",
+              "observation": "Exactly four triples remain: (9,28,24),(10,26,25),(11,24,26),(12,22,27). Degree sums56+5i give meeting caps47,49,52,54,57 and hence at least14,12,9,7,4 disjoint members respectively. In particular the generic disjoint-existence claim and the nine-completion bound at i=2 have correct integer rounding. This is a fresh finite calculation; the unchanged overlap and weighted-pair checks from round3 were reused.",
+              "result": "supported",
+              "scope": "Profile A count window and rounding robustness"
+            },
+            {
+              "evidence_ids": [
+                "universal45-diagnostic-v1",
+                "universal45-crosscheck-v1",
+                "sat-unknown-v1"
+              ],
+              "method": "Checked all22 nonempty rows of the frozen Python diagnostic: candidate uniqueness/count, bit population, support-union containment and intersection sizes; aggregated support-intersection histograms. Read and hash-checked the newly frozen SAT files against their manifest.",
+              "observation": "All listed candidates are four-sets in the actual link union;22 rows comprise10 with3 candidates,10 with1 and2 with5, totaling50 candidate occurrences. Their aggregated histogram equals both reported global histograms. The SAT output explicitly records UNKNOWN, and the log states a120-second limit; encoding metadata openly omits all zero-high/three-low sunflower exclusions. This supports the non-result disclosure only and does not prove a complete geometry normalization, universal45 or SAT infeasibility.",
+              "result": "supported",
+              "scope": "Detailed exploratory-output consistency and unsuccessful solver provenance"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/domain_expert",
+          "role": "domain_expert",
+          "summary": "Exact integer recomputation confirms the two-star bound and Profile A count window. The incidence argument attains its largest numerical residual allowance only at overlap nine. A deliberate weakening of the other-point degree cap shows why the inherited at-most-two-high-points result is a necessary input to this particular eighty-bound argument.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "portable-formal-v1"
+              ],
+              "method": "Read TwoHighIncidence.lean and enumerated all integer overlaps q from zero through twelve using the two stated inequalities; repeated the calculation after weakening the noncenter degree cap from nineteen to twenty. Exact output retained in scratch/domain_expert/round05_arithmetic.json.",
+              "observation": "The weighted combination is 37m at most 1512, while 37 times 41 is 1517. The integer overlap caps are 0,4,9,13,18,22,27,31,36,40,39,37,36, so m=40 requires q=9 in this relaxation. Empty overlap and coincident supports produce no unhandled endpoint. Weakening the noncenter degree cap changes residual caps to fifteen and ten and permits m=45 numerically; the actual degree-nineteen argument is therefore substantive and is correctly supplied by the unconditional high-point cap. These are relaxation bounds, not realizability or sharpness claims.",
+              "result": "supported",
+              "scope": "Two-star incidence arithmetic and assumption robustness"
+            },
+            {
+              "evidence_ids": [
+                "portable-formal-v1"
+              ],
+              "method": "Recomputed the meeting inequality and enumerated nonnegative integer census triples satisfying n0+n1+n2=61, n1+2n2=76, n2 at most 27 and n0 at least nine.",
+              "observation": "For a two-outsider member the degree sum is 66; 2|M|+2 at most 106 gives |M| at most 52 and at least nine of the 61 residual members disjoint from it. The only census triples (n0,n1,n2) are (9,28,24), (10,26,25), (11,24,26), (12,22,27). All satisfy n2 at least 24, making the final at-most-twenty contradiction strict with margin at least four.",
+              "result": "supported",
+              "scope": "Profile A outsider census and disjoint-completion thresholds"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/literature_reviewer",
+          "role": "literature_reviewer",
+          "summary": "The endpoint comparison remains correct under both maximum-size and forcing-threshold conventions. A fresh direct reconstruction verifies the cited 54-member lower construction. Sensitivity to source removal is transparent: withdrawing external I27 removes the ordinary global corollary while leaving the local conditional implication and unconditional two-star statement intact. No claim is improperly supported by counting related source artifacts as independent evidence.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Reconstructed the equation 6.14 pair-block family from the primary text already inspected; doubled it on disjoint supports and exhaustively checked triples with Python. Receipt: scratch/literature_reviewer/round05_lower_witness.json. Also calculated the bound differences and forcing-threshold translations.",
+              "observation": "The construction has 27 distinct intersecting rows and no three-sunflower; doubling gives 54 distinct four-sets with zero sunflowers among all 24,804 triples. Upper bounds 83,81,80 correspond to forcing-threshold upper bounds 84,82,81, preserving improvements three and one. This direct finite check does not establish the intersecting upper bound or constitute Lean evidence.",
+              "result": "supported",
+              "scope": "Numerical convention and independent reconstruction of the literature lower witness"
+            },
+            {
+              "evidence_ids": [
+                "primary-sources-v1",
+                "terminal-audit-v1",
+                "two-star-audit-v1"
+              ],
+              "method": "Traced claims in the unchanged frozen abstract, Sections 1/2/6/7 and the published theorem statements against the source-family map from prior rounds.",
+              "observation": "Without the external I27 theorem, Theorem 3 remains an implication and Corollary 4 cannot be asserted from it alone; Theorem 1 and Profile B exclusion remain unconditional. Removing search-negative evidence affects only the bounded comparison statement, not the proofs. Removing the inherited structural inputs would remove essential premises of the new arguments, so the named pinned A1K dependency must remain. Article, author repository and run artifacts do not become multiple independent confirmations merely by having separate locators.",
+              "result": "supported",
+              "scope": "Robustness to removing external and related-source inputs"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/logic_auditor",
+          "role": "logic_auditor",
+          "summary": "The portable source order is consistent with all local imports, and the recorded audit runs are tied to the packaged audit-source bytes. An independent integer calculation confirms that the incidence inequalities exclude every residual cardinality above forty for all possible overlap sizes. These checks support reproducibility and the sharp rounding step while preserving the disclosed same-evaluator and external-I(27) limits.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "portable-formal-v1",
+                "closure-complete-v1"
+              ],
+              "method": "Read frozen rebuild.py and README; parsed import lines in all 161 packaged sources and checked each local dependency against source-manifest order; compared the eight audit-log source hashes with the packaged corresponding sources.",
+              "observation": "All 281 local import edges point to earlier packaged modules; the only unpackaged imports are Lean or Mathlib modules covered by the stated external dependency requirement. Every audit log has exit code zero and a matching audit-source hash. The recipe checks source hashes, compiles each listed module and stops on failure. I did not execute it or reinterpret the 98 source-matched earlier compilations as fresh runs.",
+              "result": "supported",
+              "scope": "Rebuild recipe dependency coverage and audit-source correspondence"
+            },
+            {
+              "evidence_ids": [
+                "portable-formal-v1",
+                "lean-source-compute-v1"
+              ],
+              "method": "Independently evaluated min(floor(9q/2), floor((168−5q)/3)) for every integer q from zero through twelve, and checked the positive-coefficient elimination in Section 3.2 against TwoHighIncidence.lean.",
+              "observation": "The largest allowed residual size is forty, attained by the inequalities only at q=9; q=10 gives at most39 and q=12 at most36. The elimination gives 37m≤1512, whereas m=41 would require1517. Thus no real-to-integer rounding, endpoint case or natural-subtraction convention weakens the claimed m≤40. This check concerns the proven inequalities, not the unproved stronger cap45 diagnostic.",
+              "result": "supported",
+              "scope": "Integer robustness of the two-star incidence endpoint"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/methodologist",
+          "role": "methodologist",
+          "summary": "The frozen source manifest is a valid build order for its 281 direct local import edges, with every nonlocal import confined to Lean or Mathlib. The recorded diagnostic totals and all 50 listed compatible four-sets are internally consistent across Python/C++ outputs. These checks improve reproducibility confidence without establishing the unproved normalization or independently rerunning the full pipeline.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [
+            {
+              "disposition": "Section 6 correctly treats universal45 as unestablished and retains the normalization as a separate proof obligation.",
+              "evidence_ids": [
+                "universal45-diagnostic-v1",
+                "universal45-crosscheck-v1"
+              ],
+              "id": "M5-diagnostic-coverage",
+              "severity": "note",
+              "statement": "The recorded 156960 cases, 20475 candidates and overlap histograms reconcile, and all explicitly listed compatible four-sets lie in the actual link union. This is a consistency audit of retained results; it cannot establish completeness of the relative-geometry orbit reduction.",
+              "status": "claim-qualified"
+            }
+          ],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "portable-formal-v1"
+              ],
+              "method": "Parse direct import lines in all 161 frozen portable Lean source files and compare each local dependency index with the source-manifest build order. Reuse round2 hash verification of unchanged bytes.",
+              "observation": "All 281 local import edges point to earlier listed modules; there are no missing SunflowerLean or Frontier local imports in this parse. The remaining imports are Lean or Mathlib, consistent with the documented caller-provisioned dependencies. This validates source ordering, not execution on a fresh runtime.",
+              "result": "supported",
+              "scope": "Reproducibility recipe dependency order"
+            },
+            {
+              "evidence_ids": [
+                "universal45-diagnostic-v1",
+                "universal45-crosscheck-v1"
+              ],
+              "method": "Sum the overlap-conditioned histograms and compare both retained implementations; calculate binomial(28,4) and 1090*144; inspect every listed nonempty candidate bitmask for distinctness, cardinality four and containment in the two-link union.",
+              "observation": "Histograms match and sum to 156960=1090*144. Both report 20475=binomial(28,4) candidate positions. The 22 nonempty geometries contain 50 listed compatible candidates in total, each of size four inside its actual link union, with maximum count five. No full enumeration or normalization proof was rerun; source/output consistency does not establish universal cap45.",
+              "result": "supported",
+              "scope": "Recorded finite diagnostic coverage and arithmetic consistency"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/typesetter",
+          "role": "typesetter",
+          "summary": "All six display formulas agree across frozen Markdown, exact HTML TeX annotations and extracted PDF expressions, including coefficients, inequality directions and index values. Independent arithmetic spot checks reproduce the displayed contradiction thresholds. The current six-page preview matches the unchanged round-05 manuscript. PDF visual coverage is retained from actual prior inspections and the matching root receipt; HTML remains source-checked only.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "preview-686c-v1"
+              ],
+              "method": "Compare six Markdown display blocks with HTML TeX annotations, renderer source mappings and whitespace-normalized PDF extraction; compare digit sequences and read operator/subscript structure. Check diagnostic and closure counts across all three formats.",
+              "observation": "Every display block has an identical HTML annotation and mapping source, all six mapped expressions occur in PDF extraction, and all digit sequences are preserved. The constants 156,960, 20,475, 100-second, 161, 63 and 98 occur in Markdown, HTML and PDF without conversion loss. Semantic subscript layout was visually inspected in earlier unchanged pages; text extraction alone is not being used to assert that layout.",
+              "result": "supported",
+              "scope": "Exact cross-format formula and numerical fidelity"
+            },
+            {
+              "evidence_ids": [
+                "preview-686c-v1"
+              ],
+              "method": "Independently compute coefficient elimination and the outsider-census consequences from the quantities printed in the manuscript.",
+              "observation": "9×3+5×2=37, 9×168=1512 and 37×41=1517 confirm the incidence contradiction. Outsider incidence 4×19=76 gives 76−61=15; the H_2 trace bound gives (2×14+2×19+40−2)/2=52, hence 61−52=9 completions. The final key-cap computation 4×5=20 contradicts n_2≥24. These exact spot checks support the numerical presentation, conditional on the stated combinatorial premises.",
+              "result": "supported",
+              "scope": "Displayed arithmetic robustness"
+            },
+            {
+              "evidence_ids": [
+                "preview-686c-v1",
+                "root-visual-686c-v1"
+              ],
+              "method": "Rehash preview manifest entries and compare preview manuscript to frozen round-05 bytes; confirm unchanged manuscript from round 4; read the matching root visual receipt while retaining the typesetter’s previous direct page inspections.",
+              "observation": "All manifest entries verify and the manuscript SHA-256 is 686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d. The PDF has six pages. Root records unchanged page-image bytes for pages 1–4 and 6 and direct inspection of changed page 5; the typesetter directly inspected page 5 in round 4. This is bounded local PDF review, not independent certification or HTML browser visual QA. Earlier optional table-break polish remains unchanged.",
+              "result": "supported",
+              "scope": "Current preview correspondence and visual scope"
+            }
+          ]
+        }
+      ],
+      "outstanding_issues": {},
+      "coordinator_changes": [
+        "Root assumed orchestration after round 4 to allow three reviewers concurrently. The same twelve contexts, frozen snapshots and actual response preservation continue.",
+        "No manuscript changes after round 4; verification coverage updated from actual committed round 5 checks."
+      ]
+    }
+  },
+  "snapshot_sha256": "2bccb9c1a6241f90c33eb19434578642429a86d4babcee6368bc692c0cfb668a"
+}

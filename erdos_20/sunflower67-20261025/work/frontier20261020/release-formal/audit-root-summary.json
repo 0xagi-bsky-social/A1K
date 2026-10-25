@@ -1,0 +1,605 @@
+{
+  "unique_roots": 66,
+  "roots": [
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "Erdos20DesignNormalForm.ten_isomorphic_canonical",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "Erdos20ExtremalTwenty.extremal_twenty_two_disjoint_designs",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierCanonicalTwenty.high_link_two_canonical_designs",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierCanonicalTwenty.twenty_two_canonical_designs",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierCompletionCompatibility.completion_tail_intersects",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierCompletionCompatibility.intersecting_link_edges_have_shared_block_trace",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierCompletionCompatibility.split_completions_card_le_four",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierCompletionMass.card_le_degree_sum_of_meeting",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierCompletionMass.degree_sum_eq_card_of_singleton_intersection",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierFinalEighty.literal_intersecting_twenty_seven_implies_eighty",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierFinalEighty.rank_four_upper_eighty_of_intersecting_twenty_seven",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierGenericHeavyExtensions.extensions_card_two",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierGenericHeavyExtensions.heavy_design_keys_card_le_five",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierGenericHeavyExtensions.heavy_extensions_common_point",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierMeetingDefect.sixty_one_degree_sum_sixty_six_has_nine_disjoint",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierMeetingDefect.twice_card_le_twice_disjoint_add_degree_sum_add_thirty_eight",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierMeetingDefect.twice_meeting_add_two_le_degree_sum_add_forty",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierMinimumTransversals.twenty_transversal_six_eq_two_disjoint_members",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierMinimumTransversals.two_designs_transversal_six",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileABridge.residual_profile_of_profile_a",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileAClosed.no_profile_a_of_intersecting_twenty_seven",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileAClosed.rank_four_upper_eighty_of_intersecting_and_no_profile_b",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileAClosed.residual_profile_a_impossible",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileAConcentrated.completion_meets_extensions",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileAConcentrated.completion_mem_tails",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileAConcentrated.concentrated_impossible",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileAConcentrated.key_heavy",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileAConcentrated.tails_card_le_ten",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileAFibers.fiber_card_le_four",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileAFibers.key_card_two",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileAFibers.row_key_card_two",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileAFibers.rows_card_le_four_mul_keys",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileASplit.DesignPair.center_not_mem_left_support",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileASplit.DesignPair.center_not_mem_right_support",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileASplit.DesignPair.completion_subset_support",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileASplit.DesignPair.completion_union",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileASplit.DesignPair.left_star",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileASplit.DesignPair.minimum_projections",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileASplit.DesignPair.no_split_pair",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileASplit.DesignPair.pair_one_side",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileASplit.DesignPair.pair_subset_support",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileASplit.DesignPair.right_star",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileASplit.DesignPair.same_side_completion",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileASplit.DesignPair.same_side_completion_point",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileASplit.DesignPair.same_side_completion_right_card",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileASplit.DesignPair.split_completion_links",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileASplit.disjoint_two_row_minimum_transversal",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierProfileASplit.exists_designPair",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTenLinkIntersection.ten_point_has_block_avoiding_two",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTenLinkIntersection.ten_point_link_intersecting_subfamily_le_two",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTenLinkIntersection.two_ten_link_coordinates_card_le_four",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTwoHighEighty.degree_twenty_mem_high",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTwoHighEighty.exactly_two_high_card_le_eighty",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTwoHighEighty.independent_twenty_stars_card_le_eighty",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTwoHighEighty.profile_b_not_realizable",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTwoHighEighty.two_independent_high_card_le_eighty",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTwoHighIncidence.common_trace_card_ge_two",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTwoHighIncidence.two_large_supports_card_le_forty",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTwoHighIncidence.two_large_traces_incidence_bound",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTwoStarBridge.center_outside_link",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTwoStarBridge.high_pair_codegree",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTwoStarBridge.residual_degree_bounds",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTwoStarBridge.two_star_degree_partition",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTwoStarBridge.two_star_partition",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTwoStarResidual.independent_center_outside_link",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierTwoStarResidual.residual_meets_link_support_ge_three",
+      "status": "pass"
+    }
+  ],
+  "assurance": "axiom-audited",
+  "source_manifest_sha256": "a7e07753ef9b6e48992297177601cf17653710cad014cb2ed72362aab7f02666",
+  "limitations": [
+    "Same evaluator and pinned cached external packages; not independent reproduction.",
+    "I27 remains argument in global80root; externalI27 not imported."
+  ]
+}

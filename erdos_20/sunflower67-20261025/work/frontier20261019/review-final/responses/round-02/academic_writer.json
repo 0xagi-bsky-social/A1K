@@ -1,0 +1,27 @@
+{
+  "agent_id": "/root/review_coordinator/academic_writer",
+  "role": "academic_writer",
+  "context_id": "/root/review_coordinator/academic_writer",
+  "round": 2,
+  "snapshot_sha256": "ca231dc7862039c04067c0ccc5ee58f1cdfdf600d9f9e0bf498878efcf4c78cc",
+  "manuscript_sha256": "2489c2194f27ff2597d9e2c670d9d51ea4ba505363a7ae62e307ee489e87195f",
+  "summary": "The prior-art account explains why a smaller formally checked obstruction target remains useful despite an external enumeration claim. It attributes the intersecting maximum and unrestricted bounds to the preprint, preserves the difference between that claim and local protected proof coverage, and avoids a global novelty claim. The manuscript hash matches the frozen snapshot.",
+  "evidence_ids": [
+    "F17"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "External result attribution and contribution boundary",
+      "method": "Compared the prior-work paragraph with the approved arXiv extract in F17, especially abstract lines 58–59, section 6.3 lines 982–1013, and section 8 lines 1184–1188.",
+      "observation": "The extract reports intersecting maximum 27, gives the 28-row exhaustive decision problem, and separates exhaustive computations from Lean coverage. The manuscript correctly presents 53 as support capacity, never as an improved family-size bound. This check authenticates attribution within the accessible extract; it does not reproduce the enumeration.",
+      "result": "supported",
+      "evidence_ids": [
+        "F17"
+      ]
+    }
+  ]
+}

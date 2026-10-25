@@ -1,0 +1,47 @@
+{
+  "agent_id": "/root/review80_coordinator/typesetter",
+  "role": "typesetter",
+  "context_id": "/root/review80_coordinator/typesetter",
+  "round": 5,
+  "snapshot_sha256": "698556515377c5b17fd53703ac230982812055abde8a4a73880d32d64eacd7fe",
+  "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+  "summary": "All six display formulas agree across frozen Markdown, exact HTML TeX annotations and extracted PDF expressions, including coefficients, inequality directions and index values. Independent arithmetic spot checks reproduce the displayed contradiction thresholds. The current six-page preview matches the unchanged round-05 manuscript. PDF visual coverage is retained from actual prior inspections and the matching root receipt; HTML remains source-checked only.",
+  "evidence_ids": [
+    "preview-686c-v1",
+    "root-visual-686c-v1"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Exact cross-format formula and numerical fidelity",
+      "method": "Compare six Markdown display blocks with HTML TeX annotations, renderer source mappings and whitespace-normalized PDF extraction; compare digit sequences and read operator/subscript structure. Check diagnostic and closure counts across all three formats.",
+      "observation": "Every display block has an identical HTML annotation and mapping source, all six mapped expressions occur in PDF extraction, and all digit sequences are preserved. The constants 156,960, 20,475, 100-second, 161, 63 and 98 occur in Markdown, HTML and PDF without conversion loss. Semantic subscript layout was visually inspected in earlier unchanged pages; text extraction alone is not being used to assert that layout.",
+      "result": "supported",
+      "evidence_ids": [
+        "preview-686c-v1"
+      ]
+    },
+    {
+      "scope": "Displayed arithmetic robustness",
+      "method": "Independently compute coefficient elimination and the outsider-census consequences from the quantities printed in the manuscript.",
+      "observation": "9×3+5×2=37, 9×168=1512 and 37×41=1517 confirm the incidence contradiction. Outsider incidence 4×19=76 gives 76−61=15; the H_2 trace bound gives (2×14+2×19+40−2)/2=52, hence 61−52=9 completions. The final key-cap computation 4×5=20 contradicts n_2≥24. These exact spot checks support the numerical presentation, conditional on the stated combinatorial premises.",
+      "result": "supported",
+      "evidence_ids": [
+        "preview-686c-v1"
+      ]
+    },
+    {
+      "scope": "Current preview correspondence and visual scope",
+      "method": "Rehash preview manifest entries and compare preview manuscript to frozen round-05 bytes; confirm unchanged manuscript from round 4; read the matching root visual receipt while retaining the typesetter’s previous direct page inspections.",
+      "observation": "All manifest entries verify and the manuscript SHA-256 is 686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d. The PDF has six pages. Root records unchanged page-image bytes for pages 1–4 and 6 and direct inspection of changed page 5; the typesetter directly inspected page 5 in round 4. This is bounded local PDF review, not independent certification or HTML browser visual QA. Earlier optional table-break polish remains unchanged.",
+      "result": "supported",
+      "evidence_ids": [
+        "preview-686c-v1",
+        "root-visual-686c-v1"
+      ]
+    }
+  ]
+}

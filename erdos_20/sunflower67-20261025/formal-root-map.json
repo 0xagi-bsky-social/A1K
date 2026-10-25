@@ -1,0 +1,839 @@
+{
+  "scope": "Historical named-root axiom audits; no fresh compilation performed for this transfer.",
+  "roots": [
+    {
+      "module": "AHS27IsolationAudit",
+      "theorem": "FrontierAHS27.AHS_card",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/AHS27IsolationAudit.axiom-audit.json",
+      "receipt_sha256": "1e584cb32d2f713c38135e0ff8713a7c453d57f8ff40c9ddcd0946ef785049eb",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "source_sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "AHS27IsolationAudit",
+      "theorem": "FrontierAHS27.AHS_uniform",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/AHS27IsolationAudit.axiom-audit.json",
+      "receipt_sha256": "1e584cb32d2f713c38135e0ff8713a7c453d57f8ff40c9ddcd0946ef785049eb",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "source_sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "AHS27IsolationAudit",
+      "theorem": "FrontierAHS27.AHS_intersecting",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/AHS27IsolationAudit.axiom-audit.json",
+      "receipt_sha256": "1e584cb32d2f713c38135e0ff8713a7c453d57f8ff40c9ddcd0946ef785049eb",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "source_sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "AHS27IsolationAudit",
+      "theorem": "FrontierAHS27.AHS_eq_chooseTwoGroups",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/AHS27IsolationAudit.axiom-audit.json",
+      "receipt_sha256": "1e584cb32d2f713c38135e0ff8713a7c453d57f8ff40c9ddcd0946ef785049eb",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "source_sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "AHS27IsolationAudit",
+      "theorem": "FrontierAHS27.group_card",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/AHS27IsolationAudit.axiom-audit.json",
+      "receipt_sha256": "1e584cb32d2f713c38135e0ff8713a7c453d57f8ff40c9ddcd0946ef785049eb",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "source_sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "AHS27IsolationAudit",
+      "theorem": "FrontierAHS27.groups_disjoint",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/AHS27IsolationAudit.axiom-audit.json",
+      "receipt_sha256": "1e584cb32d2f713c38135e0ff8713a7c453d57f8ff40c9ddcd0946ef785049eb",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "source_sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "AHS27IsolationAudit",
+      "theorem": "FrontierAHS27.groups_cover",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/AHS27IsolationAudit.axiom-audit.json",
+      "receipt_sha256": "1e584cb32d2f713c38135e0ff8713a7c453d57f8ff40c9ddcd0946ef785049eb",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "source_sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "AHS27IsolationAudit",
+      "theorem": "FrontierAHS27.AHS_support",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/AHS27IsolationAudit.axiom-audit.json",
+      "receipt_sha256": "1e584cb32d2f713c38135e0ff8713a7c453d57f8ff40c9ddcd0946ef785049eb",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "source_sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "AHS27IsolationAudit",
+      "theorem": "FrontierAHS27.trace_blockers",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/AHS27IsolationAudit.axiom-audit.json",
+      "receipt_sha256": "1e584cb32d2f713c38135e0ff8713a7c453d57f8ff40c9ddcd0946ef785049eb",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "source_sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "AHS27IsolationAudit",
+      "theorem": "FrontierAHS27.map_trace_subset",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/AHS27IsolationAudit.axiom-audit.json",
+      "receipt_sha256": "1e584cb32d2f713c38135e0ff8713a7c453d57f8ff40c9ddcd0946ef785049eb",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "source_sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "AHS27IsolationAudit",
+      "theorem": "FrontierAHS27.trace_card_le",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/AHS27IsolationAudit.axiom-audit.json",
+      "receipt_sha256": "1e584cb32d2f713c38135e0ff8713a7c453d57f8ff40c9ddcd0946ef785049eb",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "source_sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "AHS27IsolationAudit",
+      "theorem": "FrontierAHS27.map_inter_arbitrary",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/AHS27IsolationAudit.axiom-audit.json",
+      "receipt_sha256": "1e584cb32d2f713c38135e0ff8713a7c453d57f8ff40c9ddcd0946ef785049eb",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "source_sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "AHS27IsolationAudit",
+      "theorem": "FrontierAHS27.extra_trace_not_mem",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/AHS27IsolationAudit.axiom-audit.json",
+      "receipt_sha256": "1e584cb32d2f713c38135e0ff8713a7c453d57f8ff40c9ddcd0946ef785049eb",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "source_sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "AHS27IsolationAudit",
+      "theorem": "FrontierAHS27.embedded_AHS_extra_disjoint_of_trace_property",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/AHS27IsolationAudit.axiom-audit.json",
+      "receipt_sha256": "1e584cb32d2f713c38135e0ff8713a7c453d57f8ff40c9ddcd0946ef785049eb",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "source_sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "AHS27IsolationAudit",
+      "theorem": "FrontierAHS27.embedded_AHS_extra_disjoint",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/AHS27IsolationAudit.axiom-audit.json",
+      "receipt_sha256": "1e584cb32d2f713c38135e0ff8713a7c453d57f8ff40c9ddcd0946ef785049eb",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "source_sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "AHS27IsolationAudit",
+      "theorem": "FrontierAHS27.rank_four_embedded_AHS_extra_disjoint",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/AHS27IsolationAudit.axiom-audit.json",
+      "receipt_sha256": "1e584cb32d2f713c38135e0ff8713a7c453d57f8ff40c9ddcd0946ef785049eb",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/AHS27IsolationAudit.lean",
+      "source_sha256": "c85b17a8fe1f3d92df47566307e0372095898ee510dbccb6ca0d066611521889",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "ComplementaryTraces",
+      "theorem": "lifted_disjoint_intersection",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/ComplementaryTraces.axiom-audit.json",
+      "receipt_sha256": "e4f49473cdca99966c69b352f84f26e4df078f64ffd948726d58a58306976a17",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/ComplementaryTraces.lean",
+      "source_sha256": "7c26ba9f1d63d7edce06404b6bfeffbec1f73b4c6e93ccfbb584282e540467b7",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "ComplementaryTraces",
+      "theorem": "no_two_disjoint_traces_with_surviving_cone",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/ComplementaryTraces.axiom-audit.json",
+      "receipt_sha256": "e4f49473cdca99966c69b352f84f26e4df078f64ffd948726d58a58306976a17",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/ComplementaryTraces.lean",
+      "source_sha256": "7c26ba9f1d63d7edce06404b6bfeffbec1f73b4c6e93ccfbb584282e540467b7",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "Local51",
+      "theorem": "FrontierLocal51.local_weight_le_51",
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/Local51.axiom-audit.json",
+      "receipt_sha256": "98739b262cb7241808be68e3df89153dc0175d22d2c7735d9b4efde86acdad26",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/Local51.lean",
+      "source_sha256": "3b18d67905cd8920561b71cfc4e2a791dcdece66d3e7d7465684a301614b7077",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "R15ScalarClosure",
+      "theorem": "outer_deletion_scalar_impossible",
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/R15ScalarClosure.axiom-audit.json",
+      "receipt_sha256": "78482cb3a687cd6d2c291ba258d00acd9df37d678932bd30d0e7ffd74a6ed4d8",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/R15ScalarClosure.lean",
+      "source_sha256": "df94065a7262c59b5cfb12544f173ed58af57ea3498b78329274992650200117",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "R15ScalarClosure",
+      "theorem": "hub_strict_triangle_impossible",
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/R15ScalarClosure.axiom-audit.json",
+      "receipt_sha256": "78482cb3a687cd6d2c291ba258d00acd9df37d678932bd30d0e7ffd74a6ed4d8",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/R15ScalarClosure.lean",
+      "source_sha256": "df94065a7262c59b5cfb12544f173ed58af57ea3498b78329274992650200117",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "R15ScalarClosure",
+      "theorem": "hub_deletion_scalar_impossible",
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/R15ScalarClosure.axiom-audit.json",
+      "receipt_sha256": "78482cb3a687cd6d2c291ba258d00acd9df37d678932bd30d0e7ffd74a6ed4d8",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/R15ScalarClosure.lean",
+      "source_sha256": "df94065a7262c59b5cfb12544f173ed58af57ea3498b78329274992650200117",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "R15ScalarClosure",
+      "theorem": "rho_six_support_le_eleven",
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/R15ScalarClosure.axiom-audit.json",
+      "receipt_sha256": "78482cb3a687cd6d2c291ba258d00acd9df37d678932bd30d0e7ffd74a6ed4d8",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/R15ScalarClosure.lean",
+      "source_sha256": "df94065a7262c59b5cfb12544f173ed58af57ea3498b78329274992650200117",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "R15ScalarClosure",
+      "theorem": "rho_six_requires_degree_five",
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/R15ScalarClosure.axiom-audit.json",
+      "receipt_sha256": "78482cb3a687cd6d2c291ba258d00acd9df37d678932bd30d0e7ffd74a6ed4d8",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/R15ScalarClosure.lean",
+      "source_sha256": "df94065a7262c59b5cfb12544f173ed58af57ea3498b78329274992650200117",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "SmallTracePool",
+      "theorem": "residual_smallTracePool_intersecting",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/SmallTracePool.axiom-audit.json",
+      "receipt_sha256": "db6a49e1f9d877ec0549ebf06a61408c5f7961d6f81914647febc509cc2c80f7",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/SmallTracePool.lean",
+      "source_sha256": "e25e9d1e1fb539e257d76aef2176e481f743cdffaed1969c5a75207a929024ae",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "SmallTracePool",
+      "theorem": "residual_smallTracePool_card_le_27",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/SmallTracePool.axiom-audit.json",
+      "receipt_sha256": "db6a49e1f9d877ec0549ebf06a61408c5f7961d6f81914647febc509cc2c80f7",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/SmallTracePool.lean",
+      "source_sha256": "e25e9d1e1fb539e257d76aef2176e481f743cdffaed1969c5a75207a929024ae",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "SmallTracePool",
+      "theorem": "twice_card_le_trace_sum_add_small_add_zero",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/SmallTracePool.axiom-audit.json",
+      "receipt_sha256": "db6a49e1f9d877ec0549ebf06a61408c5f7961d6f81914647febc509cc2c80f7",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/SmallTracePool.lean",
+      "source_sha256": "e25e9d1e1fb539e257d76aef2176e481f743cdffaed1969c5a75207a929024ae",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "SmallTracePool",
+      "theorem": "residual_twice_card_le_trace_sum_add_small_add_zero",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/SmallTracePool.axiom-audit.json",
+      "receipt_sha256": "db6a49e1f9d877ec0549ebf06a61408c5f7961d6f81914647febc509cc2c80f7",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/SmallTracePool.lean",
+      "source_sha256": "e25e9d1e1fb539e257d76aef2176e481f743cdffaed1969c5a75207a929024ae",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "SmallTracePool",
+      "theorem": "zeroTracePool_card_ge_eleven_of_counts",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/SmallTracePool.axiom-audit.json",
+      "receipt_sha256": "db6a49e1f9d877ec0549ebf06a61408c5f7961d6f81914647febc509cc2c80f7",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/SmallTracePool.lean",
+      "source_sha256": "e25e9d1e1fb539e257d76aef2176e481f743cdffaed1969c5a75207a929024ae",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "SmallTracePool",
+      "theorem": "residual_zeroTracePool_card_ge_eleven",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/SmallTracePool.axiom-audit.json",
+      "receipt_sha256": "db6a49e1f9d877ec0549ebf06a61408c5f7961d6f81914647febc509cc2c80f7",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/SmallTracePool.lean",
+      "source_sha256": "e25e9d1e1fb539e257d76aef2176e481f743cdffaed1969c5a75207a929024ae",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "TerminalAsymmetric",
+      "theorem": "FrontierTerminal.asymmetric_disjoint_union_trace_ge_five",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/TerminalAsymmetric.axiom-audit.json",
+      "receipt_sha256": "ebc4c7b6c1fe6a4323a5486c2a8afdc9fc212743c966aa4c316a6d48b7af5f04",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/TerminalAsymmetric.lean",
+      "source_sha256": "6d904f273d429a75324f7b88637a3610f271881b0529eaf3183a2f390450165a",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "TerminalAsymmetric",
+      "theorem": "FrontierTerminal.asymmetric_disjoint_terminal_pair_has_pureY_transversal",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/TerminalAsymmetric.axiom-audit.json",
+      "receipt_sha256": "ebc4c7b6c1fe6a4323a5486c2a8afdc9fc212743c966aa4c316a6d48b7af5f04",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/TerminalAsymmetric.lean",
+      "source_sha256": "6d904f273d429a75324f7b88637a3610f271881b0529eaf3183a2f390450165a",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "TerminalAsymmetric",
+      "theorem": "FrontierTerminal.asymmetric_without_pureY_intersecting",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/TerminalAsymmetric.axiom-audit.json",
+      "receipt_sha256": "ebc4c7b6c1fe6a4323a5486c2a8afdc9fc212743c966aa4c316a6d48b7af5f04",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/TerminalAsymmetric.lean",
+      "source_sha256": "6d904f273d429a75324f7b88637a3610f271881b0529eaf3183a2f390450165a",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "TerminalAsymmetric",
+      "theorem": "FrontierTerminal.asymmetric_terminal_separation_card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/TerminalAsymmetric.axiom-audit.json",
+      "receipt_sha256": "ebc4c7b6c1fe6a4323a5486c2a8afdc9fc212743c966aa4c316a6d48b7af5f04",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/TerminalAsymmetric.lean",
+      "source_sha256": "6d904f273d429a75324f7b88637a3610f271881b0529eaf3183a2f390450165a",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "TerminalAsymmetric",
+      "theorem": "FrontierTerminal.asymmetric_terminal_residual_card_le_37",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/TerminalAsymmetric.axiom-audit.json",
+      "receipt_sha256": "ebc4c7b6c1fe6a4323a5486c2a8afdc9fc212743c966aa4c316a6d48b7af5f04",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/TerminalAsymmetric.lean",
+      "source_sha256": "6d904f273d429a75324f7b88637a3610f271881b0529eaf3183a2f390450165a",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "TerminalSeparation",
+      "theorem": "FrontierTerminal.disjoint_union_trace_ge_six",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/TerminalSeparation.axiom-audit.json",
+      "receipt_sha256": "4c777424f993425d0a9660a4987f0684772f3e5095e60afbefbb49c7987a1cd9",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/TerminalSeparation.lean",
+      "source_sha256": "01ec3df7f6137df13697246ec36768157740221d349fc08fe58f2ed7bc699dfc",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "TerminalSeparation",
+      "theorem": "FrontierTerminal.residual_intersecting_of_trace_le_two",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/TerminalSeparation.axiom-audit.json",
+      "receipt_sha256": "4c777424f993425d0a9660a4987f0684772f3e5095e60afbefbb49c7987a1cd9",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/TerminalSeparation.lean",
+      "source_sha256": "01ec3df7f6137df13697246ec36768157740221d349fc08fe58f2ed7bc699dfc",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "TerminalSeparation",
+      "theorem": "FrontierTerminal.disjoint_terminal_pair_opposing",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/TerminalSeparation.axiom-audit.json",
+      "receipt_sha256": "4c777424f993425d0a9660a4987f0684772f3e5095e60afbefbb49c7987a1cd9",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/TerminalSeparation.lean",
+      "source_sha256": "01ec3df7f6137df13697246ec36768157740221d349fc08fe58f2ed7bc699dfc",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "TerminalSeparation",
+      "theorem": "FrontierTerminal.residual_intersecting_of_no_pureY",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/TerminalSeparation.axiom-audit.json",
+      "receipt_sha256": "4c777424f993425d0a9660a4987f0684772f3e5095e60afbefbb49c7987a1cd9",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/TerminalSeparation.lean",
+      "source_sha256": "01ec3df7f6137df13697246ec36768157740221d349fc08fe58f2ed7bc699dfc",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "TerminalSeparation",
+      "theorem": "FrontierTerminal.residual_card_le_27_of_trace_le_two",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/TerminalSeparation.axiom-audit.json",
+      "receipt_sha256": "4c777424f993425d0a9660a4987f0684772f3e5095e60afbefbb49c7987a1cd9",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/TerminalSeparation.lean",
+      "source_sha256": "01ec3df7f6137df13697246ec36768157740221d349fc08fe58f2ed7bc699dfc",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "TerminalSeparation",
+      "theorem": "FrontierTerminal.residual_card_le_27_of_no_pureY",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/TerminalSeparation.axiom-audit.json",
+      "receipt_sha256": "4c777424f993425d0a9660a4987f0684772f3e5095e60afbefbb49c7987a1cd9",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/TerminalSeparation.lean",
+      "source_sha256": "01ec3df7f6137df13697246ec36768157740221d349fc08fe58f2ed7bc699dfc",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    },
+    {
+      "module": "TerminalSeparation",
+      "theorem": "FrontierTerminal.terminal_separation_card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "allowed_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "receipt": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/receipts/TerminalSeparation.axiom-audit.json",
+      "receipt_sha256": "4c777424f993425d0a9660a4987f0684772f3e5095e60afbefbb49c7987a1cd9",
+      "source": "erdos_20/sunflower67-20261025/work/frontier20261023/formal/TerminalSeparation.lean",
+      "source_sha256": "01ec3df7f6137df13697246ec36768157740221d349fc08fe58f2ed7bc699dfc",
+      "attained_historical_grade": "axiom-audited",
+      "fresh_replay_performed_by_this_inventory": false
+    }
+  ]
+}

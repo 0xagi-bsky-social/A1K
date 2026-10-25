@@ -1,0 +1,116 @@
+{
+  "agent_id": "/root/r67_logic",
+  "role": "logic_auditor",
+  "context_id": "/root/r67_logic",
+  "round": 2,
+  "snapshot_sha256": "24271b347fc88951e8452a2b73e02bbc873403d9211341187c2678c3aa5c6fe7",
+  "manuscript_sha256": "529389d30265046b63d2082aeffe5fef0db73a17b5083a724d06721c4ee1ff62",
+  "summary": "The checked source map preserves the universal versus guarded imports and the ordinary/finite/Lean boundaries. The inspected C5 and hub-deletion dependencies have no circular or unsupported premise. The new fifteen-triple map correctly identifies the whole-completion support bridge as distinct from finite exhaustion. Continue to deeper model and coverage review; no revision is required by this round. Supplied manuscript and canonical snapshot hashes were verified.",
+  "evidence_ids": [
+    "prior-ledger",
+    "prior-unlock",
+    "global-dag",
+    "definitions-map-r2",
+    "rho15",
+    "cap15",
+    "formal-terminal",
+    "formal-asymmetric",
+    "formal-scalar",
+    "round1-committed"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "logic-r2-source-scope",
+      "statement": "The source-level dependency contracts inspected in this round agree with the new obligation map; this is not a transitive verification of every finite checker or active LP row.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Retain the explicit shared-builder and imported-theorem qualifications. Later rounds should test the active model and coverage obligations directly.",
+      "evidence_ids": [
+        "global-dag",
+        "definitions-map-r2",
+        "prior-ledger"
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "logic-r1-import-boundary",
+      "action": "Rechecked the pinned prior main.tex statements and manuscript sections 2-3 and 7 against the first-round qualification.",
+      "result": "Universal classifications are separated from cap18/mu41 imports, while the unreplayed H27 ledger and selected-suite scope remain explicit. No first-round required revision was outstanding.",
+      "status": "claim-qualified"
+    },
+    {
+      "finding_id": "logic-r1-formal-boundary",
+      "action": "Inspected the TerminalSeparation and TerminalAsymmetric declarations and the hub-deletion premises feeding the previously inspected R15 scalar roots.",
+      "result": "H27 remains an explicit proposition argument, terminal trace/avoidance assumptions remain explicit, and geometric premise derivations remain ordinary mathematics. No global Lean theorem is claimed.",
+      "status": "claim-qualified"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Universal B4, triple cap20 and high-link imports",
+      "method": "Read the pinned prior repository/paper/main.tex at lines 272-350, 443-462 and 612-636 and compared manuscript section 3 and the new definition map.",
+      "observation": "B4 assumes an actual triple with at least eight disjoint members; cap20 follows from the closed-neighbourhood bound13 and B4 without size69 or mu42. R16 classifies exactly size16 with rho<=7, and its maximality yields the size17-20 decompositions. None of these selected statements assumes the current upper67 conclusion.",
+      "result": "supported",
+      "evidence_ids": [
+        "prior-ledger",
+        "global-dag",
+        "definitions-map-r2"
+      ]
+    },
+    {
+      "scope": "Exact guards for cross-star, crowding and R61 reuse",
+      "method": "Read pinned main.tex lines 968-1029 and compared PRIOR_DELTA18_UNLOCK.md and manuscript section 3.",
+      "observation": "Crowding and R61 explicitly require mu>=41 and Delta<=18. The cross-star proof requires actual lifted tail families, distinct centres outside both supports, intersecting and cross-intersecting tails, and total size at least16. Its root inequality is at most d(x)+d(y)-d(xy)+4, so the cap18 stage supplies the needed upper40. The map does not transfer the old global size69 conclusion.",
+      "result": "supported",
+      "evidence_ids": [
+        "prior-unlock",
+        "prior-ledger",
+        "global-dag"
+      ]
+    },
+    {
+      "scope": "Complete-C5 replacement and possible dependency cycle",
+      "method": "Read C5-internal-compatibility.md, its cited R16/high-link source statements, and import declarations of companion/terminal/r16/src/verify.py, check_r16.py, check_seven.py and check_structural.py.",
+      "observation": "The size16 R16 case is excluded because its point degrees are6 or4; the other case uses B4 and P-type separation, with the Q8/Q8 shared-leaf possibility explicitly excluded by the complete C5 star. The inspected R16 checker imports its three local checkers and standard-library modules, with no import of the old MU42 C5 checker. This source inspection supports the stated replacement direction; it is not a rerun of the R16 package.",
+      "result": "supported",
+      "evidence_ids": [
+        "global-dag",
+        "prior-ledger"
+      ]
+    },
+    {
+      "scope": "Hub-deletion geometric premises mapped to arithmetic interfaces",
+      "method": "Read LOW15-R15-hub-deletion-exclusion.md sections Residual hub traces through The one-unit contradiction. Independently enumerated all three-point covers of the literal triangle-plus-two-edge-path graph, allowing three extra fresh labels.",
+      "observation": "Only the three surviving cones Q1,Q2,Q3 are used as actual anchors; Q0 is explicitly absent. The identities give the stated budgets39 and9 and satellite inequalities Y+3t0<=8 and Y+t0>=1+delta_mid+delta_max. The bounded enumeration found exactly {0,4,5}, {0,4,6}, {0,5,6}, confirming the B4 equality-guard cover shape and its exclusion of other hubs or exterior points. Root-pair classes p0i remain allowed. The ordered deficits are exactly8-s_i, matching the manuscript and scalar interface.",
+      "result": "supported",
+      "evidence_ids": [
+        "cap15",
+        "definitions-map-r2",
+        "formal-scalar"
+      ]
+    },
+    {
+      "scope": "New size15 support bridge versus finite-search claim",
+      "method": "Read R15-rho6-completed-evidence.md and R15-degree2-independent-ordinary-check.md, especially The whole-completion exterior bound and Eleven-point support and complete root cases, against the added obligation table.",
+      "observation": "The written bridge first requires every admitted exterior triple to contain exactly one new point and an old pair, then bounds the total remaining capacities of those old pairs by3. Therefore the entire completion has at most three exterior triples and three new points, rather than granting three fresh points to each triple. Degrees1 and2 must be excluded before deriving support<=11 and the three complete root-star types. The map keeps motif checks, support proof and target15 trees as separate obligations. I did not rerun their enumerations.",
+      "result": "supported",
+      "evidence_ids": [
+        "rho15",
+        "definitions-map-r2"
+      ]
+    },
+    {
+      "scope": "Actual Lean terminal hypotheses and application limits",
+      "method": "Read TerminalSeparation.lean definitions and literal sunflower construction, TerminalAsymmetric.lean structural and counting declarations, and both status notes.",
+      "observation": "The declarations quantify over arbitrary ground types and use actual residual filters and cone membership. PureTriple denotes the whole support trace. H27 is a defined proposition supplied to cardinality corollaries; TwoAvoidance/OneAvoidance and terminal trace exclusions are explicit hypotheses. The asymmetric bound adds the cardinality of the actual removed transversal pool, with a separate numerical premise needed for37. These declarations do not certify branch-specific exclusions or the global theorem. No compiler or axiom-audit rerun was performed.",
+      "result": "supported",
+      "evidence_ids": [
+        "formal-terminal",
+        "formal-asymmetric"
+      ]
+    }
+  ]
+}

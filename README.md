@@ -1,29 +1,43 @@
 # A1K
 
-**Lean sources and research evidence for Erdős problem 20.**
+**Proof sources and computational evidence for Erdős problem 20.**
 
-A1K publishes the formal developments behind its research on sunflower-free set families. This collection brings the current version 13 library, its earlier working sources, and the recorded checks into one place. Readers can inspect a theorem, follow its dependencies, and compare the formal statement with the claims in the paper.
+A1K publishes the formal developments and computational evidence behind its research on sunflower-free set families. The latest collection supports the 25 October 2026 paper, *An upper bound for four-uniform three-sunflower-free families*. Earlier version 13 sources and their recorded checks remain available alongside the new work.
 
-The accompanying paper is [Transversal Six, Finite Obstructions and Boundary Profiles in Rank-Four Sunflower-Free Families](https://a1k.ai/agentic-math/rank-four-sunflower-free-families). The repository preserves the source statements and their qualifications, including the inputs that remain open.
+The accompanying paper is published at [A1K Agentic SuperMath](https://a1k.ai/agentic-math/rank-four-sunflower-upper-bound-67). The repository preserves the source statements, imported results, computational checks, and limits of the formal evidence.
 
-## What is here
+## Latest result and evidence
 
-Every Lean source file in this repository lives under [`erdos_20/`](erdos_20/).
+The [25 October paper](erdos_20/sunflower67-20261025/work/frontier20261023/review67/publication/sunflower67-20261025/report.md) gives an ordinary computer-assisted proof that every finite simple four-uniform family of at least 68 members contains a three-sunflower, allowing an empty core. In the maximum-size convention, the resulting bound is **54 ≤ M(4, 3) ≤ 67**. The lower bound 54 is unchanged. The general Erdős–Rado sunflower conjecture remains outside this result.
+
+The proof excludes every possible maximum point degree in a hypothetical 68-member family. Its evidence includes exact integer certificates, complete acyclic marker plans, independent orbit and ancestry checks, deletion-cover and graph-fibre reconstructions, and the new arbitrary-support fifteen-triple disjointness argument. It imports the published intersecting bound H27, Jin's graph theorem, and specified prior structural results. H27's full historical computation has not been replayed locally.
+
+Start with the [latest collection guide](erdos_20/sunflower67-20261025/README.md) and its [global dependency roadmap](erdos_20/sunflower67-20261025/work/frontier20261023/highdegree/GLOBAL67-dependency-roadmap.md). The guide distinguishes the active proof route, intermediate reductions, exact computational checks, individually audited Lean roots, and unfinished formal drafts. Historical pending notes are preserved; the later completed assemblies identify what supersedes them.
+
+**The bound 67 is not an end-to-end Lean theorem.** The formal sources prove narrower terminal, trace-pool, construction-isolation and arithmetic statements with their explicit hypotheses. Their recorded axiom audits use the pinned Lean 4.26.0 environment and an existing dependency cache. The full extremal proof, H27 ledger, LP models and proof-tree predicates have not been assembled into a complete Lean closure. No fresh full build, clean replay, independent-host reproduction, or independent human certification is asserted by this repository transfer.
+
+## Earlier formal library
+
+The version 13 project below supports the earlier paper [*Transversal Six, Finite Obstructions and Boundary Profiles in Rank-Four Sunflower-Free Families*](https://a1k.ai/agentic-math/rank-four-sunflower-free-families). Its conditional statements and open inputs describe that historical development. The later ordinary proof above follows a separate route; it does not retroactively strengthen the version 13 Lean declarations.
+
+## Version 13 inventory
+
+Every Lean source file in this repository lives under [`erdos_20/`](erdos_20/). The following counts describe the retained version 13 collection and its earlier history; the [latest guide](erdos_20/sunflower67-20261025/README.md) accounts for the later sources and evidence.
 
 | Collection | Count |
 | --- | ---: |
-| Current v13 modules | **155** |
+| v13 modules | **155** |
 | Modules containing theorem or lemma proofs | **149** |
 | Public theorem roots in the recorded audit | **875** |
-| Current theorem/lemma declarations, including nine private helpers | **884** |
-| Lean files distributed across the current library and retained history | **348** |
+| v13 theorem/lemma declarations, including nine private helpers | **884** |
+| Lean files distributed across the v13 library and retained history | **348** |
 | Upstream reference files provided as pinned links | **21** |
 
 The last two rows account for the **369 Lean files** in the original source inventory. The 21 reference files are linked to their upstream revision because their project does not grant an open-source license. All 348 distributed Lean files retain their original bytes. Older copies are kept in their historical locations rather than merged into the current library.
 
 ## Start with the proofs
 
-The current project is [`erdos_20/v13/lean/`](erdos_20/v13/lean/). Its source library is [`SunflowerLean/`](erdos_20/v13/lean/SunflowerLean/).
+The retained version 13 project is [`erdos_20/v13/lean/`](erdos_20/v13/lean/). Its source library is [`SunflowerLean/`](erdos_20/v13/lean/SunflowerLean/).
 
 [`Erdos20V13Final.lean`](erdos_20/v13/lean/SunflowerLean/Erdos20V13Final.lean) imports the version 13 extensions. It is the entry point to the development; the proof bodies are in the imported modules.
 
@@ -39,13 +53,13 @@ For the whole library, use the [884-declaration proof index](erdos_20/indexes/v1
 
 ## Read the result with its hypotheses
 
-The finite-obstruction equivalence is a proved reduction. It does not establish that the obstruction is absent. Likewise, the bound of 80 is a proved implication whose inputs are I(27) and the nonrealizability of Profiles A and B. Those inputs remain unproved in this collection. G(80) and the all-rank conjecture remain open locally.
+In the retained v13 Lean library, the finite-obstruction equivalence is a proved reduction; it does not establish that the obstruction is absent. Its bound of 80 is a proved implication from I(27) and the nonrealizability of Profiles A and B. Those inputs remain unproved within that historical library, which contains no unconditional G(80) kernel root. The later ordinary upper-67 proof follows the separate route described above. The all-rank Erdős–Rado conjecture remains outside both developments.
 
-The source archive also includes deliberate failing tests, mutations, synthetic smoke projects, and one deferred certificate. Their presence records how the work was checked and where earlier attempts stopped. They are classified in the [source-file index](erdos_20/indexes/lean-source-files.csv); they are not additional accepted results.
+The v13 source archive also includes deliberate failing tests, mutations, synthetic smoke projects, and one deferred certificate. Their presence records how the work was checked and where earlier attempts stopped. They are classified in the [historical source-file index](erdos_20/indexes/v13-source-files.csv); they are not additional accepted results.
 
 ## Check the collection
 
-Clone the repository and check the shipped source inventory with Python 3.9 or later:
+Clone the repository and check the shipped source inventories with Python 3.9 or later:
 
 ```bash
 git clone https://github.com/0xagi-bsky-social/A1K.git
@@ -53,7 +67,7 @@ cd A1K
 python3 erdos_20/tools/verify_inventory.py
 ```
 
-This checks all 348 source hashes, the 21 pinned reference records, and the original 178 protected v13 inputs. It checks file integrity without invoking Lean or downloading the linked references.
+This checks the retained 348-source inventory, its 21 pinned reference records, the original 178 protected v13 inputs, and the later collection's inventory. It checks file integrity without invoking Lean or downloading the linked references.
 
 The formal project pins **Lean 4.26.0** and its Lake dependencies. With the matching Lean/Lake toolchain installed, the entry-point build is:
 
@@ -75,10 +89,11 @@ This publication preserves that evidence. It does not claim a new full source bu
 
 ```text
 erdos_20/
-├── v13/                  Current library, retained checks, and reproduction material
+├── sunflower67-20261025/  Latest ordinary proof, formal interfaces, and exact evidence
+├── v13/                  Earlier formal library, retained checks, and reproduction material
 │   └── lean/SunflowerLean/
 ├── v12_audit/            Earlier library, scratch work, and audit fixtures
-├── indexes/              Source inventory, proof declarations, and upstream links
+├── indexes/              Source inventories, proof declarations, and upstream links
 └── tools/                Portable source-integrity checker
 ```
 

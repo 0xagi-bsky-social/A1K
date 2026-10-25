@@ -1,0 +1,107 @@
+{
+  "leaves": [
+    [
+      "none",
+      1,
+      1,
+      0
+    ],
+    [
+      "F",
+      31,
+      44,
+      8
+    ],
+    [
+      "H",
+      46,
+      75,
+      9
+    ]
+  ],
+  "records": [
+    {
+      "core": "F",
+      "ports": [
+        0,
+        1
+      ],
+      "attachments": [],
+      "matrix": [
+        20,
+        24,
+        11,
+        20
+      ],
+      "exponent": 8,
+      "exploratory_rate": 1.5664286622500367
+    },
+    {
+      "core": "F",
+      "ports": [
+        0,
+        1
+      ],
+      "attachments": [
+        [
+          9,
+          "H"
+        ]
+      ],
+      "matrix": [
+        1152,
+        1452,
+        593,
+        1152
+      ],
+      "exponent": 17,
+      "exploratory_rate": 1.5673977417736626
+    },
+    {
+      "core": "F",
+      "ports": [
+        0,
+        1
+      ],
+      "attachments": [
+        [
+          3,
+          "H"
+        ]
+      ],
+      "matrix": [
+        1123,
+        1481,
+        622,
+        1123
+      ],
+      "exponent": 17,
+      "exploratory_rate": 1.5675245285515058
+    },
+    {
+      "core": "F",
+      "ports": [
+        0,
+        1
+      ],
+      "attachments": [
+        [
+          2,
+          "H"
+        ],
+        [
+          3,
+          "H"
+        ]
+      ],
+      "matrix": [
+        64360,
+        87991,
+        33948,
+        64360
+      ],
+      "exponent": 26,
+      "exploratory_rate": 1.5675282813762867
+    }
+  ]
+}

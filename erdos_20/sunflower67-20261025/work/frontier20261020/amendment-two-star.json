@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-20",
+  "type": "prospective exploratory extension",
+  "reason": "Independent exact diagnostics for Profile B suggested a bound independent of support size.",
+  "additional_target": "For every finite four-uniform three-sunflower-free family F and distinct points x,y of degree20, if no member contains both x and y, then |F|<=45. Produce a size45 witness in the same class.",
+  "current_evidence": {
+    "upper": "Two separate Python/C++ diagnostics cover 156960 canonical relative geometries and all20475 four-subsets of28 positions; maximum5 compatible non-center members. Generic normalization and formal certificate connection remain proof obligations.",
+    "lower": "Explicit45member15point family independently checked by exact Python enumeration; Lean replay in progress.",
+    "profile_a": "Ordinary conditional proof I(27) implies nonrealizability, with Lean leaf proofs in progress."
+  },
+  "publication_gate": "Still closed; these diagnostics and incomplete assembled proofs are not being promoted to the requested breakthrough."
+}

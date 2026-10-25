@@ -1,0 +1,8 @@
+{
+  "file": "SupportReduction.lean",
+  "source_sha256": "053b1422f5d205d7ba5f6b37884929cc99765c10fb3bdfe395b3c931b94c1332",
+  "source_stable": true,
+  "exit_code": 0,
+  "seconds": 5.55,
+  "output": "'FrontierSupportReduction.finite56_obstruction_of_counterexample' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'FrontierSupportReduction.finite53_obstruction_of_counterexample' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'FrontierSupportReduction.intersecting_upper_twenty_seven_iff_no_finite56_obstruction' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'FrontierSupportReduction.intersecting_upper_twenty_seven_iff_no_finite53_obstruction' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n"
+}

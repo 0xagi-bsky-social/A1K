@@ -1,0 +1,169 @@
+[
+  {
+    "role": "chief",
+    "context_id": "/root/review80_coordinator/chief",
+    "sealed_round_responses": [
+      "round-01",
+      "round-02",
+      "round-03",
+      "round-04",
+      "round-05",
+      "round-06",
+      "round-07"
+    ],
+    "final_audit_file": false
+  },
+  {
+    "role": "domain_expert",
+    "context_id": "/root/review80_coordinator/domain_expert",
+    "sealed_round_responses": [
+      "round-01",
+      "round-02",
+      "round-03",
+      "round-04",
+      "round-05",
+      "round-06",
+      "round-07"
+    ],
+    "final_audit_file": false
+  },
+  {
+    "role": "literature_reviewer",
+    "context_id": "/root/review80_coordinator/literature_reviewer",
+    "sealed_round_responses": [
+      "round-01",
+      "round-02",
+      "round-03",
+      "round-04",
+      "round-05",
+      "round-06",
+      "round-07"
+    ],
+    "final_audit_file": false
+  },
+  {
+    "role": "methodologist",
+    "context_id": "/root/review80_coordinator/methodologist",
+    "sealed_round_responses": [
+      "round-01",
+      "round-02",
+      "round-03",
+      "round-04",
+      "round-05",
+      "round-06",
+      "round-07"
+    ],
+    "final_audit_file": false
+  },
+  {
+    "role": "data_analyst",
+    "context_id": "/root/review80_coordinator/data_analyst",
+    "sealed_round_responses": [
+      "round-01",
+      "round-02",
+      "round-03",
+      "round-04",
+      "round-05",
+      "round-06",
+      "round-07"
+    ],
+    "final_audit_file": false
+  },
+  {
+    "role": "logic_auditor",
+    "context_id": "/root/review80_coordinator/logic_auditor",
+    "sealed_round_responses": [
+      "round-01",
+      "round-02",
+      "round-03",
+      "round-04",
+      "round-05",
+      "round-06",
+      "round-07"
+    ],
+    "final_audit_file": false
+  },
+  {
+    "role": "citation_verifier",
+    "context_id": "/root/review80_coordinator/citation_verifier",
+    "sealed_round_responses": [
+      "round-01",
+      "round-02",
+      "round-03",
+      "round-04",
+      "round-05",
+      "round-06",
+      "round-07"
+    ],
+    "final_audit_file": false
+  },
+  {
+    "role": "academic_writer",
+    "context_id": "/root/review80_coordinator/academic_writer",
+    "sealed_round_responses": [
+      "round-01",
+      "round-02",
+      "round-03",
+      "round-04",
+      "round-05",
+      "round-06",
+      "round-07"
+    ],
+    "final_audit_file": false
+  },
+  {
+    "role": "alpha",
+    "context_id": "/root/review80_coordinator/alpha",
+    "sealed_round_responses": [
+      "round-01",
+      "round-02",
+      "round-03",
+      "round-04",
+      "round-05",
+      "round-06",
+      "round-07"
+    ],
+    "final_audit_file": false
+  },
+  {
+    "role": "beta",
+    "context_id": "/root/review80_coordinator/beta",
+    "sealed_round_responses": [
+      "round-01",
+      "round-02",
+      "round-03",
+      "round-04",
+      "round-05",
+      "round-06",
+      "round-07"
+    ],
+    "final_audit_file": false
+  },
+  {
+    "role": "copyeditor",
+    "context_id": "/root/review80_coordinator/copyeditor",
+    "sealed_round_responses": [
+      "round-01",
+      "round-02",
+      "round-03",
+      "round-04",
+      "round-05",
+      "round-06",
+      "round-07"
+    ],
+    "final_audit_file": false
+  },
+  {
+    "role": "typesetter",
+    "context_id": "/root/review80_coordinator/typesetter",
+    "sealed_round_responses": [
+      "round-01",
+      "round-02",
+      "round-03",
+      "round-04",
+      "round-05",
+      "round-06"
+    ],
+    "final_audit_file": false
+  }
+]

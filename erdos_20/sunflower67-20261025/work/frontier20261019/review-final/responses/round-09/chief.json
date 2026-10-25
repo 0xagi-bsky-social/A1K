@@ -1,0 +1,38 @@
+{
+  "agent_id": "/root/review_coordinator/chief",
+  "role": "chief",
+  "context_id": "/root/review_coordinator/chief",
+  "round": 9,
+  "snapshot_sha256": "857bbfd81dca2ae61ee6af3097e6b29403b49028356b723e6e51b6c0640292a8",
+  "manuscript_sha256": "3ee74792dff98a43231d07100d0034b485a6f91beb2b565ffb15d22f5a40e365",
+  "summary": "The inspected repairs preserve scientific content and address the concrete rendering/link defects. Main-claim limits remain intact. The public state still lists three owner-specific round-8 obligations; their closure and final same-byte acceptance remain pending. This review does not declare the publication gate passed. Frozen and inspected evidence hashes match.",
+  "evidence_ids": [
+    "F35",
+    "F37"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Source-diff, formula fidelity and claim limits",
+      "method": "Reversed F35 inline edits, compared the resulting hash with my round-8 hash, and checked HTML code spans plus all six annotation/mapping sources.",
+      "observation": "Reversal exactly reproduces f66cc1eb92c514fa4b4457a934b9b6c334a01f424fbe818f4dc8070d7cec8326. Four expressions now preserve their multiplication signs as code; all six displayed formulas match the manuscript. The changes add only code delimiters. Finite exclusion, extremal improvement, sharpness and independent certification remain unclaimed. Owner visual verification of affected pages is separate from this source check.",
+      "result": "supported",
+      "evidence_ids": [
+        "F35"
+      ]
+    },
+    {
+      "scope": "Preview and planned-release link integrity",
+      "method": "Resolved both actual HTML relative links and independently hashed their preview and planned-release target files against F37.",
+      "observation": "Both targets exist in both layouts; manifest and archive bytes match their recorded identities. Thus the recorded filesystem defect is repaired. Cross-viewer PDF URI behavior is untested, as disclosed; the citation owner must explicitly close its committed obligation.",
+      "result": "supported",
+      "evidence_ids": [
+        "F35",
+        "F37"
+      ]
+    }
+  ]
+}

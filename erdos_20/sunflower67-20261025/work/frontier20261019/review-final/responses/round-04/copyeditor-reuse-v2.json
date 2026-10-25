@@ -1,0 +1,79 @@
+{
+  "manuscript_sha256": "a5097eb4be3793ead393f3fdf6450e2250f3d0249c75ffaa740e5e46fd8d6f2c",
+  "snapshot_sha256": "2536810f6e3bf880dbf91b4629e61a1e65623b83253b143c984e7577b5169349",
+  "script_sha256": "b79d3ea2cf790a461049015834e4faf706f9c689697f0babd111d848e1110237",
+  "method": "NFKC casefolded word tokens; remove citation artifacts and URLs; exact maximal contiguous matches of at least eight tokens; primary excerpt line ranges are not joined across gaps; duplicate excerpts remain separately counted.",
+  "corpus": "Only numbered page-text lines in frozen F16 (arXiv introduction and early sections) and F17 (returned arXiv and A1K passages). A1K appears only as metadata in F16 and supplies no numbered page text there. No web-wide, semantic-paraphrase, or global originality test.",
+  "manuscript_tokens": 3601,
+  "results": [
+    {
+      "evidence_id": "F16",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F16/primary-web-initial.json",
+      "sha256": "dd6d8820fb61e8983d750f1256fb8d2c73558fd651f3d459af35ae3852015226",
+      "source_segments": 1,
+      "source_tokens_including_repeated_excerpts": 3368,
+      "maximal_match_occurrences": 1,
+      "unique_matched_passages": [
+        "sunflower free uniform families recursive constructions and explicit bounds"
+      ],
+      "matches": [
+        {
+          "manuscript_token_start": 3512,
+          "source_token_start": 68,
+          "token_count": 9,
+          "normalized_match": "sunflower free uniform families recursive constructions and explicit bounds",
+          "segment_index": 0,
+          "source_line_range": [
+            0,
+            292
+          ]
+        }
+      ]
+    },
+    {
+      "evidence_id": "F17",
+      "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F17/primary-web-targeted.json",
+      "sha256": "8d7cc0d21ea02e6f22861916398214a1ca73d2c83cc1fe752c82b115ed6a222d",
+      "source_segments": 24,
+      "source_tokens_including_repeated_excerpts": 3465,
+      "maximal_match_occurrences": 2,
+      "unique_matched_passages": [
+        "sunflower free uniform families recursive constructions and explicit bounds"
+      ],
+      "matches": [
+        {
+          "manuscript_token_start": 3512,
+          "source_token_start": 44,
+          "token_count": 9,
+          "normalized_match": "sunflower free uniform families recursive constructions and explicit bounds",
+          "segment_index": 0,
+          "source_line_range": [
+            15,
+            61
+          ]
+        },
+        {
+          "manuscript_token_start": 3512,
+          "source_token_start": 30,
+          "token_count": 9,
+          "normalized_match": "sunflower free uniform families recursive constructions and explicit bounds",
+          "segment_index": 17,
+          "source_line_range": [
+            29,
+            58
+          ]
+        }
+      ]
+    }
+  ],
+  "agent_review": {
+    "reviewer": "/root/review_coordinator/copyeditor",
+    "reviewed_all_reported_matches": true,
+    "classification": "All three occurrence records are the same nine-token cited arXiv paper title in manuscript reference [3]. F17 contains it twice through repeated returned excerpts. No other exact match reaches the threshold.",
+    "D4_check": "All five degree-sum mentions use D4; no bare D occurs in the four-star section.",
+    "limitations": "Only F16/F17 accessible excerpts; token overlap does not detect all paraphrase, idea reuse, unprovided sources, or global priority.",
+    "review_performed_by": "Autonomous copyeditor agent /root/review_coordinator/copyeditor",
+    "human_review_occurred": false,
+    "review_scope_statement": "No human review occurred; match classification was performed by the copyeditor agent."
+  }
+}

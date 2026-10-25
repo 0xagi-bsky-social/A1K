@@ -1,0 +1,57 @@
+{
+  "node_id": "Local51",
+  "evidence": [
+    "SRC",
+    "ELAB",
+    "KERNEL"
+  ],
+  "assurance": "axiom-audited",
+  "timestamp_utc": "2026-10-23T12:27:48.371354+00:00",
+  "task_mode": "formalize",
+  "source": "work/frontier20261023/formal/Local51.lean",
+  "source_sha256": "3b18d67905cd8920561b71cfc4e2a791dcdece66d3e7d7465684a301614b7077",
+  "source_stable_during_compile": true,
+  "bounded_receipt": "work/frontier20261023/formal/receipts/Local51.bounded.json",
+  "bounded_receipt_sha256": "a136d2d02931083757a228939bc1425d26c6e412ec176ba814ba29ed19de4e8d",
+  "output": "work/frontier20261023/formal/receipts/Local51.bounded.log",
+  "output_sha256": "5f19f812e36032a0efd56aa70b4d448c8f056efd66ad9eb3a2c1c7917114bc4b",
+  "runtime_config": "work/frontier20261019/runtime.json",
+  "runtime_config_sha256": "82fbc8e9fed8db7432040b576e330bf194a723a89eb670322c5b8ea2fb2d16c6",
+  "observed_lean_version": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)",
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "actual_roots": [
+    {
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierLocal51.local_weight_le_51",
+      "status": "pass"
+    }
+  ],
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-j1",
+    "-M512",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/build/Local51.olean",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/Local51.lean"
+  ],
+  "resource_limits": {
+    "threads": 1,
+    "memory_mb": 512,
+    "timeout_seconds": 120
+  },
+  "elapsed_seconds": 2.0440823369999634,
+  "evaluator_identity": "Codex local_arithmetic subagent; same-session evaluation",
+  "independence_class": "same-agent bounded elaboration and Lean environment axiom audit",
+  "limitations": [
+    "Pinned existing dependency cache; not a clean replay or independent reproduction.",
+    "Pure natural-number arithmetic implication only. All numerical bounds and structural implications in the theorem are premises.",
+    "No geometric or set-family bridge establishing those premises is proved in this file."
+  ]
+}

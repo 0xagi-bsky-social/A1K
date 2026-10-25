@@ -1,0 +1,9 @@
+{
+  "recorded_at": "2026-10-25T13:43:50.615678+00:00",
+  "method": "Rehash each current round9 evidence locator that is a local file, and all nine original gate inputs.",
+  "checked_local_evidence_files": 54,
+  "mismatches": [],
+  "original_gate_bound_files": 9,
+  "changed": [],
+  "scope": "Byte integrity only, not proof validity or source authentication."
+}

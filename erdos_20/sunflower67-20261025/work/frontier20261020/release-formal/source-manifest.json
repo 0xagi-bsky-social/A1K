@@ -1,0 +1,968 @@
+[
+  {
+    "module": "SunflowerLean.Basic",
+    "path": "source/SunflowerLean/Basic.lean",
+    "sha256": "9c6253d9ae43325863f6b176b975cf024f955f76130c94f0864edfc2149c00f2",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Spread",
+    "path": "source/SunflowerLean/Spread.lean",
+    "sha256": "990576de949ae2b58ead1b5b65af44ab8dad7d3cda608b6134ccc7a7c5bface9",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20BCWConditional",
+    "path": "source/SunflowerLean/Erdos20BCWConditional.lean",
+    "sha256": "0e50aaa2da61ec4c21f2193b1ededfe97285d117977ec1d550eee9c46c67e718",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20BCWBridge",
+    "path": "source/SunflowerLean/Erdos20BCWBridge.lean",
+    "sha256": "235a364a1c8d201f46bf7dd3201cc503570a5b1ff1d98506474ac7f10aacef1c",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20StrictCore",
+    "path": "source/SunflowerLean/Erdos20StrictCore.lean",
+    "sha256": "f9ee0de249ad35dc8e11346760bca2a2b7f0e30ba8cf86c1b1ebc032062ec622",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20SpreadPacking",
+    "path": "source/SunflowerLean/Erdos20SpreadPacking.lean",
+    "sha256": "1d1266ff3264bdcfe34a7c1fb6f0bf2cf0b845b9cba80d6ce217408d0511f1d7",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.ErdosRadoBound",
+    "path": "source/SunflowerLean/ErdosRadoBound.lean",
+    "sha256": "eb118fd0ccce45bb0faede3d04ab80f240fcb9fce0552f5643ce9038a9e12037",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20Critical",
+    "path": "source/SunflowerLean/Erdos20Critical.lean",
+    "sha256": "3aae25a4911d47bdc33fb1bcc04ae04a392245498badc9d185b94de05d8e4c39",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20Incidence",
+    "path": "source/SunflowerLean/Erdos20Incidence.lean",
+    "sha256": "338f32e316853f68643d1a62708adcea7ccad18c27885aba8d339e643789c6f2",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20TraceStructure",
+    "path": "source/SunflowerLean/Erdos20TraceStructure.lean",
+    "sha256": "f51342e26fe132fe87829e8e8512f3b5e2f9138f2c84b1f1f2656a9f947524fa",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20CrossBounds",
+    "path": "source/SunflowerLean/Erdos20CrossBounds.lean",
+    "sha256": "c4beb45efd5f8c35e8890a8fc52ed73679a86d19210044af7f6c33e0dd0595ae",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20Research",
+    "path": "source/SunflowerLean/Erdos20Research.lean",
+    "sha256": "b4d860cc6df3df2140a6ed95060c193a3f40c4fe6cbbbcc8f3d6d12e6db9b670",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20RankThree",
+    "path": "source/SunflowerLean/Erdos20RankThree.lean",
+    "sha256": "adaf323385d46fae31cdafbcece025a232fb4e2b8264ea37c0272d1598858d7b",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20GraphEquality",
+    "path": "source/SunflowerLean/Erdos20GraphEquality.lean",
+    "sha256": "ba0f6695d6bfea687d72b223a2eb455f27542a1736110267fa0b7648e871a814",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20RankThreeEven",
+    "path": "source/SunflowerLean/Erdos20RankThreeEven.lean",
+    "sha256": "8e3b0aa0f0e45b055cadeb16491cfc0701e87677d829a0830b9d22f4a0b1be85",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20SharpTriples",
+    "path": "source/SunflowerLean/Erdos20SharpTriples.lean",
+    "sha256": "c5867ba6f768de8c3a690b4496813dba18dc5dd2c565f8859c9e8ac55e840e02",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20Tetrahedron",
+    "path": "source/SunflowerLean/Erdos20Tetrahedron.lean",
+    "sha256": "96d6d00bb0f600e5ac9946ff0daeaa22d38bc45ae9b3586f7d4bb7fd52b7a23b",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20SharpTwenty",
+    "path": "source/SunflowerLean/Erdos20SharpTwenty.lean",
+    "sha256": "e15ca8436c1ce1536de5a6afd5c6f2b9c995e0a9bd1bb46c17ee7e2fd45b42c1",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20ExtremalSupport",
+    "path": "source/SunflowerLean/Erdos20ExtremalSupport.lean",
+    "sha256": "974d5f4020b57dec56fa8fe284c99046418d983781620cd15dd5fe5a08795251",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20ExtremalStructure",
+    "path": "source/SunflowerLean/Erdos20ExtremalStructure.lean",
+    "sha256": "835a4fedf513ba61c2107b071fca38ba138c810310753b01cad7c4a54da311dd",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20TracePatterns",
+    "path": "source/SunflowerLean/Erdos20TracePatterns.lean",
+    "sha256": "dcdd79879408292d79fa6060b0d55aaab5c33233f6f8eb132953073eff3bcf15",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20MixedCross",
+    "path": "source/SunflowerLean/Erdos20MixedCross.lean",
+    "sha256": "630f441f9190f149bbbd9d601516c2687da31d86c97b1c53287552a0a716ad14",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20DesignConsequences",
+    "path": "source/SunflowerLean/Erdos20DesignConsequences.lean",
+    "sha256": "d0f4988a358912202f6477a40550b63d36331038524db18306db25f0ab255ac0",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20RankFour",
+    "path": "source/SunflowerLean/Erdos20RankFour.lean",
+    "sha256": "4aa933a291c2b1582266f941c9287d49eb68a011f08a62fa7f2aadd79da096fa",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20Endpoints",
+    "path": "source/SunflowerLean/Erdos20Endpoints.lean",
+    "sha256": "efa975c4e837bf3112472263588fa97f23e6f709ceec311650d18eeb32a6a7c0",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20Obstructions",
+    "path": "source/SunflowerLean/Erdos20Obstructions.lean",
+    "sha256": "de67da57c70b8c73231199b52b0f159d335578698dfd1eabbc271c0787c25d80",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20LocalStructure",
+    "path": "source/SunflowerLean/Erdos20LocalStructure.lean",
+    "sha256": "475a369572b10d524474474e2906516e7893a6224239f646756356813fad0deb",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20TripleWitness",
+    "path": "source/SunflowerLean/Erdos20TripleWitness.lean",
+    "sha256": "55c87441371d2f4e537218d1b8454d792883c3f90e563f8b4045b22c0b1db14d",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20Substitution",
+    "path": "source/SunflowerLean/Erdos20Substitution.lean",
+    "sha256": "b0c1a14185bf3febab7565d61d5aa1e6e97357fb65e4ada0f9f8a6fbafbf6302",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20IteratedLower",
+    "path": "source/SunflowerLean/Erdos20IteratedLower.lean",
+    "sha256": "9e1c30f8d1013167e08288598ab5e0d1724d9d2e4786bb0e2a3e2790514e86fc",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20RankFourWitness",
+    "path": "source/SunflowerLean/Erdos20RankFourWitness.lean",
+    "sha256": "78a4a98db56da2d8d133f71e65e32cd355a66c2642b8e2ab8ce1541ed71afa58",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20FiniteReduction",
+    "path": "source/SunflowerLean/Erdos20FiniteReduction.lean",
+    "sha256": "58bab68e9303fbba7525f1bfa6fdde293f7de4111836e475c0bb888edba4db62",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20GrowthRate",
+    "path": "source/SunflowerLean/Erdos20GrowthRate.lean",
+    "sha256": "123682cd2803110b0137109e19a97efd304bf2891c5a2ff4073ba32d41a2ab71",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V5Frontier",
+    "path": "source/SunflowerLean/Erdos20V5Frontier.lean",
+    "sha256": "4c39c26f4e05a257e5f5fec66b48b2e5bac6506e035250eb068d6ab946d57673",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20DesignSeparation",
+    "path": "source/SunflowerLean/Erdos20DesignSeparation.lean",
+    "sha256": "217674aa9d54dddd02a69b339f77f822c9cd6b514cb5f2f24d2b441344cad224",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20DesignCoordinates",
+    "path": "source/SunflowerLean/Erdos20DesignCoordinates.lean",
+    "sha256": "92a139d18f35b04ec1deacccab74d031853142e83ee9289b20f1fda01dc8fac3",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20DesignNormalForm",
+    "path": "source/SunflowerLean/Erdos20DesignNormalForm.lean",
+    "sha256": "a7532384874059e56123cc7e7b9ff7ed38b156dd857834881be2a1f726d5692f",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "ExtensionPairs",
+    "path": "source/ExtensionPairs.lean",
+    "sha256": "68307a036ee43510a99f283715c3a12bccca2d527d35212b9ca4bafe192ec328",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "HeavyExtensionPairs",
+    "path": "source/HeavyExtensionPairs.lean",
+    "sha256": "401a03c08e53cb65488c85a01ea2a99cf0383495b28c330ef1ec2a21c2a76582",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20DegreeCongruences",
+    "path": "source/SunflowerLean/Erdos20DegreeCongruences.lean",
+    "sha256": "c70369d223c22e96b2e93b8a4c412a4630b3a90ba344821ce3059dd8068e6606",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "MeetingDefect",
+    "path": "source/MeetingDefect.lean",
+    "sha256": "124149617bfa2e4f2679e5cd54d6cde72c91294664cb009d358063e5d93ee19d",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20GraphEqualityEndpoint",
+    "path": "source/SunflowerLean/Erdos20GraphEqualityEndpoint.lean",
+    "sha256": "4b5c3cdc57aba2c19b9a828dedb3f5f7bddd20f97303b1ae017fd6df467c61bd",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20ExtremalTwenty",
+    "path": "source/SunflowerLean/Erdos20ExtremalTwenty.lean",
+    "sha256": "d40c64d13bdb0ff3aedfe2e9e093a4495838482ca82d39ecd4da6fe02f308ad2",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20ExtremalTransversals",
+    "path": "source/SunflowerLean/Erdos20ExtremalTransversals.lean",
+    "sha256": "d2edb5e6246cad5227cda874159fcc4bdff69c94ca9cb21a99166643ead993c3",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20ThreeCrossEdges",
+    "path": "source/SunflowerLean/Erdos20ThreeCrossEdges.lean",
+    "sha256": "7808e2c34b4c115ff4dd7fe72f7dd29d6f3a527a5116a13ba7d3f5ce6e82a8cc",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V8Stability",
+    "path": "source/SunflowerLean/Erdos20V8Stability.lean",
+    "sha256": "c69c0c3bba328c379203f09f7477165bb46dfd7311401ddcd8387534ffc3db4a",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V8DesignCounts",
+    "path": "source/SunflowerLean/Erdos20V8DesignCounts.lean",
+    "sha256": "af7c092827c77a16dede2deae160022dfb1eee147b469a256f2011afd591f8bb",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V8Boundary",
+    "path": "source/SunflowerLean/Erdos20V8Boundary.lean",
+    "sha256": "c00e8a3e9e617ed13070736d955fa1a92baf0f3e3ad7b4023b6778dcebd6cd8f",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V8HighWeights",
+    "path": "source/SunflowerLean/Erdos20V8HighWeights.lean",
+    "sha256": "d253e3c8958b83e77ddbbace6013f4780d6b50a2db7d33e21fdc9dfd718f2513",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V9HighCompatibility",
+    "path": "source/SunflowerLean/Erdos20V9HighCompatibility.lean",
+    "sha256": "50257c647d5b7cc88c897abdb5b5b14eaf44e4a6893e4225a64c3578a995eed3",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V9HighCompatibilityMain",
+    "path": "source/SunflowerLean/Erdos20V9HighCompatibilityMain.lean",
+    "sha256": "71a92ca064dd4fc786a821165ef8922c690a3fdaa36d2d9f5863215fda84aeff",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V9HighIncidence",
+    "path": "source/SunflowerLean/Erdos20V9HighIncidence.lean",
+    "sha256": "55cd5a470f179eb9500bec7a98503f562ef418bb3a3b55754adf7871125eee30",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V9HighGraph",
+    "path": "source/SunflowerLean/Erdos20V9HighGraph.lean",
+    "sha256": "211e6e6afcd4c38a05a1045ba7ec5fde6715c065382ad28f87c656f9743ec1d5",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10HighTriangle",
+    "path": "source/SunflowerLean/Erdos20V10HighTriangle.lean",
+    "sha256": "60a57afc02b21e0d2af9e4c436898062d2453344cdfc963081b3c0abf89d83d4",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10HighTriangleGeometry",
+    "path": "source/SunflowerLean/Erdos20V10HighTriangleGeometry.lean",
+    "sha256": "48370063ba1e9e119631ccdd6d7031ab7d1fc4909ff80298454ec52464fa4fa7",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10HighTriangleMain",
+    "path": "source/SunflowerLean/Erdos20V10HighTriangleMain.lean",
+    "sha256": "1389b401fba08fc70fb3e9e4e42328a0d1faa694166588e001907d80d501a07b",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10HighTriangleTransfer",
+    "path": "source/SunflowerLean/Erdos20V10HighTriangleTransfer.lean",
+    "sha256": "d25b30918e48c5ab7cae47b6a59a5138540b6c4919f4b2e314943a9018af7807",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10HighTriangleDegreeOne",
+    "path": "source/SunflowerLean/Erdos20V10HighTriangleDegreeOne.lean",
+    "sha256": "7f05a2f77cdc174295d7dea454cf347c0f0e813f594c9d9a9a62636349e1eebc",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10HighTriangleIncidence",
+    "path": "source/SunflowerLean/Erdos20V10HighTriangleIncidence.lean",
+    "sha256": "a7cbf6731d9c5c7d6df6dec397578bc55e06c3aadb364d873ccb5a400d70b481",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11HighSupport",
+    "path": "source/SunflowerLean/Erdos20V11HighSupport.lean",
+    "sha256": "684c178f20521fd8cc7dae719d9ad6a2090813e5684dc526fe480a35063e0992",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11EdgeThirdDesign",
+    "path": "source/SunflowerLean/Erdos20V11EdgeThirdDesign.lean",
+    "sha256": "1ac6da8574445c510a0e8a74d2d18a38a31db80f3ab30e9134aa48627b5a2267",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11EdgeThirdSupport",
+    "path": "source/SunflowerLean/Erdos20V11EdgeThirdSupport.lean",
+    "sha256": "6c75192fba2029759c842ccbb903f2cd0c80c025dba2947970dc38d59f19f170",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11EdgeTrace",
+    "path": "source/SunflowerLean/Erdos20V11EdgeTrace.lean",
+    "sha256": "2b909edfd97633f609477d6c1f9c702b12902e22280e003025d78ff9308ddab2",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11EdgeThird",
+    "path": "source/SunflowerLean/Erdos20V11EdgeThird.lean",
+    "sha256": "680d162a5c207ed572e7867aa4331000f9f6ee81a5402980aa87ea6b95d06432",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11HighCommon",
+    "path": "source/SunflowerLean/Erdos20V11HighCommon.lean",
+    "sha256": "bd8dbeb1173b02edf6030a8f7c7d913a8cac2d43e20e0977783b6d43d9ae4f86",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V12HighEdge",
+    "path": "source/SunflowerLean/Erdos20V12HighEdge.lean",
+    "sha256": "09b086adc6e5486d6e755f32751d231bf13edd045112f2eb419e4044e0beb473",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V12HighCard",
+    "path": "source/SunflowerLean/Erdos20V12HighCard.lean",
+    "sha256": "00eaedc7b3a2aa0fea7edcb24c8f8f9b0d8559e290bfee0261e98da37afe7cd4",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V12HighCardGraph",
+    "path": "source/SunflowerLean/Erdos20V12HighCardGraph.lean",
+    "sha256": "cb34ccc2c883d905a4f7b7eec716ed21f8984545ca3404b532780b381bbef4b2",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V12HighCardPairs",
+    "path": "source/SunflowerLean/Erdos20V12HighCardPairs.lean",
+    "sha256": "5e797f34f8e4875223e9c45926811216ef408ece482b4a6cbf25b211de464e08",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10HighParity",
+    "path": "source/SunflowerLean/Erdos20V10HighParity.lean",
+    "sha256": "62eae54ce96b8fd271a88b9afccb15b311e8c23e25f2ffc01bb37634a95c36c3",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V12HighCardTwo",
+    "path": "source/SunflowerLean/Erdos20V12HighCardTwo.lean",
+    "sha256": "1bef7fbdd78891fa1aa813de222ec6e3572d48372f665d5bc329b8a652046b70",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V8MeetingProfile",
+    "path": "source/SunflowerLean/Erdos20V8MeetingProfile.lean",
+    "sha256": "35f9beea08b5c907ccfe5c2767d76b67d37bffc8bd9ee721a90c5e674132d1d9",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V9Profile",
+    "path": "source/SunflowerLean/Erdos20V9Profile.lean",
+    "sha256": "8afc9ad0a65f24b035ba3e97b9907a41d91b856f4ce01db53cb8baf9f03d9462",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10Profile54Score",
+    "path": "source/SunflowerLean/Erdos20V10Profile54Score.lean",
+    "sha256": "ed1140422c47ba525bde69b1033e9d0910e9115ff86e7ce16d01f5f8d8f41cf6",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V12ProfileScore",
+    "path": "source/SunflowerLean/Erdos20V12ProfileScore.lean",
+    "sha256": "8ae43d1af45e36b911c5800fb37d97104e2ad43db0e1c389d634fcf8d9130fd3",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20SaturatedMeeting",
+    "path": "source/SunflowerLean/Erdos20SaturatedMeeting.lean",
+    "sha256": "b766ed0d12105aae33ac9b6cfed8caf50c6be7b64e608d90ceb18abffde5bdb7",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20RankFourRefined",
+    "path": "source/SunflowerLean/Erdos20RankFourRefined.lean",
+    "sha256": "0bcd59aa7d3c11cee44d74182f943320c64477ba58e9ec0f71c13ceef9344f71",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20MeetingFiftySix",
+    "path": "source/SunflowerLean/Erdos20MeetingFiftySix.lean",
+    "sha256": "8607a4cc8a83080c65aeb90033aab9c62b67a3f35cde19807a289f07ba7eb47f",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20FortyOneArithmetic",
+    "path": "source/SunflowerLean/Erdos20FortyOneArithmetic.lean",
+    "sha256": "8e5106954ddfa87e3715f7710aa10f22d2074c0606d762ec4920d4d7bdf2ec5f",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20FortyOne",
+    "path": "source/SunflowerLean/Erdos20FortyOne.lean",
+    "sha256": "aac2481e1bd79733902e326a3925099310ecb93915b5cf6090b34c0dcabe525e",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20SeededBounds",
+    "path": "source/SunflowerLean/Erdos20SeededBounds.lean",
+    "sha256": "d2b08b8601f68197ccd3091bdfee663d5bce363ba78d35a316bed02ba94659d7",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20RankFourPropagation",
+    "path": "source/SunflowerLean/Erdos20RankFourPropagation.lean",
+    "sha256": "fc0b34f50e2a4707c7d109b2756c1e62b8942f743c100f5575f23651e96de381",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V6Bounds",
+    "path": "source/SunflowerLean/Erdos20V6Bounds.lean",
+    "sha256": "789c2621d115f3cea2c16b0a622acbf1f55e26bae76852bb582f632faf4ad61c",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V7Bounds",
+    "path": "source/SunflowerLean/Erdos20V7Bounds.lean",
+    "sha256": "7edfd6296376d2453ba3029fc0b641666ec860f1d5f82af2669671351ee71b9d",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V8Global",
+    "path": "source/SunflowerLean/Erdos20V8Global.lean",
+    "sha256": "5055e8abb35ad5ec82c4648c3d1802e4f62d67cdd8509dc0d86af8e3a8bf81a1",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V8ProfileBridge",
+    "path": "source/SunflowerLean/Erdos20V8ProfileBridge.lean",
+    "sha256": "f0c2ac4107d277c1a9562b1c64c4412f393d23388a53b1e64385a5277ca5ebc8",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V8HighDegrees",
+    "path": "source/SunflowerLean/Erdos20V8HighDegrees.lean",
+    "sha256": "db2690a9388af66ef55f5c9cb0348ca4e87bf14a89294635ca1c7d9aea4a183f",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V12ProfileScoreBridge",
+    "path": "source/SunflowerLean/Erdos20V12ProfileScoreBridge.lean",
+    "sha256": "269dbbacff7787a6224e8c3449fa635eee37608bb9ba150ab7652f6a2979f679",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11EdgePairs",
+    "path": "source/SunflowerLean/Erdos20V11EdgePairs.lean",
+    "sha256": "a56403b5d4314f3ac3073661dbdfee3a7dfffbd19e84f49d0f2ebefe0b80e32a",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10DisjointDegree",
+    "path": "source/SunflowerLean/Erdos20V10DisjointDegree.lean",
+    "sha256": "173f879f8d4a6942a52821468541578eb59e8a08579946a106ec2d736028c5f0",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10Profile54ScoreBridge",
+    "path": "source/SunflowerLean/Erdos20V10Profile54ScoreBridge.lean",
+    "sha256": "55c29ed8fd465c153caadcad00bb1d0cd183ba01e817e64ba5af8046fcded823",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10MinimumDegree",
+    "path": "source/SunflowerLean/Erdos20V10MinimumDegree.lean",
+    "sha256": "1f85de81670903bf88c372f37f49121b4238d8f852128351c2706e5d45998df3",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V9TraceBridge",
+    "path": "source/SunflowerLean/Erdos20V9TraceBridge.lean",
+    "sha256": "b0d2f25a9c123a38ae2508825e47e9d583ed00cfa7cab563a27a6c0906003407",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V9ProfileBridge",
+    "path": "source/SunflowerLean/Erdos20V9ProfileBridge.lean",
+    "sha256": "8de247fbde37fb2b9fc16e94e15745f7f17e87c67c50d804ef931c67e070df87",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V9BoundaryArithmetic",
+    "path": "source/SunflowerLean/Erdos20V9BoundaryArithmetic.lean",
+    "sha256": "5588f7f3fbab69f8de9b864c6a4fd992285ed5c92df7dfa4f7421f2fe84ba7f1",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V9Census",
+    "path": "source/SunflowerLean/Erdos20V9Census.lean",
+    "sha256": "ef89da3ab5ab88976b56cf3220abd8b41c25e98e2a7d427374886907b6d25206",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V8Targets",
+    "path": "source/SunflowerLean/Erdos20V8Targets.lean",
+    "sha256": "5aede5f7563da4d02d4da14429253062099f3e83a1d5b8b8c8eac5ef382d3a36",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V8BoundaryReduction",
+    "path": "source/SunflowerLean/Erdos20V8BoundaryReduction.lean",
+    "sha256": "c48b807212dc9b6a50d218aa010caa6eed18faf36ba64263171b49c81fe8fff4",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V8Final",
+    "path": "source/SunflowerLean/Erdos20V8Final.lean",
+    "sha256": "ce55850e90751e823d4a5c94acfb1948f84e34dd3b617eae26975923279ce30a",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V9Final",
+    "path": "source/SunflowerLean/Erdos20V9Final.lean",
+    "sha256": "73a1501353f69bfbcfb6466fa664d49ae8a8729c621088af207ab6ee2eb6ab1b",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10Profile54",
+    "path": "source/SunflowerLean/Erdos20V10Profile54.lean",
+    "sha256": "2f0b2745f6ff844dcb3fd7a61ac64367227690a393f3d2d5977f875a580f460b",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10Profile54Bridge",
+    "path": "source/SunflowerLean/Erdos20V10Profile54Bridge.lean",
+    "sha256": "fdf92f6387721b5d1c147fb1e9ed65712dd89691409b7c4068e747d1e531da6e",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10Profile54DegreeCap",
+    "path": "source/SunflowerLean/Erdos20V10Profile54DegreeCap.lean",
+    "sha256": "043bdc0aa2af975fc9aec588cb9f2ca9a966816f20f317f4e20623fd10c2d5d6",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10BoundaryReduction",
+    "path": "source/SunflowerLean/Erdos20V10BoundaryReduction.lean",
+    "sha256": "102227f21e6986fbb9617e2b6512c30144b27c5ca79a8ae7dd75c1f4320d21b9",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10Profile54Seventeen",
+    "path": "source/SunflowerLean/Erdos20V10Profile54Seventeen.lean",
+    "sha256": "a6b8433f8ed91493cdcb7715c324c5ca0c4194a2492604476bc07a70843b9c16",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10Profile54LowScores",
+    "path": "source/SunflowerLean/Erdos20V10Profile54LowScores.lean",
+    "sha256": "11031d287a4767d5cb28c3c513943b14d1482baae96ca0be76a48b61ce27fdfa",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10Profile54LowScoresBridge",
+    "path": "source/SunflowerLean/Erdos20V10Profile54LowScoresBridge.lean",
+    "sha256": "73a6c31481a364b8d71f004fafa87c77ffec426741ba1593e0e19dd46bd70a7f",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10Profile54SeventeenCap",
+    "path": "source/SunflowerLean/Erdos20V10Profile54SeventeenCap.lean",
+    "sha256": "5b0ae554b681454c097c2d85e40d15e52c894f376fae1633e1c6de1b1c19f396",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10FiniteEndgame",
+    "path": "source/SunflowerLean/Erdos20V10FiniteEndgame.lean",
+    "sha256": "75e483978d632e0076c6cf140c9e22c5d38da7c11814794de00ec26e083925b7",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11Census",
+    "path": "source/SunflowerLean/Erdos20V11Census.lean",
+    "sha256": "99a19cb868d8dff99256f7793f8cf5d4e54682a0143329e6aeb505de1b7e8cae",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V10HighParityMain",
+    "path": "source/SunflowerLean/Erdos20V10HighParityMain.lean",
+    "sha256": "2d219614830821e1d70f85facb04659c6819560ceac90c886aae8aa0382a82b3",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11CensusCapacity",
+    "path": "source/SunflowerLean/Erdos20V11CensusCapacity.lean",
+    "sha256": "cc250abc298df1971bb58a74e63e041b4d86e47420ad6ebafa643490241715c7",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11HighEdgeReserve",
+    "path": "source/SunflowerLean/Erdos20V11HighEdgeReserve.lean",
+    "sha256": "c5a5828c6b5a0e56d1a4cf837d8df620aea8471f3d952014dbb70fdf75090cda",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11HighEdgeCounts",
+    "path": "source/SunflowerLean/Erdos20V11HighEdgeCounts.lean",
+    "sha256": "1d52bb6401a37f434149b848b7ed7cd75ec9c4a32cf785773f00154f1789d3ed",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11EdgeCapacity",
+    "path": "source/SunflowerLean/Erdos20V11EdgeCapacity.lean",
+    "sha256": "09425bbe2763fb68a66eaaa5e94ee79a368d8b4d6cbf8286aa732acb46618a5d",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11EdgeCapacityThree",
+    "path": "source/SunflowerLean/Erdos20V11EdgeCapacityThree.lean",
+    "sha256": "533d9d7b3e035f7235e7004be6f9573871f6d7d2c0b0a41461581efe6f120685",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11HighEdgeDegree",
+    "path": "source/SunflowerLean/Erdos20V11HighEdgeDegree.lean",
+    "sha256": "dc5c66b35b4871bc60d616f9b661e904b6be05862126eed49145ffb32ae0d783",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11CensusCommonSupport",
+    "path": "source/SunflowerLean/Erdos20V11CensusCommonSupport.lean",
+    "sha256": "bd971d7b83c9264e2bc4137cfeedfbee964d8b2646e21945022b9c7c6fb80985",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11CensusIndependentTriple",
+    "path": "source/SunflowerLean/Erdos20V11CensusIndependentTriple.lean",
+    "sha256": "bdb1354a1f7c9715051be56125a9889a7afee0b235b4023c0f74e5f81a55f0d4",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11CensusTenProfiles",
+    "path": "source/SunflowerLean/Erdos20V11CensusTenProfiles.lean",
+    "sha256": "f3118ffbd83121def8be4a0da239d39b93c3dde677e91d95414764d26373166c",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11CensusFinal",
+    "path": "source/SunflowerLean/Erdos20V11CensusFinal.lean",
+    "sha256": "e8e0ceb1ad5522d535fa77f5e9098a2b1cb51a85eac56a053717d18b23a3d18e",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11DegreeSeventeen",
+    "path": "source/SunflowerLean/Erdos20V11DegreeSeventeen.lean",
+    "sha256": "d522d1a62c9d5bc29223c6dbe78ee40a104d796356658a8046c2c7bb1dccb080",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11DegreeSeventeenLink",
+    "path": "source/SunflowerLean/Erdos20V11DegreeSeventeenLink.lean",
+    "sha256": "1371e3f300ebd11b2ef5e4b4ce26001c4168582b4c6ddb83803b21434730b34b",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11DegreeSeventeenTrace",
+    "path": "source/SunflowerLean/Erdos20V11DegreeSeventeenTrace.lean",
+    "sha256": "2a0349ecd8dce096b703815932890c55c3b1347251c22a975050c681dca6a7ca",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V11Final",
+    "path": "source/SunflowerLean/Erdos20V11Final.lean",
+    "sha256": "90f495a6f7ffd223be2b076cdf8b8d7274378b635de79167caa11bd235a3490f",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V12DegreeSeventeen",
+    "path": "source/SunflowerLean/Erdos20V12DegreeSeventeen.lean",
+    "sha256": "8f49e09a47dddfba7e8957e4061cccad6963b319d6527b251917b5f2918788ca",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V12ProfileReduction",
+    "path": "source/SunflowerLean/Erdos20V12ProfileReduction.lean",
+    "sha256": "6639e6e02e7f7c3832cd6fd663330e72010025ed8e41ca7c548ddb0450d05eca",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V8Intersecting",
+    "path": "source/SunflowerLean/Erdos20V8Intersecting.lean",
+    "sha256": "a11908a575279204b1d6368fb77dc24f9cd01cb673e6ed29bc99967915d3d782",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V12Nineteen",
+    "path": "source/SunflowerLean/Erdos20V12Nineteen.lean",
+    "sha256": "fe3510309d60edcd3c154b423eff7b1b7acccd6115b432caca22047f6b592d45",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V12Intersecting",
+    "path": "source/SunflowerLean/Erdos20V12Intersecting.lean",
+    "sha256": "75741ad91fef2555bfb20899a216d19f7e022e1bff56c2ed71f455d88a7761f1",
+    "recorded_check": "source-matched previous rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V12Final",
+    "path": "source/SunflowerLean/Erdos20V12Final.lean",
+    "sha256": "ff42e53557fffafb5e08bc7c915b3d963ac37168f8cfbc15be245e544e7f4dcc",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "SunflowerLean.Erdos20V13Boundary",
+    "path": "source/SunflowerLean/Erdos20V13Boundary.lean",
+    "sha256": "744f86bbed36366aa2ab7c38f935dd37c965d7d2d498b5e5d4d0253400db6916",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "ProfileAOutside",
+    "path": "source/ProfileAOutside.lean",
+    "sha256": "0acb0b79c03e00605b94ca899598f0a5d606f6c5141a17e9d827f464886959a8",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "ProfileACounts",
+    "path": "source/ProfileACounts.lean",
+    "sha256": "82ed334327e0df95f83559c6b876e3ef0f4d529d239a8dddb02b7aef85a2590b",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "ProfileAFiberBound",
+    "path": "source/ProfileAFiberBound.lean",
+    "sha256": "ad200268d7c0a1857645916647e9fbdbd6f238dfa5316b101991c56da23ecb87",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "UniqueDesignTails",
+    "path": "source/UniqueDesignTails.lean",
+    "sha256": "7544d3d21fe637f22069d6f0158ef896c9aed854fdd276ef9d6aa63860db64f0",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "GenericHeavyExtensions",
+    "path": "source/GenericHeavyExtensions.lean",
+    "sha256": "42cd0714d05e9a3426c309d06775b4a1604a8ec7751a0f34ae193bd1cb3e6ea7",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "CompletionMass",
+    "path": "source/CompletionMass.lean",
+    "sha256": "4321ba77f9b2a910e47ad43e7c88e40d8a9d21c2969ca8d060afb24454d54583",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "MinimumTransversals",
+    "path": "source/MinimumTransversals.lean",
+    "sha256": "3f87c8771f4f99fb9606f0889f250c00b7316a805dbae2fbaab034891596b053",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "TenLinkIntersection",
+    "path": "source/TenLinkIntersection.lean",
+    "sha256": "7ffcc6b375984621e32a99cc58cc90f0be768d9f9e5709c7e88f9be2b8ae1e6c",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "CompletionCompatibility",
+    "path": "source/CompletionCompatibility.lean",
+    "sha256": "203cfe089c9ae1b1b4f6a746c62b5085855ed5bea81aa741ed5dbe13256b8bb2",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "ProfileASplit",
+    "path": "source/ProfileASplit.lean",
+    "sha256": "5ea57efe4c962538c818e514378632d0085f13cda3661fc181c0cbe184dc7565",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "ProfileAFibers",
+    "path": "source/ProfileAFibers.lean",
+    "sha256": "54ad59bbc7be1592f010e33a23ae6401eab24373b0f2ed9f063d2840b600fb63",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "TwoSideConcentration",
+    "path": "source/TwoSideConcentration.lean",
+    "sha256": "7ea57c24ac161cf7563b2b08c74b413b840605edbb5215de0141c6bb3f2827ce",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "ProfileAConcentrated",
+    "path": "source/ProfileAConcentrated.lean",
+    "sha256": "d3d46b7a6e67a79e81613b46a79792d1ccad2ad9466bef51b68b30e007569d13",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "ProfileABridge",
+    "path": "source/ProfileABridge.lean",
+    "sha256": "00c8db66745e105935220baef81b2dba56f6db02a5b7fc0138af616075fd0798",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "ProfileAClosed",
+    "path": "source/ProfileAClosed.lean",
+    "sha256": "bcf178fa47a901343663cd7997d1ddd8bb39ddde65ab70e7166dda382b09bfbb",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "TwoStarResidual",
+    "path": "source/TwoStarResidual.lean",
+    "sha256": "8016530b42925df04226355cff4ecaa562cd0398d46a030574171bd3e44fb1d0",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "TwoStarBridge",
+    "path": "source/TwoStarBridge.lean",
+    "sha256": "aa0a1d6ace1745e5401cd9b0bcffad21c069e5929b5e8c306e6e78778f08332e",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "TwoHighIncidence",
+    "path": "source/TwoHighIncidence.lean",
+    "sha256": "91af69bf8c02412ad90365f21ee77bda3d29d38133cd74f3a2a28b9ef82f3816",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "TwoHighEighty",
+    "path": "source/TwoHighEighty.lean",
+    "sha256": "0842a95492d645ec73ee672c84058886c8902968a87c1768f947b07d87f815ac",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "FinalEighty",
+    "path": "source/FinalEighty.lean",
+    "sha256": "189b7bf0bfea7aecd6f4a92c920b77375cfaa4cbbbb92c7bf1fa0adaedc4bf30",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "FinalEightyAudit",
+    "path": "source/FinalEightyAudit.lean",
+    "sha256": "7c71a38a2176883bf5fcb6eb4f50db71ee9099ece903ee6f9f2797bfba049d5d",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "TwoHighEightyAudit",
+    "path": "source/TwoHighEightyAudit.lean",
+    "sha256": "37347ee84383e29f3029bed553db1bc8c3b46ea02a41e2dacbbcc23ee671cc15",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "ProfileAClosedAudit",
+    "path": "source/ProfileAClosedAudit.lean",
+    "sha256": "c111de327d82f0b9180ace417f25e83a479fb3cc9fce33b33eb29c6d4d3fc0dc",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "CanonicalTwenty",
+    "path": "source/CanonicalTwenty.lean",
+    "sha256": "f8032196f7d4279140d5dff3f62748ce9d451f9512b2abe941a4902b06cd1753",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "CanonicalAudit",
+    "path": "source/CanonicalAudit.lean",
+    "sha256": "0efe2a379c3a941343e9d84a87893e6ea0757fd3960c626c8657fd1c3950112a",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "ProfileAGeometryAudit",
+    "path": "source/ProfileAGeometryAudit.lean",
+    "sha256": "c16b69723d8408fac4e2b84314743d61f09c0a220a1d9936b37c638d22c7baaa",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "ProfileAFibersAudit",
+    "path": "source/ProfileAFibersAudit.lean",
+    "sha256": "64ec1c607829f2189324e8ea8adbbe8e75e3e7dd6c1afc1b70ac5ed9b7ca1a6e",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "TwoStarResidualAudit",
+    "path": "source/TwoStarResidualAudit.lean",
+    "sha256": "5201bee026cf531e603a220e7c32424311bd454be5ab69bec6c61e748423e915",
+    "recorded_check": "fresh rebuild"
+  },
+  {
+    "module": "ProfileABridgeAudit",
+    "path": "source/ProfileABridgeAudit.lean",
+    "sha256": "f5bf7e2036647b142121f3223a668f2c7b8eabcdf03963f9f693b17de929592c",
+    "recorded_check": "fresh rebuild"
+  }
+]

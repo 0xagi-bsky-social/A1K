@@ -1,0 +1,23 @@
+{
+  "agent_id": "/root/review_coordinator/literature_reviewer",
+  "role": "literature_reviewer",
+  "context_id": "/root/review_coordinator/literature_reviewer",
+  "round": 9,
+  "snapshot_sha256": "857bbfd81dca2ae61ee6af3097e6b29403b49028356b723e6e51b6c0640292a8",
+  "manuscript_sha256": "3ee74792dff98a43231d07100d0034b485a6f91beb2b565ffb15d22f5a40e365",
+  "summary": "The final citation-sensitive claims remain accurate after the layout repairs. External I(27) and the interval 54 <= f(4,3) <= 83 are attributed, while the local contribution remains the smaller formal obstruction target with exclusion obligations outstanding. Frozen and inspected evidence hashes match.",
+  "evidence_ids": ["F16", "F17", "F35"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Final attribution after presentation changes",
+      "method": "Compared abstract, scope, and conclusion with F16/F17; read F35 formula/inline change records, HTML attribution and references, and extracted PDF text.",
+      "observation": "F35 changes protect punctuation and multiplication syntax; they introduce no citation or status change. Reference [3] retains the versioned primary link and sections 6.3/8. The final prose preserves the computed-versus-formal distinction, identifies the 85-point baseline, and does not turn conditional G(80) into an unconditional bound. The two profile exclusions and finite refutation remain unresolved locally. No further attribution repair is required within the inspected corpus.",
+      "result": "supported",
+      "evidence_ids": ["F16", "F17", "F35"]
+    }
+  ]
+}

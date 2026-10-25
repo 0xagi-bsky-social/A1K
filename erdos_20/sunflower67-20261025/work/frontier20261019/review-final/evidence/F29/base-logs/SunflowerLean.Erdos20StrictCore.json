@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20StrictCore",
+  "source_sha256": "f9ee0de249ad35dc8e11346760bca2a2b7f0e30ba8cf86c1b1ebc032062ec622",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20StrictCore.olean",
+    "SunflowerLean/Erdos20StrictCore.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 4.775,
+  "output": "SunflowerLean/Erdos20StrictCore.lean:177:6: warning: try 'simp' instead of 'simpa'\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\nSunflowerLean/Erdos20StrictCore.lean:282:4: warning: try 'simp' instead of 'simpa'\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\n'Erdos20StrictCore.residual_sunflower_lifts' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20StrictCore.residualLink_sunflowerFree' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20StrictCore.strictSpreadMatching_implies_strictSpreadSunflower' depends on axioms: [propext, Quot.sound]\n'Erdos20StrictCore.maximal_dense_core_residual_rank_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20StrictCore.uniformBound_of_strictSpreadSunflower' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20StrictCore.strictSpreadSunflower_of_uniformBound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20StrictCore.strictSpreadSunflower_iff_uniformBound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20StrictCore.strictSpread_implies_spread' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20StrictCore.maximal_dense_core_residual_isStrictSpread' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'Erdos20StrictCore.strictSpread_card_gt_pow' depends on axioms: [propext, Quot.sound]\n'Erdos20StrictCore.directSpreadMatching_implies_strictSpreadMatching' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'Erdos20StrictCore.card_le_pow_of_strictSpreadMatching' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+}

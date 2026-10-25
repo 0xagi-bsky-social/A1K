@@ -1,0 +1,82 @@
+{
+  "task": "Complete four-star combinatorial and moment inputs for the support-53 assembly",
+  "namespace": "FrontierFourStar",
+  "source": "lean/FourStar.lean",
+  "conventions": {
+    "family": "Finset (Finset \u03b1)",
+    "number_domain": "Int for moment polynomials; Nat for cardinalities",
+    "distinguished_points": "four pairwise distinct points for corrected intersection and moment; union bounds also valid without distinctness",
+    "intersecting": "all S,T in F, including S=T, have nonempty intersection",
+    "general_moment": "No sunflower-free hypothesis; arbitrary uniform rank and family size"
+  },
+  "obligations": [
+    {
+      "name": "corrected_nonempty",
+      "kind": "structural",
+      "approach": "16 Boolean membership cases; selected-point subset cardinality lower bound"
+    },
+    {
+      "name": "four_star_second_moment",
+      "kind": "assembly",
+      "approach": "ordered pair bound with exact diagonal; indicator product double counting"
+    },
+    {
+      "name": "four_star_sum_bound",
+      "kind": "structural",
+      "approach": "16 Boolean member-incidence cases"
+    },
+    {
+      "name": "four_star_twice_sum_bound",
+      "kind": "structural",
+      "approach": "16 Boolean member-incidence cases"
+    }
+  ],
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "status": "elaborated",
+  "repair_history": [
+    {
+      "attempt": 1,
+      "result": "failed",
+      "diagnostics": [
+        "filter insertion simplification missing",
+        "sum of 2 times indicators not factored"
+      ],
+      "repair": [
+        "explicit filter_insert and filter_singleton",
+        "reverse mul_sum"
+      ]
+    },
+    {
+      "attempt": 3,
+      "result": "failed",
+      "diagnostics": [
+        "wrong namespace for inherited pair-codegree theorem"
+      ],
+      "repair": [
+        "Erdos20V11Census.rank_four_pair_codegree_le_six"
+      ]
+    },
+    {
+      "attempt": 4,
+      "result": "passed",
+      "receipt": "logs/FourStar.json"
+    }
+  ],
+  "receipt": {
+    "file": "FourStar.lean",
+    "source_sha256": "30549257a1cac4bca14648cce52ea74b7ce41d384a2da8470ff519b794f39a01",
+    "source_stable": true,
+    "exit_code": 0,
+    "seconds": 14.6,
+    "output": "'FrontierFourStar.corrected_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierFourStar.four_star_second_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierFourStar.four_star_sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierFourStar.four_star_twice_sum_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierFourStar.four_degree_sum_le_sixty' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+  },
+  "assurance_note": "All five printed transitive axiom closures contain only propext, Classical.choice, Quot.sound. The combined fail-closed environment audit and package replay are delegated to the root; no clean-kernel-replayed claim.",
+  "mutation_tests": [
+    "coincident points x=y=z=w=0,S={0} contradict corrected_nonempty without distinctness",
+    "empty S with points0,1,2,3 contradict corrected_nonempty without nonempty"
+  ]
+}

@@ -1,0 +1,9 @@
+import SunflowerLean.Erdos20TripleWitness
+import SunflowerLean.Erdos20RankThree
+import SunflowerLean.Erdos20FiniteReduction
+#check Finset.map_inter
+#check Finset.card_map
+#check Finset.map_injective
+#check Finset.mem_map
+#check Finset.eq_of_subset_of_card_le
+#check Erdos20FiniteReduction.mapFamily

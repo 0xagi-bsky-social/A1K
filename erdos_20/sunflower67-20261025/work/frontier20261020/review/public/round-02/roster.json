@@ -1,0 +1,110 @@
+[
+  {
+    "agent_id": "/root/review80_coordinator/chief",
+    "context_id": "/root/review80_coordinator/chief",
+    "role": "chief",
+    "expertise": "Extremal set theory and synthesis of formal proof assurance",
+    "mandate": "Perform actual substantive chief analysis for every synchronous review phase using only the frozen public snapshot; preserve objections and honest tool/evidence limits",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review80_coordinator/domain_expert",
+    "context_id": "/root/review80_coordinator/domain_expert",
+    "role": "domain_expert",
+    "expertise": "Extremal hypergraphs, triple designs and boundary exclusions",
+    "mandate": "Perform actual substantive domain_expert analysis for every synchronous review phase using only the frozen public snapshot; preserve objections and honest tool/evidence limits",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review80_coordinator/literature_reviewer",
+    "context_id": "/root/review80_coordinator/literature_reviewer",
+    "role": "literature_reviewer",
+    "expertise": "Sunflower primary literature and bounded prior-art comparison",
+    "mandate": "Perform actual substantive literature_reviewer analysis for every synchronous review phase using only the frozen public snapshot; preserve objections and honest tool/evidence limits",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review80_coordinator/methodologist",
+    "context_id": "/root/review80_coordinator/methodologist",
+    "role": "methodologist",
+    "expertise": "Proof obligations, computational coverage and reproducibility",
+    "mandate": "Perform actual substantive methodologist analysis for every synchronous review phase using only the frozen public snapshot; preserve objections and honest tool/evidence limits",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review80_coordinator/data_analyst",
+    "context_id": "/root/review80_coordinator/data_analyst",
+    "role": "data_analyst",
+    "expertise": "Exact integer combinatorics, incidence and diagnostics",
+    "mandate": "Perform actual substantive data_analyst analysis for every synchronous review phase using only the frozen public snapshot; preserve objections and honest tool/evidence limits",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review80_coordinator/logic_auditor",
+    "context_id": "/root/review80_coordinator/logic_auditor",
+    "role": "logic_auditor",
+    "expertise": "Quantifiers, proof dependencies, transitive axioms and Lean semantics",
+    "mandate": "Perform actual substantive logic_auditor analysis for every synchronous review phase using only the frozen public snapshot; preserve objections and honest tool/evidence limits",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review80_coordinator/citation_verifier",
+    "context_id": "/root/review80_coordinator/citation_verifier",
+    "role": "citation_verifier",
+    "expertise": "Theorem locators, source versions and factual provenance",
+    "mandate": "Perform actual substantive citation_verifier analysis for every synchronous review phase using only the frozen public snapshot; preserve objections and honest tool/evidence limits",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review80_coordinator/academic_writer",
+    "context_id": "/root/review80_coordinator/academic_writer",
+    "role": "academic_writer",
+    "expertise": "Rigorous mathematical exposition and assurance distinctions",
+    "mandate": "Perform actual substantive academic_writer analysis for every synchronous review phase using only the frozen public snapshot; preserve objections and honest tool/evidence limits",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review80_coordinator/alpha",
+    "context_id": "/root/review80_coordinator/alpha",
+    "role": "alpha",
+    "expertise": "Adversarial combinatorial proof audit and counterexamples",
+    "mandate": "Perform actual substantive alpha analysis for every synchronous review phase using only the frozen public snapshot; preserve objections and honest tool/evidence limits",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review80_coordinator/beta",
+    "context_id": "/root/review80_coordinator/beta",
+    "role": "beta",
+    "expertise": "Constructive combinatorial review and structural repair",
+    "mandate": "Perform actual substantive beta analysis for every synchronous review phase using only the frozen public snapshot; preserve objections and honest tool/evidence limits",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review80_coordinator/copyeditor",
+    "context_id": "/root/review80_coordinator/copyeditor",
+    "role": "copyeditor",
+    "expertise": "Mathematical copyediting, attribution and bounded text reuse",
+    "mandate": "Perform actual substantive copyeditor analysis for every synchronous review phase using only the frozen public snapshot; preserve objections and honest tool/evidence limits",
+    "provider": "unknown",
+    "model": "unknown"
+  },
+  {
+    "agent_id": "/root/review80_coordinator/typesetter",
+    "context_id": "/root/review80_coordinator/typesetter",
+    "role": "typesetter",
+    "expertise": "Mathematical typography, cross-format fidelity and visual QA",
+    "mandate": "Perform actual substantive typesetter analysis for every synchronous review phase using only the frozen public snapshot; preserve objections and honest tool/evidence limits",
+    "provider": "unknown",
+    "model": "unknown"
+  }
+]

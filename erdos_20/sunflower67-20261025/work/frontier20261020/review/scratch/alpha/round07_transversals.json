@@ -1,0 +1,8 @@
+{
+  "three_subset_candidates": 20,
+  "three_transversals": 10,
+  "six_subset_candidates_including_two_extra_points": 3003,
+  "six_transversals": 100,
+  "foreign_point_transversals": 0,
+  "scope": "Canonical finite check of minimum-transversal mechanism; generic proof additionally inspected"
+}

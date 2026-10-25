@@ -1,0 +1,63 @@
+{
+  "result": "PASS",
+  "method": "seed checks plus gluing and simultaneous-augmentation union lemma; no project imports",
+  "checks": {
+    "F": {
+      "containments": 0,
+      "sunflower_triples": 0
+    },
+    "H": {
+      "containments": 0,
+      "sunflower_triples": 0
+    },
+    "control_sunflower": {
+      "containments": 0,
+      "sunflower_triples": 1
+    },
+    "control_containment": {
+      "containments": 1,
+      "sunflower_triples": 0
+    },
+    "punctured_H_min_pair_intersection": 1,
+    "A": {
+      "containments": 0,
+      "sunflower_triples": 0
+    },
+    "A_not_contained_in_F_projection": true,
+    "two_A_one_F_projection_no_sunflower": true
+  },
+  "cardinalities": {
+    "base": 250659,
+    "E2": 806,
+    "E3": 806,
+    "candidate": 252271
+  },
+  "port_counts_N00_N01_N10_N11": [
+    33948,
+    64728,
+    64728,
+    88867
+  ],
+  "transfer_matrix": [
+    [
+      64728,
+      88867
+    ],
+    [
+      33948,
+      64728
+    ]
+  ],
+  "root_exponent": 26,
+  "radicand": 3016856916,
+  "comparison_rational": [
+    156785,
+    100000
+  ],
+  "positive_integer_margins": {
+    "new": "29266008898336073817606440295845227719963092339691467804256984735931985704358454678101915851672111587300721063226545065433412692357009209964792802341905933392892558236752074304180674762977353919710068411900176357868313204588750939816321761099970899522304534912109375",
+    "old": "211470247198855273211694764419106899645294549895931161146940638035574591403852819023271629755128474438319512194014558656463259613439982418685700688888900913298130035400390625"
+  },
+  "witness_sha256": "9a4e625eaf4dabb5f10ab73db1e081e629b803c356d7b90939acd0634a3f4f54",
+  "assurance": "certificate-diagnostic; written general proof accompanies this check; not Lean kernel verification or independent reproduction"
+}

@@ -1,0 +1,592 @@
+{
+  "evidence_grade": "certificate-diagnostic",
+  "source_sha256": "333578b18cac6272ab30dc6b7b16111956e38ad50e3a09729e2174a0c629f4fa",
+  "family_size": 27,
+  "universe_size": 9,
+  "checked_traces_including_27_existing_sets": 256,
+  "nonmember_traces": 229,
+  "admissible_nonmember_traces": [
+    []
+  ],
+  "orbits": [
+    {
+      "profile": [
+        1,
+        0,
+        0
+      ],
+      "trace": [
+        0
+      ],
+      "first": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "second": [
+        0,
+        2,
+        6,
+        7
+      ],
+      "core": [
+        0
+      ],
+      "blocker_count": 18,
+      "deletion_minimum": 6,
+      "deletion_witness": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          2,
+          3,
+          5
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ]
+      ],
+      "intersecting_deletion_minimum": 21,
+      "intersecting_forced_deletions": 15,
+      "branching_states": 107,
+      "intersecting_branching_states": 107
+    },
+    {
+      "profile": [
+        1,
+        1,
+        0
+      ],
+      "trace": [
+        0,
+        3
+      ],
+      "first": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "second": [
+        0,
+        2,
+        6,
+        7
+      ],
+      "core": [
+        0
+      ],
+      "blocker_count": 14,
+      "deletion_minimum": 6,
+      "deletion_witness": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ]
+      ],
+      "intersecting_deletion_minimum": 13,
+      "intersecting_forced_deletions": 7,
+      "branching_states": 2047,
+      "intersecting_branching_states": 2047
+    },
+    {
+      "profile": [
+        1,
+        1,
+        1
+      ],
+      "trace": [
+        0,
+        3,
+        6
+      ],
+      "first": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "second": [
+        0,
+        2,
+        7,
+        8
+      ],
+      "core": [
+        0
+      ],
+      "blocker_count": 12,
+      "deletion_minimum": 12,
+      "deletion_witness": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          6,
+          7
+        ],
+        [
+          0,
+          2,
+          6,
+          7
+        ],
+        [
+          1,
+          2,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          6,
+          7
+        ],
+        [
+          3,
+          5,
+          6,
+          7
+        ],
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "intersecting_deletion_minimum": 15,
+      "intersecting_forced_deletions": 3,
+      "branching_states": 8191,
+      "intersecting_branching_states": 8191
+    },
+    {
+      "profile": [
+        2,
+        0,
+        0
+      ],
+      "trace": [
+        0,
+        1
+      ],
+      "first": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "second": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "core": [
+        0,
+        1
+      ],
+      "blocker_count": 9,
+      "deletion_minimum": 3,
+      "deletion_witness": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ]
+      ],
+      "intersecting_deletion_minimum": 12,
+      "intersecting_forced_deletions": 9,
+      "branching_states": 15,
+      "intersecting_branching_states": 15
+    },
+    {
+      "profile": [
+        2,
+        1,
+        0
+      ],
+      "trace": [
+        0,
+        1,
+        3
+      ],
+      "first": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "second": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "core": [
+        0,
+        1
+      ],
+      "blocker_count": 4,
+      "deletion_minimum": 2,
+      "deletion_witness": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ]
+      ],
+      "intersecting_deletion_minimum": 5,
+      "intersecting_forced_deletions": 3,
+      "branching_states": 15,
+      "intersecting_branching_states": 15
+    },
+    {
+      "profile": [
+        2,
+        1,
+        1
+      ],
+      "trace": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "first": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "second": [
+        0,
+        1,
+        7,
+        8
+      ],
+      "core": [
+        0,
+        1
+      ],
+      "blocker_count": 5,
+      "deletion_minimum": 5,
+      "deletion_witness": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          6,
+          7
+        ],
+        [
+          3,
+          4,
+          6,
+          7
+        ],
+        [
+          3,
+          5,
+          6,
+          7
+        ]
+      ],
+      "intersecting_deletion_minimum": 6,
+      "intersecting_forced_deletions": 1,
+      "branching_states": 63,
+      "intersecting_branching_states": 63
+    },
+    {
+      "profile": [
+        3,
+        0,
+        0
+      ],
+      "trace": [
+        0,
+        1,
+        2
+      ],
+      "first": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "second": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "core": [
+        0,
+        1
+      ],
+      "blocker_count": 27,
+      "deletion_minimum": 9,
+      "deletion_witness": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          4,
+          5
+        ]
+      ],
+      "intersecting_deletion_minimum": 18,
+      "intersecting_forced_deletions": 9,
+      "branching_states": 676,
+      "intersecting_branching_states": 676
+    },
+    {
+      "profile": [
+        3,
+        1,
+        0
+      ],
+      "trace": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "first": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "second": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "core": [
+        0,
+        1
+      ],
+      "blocker_count": 12,
+      "deletion_minimum": 6,
+      "deletion_witness": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          4,
+          5
+        ]
+      ],
+      "intersecting_deletion_minimum": 9,
+      "intersecting_forced_deletions": 3,
+      "branching_states": 1023,
+      "intersecting_branching_states": 1023
+    }
+  ],
+  "runtime_seconds": 0.0769492860417813,
+  "scope": "All traces of four-sets on this fixed nine-point support, with arbitrary exterior points. No extremal-27 classification."
+}

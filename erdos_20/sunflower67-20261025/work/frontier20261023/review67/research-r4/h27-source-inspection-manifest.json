@@ -1,0 +1,41 @@
+{
+  "scope": "Fresh source inspection, no external script executed; no source-to-historical-run authentication",
+  "git_tree": "d4d5723267c662291efdadfa6e7061d919e76fa9",
+  "tree_entries": 117,
+  "tree_truncated": false,
+  "provenance_paths": [],
+  "provenance_fetch_status": 404,
+  "files": [
+    {
+      "label": "readme",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/research-r4/h27-readme.txt",
+      "git_blob_sha": "db9b1966f961156b0c7e4b8b158f9e171cddd33b",
+      "sha256": "bc287c951cbed42f5955380f719d38cd81b2daa21fa8381ce5d5d36d9ea90f1a"
+    },
+    {
+      "label": "script",
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/research-r4/h27-script.txt",
+      "git_blob_sha": "d3b4ae7f1a2abce5561c3d033bd5e0a04744c17a",
+      "sha256": "ba72a0a0f2fb0057bd11bf75b1ce8dd1fd104312a7885e67077a9952288e545e"
+    }
+  ],
+  "tool_results": [
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/research-r4/h27-provenance-tool-result.json",
+      "sha256": "b57386db47b368ef86734943c0cb6476c71598747df2caa10b9fc80f23a3ef1d"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/research-r4/h27-readme-tool-result.json",
+      "sha256": "aa10ddfb02dce49fad168104894b25b4649ca0ce6ad80172fa414c6a412285e7"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/research-r4/h27-script-tool-result.json",
+      "sha256": "9c88ca6cc05995dfaab126e8bcf1b3414b19805e8cf116c38384d27b7b5b5f0c"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/research-r4/h27-tree-tool-result.json",
+      "sha256": "72dd5a55c5d6e1281d40765086891c43db767b94332ada2b1ce7d9a1826b0023"
+    }
+  ],
+  "web_open_attempt": "Three browser opens failed with Cache miss; GitHub connector then supplied pinned blobs and tree, and a 404 for the named provenance path."
+}

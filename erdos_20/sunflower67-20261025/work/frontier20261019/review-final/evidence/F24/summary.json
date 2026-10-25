@@ -1,0 +1,700 @@
+{
+  "status": "pass",
+  "assurance": "axiom-audited",
+  "version": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)",
+  "dependencies": [
+    {
+      "name": "mathlib",
+      "revision": "2df2f0150c275ad53cb3c90f7c98ec15a56a1a67"
+    },
+    {
+      "name": "plausible",
+      "revision": "160af9e8e7d4ae448f3c92edcc5b6a8522453f11"
+    },
+    {
+      "name": "LeanSearchClient",
+      "revision": "3591c3f664ac3719c4c86e4483e21e228707bfa2"
+    },
+    {
+      "name": "importGraph",
+      "revision": "e9f31324f15ead11048b1443e62c5deaddd055d2"
+    },
+    {
+      "name": "proofwidgets",
+      "revision": "b4fb2aa5290ebf61bc5f80a5375ba642f0a49192"
+    },
+    {
+      "name": "aesop",
+      "revision": "2f6d238744c4cb07fdc91240feaf5d4221a27931"
+    },
+    {
+      "name": "Qq",
+      "revision": "9312503909aa8e8bb392530145cc1677a6298574"
+    },
+    {
+      "name": "batteries",
+      "revision": "24241822ef9d3e7f6a3bcc53ad136e12663db8f3"
+    },
+    {
+      "name": "Cli",
+      "revision": "933fce7e893f65969714c60cdb4bd8376786044e"
+    }
+  ],
+  "source_manifest_sha256": "a20772968e780ca4a212681bab595f468be51dae715de5dfd9eed1baa6c76a68",
+  "modules": [
+    "SupportBound",
+    "SupportGrid",
+    "PairSix",
+    "MomentArithmetic",
+    "SupportGrid53",
+    "Support56",
+    "DegreeEnvelope",
+    "SupportFacts",
+    "FourStar",
+    "SupportFinish56",
+    "SupportFinish53",
+    "SupportReduction",
+    "LiteralStatements",
+    "FrontierAudit"
+  ],
+  "root_count": 66,
+  "roots": [
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupport.weighted_incidence_sum",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupport.intersecting_degree_support_inequality",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupport.intersecting_twenty_eight_support_le_seventy_two",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupport.finite72_obstruction_of_counterexample",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupport.intersecting_upper_twenty_seven_iff_no_finite72_obstruction",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupport.equal_intersections_iff_no_exact_two",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupport56.sum_indicator",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupport56.indicator_inter",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupport56.double_sum_indicator",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupport56.corrected_nonempty",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupport56.double_sum_ge_diagonal",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupport56.double_sum_corrected_lower",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupport56.double_sum_inter_eq",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupport56.triple_codegree_le_two",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupport56.three_star_sum_bound",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupport56.two_star_sum_bound",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupport56.three_star_second_moment",
+      "status": "pass"
+    },
+    {
+      "axioms": [],
+      "root": "FrontierSupportGrid.grid_bound",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupportGrid.natural_grid_bound",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierPairSix.common_point_of_incidence_defect",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierPairSix.thirteen_six_four_common_point",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierPairSix.avoiding_pair_shape",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierPairSix.x_only_card_thirteen",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierPairSix.x_only_point_capacity_four",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierPairSix.pair_avoiding_common_point",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierPairSix.triangle_anchor_multiplicity",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierPairSix.degree_nineteen_pair_six_avoiding_common_point",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupportFacts.degree_pos",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupportFacts.degree_sum",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupportFacts.degree_sum_twenty_eight",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupportFacts.pair_bound",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupportFacts.triple_bound",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupportFacts.two_degree_bound",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupportFacts.three_degree_bound",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupportFacts.quadratic_sum_eq",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierDegreeEnvelope.exists_top_two",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierDegreeEnvelope.exists_top_three",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierDegreeEnvelope.exists_top_four",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierDegreeEnvelope.degree_envelope",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierDegreeEnvelope.envelope_three",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierDegreeEnvelope.envelope_four",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierDegreeEnvelope.sum_falling_eq_square_sub",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierDegreeEnvelope.support_degree_pos",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierDegreeEnvelope.support_degree_sum",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierMomentArithmetic.falling_factorial_nonneg",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierMomentArithmetic.triple_correction_le_two",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierMomentArithmetic.quadratic_lower_of_sum_bounds",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierMomentArithmetic.three_pair_moment_bound",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierMomentArithmetic.six_pair_moment_bound",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierFourStar.corrected_nonempty",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierFourStar.four_star_second_moment",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierFourStar.four_star_sum_bound",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierFourStar.four_star_twice_sum_bound",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierFourStar.four_degree_sum_le_sixty",
+      "status": "pass"
+    },
+    {
+      "axioms": [],
+      "root": "FrontierSupportGrid53.grid_bound",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupportGrid53.natural_grid_bound",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupportFinish.intersecting_twenty_eight_support_le_fifty_six",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupportFinish.intersecting_twenty_eight_support_le_fifty_three",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupportReduction.finite56_obstruction_of_counterexample",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupportReduction.finite53_obstruction_of_counterexample",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupportReduction.intersecting_upper_twenty_seven_iff_no_finite56_obstruction",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierSupportReduction.intersecting_upper_twenty_seven_iff_no_finite53_obstruction",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierLiteralStatements.literal_support56",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierLiteralStatements.literal_support53",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierLiteralStatements.literal_i27_iff_no_fin56",
+      "status": "pass"
+    },
+    {
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "root": "FrontierLiteralStatements.literal_i27_iff_no_fin53",
+      "status": "pass"
+    }
+  ],
+  "import_graph": {
+    "SupportBound": [],
+    "Support56": [
+      "SupportBound",
+      "SupportGrid"
+    ],
+    "SupportGrid": [],
+    "PairSix": [],
+    "SupportFacts": [
+      "Support56"
+    ],
+    "DegreeEnvelope": [
+      "SupportBound"
+    ],
+    "MomentArithmetic": [],
+    "FourStar": [
+      "Support56"
+    ],
+    "SupportGrid53": [],
+    "SupportFinish56": [
+      "SupportFacts",
+      "DegreeEnvelope",
+      "MomentArithmetic"
+    ],
+    "SupportFinish53": [
+      "SupportFacts",
+      "DegreeEnvelope",
+      "MomentArithmetic",
+      "FourStar",
+      "SupportGrid53"
+    ],
+    "SupportReduction": [
+      "SupportFinish56",
+      "SupportFinish53"
+    ],
+    "LiteralStatements": [
+      "SupportReduction"
+    ],
+    "FrontierAudit": [
+      "SupportBound",
+      "Support56",
+      "SupportGrid",
+      "PairSix",
+      "SupportFacts",
+      "DegreeEnvelope",
+      "MomentArithmetic",
+      "FourStar",
+      "SupportGrid53",
+      "SupportFinish56",
+      "SupportFinish53",
+      "SupportReduction",
+      "LiteralStatements"
+    ]
+  },
+  "independence": "same host and toolchain; new module output directory initially empty",
+  "limitation": "Inherited A1K and mathlib objects reused; source revision matches do not authenticate cached objects; not clean-kernel-replayed."
+}

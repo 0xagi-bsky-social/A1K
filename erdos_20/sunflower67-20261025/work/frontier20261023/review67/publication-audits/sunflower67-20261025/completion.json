@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-25T14:39:14.023888+00:00",
+  "status": "completed-local-publication-with-recorded-delivery-QA",
+  "manuscript_sha256": "ec6872777eecaeca0563978e849f2b2fce2c48eb9e28e2efed87ba64b3128bb9",
+  "review_bundle_sha256": "e9429086a25e44dd824287479acf1c07b8f533f226ccf87b695f2e7f4566cb23",
+  "actual_specialist_contexts": 12,
+  "actual_complete_rounds": 10,
+  "actual_round_submissions": 120,
+  "separate_actual_final_audits": [
+    {
+      "role": "chief",
+      "context_id": "/root/r67_chief",
+      "decision": "accept",
+      "record_sha256": "f54d4404111ee940957621b2a5f9def63df202c90d90fc8165fc0ddfd3b823c1",
+      "record_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/records/final01/chief.json"
+    },
+    {
+      "role": "alpha",
+      "context_id": "/root/r67_alpha",
+      "decision": "accept",
+      "record_sha256": "44dc209f983e277604219550e4b90befe0e4b86216580126a584e5aa10663003",
+      "record_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/records/final01/alpha.json"
+    },
+    {
+      "role": "beta",
+      "context_id": "/root/r67_beta",
+      "decision": "accept",
+      "record_sha256": "835d29323210c8522c2601115d589d383dacc21b23d4586f3dde99ffd87cb0ff",
+      "record_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/records/final01/beta.json"
+    }
+  ],
+  "publication_receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/publication/sunflower67-20261025.publication.json",
+  "delivery_qa_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/publication-audits/sunflower67-20261025/delivery-visual-qa.json",
+  "delivery_qa_sha256": "e8cea437f81efd984bca0e2dcc0e8d586c48f0b611f08c6da69d6f48e98f21aa",
+  "artifacts": {
+    "report.html": {
+      "bytes": 44128,
+      "sha256": "a12641278024c77f691679647de742afee223d14e0d5df76ae0d276df440e8c4"
+    },
+    "report.md": {
+      "bytes": 38494,
+      "sha256": "ec6872777eecaeca0563978e849f2b2fce2c48eb9e28e2efed87ba64b3128bb9"
+    },
+    "report.pdf": {
+      "bytes": 116700,
+      "sha256": "ca8a81f4578ff4a26289ecf2733afd27b69d9b8de7d30fe06c977b71921b5d55"
+    }
+  },
+  "independent_human_certification": "not-requested",
+  "native_validator_certification_status": "not-assessed",
+  "search_cutoff": "2026-10-25T13:36:25Z",
+  "scope": "Ordinary computer-assisted arbitrary-support rank4 three-petal upper67; strongest located comparable prior upper68; not all-rank, absolute global-priority certification, complete independent replay or end-to-end Lean.",
+  "delivery_qa_is_non_voting": true,
+  "remote_publication": false
+}

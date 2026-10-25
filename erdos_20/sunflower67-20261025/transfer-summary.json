@@ -1,0 +1,90 @@
+{
+  "schema": "a1k-sunflower67-transfer/1",
+  "source_report_sha256": "a12641278024c77f691679647de742afee223d14e0d5df76ae0d276df440e8c4",
+  "base_repository_commit": "0e9aee578a7bb3dbc665630c759297514f88a81d",
+  "copied_files": 4522,
+  "copied_bytes": 105281759,
+  "additional_lean_file_instances": 389,
+  "new_distinct_lean_contents_vs_v13": 72,
+  "latest_formal_audited_root_entries": 42,
+  "latest_formal_local_closure_modules": 30,
+  "intermediate_formal_closure_modules": 161,
+  "roles": {
+    "prior-support-reduction-evidence": 768,
+    "archival-lean-source": 208,
+    "negative-fixture": 4,
+    "intermediate-research-evidence": 513,
+    "intermediate-formal-receipt-lock-or-doc": 22,
+    "intermediate-formal-source": 161,
+    "research-contract-or-status": 3,
+    "inactive-exploratory-research": 45,
+    "licensed-third-party-source": 4,
+    "unfinished-formal-draft": 3,
+    "formal-source": 13,
+    "formal-receipt-or-replay-source": 51,
+    "ordinary-mathematical-bridge": 118,
+    "external-exact-certificate-data-or-receipt": 1772,
+    "external-exact-check-source": 106,
+    "literature-search-evidence": 98,
+    "review-provenance-or-reproduction": 436,
+    "review-record": 193,
+    "accepted-publication": 4
+  },
+  "external_reference_records": 3420,
+  "all_source_bytes_preserved": true,
+  "new_full_lean_build_performed": false,
+  "claim_scope": [
+    {
+      "id": "global67",
+      "statement": "Every finite simple exactly four-uniform family with at least 68 members contains three distinct sets with equal pairwise intersections; the common core may be empty. Hence 54 ≤ M(4,3) ≤ 67.",
+      "status": "ordinary-computer-assisted proof asserted by accepted report",
+      "formal_status": "Not an end-to-end Lean proof. External H27/Jin/prior structural foundations remain cited ordinary theorem imports.",
+      "not_claimed": [
+        "general Erdős–Rado sunflower conjecture",
+        "clean-kernel-replayed whole result",
+        "independent human certification",
+        "exhaustive global priority"
+      ]
+    },
+    {
+      "id": "r15",
+      "statement": "Every sunflower-free family of fifteen triples has a member disjoint from at least seven other members.",
+      "status": "ordinary arbitrary-support reduction and exact finite proof trees; no global Lean closure"
+    },
+    {
+      "id": "intermediate80",
+      "theorem": "FrontierFinalEighty.rank_four_upper_eighty_of_intersecting_twenty_seven",
+      "statement": "I(27) implies G(80).",
+      "status": "historical axiom-audited 161-module source closure (63 fresh and 98 source-matched reused modules), not a Lean proof of upper67"
+    },
+    {
+      "id": "two-high20",
+      "theorem": "FrontierTwoHighEighty.independent_twenty_stars_card_le_eighty",
+      "statement": "Two distinct noncooccurring degree-twenty points in a finite four-uniform sunflower-free family imply cardinality at most eighty.",
+      "status": "historical axiom-audited structural intermediate"
+    }
+  ],
+  "assurance_boundaries": {
+    "external_checks": "certificate-diagnostic under Supermath; exact arithmetic/orbit/cover/tree replays are external Python/C++ execution rather than proved Lean evaluator",
+    "historical_lean": "axiom-audited only at the named roots, using pinned existing Lean4.26.0 dependency cache",
+    "shared_builder": "High-degree LP coefficient replay reconstructs through frozen matching producer; independent literal orbit/ancestry checking is separate.",
+    "unfinished_modules": [
+      "work/frontier20261023/formal/AHS27SunflowerFree.lean",
+      "work/frontier20261023/formal/AHS27Audit.lean",
+      "work/frontier20261023/formal/AHS27Finite.lean"
+    ],
+    "inactive_formal_drafts": [
+      "work/frontier20261019/structural/Support56-Cauchy-draft.lean",
+      "work/frontier20261020/root_proofs/Sharp45.lean",
+      "work/frontier20261020/root_proofs/ComponentCertificate.lean"
+    ]
+  },
+  "selection": "Required latest proof sources, certificates, versioned plans and review provenance; accepted intermediate source closure and distinct prior Lean progress retained. Duplicate source/rebuild snapshots, compiled artifacts, large inactive SMT exploration, redundant rendering/history and unlicensed upstream copies omitted and indexed.",
+  "indexes": {
+    "artifact_inventory": "erdos_20/indexes/sunflower67-artifacts.csv",
+    "external_references": "erdos_20/indexes/sunflower67-external-references.csv",
+    "omitted_artifacts": "erdos_20/indexes/sunflower67-omitted-artifacts.csv",
+    "all_lean_sources": "erdos_20/indexes/lean-source-files.csv",
+    "historical_v13_sources": "erdos_20/indexes/v13-source-files.csv"
+  }
+}

@@ -1,0 +1,1632 @@
+{
+  "snapshot": {
+    "contract_sha256": "90d2d9a768c921fd7766a8bdf668ffbf291886ce0f2ed7a753bd988d3ecfddc5",
+    "evidence": [
+      {
+        "content_sha256": "95a2713bd5350d74f80f5f0e6226406cc9ba32b8635ef9fd2fa98a5735426ac5",
+        "description": "Substantial-target review admission",
+        "id": "admission-v1",
+        "kind": "research-contract",
+        "limitations": [
+          "Admission is a research decision, not independent certification"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/admission-v1/review-admission.json",
+        "method": "Root declaration bound to successful proof receipts",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "3a3a84de13981539076dacb0b59efceb8360963e5173533a4671e2c71ab5842b",
+        "description": "Actual 20 October search and primary-source retrieval notes",
+        "id": "primary-sources-v1",
+        "kind": "primary-source-ledger",
+        "limitations": [
+          "Bounded searches; local notes do not authenticate external pages or prove exhaustive priority"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/primary-sources-v1/primary-source-check-20261020.json",
+        "method": "Read local record of actual browser access",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "b0b35c7b4f712221ad7a18dc620880b383914450d258272dc6e26a21fbb2531a",
+        "description": "Eight terminal roots and expanded conditional theorem",
+        "id": "terminal-audit-v1",
+        "kind": "formal-proof-receipt",
+        "limitations": [
+          "Same evaluator and cached dependencies; source closure pending"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/terminal-audit-v1/FinalEightyAudit.json",
+        "method": "Successful Lean output with allow-listed axiom audit",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "115ab7cff2d18b6d78515628dff3917bfd45384e546d24e802735f7039253e8d",
+        "description": "Unconditional two-independent-twenty-star theorem and literal Profile B exclusion",
+        "id": "two-star-audit-v1",
+        "kind": "formal-proof-receipt",
+        "limitations": [
+          "Same evaluator and cached dependencies; source closure pending"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/two-star-audit-v1/TwoHighEightyAudit.json",
+        "method": "Successful Lean output and printed theorem",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "61f49ee5379931a6c33fa669878bd8ce2db9b5668a12afbb89d2f5b71ba62883",
+        "description": "Literal Profile A exclusion from I27",
+        "id": "profile-a-audit-v1",
+        "kind": "formal-proof-receipt",
+        "limitations": [
+          "Same evaluator and cached dependencies; source closure pending"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/profile-a-audit-v1/ProfileAClosedAudit.json",
+        "method": "Successful Lean audit output",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "0c5914e468740d6de8be7f36ae37aa95817442d0b02fd546a1260683a978b55d",
+        "description": "formal Lean source snapshot",
+        "id": "lean-source-formal-v1",
+        "kind": "formal-source",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-formal-v1",
+        "method": "Byte copying and SHA-256 manifest",
+        "status": "available"
+      },
+      {
+        "content_sha256": "e0e67cb5efece6e4dfce3d0b2701efb3c89c72c6ac158c24a18c04f364cb5388",
+        "description": "theory Lean source snapshot",
+        "id": "lean-source-theory-v1",
+        "kind": "formal-source",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-theory-v1",
+        "method": "Byte copying and SHA-256 manifest",
+        "status": "available"
+      },
+      {
+        "content_sha256": "0f2542a2f9d02d393b36015c7473c20f2804b3094ffb11b0a87c49109c99495c",
+        "description": "compute Lean source snapshot",
+        "id": "lean-source-compute-v1",
+        "kind": "formal-source",
+        "limitations": [],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-compute-v1",
+        "method": "Byte copying and SHA-256 manifest",
+        "status": "available"
+      },
+      {
+        "content_sha256": "4189d47f0ba96c4f8e4ce8719c71290b28258b73ae4b93c2ed0005d616fa0591",
+        "description": "Python finite relative-geometry diagnostic for stronger45 conjecture",
+        "id": "universal45-diagnostic-v1",
+        "kind": "exploratory-computation",
+        "limitations": [
+          "No Lean normalization or universal45 theorem"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/universal45-diagnostic-v1/universal_two_star.json",
+        "method": "Recorded exact finite enumeration",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "99420e08e17e639deae4146e1e569a18282623765a1e4e25a6a03032edbea1f2",
+        "description": "C++ diagnostic crosscheck",
+        "id": "universal45-crosscheck-v1",
+        "kind": "exploratory-computation",
+        "limitations": [
+          "External diagnostic, not kernel proof"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/universal45-crosscheck-v1/b_universal_check.json",
+        "method": "Recorded finite enumeration",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "ad7be50ed8eaccb3927465177f10eb79efdc40cc044d9cd48428ed5fa89b746d",
+        "description": "Resource-limited45 witness attempt",
+        "id": "sharp45-failure-v1",
+        "kind": "failed-formal-attempt",
+        "limitations": [
+          "No successful proof receipt"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/sharp45-failure-v1/Sharp45.json",
+        "method": "Retained unsuccessful Lean run",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "de11e63ae63bf201dd2babc661f3f6c903dada70f023bf49a9b2adc2d682d5d4",
+        "description": "Source-closure status at review initialization",
+        "id": "closure-pending-v1",
+        "kind": "source-rebuild-status",
+        "limitations": [
+          "Source-closure rebuild pending/retry underway; no completion inferred"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-pending-v1/summary.json",
+        "method": "Frozen status receipt",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "b77a97fb49054440e4cbf077add8f60b491b1c973972aad768e9035502d0931c",
+        "description": "Completed source closure:161 modules,63 fresh and98 source-matched prior successful rebuilds",
+        "id": "closure-complete-v1",
+        "kind": "source-closure-verification",
+        "limitations": [
+          "Same evaluator and pinned dependency caches; not a clean-toolchain or independent reproduction"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-complete-v1/summary.json",
+        "method": "Read completed rebuild output and freeze exact bytes",
+        "status": "available"
+      },
+      {
+        "content_sha256": "a7e07753ef9b6e48992297177601cf17653710cad014cb2ed72362aab7f02666",
+        "description": "Exact source closure manifest",
+        "id": "closure-manifest-v1",
+        "kind": "source-closure-verification",
+        "limitations": [
+          "Same evaluator and pinned dependency caches; not a clean-toolchain or independent reproduction"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-manifest-v1/manifest.json",
+        "method": "Read completed rebuild output and freeze exact bytes",
+        "status": "available"
+      },
+      {
+        "content_sha256": "f0519f021466fc9cc793022aa7601c753643a4c20ae836a7572dc89d9d72d385",
+        "description": "66 unique reaudited roots:64 Frontier and2 inherited",
+        "id": "closure-audit-roots-v1",
+        "kind": "source-closure-verification",
+        "limitations": [
+          "Same evaluator and pinned dependency caches; not a clean-toolchain or independent reproduction"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-audit-roots-v1/audit-root-summary.json",
+        "method": "Read completed rebuild output and freeze exact bytes",
+        "status": "available"
+      },
+      {
+        "content_sha256": "461afa967fae6df8d3b54a209d4c1e6a6fd9470ad69f2b8f1295a5923de82067",
+        "description": "Portable161source closure with manifests, audit logs, reproduction recipe and attribution",
+        "id": "portable-formal-v1",
+        "kind": "formal-source-and-reproduction",
+        "limitations": [
+          "Recipe requires pinned Lean and mathlib dependencies; no separate-environment replay"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/portable-formal-v1",
+        "method": "Frozen source bundle with per-file SHA-256",
+        "status": "available"
+      },
+      {
+        "content_sha256": "ac8feccd6bc4d8b72a28bcd176f8b0914904236c8fc2a9c4d434b78e608aee1d",
+        "description": "Six-page matching manuscript preview for d786448baf9b, HTML/PDF and renderer fidelity record",
+        "id": "preview-d786-v1",
+        "kind": "rendered-preview",
+        "limitations": [
+          "Typesetter visual audit pending; renderer record is not independent validation"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/preview-d786-v1",
+        "method": "Exact copied preview bytes and per-file hashes",
+        "status": "available"
+      },
+      {
+        "content_sha256": "ecd652b20cf9c75703f72b435e951ff71891446c490b24e8c024e021ad0d7f90",
+        "description": "Actual copyeditor selected-passage comparison against accessible named primary sources",
+        "id": "text-reuse-check-v1",
+        "kind": "bounded-text-comparison",
+        "limitations": [
+          "No broad corpus detector or exhaustive source comparison; no plagiarism-free claim"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/text-reuse-check-v1/comparison.json",
+        "method": "Manual semantic/wording comparison in actual specialist context",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "d06193629789d8263a6059a3ba480b0b718a490871a28aeb5f714a131e0aebb1",
+        "description": "Matching sixpage preview for d9bebce34491 including precise attribution and proposition labels",
+        "id": "preview-d9be-v1",
+        "kind": "rendered-preview",
+        "limitations": [
+          "HTML browser visual QA unavailable; new PDF version requires typesetter comparison"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/preview-d9be-v1",
+        "method": "Frozen exact preview bytes with per-file hashes and renderer mappings",
+        "status": "available"
+      },
+      {
+        "content_sha256": "3a85477e5b7d50b49c9cd468c7aa0224eb47476b624b95d334fca5bdc7919547",
+        "description": "Actual root full sixpage inspection of d9be preview with page image hashes",
+        "id": "root-visual-d9be-v1",
+        "kind": "rendered-visual-inspection",
+        "limitations": [
+          "Root environment, not independent visual certification; later manuscript previews require matching review"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/root-visual-d9be-v1/review.json",
+        "method": "Actual visual inspection recorded by root context",
+        "status": "limited"
+      },
+      {
+        "content_sha256": "da1b26e6c59f22d2cb069f443e4e3127fe6839776837d4443bf8fd3c1c3b42dc",
+        "description": "Matching sixpage686c manuscript preview with narrowed local-proof computation scope",
+        "id": "preview-686c-v1",
+        "kind": "rendered-preview",
+        "limitations": [
+          "HTML browser visual QA unavailable; current preview comparison pending"
+        ],
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/preview-686c-v1",
+        "method": "Frozen exact bytes and renderer mappings",
+        "status": "available"
+      }
+    ],
+    "evidence_sha256": "6052a82f27be5ac251605906168a4aa7c06d8995e94c6fdae85aee88805163a9",
+    "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+    "phase": "methodology",
+    "previous_round_sha256": "9dd86c42723e1f23a1d736ede60c728f9275fbe7eea843e9de4184fd4dcb70f0",
+    "public_state": {
+      "committed_findings": [
+        {
+          "agent_id": "/root/review80_coordinator/academic_writer",
+          "checks": [
+            {
+              "evidence_ids": [],
+              "method": "Reconstructed Section 4.2 using two distinct completions and partitioned their two-element A-edges into intersection sizes zero, one and two when their B-edges are disjoint. Checked the stated sunflower witness in each case.",
+              "observation": "The three cases are exhaustive: zero gives an empty-core sunflower with R; two uses the x-star corresponding to the common A-edge; one chooses a design triple through the common point avoiding the two other endpoints, possible since 5 > 2+2. Disjoint component supports ensure the stated intersections. The symmetric argument yields intersecting coordinate-edge families, and the five-cycle bound gives at most four completion pairs.",
+              "result": "supported",
+              "scope": "Completeness of the split-completion argument as written"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Tested whether the weighted-pair paragraph proves a common point rather than merely pairwise intersections. Traced the nonempty hypothesis, integer pigeonhole step, and total-weight contradiction.",
+              "observation": "A selected pair of weight at least nine contains a point of weight at least five. Any other admissible pair omitting that point would force total weight at least fourteen, exceeding ten. This supplies a single point common to every used extension pair, supporting the injection into five triples; the nonempty and nonnegative hypotheses are now explicit.",
+              "result": "supported",
+              "scope": "Common-point conclusion versus a weaker pairwise-intersection interpretation"
+            },
+            {
+              "evidence_ids": [
+                "universal45-diagnostic-v1",
+                "universal45-crosscheck-v1"
+              ],
+              "method": "Compared Sections 3 and 6 against the frozen Python and C++ diagnostic summaries, and traced whether any diagnostic count enters the incidence derivation.",
+              "observation": "The proof reaches 37m ≤ 1512 using actual-family trace and degree bounds only. The diagnostic records maximum five among enumerated candidate geometries and explicitly requires a normalization theorem; no such finite-coverage premise appears in the structural proof. The manuscript correctly declines the universal45 conclusion. The separate opening sentence of Section 6 nevertheless needs the limited scope stated in my required revision.",
+              "result": "supported",
+              "scope": "Universal theorem versus exploratory45 interpretation"
+            }
+          ],
+          "decision": "revise",
+          "findings": [
+            {
+              "disposition": "Restrict the sentence to the new local arguments and leave the external corollary distinction explicit. This is an exposition-scope repair, not a failure of the structural proof.",
+              "evidence_ids": [],
+              "id": "enumeration-scope-sentence",
+              "severity": "minor",
+              "statement": "Section 6’s opening assertion can be read as covering Corollary 4, contradicting the expressly disclosed external enumeration premise of that corollary.",
+              "status": "open"
+            }
+          ],
+          "required_revisions": [
+            "Narrow the first sentence of Section 6 to the new local structural arguments (or Theorems 1–3 with I(27) retained as an antecedent), and explicitly preserve Corollary 4’s dependence on the external enumerative I(27) theorem. The present phrase “successful proofs above ... do not use ... large enumeration as premises” is broader than intended."
+          ],
+          "revisions": [],
+          "role": "academic_writer",
+          "summary": "The proof exposition exposes the exhaustive split-completion cases and the weight-concentration mechanism well enough to distinguish structural deductions from computational conjecture. The two-star bound 80 is universal under its stated hypotheses, while the diagnostic cap 45 is expressly unestablished. One scope sentence should be narrowed: Section 6 currently says all successful proofs above avoid large enumeration, although Corollary 4 invokes the external enumerative I(27) theorem."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/alpha",
+          "checks": [
+            {
+              "evidence_ids": [
+                "lean-source-formal-v1",
+                "portable-formal-v1"
+              ],
+              "method": "Read CompletionCompatibility.lean and TenLinkIntersection.lean; independently reconstruct the cases in Section 4.2. Run scratch/alpha/round03_split_check.py using the canonical ten-design from frozen source.",
+              "observation": "For 25 local completions and all 300 pairs, absence of a sunflower with the fixed row or a high-star member agrees exactly with intersection in both coordinates; the resulting compatibility graph has maximum clique four. Fixing one coordinate and using all five opposite edges gives five pairwise-intersecting completions, exposing why the shared-star hypotheses matter. The generic proof covers disjoint, equal, and singleton-intersecting coordinate edges and ensures the added star member is distinct via its center. The computation is a local diagnostic only, not a universal normalization argument.",
+              "result": "supported",
+              "scope": "Split-completion obstruction: all actual-family cases"
+            },
+            {
+              "evidence_ids": [
+                "lean-source-theory-v1"
+              ],
+              "method": "Read GenericHeavyExtensions.lean and rederive the mass concentration step without assuming pairwise-intersection implies a common point.",
+              "observation": "A chosen extension pair with weight at least nine has an endpoint of integer weight at least five. A heavy pair omitting it would force total weight at least fourteen, contradicting the total cap ten. This excludes the potential triangle of pairwise-intersecting pairs with empty common intersection. The key-to-block map is injective because the shared extension point is excluded from every key.",
+              "result": "supported",
+              "scope": "Rival non-Helly extension-pair configuration"
+            }
+          ],
+          "decision": "continue",
+          "findings": [
+            {
+              "disposition": "No repair required. Preserve the explicit high-star argument when editing the proof.",
+              "evidence_ids": [
+                "lean-source-formal-v1"
+              ],
+              "id": "shared-family-compatibility",
+              "severity": "note",
+              "statement": "Pairwise intersection of the residual completions alone does not imply the claimed four-completion cap; the actual-family star membership hypotheses are essential and are present in both Section 4.2 and the formal statement.",
+              "status": "resolved"
+            }
+          ],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "alpha",
+          "summary": "The fragile split-completion step withstands adversarial inspection. Merely requiring completions to intersect would be insufficient: a five-completion local counterexample exists. The manuscript and formal source correctly add the shared high-star obstructions, which force intersection in each coordinate and yield the cap four. I also checked the common-extension-point argument for a potential non-Helly triangle of extension pairs; its mass inequalities exclude that alternative."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/beta",
+          "checks": [
+            {
+              "evidence_ids": [
+                "portable-formal-v1"
+              ],
+              "method": "Reconstruct Section 3.1 using arbitrary actual R and y-star member S; inspect ProfileAOutside.disjoint_rows_outside_sum_le_two and the previously inspected TwoStarResidual theorem.",
+              "observation": "If R has at most two U-points, it has at least two outside U. Independence gives y outside U, x absent from S, and y absent from R. Under the hypothetical disjointness R∩S=∅ these outside points are distinct, so their union has at least three points outside U, contradicting the bound two. Every y-link triple therefore meets R, producing a four-point transversal in conflict with minimum size six. No bound on the ambient support or assumption R⊆U∪V is used.",
+              "result": "supported",
+              "scope": "Residual-support lemma and possible center/outside overlap loopholes"
+            },
+            {
+              "evidence_ids": [
+                "portable-formal-v1"
+              ],
+              "method": "Recompute meeting bounds and enumerate all nonnegative integer census triples satisfying total 61, outsider incidence 76 and n2≤27; then apply the actual disjoint-completion lower bound. Read the corresponding ProfileACounts and ProfileAOutside statements.",
+              "observation": "The general meeting bound is 57, so every row has a disjoint partner. For a two-outsider row the degree sum is at most 66 and the closed meeting neighborhood is at most 52, leaving at least nine distinct disjoint members. The outside-sum inequality forces each completion into H0. Before this step census gives n2=n0+15≥15, so selecting such a row is justified. The surviving triples are (n0,n1,n2)=(9,28,24),(10,26,25),(11,24,26),(12,22,27).",
+              "result": "supported",
+              "scope": "Nine-completion lower bound, nonemptiness and sharp integer margins"
+            },
+            {
+              "evidence_ids": [
+                "portable-formal-v1"
+              ],
+              "method": "Test the rival possibility of an A-key row and a B-key row coexisting; read TwoSideConcentration.concentrate_from_disjoint_completion_types and track the same fixed supports A,B from Section 4.",
+              "observation": "The former row has at least nine H0 completions with A-trace size one; the latter has at least nine with A-trace size three. Even if completions are otherwise reused across rows, these two chosen completion families are disjoint because a single set cannot have both trace sizes. Their union would have at least eighteen members inside H0 of size at most twelve. The argument does not need the two original rows themselves to be disjoint. Synchronizing A,B once removes any relabeling loophole.",
+              "result": "supported",
+              "scope": "Coherent orientation of every two-outsider row"
+            }
+          ],
+          "decision": "continue",
+          "findings": [],
+          "required_revisions": [],
+          "revisions": [
+            {
+              "action": "Read the revised inherited-input list and the following synchronized minimum-transversal paragraph.",
+              "finding_id": "/root/review80_coordinator/beta:B2-minimum-transversal-source-map",
+              "result": "The minimum-transversal assembly is now explicitly part of this development, with FrontierMinimumTransversals.two_designs_transversal_six named and inherited component ingredients distinguished.",
+              "status": "resolved"
+            }
+          ],
+          "role": "beta",
+          "summary": "The residual-support contradiction, existence of nine disjoint completions, and global orientation step survive constructive counterexample checks. The arguments use actual disjoint members and a single fixed component decomposition; neither numerical incidence data alone nor a row-dependent component choice would suffice. The manuscript supplies the needed hypotheses. The minimum-transversal attribution has also been repaired."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/chief",
+          "checks": [
+            {
+              "evidence_ids": [
+                "portable-formal-v1"
+              ],
+              "method": "Read TwoStarResidual.lean and reconstructed the outside-point contradiction in Section 3.1, allowing residual points anywhere in the ambient type.",
+              "observation": "If R has at least two points outside U, every y-star member has the additional outside point y. A member disjoint from R would give at least three distinct outside points in an eight-point union whose transversal restriction to U needs six points. Hence every y-link triple meets R, contradicting transversal number six because |R|=4. The argument uses the actual stars and no assumed coverage of the ambient support.",
+              "result": "supported",
+              "scope": "Two-star residual trace under unrestricted ambient support"
+            },
+            {
+              "evidence_ids": [
+                "portable-formal-v1"
+              ],
+              "method": "Read CompletionCompatibility.lean and checked the empty, singleton and two-point intersections of two A-coordinate edges when their B-coordinate edges are disjoint.",
+              "observation": "Empty intersection makes two completions and the original row a disjoint triple; equal A-edges permit the original a-extended design block as a third member; singleton intersection q permits a design block through q avoiding the other two endpoints, since at most four of five blocks are forbidden. Each constructed third member is distinct because it contains x. Coordinatewise intersection then limits each cycle projection to two edges and yields at most four distinct unions.",
+              "result": "supported",
+              "scope": "Split-completion rival cases"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Checked the total-weight contradiction analytically and independently enumerated all six-coordinate nonnegative integer weight vectors of total at most ten in Python; retained scratch/chief/round03_weight_check.json.",
+              "observation": "A heavy pair of weight at least nine has a point of weight at least five. Any heavy pair omitting it would force total weight at least fourteen, impossible. Exhaustive diagnostic examined 8008 vectors, including 687 with a heavy pair, and found no counterexample even when all heavy pairs are admitted. The actual proof requires only this elementary argument and injectivity of Q↦Q∪{a}; it does not require injectivity of Q↦E(Q). The diagnostic is corroboration, not a new formal premise.",
+              "result": "supported",
+              "scope": "Common-extension mechanism without permutation assumptions"
+            },
+            {
+              "evidence_ids": [
+                "portable-formal-v1"
+              ],
+              "method": "Read MinimumTransversals.lean and compared its prescribed-component hypotheses and conclusion with the revised Section 1 paragraph.",
+              "observation": "The helper restricts a six-point transversal to the two disjoint supports. Each restriction needs at least three points, so both have exactly three and their union exhausts the transversal; inherited component classification makes each restriction a design block. The current manuscript attributes this synchronization to the new Frontier helper while retaining the component ingredients as inherited.",
+              "result": "supported",
+              "scope": "Synchronized minimum-transversal claim and attribution repair"
+            }
+          ],
+          "decision": "continue",
+          "findings": [],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "chief",
+          "summary": "The structural proof chain survives targeted rival-case checks. Arbitrary points outside the two link supports cannot evade the residual trace argument; all three possible intersection sizes of completion-coordinate edges are covered; and common-extension concentration does not require an unproved extension-pair permutation. The revised attribution correctly distinguishes the new synchronized transversal helper from its inherited component facts. No counterexample or required revision arose in this phase."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/citation_verifier",
+          "checks": [
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Compared Section 1 with the source definition already directly retrieved from arXiv Section 2.1, and translated the resulting numerical statement.",
+              "observation": "With f the maximum cardinality, the ordinary conclusion f(4,3)≤80 means every 81-member family forces a sunflower. It does not assert that the minimum forcing threshold is at most 80. Section 1 now explicitly distinguishes these quantities. Source: https://arxiv.org/html/2609.06175v1#S2.SS1.",
+              "result": "supported",
+              "scope": "Maximum size versus forcing threshold"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Reasoned from pairwise intersection and exhaustively tested 81 pairwise disjoint four-sets using scratch/citation_verifier/round03_conventions.py.",
+              "observation": "In an intersecting family, every sunflower has nonempty core automatically, so positive-core and all-core sunflower restrictions coincide for I27. For the unrestricted bound they differ radically: the 81 disjoint rows have zero positive-core sunflowers but 85,320 empty-core triples. The manuscript explicitly permits empty cores, excluding this rival counterexample.",
+              "result": "supported",
+              "scope": "Positive-core rival interpretation"
+            },
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Reconstructed the cited three-block pair construction from the inspected Section 6.3 and formed two copies on disjoint supports; checked all distinct row triples in Python.",
+              "observation": "The first construction has 27 distinct four-sets, is intersecting, and has no sunflower among 2,925 triples. Two disjoint copies give 54 distinct four-sets and no sunflower among 24,804 triples. This checks these finite examples only, not I27 or the authors upper enumeration. Source: https://arxiv.org/html/2609.06175v1#S6.SS3.",
+              "result": "supported",
+              "scope": "Construction convention compatibility and lower-bound crosscheck"
+            },
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Read the frozen manuscript wording against the exact source statements preserved in this reviewer context from round 2.",
+              "observation": "Corollary 4 uses the upper-bound Proposition 6.7 directly, while Section 7 correctly distinguishes the exact extremum Proposition 6.8 and the global Theorem 6.9. No new source access is claimed for this comparison.",
+              "result": "supported",
+              "scope": "Locator repair"
+            }
+          ],
+          "decision": "continue",
+          "findings": [],
+          "required_revisions": [],
+          "revisions": [
+            {
+              "action": "Checked frozen Corollary 4 and Section 7 against the precise source statements inspected in round 2.",
+              "finding_id": "/root/review80_coordinator/citation_verifier:cv-r2-exact-locator",
+              "result": "They now identify Proposition 6.7 for I27, Proposition 6.8 for the intersecting maximum, and Theorem 6.9 for the 54/83 comparison.",
+              "status": "resolved"
+            }
+          ],
+          "role": "citation_verifier",
+          "summary": "Alternative forcing-threshold and positive-core readings do not reveal a hidden mismatch: the manuscript explicitly fixes the maximum-size and empty-core conventions. Exact proposition labels are now correct. A direct finite reconstruction checks the cited 27- and 54-member lower examples under those conventions, without supplying or rerunning the external upper-bound enumeration."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/copyeditor",
+          "checks": [
+            {
+              "evidence_ids": [],
+              "method": "Reread frozen Sections 1–4 and challenged the readings that all families satisfy the two-star premise, that Profile A is excluded without I(27), or that the external theorem is a locally proved Lean result.",
+              "observation": "Theorem 1 explicitly quantifies distinct degree-twenty centers which do not co-occur; Theorem 2 explicitly assumes I(27); Theorem 3 is an implication and Corollary 4 names the external premise. Section 3 invokes the inherited high-point ceiling before using the degree-19 residual cap. These restrictions prevent the challenged theorem readings.",
+              "result": "supported",
+              "scope": "Rival interpretations of theorem hypotheses"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Read Section 6 against Corollary 4 and Section 7; distinguished an existential 45-member witness, a conjectural 45 cap for the two-star class, and the accepted eighty statements.",
+              "observation": "The explicit 45-member family is described only as externally checked, failed Lean attempts remain failures, and the universal45 claim is withheld. The first Section 6 sentence is broader than its intended local-proof scope, giving the minor wording issue recorded above; it does not overturn the repeated correct description of Corollary 4.",
+              "result": "inconclusive",
+              "scope": "Example versus universal claim and computational dependence"
+            },
+            {
+              "evidence_ids": [
+                "primary-sources-v1",
+                "text-reuse-check-v1"
+              ],
+              "method": "Compared round-02 and round-03 exact manuscript bytes, inspected the revised inherited-input paragraph and checked the frozen text-reuse record against the earlier actual selected-passage review.",
+              "observation": "The synchronized minimum-transversal assembly now has its own present-development root rather than being bundled entirely into inherited inputs. New proposition locators refine the external citation. The prior passage comparison is retained with a limited status and is not promoted to a fresh corpus-wide check. Earlier notation and spacing repairs remain present.",
+              "result": "supported",
+              "scope": "Attribution repair and retained passage-review limits"
+            }
+          ],
+          "decision": "continue",
+          "findings": [
+            {
+              "disposition": "Narrow the opening to the new local proofs of Theorems 1–3, or explicitly exempt the external theorem used in Corollary 4. The nearby assurance paragraphs already state the correct boundary.",
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "id": "copy-r3-local-proof-scope",
+              "severity": "minor",
+              "statement": "Section 6 begins by saying that the successful proofs above do not use large enumeration as premises. Read literally across all preceding results, this could include Corollary 4, whose external I(27) premise is explicitly computer-assisted. The intended scope is the new local structural proofs.",
+              "status": "open"
+            }
+          ],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "copyeditor",
+          "summary": "The principal statements resist the important rival readings: the global Lean result retains I(27), the two-star theorem retains its two-center hypothesis, and the 45-member example is not presented as a universal theorem. One minor scope edit would prevent Section 6’s opening sentence from being read as denying the explicitly acknowledged computational premise of Corollary 4."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/data_analyst",
+          "checks": [
+            {
+              "evidence_ids": [
+                "lean-source-theory-v1"
+              ],
+              "method": "Enumerated q=0,...,12 and computed min(floor(9q/2),floor((168-5q)/3)); also solved the two boundary equalities with exact rational arithmetic.",
+              "observation": "The maximum integer residual cap is40, attained by the numerical relaxation only at q=9. For m=41, 2m<=9q requires q>=10 while 3m<=168-5q requires q<=9. The continuous intersection is (m,q)=(1512/37,336/37), agreeing with the elimination coefficient37. This checks the relaxation, not realizability.",
+              "result": "supported",
+              "scope": "Integer overlap incidence stress test"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Enumerated all8,008 nonnegative integer weight vectors on six points with total at most10. For each, formed every pair of weight at least the tested threshold and checked the common intersection of that complete heavy-pair family.",
+              "observation": "At threshold9,687 vectors have nonempty heavy-pair families and none has empty common intersection. At threshold7 there are likewise no counterexamples; at threshold6 there are200, including weights(0,0,0,2,4,4), whose three heavy pairs form a triangle. The manuscript uses9 and remains safely supported; no sharper threshold is claimed as a contribution. Coverage is exactly six points and total10, matching the design application.",
+              "result": "supported",
+              "scope": "Common-point weighted-pair mechanism and weakened rivals"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Enumerated256 membership assignments of four points to U,V, all32 edge subsets of C5, and all64 simple graphs on four vertices.",
+              "observation": "Among25 membership assignments with both traces at least3, the smallest overlap trace is2. The largest pairwise-intersecting C5 edge family has2 edges. A four-vertex graph with maximum degree2 has at most4 edges. These independent exact checks match the three local bounds used in Sections3 and4.",
+              "result": "supported",
+              "scope": "Small local numerical obstructions"
+            }
+          ],
+          "decision": "continue",
+          "findings": [
+            {
+              "disposition": "Retain the current upper-bound and diagnostic scope; no change is required.",
+              "evidence_ids": [
+                "lean-source-theory-v1"
+              ],
+              "id": "incidence-relaxation-scope",
+              "severity": "note",
+              "statement": "The integer incidence relaxation permits m=40 at q=9. This supports the claimed upper80 endpoint but does not assert an80-member family exists or improve it to the exploratory45 cap.",
+              "status": "claim-qualified"
+            }
+          ],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "data_analyst",
+          "summary": "Exact counterexample searches support the stated overlap and common-extension numerical mechanisms. The incidence relaxation allows at most40 residual rows; all eligible six-point integer weight vectors satisfy the nine-unit common-point claim. Deliberate threshold weakening produces counterexamples, confirming why a strong mass hypothesis matters. These finite stress tests supplement the structural arguments and are not claimed as universal45 normalization."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/domain_expert",
+          "checks": [
+            {
+              "evidence_ids": [
+                "lean-source-formal-v1",
+                "portable-formal-v1"
+              ],
+              "method": "Directly analyzed each possible intersection cardinality of two two-element coordinate edges and compared with CompletionCompatibility.lean. Ran scratch/domain_expert/round03_check.py over all 36 anchor pairs and 10,800 unordered pairs of the 25 coordinate completions.",
+              "observation": "When one coordinate is disjoint, the other coordinate has size-0, size-1 or size-2 intersection. The first gives an empty-core sunflower with R; the latter two give a star-member witness. The star includes x, which no completion contains, so all three sets are distinct. Of the tested pairs, 7,200 have a disjoint coordinate (1,800 empty, 3,600 singleton, 1,800 equal cases), and every one has a directly verified sunflower witness. This finite check concerns the explicit design only; the abstract trace proof provides the general argument.",
+              "result": "supported",
+              "scope": "Split completion compatibility, including degenerate cases"
+            },
+            {
+              "evidence_ids": [
+                "portable-formal-v1"
+              ],
+              "method": "Checked disjoint completion type cardinalities and distinctness of the three members used to bound W; tested the nonempty-row and duplicate-key cases in the proof.",
+              "observation": "A row supported on two A points needs nine distinct (1,3) completions, while a B-oriented row needs nine distinct (3,1) completions. The types are disjoint and cannot both fit into n0 at most 12. Since n2 is at least 24, an orientation exists. Two extensions of a single B triple, with different A points, and its x-star member are three distinct sets with exactly that triple as common intersection; hence W has at most ten members.",
+              "result": "supported",
+              "scope": "One orientation and unique block extensions"
+            },
+            {
+              "evidence_ids": [
+                "portable-formal-v1",
+                "lean-source-theory-v1"
+              ],
+              "method": "Proved the heavy-point implication directly from 9-unit pair weight and 10-unit total, checked the key-to-block injection, and enumerated all 8,008 six-point nonnegative integer weight vectors of total at most ten in scratch/domain_expert/round03_check.py.",
+              "observation": "A selected heavy pair has a point of weight at least five. Any heavy pair omitting it would give at least 14 total units, contradiction. Equal extension pairs and multiple high-weight points do not invalidate this argument. The common point lies outside each key; deleting it recovers that key, proving injection into five blocks. Exact enumeration found maximum five heavy keys and no empty common intersection. Each fixed-key outsider graph has at most four edges by the maximum-degree-two condition on four vertices, yielding n2 at most 20.",
+              "result": "supported",
+              "scope": "Common-extension concentration and fixed-key fiber bound"
+            }
+          ],
+          "decision": "continue",
+          "findings": [
+            {
+              "disposition": "No missing equal-projection or distinctness case was found.",
+              "evidence_ids": [
+                "lean-source-formal-v1"
+              ],
+              "id": "split-degenerate-cases",
+              "severity": "note",
+              "statement": "All coordinate intersection sizes 0, 1 and 2 are covered; in the equal-edge case the design block obtained by restoring the anchor has exactly the shared edge as trace on both completions.",
+              "status": "resolved"
+            },
+            {
+              "disposition": "The manuscript correctly avoids claiming a canonical extension-pair permutation check as a premise.",
+              "evidence_ids": [
+                "lean-source-theory-v1"
+              ],
+              "id": "concentration-no-bijection",
+              "severity": "note",
+              "statement": "The heavy extension-pair argument does not need distinct keys to have distinct extension pairs. Its final injection is Q to Q union {a}, with a outside every key Q.",
+              "status": "claim-qualified"
+            }
+          ],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "domain_expert",
+          "summary": "The split-completion, one-orientation and weighted extension-pair arguments withstand direct degenerate-case analysis. Equal coordinate edges and singleton coordinate intersections each produce a valid third star member distinct from both residual completions. The concentration argument requires no injectivity of the extension-pair map and no uniqueness of the heavy point. A supplementary exact check on the inherited six-point design found no counterexample."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/literature_reviewer",
+          "checks": [
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Compared the frozen definitions with the primary definitions and Proposition 6.7 inspected in round 2; tested the alternate convention excluding empty cores and the alternate forcing-threshold notation.",
+              "observation": "Finite distinct four-element families and all three equal pairwise intersections agree. Arbitrarily many disjoint four-sets refute a finite global bound under the nonempty-core-only variant, so the explicit empty-core convention is essential and present. Pairwise intersecting with equal members included is equivalent here because every member has cardinality four. The maximum-size convention is now explicit.",
+              "result": "supported",
+              "scope": "External theorem transfer and rival conventions"
+            },
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Checked the mathematical restriction-to-support argument and the counterexample subfamily reduction underlying use of the external theorem.",
+              "observation": "A finite family on an arbitrary ambient set has finite support. Any intersecting counterexample larger than 27 contains 28 distinct members, each meeting an anchor; their support is at most 4+27*3=85. Thus the external finite search theorem addresses the local universal antecedent mathematically; this observation is not an imported Lean certificate.",
+              "result": "supported",
+              "scope": "Unrestricted ambient set versus finite enumeration"
+            },
+            {
+              "evidence_ids": [
+                "lean-source-formal-v1"
+              ],
+              "method": "Read frozen lean-source-formal-v1/MinimumTransversals.lean, including two_designs_transversal_six and its imported component lemmas.",
+              "observation": "The root takes prescribed disjoint components H,K and proves each restriction of C is a member plus C is their union, using inherited transversal lower bounds and the three-point transversal characterization. The revised attribution accurately describes this synchronized assembly. No independent global originality follows from source placement alone.",
+              "result": "supported",
+              "scope": "Inherited versus newly assembled structural lemma"
+            }
+          ],
+          "decision": "continue",
+          "findings": [
+            {
+              "disposition": "The optional locator refinement has been implemented accurately.",
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "id": "LIT-03",
+              "severity": "note",
+              "statement": "Corollary 4 and Section 7 now identify Proposition 6.7 for I27, Proposition 6.8 for equality, and Theorem 6.9 for the 83 comparison.",
+              "status": "resolved"
+            },
+            {
+              "disposition": "Retain this distinction in the final contribution statement.",
+              "evidence_ids": [
+                "lean-source-formal-v1"
+              ],
+              "id": "LIT-04",
+              "severity": "note",
+              "statement": "Section 1 now distinguishes the synchronized six-transversal assembly from its inherited single-component ingredients; source inspection agrees with this contribution boundary.",
+              "status": "resolved"
+            }
+          ],
+          "required_revisions": [],
+          "revisions": [
+            {
+              "action": "Compared new theorem labels against the directly inspected primary-source statements from round 2.",
+              "finding_id": "/root/review80_coordinator/literature_reviewer:LIT-03",
+              "result": "All three labels match their intended claims.",
+              "status": "resolved"
+            }
+          ],
+          "role": "literature_reviewer",
+          "summary": "The external I27 theorem and local antecedent have compatible mathematical domains, and the revised exact proposition labels prevent the upper theorem from being confused with a lower witness. The new synchronized-transversal assembly is now attributed to this development while its component lemmas remain inherited. Tested rival readings involving nonempty-only cores, forcing thresholds, fixed support and all-rank conclusions do not apply to the actual text."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/logic_auditor",
+          "checks": [
+            {
+              "evidence_ids": [
+                "portable-formal-v1",
+                "lean-source-compute-v1"
+              ],
+              "method": "Read TwoStarResidual and ProfileAOutside against Section 3.1, explicitly checked each nonmembership and nonempty-member obligation in the disjoint-union argument.",
+              "observation": "If R and a y-star member were disjoint, both omit x, the two outsiders of R and y are distinct outsiders, and their union would exceed the two-outsider bound. The bound comes from an x-star member disjoint from two nonempty four-sets, hence three distinct petals. If every y-star member instead meets R, deleting y preserves the meeting because y∉R, making the four-set R a transversal of a link whose transversal number is six. No ambient support bound is assumed.",
+              "result": "supported",
+              "scope": "Residual trace at least three and actual distinct-petal construction"
+            },
+            {
+              "evidence_ids": [
+                "portable-formal-v1",
+                "lean-source-formal-v1"
+              ],
+              "method": "Checked the set inclusion and double-counting identities in TwoHighIncidence and MeetingDefect, and read inherited singleton_intersection_card_le_forty and meeting_incidence_singleton_defect. Enumerated all 25 pairs of traces of size at least three on a fixed four-set.",
+              "observation": "The trace union is contained in the anchor four-set, so its intersection has at least two points; the finite check reaches minimum two. In the meeting sum singleton traces contribute one, all other nonempty traces at least two, and the unique anchor contributes four. Thus adding the singleton total to the degree sum gives at least 2|M|+2. The formal lemma requires and uses R∈H, so the excess is not applied to an external anchor.",
+              "result": "supported",
+              "scope": "Overlap size and meeting-neighborhood two-unit excess"
+            },
+            {
+              "evidence_ids": [
+                "portable-formal-v1",
+                "lean-source-formal-v1"
+              ],
+              "method": "Read CompletionCompatibility, its ProfileASplit caller and the three-case prose construction in Section 4.2. Checked the center and anchor memberships and projection reconstruction.",
+              "observation": "Distinct completions cannot be disjoint because together with their common disjoint nonempty anchor they would form an empty-core sunflower. If one coordinate pair is disjoint and the other overlaps, the chosen design triple has the exact common trace; adjoining x gives a member distinct from both completions because both omit x. Equal completions are treated separately by the nonempty two-point projections. Projection pairs determine the completion, so the 2×2 product bound counts actual members injectively.",
+              "result": "supported",
+              "scope": "Split-completion compatibility and quantification over equal versus distinct completions"
+            },
+            {
+              "evidence_ids": [
+                "portable-formal-v1",
+                "lean-source-theory-v1"
+              ],
+              "method": "Read GenericHeavyExtensions and Section 4.3; checked the mass argument algebraically and independently enumerated all 8008 nonnegative integer six-point weight vectors of total at most ten.",
+              "observation": "Each nonempty heavy pair has an endpoint of weight at least five. A heavy pair omitting that endpoint would require at least fourteen total units. Of the 8008 vectors, 687 admit heavy pairs; all of their complete collections of pairs of weight at least nine have a common point. This is a bounded diagnostic supplement to the direct proof. The proof does not assume distinct keys have distinct extension pairs. It injects keys into triples by adjoining the common point, which lies outside every key and can therefore be erased to recover that key.",
+              "result": "supported",
+              "scope": "Common-extension concentration, nonemptiness and injectivity"
+            }
+          ],
+          "decision": "continue",
+          "findings": [],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "logic_auditor",
+          "summary": "The core structural implications survive a direct quantifier and distinctness audit. The residual-transversal contradiction uses three genuinely distinct members; the meeting excess counts the anchor because it is in the closed neighborhood; split-completion sunflower constructions have a distinct star member through the omitted center. The common-extension argument needs no injectivity of the extension-pair map, and its final key-to-triple map is injective because the common point is outside every key. No counterexample or required repair was found."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/methodologist",
+          "checks": [
+            {
+              "evidence_ids": [
+                "portable-formal-v1"
+              ],
+              "method": "Read CompletionCompatibility.lean and compare its equality, nonempty intersection, and distinctness branches with Section 4.2; explicitly inspect all possible intersection sizes of two two-element coordinate edges.",
+              "observation": "Equal coordinate edges are treated separately from singleton intersections. Distinct residual completions are required for the sunflower contradiction; x is absent from both, so the constructed star member is distinct. If both coordinates are disjoint, R is disjoint from both completions, giving three distinct petals. Coordinate images jointly determine a completion, justifying the product bound.",
+              "result": "supported",
+              "scope": "Exhaustiveness and distinctness in the split-pair geometry"
+            },
+            {
+              "evidence_ids": [
+                "portable-formal-v1"
+              ],
+              "method": "Read TwoStarResidual.lean and GenericHeavyExtensions.lean; check hypotheses on ambient type, noncooccurrence, key nonemptiness and the insertion map.",
+              "observation": "The trace lemma permits arbitrary Type* and derives y outside U from noncooccurrence. It uses the transversal lower bound rather than a coordinate census. The general key bound has an explicit empty-K branch; in the application n2>=24 supplies nonemptiness. Extension points lie outside keys, so erasing the common extension point proves injection.",
+              "result": "supported",
+              "scope": "Rival explanations based on hidden support restrictions or empty cases"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Exhaustively enumerate all subfamilies of a five-cycle edge set and all simple graphs on four vertices; enumerate all 8008 six-point nonnegative integer weight vectors with total at most ten and intersect all pairs carrying at least nine units.",
+              "observation": "Largest pairwise-intersecting five-cycle edge family has size 2; largest four-vertex graph with maximum degree 2 has 4 edges. No heavy-pair common-point counterexample occurs in the 8008 weight vectors. These finite tests corroborate local steps only; the arbitrary-family claim rests on the structural proofs.",
+              "result": "supported",
+              "scope": "Bounded counterexample tests for local combinatorial caps"
+            }
+          ],
+          "decision": "continue",
+          "findings": [
+            {
+              "disposition": "No missing geometric case was found in Section 4.2 or the corresponding CompletionCompatibility source.",
+              "evidence_ids": [
+                "portable-formal-v1"
+              ],
+              "id": "M3-degeneracies",
+              "severity": "note",
+              "statement": "The split-completion contradiction covers all intersection cardinalities 0, 1 and 2 of two coordinate edges. The 0 case uses R; the positive cases use an x-star member, which is automatically distinct from residual members because it contains x.",
+              "status": "resolved"
+            },
+            {
+              "disposition": "The claimed method boundary is supported by the inspected theorem interfaces and case analyses.",
+              "evidence_ids": [
+                "portable-formal-v1"
+              ],
+              "id": "M3-actual-families",
+              "severity": "note",
+              "statement": "The support-trace and heavy-key arguments are quantified over arbitrary finite families and derive restrictions from sunflower-freeness, not a presumed 17-point or 28-position normalization. The 17-point profile is used only where actual Profile A supplies it.",
+              "status": "resolved"
+            }
+          ],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "methodologist",
+          "summary": "The geometric case analysis is exhaustive for actual set families, including equal or singleton-intersecting coordinate edges, distinctness of sunflower petals, empty residual families, arbitrary ambient support, and empty key collections. No finite-search normalization or numerical-profile surrogate is needed in these steps. Targeted counterexample checks agree with the structural bounds but are not substituted for the proofs."
+        },
+        {
+          "agent_id": "/root/review80_coordinator/typesetter",
+          "checks": [
+            {
+              "evidence_ids": [
+                "preview-d9be-v1"
+              ],
+              "method": "Read Section 4.2 and the start/end of Section 4.3 in the frozen source and visually inspect current PDF pages 3–4. Check that the three A-edge alternatives correspond to possible intersection sizes 0, 2 and 1 when the B-edges are disjoint.",
+              "observation": "The prose retains all three alternatives in a single uninterrupted paragraph. The empty-core, edge-core and singleton-core contradictions are distinguished. The final 2×2=4 bound and the later n_2≤4|K|≤20 contradiction with n_2≥24 are present and unambiguous. This is a presentation/coverage check of the case split, not a replacement for formal proof audit.",
+              "result": "supported",
+              "scope": "Three-case proof hierarchy and contradiction thresholds"
+            },
+            {
+              "evidence_ids": [
+                "preview-d9be-v1"
+              ],
+              "method": "Compare round-02 to round-03 source changes and inspect PDF page 2 plus the corresponding HTML text.",
+              "observation": "The minimum-transversal statement was removed from inherited item 1 and appears after the four-item list in a separate paragraph saying the assembly is part of the present development. Its exact FrontierMinimumTransversals.two_designs_transversal_six identifier is fully visible. The heading/list boundary now accurately communicates its stated provenance.",
+              "result": "supported",
+              "scope": "New versus inherited theorem attribution"
+            },
+            {
+              "evidence_ids": [
+                "preview-d9be-v1"
+              ],
+              "method": "Inspect PDF pages 2 and 6, extract text and check HTML for Proposition 6.7, Proposition 6.8 and Theorem 6.9; compare all current MathML blocks to the prior frozen preview. Verify preview file hashes and manuscript hash.",
+              "observation": "All three exact labels occur in both rendered-format contents. The corollary names the upper bound and exact maximum separately. All six MathML blocks are unchanged, so the source-mapping revision does not alter inequalities or subscripts. Preview artifacts match their manifest, and the preview manuscript matches the round-03 hash.",
+              "result": "supported",
+              "scope": "Precise source labels and symbol fidelity"
+            }
+          ],
+          "decision": "continue",
+          "findings": [
+            {
+              "disposition": "Carry forward the disclosed limitation; do not generalize PDF visual coverage to HTML responsive layout.",
+              "evidence_ids": [
+                "preview-d9be-v1"
+              ],
+              "id": "T2-html-visual-coverage",
+              "severity": "note",
+              "statement": "HTML browser visual QA remains unavailable; this round checked source and mathematical markup, not a browser screenshot.",
+              "status": "open"
+            },
+            {
+              "disposition": "Optional polish only; this round targets proof-case hierarchy and changed attribution.",
+              "evidence_ids": [
+                "preview-d9be-v1"
+              ],
+              "id": "T2-table-breaks",
+              "severity": "minor",
+              "statement": "The Section 5 lead still occupies the bottom of page 4 before the declaration table. The earlier optional table pagination polish is not addressed in this version.",
+              "status": "open"
+            }
+          ],
+          "required_revisions": [],
+          "revisions": [],
+          "role": "typesetter",
+          "summary": "The theory and rival-case structure survives the matching revised rendering. In the split-pair argument the disjoint/equal/singleton-overlap alternatives remain visible in one paragraph, and the ensuing four-versus-nine and twenty-versus-twenty-four contradictions are legible. The synchronized transversal lemma is now visibly outside the inherited-input list and labeled as a present contribution. The precise external proposition/theorem labels survive HTML/PDF conversion. No new typesetting defect was found in the targeted changed and proof-case pages."
+        }
+      ],
+      "coordinator_changes": [
+        "Section6 now explicitly restricts structural-proof description to new local arguments, retains I27 where stated and preserves external enumeration premise of Corollary4",
+        "Matching preview686c added; earlier previews retained as historical evidence"
+      ],
+      "outstanding_issues": {
+        "/root/review80_coordinator/academic_writer:round-3:required-revision-1": {
+          "owner": "/root/review80_coordinator/academic_writer",
+          "text": "Narrow the first sentence of Section 6 to the new local structural arguments (or Theorems 1–3 with I(27) retained as an antecedent), and explicitly preserve Corollary 4’s dependence on the external enumerative I(27) theorem. The present phrase “successful proofs above ... do not use ... large enumeration as premises” is broader than intended."
+        }
+      },
+      "prior_round": 3,
+      "prior_round_sha256": "9dd86c42723e1f23a1d736ede60c728f9275fbe7eea843e9de4184fd4dcb70f0"
+    },
+    "roster_sha256": "3781e9aad13463cedea3be14fe6e134725b6e05b7aaa99ad8dd9c4c5d9076136",
+    "round": 4,
+    "run_id": "frontier20261020-boundary80-final-review",
+    "verification": [
+      {
+        "evidence_ids": [
+          "primary-sources-v1",
+          "terminal-audit-v1"
+        ],
+        "limitations": [
+          "Bounded source coverage; external enumeration not rerun or kernel imported; no exhaustive novelty claim"
+        ],
+        "method": "Actual literature/citation specialist primary-page retrieval and locator checks in committed rounds1–2",
+        "observations": [
+          "External I27 located at Proposition6.7; maximum27 at Proposition6.8;54–83 at Theorem6.9; source conventions and A1K conditional baseline compatible"
+        ],
+        "scope": "facts",
+        "status": "limited"
+      },
+      {
+        "evidence_ids": [
+          "primary-sources-v1"
+        ],
+        "limitations": [
+          "Bounded source coverage; external enumeration not rerun or kernel imported; no exhaustive novelty claim"
+        ],
+        "method": "Actual literature/citation specialist primary-page retrieval and locator checks in committed rounds1–2",
+        "observations": [
+          "External I27 located at Proposition6.7; maximum27 at Proposition6.8;54–83 at Theorem6.9; source conventions and A1K conditional baseline compatible"
+        ],
+        "scope": "citations",
+        "status": "limited"
+      },
+      {
+        "evidence_ids": [
+          "terminal-audit-v1",
+          "two-star-audit-v1",
+          "profile-a-audit-v1",
+          "closure-complete-v1",
+          "closure-audit-roots-v1",
+          "portable-formal-v1"
+        ],
+        "limitations": [
+          "Same evaluator with pinned dependency caches; detailed specialist mathematical audit continues"
+        ],
+        "method": "Read successful printed Lean theorem and transitive axiom receipts plus completed source-closure receipt",
+        "observations": [
+          "I27 remains an antecedent; unconditional two-star root has no I27 antecedent; closure receipt records63fresh and98source-matched reused modules, with66unique auditedroots"
+        ],
+        "scope": "logic",
+        "status": "limited"
+      },
+      {
+        "evidence_ids": [
+          "admission-v1",
+          "universal45-diagnostic-v1",
+          "portable-formal-v1",
+          "closure-complete-v1"
+        ],
+        "limitations": [
+          "Formal and ordinary mathematical assurance differ"
+        ],
+        "method": "Inspect admission and diagnostic scope",
+        "observations": [
+          "Actual-family arguments separated from diagnostics;161portable sourcehashes and63fresh/98matched split checked by methodologist"
+        ],
+        "scope": "methodology",
+        "status": "limited"
+      },
+      {
+        "evidence_ids": [
+          "universal45-diagnostic-v1",
+          "universal45-crosscheck-v1",
+          "sharp45-failure-v1"
+        ],
+        "limitations": [
+          "Diagnostic normalization and full finite pipeline are not kernel verified"
+        ],
+        "method": "Data specialist exact integer checks and diagnostic histogram/sourceclosure consistency checks in committed rounds1–2",
+        "observations": [
+          "Degree profiles and residual incidence totals agree; diagnostic histograms agree and20475=C(28,4); diagnostic results remain outside proof premises"
+        ],
+        "scope": "data",
+        "status": "limited"
+      },
+      {
+        "evidence_ids": [
+          "primary-sources-v1",
+          "text-reuse-check-v1"
+        ],
+        "limitations": [
+          "No exhaustive originality or plagiarism-free claim"
+        ],
+        "method": "Actual copyeditor selected-passage comparison against accessible primary sources",
+        "observations": [
+          "No distinctive unattributed extended prose match found in compared passages; detailed coverage retained"
+        ],
+        "scope": "text_reuse",
+        "status": "limited"
+      }
+    ],
+    "verification_sha256": "b28fe628ba48da31907e6d1691d49c3dc67010e4d79aab1bbd0f14e906938315"
+  },
+  "snapshot_sha256": "c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329",
+  "submissions": [
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/academic_writer",
+        "checks": [
+          {
+            "evidence_ids": [],
+            "method": "Diffed frozen rounds 3 and 4, verified the manuscript hash, and read the revised Section 6 against the earlier theorem/corollary distinction.",
+            "observation": "The replacement preserves the conditional status of I(27), acknowledges the external enumerative theorem in Corollary 4, and excludes only the following exploratory computations from the local proof premises.",
+            "result": "supported",
+            "scope": "Proof-dependence repair"
+          },
+          {
+            "evidence_ids": [
+              "closure-complete-v1"
+            ],
+            "method": "Compared Section 5 with the frozen completed source-closure summary and examined the final review disclosure.",
+            "observation": "The prose reports 161 modules as 63 freshly compiled plus 98 source-matched reused modules. The receipt has exactly those counts and states same-evaluator cached dependencies. The manuscript expressly excludes a clean-toolchain replay and independent human certification, while the separate-context review disclosure remains appropriately limited. This was a reporting audit, not a new compilation.",
+            "result": "supported",
+            "scope": "Reproducibility and certification language"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/academic_writer",
+        "decision": "continue",
+        "evidence_ids": [
+          "closure-complete-v1"
+        ],
+        "findings": [
+          {
+            "disposition": "The former overbroad enumeration sentence has been replaced with the requested precise scope.",
+            "evidence_ids": [],
+            "id": "enumeration-scope-sentence",
+            "severity": "minor",
+            "statement": "The repaired Section 6 explicitly retains I(27) where assumed and states Corollary 4’s external enumerative dependency.",
+            "status": "resolved"
+          }
+        ],
+        "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Compared the exact Section 6 replacement with the round-3 request.",
+            "finding_id": "/root/review80_coordinator/academic_writer:round-3:required-revision-1",
+            "result": "The local arguments and ordinary corollary now have separate, accurate dependency descriptions.",
+            "status": "resolved"
+          },
+          {
+            "action": "Retested the previously possible reading that every proof above avoided enumeration.",
+            "finding_id": "/root/review80_coordinator/academic_writer:enumeration-scope-sentence",
+            "result": "That reading is excluded by the explicit sentence about Corollary 4.",
+            "status": "resolved"
+          }
+        ],
+        "role": "academic_writer",
+        "round": 4,
+        "snapshot_sha256": "c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329",
+        "summary": "Section 6 now states the local-versus-external proof dependence precisely, resolving my round-3 objection. The method and assurance prose accurately limits the completed source-closure claim and does not convert autonomous review or cached dependencies into independent certification."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-04/academic_writer/actual-public-response",
+        "context_id": "/root/review80_coordinator/academic_writer",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/academic_writer\",\n  \"role\": \"academic_writer\",\n  \"context_id\": \"/root/review80_coordinator/academic_writer\",\n  \"round\": 4,\n  \"snapshot_sha256\": \"c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329\",\n  \"manuscript_sha256\": \"686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d\",\n  \"summary\": \"Section 6 now states the local-versus-external proof dependence precisely, resolving my round-3 objection. The method and assurance prose accurately limits the completed source-closure claim and does not convert autonomous review or cached dependencies into independent certification.\",\n  \"evidence_ids\": [\n    \"closure-complete-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"enumeration-scope-sentence\",\n      \"statement\": \"The repaired Section 6 explicitly retains I(27) where assumed and states Corollary 4’s external enumerative dependency.\",\n      \"severity\": \"minor\",\n      \"status\": \"resolved\",\n      \"disposition\": \"The former overbroad enumeration sentence has been replaced with the requested precise scope.\",\n      \"evidence_ids\": []\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/review80_coordinator/academic_writer:round-3:required-revision-1\",\n      \"action\": \"Compared the exact Section 6 replacement with the round-3 request.\",\n      \"result\": \"The local arguments and ordinary corollary now have separate, accurate dependency descriptions.\",\n      \"status\": \"resolved\"\n    },\n    {\n      \"finding_id\": \"/root/review80_coordinator/academic_writer:enumeration-scope-sentence\",\n      \"action\": \"Retested the previously possible reading that every proof above avoided enumeration.\",\n      \"result\": \"That reading is excluded by the explicit sentence about Corollary 4.\",\n      \"status\": \"resolved\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Proof-dependence repair\",\n      \"method\": \"Diffed frozen rounds 3 and 4, verified the manuscript hash, and read the revised Section 6 against the earlier theorem/corollary distinction.\",\n      \"observation\": \"The replacement preserves the conditional status of I(27), acknowledges the external enumerative theorem in Corollary 4, and excludes only the following exploratory computations from the local proof premises.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": []\n    },\n    {\n      \"scope\": \"Reproducibility and certification language\",\n      \"method\": \"Compared Section 5 with the frozen completed source-closure summary and examined the final review disclosure.\",\n      \"observation\": \"The prose reports 161 modules as 63 freshly compiled plus 98 source-matched reused modules. The receipt has exactly those counts and states same-evaluator cached dependencies. The manuscript expressly excludes a clean-toolchain replay and independent human certification, while the separate-context review disclosure remains appropriately limited. This was a reporting audit, not a new compilation.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"closure-complete-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:28:58.930126+00:00",
+        "response_sha256": "daf494fbcbc3611bbf6cc8724ed949cc43b693aface7790a5d20adfb155d27b4",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "c573629bf93f44a993629f8ce1e8b404d0f5fd52b7ce163f52f7ecdcd5254acd"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/alpha",
+        "checks": [
+          {
+            "evidence_ids": [
+              "portable-formal-v1",
+              "lean-source-theory-v1",
+              "lean-source-compute-v1"
+            ],
+            "method": "Read frozen ProfileABridge.lean, the ResidualProfileA structure and derived lemmas, ProfileAOutside.lean, and TwoStarResidual.lean. Trace the order of obligations and their uses.",
+            "observation": "The bridge sets H to the family omitting x and O to the support outside x and its link. It derives |H|=61, |O|=4, outsider degree19 and interior degree≤14 by a degree partition. Outsider≤2 is not a structure field: it follows from an independently proved disjoint partner and the twenty-link transversal bound. H2 intersecting is then derived before I27 is applied. In the two-star proof, independence supplies y outside the first link and makes the y-star avoid x; a hypothesized small trace would make a four-element transversal of the other link. No conclusion is used as a hidden premise.",
+            "result": "supported",
+            "scope": "Actual-family residual hypotheses and noncircular outsider cap"
+          },
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Compare the exact round-three-to-four manuscript change with Theorem 2, Theorem 3, Corollary 4 and the previously directly checked external-source scope.",
+            "observation": "Section 6 now expressly states that the ordinary corollary uses external enumerative I27, while the listed diagnostic, failed witness attempt and UNKNOWN SAT run are not local proof premises. This removes the earlier potential overbroad reading that every successful conclusion was enumeration-free. The text still claims neither independent human certification nor universal45.",
+            "result": "supported",
+            "scope": "External enumeration versus local exploratory methods"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/alpha",
+        "decision": "continue",
+        "evidence_ids": [
+          "portable-formal-v1",
+          "lean-source-theory-v1",
+          "lean-source-compute-v1"
+        ],
+        "findings": [],
+        "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+        "required_revisions": [],
+        "revisions": [],
+        "role": "alpha",
+        "round": 4,
+        "snapshot_sha256": "c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329",
+        "summary": "The residual proof hypotheses are constructed from actual families rather than assumed search profiles, and the outsider-cap proof is noncircular. The revised Section 6 accurately separates external enumeration in Corollary 4 from exploratory computations unused by local proofs. No method or assurance repair is required in this phase."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-04/alpha/actual-public-response",
+        "context_id": "/root/review80_coordinator/alpha",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/alpha\",\n  \"role\": \"alpha\",\n  \"context_id\": \"/root/review80_coordinator/alpha\",\n  \"round\": 4,\n  \"snapshot_sha256\": \"c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329\",\n  \"manuscript_sha256\": \"686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d\",\n  \"summary\": \"The residual proof hypotheses are constructed from actual families rather than assumed search profiles, and the outsider-cap proof is noncircular. The revised Section 6 accurately separates external enumeration in Corollary 4 from exploratory computations unused by local proofs. No method or assurance repair is required in this phase.\",\n  \"evidence_ids\": [\n    \"portable-formal-v1\",\n    \"lean-source-theory-v1\",\n    \"lean-source-compute-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Actual-family residual hypotheses and noncircular outsider cap\",\n      \"method\": \"Read frozen ProfileABridge.lean, the ResidualProfileA structure and derived lemmas, ProfileAOutside.lean, and TwoStarResidual.lean. Trace the order of obligations and their uses.\",\n      \"observation\": \"The bridge sets H to the family omitting x and O to the support outside x and its link. It derives |H|=61, |O|=4, outsider degree19 and interior degree≤14 by a degree partition. Outsider≤2 is not a structure field: it follows from an independently proved disjoint partner and the twenty-link transversal bound. H2 intersecting is then derived before I27 is applied. In the two-star proof, independence supplies y outside the first link and makes the y-star avoid x; a hypothesized small trace would make a four-element transversal of the other link. No conclusion is used as a hidden premise.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\",\n        \"lean-source-theory-v1\",\n        \"lean-source-compute-v1\"\n      ]\n    },\n    {\n      \"scope\": \"External enumeration versus local exploratory methods\",\n      \"method\": \"Compare the exact round-three-to-four manuscript change with Theorem 2, Theorem 3, Corollary 4 and the previously directly checked external-source scope.\",\n      \"observation\": \"Section 6 now expressly states that the ordinary corollary uses external enumerative I27, while the listed diagnostic, failed witness attempt and UNKNOWN SAT run are not local proof premises. This removes the earlier potential overbroad reading that every successful conclusion was enumeration-free. The text still claims neither independent human certification nor universal45.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:29:18.642276+00:00",
+        "response_sha256": "867ac8300032c7da677d5ba67fffc702bae3d9e47cc8f199bce3de9745eaa5a3",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "67bb3ca809d1149a80e0645e75eb227aaadc01405ccd6f039615b35175f747a0"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/beta",
+        "checks": [
+          {
+            "evidence_ids": [
+              "portable-formal-v1"
+            ],
+            "method": "Read ProfileABridge.residual_profile_of_profile_a and ProfileAClosed.no_profile_a_of_intersecting_twenty_seven; trace the constructed H, O, cardinalities and degree fields.",
+            "observation": "H is the original family filtered to omit its unique high center, giving 81−20=61. Its link support has twelve points, so removing that support and the center from the seventeen-point support gives four outsiders. Every other supported point has original degree nineteen; link incidence five gives residual degree fourteen inside and incidence zero preserves nineteen outside. The bridge explicitly handles the center and unsupported points with residual degree zero. Thus inside_degrees applies to all points outside O, and no unrealized numerical structure is inserted as an assumption.",
+            "result": "supported",
+            "scope": "Actual Profile A to residual interface obligations"
+          },
+          {
+            "evidence_ids": [
+              "portable-formal-v1"
+            ],
+            "method": "Compare the literal bridge and closing theorem signatures with Sections 1, 2 and the revised Section 6; reuse the previously inspected ProfileACounts and FinalEighty sources.",
+            "observation": "The actual-family bridge is unconditional. I27 enters through the bound on the intersecting two-outsider subfamily and remains an explicit argument of the A exclusion and terminal implication. The two-star theorem is separately unconditional. The synchronized minimum-transversal assembly is now attributed to the new work, and Corollary 4 explicitly retains the external enumeration. The manuscript makes no independent-human-certification claim. This resolves the possible methodological confusion between structural local proof and the corollary’s enumerative external premise.",
+            "result": "supported",
+            "scope": "Dependency division and methodological transparency"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/beta",
+        "decision": "continue",
+        "evidence_ids": [
+          "portable-formal-v1"
+        ],
+        "findings": [],
+        "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+        "required_revisions": [],
+        "revisions": [],
+        "role": "beta",
+        "round": 4,
+        "snapshot_sha256": "c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329",
+        "summary": "The actual-family bridge constructs every residual Profile A field from the literal boundary profile; no desired contradiction or coordinate normal form is assumed. The method also keeps inherited structural theorems, the new profile exclusions and the external I27 input distinct. No revision is required by these focused checks."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-04/beta/actual-public-response",
+        "context_id": "/root/review80_coordinator/beta",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/beta\",\n  \"role\": \"beta\",\n  \"context_id\": \"/root/review80_coordinator/beta\",\n  \"round\": 4,\n  \"snapshot_sha256\": \"c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329\",\n  \"manuscript_sha256\": \"686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d\",\n  \"summary\": \"The actual-family bridge constructs every residual Profile A field from the literal boundary profile; no desired contradiction or coordinate normal form is assumed. The method also keeps inherited structural theorems, the new profile exclusions and the external I27 input distinct. No revision is required by these focused checks.\",\n  \"evidence_ids\": [\n    \"portable-formal-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Actual Profile A to residual interface obligations\",\n      \"method\": \"Read ProfileABridge.residual_profile_of_profile_a and ProfileAClosed.no_profile_a_of_intersecting_twenty_seven; trace the constructed H, O, cardinalities and degree fields.\",\n      \"observation\": \"H is the original family filtered to omit its unique high center, giving 81\\u221220=61. Its link support has twelve points, so removing that support and the center from the seventeen-point support gives four outsiders. Every other supported point has original degree nineteen; link incidence five gives residual degree fourteen inside and incidence zero preserves nineteen outside. The bridge explicitly handles the center and unsupported points with residual degree zero. Thus inside_degrees applies to all points outside O, and no unrealized numerical structure is inserted as an assumption.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Dependency division and methodological transparency\",\n      \"method\": \"Compare the literal bridge and closing theorem signatures with Sections 1, 2 and the revised Section 6; reuse the previously inspected ProfileACounts and FinalEighty sources.\",\n      \"observation\": \"The actual-family bridge is unconditional. I27 enters through the bound on the intersecting two-outsider subfamily and remains an explicit argument of the A exclusion and terminal implication. The two-star theorem is separately unconditional. The synchronized minimum-transversal assembly is now attributed to the new work, and Corollary 4 explicitly retains the external enumeration. The manuscript makes no independent-human-certification claim. This resolves the possible methodological confusion between structural local proof and the corollary\\u2019s enumerative external premise.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:29:50.220035+00:00",
+        "response_sha256": "b5d2d2a730044fa06e6ae88eaf048cd5458d22360bbad4d79b662523125413de",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "da711ad68f7fb19bcf473f44dcf62898ab22b8e5e3d9cd57d9dc91d069f7c8d0"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/chief",
+        "checks": [
+          {
+            "evidence_ids": [
+              "portable-formal-v1"
+            ],
+            "method": "Inspected ProfileACounts.rows_two_card_le_twenty_seven and final_count_window, and checked how the filtered family inherits the hypotheses of I(27).",
+            "observation": "The Lean application supplies four-uniformity from uniform_H, sunflower-freeness by subfamily monotonicity, and rows_two_intersecting proved from the disjoint outsider bound. Thus I(27) bounds a genuine intersecting four-uniform subfamily rather than a numerical row count. The subsequent nonempty H2 choice is justified from the count equations, so the nine-completion lower bound does not assume its own witness.",
+            "result": "supported",
+            "scope": "Legitimacy of the sole external-sized input in the Profile A count window"
+          },
+          {
+            "evidence_ids": [],
+            "method": "Compared frozen rounds 3 and 4 at the changed paragraph and tested the replacement against Theorems 1–3, Corollary 4 and the retained failed diagnostic descriptions.",
+            "observation": "The replacement expressly retains I(27) where stated and expressly says Corollary 4 uses the external enumerative theorem. Only the subsequent cap45/SAT exploratory computations are excluded from local proof premises. The former overbroad avoidance-of-enumeration sentence is removed; no failed attempt or unchecked normalization is promoted to evidence of a theorem. This substantively addresses the committed writer objection, whose originating reviewer can record closure.",
+            "result": "supported",
+            "scope": "Section 6 repair and computational assurance accounting"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/chief",
+        "decision": "continue",
+        "evidence_ids": [
+          "portable-formal-v1"
+        ],
+        "findings": [],
+        "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+        "required_revisions": [],
+        "revisions": [],
+        "role": "chief",
+        "round": 4,
+        "snapshot_sha256": "c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329",
+        "summary": "Focused assumption accounting confirms that I(27) is legitimately applied to the actual H2 subfamily, with inherited uniformity and sunflower-freeness and a proved intersection property. The revised Section 6 now accurately preserves external enumeration in Corollary 4 while excluding only the exploratory diagnostics from local proof premises. No new methodological or attribution issue requires revision."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-04/chief/actual-public-response",
+        "context_id": "/root/review80_coordinator/chief",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/chief\",\n  \"role\": \"chief\",\n  \"context_id\": \"/root/review80_coordinator/chief\",\n  \"round\": 4,\n  \"snapshot_sha256\": \"c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329\",\n  \"manuscript_sha256\": \"686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d\",\n  \"summary\": \"Focused assumption accounting confirms that I(27) is legitimately applied to the actual H2 subfamily, with inherited uniformity and sunflower-freeness and a proved intersection property. The revised Section 6 now accurately preserves external enumeration in Corollary 4 while excluding only the exploratory diagnostics from local proof premises. No new methodological or attribution issue requires revision.\",\n  \"evidence_ids\": [\n    \"portable-formal-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Legitimacy of the sole external-sized input in the Profile A count window\",\n      \"method\": \"Inspected ProfileACounts.rows_two_card_le_twenty_seven and final_count_window, and checked how the filtered family inherits the hypotheses of I(27).\",\n      \"observation\": \"The Lean application supplies four-uniformity from uniform_H, sunflower-freeness by subfamily monotonicity, and rows_two_intersecting proved from the disjoint outsider bound. Thus I(27) bounds a genuine intersecting four-uniform subfamily rather than a numerical row count. The subsequent nonempty H2 choice is justified from the count equations, so the nine-completion lower bound does not assume its own witness.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Section 6 repair and computational assurance accounting\",\n      \"method\": \"Compared frozen rounds 3 and 4 at the changed paragraph and tested the replacement against Theorems 1–3, Corollary 4 and the retained failed diagnostic descriptions.\",\n      \"observation\": \"The replacement expressly retains I(27) where stated and expressly says Corollary 4 uses the external enumerative theorem. Only the subsequent cap45/SAT exploratory computations are excluded from local proof premises. The former overbroad avoidance-of-enumeration sentence is removed; no failed attempt or unchecked normalization is promoted to evidence of a theorem. This substantively addresses the committed writer objection, whose originating reviewer can record closure.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": []\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:25:06.037388+00:00",
+        "response_sha256": "23b4ff393a5cb791222a564f7f9ccc3408c9a29f5192599aa9af2aa0a275da42",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "0de68038e67de3a26fc1c5020f5db0fed5ae9458453d0603efc535373aa58d95"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/citation_verifier",
+        "checks": [
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Read frozen Sections 2 and 5–7; compare the new Section 6 opening with the previously retrieved Proposition 6.7 proof and Section 8 of arXiv v1. No fresh source retrieval or enumeration rerun was performed in this phase.",
+            "observation": "The manuscript no longer describes all successful conclusions as free of enumerative input: it states that Corollary 4 uses external enumerative I27. It also correctly reserves the no-premise status for its exploratory computations. This matches the external proof dependency. Source: https://arxiv.org/html/2609.06175v1#S6.SS3.",
+            "result": "supported",
+            "scope": "Enumeration disclosure and method scope"
+          },
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Compare the provenance statements in Corollary 4 and Section 7 with the source formalization scope already read, and check the final paragraph for the stated review limits.",
+            "observation": "The external theorem retains named authors and a versioned locator; its enumeration is not represented as imported Lean proof. The manuscript labels the local formal theorem conditional, and does not identify autonomous review as independent human certification. The source itself distinguishes finite witness verification from upper-bound exhaustive computations. Source: https://arxiv.org/html/2609.06175v1#S8.",
+            "result": "supported",
+            "scope": "Attribution and formalization claims"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/citation_verifier",
+        "decision": "continue",
+        "evidence_ids": [
+          "primary-sources-v1"
+        ],
+        "findings": [],
+        "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+        "required_revisions": [],
+        "revisions": [],
+        "role": "citation_verifier",
+        "round": 4,
+        "snapshot_sha256": "c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329",
+        "summary": "The revised Section 6 now accurately distinguishes structural local proofs, their stated I27 assumption, the external enumerative theorem used by Corollary 4, and exploratory computations. Attribution and assurance are consistent with the source passages directly read in earlier rounds."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-04/citation_verifier/actual-public-response",
+        "context_id": "/root/review80_coordinator/citation_verifier",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/citation_verifier\",\n  \"role\": \"citation_verifier\",\n  \"context_id\": \"/root/review80_coordinator/citation_verifier\",\n  \"round\": 4,\n  \"snapshot_sha256\": \"c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329\",\n  \"manuscript_sha256\": \"686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d\",\n  \"summary\": \"The revised Section 6 now accurately distinguishes structural local proofs, their stated I27 assumption, the external enumerative theorem used by Corollary 4, and exploratory computations. Attribution and assurance are consistent with the source passages directly read in earlier rounds.\",\n  \"evidence_ids\": [\n    \"primary-sources-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Enumeration disclosure and method scope\",\n      \"method\": \"Read frozen Sections 2 and 5–7; compare the new Section 6 opening with the previously retrieved Proposition 6.7 proof and Section 8 of arXiv v1. No fresh source retrieval or enumeration rerun was performed in this phase.\",\n      \"observation\": \"The manuscript no longer describes all successful conclusions as free of enumerative input: it states that Corollary 4 uses external enumerative I27. It also correctly reserves the no-premise status for its exploratory computations. This matches the external proof dependency. Source: https://arxiv.org/html/2609.06175v1#S6.SS3.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Attribution and formalization claims\",\n      \"method\": \"Compare the provenance statements in Corollary 4 and Section 7 with the source formalization scope already read, and check the final paragraph for the stated review limits.\",\n      \"observation\": \"The external theorem retains named authors and a versioned locator; its enumeration is not represented as imported Lean proof. The manuscript labels the local formal theorem conditional, and does not identify autonomous review as independent human certification. The source itself distinguishes finite witness verification from upper-bound exhaustive computations. Source: https://arxiv.org/html/2609.06175v1#S8.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:28:10.899552+00:00",
+        "response_sha256": "e4edbaa0d44b591fcf2e49295ebe5d1c094f9f895b3f79eabef7f3ec3eca3d73",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "a83f8beb11ec02beb8951d95b64b75bf5794a04f1a29a4f6741bb1776d749bf3"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/copyeditor",
+        "checks": [
+          {
+            "evidence_ids": [],
+            "method": "Read revised Section 6 alongside the theorem interfaces, formal-assurance paragraph and remaining-obligations paragraph.",
+            "observation": "I(27) remains a stated hypothesis where needed; the externally enumerated input is acknowledged for Corollary 4. Diagnostic normalization, universal45 and failed witness attempts are not presented as accepted kernel results. The manuscript also distinguishes 63 fresh modules from 98 source-matched inherited modules rather than claiming a complete clean-toolchain replay. This is an exposition check, not a fresh build.",
+            "result": "supported",
+            "scope": "Proof-obligation and method wording"
+          },
+          {
+            "evidence_ids": [
+              "primary-sources-v1",
+              "text-reuse-check-v1"
+            ],
+            "method": "Read Sections 5 and 7 and the closing review statement; compared the frozen text_reuse verification wording with the retained actual round-02 comparison.",
+            "observation": "The source attribution and proposition labels remain intact. Separate agent contexts under shared orchestration are not represented as independent human certification. The selected-passage comparison remains limited; neither exhaustive priority nor plagiarism-free status is asserted. No new source comparison was performed in this round.",
+            "result": "supported",
+            "scope": "Attribution and ethical disclosure of review assurance"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/copyeditor",
+        "decision": "continue",
+        "evidence_ids": [
+          "primary-sources-v1",
+          "text-reuse-check-v1"
+        ],
+        "findings": [
+          {
+            "disposition": "The ambiguity identified in round 3 is removed.",
+            "evidence_ids": [],
+            "id": "copy-r3-local-proof-scope",
+            "severity": "minor",
+            "statement": "The revised Section 6 opening expressly acknowledges Corollary 4’s external enumerative I(27) theorem and limits the non-premise statement to the exploratory computations below.",
+            "status": "resolved"
+          }
+        ],
+        "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+        "required_revisions": [],
+        "revisions": [
+          {
+            "action": "Compared the exact round-03 and round-04 Section 6 opening against Corollary 4.",
+            "finding_id": "/root/review80_coordinator/copyeditor:copy-r3-local-proof-scope",
+            "result": "Local structural hypotheses, external enumeration and unused diagnostics now have explicit separate scopes.",
+            "status": "resolved"
+          }
+        ],
+        "role": "copyeditor",
+        "round": 4,
+        "snapshot_sha256": "c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329",
+        "summary": "Section 6 now accurately distinguishes the external enumerative premise of Corollary 4 from the exploratory computations unused by the local proofs. The prior scope finding is resolved. Method and attribution wording preserves the limits of local formal assurance and bounded source comparison."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-04/copyeditor/actual-public-response",
+        "context_id": "/root/review80_coordinator/copyeditor",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/copyeditor\",\n  \"role\": \"copyeditor\",\n  \"context_id\": \"/root/review80_coordinator/copyeditor\",\n  \"round\": 4,\n  \"snapshot_sha256\": \"c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329\",\n  \"manuscript_sha256\": \"686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d\",\n  \"summary\": \"Section 6 now accurately distinguishes the external enumerative premise of Corollary 4 from the exploratory computations unused by the local proofs. The prior scope finding is resolved. Method and attribution wording preserves the limits of local formal assurance and bounded source comparison.\",\n  \"evidence_ids\": [\n    \"primary-sources-v1\",\n    \"text-reuse-check-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"copy-r3-local-proof-scope\",\n      \"statement\": \"The revised Section 6 opening expressly acknowledges Corollary 4’s external enumerative I(27) theorem and limits the non-premise statement to the exploratory computations below.\",\n      \"severity\": \"minor\",\n      \"status\": \"resolved\",\n      \"disposition\": \"The ambiguity identified in round 3 is removed.\",\n      \"evidence_ids\": []\n    }\n  ],\n  \"revisions\": [\n    {\n      \"finding_id\": \"/root/review80_coordinator/copyeditor:copy-r3-local-proof-scope\",\n      \"action\": \"Compared the exact round-03 and round-04 Section 6 opening against Corollary 4.\",\n      \"result\": \"Local structural hypotheses, external enumeration and unused diagnostics now have explicit separate scopes.\",\n      \"status\": \"resolved\"\n    }\n  ],\n  \"checks\": [\n    {\n      \"scope\": \"Proof-obligation and method wording\",\n      \"method\": \"Read revised Section 6 alongside the theorem interfaces, formal-assurance paragraph and remaining-obligations paragraph.\",\n      \"observation\": \"I(27) remains a stated hypothesis where needed; the externally enumerated input is acknowledged for Corollary 4. Diagnostic normalization, universal45 and failed witness attempts are not presented as accepted kernel results. The manuscript also distinguishes 63 fresh modules from 98 source-matched inherited modules rather than claiming a complete clean-toolchain replay. This is an exposition check, not a fresh build.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": []\n    },\n    {\n      \"scope\": \"Attribution and ethical disclosure of review assurance\",\n      \"method\": \"Read Sections 5 and 7 and the closing review statement; compared the frozen text_reuse verification wording with the retained actual round-02 comparison.\",\n      \"observation\": \"The source attribution and proposition labels remain intact. Separate agent contexts under shared orchestration are not represented as independent human certification. The selected-passage comparison remains limited; neither exhaustive priority nor plagiarism-free status is asserted. No new source comparison was performed in this round.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\",\n        \"text-reuse-check-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:29:57.988795+00:00",
+        "response_sha256": "3f96ec1a3efa4a5f661c360ce657826d414c026e2e796c7162a7bcb546247307",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "795022f47d1506ecf171c6416949220d384f61a27fb9ddfde785ce8d46c73053"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/data_analyst",
+        "checks": [
+          {
+            "evidence_ids": [
+              "sharp45-failure-v1",
+              "portable-formal-v1"
+            ],
+            "method": "Read frozen Sharp45.json and the portable FinalEighty.lean and TwoHighEighty.lean sources; compared them with Section6 and the portable closure manifest.",
+            "observation": "Sharp45 has exit124, elapsed100.56 seconds and an explicit100-second timeout message, with draft assurance. The accepted terminal root takes I27 and composes the actual ProfileA/ProfileB exclusions; the two-star root has explicit family, degree20 and noncooccurrence hypotheses. Sharp45 is absent from the accepted closure. Section6 does not turn the timeout or its reported UNKNOWN SAT attempt into proof evidence. The raw SAT log was not part of this focused check.",
+            "result": "supported",
+            "scope": "Failed computation versus accepted theorem dependency"
+          },
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Compared revised Section6 opening with Corollary4, Section7 and the frozen primary-source retrieval ledger.",
+            "observation": "The new wording expressly says the ordinary corollary additionally uses external enumerative I27, removing any implication that every numerical consequence avoids enumeration. The source ledger discloses that this enumeration was neither independently rerun nor imported into Lean. Existing exact diagnostic arithmetic need not be rerun for this wording change; universal45 and its normalization remain unestablished.",
+            "result": "supported",
+            "scope": "External enumeration methodology disclosure"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/data_analyst",
+        "decision": "continue",
+        "evidence_ids": [
+          "portable-formal-v1",
+          "sharp45-failure-v1",
+          "primary-sources-v1"
+        ],
+        "findings": [],
+        "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+        "required_revisions": [],
+        "revisions": [],
+        "role": "data_analyst",
+        "round": 4,
+        "snapshot_sha256": "c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329",
+        "summary": "The revised methods wording correctly preserves the external enumerative dependence of the ordinary80 corollary while separating local exploratory searches from proof premises. The frozen45 attempt is an actual timeout, and the inspected terminal theorem interfaces neither assume its result nor a SAT certificate. I did not independently rerun the external I27 enumeration or validate a raw SAT status log in this phase."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-04/data_analyst/actual-public-response",
+        "context_id": "/root/review80_coordinator/data_analyst",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/data_analyst\",\n  \"role\": \"data_analyst\",\n  \"context_id\": \"/root/review80_coordinator/data_analyst\",\n  \"round\": 4,\n  \"snapshot_sha256\": \"c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329\",\n  \"manuscript_sha256\": \"686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d\",\n  \"summary\": \"The revised methods wording correctly preserves the external enumerative dependence of the ordinary80 corollary while separating local exploratory searches from proof premises. The frozen45 attempt is an actual timeout, and the inspected terminal theorem interfaces neither assume its result nor a SAT certificate. I did not independently rerun the external I27 enumeration or validate a raw SAT status log in this phase.\",\n  \"evidence_ids\": [\n    \"portable-formal-v1\",\n    \"sharp45-failure-v1\",\n    \"primary-sources-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Failed computation versus accepted theorem dependency\",\n      \"method\": \"Read frozen Sharp45.json and the portable FinalEighty.lean and TwoHighEighty.lean sources; compared them with Section6 and the portable closure manifest.\",\n      \"observation\": \"Sharp45 has exit124, elapsed100.56 seconds and an explicit100-second timeout message, with draft assurance. The accepted terminal root takes I27 and composes the actual ProfileA/ProfileB exclusions; the two-star root has explicit family, degree20 and noncooccurrence hypotheses. Sharp45 is absent from the accepted closure. Section6 does not turn the timeout or its reported UNKNOWN SAT attempt into proof evidence. The raw SAT log was not part of this focused check.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"sharp45-failure-v1\",\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"External enumeration methodology disclosure\",\n      \"method\": \"Compared revised Section6 opening with Corollary4, Section7 and the frozen primary-source retrieval ledger.\",\n      \"observation\": \"The new wording expressly says the ordinary corollary additionally uses external enumerative I27, removing any implication that every numerical consequence avoids enumeration. The source ledger discloses that this enumeration was neither independently rerun nor imported into Lean. Existing exact diagnostic arithmetic need not be rerun for this wording change; universal45 and its normalization remain unestablished.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:27:27.166581+00:00",
+        "response_sha256": "64155af5768def380b387294811222465130558ab451c67b2a11718a5f9fd944",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "bd6c0ff390989634854bfdad1d429c04b4e6f2b086f219649c40ba4d9fa4512a"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/domain_expert",
+        "checks": [
+          {
+            "evidence_ids": [
+              "portable-formal-v1"
+            ],
+            "method": "Read residual_profile_of_profile_a in ProfileABridge.lean and its use by no_profile_a_of_intersecting_twenty_seven in ProfileAClosed.lean; compared with the two-star terminal assembly in TwoHighEighty.lean.",
+            "observation": "ProfileABridge constructs H by filtering the original F, proves H has 61 members, obtains the twelve-point link support, defines the four outsiders as a support difference, and derives residual degree bounds using actual pair stars. The contradiction is therefore applied to a proved residual object rather than to an assumed numerical census. For B, the literal profile supplies two high points and their non-cooccurrence; the theorem derives the other-degree cap and the actual residual trace and degree hypotheses before applying incidence.",
+            "result": "supported",
+            "scope": "Actual-family bridge obligations"
+          },
+          {
+            "evidence_ids": [
+              "portable-formal-v1"
+            ],
+            "method": "Traced concentrated_impossible to heavy_design_keys_card_le_five in GenericHeavyExtensions.lean and contrasted that path with retained ExtensionPairs.lean and HeavyExtensionPairs.lean; checked the revised Section 6 assurance statement.",
+            "observation": "The terminal concentration argument proves extension cardinality from design codegrees, finds a common heavy extension point, and injects keys into the five blocks through that point. It does not call the older canonical extension_pair_injective theorem, although its module is imported transitively. Small kernel-reduced finite lemmas can exist in the development without making the external SAT or universal45 experiments premises. Section 6 now explicitly distinguishes the local structural proofs from the external enumerative I(27) used by Corollary 4. No additional ethical issue arises from these finite abstract-set checks.",
+            "result": "supported",
+            "scope": "Finite computation versus mathematical proof dependence"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/domain_expert",
+        "decision": "continue",
+        "evidence_ids": [
+          "portable-formal-v1"
+        ],
+        "findings": [],
+        "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+        "required_revisions": [],
+        "revisions": [],
+        "role": "domain_expert",
+        "round": 4,
+        "snapshot_sha256": "c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329",
+        "summary": "The required bridge from literal Profile A to an actual residual family is present, including support, residual cardinality and degree obligations. The two-star root likewise supplies actual-family incidence hypotheses. The concentration endpoint uses the generic design proof rather than the older canonical extension-pair computation; exploratory SAT and universal45 diagnostics remain outside the local theorem premises."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-04/domain_expert/actual-public-response",
+        "context_id": "/root/review80_coordinator/domain_expert",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/domain_expert\",\n  \"role\": \"domain_expert\",\n  \"context_id\": \"/root/review80_coordinator/domain_expert\",\n  \"round\": 4,\n  \"snapshot_sha256\": \"c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329\",\n  \"manuscript_sha256\": \"686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d\",\n  \"summary\": \"The required bridge from literal Profile A to an actual residual family is present, including support, residual cardinality and degree obligations. The two-star root likewise supplies actual-family incidence hypotheses. The concentration endpoint uses the generic design proof rather than the older canonical extension-pair computation; exploratory SAT and universal45 diagnostics remain outside the local theorem premises.\",\n  \"evidence_ids\": [\n    \"portable-formal-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Actual-family bridge obligations\",\n      \"method\": \"Read residual_profile_of_profile_a in ProfileABridge.lean and its use by no_profile_a_of_intersecting_twenty_seven in ProfileAClosed.lean; compared with the two-star terminal assembly in TwoHighEighty.lean.\",\n      \"observation\": \"ProfileABridge constructs H by filtering the original F, proves H has 61 members, obtains the twelve-point link support, defines the four outsiders as a support difference, and derives residual degree bounds using actual pair stars. The contradiction is therefore applied to a proved residual object rather than to an assumed numerical census. For B, the literal profile supplies two high points and their non-cooccurrence; the theorem derives the other-degree cap and the actual residual trace and degree hypotheses before applying incidence.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Finite computation versus mathematical proof dependence\",\n      \"method\": \"Traced concentrated_impossible to heavy_design_keys_card_le_five in GenericHeavyExtensions.lean and contrasted that path with retained ExtensionPairs.lean and HeavyExtensionPairs.lean; checked the revised Section 6 assurance statement.\",\n      \"observation\": \"The terminal concentration argument proves extension cardinality from design codegrees, finds a common heavy extension point, and injects keys into the five blocks through that point. It does not call the older canonical extension_pair_injective theorem, although its module is imported transitively. Small kernel-reduced finite lemmas can exist in the development without making the external SAT or universal45 experiments premises. Section 6 now explicitly distinguishes the local structural proofs from the external enumerative I(27) used by Corollary 4. No additional ethical issue arises from these finite abstract-set checks.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:25:31.486448+00:00",
+        "response_sha256": "9de45e1325cc59c865617a95a8b2648bba8f20982bd4ee494232b679466f0af5",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "97954243c80c03b59bb5f3434831d77c244d0d38f8da18b8025cc2781c5d860b"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/literature_reviewer",
+        "checks": [
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Compared frozen rounds 3 and 4 with diff, then traced revised Section 6 against Corollary 4 and Sections 5/7.",
+            "observation": "The sole manuscript change removes the broad statement that all preceding proofs use no large enumeration. It explicitly retains I27 where hypothesized and the external enumeration for Corollary 4. The non-premise statement now refers only to the exploratory computations below it. This prevents an ordinary corollary with computational provenance from being misdescribed as entirely nonenumerative.",
+            "result": "supported",
+            "scope": "Computational-premise disclosure across theorem and methodology sections"
+          },
+          {
+            "evidence_ids": [
+              "primary-sources-v1"
+            ],
+            "method": "Reused the primary Sections 6.3, 6.5 and 8 directly inspected in earlier rounds; compared their scope with the current source attribution and formal-assurance language.",
+            "observation": "The manuscript credits the named authors for I27 and retains its computer-assisted status. It claims neither an independent rerun nor a kernel-checked exclusion certificate for that enumeration. The search and its frontier/result checker have different evidentiary roles; no text now upgrades the latter to a locally imported universal proof. The local implication can be evaluated separately from that external theorem.",
+            "result": "supported",
+            "scope": "External computation, authorship credit and verification obligation"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/literature_reviewer",
+        "decision": "continue",
+        "evidence_ids": [
+          "primary-sources-v1"
+        ],
+        "findings": [],
+        "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+        "required_revisions": [],
+        "revisions": [],
+        "role": "literature_reviewer",
+        "round": 4,
+        "snapshot_sha256": "c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329",
+        "summary": "The revised Section 6 correctly preserves the external enumerative premise of Corollary 4 while excluding the exploratory computations from the local proof premises. Attribution and assurance now remain consistent across the methodology and literature sections. No additional methodological or attribution revision is required by this role."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-04/literature_reviewer/actual-public-response",
+        "context_id": "/root/review80_coordinator/literature_reviewer",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/literature_reviewer\",\n  \"role\": \"literature_reviewer\",\n  \"context_id\": \"/root/review80_coordinator/literature_reviewer\",\n  \"round\": 4,\n  \"snapshot_sha256\": \"c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329\",\n  \"manuscript_sha256\": \"686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d\",\n  \"summary\": \"The revised Section 6 correctly preserves the external enumerative premise of Corollary 4 while excluding the exploratory computations from the local proof premises. Attribution and assurance now remain consistent across the methodology and literature sections. No additional methodological or attribution revision is required by this role.\",\n  \"evidence_ids\": [\n    \"primary-sources-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Computational-premise disclosure across theorem and methodology sections\",\n      \"method\": \"Compared frozen rounds 3 and 4 with diff, then traced revised Section 6 against Corollary 4 and Sections 5/7.\",\n      \"observation\": \"The sole manuscript change removes the broad statement that all preceding proofs use no large enumeration. It explicitly retains I27 where hypothesized and the external enumeration for Corollary 4. The non-premise statement now refers only to the exploratory computations below it. This prevents an ordinary corollary with computational provenance from being misdescribed as entirely nonenumerative.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    },\n    {\n      \"scope\": \"External computation, authorship credit and verification obligation\",\n      \"method\": \"Reused the primary Sections 6.3, 6.5 and 8 directly inspected in earlier rounds; compared their scope with the current source attribution and formal-assurance language.\",\n      \"observation\": \"The manuscript credits the named authors for I27 and retains its computer-assisted status. It claims neither an independent rerun nor a kernel-checked exclusion certificate for that enumeration. The search and its frontier/result checker have different evidentiary roles; no text now upgrades the latter to a locally imported universal proof. The local implication can be evaluated separately from that external theorem.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:26:00.052345+00:00",
+        "response_sha256": "c96b49016db34c3c7be9a718d8f5b41987cec10f28353754a026e62dca44d10d",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "eaeec448888d5e3e687d3c7cf3b4d1856ed83a5baf98740f72178877d2daa91f"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/logic_auditor",
+        "checks": [
+          {
+            "evidence_ids": [
+              "portable-formal-v1",
+              "closure-audit-roots-v1",
+              "terminal-audit-v1",
+              "two-star-audit-v1"
+            ],
+            "method": "Re-read the frozen FinalEightyAudit command implementation and compared its checks with the already-inspected terminal and two-star propositions; retained the unchanged source/receipt verification from rounds 1–2.",
+            "observation": "The audit rejects missing declarations, non-theorems, non-propositions and transitively collected axioms outside propext, Classical.choice and Quot.sound. A conditional theorem can pass this audit while still requiring I(27); the manuscript says so. Theorem 1 supplies distinct degree-twenty centers and no cooccurrence, with the remaining degree cap derived internally. These are actual hypotheses, not extra axioms or a hidden support cutoff.",
+            "result": "supported",
+            "scope": "Classical axiom policy versus ordinary theorem premises"
+          },
+          {
+            "evidence_ids": [
+              "terminal-audit-v1",
+              "two-star-audit-v1",
+              "portable-formal-v1"
+            ],
+            "method": "Diffed the exact round-3 and round-4 manuscript bytes, then checked the replacement paragraph against Theorems 1–3, Corollary 4 and the formal dependency chain.",
+            "observation": "The only prose change replaces the overly broad statement about successful proofs with an explicit account: local arguments retain I(27) where stated; Corollary 4 additionally uses the external enumerative theorem; the exploratory calculations are not proof premises. This wording supports the stated method without implying that the ordinary corollary is independent of enumeration. Same-evaluator and independent-certification limits remain disclosed.",
+            "result": "supported",
+            "scope": "Revised Section 6 dependency language"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/logic_auditor",
+        "decision": "continue",
+        "evidence_ids": [
+          "portable-formal-v1",
+          "closure-audit-roots-v1",
+          "terminal-audit-v1",
+          "two-star-audit-v1"
+        ],
+        "findings": [],
+        "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+        "required_revisions": [],
+        "revisions": [],
+        "role": "logic_auditor",
+        "round": 4,
+        "snapshot_sha256": "c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329",
+        "summary": "The methods preserve the exact proof hypotheses and distinguish checking a conditional theorem from proving its antecedent. The revised Section 6 now consistently separates the local structural arguments, their explicit I(27) premise, the external enumerative input to Corollary 4, and exploratory diagnostics. No required revision."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-04/logic_auditor/actual-public-response",
+        "context_id": "/root/review80_coordinator/logic_auditor",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/logic_auditor\",\n  \"role\": \"logic_auditor\",\n  \"context_id\": \"/root/review80_coordinator/logic_auditor\",\n  \"round\": 4,\n  \"snapshot_sha256\": \"c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329\",\n  \"manuscript_sha256\": \"686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d\",\n  \"summary\": \"The methods preserve the exact proof hypotheses and distinguish checking a conditional theorem from proving its antecedent. The revised Section 6 now consistently separates the local structural arguments, their explicit I(27) premise, the external enumerative input to Corollary 4, and exploratory diagnostics. No required revision.\",\n  \"evidence_ids\": [\n    \"portable-formal-v1\",\n    \"closure-audit-roots-v1\",\n    \"terminal-audit-v1\",\n    \"two-star-audit-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Classical axiom policy versus ordinary theorem premises\",\n      \"method\": \"Re-read the frozen FinalEightyAudit command implementation and compared its checks with the already-inspected terminal and two-star propositions; retained the unchanged source/receipt verification from rounds 1–2.\",\n      \"observation\": \"The audit rejects missing declarations, non-theorems, non-propositions and transitively collected axioms outside propext, Classical.choice and Quot.sound. A conditional theorem can pass this audit while still requiring I(27); the manuscript says so. Theorem 1 supplies distinct degree-twenty centers and no cooccurrence, with the remaining degree cap derived internally. These are actual hypotheses, not extra axioms or a hidden support cutoff.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\",\n        \"closure-audit-roots-v1\",\n        \"terminal-audit-v1\",\n        \"two-star-audit-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Revised Section 6 dependency language\",\n      \"method\": \"Diffed the exact round-3 and round-4 manuscript bytes, then checked the replacement paragraph against Theorems 1–3, Corollary 4 and the formal dependency chain.\",\n      \"observation\": \"The only prose change replaces the overly broad statement about successful proofs with an explicit account: local arguments retain I(27) where stated; Corollary 4 additionally uses the external enumerative theorem; the exploratory calculations are not proof premises. This wording supports the stated method without implying that the ordinary corollary is independent of enumeration. Same-evaluator and independent-certification limits remain disclosed.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"terminal-audit-v1\",\n        \"two-star-audit-v1\",\n        \"portable-formal-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:28:22.608923+00:00",
+        "response_sha256": "cae5f28c61867de9145b1362b4ede32d3f2de7ab4be70985202504e3d319487a",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "b96fcdfddf897ca6fb8f6e60b2a02f390e24085c4b57d228970546b174612c06"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/methodologist",
+        "checks": [
+          {
+            "evidence_ids": [
+              "portable-formal-v1"
+            ],
+            "method": "Read frozen ProfileACounts.lean, ProfileABridge.lean and ProfileAClosed.lean; traced the construction of ResidualProfileA and the application of I27 to rows with two outsiders.",
+            "observation": "The bridge filters actual F to obtain H, derives |H|=61 and |O|=4, and splits point degrees using the upper star. Downstream code separately proves uniformity, sunflower-freeness and intersection for the two-outsider rows before invoking I27. The stored inside-degree bound is weaker than the equality asserted for supported design points, which suffices for the subsequent bound66.",
+            "result": "supported",
+            "scope": "Noncircular residual hypotheses and source of I27 use"
+          },
+          {
+            "evidence_ids": [
+              "admission-v1",
+              "closure-complete-v1"
+            ],
+            "method": "Compared the round4 Section6 revision, Section5 limitations, contract timestamp and admission record against the already inspected local closure summary.",
+            "observation": "The revision expressly acknowledges external enumerative I27 in Corollary4; cap45 and UNKNOWN SAT remain exploratory. Admission says review opens after successful A/B proof work, and the manuscript makes no prospective-discovery/preregistration claim. The local source-closure account retains 63 fresh/98 reused and same-evaluator/cache limitations, rather than equating source matching with a clean replay. No human data or external-contact method is involved.",
+            "result": "supported",
+            "scope": "Method chronology, external computation and replay assurance"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/methodologist",
+        "decision": "continue",
+        "evidence_ids": [
+          "portable-formal-v1",
+          "admission-v1",
+          "closure-complete-v1"
+        ],
+        "findings": [
+          {
+            "disposition": "The bridge and downstream derivations satisfy the actual-family proof obligation.",
+            "evidence_ids": [
+              "portable-formal-v1"
+            ],
+            "id": "M4-residual-interface",
+            "severity": "note",
+            "statement": "ResidualProfileA requires H subset F, four-uniform sunflower-free F, omission of x, 61 residual members, a twenty-link, four outsiders disjoint from its support, outsider degree19 and other residual degrees at most14. No exclusion conclusion or unjustified completion constraint is stored as a field.",
+            "status": "resolved"
+          }
+        ],
+        "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+        "required_revisions": [],
+        "revisions": [],
+        "role": "methodologist",
+        "round": 4,
+        "snapshot_sha256": "c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329",
+        "summary": "The actual-family residual interface contains structural and degree hypotheses rather than the intended conclusion, and the bridge derives it from the literal Profile A witness. The revised methods paragraph correctly limits the structural claim to the new local arguments while preserving external enumeration for the ordinary corollary. The review contract is an after-discovery review contract; no preregistered discovery or clean independent replay is claimed."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-04/methodologist/actual-public-response",
+        "context_id": "/root/review80_coordinator/methodologist",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/methodologist\",\n  \"role\": \"methodologist\",\n  \"context_id\": \"/root/review80_coordinator/methodologist\",\n  \"round\": 4,\n  \"snapshot_sha256\": \"c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329\",\n  \"manuscript_sha256\": \"686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d\",\n  \"summary\": \"The actual-family residual interface contains structural and degree hypotheses rather than the intended conclusion, and the bridge derives it from the literal Profile A witness. The revised methods paragraph correctly limits the structural claim to the new local arguments while preserving external enumeration for the ordinary corollary. The review contract is an after-discovery review contract; no preregistered discovery or clean independent replay is claimed.\",\n  \"evidence_ids\": [\n    \"portable-formal-v1\",\n    \"admission-v1\",\n    \"closure-complete-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"M4-residual-interface\",\n      \"statement\": \"ResidualProfileA requires H subset F, four-uniform sunflower-free F, omission of x, 61 residual members, a twenty-link, four outsiders disjoint from its support, outsider degree19 and other residual degrees at most14. No exclusion conclusion or unjustified completion constraint is stored as a field.\",\n      \"severity\": \"note\",\n      \"status\": \"resolved\",\n      \"disposition\": \"The bridge and downstream derivations satisfy the actual-family proof obligation.\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    }\n  ],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Noncircular residual hypotheses and source of I27 use\",\n      \"method\": \"Read frozen ProfileACounts.lean, ProfileABridge.lean and ProfileAClosed.lean; traced the construction of ResidualProfileA and the application of I27 to rows with two outsiders.\",\n      \"observation\": \"The bridge filters actual F to obtain H, derives |H|=61 and |O|=4, and splits point degrees using the upper star. Downstream code separately proves uniformity, sunflower-freeness and intersection for the two-outsider rows before invoking I27. The stored inside-degree bound is weaker than the equality asserted for supported design points, which suffices for the subsequent bound66.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Method chronology, external computation and replay assurance\",\n      \"method\": \"Compared the round4 Section6 revision, Section5 limitations, contract timestamp and admission record against the already inspected local closure summary.\",\n      \"observation\": \"The revision expressly acknowledges external enumerative I27 in Corollary4; cap45 and UNKNOWN SAT remain exploratory. Admission says review opens after successful A/B proof work, and the manuscript makes no prospective-discovery/preregistration claim. The local source-closure account retains 63 fresh/98 reused and same-evaluator/cache limitations, rather than equating source matching with a clean replay. No human data or external-contact method is involved.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"admission-v1\",\n        \"closure-complete-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:27:27.040357+00:00",
+        "response_sha256": "db697773b3b57d7fdb4386f47530f87908230b63e72f5b8a9914feae06415846",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "af2a1761bb209503c8a4b47c856c021046461f97233e3d8a973d903a167a69e0"
+    },
+    {
+      "content": {
+        "agent_id": "/root/review80_coordinator/typesetter",
+        "checks": [
+          {
+            "evidence_ids": [
+              "preview-686c-v1"
+            ],
+            "method": "Diff round-03 and round-04 frozen sources; compare the entire changed Section 6 paragraph against HTML text and whitespace-normalized PDF extraction; render and visually inspect page 5 of preview-686c-v1.",
+            "observation": "The only manuscript change is the Section 6 introductory paragraph. It appears verbatim in both formats and is visually complete on page 5. Its three statements preserve the local hypothesis, the external corollary dependency and the exploratory/non-premise distinction. The matching preview manuscript hash equals the frozen round hash.",
+            "result": "supported",
+            "scope": "Method disclosure fidelity"
+          },
+          {
+            "evidence_ids": [
+              "preview-686c-v1"
+            ],
+            "method": "Inspect current PDF page 5 and corresponding HTML markup for assurance wording and the stronger-cap disclaimer. Reuse prior page inspections only for unchanged content; do not infer browser appearance from HTML source.",
+            "observation": "The bold axiom-audited label is immediately followed by same-evaluator, pinned-dependency and no-complete-clean-replay limits. The bold statement that universal bound 45 is not established remains visible beside the diagnostic discussion. Thus visual emphasis does not promote exploratory results into proved claims. Earlier optional table-break polish and the HTML visual-coverage limitation remain unchanged.",
+            "result": "supported",
+            "scope": "Assurance labels and methodological limits"
+          }
+        ],
+        "context_id": "/root/review80_coordinator/typesetter",
+        "decision": "continue",
+        "evidence_ids": [
+          "preview-686c-v1"
+        ],
+        "findings": [],
+        "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+        "required_revisions": [],
+        "revisions": [],
+        "role": "typesetter",
+        "round": 4,
+        "snapshot_sha256": "c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329",
+        "summary": "The revised Section 6 disclosure is present verbatim in HTML and PDF and visibly separates the local hypothetical I(27) use, the corollary’s external enumeration and non-premise exploratory work. The axiom-audited label and same-evaluator/clean-replay limitations remain legible on the same PDF page. No new presentation defect was found. HTML browser visual QA remains unperformed."
+      },
+      "provenance": {
+        "call_id": "local-log:frontier20261020-boundary80/round-04/typesetter/actual-public-response",
+        "context_id": "/root/review80_coordinator/typesetter",
+        "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/typesetter\",\n  \"role\": \"typesetter\",\n  \"context_id\": \"/root/review80_coordinator/typesetter\",\n  \"round\": 4,\n  \"snapshot_sha256\": \"c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329\",\n  \"manuscript_sha256\": \"686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d\",\n  \"summary\": \"The revised Section 6 disclosure is present verbatim in HTML and PDF and visibly separates the local hypothetical I(27) use, the corollary’s external enumeration and non-premise exploratory work. The axiom-audited label and same-evaluator/clean-replay limitations remain legible on the same PDF page. No new presentation defect was found. HTML browser visual QA remains unperformed.\",\n  \"evidence_ids\": [\n    \"preview-686c-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Method disclosure fidelity\",\n      \"method\": \"Diff round-03 and round-04 frozen sources; compare the entire changed Section 6 paragraph against HTML text and whitespace-normalized PDF extraction; render and visually inspect page 5 of preview-686c-v1.\",\n      \"observation\": \"The only manuscript change is the Section 6 introductory paragraph. It appears verbatim in both formats and is visually complete on page 5. Its three statements preserve the local hypothesis, the external corollary dependency and the exploratory/non-premise distinction. The matching preview manuscript hash equals the frozen round hash.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"preview-686c-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Assurance labels and methodological limits\",\n      \"method\": \"Inspect current PDF page 5 and corresponding HTML markup for assurance wording and the stronger-cap disclaimer. Reuse prior page inspections only for unchanged content; do not infer browser appearance from HTML source.\",\n      \"observation\": \"The bold axiom-audited label is immediately followed by same-evaluator, pinned-dependency and no-complete-clean-replay limits. The bold statement that universal bound 45 is not established remains visible beside the diagnostic discussion. Thus visual emphasis does not promote exploratory results into proved claims. Earlier optional table-break polish and the HTML visual-coverage limitation remain unchanged.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"preview-686c-v1\"\n      ]\n    }\n  ]\n}\n",
+        "recorded_at": "2026-10-20T09:30:44.586101+00:00",
+        "response_sha256": "366f9217f0d717763aa9dd0469cda6b50858ce8fb5301ad2b6529d344aad3736",
+        "synthetic": false,
+        "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message"
+      },
+      "record_sha256": "c4d67f94297b2ced9a5ae71c39dd58b293179b5e6aea0910a5c2a8e5ccdd4d46"
+    }
+  ],
+  "round_sha256": "7f908d55453a3e7ac67736b4df74bb014995e5bae1f732aab22d0351d1ed77ed"
+}

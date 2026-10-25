@@ -1,0 +1,35 @@
+{
+  "kind": "two_triangles",
+  "nodes": 3657,
+  "counts": {
+    "count": 130,
+    "min": 350,
+    "colour": 1900,
+    "branch": 1277,
+    "solution": 0
+  },
+  "colour_pairs_checked": 101266,
+  "seconds": 0.35231704599573277,
+  "status": "PASS",
+  "tree": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/R15-rho6-two-triangles-search.json.gz",
+  "tree_sha256": "2ae544fe5d900e7c147956abe9a11e694f81030850bc8e6e7f2f31bd8359319b",
+  "checker_sha256": "020a9c4c6bf3ee0c22771e87fbcf0fe850e87053fd5e87a06879d4d59f99c522",
+  "negative_controls": [
+    {
+      "name": "wrong_target",
+      "rejected": true,
+      "reason": "literal scope changed"
+    },
+    {
+      "name": "omitted_child",
+      "rejected": true,
+      "reason": "omitted branch child"
+    },
+    {
+      "name": "wrong_source",
+      "rejected": true,
+      "reason": "wrong producer identity"
+    }
+  ],
+  "assurance": "Independent set-based finite proof-tree replay; conditional ordinary support reduction; not Lean."
+}

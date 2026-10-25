@@ -1,0 +1,18 @@
+{
+  "variables": 107612,
+  "clauses": 1775639,
+  "candidate_variables": 1820,
+  "pair_conflicts": 961485,
+  "seconds": 4.396131654037163,
+  "cnf_sha256": "b05b90707853886a2eadece9313279736b6dfd06f4ff747ecc0a98c6f31b9f60",
+  "assurance": "encoding diagnostic; no trusted proof checker replay",
+  "includes": [
+    "exact 61 residual members",
+    "exact residual point degrees",
+    "pair/triple degree capacities",
+    "all one-high two-low sunflower exclusions"
+  ],
+  "omits": [
+    "all zero-high three-low sunflower exclusions"
+  ]
+}

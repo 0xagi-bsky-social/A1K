@@ -1,0 +1,167 @@
+{
+  "result": "PASS",
+  "assurance": "certificate-diagnostic: shared-producer model reconstruction and exact integer replay; no solver, no Lean, no independent model proof",
+  "receipt_path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18/P10_006.json",
+  "replayer_sha256": "23f7a2bbd98374761de07da5e98c52cf5d3ed901499bd1c546f769df68cb038e",
+  "compute_limit_seconds": 20.0,
+  "receipt_sha256": "9a5e2c4295742080fab2ca45fa99b01acb1f8d520a6db807252943d4c60b32d6",
+  "source": {
+    "name": "v1",
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_component_v1.py",
+    "sha256": "3463c85f1e22de41d1c41ce4e43b6d2ab3e2ccfe7b6aa870c3e200ef87964c02",
+    "matching_names": [
+      "v1"
+    ]
+  },
+  "local43": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/upstream/MU42/scripts/local43.py",
+    "sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+    "match": true
+  },
+  "case": {
+    "id": "P10_006",
+    "component": 10,
+    "outside": 8,
+    "r10": 0,
+    "r9": 0,
+    "interiors": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        5
+      ]
+    ]
+  },
+  "catalogue": {
+    "internal_count": 292,
+    "automorphism_count": 60,
+    "orbit_count": 13,
+    "orbit_size": 60,
+    "sha256": "37168963641376910c922ef83f2c6af1aebaed7c9335b5b04d059741f3308a05",
+    "coverage": "producer recursion checks equality of generated and orbit-covered assignments"
+  },
+  "literal_premises": {
+    "family": "finite simple SF4, empty-core sunflowers forbidden, cardinality at least 68",
+    "global_degree_cap": 18,
+    "minimum_closed_neighborhood": 41,
+    "complete_centre_link": "P10 plus a disjoint-support intersecting family of 8 triples",
+    "component_support": "six specified points; arbitrary exterior identities and multiplicities",
+    "internal_assignment": "exactly case.interiors",
+    "bootstrap": {
+      "r10": 0,
+      "r9": 0
+    },
+    "imported": "H27; universal SF2/SF3 capacities, I8/I9/I10, isolation, B4, R16/high-link structure, trace margins, C5 confinement, pair/singleton resources",
+    "boundary": "Rows are interpreted separately in D18-P10-internals.md; this replay does not prove their geometry."
+  },
+  "model": {
+    "columns": 113,
+    "trace_columns": 41,
+    "upper_rows": 13,
+    "equal_rows": 422,
+    "live_sizes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      1,
+      0,
+      0
+    ],
+    "internal_degrees": [
+      3,
+      2,
+      2,
+      2,
+      2,
+      1
+    ],
+    "degree_caps": [
+      18,
+      17,
+      17,
+      17,
+      17,
+      16
+    ],
+    "zero_trace_indices": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      28,
+      29,
+      30,
+      31,
+      33,
+      34,
+      35,
+      36,
+      37,
+      39
+    ],
+    "sha256": "1f521392e1e16459bbd8c5f51e27d5f15f709fc7e852286b393a101c874ea789",
+    "all_coefficients_rhs_and_bounds": "validated Python integers, including zero-weight rows"
+  },
+  "exact": {
+    "scale": 10000000000,
+    "H": -20000000000,
+    "minimum": 0,
+    "G": -20000000000,
+    "negative": true,
+    "q_sha256_decimal_lines": "641e51ee2e0f40cb66b9516b6d5ffcca7d9b8d1d59d4c10b9cc5420ed9c0f446",
+    "q_column_count": 113,
+    "source_weights_nonnegative": true,
+    "weighted_rows": [
+      [
+        70,
+        10000000000,
+        "E",
+        57,
+        "anchor:1-trace:3"
+      ]
+    ],
+    "assembled_order": [
+      "A",
+      "E",
+      "-E"
+    ],
+    "formula": "G = H - sum_j min(l_j*q_j, u_j*q_j), every original column, no artificial slack column"
+  },
+  "conclusion": "The hash-matched conditional model is exactly infeasible.",
+  "elapsed_seconds": 2.4804237640000792
+}

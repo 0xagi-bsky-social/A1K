@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20Obstructions",
+  "source_sha256": "de67da57c70b8c73231199b52b0f159d335578698dfd1eabbc271c0787c25d80",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20Obstructions.olean",
+    "SunflowerLean/Erdos20Obstructions.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 8.226,
+  "output": "'Erdos20Obstructions.cycleFive_strict_spread' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Obstructions.cycleFive_sunflower_free' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Obstructions.not_uniformExtremalBound_two_three' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Obstructions.not_directSpreadMatching_two_three' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Obstructions.matching_size_times_rank_le_ground' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Obstructions.completeFive_strict_spread' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Obstructions.completeFive_has_no_three_matching' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Obstructions.completeFive_has_sunflower' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+}

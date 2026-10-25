@@ -1,0 +1,307 @@
+{
+  "status": "ALL_43_PASS",
+  "assurance": "shared-builder exact integer replay; see complete argument for imported premises and equality leaf",
+  "receipts": [
+    {
+      "receipt": "I01-none.json",
+      "result": "PASS",
+      "receipt_sha256": "86bf9b9e1a30dcdd38ff3e088d65e60436769165b67cc9b44054917db56ceb3f",
+      "replay_sha256": "e398a4b761faa7894c0cd6f54f99d5dd220d6b7c9fa8c0ac3a433ea2e4f2f95a",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "I02-none.json",
+      "result": "PASS",
+      "receipt_sha256": "43b05758c7aff6973c2ba438367bf872dde0479051e2f03a3740472fb6d8601a",
+      "replay_sha256": "58de6fb352af193eaba25635ca0af13142b746f84fd5a6a9b6e55377195a7b1d",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "I03-cover-refined-none.json",
+      "result": "PASS",
+      "receipt_sha256": "48d6ba4c4e3aeaa0511293b72ba93188cbdc49ed5103174fa96c02a485bd7066",
+      "replay_sha256": "5721049aeff3cd476cd7b17c4d2a37d1d5c4512c72175cf94e8b429376b353dd",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "Zsingle-cover-refined-none.json",
+      "result": "PASS",
+      "receipt_sha256": "3968a9cd1be61fb52391689c7e1fc1f5504c746de55c3b89d4f78557c6b46a2d",
+      "replay_sha256": "c05f48436900fa01660bce82bc9fed7837fd2eb3e6452cd7c8e8635341469d49",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "Zpattern08-none-phaseone.json",
+      "result": "PASS",
+      "receipt_sha256": "067d97ffeff7c9643e37e31e6278035a0b32a68b1d5aba37897cc6dd0fd2e18c",
+      "replay_sha256": "a1fcd2a6e6d92895a14dc751b34f2f66ae49c21e14eafeca9d46d5b79b3ad02f",
+      "conclusion": "Rebuilt conditional model has an exact box contradiction."
+    },
+    {
+      "receipt": "Ypattern01-Z.json",
+      "result": "PASS",
+      "receipt_sha256": "848706ad3687959f42f7c6e73fc7822fdacf3a5c35a400b2af479d31d257b00c",
+      "replay_sha256": "f4750fa0f8b97d08dff08754e831c53aa2cdbc4b469675fe6144484f8a8773af",
+      "conclusion": "Exact bound matches but does not exclude 49 residuals."
+    },
+    {
+      "receipt": "Ypattern03-Z.json",
+      "result": "PASS",
+      "receipt_sha256": "1799de087ff817876092ff3ba9a2881f569533a5c715e07ef04b77ea1220291c",
+      "replay_sha256": "ea160e5568e2c7aa38db92b94bf04540d4a62bf1eb863f4841de4ded9cdcb842",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "Ypattern02-Z-phaseone.json",
+      "result": "PASS",
+      "receipt_sha256": "52b5b6e913608dc0f0790b6ee3c827d840e1084c292601dafe42f69fc76446f8",
+      "replay_sha256": "67e84d99c688e4011ae93e6f63f42f87e76feba1fa2f5d34f16d705bfb25b1d0",
+      "conclusion": "Rebuilt conditional model has an exact box contradiction."
+    },
+    {
+      "receipt": "Ypattern04-Z-phaseone.json",
+      "result": "PASS",
+      "receipt_sha256": "bb8437a771f955a0df54c11ce902f72eab34ebc2641b6cbc2d33b2ef5778f857",
+      "replay_sha256": "b23184c0691145fde7d73cc3f2eb566f60027caec749b9a72e50cbf032db7f0d",
+      "conclusion": "Rebuilt conditional model has an exact box contradiction."
+    },
+    {
+      "receipt": "Ypattern05-Z-phaseone.json",
+      "result": "PASS",
+      "receipt_sha256": "1259a48965a2dd510bf45592c47ed84a49f09510699fd83200930e1c07f8a5f6",
+      "replay_sha256": "d0d94890f82386d626e7077fb777948e05ca3a4e2b63088e5b9284b7e1f577d1",
+      "conclusion": "Rebuilt conditional model has an exact box contradiction."
+    },
+    {
+      "receipt": "Ypattern06-Z-phaseone.json",
+      "result": "PASS",
+      "receipt_sha256": "a45fd7d8f9b227c6da4b84227964c2584884eb02fed8f587e7dff2575402cdd8",
+      "replay_sha256": "968bca089a4d7d3789eb1bd11593ba2d52844ab3ef3c6b5e389f8a2c6443ca6a",
+      "conclusion": "Rebuilt conditional model has an exact box contradiction."
+    },
+    {
+      "receipt": "Ypattern07-Z-phaseone.json",
+      "result": "PASS",
+      "receipt_sha256": "dd220b3c9b130d55f85f3e2486857a7f6896a081d9689ed299590f7b32d38666",
+      "replay_sha256": "7dede83f583e7df34a3fe1d26b085420de8f62286b762bd1a45c3ccb16ca431b",
+      "conclusion": "Rebuilt conditional model has an exact box contradiction."
+    },
+    {
+      "receipt": "Ypattern08-Z-phaseone.json",
+      "result": "PASS",
+      "receipt_sha256": "95f1cd0abd8af0b5a1db828ec2a3ffe43b0faa468cfcf55951733ac395db30e3",
+      "replay_sha256": "705713aa76af6871bba2e951c7b9918ac11bda0b078adef5593bdae8f2075538",
+      "conclusion": "Rebuilt conditional model has an exact box contradiction."
+    },
+    {
+      "receipt": "Ypattern09-Z-phaseone.json",
+      "result": "PASS",
+      "receipt_sha256": "ace66238815d634bcc1ea5eaac1db788f6f20178b0b4c4a9baa50bc7a5d38bbe",
+      "replay_sha256": "5ea947b67e3c99264050d6d9c3d2ea22f986dfb78f8a3796fc4b355cc652e1b8",
+      "conclusion": "Rebuilt conditional model has an exact box contradiction."
+    },
+    {
+      "receipt": "Ypattern10-Z-phaseone.json",
+      "result": "PASS",
+      "receipt_sha256": "3ceec708c98a0ec71ddfe7e7c08be374487b90847bc70d3eed07a1c59d5c8047",
+      "replay_sha256": "ef3fd58103a42318ffb7ab16ea78262425c87670ba0abcdb7b9c1021942e6815",
+      "conclusion": "Rebuilt conditional model has an exact box contradiction."
+    },
+    {
+      "receipt": "Ypattern11-Z-phaseone.json",
+      "result": "PASS",
+      "receipt_sha256": "24e86c3c00f7b709b5c0e76bdec24b04cf0748d089a352dcad7d0cdbe2348229",
+      "replay_sha256": "53c8e10da789725abb1fc7f8fb312cdcc9d43a62414148b373f65ba4b725cc85",
+      "conclusion": "Rebuilt conditional model has an exact box contradiction."
+    },
+    {
+      "receipt": "Ypattern12-Z-phaseone.json",
+      "result": "PASS",
+      "receipt_sha256": "ebc67894ed645a79a7a3de62c868a7ac1ae6cffa0f863ab4bf35b55e7dc80631",
+      "replay_sha256": "156a43ff3451a04f22d979f6eb45c7b2869ef7b16591bb37f1c2f2625a969558",
+      "conclusion": "Rebuilt conditional model has an exact box contradiction."
+    },
+    {
+      "receipt": "E00-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "73b20b71075b3ba4296fa92c0a2b1aaf66d374a4bb712792f9a69a353cb984a0",
+      "replay_sha256": "47dd86788281cacfe4a9314ba509051925537eee88a933474049758e133a9993",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E01-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "e261de2d08af549b8ec42ef3e20d2a395cdf8004e09d268e2535b829b612cb88",
+      "replay_sha256": "3d8ef880dfb6d8ff9b9c21eac0f4dec37a045536f753b5f39938ef304b82501e",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E02-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "aec84012de75b1362206f536466e8a827557098008169ec83fc1445e03f642f7",
+      "replay_sha256": "4052bcd88e8a856a695d9a4b4adcdbcd5d519f5291e3a2e640658376c06e128b",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E03-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "a26e9d3a6cf89e11b8164f2188efe5df6ff8cf93e4a7da6f903733d5592fd420",
+      "replay_sha256": "6bc2cd48913fa556326706c77225b72b7302f092b682493bb5252280f1d0ad12",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E04-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "dd60631619913dc41c10d161e6df3e72418b3a31610aaa0f59ebba6cf454e481",
+      "replay_sha256": "c28a528b49c1e98a050f3973703428a3f3d0606a67aa2f795de09d362f9d14ed",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E05-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "ede74db6c962bd5a3ac1e8bf15e70b59966b639eb122bb753a415cc333994e56",
+      "replay_sha256": "9be28202c528ba99729873c505856ed061b9c5c124dc3b8e65fab418da0bddce",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E06-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "34ab527b2520417783e70d45bfbd8dc92e4fc3e7510ff24168cdb5b25e5d3671",
+      "replay_sha256": "22bea66cc116cdc61df9a79144e3743d9da90c5c09aa09ad4753ddf65c727a79",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E07-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "18678afd98149e8812c5799e718136b5902af0c71172569d0c16f02362e66b90",
+      "replay_sha256": "aea8598ad319739af971bd13ecbd47aa1ec5e706342fa59c6fbd44f0b3342eb3",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E08-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "41b89103644b8c4fff08f1095f53ba3faa0f3ccd15ba2258361c5295d45db09e",
+      "replay_sha256": "5b1454c7641e000cd7c1cebba623eebe8ded6e3baeb0c9a93311658520552775",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E10-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "9a9a30790df433e9e4ba26a3922f9b75e3489664d8b20f8302944cffe976bd40",
+      "replay_sha256": "dea9f5dfea0dbe643ceb377a6536bfe5f929fcd96bd030ab17bd8ed36c7b0d12",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E12-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "1785c87d35e5e32c9cdc24e34c0dc3506f217af11956f651d37044bbcac64b83",
+      "replay_sha256": "4be3cea6904af5bd7a3679c61e11d451e94144a8bdfb57ad27c2c7d587efd740",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E13-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "6a5822a516a70ed660310b15b052e1faf97eecb606d031b1d46c12bb0ec27e5c",
+      "replay_sha256": "13e5ddfafc595e03aca7a443f749e255f4cccfd0e333bb5f8c4357bb2cc948fd",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E14-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "763905eec5076ccff101efe0dbf066565f963bbf776c92cce17b1de0345d5da8",
+      "replay_sha256": "e112e2a04064ff86694a96378fe750549f9d4e22020c18b8d1af7166c0750255",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E16-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "32964374a3ec11c82fa2f44fb8b69a242ec2978a299b7f193edbec62cd497418",
+      "replay_sha256": "b59194f6f98c58db4a651c59e36ad6bc23be6049388e1c93fa799065877575da",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E17-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "0c80234b5fde26e741a6ccab79465088fd84a762d953b8e7ed037dc1ecab02fe",
+      "replay_sha256": "3a7c5ed5765a27417fe9f1ae1e72088fda1b578d26591e4cc4697df7cf93f1d8",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E18-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "c4e466638ac7ca3adf3b494783c9cf54449ae4dd7a86b887c2123f44685bbb99",
+      "replay_sha256": "d4d03e1cee4daf20001749c9b932ae425c5a1933093d07697a3338851f8a114d",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E19-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "90a77e7ba3b0ba894c1a847ea3fd5150c96dca89792eb4a1c7fc4b15843e6c96",
+      "replay_sha256": "b491e87919303572eb165925627a459442f135ab16529b4355f42ae71b13a8b5",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E20-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "d5402fa6a0819918816a06484cbd296f2497a12c11ebe1608571652159a66b38",
+      "replay_sha256": "cb904e178481eafea212b8207df79d4e484e40953054593829f9565dcfe2d0e4",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E21-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "9de28f1b03d0edaad02c9adad174aeec2a117a84c1e3dadfa52bac97e68d5bee",
+      "replay_sha256": "45cf7b3e847980c0d994aa75076416f8150f3dbf6f084925b1c81351ef8a527c",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E23-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "cc3ea42a6279928c988db1b1226fa08d667ead97b95c087759a68f816aeacb16",
+      "replay_sha256": "f317a5e46c50bb35b2d8cd6647774be49bdd96f2dfd43a10c035f4ffa87e06f4",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E24-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "2172a6d4db6edb3a5478d3d4d129e572737ff86382abf6e1daed56e815eacc01",
+      "replay_sha256": "e4c467525a2bcd28f8722a1bc1d6d6dc269f1c0ee526ea62d90316966cf57652",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E25-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "9431f4a1a4db93bc835b487141be6d858b542007172ad4d9cb5c946d6c54e4f3",
+      "replay_sha256": "88a3cb131955fda2b4879b6886dbc43c32b7dd616e155822d4f4832974aa59ff",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E27-external-both.json",
+      "result": "PASS",
+      "receipt_sha256": "91193705dc1eef50f9a615487a5ef20bf5862f055d1c3ca0b87dc2ebbc7d78b0",
+      "replay_sha256": "84a7dcde767d4790ac14a280e1a17521e0f37e49ce3806e69bfddc336c719824",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    },
+    {
+      "receipt": "E09-staged-both-phaseone.json",
+      "result": "PASS",
+      "receipt_sha256": "c02a5f687a513f6c4636c18b2ce07431e3982a4aed971adae2e50b4d57d5545e",
+      "replay_sha256": "e4a70daa4eb09ae5c479ab6c9c64634fea553d4a87c123ff9b2b8a331007814b",
+      "conclusion": "Rebuilt conditional model has an exact box contradiction."
+    },
+    {
+      "receipt": "E11-staged-both-phaseone.json",
+      "result": "PASS",
+      "receipt_sha256": "1cf9fb3199c6ccc0206cf20577f2d17e91898d38d2d821f7a7e1905184b91735",
+      "replay_sha256": "a49f83787594bfdf19652f2ac059cd895a0c278a57afc948e56641062927c053",
+      "conclusion": "Rebuilt conditional model has an exact box contradiction."
+    },
+    {
+      "receipt": "E15-staged-both.json",
+      "result": "PASS",
+      "receipt_sha256": "9ffea9025b188df611cd4c37d230ed5d23a4992e781bcb4ededd7d152ae110f9",
+      "replay_sha256": "bd49e5ecc4bc9ad8742e67604ebb9be5f43bf31eeebed395e6645d9d3eca7093",
+      "conclusion": "Exact conditional bound excludes 49 residuals."
+    }
+  ]
+}

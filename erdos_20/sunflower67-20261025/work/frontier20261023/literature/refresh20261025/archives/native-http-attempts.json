@@ -1,0 +1,50 @@
+[
+  {
+    "name": "hal-native",
+    "url": "https://api.archives-ouvertes.fr/search/?q=sunflower&wt=json&rows=200&fl=title_s%2ChalId_s%2Curi_s%2Cabstract_s%2CproducedDate_s%2CsubmittedDate_s%2Cversion_i&sort=submittedDate_tdate+desc",
+    "retrieved_at": "2026-10-25T13:22:07.708335+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "name": "zenodo-native",
+    "url": "https://zenodo.org/api/records?q=%22sunflower+lemma%22+OR+%22sunflower+conjecture%22+OR+%22sunflower-free%22&size=100&sort=mostrecent",
+    "retrieved_at": "2026-10-25T13:22:07.709080+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "name": "osf-native",
+    "url": "https://osf.io/preprints/discover?q=sunflower",
+    "retrieved_at": "2026-10-25T13:22:07.709736+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "name": "preprints-native",
+    "url": "https://www.preprints.org/search?search1=sunflower",
+    "retrieved_at": "2026-10-25T13:22:07.710266+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "name": "vixra-primary",
+    "url": "https://ai.vixra.org/abs/2601.0054",
+    "retrieved_at": "2026-10-25T13:22:07.711207+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "name": "mathoa-home",
+    "url": "https://mathoa.org/",
+    "retrieved_at": "2026-10-25T13:22:07.714340+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "name": "researchsquare-native",
+    "url": "https://www.researchsquare.com/browse?term=sunflower",
+    "retrieved_at": "2026-10-25T13:22:07.721761+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  {
+    "name": "techrxiv-native",
+    "url": "https://www.techrxiv.org/search?query=sunflower",
+    "retrieved_at": "2026-10-25T13:22:07.722870+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  }
+]

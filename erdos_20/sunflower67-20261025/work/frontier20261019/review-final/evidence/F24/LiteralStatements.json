@@ -1,0 +1,14 @@
+{
+  "module": "LiteralStatements",
+  "source_sha256": "f2f535b4b98782750f0eb1d370e007ad75821d70855e4d004220e78b10168ecb",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/replay-receipt/build/LiteralStatements.olean",
+    "LiteralStatements.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 5.896,
+  "output": "'FrontierLiteralStatements.literal_support56' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierLiteralStatements.literal_support53' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierLiteralStatements.literal_i27_iff_no_fin56' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierLiteralStatements.literal_i27_iff_no_fin53' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+}

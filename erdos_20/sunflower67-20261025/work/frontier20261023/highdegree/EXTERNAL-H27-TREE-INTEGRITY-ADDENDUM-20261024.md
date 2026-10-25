@@ -1,0 +1,11 @@
+# H27 returned-tree integrity qualification
+
+24 October 2026, round-five source audit. This additive note supersedes references to a verified complete tracked tree in EXTERNAL-H27-SCOPE-ADDENDUM-20261024.md, the earlier source manifest and round-four author response. Those frozen records and original tool responses remain unchanged.
+
+The retained recursive connector response reports 117 entries, truncated=false and root tree d4d5723267c662291efdadfa6e7061d919e76fa9. Standard Git serialization of its seven immediate root entries instead yields 0a3e3838650fc981133940e798c9d220140e785e. Both the citation verifier and parent independently reconstructed this mismatch, using Python SHA1 and git hash-object. All 18 represented non-root trees reconstruct to their listed identifiers. The two inspected README/script blobs also reproduce their blob identifiers. No cause for the root discrepancy has been established.
+
+Consequently the unavailable PROVENANCE.md pointer and absence of a provenance path are observations about the returned listing and the specific 404 response. They do not establish absence from a cryptographically verified complete repository tree. No claim is made about other states or compressed archives. The root identifier is a reported response field, not an authenticated commitment to the supplied complete listing.
+
+The parent's replay code and results are in review67/checks/round05/root-tree-inspection/. The citation verifier's preservation manifest is review67/checks/round05/citation_verifier/manifest.json. Its reported fresh nonrecursive response was held in transient tool storage and its original bytes could not be preserved after a context transition; this limitation is explicit. The retained recursive response is sufficient for the reproducible mismatch. No replacement response was fabricated or inferred from that recollection.
+
+The visible README-versus-script distinction and lack of local historical-run authentication remain as stated in the preceding addendum. This evidence-integrity discrepancy neither independently proves H27 nor demonstrates a counterexample to it. The ordinary argument continues to import Proposition 6.7; the new local predicates do not fill that external assurance gap. This source audit postdates the 07:57:31 UTC literature cutoff and does not extend the novelty search.

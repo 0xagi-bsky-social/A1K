@@ -1,0 +1,15 @@
+{
+  "findings": {},
+  "limitation": "Lexical source preflight only; no elaboration or axiom closure was checked.",
+  "project": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/lean",
+  "protected_modules": 114,
+  "protected_tree_sha256": "e8d5fcf9c4fa004085678e6076b16ff1385a3b30244216715fe32eea62737d74",
+  "requested_roots": [
+    "SupportReduction",
+    "LiteralStatements",
+    "PairSix",
+    "FrontierAudit"
+  ],
+  "schema": "supermath-lean-trust-preflight/1.0",
+  "status": "pass"
+}

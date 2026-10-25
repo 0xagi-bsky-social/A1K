@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20DegreeCongruences",
+  "source_sha256": "c70369d223c22e96b2e93b8a4c412a4630b3a90ba344821ce3059dd8068e6606",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20DegreeCongruences.olean",
+    "SunflowerLean/Erdos20DegreeCongruences.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 7.056,
+  "output": ""
+}

@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.ErdosRadoBound",
+  "source_sha256": "eb118fd0ccce45bb0faede3d04ab80f240fcb9fce0552f5643ce9038a9e12037",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/ErdosRadoBound.olean",
+    "SunflowerLean/ErdosRadoBound.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 3.13,
+  "output": "SunflowerLean/ErdosRadoBound.lean:60:12: warning: try 'simp' instead of 'simpa'\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\nSunflowerLean/ErdosRadoBound.lean:158:8: warning: try 'simp' instead of 'simpa'\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\n'Erdos20Classical.exists_pairwiseDisjoint_hitting_subfamily' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Classical.pairwiseDisjoint_card_lt_forbidden' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Classical.exists_bounded_hitting_set' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Classical.erdos_rado_factorial_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+}

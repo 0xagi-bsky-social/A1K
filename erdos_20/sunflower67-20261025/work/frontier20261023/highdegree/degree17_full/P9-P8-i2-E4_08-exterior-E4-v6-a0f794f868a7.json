@@ -1,0 +1,2071 @@
+{
+  "kind": "P9-P8-i2",
+  "case": "E4_08",
+  "empty_z": true,
+  "assigned_z": null,
+  "forbidden": [
+    15,
+    23,
+    27,
+    29,
+    30,
+    39,
+    43,
+    45,
+    46,
+    51,
+    53,
+    54,
+    57,
+    58,
+    60
+  ],
+  "forbid_four_core": false,
+  "degree_distributions": false,
+  "crowding_imports": true,
+  "h27_cliques": null,
+  "extra_members": [],
+  "selected_actual_members": [
+    141
+  ],
+  "represented_points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "target_residuals": 51,
+  "root_degree": 17,
+  "point_cap": 17,
+  "mu": 41,
+  "columns": 31449,
+  "trace_columns": 794,
+  "upper_rows": 1289,
+  "equal_rows": 136,
+  "catalogue_sizes": [
+    2018,
+    267,
+    254,
+    854,
+    2018,
+    854,
+    854,
+    254,
+    854,
+    3735,
+    3735,
+    1674,
+    3735,
+    2070,
+    2070,
+    3735,
+    1674
+  ],
+  "build_seconds": 3.686609940999915,
+  "solver_time_limit_seconds": 20.0,
+  "seconds": 4.408442482999817,
+  "source_sha256": "8f43465ef15e09ba5ea8f472a4382f844ccb3ebeface8841f7963625f65e8138",
+  "imported_local43_sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+  "structural_note_sha256": "3ca78644de3e4aaab94372300b9b3f3801ae79ba73766d2784d39d741302fc33",
+  "pool_note_sha256": "7a5422df629f7f9e5137be88b9d7fdf52ccf39f309fd1fdc49a728dea24803a8",
+  "literal_premises": [
+    "F is a finite simple SF4 family; empty sunflower cores are forbidden.",
+    "|F| >= 68, d(x)=17, and the global maximum point degree is at most17; residual target51.",
+    "The complete root link is the recorded disjoint form P9-P8-i2.",
+    "The universal I7 support reduction plus eight templates are imported, bound to the separate independent finite census of all77520 six-point candidates; I8/I9/I10 classification and the high-link split are also imported.",
+    "H27, exact-anchor caps10/3/1, global incidence caps17/6/2, and the universal local43 structural lemmas are imported.",
+    "Every actual anchor has closed neighbourhood at least 41 and each pair in it has degree sum at least 19.",
+    "All P9-side Y internals remain free; no P10 empty-internal premise is transferred to P9.",
+    "All Z internals remain free except the explicit branch restrictions below.",
+    "Every explicitly selected extra residual four-set is an actual member. Selection does not assign any other internal membership. The represented universe is the union of the complete root core and selected actual members, with at most its one canonical extra point; every other exterior point remains unrepresented. Every fixed-member anchor, triangle, B4, sunflower-pruning and H27-witness test includes all selected actual members.",
+    "C5/P5 costs and whole-component singleton lower bounds use the ordinary lemmas in D18-structural-tools.md and literal six-point-support checks.",
+    "When s>=8 or d>=17 and k is7,8,9,10, the complete rooted point-link graph must occur in the classified intersecting I_k templates. All eight I7 templates are included; k7 alone is insufficient.",
+    "The complete triangle-plus-path star lemma applies at each literal full seven-point hub, including H7: degree minus the three internal cover completions is at most15; singleton>=8 gives near size at most5 plus those completions.",
+    "For every ordered pair of fixed actual members with exactly two common points, the universal B4 two-anchor triangle inequality s_m(R)+p_km(R)-1[(M minus h) union k is actual]<=12 is imposed for both shared m and both k in R minus M; root-companion membership and fixed-root offsets are exact.",
+    "A literal pair of fixed actual members whose v-link triples are disjoint and both near an actual anchor forces its exact-v singleton count at most7 by B4. Named rows subtract exact root-star offsets; corresponding central local singleton states >=8 are pruned only under that same witness, with no mutation of cached catalogues.",
+    "Y singleton-pool H27, cross15, affine and conditional rows apply to P10/P9. C5 pair rows use all partners; P5 pair rows separately exclude each vertex of its unique two-cover.",
+    "The entire root-avoiding residual family with at most one Y point is intersecting: two disjoint members would admit a prescribed P9/P10 root cone avoiding their at-most-two-point combined Y trace, giving an empty-core sunflower. H27 bounds its full trace sum by27, with no root-cone offset and no exterior-support restriction.",
+    "Small-complete-core H27 and guarded Z cross15/clique-H27 use the stated actual-member avoidance proofs; no universal whole-Z intersecting pool is assumed.",
+    "Optional external H27 clique rows are hash-bound data: every trace pair including self is rechecked for a shared point or a declared fixed actual member disjoint from both. Fixed members must occur in this receiving branch and lie in the source represented universe plus the excluded root. Only same-universe transfer or root-cone-only lifting to one added actual marker is allowed; the latter aggregates every fine trace by restriction. Discovery weights and stored validation claims are ignored.",
+    "Prior-art cross15, crowding26 and minimum used degree7 at mu41/cap<=18 are enabled and source-hash-bound to their ordinary bridges and prior replay receipts.",
+    "The local43 call uses emin=17 and bootstrap parameters r10=r9=0; the prior \u03bc41/cap18 minimum used degree7 is imported; no finite exterior support is assumed.",
+    {
+      "case": "E4_08",
+      "actual_marker": 141,
+      "empty_z": true,
+      "assigned_z": null,
+      "forbidden": [
+        15,
+        23,
+        27,
+        29,
+        30,
+        39,
+        43,
+        45,
+        46,
+        51,
+        53,
+        54,
+        57,
+        58,
+        60
+      ],
+      "forbid_four_core": false,
+      "degree_distributions": false,
+      "crowding_imports": true,
+      "h27_cliques": null,
+      "extra_members": [],
+      "selected_actual_members": [
+        141
+      ],
+      "represented_points": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  ],
+  "geometry": {
+    "kind": "P9-P8-i2",
+    "root": 15,
+    "Y": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "Z": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "exterior_marker": 12,
+    "link": [
+      35,
+      13,
+      25,
+      49,
+      22,
+      26,
+      42,
+      44,
+      52,
+      2240,
+      1600,
+      3136,
+      1408,
+      1664,
+      2688,
+      2816,
+      3328
+    ],
+    "omitted_local_p10_blocks": [
+      7,
+      13
+    ],
+    "p8_deletion_orbit": [
+      [
+        7,
+        13
+      ],
+      [
+        7,
+        22
+      ],
+      [
+        7,
+        35
+      ],
+      [
+        13,
+        25
+      ],
+      [
+        13,
+        44
+      ],
+      [
+        22,
+        26
+      ],
+      [
+        22,
+        52
+      ],
+      [
+        25,
+        26
+      ],
+      [
+        25,
+        49
+      ],
+      [
+        26,
+        42
+      ],
+      [
+        35,
+        42
+      ],
+      [
+        35,
+        49
+      ],
+      [
+        42,
+        44
+      ],
+      [
+        44,
+        52
+      ],
+      [
+        49,
+        52
+      ]
+    ],
+    "automorphism_orders": {
+      "Y": 6,
+      "Z": 4,
+      "product": 24
+    },
+    "literal_point_link_shapes": {
+      "0": "P5",
+      "1": "P5",
+      "2": "P5",
+      "3": "C5",
+      "4": "C5",
+      "5": "C5",
+      "6": null,
+      "7": "P5",
+      "8": null,
+      "9": "P5",
+      "10": "C5",
+      "11": "C5"
+    },
+    "excluded_Y_internal_count": 0,
+    "triangle_path_hub_vertices": [],
+    "records": {
+      "none": {
+        "marker": null,
+        "category": "unmarked",
+        "orbit_size": 0,
+        "orbit": []
+      },
+      "IY00": {
+        "marker": 15,
+        "category": "internal-Y",
+        "orbit_size": 3,
+        "orbit": [
+          15,
+          23,
+          39
+        ]
+      },
+      "IY01": {
+        "marker": 27,
+        "category": "internal-Y",
+        "orbit_size": 3,
+        "orbit": [
+          27,
+          46,
+          53
+        ]
+      },
+      "IY02": {
+        "marker": 29,
+        "category": "internal-Y",
+        "orbit_size": 6,
+        "orbit": [
+          29,
+          30,
+          43,
+          45,
+          51,
+          54
+        ]
+      },
+      "IY03": {
+        "marker": 57,
+        "category": "internal-Y",
+        "orbit_size": 3,
+        "orbit": [
+          57,
+          58,
+          60
+        ]
+      },
+      "IZ00": {
+        "marker": 960,
+        "category": "internal-Z",
+        "orbit_size": 1,
+        "orbit": [
+          960
+        ]
+      },
+      "IZ01": {
+        "marker": 1472,
+        "category": "internal-Z",
+        "orbit_size": 4,
+        "orbit": [
+          1472,
+          1856,
+          2496,
+          2880
+        ]
+      },
+      "IZ02": {
+        "marker": 1728,
+        "category": "internal-Z",
+        "orbit_size": 4,
+        "orbit": [
+          1728,
+          1920,
+          2752,
+          2944
+        ]
+      },
+      "IZ03": {
+        "marker": 3264,
+        "category": "internal-Z",
+        "orbit_size": 4,
+        "orbit": [
+          3264,
+          3456,
+          3648,
+          3840
+        ]
+      },
+      "IZ04": {
+        "marker": 3392,
+        "category": "internal-Z",
+        "orbit_size": 1,
+        "orbit": [
+          3392
+        ]
+      },
+      "IZ05": {
+        "marker": 3712,
+        "category": "internal-Z",
+        "orbit_size": 1,
+        "orbit": [
+          3712
+        ]
+      },
+      "E4_00": {
+        "marker": 71,
+        "category": "mixed-four-core",
+        "orbit_size": 2,
+        "orbit": [
+          71,
+          263
+        ]
+      },
+      "E4_01": {
+        "marker": 75,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          75,
+          78,
+          83,
+          85,
+          101,
+          102,
+          267,
+          270,
+          275,
+          277,
+          293,
+          294
+        ]
+      },
+      "E4_02": {
+        "marker": 77,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          77,
+          86,
+          99,
+          269,
+          278,
+          291
+        ]
+      },
+      "E4_03": {
+        "marker": 89,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          89,
+          90,
+          106,
+          108,
+          113,
+          116,
+          281,
+          282,
+          298,
+          300,
+          305,
+          308
+        ]
+      },
+      "E4_04": {
+        "marker": 92,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          92,
+          105,
+          114,
+          284,
+          297,
+          306
+        ]
+      },
+      "E4_05": {
+        "marker": 120,
+        "category": "mixed-four-core",
+        "orbit_size": 2,
+        "orbit": [
+          120,
+          312
+        ]
+      },
+      "E4_06": {
+        "marker": 135,
+        "category": "mixed-four-core",
+        "orbit_size": 2,
+        "orbit": [
+          135,
+          519
+        ]
+      },
+      "E4_07": {
+        "marker": 139,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          139,
+          142,
+          147,
+          149,
+          165,
+          166,
+          523,
+          526,
+          531,
+          533,
+          549,
+          550
+        ]
+      },
+      "E4_08": {
+        "marker": 141,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          141,
+          150,
+          163,
+          525,
+          534,
+          547
+        ]
+      },
+      "E4_09": {
+        "marker": 153,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          153,
+          154,
+          170,
+          172,
+          177,
+          180,
+          537,
+          538,
+          554,
+          556,
+          561,
+          564
+        ]
+      },
+      "E4_10": {
+        "marker": 156,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          156,
+          169,
+          178,
+          540,
+          553,
+          562
+        ]
+      },
+      "E4_11": {
+        "marker": 184,
+        "category": "mixed-four-core",
+        "orbit_size": 2,
+        "orbit": [
+          184,
+          568
+        ]
+      },
+      "E4_12": {
+        "marker": 195,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          195,
+          197,
+          198,
+          387,
+          389,
+          390,
+          579,
+          581,
+          582,
+          771,
+          773,
+          774
+        ]
+      },
+      "E4_13": {
+        "marker": 201,
+        "category": "mixed-four-core",
+        "orbit_size": 24,
+        "orbit": [
+          201,
+          204,
+          210,
+          212,
+          225,
+          226,
+          393,
+          396,
+          402,
+          404,
+          417,
+          418,
+          585,
+          588,
+          594,
+          596,
+          609,
+          610,
+          777,
+          780,
+          786,
+          788,
+          801,
+          802
+        ]
+      },
+      "E4_14": {
+        "marker": 202,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          202,
+          209,
+          228,
+          394,
+          401,
+          420,
+          586,
+          593,
+          612,
+          778,
+          785,
+          804
+        ]
+      },
+      "E4_15": {
+        "marker": 216,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          216,
+          232,
+          240,
+          408,
+          424,
+          432,
+          600,
+          616,
+          624,
+          792,
+          808,
+          816
+        ]
+      },
+      "E4_16": {
+        "marker": 323,
+        "category": "mixed-four-core",
+        "orbit_size": 3,
+        "orbit": [
+          323,
+          325,
+          326
+        ]
+      },
+      "E4_17": {
+        "marker": 329,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          329,
+          332,
+          338,
+          340,
+          353,
+          354
+        ]
+      },
+      "E4_18": {
+        "marker": 330,
+        "category": "mixed-four-core",
+        "orbit_size": 3,
+        "orbit": [
+          330,
+          337,
+          356
+        ]
+      },
+      "E4_19": {
+        "marker": 344,
+        "category": "mixed-four-core",
+        "orbit_size": 3,
+        "orbit": [
+          344,
+          360,
+          368
+        ]
+      },
+      "E4_20": {
+        "marker": 449,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          449,
+          450,
+          452,
+          833,
+          834,
+          836
+        ]
+      },
+      "E4_21": {
+        "marker": 456,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          456,
+          464,
+          480,
+          840,
+          848,
+          864
+        ]
+      },
+      "E4_22": {
+        "marker": 643,
+        "category": "mixed-four-core",
+        "orbit_size": 3,
+        "orbit": [
+          643,
+          645,
+          646
+        ]
+      },
+      "E4_23": {
+        "marker": 649,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          649,
+          652,
+          658,
+          660,
+          673,
+          674
+        ]
+      },
+      "E4_24": {
+        "marker": 650,
+        "category": "mixed-four-core",
+        "orbit_size": 3,
+        "orbit": [
+          650,
+          657,
+          676
+        ]
+      },
+      "E4_25": {
+        "marker": 664,
+        "category": "mixed-four-core",
+        "orbit_size": 3,
+        "orbit": [
+          664,
+          680,
+          688
+        ]
+      },
+      "E4_26": {
+        "marker": 705,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          705,
+          706,
+          708,
+          897,
+          898,
+          900
+        ]
+      },
+      "E4_27": {
+        "marker": 712,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          712,
+          720,
+          736,
+          904,
+          912,
+          928
+        ]
+      },
+      "E4_28": {
+        "marker": 1031,
+        "category": "mixed-four-core",
+        "orbit_size": 2,
+        "orbit": [
+          1031,
+          2055
+        ]
+      },
+      "E4_29": {
+        "marker": 1035,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          1035,
+          1038,
+          1043,
+          1045,
+          1061,
+          1062,
+          2059,
+          2062,
+          2067,
+          2069,
+          2085,
+          2086
+        ]
+      },
+      "E4_30": {
+        "marker": 1037,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          1037,
+          1046,
+          1059,
+          2061,
+          2070,
+          2083
+        ]
+      },
+      "E4_31": {
+        "marker": 1049,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          1049,
+          1050,
+          1066,
+          1068,
+          1073,
+          1076,
+          2073,
+          2074,
+          2090,
+          2092,
+          2097,
+          2100
+        ]
+      },
+      "E4_32": {
+        "marker": 1052,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          1052,
+          1065,
+          1074,
+          2076,
+          2089,
+          2098
+        ]
+      },
+      "E4_33": {
+        "marker": 1080,
+        "category": "mixed-four-core",
+        "orbit_size": 2,
+        "orbit": [
+          1080,
+          2104
+        ]
+      },
+      "E4_34": {
+        "marker": 1091,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          1091,
+          1093,
+          1094,
+          1283,
+          1285,
+          1286,
+          2115,
+          2117,
+          2118,
+          2307,
+          2309,
+          2310
+        ]
+      },
+      "E4_35": {
+        "marker": 1097,
+        "category": "mixed-four-core",
+        "orbit_size": 24,
+        "orbit": [
+          1097,
+          1100,
+          1106,
+          1108,
+          1121,
+          1122,
+          1289,
+          1292,
+          1298,
+          1300,
+          1313,
+          1314,
+          2121,
+          2124,
+          2130,
+          2132,
+          2145,
+          2146,
+          2313,
+          2316,
+          2322,
+          2324,
+          2337,
+          2338
+        ]
+      },
+      "E4_36": {
+        "marker": 1098,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          1098,
+          1105,
+          1124,
+          1290,
+          1297,
+          1316,
+          2122,
+          2129,
+          2148,
+          2314,
+          2321,
+          2340
+        ]
+      },
+      "E4_37": {
+        "marker": 1112,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          1112,
+          1128,
+          1136,
+          1304,
+          1320,
+          1328,
+          2136,
+          2152,
+          2160,
+          2328,
+          2344,
+          2352
+        ]
+      },
+      "E4_38": {
+        "marker": 1155,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          1155,
+          1157,
+          1158,
+          1539,
+          1541,
+          1542,
+          2179,
+          2181,
+          2182,
+          2563,
+          2565,
+          2566
+        ]
+      },
+      "E4_39": {
+        "marker": 1161,
+        "category": "mixed-four-core",
+        "orbit_size": 24,
+        "orbit": [
+          1161,
+          1164,
+          1170,
+          1172,
+          1185,
+          1186,
+          1545,
+          1548,
+          1554,
+          1556,
+          1569,
+          1570,
+          2185,
+          2188,
+          2194,
+          2196,
+          2209,
+          2210,
+          2569,
+          2572,
+          2578,
+          2580,
+          2593,
+          2594
+        ]
+      },
+      "E4_40": {
+        "marker": 1162,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          1162,
+          1169,
+          1188,
+          1546,
+          1553,
+          1572,
+          2186,
+          2193,
+          2212,
+          2570,
+          2577,
+          2596
+        ]
+      },
+      "E4_41": {
+        "marker": 1176,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          1176,
+          1192,
+          1200,
+          1560,
+          1576,
+          1584,
+          2200,
+          2216,
+          2224,
+          2584,
+          2600,
+          2608
+        ]
+      },
+      "E4_42": {
+        "marker": 1217,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          1217,
+          1218,
+          1220,
+          1793,
+          1794,
+          1796,
+          2433,
+          2434,
+          2436,
+          2625,
+          2626,
+          2628
+        ]
+      },
+      "E4_43": {
+        "marker": 1224,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          1224,
+          1232,
+          1248,
+          1800,
+          1808,
+          1824,
+          2440,
+          2448,
+          2464,
+          2632,
+          2640,
+          2656
+        ]
+      },
+      "E4_44": {
+        "marker": 1345,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          1345,
+          1346,
+          1348,
+          2369,
+          2370,
+          2372
+        ]
+      },
+      "E4_45": {
+        "marker": 1352,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          1352,
+          1360,
+          1376,
+          2376,
+          2384,
+          2400
+        ]
+      },
+      "E4_46": {
+        "marker": 1409,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          1409,
+          1410,
+          1412,
+          1601,
+          1602,
+          1604,
+          2241,
+          2242,
+          2244,
+          2817,
+          2818,
+          2820
+        ]
+      },
+      "E4_47": {
+        "marker": 1416,
+        "category": "mixed-four-core",
+        "orbit_size": 12,
+        "orbit": [
+          1416,
+          1424,
+          1440,
+          1608,
+          1616,
+          1632,
+          2248,
+          2256,
+          2272,
+          2824,
+          2832,
+          2848
+        ]
+      },
+      "E4_48": {
+        "marker": 1665,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          1665,
+          1666,
+          1668,
+          2689,
+          2690,
+          2692
+        ]
+      },
+      "E4_49": {
+        "marker": 1672,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          1672,
+          1680,
+          1696,
+          2696,
+          2704,
+          2720
+        ]
+      },
+      "E4_50": {
+        "marker": 3075,
+        "category": "mixed-four-core",
+        "orbit_size": 3,
+        "orbit": [
+          3075,
+          3077,
+          3078
+        ]
+      },
+      "E4_51": {
+        "marker": 3081,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          3081,
+          3084,
+          3090,
+          3092,
+          3105,
+          3106
+        ]
+      },
+      "E4_52": {
+        "marker": 3082,
+        "category": "mixed-four-core",
+        "orbit_size": 3,
+        "orbit": [
+          3082,
+          3089,
+          3108
+        ]
+      },
+      "E4_53": {
+        "marker": 3096,
+        "category": "mixed-four-core",
+        "orbit_size": 3,
+        "orbit": [
+          3096,
+          3112,
+          3120
+        ]
+      },
+      "E4_54": {
+        "marker": 3137,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          3137,
+          3138,
+          3140,
+          3329,
+          3330,
+          3332
+        ]
+      },
+      "E4_55": {
+        "marker": 3144,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          3144,
+          3152,
+          3168,
+          3336,
+          3344,
+          3360
+        ]
+      },
+      "E4_56": {
+        "marker": 3201,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          3201,
+          3202,
+          3204,
+          3585,
+          3586,
+          3588
+        ]
+      },
+      "E4_57": {
+        "marker": 3208,
+        "category": "mixed-four-core",
+        "orbit_size": 6,
+        "orbit": [
+          3208,
+          3216,
+          3232,
+          3592,
+          3600,
+          3616
+        ]
+      },
+      "E3_00": {
+        "marker": 4163,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 6,
+        "orbit": [
+          4163,
+          4165,
+          4166,
+          4355,
+          4357,
+          4358
+        ]
+      },
+      "E3_01": {
+        "marker": 4169,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 12,
+        "orbit": [
+          4169,
+          4172,
+          4178,
+          4180,
+          4193,
+          4194,
+          4361,
+          4364,
+          4370,
+          4372,
+          4385,
+          4386
+        ]
+      },
+      "E3_02": {
+        "marker": 4170,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 6,
+        "orbit": [
+          4170,
+          4177,
+          4196,
+          4362,
+          4369,
+          4388
+        ]
+      },
+      "E3_03": {
+        "marker": 4184,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 6,
+        "orbit": [
+          4184,
+          4200,
+          4208,
+          4376,
+          4392,
+          4400
+        ]
+      },
+      "E3_04": {
+        "marker": 4227,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 6,
+        "orbit": [
+          4227,
+          4229,
+          4230,
+          4611,
+          4613,
+          4614
+        ]
+      },
+      "E3_05": {
+        "marker": 4233,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 12,
+        "orbit": [
+          4233,
+          4236,
+          4242,
+          4244,
+          4257,
+          4258,
+          4617,
+          4620,
+          4626,
+          4628,
+          4641,
+          4642
+        ]
+      },
+      "E3_06": {
+        "marker": 4234,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 6,
+        "orbit": [
+          4234,
+          4241,
+          4260,
+          4618,
+          4625,
+          4644
+        ]
+      },
+      "E3_07": {
+        "marker": 4248,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 6,
+        "orbit": [
+          4248,
+          4264,
+          4272,
+          4632,
+          4648,
+          4656
+        ]
+      },
+      "E3_08": {
+        "marker": 4289,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 12,
+        "orbit": [
+          4289,
+          4290,
+          4292,
+          4481,
+          4482,
+          4484,
+          4673,
+          4674,
+          4676,
+          4865,
+          4866,
+          4868
+        ]
+      },
+      "E3_09": {
+        "marker": 4296,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 12,
+        "orbit": [
+          4296,
+          4304,
+          4320,
+          4488,
+          4496,
+          4512,
+          4680,
+          4688,
+          4704,
+          4872,
+          4880,
+          4896
+        ]
+      },
+      "E3_10": {
+        "marker": 4417,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 3,
+        "orbit": [
+          4417,
+          4418,
+          4420
+        ]
+      },
+      "E3_11": {
+        "marker": 4424,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 3,
+        "orbit": [
+          4424,
+          4432,
+          4448
+        ]
+      },
+      "E3_12": {
+        "marker": 4737,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 3,
+        "orbit": [
+          4737,
+          4738,
+          4740
+        ]
+      },
+      "E3_13": {
+        "marker": 4744,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 3,
+        "orbit": [
+          4744,
+          4752,
+          4768
+        ]
+      },
+      "E3_14": {
+        "marker": 5123,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 6,
+        "orbit": [
+          5123,
+          5125,
+          5126,
+          6147,
+          6149,
+          6150
+        ]
+      },
+      "E3_15": {
+        "marker": 5129,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 12,
+        "orbit": [
+          5129,
+          5132,
+          5138,
+          5140,
+          5153,
+          5154,
+          6153,
+          6156,
+          6162,
+          6164,
+          6177,
+          6178
+        ]
+      },
+      "E3_16": {
+        "marker": 5130,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 6,
+        "orbit": [
+          5130,
+          5137,
+          5156,
+          6154,
+          6161,
+          6180
+        ]
+      },
+      "E3_17": {
+        "marker": 5144,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 6,
+        "orbit": [
+          5144,
+          5160,
+          5168,
+          6168,
+          6184,
+          6192
+        ]
+      },
+      "E3_18": {
+        "marker": 5185,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 12,
+        "orbit": [
+          5185,
+          5186,
+          5188,
+          5377,
+          5378,
+          5380,
+          6209,
+          6210,
+          6212,
+          6401,
+          6402,
+          6404
+        ]
+      },
+      "E3_19": {
+        "marker": 5192,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 12,
+        "orbit": [
+          5192,
+          5200,
+          5216,
+          5384,
+          5392,
+          5408,
+          6216,
+          6224,
+          6240,
+          6408,
+          6416,
+          6432
+        ]
+      },
+      "E3_20": {
+        "marker": 5249,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 12,
+        "orbit": [
+          5249,
+          5250,
+          5252,
+          5633,
+          5634,
+          5636,
+          6273,
+          6274,
+          6276,
+          6657,
+          6658,
+          6660
+        ]
+      },
+      "E3_21": {
+        "marker": 5256,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 12,
+        "orbit": [
+          5256,
+          5264,
+          5280,
+          5640,
+          5648,
+          5664,
+          6280,
+          6288,
+          6304,
+          6664,
+          6672,
+          6688
+        ]
+      },
+      "E3_22": {
+        "marker": 7169,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 3,
+        "orbit": [
+          7169,
+          7170,
+          7172
+        ]
+      },
+      "E3_23": {
+        "marker": 7176,
+        "category": "mixed-three-core-plus-exterior",
+        "orbit_size": 3,
+        "orbit": [
+          7176,
+          7184,
+          7200
+        ]
+      }
+    }
+  },
+  "assurance": "Numerical discovery with an exact integer-box diagnostic of this conditional relaxation; not independent reconstruction, Lean, or a complete branch proof.",
+  "imported_crowding_sources": {
+    "written_arbitrary_support_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/paper/main.tex",
+      "sha256": "4aa36c9d56af5a8e3bdb44749107820549a73e0d3405e6c700104fa4c30e5c21"
+    },
+    "cross15_certificate": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/cross15/results/cross16_certificate.json",
+      "sha256": "fa9e49530acf9170b073c4ed24fde9ae9eb30ff78bf1edeed2a8f21018ed839b"
+    },
+    "cross15_checker": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/cross15/src/verify.py",
+      "sha256": "f72bdb066eb40ebd3a5c072d0ed8431a547d06ae8d5581c408a44326df31422d"
+    },
+    "crowding26_certificate": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/crowding/certificates/crowding26.json.gz",
+      "sha256": "071d5bffc5b12979b5cb908e47f8460531ff08da99597f0e04d409335f8af825"
+    },
+    "crowding26_checker": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/crowding/code/verify.py",
+      "sha256": "397f9ab5cf361a1c6ba547e5fb0ac4a774bba967b26f637e7c951b9ed1104876"
+    },
+    "prior_foundation_ledger": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/FOUNDATION_LEDGER.md",
+      "sha256": "3658ac4e94efe4bc5240856300c79c43d1388085c2126cb926df64dd48881992"
+    },
+    "prior_selected_replay_receipt": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020/RECEIPT.json",
+      "sha256": "930a417d5f24c10056c9b10fb436fc7e52bdb13d327ed262edb895d1fd5eae8f"
+    },
+    "current_prior_delta18_unlock": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/prior-delta18-unlock.json",
+      "sha256": "574774b2a12665f403932dcd45fe8269c84d105d60db367e357f27fa8c10442f"
+    },
+    "prior_minimum7_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/analysis/mu41/mu41-analysis.md",
+      "sha256": "5b9821b942b6e782725c970332e00611eda29f238b96ca345b9c99f11f89744e"
+    },
+    "additional_core_rows_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-additional-core-rows.md",
+      "sha256": "24f3539afc3e48eb20a05643186c985eb9531cc45ded598b6ae7a6b842195b5b"
+    },
+    "triangle_path_hub_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-Q8-internal-research.md",
+      "sha256": "fb6b3918fe2e47cb23f7c4889b9d09bb6195da27bd7ec5572e218cad328887a6"
+    },
+    "D17_route": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-I7-classification-route.md",
+      "sha256": "a86e80d8377f24218194461c7e2dd92ffe44c3d6b4a505240bd050f129dcb504"
+    },
+    "I7_certificate": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/r16/results/seven_certificate.json",
+      "sha256": "fe172301b201819c029d9a1b7e8931f516cbd90aa978977118b7853b2ead7164"
+    },
+    "I7_upstream_checker": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/repository/companion/terminal/r16/src/check_seven.py",
+      "sha256": "f8d157274c5625fac692e6fd015c6d23a28b212cd82da0e0397ff00e30382705"
+    },
+    "I7_independent_checker": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17_i7_coverage.py",
+      "sha256": "fa59a11857d7dfdc3047a660f6fcb6204206ac311880e95e1f52c373718909a9"
+    },
+    "I7_independent_receipt": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-i7-coverage.json",
+      "sha256": "030fcb5ec6e64c738f306409fca83ed962c3afefb5225378295d3a6601c196df"
+    },
+    "R16_prior_normal_output": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020/terminal_r16_normal/stdout.json",
+      "sha256": "0cca051a5653c18778c2772d2ee3e08aee62c6125871071d24745bcd33163031"
+    },
+    "R16_prior_optimized_output": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/prior-art68/replay-selected-20261020/terminal_r16_optimized/stdout.json",
+      "sha256": "0cca051a5653c18778c2772d2ee3e08aee62c6125871071d24745bcd33163031"
+    },
+    "adaptation_source_D18_v4": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree18_p10_projection_v4.py",
+      "sha256": "ea937a93ba7fdfdced8287ae832055ee63dc1cc4765437a749cfed436c3ccc7f"
+    },
+    "adaptation_source_D17_v1": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection.py",
+      "sha256": "3d79ea4a0755f59aa8107c89d773600bc0965aa751772c337c3431c3a7caff52"
+    },
+    "two_actual_anchor_triangle_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-I06-triangle-closure.md",
+      "sha256": "3ae4598a645482695649bf484ac906cb14b08129d88310e44d92413f8f5c2c0b"
+    },
+    "D17_full_family_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-full-model-bridge.md",
+      "sha256": "e38dda22a26ef5c1374e298b6ebc13ea949d592f2d531db46d56f31714ebf7db"
+    },
+    "adaptation_source_D17_v2": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v2.py",
+      "sha256": "497f71f4fdf555c7456b42123684e7fd5059769f89662c257e2263425798b31a"
+    },
+    "D17_H27_clique_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-H27-clique-addon.md",
+      "sha256": "79bc58ae5cb189094f2b088648e8adbc0ccb21f8e53ebcf5d534e548870f74b5"
+    },
+    "trace_H27_general_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/TRACE-H27-CLIQUE-SEPARATION.md",
+      "sha256": "b53d1ad5d1bc9888e46b99f93287985a9fe1c71205742c46541e1925f872067a"
+    },
+    "trace_H27_separator": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/trace_h27_cliques.py",
+      "sha256": "7babb3530d3e4e1f063692c276afe95f807ea5f01c216cb860fcb8b78842169f"
+    },
+    "adaptation_source_D17_v3": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v3.py",
+      "sha256": "d247fa0ac29e5ea765f5ede2d60df9ff9ce89e905f86f1295161acedceb370ae"
+    },
+    "marked_B4_general_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D18-marked-B4-row.md",
+      "sha256": "a6472d0196e514f9b6396665334993880f080414a9199d42a4f50fc5c1481cfe"
+    },
+    "D17_marked_B4_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-marked-B4-addon.md",
+      "sha256": "7c8d5efd1f00c45d2745e6e29e50ff882de1c6bf7c52ef16abfb7c957b624f00"
+    },
+    "adaptation_source_D17_v4": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v4.py",
+      "sha256": "a1beae56f60205a48442a1c6a31d2148557443511fb119a1936ffda8578bebf2"
+    },
+    "D17_extra_actual_members_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-H7-equality-extra-members.md",
+      "sha256": "c90e0d6b6499f1bba693c5258fdd467f105fde7da58f5fb32bfd19957b75c440"
+    },
+    "adaptation_source_D17_v5": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v5.py",
+      "sha256": "bee8278d87557a3f979d7c69022d62d775e74f093cb87ece2c935e6f1acd1210"
+    },
+    "D17_whole_zero_or_one_Y_H27_bridge": {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-Y-at-most-one-H27.md",
+      "sha256": "fb56a2f7595c58017d7bafda7d841c076a360e7f6b13123b0977ac7de5ce3ebc"
+    }
+  },
+  "solver_upper": 48.0,
+  "dual": {
+    "scale": 10000000000,
+    "H": 479999999998,
+    "correction": 45,
+    "upper_numerator": 480000000043,
+    "below51": true,
+    "display": 48.0000000043,
+    "inequality_sign": "nonnegative weights on A*x<=b",
+    "equality_sign": "signed weights on E*x=f",
+    "ineq": [
+      [
+        64,
+        10000000000,
+        [
+          "incidence",
+          320
+        ]
+      ],
+      [
+        334,
+        10000000000,
+        [
+          "fixed-near-disjoint-B4-singleton7",
+          32781,
+          2,
+          32790,
+          141
+        ]
+      ],
+      [
+        336,
+        10000000000,
+        [
+          "fixed-near-disjoint-B4-singleton7",
+          32793,
+          0,
+          32803,
+          141
+        ]
+      ],
+      [
+        399,
+        10000000000,
+        [
+          "exact-anchor",
+          32793,
+          17
+        ]
+      ],
+      [
+        661,
+        6666666667,
+        [
+          "exact-anchor",
+          34176,
+          1280
+        ]
+      ],
+      [
+        687,
+        10000000000,
+        [
+          "exact-anchor",
+          34432,
+          1536
+        ]
+      ],
+      [
+        713,
+        10000000000,
+        [
+          "exact-anchor",
+          35456,
+          2560
+        ]
+      ],
+      [
+        762,
+        3333333333,
+        [
+          "exact-anchor",
+          36096,
+          1280
+        ]
+      ],
+      [
+        765,
+        6666666667,
+        [
+          "exact-anchor",
+          36096,
+          3072
+        ]
+      ],
+      [
+        1210,
+        10000000000,
+        [
+          "literal-C5-degree-minus-covers15",
+          3
+        ]
+      ],
+      [
+        1216,
+        3333333333,
+        [
+          "literal-C5-degree-minus-covers15",
+          11
+        ]
+      ]
+    ],
+    "eq": [
+      [
+        88,
+        6666666667
+      ],
+      [
+        90,
+        6666666667
+      ],
+      [
+        95,
+        -3333333333
+      ]
+    ]
+  },
+  "primal_trace": [
+    [
+      5,
+      1.7062288131277725
+    ],
+    [
+      129,
+      0.8790494699231646
+    ],
+    [
+      10,
+      2.4544024242023808
+    ],
+    [
+      20,
+      1.5779041024730927
+    ],
+    [
+      132,
+      1.984473273885774
+    ],
+    [
+      136,
+      2.1513277179598935
+    ],
+    [
+      320,
+      2.256069242323899
+    ],
+    [
+      2112,
+      3.0
+    ],
+    [
+      1280,
+      1.0
+    ],
+    [
+      1536,
+      2.939499575884877
+    ],
+    [
+      2560,
+      2.5729727365780284
+    ],
+    [
+      3072,
+      1.9999999999999991
+    ],
+    [
+      7,
+      0.06745318560425544
+    ],
+    [
+      19,
+      1.523257493239763
+    ],
+    [
+      35,
+      0.8274394570973516
+    ],
+    [
+      37,
+      0.22631800126797175
+    ],
+    [
+      1029,
+      0.06050042411512258
+    ],
+    [
+      25,
+      0.3857054415418865
+    ],
+    [
+      137,
+      0.4236961263332314
+    ],
+    [
+      145,
+      0.476742506760237
+    ],
+    [
+      289,
+      0.293511072979484
+    ],
+    [
+      2081,
+      0.35456536693030405
+    ],
+    [
+      38,
+      1.8574339215331046
+    ],
+    [
+      26,
+      0.5090225600937391
+    ],
+    [
+      42,
+      0.5455975757976195
+    ],
+    [
+      322,
+      1.0
+    ],
+    [
+      44,
+      0.036575015703879554
+    ],
+    [
+      140,
+      0.9634249842961198
+    ],
+    [
+      56,
+      0.49097743990626086
+    ],
+    [
+      152,
+      0.17084223717107783
+    ],
+    [
+      336,
+      1.743930757676101
+    ],
+    [
+      1312,
+      2.0
+    ],
+    [
+      195,
+      0.8184987276546315
+    ],
+    [
+      141,
+      1.0
+    ],
+    [
+      1093,
+      0.9394995758848779
+    ],
+    [
+      649,
+      0.1905984321248828
+    ],
+    [
+      561,
+      1.0
+    ],
+    [
+      609,
+      0.049929749339279676
+    ],
+    [
+      2337,
+      0.4696866627136458
+    ],
+    [
+      705,
+      0.1315715230060886
+    ],
+    [
+      2433,
+      0.10328607386438268
+    ],
+    [
+      2689,
+      0.07246189649166747
+    ],
+    [
+      534,
+      0.6639406249091055
+    ],
+    [
+      834,
+      1.0
+    ],
+    [
+      564,
+      0.8875891950474364
+    ],
+    [
+      420,
+      0.028658882151487323
+    ],
+    [
+      904,
+      0.6778300448690286
+    ],
+    [
+      3216,
+      0.5558100280049199
+    ],
+    [
+      1632,
+      0.0605004241151228
+    ],
+    [
+      3232,
+      0.44418997199508103
+    ],
+    [
+      2848,
+      0.4270272634219716
+    ]
+  ],
+  "premise_sha256": "a0f794f868a7cdc649b5b511710b359e5839c2dc4b3c74bced60e5a8a7c1a7d6"
+}

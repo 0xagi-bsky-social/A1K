@@ -1,0 +1,32 @@
+{
+  "agent_id": "/root/review_coordinator/typesetter",
+  "role": "typesetter",
+  "context_id": "/root/review_coordinator/typesetter",
+  "round": 3,
+  "snapshot_sha256": "f06a2f3f73cf232dc661565de228023f3818a113c1a0e213051ce6c7796bcd1e",
+  "manuscript_sha256": "f2cf0a6aec09d3b7b3eb7466a29b2c566a0c93438ab24b173215358a89f251e8",
+  "summary": "The inspected formulas preserve their signs and constants, but page 5 loses the four-star section's heading formatting. Correct that rendering before final layout approval.",
+  "evidence_ids": ["F28"],
+  "decision": "revise",
+  "required_revisions": ["Render the four-star section title as a level-two heading, removing its visible Markdown prefix."],
+  "findings": [
+    {
+      "id": "/root/review_coordinator/typesetter:round-3:required-revision-1",
+      "statement": "Page 5 prints '## Four-star refinement and support 53' as body text; other section headings receive heading typography.",
+      "severity": "minor",
+      "status": "open",
+      "disposition": "Repair heading recognition and inspect the regenerated page.",
+      "evidence_ids": ["F28"]
+    }
+  ],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Small-L transition and four-star display fidelity",
+      "method": "Verified snapshot, manuscript, manifest, and inspected-page hashes; viewed pages 4–6 against Markdown.",
+      "observation": "Page 5 preserves the L=0,1,2 qualification, 2262, 2250, equation (7), and subtraction of four in (8). Page 6 preserves the L<=5 qualification, 4488, 4475, and equation (9). No formula clipping was visible. Page 6 extended the requested coverage because the four-star conclusion continues there.",
+      "result": "supported",
+      "evidence_ids": ["F28"]
+    }
+  ]
+}

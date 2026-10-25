@@ -1,0 +1,155 @@
+{
+  "result": "PASS",
+  "assurance": "certificate-diagnostic; all row-type geometric premises stated in ordinary proof",
+  "checker_sha256": "b00d04d7b1e5263f59018abd50d96dd212283f853c06ddade4779b9fc7988c9b",
+  "data_sha256": "63d145e04e2fee9110b0bbc001b183236bd71523184caffbdc08171b0c123a13",
+  "records": {
+    "E00": {
+      "trace_domain": 794,
+      "excluded": 460,
+      "admissible": 334,
+      "scale": 2,
+      "weighted_rhs": 81,
+      "marker_coefficient": 3,
+      "upper_numerator": 80,
+      "upper_denominator": 2,
+      "integer_residual_cap": 40,
+      "histogram": {
+        "2": 298,
+        "3": 1,
+        "4": 35
+      },
+      "local_row_kinds": [
+        "marker-forces-singleton-at-most-seven",
+        "universal-exact-trace-capacity",
+        "universal-exact-trace-capacity",
+        "universal-exact-trace-capacity"
+      ]
+    },
+    "E01": {
+      "trace_domain": 1093,
+      "excluded": 604,
+      "admissible": 489,
+      "scale": 2,
+      "weighted_rhs": 91,
+      "marker_coefficient": 3,
+      "upper_numerator": 90,
+      "upper_denominator": 2,
+      "integer_residual_cap": 45,
+      "histogram": {
+        "2": 478,
+        "3": 1,
+        "4": 10
+      },
+      "local_row_kinds": [
+        "marker-forces-singleton-at-most-seven",
+        "universal-exact-trace-capacity",
+        "universal-exact-trace-capacity",
+        "universal-exact-trace-capacity",
+        "universal-exact-trace-capacity",
+        "universal-exact-trace-capacity",
+        "universal-exact-trace-capacity",
+        "universal-exact-trace-capacity",
+        "universal-exact-trace-capacity"
+      ]
+    },
+    "E02": {
+      "trace_domain": 794,
+      "excluded": 439,
+      "admissible": 355,
+      "scale": 2,
+      "weighted_rhs": 80,
+      "marker_coefficient": 3,
+      "upper_numerator": 79,
+      "upper_denominator": 2,
+      "integer_residual_cap": 39,
+      "histogram": {
+        "2": 225,
+        "3": 127,
+        "4": 3
+      },
+      "local_row_kinds": [
+        "marker-forces-singleton-at-most-seven",
+        "marker-forces-singleton-at-most-seven",
+        "marker-forces-singleton-at-most-seven"
+      ]
+    },
+    "E03": {
+      "trace_domain": 1093,
+      "excluded": 562,
+      "admissible": 531,
+      "scale": 3,
+      "weighted_rhs": 141,
+      "marker_coefficient": 4,
+      "upper_numerator": 140,
+      "upper_denominator": 3,
+      "integer_residual_cap": 46,
+      "histogram": {
+        "3": 337,
+        "4": 147,
+        "5": 45,
+        "6": 2
+      },
+      "local_row_kinds": [
+        "marker-forces-singleton-at-most-seven",
+        "marker-forces-singleton-at-most-seven",
+        "marker-forces-singleton-at-most-seven",
+        "universal-exact-trace-capacity",
+        "universal-exact-trace-capacity",
+        "universal-exact-trace-capacity",
+        "universal-exact-trace-capacity",
+        "universal-exact-trace-capacity"
+      ]
+    },
+    "E04": {
+      "trace_domain": 794,
+      "excluded": 469,
+      "admissible": 325,
+      "scale": 10,
+      "weighted_rhs": 430,
+      "marker_coefficient": 10,
+      "upper_numerator": 430,
+      "upper_denominator": 10,
+      "integer_residual_cap": 43,
+      "histogram": {
+        "10": 225,
+        "20": 96,
+        "30": 4
+      },
+      "local_row_kinds": [
+        "degree-cap-and-present-pair"
+      ]
+    },
+    "E05": {
+      "trace_domain": 1093,
+      "excluded": 596,
+      "admissible": 497,
+      "scale": 1,
+      "weighted_rhs": 48,
+      "marker_coefficient": 2,
+      "upper_numerator": 47,
+      "upper_denominator": 1,
+      "integer_residual_cap": 47,
+      "histogram": {
+        "1": 421,
+        "2": 71,
+        "3": 5
+      },
+      "local_row_kinds": [
+        "universal-exact-trace-capacity",
+        "universal-exact-trace-capacity",
+        "universal-exact-trace-capacity"
+      ]
+    }
+  },
+  "component_automorphisms": 60,
+  "orbit_counts_with_one_canonical_exterior": {
+    "E01": 20,
+    "E03": 20,
+    "E05": 180,
+    "E00": 120,
+    "E02": 120,
+    "E04": 225
+  },
+  "seconds": 0.1900533909999922
+}

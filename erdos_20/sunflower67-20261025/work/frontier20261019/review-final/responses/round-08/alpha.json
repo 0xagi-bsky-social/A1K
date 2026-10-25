@@ -1,0 +1,23 @@
+{
+  "agent_id": "/root/review_coordinator/alpha",
+  "role": "alpha",
+  "context_id": "/root/review_coordinator/alpha",
+  "round": 8,
+  "snapshot_sha256": "0906bbbda55b8bbd32d4b236c0e1bf2b6bfa63a2576f4b86c2f054fc152719f7",
+  "manuscript_sha256": "f66cc1eb92c514fa4b4457a934b9b6c334a01f424fbe818f4dc8070d7cec8326",
+  "summary": "No mathematical transcription error was found in the six formula mappings. The current receipt and erratum appropriately limit browser and accessibility assurance. Both frozen hashes and the inspected F34 artifact hashes match.",
+  "evidence_ids": ["F34"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Formula fidelity and rendering-assurance boundary",
+      "method": "Compared all six manuscript displays with receipt PDF mappings and actual HTML MathML trees/TeX annotations; inspected renderer and erratum.",
+      "observation": "All six annotations exactly match the manuscript and mapping sources. Inequality directions, squared degrees, negative triple correction, binomial lower indices 2 and 3, and the Fin72 nonexistence equivalence are preserved. The source changes only move terminal punctuation into text notation. MathML is present, but exact annotation preservation alone does not certify assistive-technology interpretation. The erratum explicitly retracts the earlier zero-MathML overstatement, while current limitations disclaim browser/accessibility conformance and require separate PDF visual inspection. This review is source-level mapping verification, not a browser or PDF layout certification.",
+      "result": "supported",
+      "evidence_ids": ["F34"]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "commit_date": "2026-10-08T05:20:00Z",
+  "CONTENTS_git_blob": "2c68c086fff36a5806c936ad1659cf1a8d0b6dd9",
+  "CONTENTS_sha256": "af9cb8e0198e302fe4cdc109e0694da66f3f83cdab9c48a4a52b2f9df9e31a42",
+  "CONTENTS_header": "719 manuscripts covering 372 result families.",
+  "actual_numbered_families": 372,
+  "missing_IDs": [
+    45,
+    61,
+    70,
+    123,
+    163
+  ],
+  "lean_toolchain": "leanprover/lean4:v4.34.1",
+  "mathlib_revision": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "lean_runtime": null,
+  "lake_runtime": null,
+  "assurance_grade": "source-inspected",
+  "cutoff": "2026-10-09 America/New_York",
+  "license": "Apache-2.0",
+  "root_tree_truncated": true,
+  "source_preflight": "source-preflight-receipts.json",
+  "limitations": [
+    "No Lean or Lake runtime available.",
+    "No observed Comparator run.",
+    "External Mathlib dependencies not source-scanned.",
+    "Imported OAI module closure is a module overapproximation, not environment declaration-level dependency closure.",
+    "Git recursive tree is truncated at Geometry/IsometricImmersion; do not claim whole-repository source exhaustive coverage."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "OPEN_FOR_REMAINING_REVIEW_WITH_FIXED_RANK_SCOPE",
+  "recorded_at": "2026-10-25T13:42:14.639495+00:00",
+  "search_cutoff": "2026-10-25T13:36:25Z",
+  "user_condition": "Renewed frontier comparison before remaining rounds, final audits or publication.",
+  "criterion": "The existing contract: ordinary arbitrary-support M(4,3)<=67 compared with the strongest located directly comparable public upper68.",
+  "finding": "No inspected competing theorem supplies <=67; fresh primary records retain upper68. Search does not reveal a concrete reason to revoke the fixed-rank comparison.",
+  "decision": "Resume actual remaining review, retaining bounded-priority language; no general-conjecture or absolute global-priority certification.",
+  "limitations": [
+    "Incomplete full-text/native-search coverage, including SSRN6913500.",
+    "Search is not proof validity or end-to-end Lean verification.",
+    "External H27 historical-run and root-tree integrity limitations remain.",
+    "Final publication still requires ten full rounds and separate actual final acceptance."
+  ],
+  "bound_evidence": [
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261025/FRONTIER_REFRESH.md",
+      "sha256": "73888edff082ec59a74486ec9f536d00018e560a80e0fe16fdaea36bffd560a9"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261025/rank4/FINDINGS.md",
+      "sha256": "579308ef105751471d0be466565377c778ff2c5a0fc8de81111048e57903d925"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261025/general/assessment.json",
+      "sha256": "b6b7374c54be05989f7006be40434f838ec6981561ed9a25f0a679951959f3e1"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261025/general/continuation_analysis.json",
+      "sha256": "4b90106922c5469b6915a1736060296e875b0eefd4a68ed18b3d2010541e8193"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261025/archives/findings.json",
+      "sha256": "052522eafa846a36f5e9852fb4408732d7198a82cd7fdb912b8c015f76780339"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261025/BROWSER_NATIVE_OBSERVATIONS.md",
+      "sha256": "42fc3a1e481a578a8f487f761ada9cdf3dd7ca25d408a083e52370046ed6789f"
+    }
+  ],
+  "pre_refresh_manuscript_sha256": "a8f164ea1218b704cccd43c618fc2166f5ab636d9c121e7713f7c797d221b2b9",
+  "post_refresh_manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68"
+}

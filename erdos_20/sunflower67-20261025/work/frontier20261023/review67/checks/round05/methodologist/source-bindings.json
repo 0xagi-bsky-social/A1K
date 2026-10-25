@@ -1,0 +1,22 @@
+{
+  "bound_files": 47,
+  "all_match": true,
+  "stored_exact_scalars_agree": true,
+  "stored_column_count": 24727,
+  "stage_node": "four-E4_56",
+  "strictly_earlier_dependencies": 68,
+  "A3_symbolic_identity": "a_i = 3h-68 - (e_i+e_(i+3)+e_(i+5)); sum e = 8h-204",
+  "sensitivity": [
+    {
+      "h": 27,
+      "minimum_neighbourhood": 41,
+      "fibre_lower_bound": 1
+    },
+    {
+      "h": 28,
+      "minimum_neighbourhood": 40,
+      "fibre_lower_bound": -4
+    }
+  ],
+  "limitations": "Integrity/scalar consistency and symbolic identity only; no fresh leaf replay or H27 exhaustion"
+}

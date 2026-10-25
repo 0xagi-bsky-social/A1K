@@ -1,0 +1,29 @@
+{
+  "forbidden": [
+    1728,
+    1856,
+    1920,
+    2752,
+    2880,
+    2944,
+    3264,
+    3392,
+    3456,
+    3648,
+    3712,
+    3840
+  ],
+  "antecedent_progress": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-internal-Z-stage0-progress.json",
+  "sha256": "a9a4a31eafc66341dc5cddc3be7f3abb6480d8fd0e23116671adecbf42d0f116",
+  "closed_cases": [
+    "IZ01",
+    "IZ02",
+    "IZ03",
+    "IZ04"
+  ],
+  "unclosed_cases": [
+    "IZ00"
+  ],
+  "Y_antecedent": null,
+  "scope": "producer-stage premises, exact replay and independent coverage separate"
+}

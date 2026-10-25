@@ -1,0 +1,29 @@
+{
+  "scope": "conditional ordinary exclusion of exact maximum degree16, not global67 or Lean",
+  "items": [
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D16-complete-argument.md",
+      "sha256": "5628ed14a7a7a24013087de1f630f15ec2fe07479ad6dadc91d2619a0e758890"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D16-I8-cover-independent-replay.json",
+      "sha256": "0d2a2adc503b3ad1bd9a05dba60e98a4930672dae9b3205f5ed1b2f47f9226f4"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D16-fibre-k3-independent.json",
+      "sha256": "8de5b582472e36c6e34594a36f623fcd15aee7279cb8dd445da5b15b2f9f221c"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D16-fibre-k4-independent.json",
+      "sha256": "5d8393a4c9af2276c2d7293c1a2e2240e29e548506532a671c7b8f769295d4c7"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D16-fibre-k5-independent.json",
+      "sha256": "7cb12abf78cc2043547012167ff5bee1f65f8f0f4b1fbb195b0c17ca7f3584e8"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D16-fibre-k6-independent.json",
+      "sha256": "f304317a48a86837aabab7f16c2b77f61b0af9593a52147def949ec3a2014784"
+    }
+  ]
+}

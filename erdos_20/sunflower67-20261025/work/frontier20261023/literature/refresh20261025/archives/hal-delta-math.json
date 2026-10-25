@@ -1,0 +1,18 @@
+{
+  "response":{
+    "numFound":1,
+    "start":0,
+    "numFoundExact":true,
+    "docs":[{
+      "domain_s":["0.sdu","1.sdu.astr","2.sdu.astr.ep","0.sdu","1.sdu.stu","2.sdu.stu.st"],
+      "primaryDomain_s":"sdu.astr.ep",
+      "title_s":["Sedimentology and Stratigraphy of the Shenandoah Formation, Western Fan, Jezero Crater, Mars"],
+      "abstract_s":["Abstract Sedimentary fans are key targets of exploration on Mars because they record the history of surface aqueous activity and habitability. The sedimentary fan extending from the Neretva Vallis breach of Jezero crater's western rim is one of the Mars 2020 Perseverance rover's main exploration targets. Perseverance spent ∼250 sols exploring and collecting seven rock cores from the lower ∼25 m of sedimentary rock exposed within the fan's eastern scarp, a sequence informally named the “Shenandoah” formation. This study describes the sedimentology and stratigraphy of the Shenandoah formation at two areas, “Cape Nukshak” and “Hawksbill Gap,” including a characterization, interpretation, and depositional framework for the facies that comprise it. The five main facies of the Shenandoah formation include: laminated mudstone, laminated sandstone, low‐angle cross stratified sandstone, thin‐bedded granule sandstone, and thick‐bedded granule‐pebble sandstone and conglomerate. These facies are organized into three facies associations (FA): FA1, comprised of laminated and soft sediment‐deformed sandstone interbedded with broad, unconfined coarser‐grained granule and pebbly sandstone intervals; FA2, comprised predominantly of laterally extensive, soft‐sediment deformed laminated, sulfate‐bearing mudstone with lenses of low‐angle cross‐stratified and scoured sandstone; and FA3, comprised of dipping planar, thin‐bedded sand‐gravel couplets. The depositional model favored for the Shenandoah formation involves the transition from a sand‐dominated distal alluvial fan setting (FA1) to a stable, widespread saline lake (FA2), followed by the progradation of a river delta system (FA3) into the lake basin. This sequence records the initiation of a relatively long‐lived, habitable lacustrine and deltaic environment within Jezero crater."],
+      "halId_s":"hal-04521140",
+      "uri_s":"https://hal.science/hal-04521140v1",
+      "version_i":1,
+      "submittedDate_s":"2024-03-26 09:47:07",
+      "producedDate_s":"2024"
+    }]
+  }
+}

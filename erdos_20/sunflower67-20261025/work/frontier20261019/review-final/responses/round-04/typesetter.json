@@ -1,0 +1,45 @@
+{
+  "agent_id": "/root/review_coordinator/typesetter",
+  "role": "typesetter",
+  "context_id": "/root/review_coordinator/typesetter",
+  "round": 4,
+  "snapshot_sha256": "2536810f6e3bf880dbf91b4629e61a1e65623b83253b143c984e7577b5169349",
+  "manuscript_sha256": "a5097eb4be3793ead393f3fdf6450e2250f3d0249c75ffaa740e5e46fd8d6f2c",
+  "summary": "The round 3 heading defect is visibly repaired in v4. The inspected page transition preserves the source's distinction between the sum-of-squares chain and its small-L justification. This limited check supports continuing review, without asserting full-document accessibility.",
+  "evidence_ids": [
+    "F31"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "/root/review_coordinator/typesetter:round-3:required-revision-1",
+      "statement": "The four-star title now uses section-heading typography without a visible Markdown prefix.",
+      "severity": "minor",
+      "status": "resolved",
+      "disposition": "Closed after viewing regenerated page 5.",
+      "evidence_ids": [
+        "F31"
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "/root/review_coordinator/typesetter:round-3:required-revision-1",
+      "action": "Inspected the regenerated heading against its Markdown source.",
+      "result": "Resolved in v4.",
+      "status": "resolved"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Pages 4–5 rendering continuity",
+      "method": "Verified snapshot, manuscript, manifest and page hashes; viewed both PNGs against the frozen text.",
+      "observation": "Page 4's chain ends before page 5's explicit L>=3 versus L=0,1,2 cases. Equations (4)–(8), constants 2262 and 2250, subtraction of four, and renamed D4 remain readable and agree with the source; no clipping is visible.",
+      "result": "supported",
+      "evidence_ids": [
+        "F31"
+      ]
+    }
+  ]
+}

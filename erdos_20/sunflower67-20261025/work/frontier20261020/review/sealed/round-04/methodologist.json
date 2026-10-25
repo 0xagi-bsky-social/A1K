@@ -1,0 +1,62 @@
+{
+  "content": {
+    "agent_id": "/root/review80_coordinator/methodologist",
+    "role": "methodologist",
+    "context_id": "/root/review80_coordinator/methodologist",
+    "round": 4,
+    "snapshot_sha256": "c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329",
+    "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+    "summary": "The actual-family residual interface contains structural and degree hypotheses rather than the intended conclusion, and the bridge derives it from the literal Profile A witness. The revised methods paragraph correctly limits the structural claim to the new local arguments while preserving external enumeration for the ordinary corollary. The review contract is an after-discovery review contract; no preregistered discovery or clean independent replay is claimed.",
+    "evidence_ids": [
+      "portable-formal-v1",
+      "admission-v1",
+      "closure-complete-v1"
+    ],
+    "decision": "continue",
+    "required_revisions": [],
+    "findings": [
+      {
+        "id": "M4-residual-interface",
+        "statement": "ResidualProfileA requires H subset F, four-uniform sunflower-free F, omission of x, 61 residual members, a twenty-link, four outsiders disjoint from its support, outsider degree19 and other residual degrees at most14. No exclusion conclusion or unjustified completion constraint is stored as a field.",
+        "severity": "note",
+        "status": "resolved",
+        "disposition": "The bridge and downstream derivations satisfy the actual-family proof obligation.",
+        "evidence_ids": [
+          "portable-formal-v1"
+        ]
+      }
+    ],
+    "revisions": [],
+    "checks": [
+      {
+        "scope": "Noncircular residual hypotheses and source of I27 use",
+        "method": "Read frozen ProfileACounts.lean, ProfileABridge.lean and ProfileAClosed.lean; traced the construction of ResidualProfileA and the application of I27 to rows with two outsiders.",
+        "observation": "The bridge filters actual F to obtain H, derives |H|=61 and |O|=4, and splits point degrees using the upper star. Downstream code separately proves uniformity, sunflower-freeness and intersection for the two-outsider rows before invoking I27. The stored inside-degree bound is weaker than the equality asserted for supported design points, which suffices for the subsequent bound66.",
+        "result": "supported",
+        "evidence_ids": [
+          "portable-formal-v1"
+        ]
+      },
+      {
+        "scope": "Method chronology, external computation and replay assurance",
+        "method": "Compared the round4 Section6 revision, Section5 limitations, contract timestamp and admission record against the already inspected local closure summary.",
+        "observation": "The revision expressly acknowledges external enumerative I27 in Corollary4; cap45 and UNKNOWN SAT remain exploratory. Admission says review opens after successful A/B proof work, and the manuscript makes no prospective-discovery/preregistration claim. The local source-closure account retains 63 fresh/98 reused and same-evaluator/cache limitations, rather than equating source matching with a clean replay. No human data or external-contact method is involved.",
+        "result": "supported",
+        "evidence_ids": [
+          "admission-v1",
+          "closure-complete-v1"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message",
+    "call_id": "local-log:frontier20261020-boundary80/round-04/methodologist/actual-public-response",
+    "context_id": "/root/review80_coordinator/methodologist",
+    "recorded_at": "2026-10-20T09:27:27.040357+00:00",
+    "synthetic": false,
+    "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/methodologist\",\n  \"role\": \"methodologist\",\n  \"context_id\": \"/root/review80_coordinator/methodologist\",\n  \"round\": 4,\n  \"snapshot_sha256\": \"c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329\",\n  \"manuscript_sha256\": \"686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d\",\n  \"summary\": \"The actual-family residual interface contains structural and degree hypotheses rather than the intended conclusion, and the bridge derives it from the literal Profile A witness. The revised methods paragraph correctly limits the structural claim to the new local arguments while preserving external enumeration for the ordinary corollary. The review contract is an after-discovery review contract; no preregistered discovery or clean independent replay is claimed.\",\n  \"evidence_ids\": [\n    \"portable-formal-v1\",\n    \"admission-v1\",\n    \"closure-complete-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"M4-residual-interface\",\n      \"statement\": \"ResidualProfileA requires H subset F, four-uniform sunflower-free F, omission of x, 61 residual members, a twenty-link, four outsiders disjoint from its support, outsider degree19 and other residual degrees at most14. No exclusion conclusion or unjustified completion constraint is stored as a field.\",\n      \"severity\": \"note\",\n      \"status\": \"resolved\",\n      \"disposition\": \"The bridge and downstream derivations satisfy the actual-family proof obligation.\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    }\n  ],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Noncircular residual hypotheses and source of I27 use\",\n      \"method\": \"Read frozen ProfileACounts.lean, ProfileABridge.lean and ProfileAClosed.lean; traced the construction of ResidualProfileA and the application of I27 to rows with two outsiders.\",\n      \"observation\": \"The bridge filters actual F to obtain H, derives |H|=61 and |O|=4, and splits point degrees using the upper star. Downstream code separately proves uniformity, sunflower-freeness and intersection for the two-outsider rows before invoking I27. The stored inside-degree bound is weaker than the equality asserted for supported design points, which suffices for the subsequent bound66.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"portable-formal-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Method chronology, external computation and replay assurance\",\n      \"method\": \"Compared the round4 Section6 revision, Section5 limitations, contract timestamp and admission record against the already inspected local closure summary.\",\n      \"observation\": \"The revision expressly acknowledges external enumerative I27 in Corollary4; cap45 and UNKNOWN SAT remain exploratory. Admission says review opens after successful A/B proof work, and the manuscript makes no prospective-discovery/preregistration claim. The local source-closure account retains 63 fresh/98 reused and same-evaluator/cache limitations, rather than equating source matching with a clean replay. No human data or external-contact method is involved.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"admission-v1\",\n        \"closure-complete-v1\"\n      ]\n    }\n  ]\n}\n",
+    "response_sha256": "db697773b3b57d7fdb4386f47530f87908230b63e72f5b8a9914feae06415846"
+  },
+  "record_sha256": "af2a1761bb209503c8a4b47c856c021046461f97233e3d8a973d903a167a69e0"
+}

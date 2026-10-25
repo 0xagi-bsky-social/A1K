@@ -1,0 +1,21 @@
+{
+  "recorded_at": "2026-10-20T09:58:33.005582+00:00",
+  "instruction": "立即停止所有後續終審輪次，將上界68預印本納入優先突破的理論與實證基礎。",
+  "effective_immediately": true,
+  "review_state": {
+    "status": "halted-by-explicit-user-instruction",
+    "completed_rounds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "round7": "unfinished; typesetter interrupted",
+    "actual_response_files": 83,
+    "final_audits": "not started",
+    "publication": "not performed"
+  },
+  "supersedes": "Any prior instruction or admission to finish the open round or continue final review. Historical records are retained."
+}

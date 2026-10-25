@@ -1,0 +1,52 @@
+{
+  "agent_id": "/root/review80_coordinator/copyeditor",
+  "role": "copyeditor",
+  "context_id": "/root/review80_coordinator/copyeditor",
+  "round": 4,
+  "snapshot_sha256": "c2f8b6f772de5ed6e275d2fbce3557d05369213b9998c590634cd36b0b371329",
+  "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+  "summary": "Section 6 now accurately distinguishes the external enumerative premise of Corollary 4 from the exploratory computations unused by the local proofs. The prior scope finding is resolved. Method and attribution wording preserves the limits of local formal assurance and bounded source comparison.",
+  "evidence_ids": [
+    "primary-sources-v1",
+    "text-reuse-check-v1"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "copy-r3-local-proof-scope",
+      "statement": "The revised Section 6 opening expressly acknowledges Corollary 4’s external enumerative I(27) theorem and limits the non-premise statement to the exploratory computations below.",
+      "severity": "minor",
+      "status": "resolved",
+      "disposition": "The ambiguity identified in round 3 is removed.",
+      "evidence_ids": []
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "/root/review80_coordinator/copyeditor:copy-r3-local-proof-scope",
+      "action": "Compared the exact round-03 and round-04 Section 6 opening against Corollary 4.",
+      "result": "Local structural hypotheses, external enumeration and unused diagnostics now have explicit separate scopes.",
+      "status": "resolved"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Proof-obligation and method wording",
+      "method": "Read revised Section 6 alongside the theorem interfaces, formal-assurance paragraph and remaining-obligations paragraph.",
+      "observation": "I(27) remains a stated hypothesis where needed; the externally enumerated input is acknowledged for Corollary 4. Diagnostic normalization, universal45 and failed witness attempts are not presented as accepted kernel results. The manuscript also distinguishes 63 fresh modules from 98 source-matched inherited modules rather than claiming a complete clean-toolchain replay. This is an exposition check, not a fresh build.",
+      "result": "supported",
+      "evidence_ids": []
+    },
+    {
+      "scope": "Attribution and ethical disclosure of review assurance",
+      "method": "Read Sections 5 and 7 and the closing review statement; compared the frozen text_reuse verification wording with the retained actual round-02 comparison.",
+      "observation": "The source attribution and proposition labels remain intact. Separate agent contexts under shared orchestration are not represented as independent human certification. The selected-passage comparison remains limited; neither exhaustive priority nor plagiarism-free status is asserted. No new source comparison was performed in this round.",
+      "result": "supported",
+      "evidence_ids": [
+        "primary-sources-v1",
+        "text-reuse-check-v1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "method": "Byte-identical preservation after actual final response.",
+  "files": [
+    {
+      "source": "/tmp/r67_data_round10/checks.json",
+      "preserved": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round10/data_analyst/checks.json",
+      "sha256": "6d3482651050249883b8973f8721777c33178d22bf01167c44dfd7997a59d48c"
+    },
+    {
+      "source": "/tmp/r67_data_round10/checks.py",
+      "preserved": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round10/data_analyst/checks.py",
+      "sha256": "d626b9a4cb1ddac6d16b7114b1853f187c966fba446784b814409083119503d7"
+    }
+  ]
+}

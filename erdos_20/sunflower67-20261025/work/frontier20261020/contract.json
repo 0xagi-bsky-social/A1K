@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-20",
+  "timezone": "America/New_York",
+  "mode": "solve",
+  "question": "Resolve the two literal 81-member rank-four sunflower-free boundary profiles through reusable extremal-20-star compatibility/nonextension mathematics.",
+  "public_target": "RankFourUpper 80 from proved Profile A/B exclusions and an explicit, separately discharged or externally sourced I(27); alternatively a checked actual 81-member witness.",
+  "conventions": {
+    "family": "finite set of distinct finite sets, exact uniformity four",
+    "sunflower": "three distinct members with all pairwise intersections equal; empty core included",
+    "profiles": "Literal Erdos20V13Boundary.ProfileARealizable and ProfileBRealizable in pinned inherited source",
+    "no_silent_external_import": "External computer-assisted I(27) is an EXT premise, not a local Lean theorem"
+  },
+  "baseline": {
+    "a1k_commit": "0e9aee578a7bb3dbc665630c759297514f88a81d",
+    "lean": "4.26.0",
+    "mathlib_commit": "2df2f0150c275ad53cb3c90f7c98ec15a56a1a67",
+    "previous_release": "outputs/frontier20261019",
+    "allowed_axioms": ["propext", "Classical.choice", "Quot.sound"],
+    "requested_proof_grade": "axiom-audited"
+  },
+  "methods": ["primary-source refresh", "structural combinatorics", "exact finite diagnostics", "certificate extraction", "Lean proof and fail-closed axiom audit"],
+  "budget": {
+    "concurrent_agents_including_root": 4,
+    "initial_phase": "bounded structural and solver experiments with checkpoints; extend only on new evidence",
+    "individual_solver_seconds": 120,
+    "no_paid_external_compute": true
+  },
+  "publication_gate": {
+    "user_condition": "Do not begin 12 specialists x 10 final-review rounds, Chief/Alpha/Beta final audit or three-format publication until a genuinely substantial theoretical/extremal breakthrough has been established.",
+    "current_status": "closed",
+    "insufficient_alone": ["smaller finite support", "conditional assembly", "unverified SAT/UNSAT", "canonical coordinate bridge", "routine formalization", "partial obstruction"],
+    "originality": "requires scoped comparison with accessible prior work; exhaustive global originality cannot be presumed"
+  },
+  "files": {
+    "new_work_only": "work/frontier20261020",
+    "preserve": ["work/frontier20261019", "outputs/frontier20261019"]
+  }
+}

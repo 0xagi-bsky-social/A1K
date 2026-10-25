@@ -1,0 +1,23 @@
+{
+  "agent_id": "/root/review_coordinator/methodologist",
+  "role": "methodologist",
+  "context_id": "/root/review_coordinator/methodologist",
+  "round": 8,
+  "snapshot_sha256": "0906bbbda55b8bbd32d4b236c0e1bf2b6bfa63a2576f4b86c2f054fc152719f7",
+  "manuscript_sha256": "f66cc1eb92c514fa4b4457a934b9b6c334a01f424fbe818f4dc8070d7cec8326",
+  "summary": "The correction separates source fidelity, extraction, and visual verification accurately. Manuscript and canonical snapshot hashes match. The revised evidence avoids extending rendering or formal-build checks into independent certification.",
+  "evidence_ids": ["F29", "F34"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Correction method and assurance distinctions",
+      "method": "Inspected F34's manifest, receipt, erratum, formula changes, renderer, and HTML; verified every listed file digest and compared annotations with the six receipt mappings.",
+      "observation": "All digests match. HTML contains six MathML elements, six exact source annotations matching the mappings, and six scroll containers. The erratum explicitly retracts the historical receipt's MathML overstatement. Current extraction checks cover prose; PDF formula layout still requires actual visual inspection. I did not perform that visual inspection or browser testing. The manuscript separately retains Lean/package-cache trust and shared-controller limitations, and disclaims accessibility conformance. Neither these artifact checks nor the 114-module project rebuild constitute independently controlled certification.",
+      "result": "supported",
+      "evidence_ids": ["F29", "F34"]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "method": "Actual tools.view_image inspection of round09 preview PNG pages1,2,3 at90dpi.",
+  "manuscript_sha256": "4b589be7ecf224140e6d6c8903699e741d8a9cc414a5452dfa1859c882567d68",
+  "pdf_sha256": "7393e353044ce000480354f9640095b37b82d6df0bac164fbc0c429d0f364d92",
+  "pages_inspected": [
+    1,
+    2,
+    3
+  ],
+  "observation": "Updated abstract and source-scope prose readable; no observed clipping, overlap or missing glyphs; page3 begins remaining source paragraph before definitions.",
+  "limits": "Preview only; not all pages, final artifact or accessibility conformance."
+}

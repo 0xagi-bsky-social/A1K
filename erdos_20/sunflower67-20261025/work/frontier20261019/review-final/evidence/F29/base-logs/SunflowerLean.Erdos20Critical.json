@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20Critical",
+  "source_sha256": "3aae25a4911d47bdc33fb1bcc04ae04a392245498badc9d185b94de05d8e4c39",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20Critical.olean",
+    "SunflowerLean/Erdos20Critical.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 5.2,
+  "output": "SunflowerLean/Erdos20Critical.lean:65:4: warning: try 'simp' instead of 'simpa'\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\n'Erdos20Critical.exact_size_support_card_bound' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Critical.exists_exact_size_free_subfamily' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Critical.exact_size_rank_pos' depends on axioms: [propext, Quot.sound]\n'Erdos20Critical.exists_minimal_critical' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Critical.upperStar_bound_of_lowerRanks' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Critical.upperStar_eq_empty_of_rank_lt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Critical.exact_size_isStrictSpread' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Critical.exact_size_no_nonempty_dense_core' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Critical.exact_size_rank_product_gt' depends on axioms: [propext, Classical.choice, Quot.sound]\n'Erdos20Critical.exact_size_factorial_obstruction' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+}

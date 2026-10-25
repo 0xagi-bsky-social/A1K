@@ -1,0 +1,8 @@
+{
+  "file": "Support56.lean",
+  "source_sha256": "7a1e6e9ce8ed3f485803aea7a035dd319b61f8622b8dce299c4bc020e62f9e08",
+  "source_stable": true,
+  "exit_code": 0,
+  "seconds": 153.251,
+  "output": "Support56.lean:54:6: warning: This simp argument is unused:\n  true_and\n\nHint: Omit it from the simp argument list.\n  simp only [corrected, indicator, Finset.insert_subset_iff,\n  \u0335  \u0335 \u0335 \u0335 \u0335 \u0335Finset.singleton_subset_iff, hx, hy,\n  \u0332  \u0332 \u0332 \u0332 \u0332 \u0332hz, and_self, and_true, and_false,\n  \u0335  \u0335 \u0335 \u0335 \u0335 \u0335t\u0335r\u0335u\u0335e\u0335_\u0335a\u0335n\u0335d\u0335,\u0335 \u0335false_and, if_true, if_false]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\nSupport56.lean:54:16: warning: This simp argument is unused:\n  false_and\n\nHint: Omit it from the simp argument list.\n  simp only [corrected, indicator, Finset.insert_subset_iff,\n  \u0335  \u0335 \u0335 \u0335 \u0335 \u0335Finset.singleton_subset_iff, hx, hy,\n  \u0332  \u0332 \u0332 \u0332 \u0332 \u0332hz, and_self, and_true, and_false,\n  \u0335  \u0335 \u0335 \u0335 \u0335 \u0335true_and, f\u0335a\u0335l\u0335s\u0335e\u0335_\u0335a\u0335n\u0335d\u0335,\u0335 \u0335if_true, if_false]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'FrontierSupport56.corrected_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierSupport56.double_sum_ge_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierSupport56.double_sum_corrected_lower' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierSupport56.three_star_second_moment' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+}

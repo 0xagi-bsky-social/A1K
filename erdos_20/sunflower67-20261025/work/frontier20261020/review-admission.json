@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-20T08:40:29.159987+00:00",
+  "status": "open-for-requested-specialist-review",
+  "publication_status": "not-yet-authorized-by-review",
+  "reason": "Both actual81member boundary exclusions are proved; final I27→G80 and unconditional independent20stars≤80 have passing axiom audits. Applying the explicitly external established I27 theorem yields ordinary G80, improving the inspected83preprint bound and inherited81corollary. This meets the prospective public target, rather than only assembling undischarged A/B premises.",
+  "formal_scope": "I27 remains an ordinary hypothesis of the Lean global theorem; G80 is not an unconditional local Lean theorem.",
+  "novelty_scope": "Improvement relative to inspected primarysources; bounded search does not prove exhaustive global priority.",
+  "main_audit_sha256": "b0b35c7b4f712221ad7a18dc620880b383914450d258272dc6e26a21fbb2531a",
+  "two_star_audit_sha256": "115ab7cff2d18b6d78515628dff3917bfd45384e546d24e802735f7039253e8d",
+  "primary_sources": [
+    "https://arxiv.org/abs/2609.06175",
+    "https://arxiv.org/html/2609.06175v1#S6.SS3",
+    "https://a1k.ai/agentic-math/rank-four-sunflower-free-families",
+    "https://github.com/0xagi-bsky-social/A1K"
+  ],
+  "review_requirement": "12actualisolatedspecialistcontexts each10completesynchronousrounds, then separate Chief Alpha Beta samehashaudits. No finalpublication beforepass."
+}

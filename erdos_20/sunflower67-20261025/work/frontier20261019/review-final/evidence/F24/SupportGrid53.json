@@ -1,0 +1,14 @@
+{
+  "module": "SupportGrid53",
+  "source_sha256": "575580dbb31464c4ee52996435519fe4884c28771d584b127d00d136910bef16",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/replay-receipt/build/SupportGrid53.olean",
+    "SupportGrid53.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 45.362,
+  "output": "'FrontierSupportGrid53.grid_bound' does not depend on any axioms\n'FrontierSupportGrid53.natural_grid_bound' depends on axioms: [propext, Quot.sound]\n"
+}

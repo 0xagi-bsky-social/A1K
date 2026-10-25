@@ -1,0 +1,52 @@
+{
+  "status": "OPEN_FOR_ACTUAL_SPECIALIST_REVIEW_NOT_PUBLICATION",
+  "recorded_at": "2026-10-24T08:45:17.954049+00:00",
+  "criterion": "Completed ordinary computer-assisted exclusion of every simple exactly four-uniform three-sunflower-free family of68 members, improving strongest comparable located upper68 to67.",
+  "mathematical_status": "All new cases and finite predicates closed at stated ordinary/external-exact-check evidence layer; established prior theorems imported explicitly.",
+  "limitations": [
+    "No end-to-end Lean proof",
+    "No local replay of external H27 exhaustive-search ledger",
+    "Shared model builders for coefficient replay; independent literal coverage separate",
+    "No exhaustive global priority certificate",
+    "No final specialist submissions or final audits yet"
+  ],
+  "bound_inputs": [
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/GLOBAL67-ordinary-theorem.md",
+      "sha256": "eb5080fffb65115f0fd628a8af9b9e65370d739ee1463ad161a9b79be4076ed3"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/GLOBAL67-dependency-roadmap.md",
+      "sha256": "38f2ff4ce7cdba0a6319ca388d789384cd094de63f6445527e56e69ecfbe6127"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-complete-argument.md",
+      "sha256": "d816d1135003f99b3cd12f1dd16f2d24187e952c20fba41779ba007593f72f07"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-complete-evidence-index.json",
+      "sha256": "1255e8c99b4d630256204d22afd6007ae07439fb1f2034122eb3448423d53d5b"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/LOW15-complete-argument.md",
+      "sha256": "6c3438b2ae2f8438b3c761019e3d1e711d13cf92679c082a7f33c8a762167b68"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D16-complete-argument.md",
+      "sha256": "5628ed14a7a7a24013087de1f630f15ec2fe07479ad6dadc91d2619a0e758890"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/EXTERNAL-H27-JIN-SCOPE.md",
+      "sha256": "1eb5c60b826d21ef0271991b5492fc17ff98a4bab155d8b3ecf6fd57fbc36ff0"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261024/FRONTIER_REFRESH.md",
+      "sha256": "718588c1d919f630b816f633b02f4421448acfb5e24131eb1c98a752b0a6d3a9"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-complete-coverage-v9.json",
+      "sha256": "81d019a295700f3a9b144732d05720adf95e040368483f1a9c06b0f74c4d6c31"
+    }
+  ],
+  "revocation": "Any substantive unclosed proof defect found in subsequent research/review suspends this completion claim and publication; preserve original record and issue an additive correction."
+}

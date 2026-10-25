@@ -1,0 +1,58 @@
+Further mathematical corollary candidate from the nine/19 completion theorem
+Not Lean-elaborated. No literature novelty claim. 2026-10-19.
+
+Call a point x smooth if d_F(x)=19 and every pair {x,y}, y!=x, has codegree
+at most five. The 19-triple completion theorem gives the following data:
+ D_x={y: codegree(x,y)=4}, of size three;
+ a three-point set Y_x disjoint from {x} union D_x;
+ for each y in D_x and z outside {x,y},
+  triplecodegree(x,y,z)=1 exactly for z in D_x minus {y},
+  triplecodegree(x,y,z)=2 exactly for z in Y_x,
+  and it is zero otherwise.
+Indeed the nine component of L_x is a ten-design with its degree-four triple
+D_x removed. Its six-point support is D_x disjoint-union Y_x; the other ten
+component is disjoint. Every supported pair of a ten-design has codegree two.
+
+CLAIM. Every smooth x has a point y in D_x which is not smooth.
+Suppose all three D_x points are smooth. For each y in D_x, symmetry of the
+triple codegrees gives
+ D_y=({x} union D_x) minus {y}, and Y_y=Y_x.
+Put C={x} union D_x, a four-point set of smooth points. Each of its four
+triples has original codegree one; its unique extending fourth point lies
+in the common three-point set Y=Y_x. Any two C-triples share a pair {u,v}.
+Their fourth-point extensions must differ. To see this, look at the
+residual pair link L_{u,v}: it is the point link at v in the nine component
+of L_u. Completing that nine component adds the missing edge C minus {u,v}
+to this residual graph, yielding the five-cycle point link of a ten-design.
+If the two extension points were equal, that five-cycle would contain the
+triangle on that point and the two endpoints of the added edge. Impossible.
+Thus the four C-triples require four distinct extension points in Y, which
+has size three. Contradiction.
+
+The five-cycle assertion is elementary and follows from the retained ten
+design: the point link is a simple two-regular graph on five vertices. Such
+a graph is a five-cycle (a triangle component would leave two vertices,
+which cannot form a simple two-regular component). This is not an assumption
+that arbitrary independently feasible local links coexist.
+
+PROFILE A CONSEQUENCE.
+If every degree-19 point were smooth, the three D_x points of a smooth x
+could not be the unique degree-20 point: a degree-20 point has pair codegree
+zero or five, never four. Thus all D_x points would also be smooth, contrary
+to the claim. Hence a Profile A family must have a pair of codegree six,
+both endpoints of degree nineteen.
+
+PROFILE B CONSEQUENCE.
+Suppose all fourteen degree-19 points are smooth. The only nonsmooth
+non-high point is the unique degree-18 point z. The claim makes z a member
+of D_x for every degree-19 point x (high centers again have codegree zero
+or five). Thus codegree(z,x)=4 for fourteen distinct x. But
+  sum_{x != z} codegree(z,x)=3*d_F(z)=54,
+while those fourteen terms already sum to 56. Contradiction. Therefore
+Profile B also requires a codegree-six pair incident to a degree-19 point;
+the other endpoint has degree eighteen or nineteen.
+
+These are necessary conditions, not exclusions of the profiles. Their
+formal open leaves are the full nine/19 completion theorem, the typed
+triple-codegree ledger, the five-cycle/pair-link bridge, and final incidence
+assembly. Keep these claims separate from already compiled trace lemmas.

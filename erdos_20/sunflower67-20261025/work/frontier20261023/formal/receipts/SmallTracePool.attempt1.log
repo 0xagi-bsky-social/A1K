@@ -1,0 +1,93 @@
+/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/SmallTracePool.lean:100:8: error: unsolved goals
+case pos
+α : Type u
+inst✝ : DecidableEq α
+W Q : Finset α
+G : Finset (Finset α)
+hQ : Q ∉ G
+ih : 2 * G.card ≤ traceCardSum G W + (smallTracePool G W).card + (zeroTracePool G W).card
+hsum : traceCardSum (insert Q G) W = (Q ∩ W).card + traceCardSum G W
+h : (Q ∩ W).card ≤ 1
+⊢ {Q ∈ insert Q G | (Q ∩ W).card ≤ 1}.card = {Q ∈ G | (Q ∩ W).card ≤ 1}.card + 1
+/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/SmallTracePool.lean:101:8: error: unsolved goals
+case neg
+α : Type u
+inst✝ : DecidableEq α
+W Q : Finset α
+G : Finset (Finset α)
+hQ : Q ∉ G
+ih : 2 * G.card ≤ traceCardSum G W + (smallTracePool G W).card + (zeroTracePool G W).card
+hsum : traceCardSum (insert Q G) W = (Q ∩ W).card + traceCardSum G W
+h : ¬(Q ∩ W).card ≤ 1
+⊢ {Q ∈ insert Q G | (Q ∩ W).card ≤ 1}.card = {Q ∈ G | (Q ∩ W).card ≤ 1}.card
+/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/SmallTracePool.lean:105:8: error: unsolved goals
+case pos
+α : Type u
+inst✝ : DecidableEq α
+W Q : Finset α
+G : Finset (Finset α)
+hQ : Q ∉ G
+ih : 2 * G.card ≤ traceCardSum G W + (smallTracePool G W).card + (zeroTracePool G W).card
+hsum : traceCardSum (insert Q G) W = (Q ∩ W).card + traceCardSum G W
+hsmall : (smallTracePool (insert Q G) W).card = (smallTracePool G W).card + if (Q ∩ W).card ≤ 1 then 1 else 0
+h : (Q ∩ W).card = 0
+⊢ {Q ∈ insert Q G | Q ∩ W = ∅}.card = {Q ∈ G | Q ∩ W = ∅}.card + 1
+/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/SmallTracePool.lean:106:8: error: unsolved goals
+case neg
+α : Type u
+inst✝ : DecidableEq α
+W Q : Finset α
+G : Finset (Finset α)
+hQ : Q ∉ G
+ih : 2 * G.card ≤ traceCardSum G W + (smallTracePool G W).card + (zeroTracePool G W).card
+hsum : traceCardSum (insert Q G) W = (Q ∩ W).card + traceCardSum G W
+hsmall : (smallTracePool (insert Q G) W).card = (smallTracePool G W).card + if (Q ∩ W).card ≤ 1 then 1 else 0
+h : ¬(Q ∩ W).card = 0
+⊢ {Q ∈ insert Q G | Q ∩ W = ∅}.card = {Q ∈ G | Q ∩ W = ∅}.card
+/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/SmallTracePool.lean:107:10: warning: `Finset.card_insert_of_not_mem` has been deprecated: Use `Finset.card_insert_of_notMem` instead
+/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/SmallTracePool.lean:100:35: warning: This simp argument is unused:
+  hQ
+
+Hint: Omit it from the simp argument list.
+  simp [smallTracePool, h,̵ ̵h̵Q̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/SmallTracePool.lean:101:35: warning: This simp argument is unused:
+  hQ
+
+Hint: Omit it from the simp argument list.
+  simp [smallTracePool, h,̵ ̵h̵Q̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/SmallTracePool.lean:105:34: warning: This simp argument is unused:
+  hQ
+
+Hint: Omit it from the simp argument list.
+  simp [zeroTracePool, h,̵ ̵h̵Q̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/formal/SmallTracePool.lean:106:34: warning: This simp argument is unused:
+  hQ
+
+Hint: Omit it from the simp argument list.
+  simp [zeroTracePool, h,̵ ̵h̵Q̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'FrontierTerminal.residual_smallTracePool_intersecting' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FrontierTerminal.residual_smallTracePool_card_le_27' depends on axioms: [propext, Classical.choice, Quot.sound]
+'FrontierTerminal.twice_card_le_trace_sum_add_small_add_zero' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'FrontierTerminal.residual_twice_card_le_trace_sum_add_small_add_zero' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'FrontierTerminal.zeroTracePool_card_ge_eleven_of_counts' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]
+'FrontierTerminal.residual_zeroTracePool_card_ge_eleven' depends on axioms: [propext,
+ sorryAx,
+ Classical.choice,
+ Quot.sound]

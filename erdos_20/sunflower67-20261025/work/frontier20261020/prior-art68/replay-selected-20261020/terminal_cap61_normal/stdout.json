@@ -1,0 +1,124 @@
+{
+  "carrier18_nohigh_fully_excluded": false,
+  "finite_core": {
+    "outer_states": 131072,
+    "routes": {
+      "P9_degree_two": 3,
+      "exact_P9_complement": 6,
+      "forbidden_peripheral_triple": 1,
+      "incompatible_actual_tail": 1
+    },
+    "stages": [
+      21652,
+      111,
+      11
+    ]
+  },
+  "global67_proved": false,
+  "local_theorem": {
+    "R16_star_upper_members": 61,
+    "max_degree": 18,
+    "mu_min": 41
+  },
+  "mutation_tests": [
+    {
+      "name": "contract:mu_guard",
+      "rejected": "changed theorem/import contract"
+    },
+    {
+      "name": "contract:global67",
+      "rejected": "changed theorem/import contract"
+    },
+    {
+      "name": "contract:whole_carrier",
+      "rejected": "changed theorem/import contract"
+    },
+    {
+      "name": "omit_profile",
+      "rejected": "profile list incomplete or changed"
+    },
+    {
+      "name": "duplicate_profile",
+      "rejected": "profile list incomplete or changed"
+    },
+    {
+      "name": "wrong_stage_count",
+      "rejected": "census count mismatch"
+    },
+    {
+      "name": "wrong_tail_identification",
+      "rejected": "tail-support mismatch"
+    },
+    {
+      "name": "wrong_marked_degree",
+      "rejected": "P9 point-degree-two witness"
+    },
+    {
+      "name": "incorrect_P9_center",
+      "rejected": "wrong nine-star center"
+    },
+    {
+      "name": "missing_exceptional_transversal",
+      "rejected": "terminal coverage data changed"
+    },
+    {
+      "name": "false_internal_load",
+      "rejected": "terminal coverage data changed"
+    },
+    {
+      "name": "duplicate_positive_edge",
+      "rejected": "positive family invalid"
+    },
+    {
+      "name": "wrong_positive_intersection",
+      "rejected": "positive metadata differs"
+    },
+    {
+      "name": "missing_literal_R16_block",
+      "rejected": "model mismatch"
+    }
+  ],
+  "positive_families": [
+    {
+      "M": 16,
+      "max_degree": 16,
+      "mu": 16,
+      "name": "single_R16_star",
+      "support": 11
+    },
+    {
+      "M": 20,
+      "max_degree": 10,
+      "mu": 20,
+      "name": "sharp_terminal_twenty",
+      "support": 8
+    },
+    {
+      "M": 26,
+      "max_degree": 16,
+      "mu": 26,
+      "name": "sharp_intersecting_twenty_six",
+      "support": 14
+    },
+    {
+      "M": 35,
+      "max_degree": 16,
+      "mu": 9,
+      "name": "nonintersecting_P9_link_guard",
+      "support": 21
+    }
+  ],
+  "positive_ternas": 10845,
+  "status": "PASS_R16_STAR_CAP61",
+  "structural_checks": {
+    "R16_root_checks": 24,
+    "peripheral_pair_checks": 12,
+    "used_pairs": 24
+  },
+  "terminal_checks": {
+    "complementary_tail_allocations": 121,
+    "internal_load_checks": 165,
+    "short_transversal_checks": 506,
+    "terminal_omissions": 11
+  }
+}

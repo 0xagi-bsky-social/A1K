@@ -1,0 +1,10316 @@
+{
+  "schema": "cap15-mu41-N45plus-arithmetic-signatures-v1",
+  "scope": "necessary arithmetic signatures; surviving rows need not be geometrically realizable",
+  "source_sha256": "bf5fe9e36909c5ad4f732b2490c613d93c9d69e409c48004cf897e6586c10c7d",
+  "pair_order": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "triple_index": "omitted root point",
+  "assumptions": {
+    "global_degree_cap": 15,
+    "singleton_cap": 9,
+    "three_largest_singletons_sum_cap": 26,
+    "minimum_neighbourhood": 41,
+    "target_neighbourhood_min": 45,
+    "pair_trace_cap": 3,
+    "triple_trace_cap": 1,
+    "global_pair_codegree_cap": 6
+  },
+  "sorted_singleton_candidates": [
+    [
+      6,
+      8,
+      9,
+      9
+    ],
+    [
+      7,
+      7,
+      9,
+      9
+    ],
+    [
+      7,
+      8,
+      8,
+      9
+    ],
+    [
+      7,
+      8,
+      9,
+      9
+    ],
+    [
+      8,
+      8,
+      8,
+      8
+    ],
+    [
+      8,
+      8,
+      8,
+      9
+    ],
+    [
+      8,
+      8,
+      9,
+      9
+    ]
+  ],
+  "summaries": {
+    "45": {
+      "base": {
+        "orbits": 138,
+        "oriented_rows": 2620
+      },
+      "after_B4": {
+        "orbits": 76,
+        "oriented_rows": 1330
+      },
+      "common_triangle_terminal_guard": {
+        "orbits": 15,
+        "oriented_rows": 190
+      },
+      "triangle_row_capacity_contradiction": {
+        "orbits": 10,
+        "oriented_rows": 180
+      },
+      "complete_P9_complement_guard": {
+        "orbits": 14,
+        "oriented_rows": 252
+      },
+      "triple_triangle_point_overload": {
+        "orbits": 2,
+        "oriented_rows": 36
+      },
+      "after_stated_ordinary_exclusions": {
+        "orbits": 35,
+        "oriented_rows": 672
+      },
+      "profiles": [
+        {
+          "s_sorted": [
+            6,
+            8,
+            9,
+            9
+          ],
+          "T": 0,
+          "base": {
+            "orbits": 2,
+            "oriented_rows": 36
+          },
+          "after_B4": {
+            "orbits": 2,
+            "oriented_rows": 36
+          }
+        },
+        {
+          "s_sorted": [
+            7,
+            7,
+            9,
+            9
+          ],
+          "T": 0,
+          "base": {
+            "orbits": 3,
+            "oriented_rows": 30
+          },
+          "after_B4": {
+            "orbits": 3,
+            "oriented_rows": 30
+          }
+        },
+        {
+          "s_sorted": [
+            7,
+            8,
+            8,
+            9
+          ],
+          "T": 0,
+          "base": {
+            "orbits": 4,
+            "oriented_rows": 72
+          },
+          "after_B4": {
+            "orbits": 4,
+            "oriented_rows": 72
+          }
+        },
+        {
+          "s_sorted": [
+            7,
+            8,
+            9,
+            9
+          ],
+          "T": 0,
+          "base": {
+            "orbits": 14,
+            "oriented_rows": 300
+          },
+          "after_B4": {
+            "orbits": 14,
+            "oriented_rows": 300
+          }
+        },
+        {
+          "s_sorted": [
+            7,
+            8,
+            9,
+            9
+          ],
+          "T": 1,
+          "base": {
+            "orbits": 15,
+            "oriented_rows": 336
+          },
+          "after_B4": {
+            "orbits": 8,
+            "oriented_rows": 180
+          }
+        },
+        {
+          "s_sorted": [
+            8,
+            8,
+            8,
+            8
+          ],
+          "T": 0,
+          "base": {
+            "orbits": 3,
+            "oriented_rows": 10
+          },
+          "after_B4": {
+            "orbits": 3,
+            "oriented_rows": 10
+          }
+        },
+        {
+          "s_sorted": [
+            8,
+            8,
+            8,
+            9
+          ],
+          "T": 0,
+          "base": {
+            "orbits": 7,
+            "oriented_rows": 132
+          },
+          "after_B4": {
+            "orbits": 7,
+            "oriented_rows": 132
+          }
+        },
+        {
+          "s_sorted": [
+            8,
+            8,
+            8,
+            9
+          ],
+          "T": 1,
+          "base": {
+            "orbits": 8,
+            "oriented_rows": 144
+          },
+          "after_B4": {
+            "orbits": 0,
+            "oriented_rows": 0
+          }
+        },
+        {
+          "s_sorted": [
+            8,
+            8,
+            9,
+            9
+          ],
+          "T": 0,
+          "base": {
+            "orbits": 27,
+            "oriented_rows": 462
+          },
+          "after_B4": {
+            "orbits": 27,
+            "oriented_rows": 462
+          }
+        },
+        {
+          "s_sorted": [
+            8,
+            8,
+            9,
+            9
+          ],
+          "T": 1,
+          "base": {
+            "orbits": 36,
+            "oriented_rows": 792
+          },
+          "after_B4": {
+            "orbits": 4,
+            "oriented_rows": 72
+          }
+        },
+        {
+          "s_sorted": [
+            8,
+            8,
+            9,
+            9
+          ],
+          "T": 2,
+          "base": {
+            "orbits": 19,
+            "oriented_rows": 306
+          },
+          "after_B4": {
+            "orbits": 4,
+            "oriented_rows": 36
+          }
+        }
+      ]
+    },
+    "46": {
+      "base": {
+        "orbits": 5,
+        "oriented_rows": 54
+      },
+      "after_B4": {
+        "orbits": 5,
+        "oriented_rows": 54
+      },
+      "common_triangle_terminal_guard": {
+        "orbits": 5,
+        "oriented_rows": 54
+      },
+      "triangle_row_capacity_contradiction": {
+        "orbits": 0,
+        "oriented_rows": 0
+      },
+      "complete_P9_complement_guard": {
+        "orbits": 0,
+        "oriented_rows": 0
+      },
+      "triple_triangle_point_overload": {
+        "orbits": 0,
+        "oriented_rows": 0
+      },
+      "after_stated_ordinary_exclusions": {
+        "orbits": 0,
+        "oriented_rows": 0
+      },
+      "profiles": [
+        {
+          "s_sorted": [
+            8,
+            8,
+            9,
+            9
+          ],
+          "T": 0,
+          "base": {
+            "orbits": 5,
+            "oriented_rows": 54
+          },
+          "after_B4": {
+            "orbits": 5,
+            "oriented_rows": 54
+          }
+        }
+      ]
+    }
+  },
+  "records": [
+    {
+      "N": 45,
+      "p": [
+        0,
+        0,
+        3,
+        3,
+        0,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        3,
+        3,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 2,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        },
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_000"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        0,
+        3,
+        3,
+        1,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        3,
+        4,
+        4,
+        5
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_001"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        0,
+        3,
+        3,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "near": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 6,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_002"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        3,
+        3,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 2,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        },
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_003"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        3,
+        4,
+        4,
+        5
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_004"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        3,
+        4,
+        4,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_005"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "near": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 6,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_006"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        2,
+        2,
+        3,
+        0
+      ],
+      "t": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        3,
+        5,
+        3,
+        5
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 1,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        },
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_007"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        2,
+        2,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        3,
+        5,
+        4,
+        6
+      ],
+      "near": [
+        5,
+        7,
+        6,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 6,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_008"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        9
+      ],
+      "pair_rows": [
+        3,
+        4,
+        5,
+        4
+      ],
+      "near": [
+        6,
+        7,
+        7,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 2,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_009"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        1
+      ],
+      "t": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        3,
+        4,
+        5,
+        4
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 2,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_010"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        3,
+        4,
+        6,
+        5
+      ],
+      "near": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 2,
+          "forced_triangle_point_occurrences": 6,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_011"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        0
+      ],
+      "t": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        9
+      ],
+      "pair_rows": [
+        3,
+        5,
+        4,
+        4
+      ],
+      "near": [
+        6,
+        7,
+        7,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 1,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_012"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        0
+      ],
+      "t": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        3,
+        5,
+        4,
+        4
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 1,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_013"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        9
+      ],
+      "pair_rows": [
+        3,
+        5,
+        5,
+        5
+      ],
+      "near": [
+        5,
+        7,
+        7,
+        6
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_014"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        3,
+        5,
+        5,
+        5
+      ],
+      "near": [
+        5,
+        7,
+        6,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 2,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_015"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        3,
+        5,
+        5,
+        5
+      ],
+      "near": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 1,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_016"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        3,
+        5,
+        6,
+        6
+      ],
+      "near": [
+        4,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        13,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_017"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        2,
+        3,
+        3,
+        0
+      ],
+      "t": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        3,
+        6,
+        4,
+        5
+      ],
+      "near": [
+        5,
+        7,
+        6,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 1,
+          "forced_triangle_point_occurrences": 6,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_018"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        2,
+        3,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        3,
+        6,
+        5,
+        6
+      ],
+      "near": [
+        4,
+        7,
+        6,
+        7
+      ],
+      "degrees": [
+        13,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_019"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        2,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        8,
+        9,
+        9,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        4,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        6,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 6,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_020"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        2,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        4,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        6,
+        7
+      ],
+      "degrees": [
+        15,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 6,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_021"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        2,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        4,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        6,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        14,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 6,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_022"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        2,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        7
+      ],
+      "pair_rows": [
+        4,
+        4,
+        5,
+        7
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        8
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_023"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        2,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        7
+      ],
+      "pair_rows": [
+        4,
+        5,
+        4,
+        7
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        8
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_024"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        1,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "s": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "pair_rows": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "near": [
+        7,
+        7,
+        6,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_025"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        1,
+        0
+      ],
+      "t": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "s": [
+        8,
+        9,
+        8,
+        9
+      ],
+      "pair_rows": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "near": [
+        7,
+        6,
+        7,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_026"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        1,
+        0
+      ],
+      "t": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "s": [
+        8,
+        9,
+        9,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "near": [
+        7,
+        6,
+        6,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_027"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        1,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        8,
+        9,
+        8,
+        9
+      ],
+      "pair_rows": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        6
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_028"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        1,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        9
+      ],
+      "pair_rows": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        6
+      ],
+      "degrees": [
+        15,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_029"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        1,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        14
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_030"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        1,
+        1
+      ],
+      "t": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        5,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_031"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        6,
+        6
+      ],
+      "near": [
+        5,
+        5,
+        7,
+        7
+      ],
+      "degrees": [
+        14,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_032"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        9,
+        7,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        6,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        8,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_033"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        2,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "pair_rows": [
+        4,
+        5,
+        4,
+        5
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        6
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_034"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        2,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        9
+      ],
+      "pair_rows": [
+        4,
+        5,
+        4,
+        5
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        14,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_035"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        2,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        4,
+        5
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        14
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_036"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        2,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        4,
+        5
+      ],
+      "near": [
+        6,
+        7,
+        5,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        14,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_037"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        9,
+        9,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "near": [
+        5,
+        6,
+        6,
+        7
+      ],
+      "degrees": [
+        13,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_038"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "near": [
+        5,
+        6,
+        6,
+        7
+      ],
+      "degrees": [
+        14,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_039"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "near": [
+        5,
+        6,
+        6,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        14,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_040"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "near": [
+        6,
+        7,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 6,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_041"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        7
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        8
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_042"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        7
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        8
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          1,
+          2
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_043"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        7
+      ],
+      "pair_rows": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "near": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_044"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        3,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        4,
+        6,
+        4,
+        6
+      ],
+      "near": [
+        5,
+        7,
+        5,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        14,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_045"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        3,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        7,
+        9,
+        8
+      ],
+      "pair_rows": [
+        4,
+        6,
+        4,
+        6
+      ],
+      "near": [
+        6,
+        8,
+        6,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_046"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        1,
+        3,
+        3,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        7
+      ],
+      "pair_rows": [
+        4,
+        6,
+        5,
+        7
+      ],
+      "near": [
+        5,
+        7,
+        6,
+        8
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_047"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "s": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "pair_rows": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "near": [
+        7,
+        7,
+        6,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 6,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_048"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        0
+      ],
+      "t": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "s": [
+        8,
+        9,
+        8,
+        9
+      ],
+      "pair_rows": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "near": [
+        7,
+        6,
+        7,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_049"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        8,
+        9,
+        8,
+        9
+      ],
+      "pair_rows": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        6
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_050"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        14
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_051"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        5,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_052"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        6,
+        6
+      ],
+      "near": [
+        5,
+        5,
+        7,
+        7
+      ],
+      "degrees": [
+        14,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 6,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_053"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        9,
+        7,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        6,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        8,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_054"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "pair_rows": [
+        4,
+        5,
+        4,
+        5
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        6
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_055"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        9
+      ],
+      "pair_rows": [
+        4,
+        5,
+        4,
+        5
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        14,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_056"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        4,
+        5
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        14
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_057"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        4,
+        5
+      ],
+      "near": [
+        6,
+        7,
+        5,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        14,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_058"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        9,
+        9,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "near": [
+        5,
+        6,
+        6,
+        7
+      ],
+      "degrees": [
+        13,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_059"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "near": [
+        5,
+        6,
+        6,
+        7
+      ],
+      "degrees": [
+        14,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_060"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "near": [
+        5,
+        6,
+        6,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        14,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_061"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "near": [
+        6,
+        7,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 6,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_062"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        7
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        8
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_063"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        7
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        8
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          1,
+          2
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_064"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        7
+      ],
+      "pair_rows": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "near": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_065"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        3,
+        3,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "pair_rows": [
+        4,
+        6,
+        5,
+        5
+      ],
+      "near": [
+        5,
+        7,
+        6,
+        6
+      ],
+      "degrees": [
+        13,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_066"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        3,
+        3,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        9
+      ],
+      "pair_rows": [
+        4,
+        6,
+        5,
+        5
+      ],
+      "near": [
+        5,
+        7,
+        6,
+        6
+      ],
+      "degrees": [
+        14,
+        15,
+        14,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_067"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        3,
+        3,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        7,
+        8,
+        9
+      ],
+      "pair_rows": [
+        4,
+        6,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        8,
+        7,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_068"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        3,
+        3,
+        0
+      ],
+      "t": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        6,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        7,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 1,
+          "forced_triangle_point_occurrences": 6,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_069"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        2,
+        3,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        6,
+        6,
+        6
+      ],
+      "near": [
+        5,
+        7,
+        7,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_070"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        3,
+        2,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        9,
+        9,
+        7
+      ],
+      "pair_rows": [
+        5,
+        5,
+        5,
+        7
+      ],
+      "near": [
+        6,
+        6,
+        6,
+        8
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": true
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_071"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        3,
+        2,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        7
+      ],
+      "pair_rows": [
+        5,
+        5,
+        5,
+        7
+      ],
+      "near": [
+        6,
+        6,
+        6,
+        8
+      ],
+      "degrees": [
+        15,
+        15,
+        14,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": true
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_072"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        3,
+        2,
+        3,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        6
+      ],
+      "pair_rows": [
+        5,
+        5,
+        6,
+        8
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        9
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        6,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": true
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_073"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        3,
+        3,
+        2,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "pair_rows": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "degrees": [
+        14,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_074"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        3,
+        3,
+        2,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        9,
+        8,
+        9
+      ],
+      "pair_rows": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "degrees": [
+        14,
+        15,
+        14,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_075"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        3,
+        3,
+        2,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        9,
+        9,
+        8
+      ],
+      "pair_rows": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        14
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_076"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        3,
+        3,
+        2,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "pair_rows": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "near": [
+        7,
+        7,
+        7,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_077"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        3,
+        3,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        5,
+        5,
+        6,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_078"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        3,
+        3,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        7,
+        8
+      ],
+      "pair_rows": [
+        5,
+        5,
+        6,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        14,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_079"
+    },
+    {
+      "N": 46,
+      "p": [
+        0,
+        2,
+        3,
+        3,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        5,
+        5,
+        6,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_080"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        3,
+        3,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        7,
+        7
+      ],
+      "pair_rows": [
+        5,
+        5,
+        7,
+        7
+      ],
+      "near": [
+        6,
+        6,
+        8,
+        8
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        7,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_081"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        3,
+        3,
+        3,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        5,
+        6,
+        5,
+        6
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_082"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        3,
+        3,
+        3,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        7,
+        9,
+        8
+      ],
+      "pair_rows": [
+        5,
+        6,
+        5,
+        6
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        7
+      ],
+      "degrees": [
+        15,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_083"
+    },
+    {
+      "N": 46,
+      "p": [
+        0,
+        2,
+        3,
+        3,
+        3,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        5,
+        6,
+        5,
+        6
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_084"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        2,
+        3,
+        3,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        7
+      ],
+      "pair_rows": [
+        5,
+        6,
+        6,
+        7
+      ],
+      "near": [
+        6,
+        7,
+        7,
+        8
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": true
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_085"
+    },
+    {
+      "N": 45,
+      "p": [
+        0,
+        3,
+        3,
+        3,
+        3,
+        0
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "pair_rows": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "near": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "orbit_size": 3,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_086"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        3
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        3,
+        3,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 6,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 2,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        },
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_087"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        3,
+        4,
+        4,
+        5
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_088"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        3
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "near": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 6,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_089"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        9
+      ],
+      "pair_rows": [
+        3,
+        5,
+        5,
+        5
+      ],
+      "near": [
+        5,
+        7,
+        7,
+        6
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_090"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        3
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        3,
+        5,
+        6,
+        6
+      ],
+      "near": [
+        4,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        13,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_091"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        1,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        8,
+        9,
+        9,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        4,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        6,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 6,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_092"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        1,
+        2,
+        3
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        7
+      ],
+      "pair_rows": [
+        4,
+        4,
+        5,
+        7
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        8
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_093"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "s": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "pair_rows": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "near": [
+        7,
+        7,
+        6,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_094"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        1
+      ],
+      "t": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "s": [
+        8,
+        9,
+        9,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "near": [
+        7,
+        6,
+        6,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 6,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_095"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        8,
+        9,
+        8,
+        9
+      ],
+      "pair_rows": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        6
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_096"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        9
+      ],
+      "pair_rows": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        6
+      ],
+      "degrees": [
+        15,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_097"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        14
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_098"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        5,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_099"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        6,
+        6
+      ],
+      "near": [
+        5,
+        5,
+        7,
+        7
+      ],
+      "degrees": [
+        14,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_100"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        9,
+        7,
+        8
+      ],
+      "pair_rows": [
+        4,
+        4,
+        6,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        8,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_101"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        9,
+        9,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "near": [
+        5,
+        6,
+        6,
+        7
+      ],
+      "degrees": [
+        13,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_102"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "near": [
+        5,
+        6,
+        6,
+        7
+      ],
+      "degrees": [
+        14,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_103"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "near": [
+        6,
+        7,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 6,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_104"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        7
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        6
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        8
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_105"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        3
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        7
+      ],
+      "pair_rows": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "near": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_106"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        3,
+        1,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        9
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        4
+      ],
+      "near": [
+        6,
+        7,
+        7,
+        5
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        14
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_107"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        3,
+        1,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "s": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        4
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        6
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 2,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_108"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        3,
+        1,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        9
+      ],
+      "pair_rows": [
+        4,
+        5,
+        5,
+        4
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        14,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 2,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_109"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        3,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        9,
+        8,
+        9
+      ],
+      "pair_rows": [
+        4,
+        5,
+        6,
+        5
+      ],
+      "near": [
+        5,
+        6,
+        7,
+        6
+      ],
+      "degrees": [
+        13,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_110"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        3,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        9
+      ],
+      "pair_rows": [
+        4,
+        5,
+        6,
+        5
+      ],
+      "near": [
+        5,
+        6,
+        7,
+        6
+      ],
+      "degrees": [
+        14,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_111"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        3,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        6,
+        5
+      ],
+      "near": [
+        5,
+        6,
+        7,
+        6
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        14
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_112"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        3,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        9,
+        8,
+        7,
+        9
+      ],
+      "pair_rows": [
+        4,
+        5,
+        6,
+        5
+      ],
+      "near": [
+        6,
+        7,
+        8,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_113"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        3,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        6,
+        5
+      ],
+      "near": [
+        6,
+        7,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 2,
+          "forced_triangle_point_occurrences": 6,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_114"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        3,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        7,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        6,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        8,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_115"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        3,
+        1,
+        3
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        7,
+        8
+      ],
+      "pair_rows": [
+        4,
+        5,
+        7,
+        6
+      ],
+      "near": [
+        5,
+        6,
+        8,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_116"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        2,
+        3,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        8
+      ],
+      "pair_rows": [
+        4,
+        6,
+        6,
+        6
+      ],
+      "near": [
+        5,
+        7,
+        7,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_117"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        3,
+        2,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        9,
+        9,
+        7
+      ],
+      "pair_rows": [
+        5,
+        5,
+        5,
+        7
+      ],
+      "near": [
+        6,
+        6,
+        6,
+        8
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": true
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_118"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        3,
+        2,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        7
+      ],
+      "pair_rows": [
+        5,
+        5,
+        5,
+        7
+      ],
+      "near": [
+        6,
+        6,
+        6,
+        8
+      ],
+      "degrees": [
+        15,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": true
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_119"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        3,
+        2,
+        2,
+        3
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        6
+      ],
+      "pair_rows": [
+        5,
+        5,
+        6,
+        8
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        9
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        6,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": true
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_120"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        3,
+        3,
+        1,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "pair_rows": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "degrees": [
+        14,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_121"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        3,
+        3,
+        1,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        9,
+        9,
+        8
+      ],
+      "pair_rows": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        14
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 6,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_122"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        3,
+        3,
+        1,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "pair_rows": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "near": [
+        7,
+        7,
+        7,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [
+        "triple-point-cannot-cover-pair-triangle",
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_123"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        3,
+        3,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        5,
+        5,
+        6,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_124"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        3,
+        3,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        7,
+        8
+      ],
+      "pair_rows": [
+        5,
+        5,
+        6,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        14,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_125"
+    },
+    {
+      "N": 46,
+      "p": [
+        1,
+        1,
+        3,
+        3,
+        1,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        5,
+        5,
+        6,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_126"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        3,
+        3,
+        1,
+        3
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        7,
+        7
+      ],
+      "pair_rows": [
+        5,
+        5,
+        7,
+        7
+      ],
+      "near": [
+        6,
+        6,
+        8,
+        8
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        7,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_127"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        1,
+        3,
+        3,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        7
+      ],
+      "pair_rows": [
+        5,
+        6,
+        6,
+        7
+      ],
+      "near": [
+        6,
+        7,
+        7,
+        8
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": true
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_128"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "pair_rows": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "degrees": [
+        14,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 6,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_129"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        9,
+        8,
+        9
+      ],
+      "pair_rows": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "near": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "degrees": [
+        14,
+        15,
+        14,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_130"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "s": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "pair_rows": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "near": [
+        7,
+        7,
+        7,
+        6
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [
+        "triple-star-bipartite-edge-cap4"
+      ],
+      "passes_b4_arithmetic": false,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "triple_triangle_point_overload": [
+        {
+          "omitted_point": 3,
+          "forced_triangle_point_occurrences": 5,
+          "capacity": 4
+        }
+      ],
+      "id": "CAP15_HIGH_131"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        5,
+        5,
+        6,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_132"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        7,
+        8
+      ],
+      "pair_rows": [
+        5,
+        5,
+        6,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        14,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_133"
+    },
+    {
+      "N": 46,
+      "p": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "pair_rows": [
+        5,
+        5,
+        6,
+        6
+      ],
+      "near": [
+        6,
+        6,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 6,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_134"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        9,
+        7,
+        7
+      ],
+      "pair_rows": [
+        5,
+        5,
+        7,
+        7
+      ],
+      "near": [
+        6,
+        6,
+        8,
+        8
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        7,
+        9,
+        9
+      ],
+      "orbit_size": 6,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1
+        ],
+        "all_pair_categories_forced_on_one_triangle": false,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_135"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        5,
+        6,
+        5,
+        6
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        7
+      ],
+      "degrees": [
+        14,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_136"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        7,
+        9,
+        8
+      ],
+      "pair_rows": [
+        5,
+        6,
+        5,
+        6
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        7
+      ],
+      "degrees": [
+        15,
+        14,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_137"
+    },
+    {
+      "N": 46,
+      "p": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        9,
+        8
+      ],
+      "pair_rows": [
+        5,
+        6,
+        5,
+        6
+      ],
+      "near": [
+        6,
+        7,
+        6,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        9,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_138"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        8,
+        8,
+        7
+      ],
+      "pair_rows": [
+        5,
+        6,
+        6,
+        7
+      ],
+      "near": [
+        6,
+        7,
+        7,
+        8
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 24,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": true
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_139"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        2,
+        2,
+        3,
+        3,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        9,
+        7,
+        8,
+        8
+      ],
+      "pair_rows": [
+        5,
+        7,
+        6,
+        6
+      ],
+      "near": [
+        6,
+        8,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        7,
+        8,
+        8,
+        9
+      ],
+      "orbit_size": 12,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": false,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": true
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_140"
+    },
+    {
+      "N": 45,
+      "p": [
+        1,
+        2,
+        3,
+        3,
+        2,
+        1
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "pair_rows": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "near": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "orbit_size": 6,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_141"
+    },
+    {
+      "N": 45,
+      "p": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "t": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "s": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "pair_rows": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "near": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "degrees": [
+        15,
+        15,
+        15,
+        15
+      ],
+      "sorted_singletons": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "orbit_size": 1,
+      "b4_rejections": [],
+      "passes_b4_arithmetic": true,
+      "common_triangle_terminal_guard": true,
+      "triangle_propagation": {
+        "B4_triangle_vertices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "all_pair_categories_forced_on_one_triangle": true,
+        "triangle_row_capacity_contradiction": false
+      },
+      "complete_P9_complement_guard_witnesses": [],
+      "triple_triangle_point_overload": [],
+      "id": "CAP15_HIGH_142"
+    }
+  ]
+}

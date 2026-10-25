@@ -1,0 +1,110 @@
+{
+  "profile_domain": [
+    {
+      "k": 3,
+      "raw_compositions": 8092,
+      "independent_representatives": 543,
+      "receipt_rows": 543,
+      "set_equal": true,
+      "ordered_equal": true,
+      "missing": 0,
+      "extra": 0,
+      "complete": true,
+      "all_dihedral_maps_preserve_adjacency": true
+    },
+    {
+      "k": 4,
+      "raw_compositions": 32802,
+      "independent_representatives": 1541,
+      "receipt_rows": 1541,
+      "set_equal": true,
+      "ordered_equal": true,
+      "missing": 0,
+      "extra": 0,
+      "complete": true,
+      "all_dihedral_maps_preserve_adjacency": true
+    },
+    {
+      "k": 5,
+      "raw_compositions": 2366,
+      "independent_representatives": 103,
+      "receipt_rows": 103,
+      "set_equal": true,
+      "ordered_equal": true,
+      "missing": 0,
+      "extra": 0,
+      "complete": true,
+      "all_dihedral_maps_preserve_adjacency": true
+    },
+    {
+      "k": 6,
+      "raw_compositions": 1,
+      "independent_representatives": 1,
+      "receipt_rows": 1,
+      "set_equal": true,
+      "ordered_equal": true,
+      "missing": 0,
+      "extra": 0,
+      "complete": true,
+      "all_dihedral_maps_preserve_adjacency": true
+    }
+  ],
+  "weighted_inclusion": {
+    "weight_vectors": 6561,
+    "ordered_comparisons": 419904,
+    "mask_mismatches": 0,
+    "cardinality_false_positives": 176256,
+    "first_witness": {
+      "t": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "i": 1,
+      "j": 4,
+      "q_i": 1,
+      "q_j": 1
+    }
+  },
+  "integer_type_controls": [
+    {
+      "value": true,
+      "status": "rejected"
+    },
+    {
+      "value": false,
+      "status": "rejected"
+    },
+    {
+      "value": 1.0,
+      "status": "rejected"
+    },
+    {
+      "value": 49.0,
+      "status": "rejected"
+    },
+    {
+      "value": "49",
+      "status": "rejected"
+    },
+    {
+      "value": null,
+      "status": "rejected"
+    },
+    {
+      "value": 49,
+      "status": "accepted"
+    },
+    {
+      "value": 1267650600228229401496703205376,
+      "status": "accepted"
+    }
+  ],
+  "scientific_model_loaded": false,
+  "seconds": 0.5696330289938487
+}

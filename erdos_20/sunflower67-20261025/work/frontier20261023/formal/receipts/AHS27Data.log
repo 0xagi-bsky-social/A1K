@@ -1,0 +1,4 @@
+theorem FrontierAHS27.AHS_card : AHS.card = 27 :=
+AHS_card._proof_1_1
+theorem FrontierAHS27.AHS_uniform : ∀ S ∈ AHS, S.card = 4 :=
+AHS_uniform._proof_1_1

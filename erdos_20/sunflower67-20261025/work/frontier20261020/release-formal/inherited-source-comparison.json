@@ -1,0 +1,523 @@
+{
+  "inherited_source_count": 129,
+  "all_match": true,
+  "comparison": "Current inherited closure versus immutable previous release source manifest",
+  "rows": [
+    {
+      "module": "SunflowerLean.Basic",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Spread",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20BCWConditional",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20BCWBridge",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20StrictCore",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20SpreadPacking",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.ErdosRadoBound",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20Critical",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20Incidence",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20TraceStructure",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20CrossBounds",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20Research",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20RankThree",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20GraphEquality",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20RankThreeEven",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20SharpTriples",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20Tetrahedron",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20SharpTwenty",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20ExtremalSupport",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20ExtremalStructure",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20TracePatterns",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20MixedCross",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20DesignConsequences",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20RankFour",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20Endpoints",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20Obstructions",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20LocalStructure",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20TripleWitness",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20Substitution",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20IteratedLower",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20RankFourWitness",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20FiniteReduction",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20GrowthRate",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V5Frontier",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20DesignSeparation",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20DesignCoordinates",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20DesignNormalForm",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20DegreeCongruences",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20GraphEqualityEndpoint",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20ExtremalTwenty",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20ExtremalTransversals",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20ThreeCrossEdges",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8Stability",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8DesignCounts",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8Boundary",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8HighWeights",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9HighCompatibility",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9HighCompatibilityMain",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9HighIncidence",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9HighGraph",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10HighTriangle",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10HighTriangleGeometry",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10HighTriangleMain",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10HighTriangleTransfer",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10HighTriangleDegreeOne",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10HighTriangleIncidence",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11HighSupport",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11EdgeThirdDesign",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11EdgeThirdSupport",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11EdgeTrace",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11EdgeThird",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11HighCommon",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12HighEdge",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12HighCard",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12HighCardGraph",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12HighCardPairs",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10HighParity",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12HighCardTwo",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8MeetingProfile",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9Profile",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54Score",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12ProfileScore",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20SaturatedMeeting",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20RankFourRefined",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20MeetingFiftySix",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20FortyOneArithmetic",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20FortyOne",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20SeededBounds",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20RankFourPropagation",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V6Bounds",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V7Bounds",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8Global",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8ProfileBridge",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8HighDegrees",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12ProfileScoreBridge",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11EdgePairs",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10DisjointDegree",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54ScoreBridge",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10MinimumDegree",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9TraceBridge",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9ProfileBridge",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9BoundaryArithmetic",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9Census",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8Targets",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8BoundaryReduction",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8Final",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V9Final",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54Bridge",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54DegreeCap",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10BoundaryReduction",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54Seventeen",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54LowScores",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54LowScoresBridge",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10Profile54SeventeenCap",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10FiniteEndgame",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11Census",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V10HighParityMain",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11CensusCapacity",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11HighEdgeReserve",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11HighEdgeCounts",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11EdgeCapacity",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11EdgeCapacityThree",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11HighEdgeDegree",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11CensusCommonSupport",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11CensusIndependentTriple",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11CensusTenProfiles",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11CensusFinal",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11DegreeSeventeen",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11DegreeSeventeenLink",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11DegreeSeventeenTrace",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V11Final",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12DegreeSeventeen",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12ProfileReduction",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V8Intersecting",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12Nineteen",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12Intersecting",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V12Final",
+      "matches_frozen_previous_manifest": true
+    },
+    {
+      "module": "SunflowerLean.Erdos20V13Boundary",
+      "matches_frozen_previous_manifest": true
+    }
+  ]
+}

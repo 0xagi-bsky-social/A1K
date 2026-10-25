@@ -1,0 +1,37 @@
+{
+  "consecutive_mass_coefficients": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1
+  ],
+  "consecutive_mass_identity": "a0+a1+a2 = 21+sum(r)+r5 = 25+r5",
+  "surjectivity_order": "b_i<=27 first; sum e=12; a_i>=13-12=1; only then b_i>=25",
+  "H27_sensitivity": {
+    "formula": "136-5h",
+    "h27": 1,
+    "h28": -4
+  },
+  "required_cover_counts": {
+    "independent": 10,
+    "delete1": 11,
+    "delete2": 12
+  },
+  "recorded_active_cover_caps": [
+    2,
+    4,
+    10
+  ],
+  "arbitrary_support_transfer": {
+    "D16_remaining": 13,
+    "D16_two_point_max": 10,
+    "D15_remaining": 13,
+    "D15_two_point_max": 12,
+    "charging": "Choose a contained C3 when present; at most two actual members per C3 by ambient triple codegree. Otherwise the four-set is an internal P4 and occurs at most once. Deleted cones remain actual and consume any refined capacity."
+  },
+  "scope": "Exact small coefficient identities plus ordinary support/counting proof; stored cover census not rerun."
+}

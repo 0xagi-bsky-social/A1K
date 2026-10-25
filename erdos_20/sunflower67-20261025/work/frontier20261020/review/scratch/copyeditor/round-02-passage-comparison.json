@@ -1,0 +1,43 @@
+{
+  "scope": "Manual selected-passage comparison, round 2",
+  "manuscript_sha256": "d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6",
+  "method": "Direct web.run opens and selected passage reading; compared meaning, attribution and distinctive prose manually against frozen manuscript. No automated n-gram or corpus detector.",
+  "comparisons": [
+    {
+      "source": "https://arxiv.org/html/2609.06175v1",
+      "locators": [
+        "Abstract",
+        "Sections 2.1–2.2",
+        "Section 6.3, Proposition 6.7",
+        "Section 8"
+      ],
+      "manuscript_locators": [
+        "Abstract",
+        "Section 1 definitions",
+        "Corollary 4",
+        "Section 7 first paragraph"
+      ],
+      "observation": "Definitions use conventional mathematical vocabulary. The intersecting result and numerical baseline are attributed; the account of computation and Lean scope is paraphrased. No distinctive unattributed extended prose match identified in these selected passages."
+    },
+    {
+      "source": "https://a1k.ai/agentic-math/rank-four-sunflower-free-families",
+      "locators": [
+        "Abstract and Introduction",
+        "Methods: Literal model and actual-family quantities",
+        "Results T3, T5 and T8",
+        "Discussion"
+      ],
+      "manuscript_locators": [
+        "Section 1 inherited inputs",
+        "Sections 3 and 4 setup",
+        "Section 7 contribution"
+      ],
+      "observation": "Technical names, degree numbers and profile descriptions necessarily recur. The manuscript labels this material inherited, identifies version thirteen and gives its source pin. The selected setup and contribution passages paraphrase the inherited report rather than presenting its prior results as new."
+    }
+  ],
+  "limitations": [
+    "Only the two named accessible primary webpages and selected passages were compared.",
+    "No comprehensive corpus search, numerical similarity score, full external-text archive or proof of originality.",
+    "No source enumeration or external theorem was independently rerun."
+  ]
+}

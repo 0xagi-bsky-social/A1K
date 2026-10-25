@@ -1,0 +1,26 @@
+{
+  "source_hash": "d69a6ef6c4ff9096af11af947dd8ac5aed3f82ec0fcba72bf5d4a42b725864bd",
+  "baseline_result": "PASS",
+  "strict_exclusion": true,
+  "negative_control_result": "FAIL",
+  "negative_control_error": "ReplayError: Invalid sparse ineq weight sign",
+  "archived_output_fields_equal": {
+    "receipt_sha256": true,
+    "replayer_sha256": true,
+    "source": true,
+    "case": true,
+    "literal_premises": true,
+    "geometry_sha256": true,
+    "premise_sha256": true,
+    "model": true,
+    "model_sha256": true,
+    "exact_replay": true
+  },
+  "originals_unchanged": true,
+  "outputs": {
+    "negative-multiplier-replay.json": "7d25b33f3568904444690ce99765bf34bfd8e30f890675514f3660f6e142cc92",
+    "negative-multiplier-receipt.json": "5ec04d06646d11266099a65db007255b8b40205d9438af30bc27f18a077421e7",
+    "baseline.json": "32d91b2dd19442aec2d8d8fb65d7b68942f9ad4f000e91ac7eca3253cd8d645b"
+  },
+  "scope": "One frozen D18 I06 coefficient model replay and one negative multiplier control; shared builder, no solver, no whole-branch replay"
+}

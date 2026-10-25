@@ -1,0 +1,25 @@
+{
+  "finding_id": "/root/review_coordinator/citation_verifier:round-8:required-revision-1",
+  "checks": [
+    {
+      "relative_href": "../formal/source-manifest.json",
+      "preview_target": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/preview/formal/source-manifest.json",
+      "planned_release_target": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-manifest.json",
+      "sha256": "a20772968e780ca4a212681bab595f468be51dae715de5dfd9eed1baa6c76a68",
+      "bytes": 19307,
+      "both_exist_and_match": true
+    },
+    {
+      "relative_href": "../formal-source-and-receipts.zip",
+      "preview_target": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/preview/formal-source-and-receipts.zip",
+      "planned_release_target": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal-source-and-receipts.zip",
+      "sha256": "81665e2eb4fe39260e8d8daf2ad1d922bc77647e1b255f6337872ee407dd9cff",
+      "bytes": 526700,
+      "both_exist_and_match": true
+    }
+  ],
+  "limits": [
+    "Filesystem target existence and byte identity; no claim about every PDF viewer handling relative URI annotations.",
+    "No report is published before final audit."
+  ]
+}

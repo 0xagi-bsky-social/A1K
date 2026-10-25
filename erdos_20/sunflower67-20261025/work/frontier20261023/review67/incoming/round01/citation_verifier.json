@@ -1,0 +1,82 @@
+{
+  "agent_id": "/root/r67_citations",
+  "role": "citation_verifier",
+  "context_id": "/root/r67_citations",
+  "round": 1,
+  "snapshot_sha256": "7912a1f1de1f27d72b2a2e660626f338303bf8cf71085720b4c1e304e670b5ba",
+  "manuscript_sha256": "2c200bf5dff9e665e7dab3ba3f5a1ef019251d341a1913d1f5bd2fc3c086f937",
+  "summary": "The round-one definitions, numerical comparison and principal external theorem attributions match the inspected primary sources. No citation-based framing revision is required. This supports continuation of review, not acceptance of the complete computational proof or exhaustive priority certification.",
+  "evidence_ids": ["external-scope", "prior-ledger", "literature-refresh", "general-literature"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "CV-R1-IMPORT-SCOPE",
+      "statement": "H27 is a computer-assisted preprint theorem imported through an identified proposition; Jin's exact formulation is checked through an explicitly named scholarly restatement. Neither source inspection reconstructs the imported proof.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Manuscript section 2 and EXTERNAL-H27-JIN-SCOPE.md disclose these limits adequately. No full external ledger replay or original Jin full-text inspection was performed in this review.",
+      "evidence_ids": ["external-scope"]
+    },
+    {
+      "id": "CV-R1-PRIORITY-SCOPE",
+      "statement": "The strongest-located comparison is supported as a bounded search observation, while global originality and independent novelty of the fifteen-triple lemma remain unestablished by this round.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "The introduction and sections 2 and 5.2 already bound these claims. Current source opens corroborate the cited comparisons without extending the recorded search cutoff or proving an absence of other work.",
+      "evidence_ids": ["literature-refresh", "general-literature"]
+    }
+  ],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Frozen round-one identity and inspected evidence integrity",
+      "method": "Computed SHA-256 of manuscript bytes and canonical sorted compact JSON for the snapshot, contract and roster; checked the four inspected evidence-file byte hashes.",
+      "observation": "Both supplied review hashes matched. The canonical roster hash matched 7c930c890e7bce8862c797ce2f94410ad4719f044c39f5a37849e583ce9e92f9. All four inspected evidence hashes matched snapshot entries; the roster assigns /root/r67_citations the citation_verifier role.",
+      "result": "supported",
+      "evidence_ids": ["external-scope", "prior-ledger", "literature-refresh", "general-literature"]
+    },
+    {
+      "scope": "H27 assumptions, numerical convention and lower bound",
+      "method": "Opened the versioned primary HTML and inspected section 2.1, Proposition 6.7, Proposition 6.8 and Theorem 6.9 against manuscript sections 1-3.",
+      "observation": "The source uses finite families of distinct exactly uniform sets, permits empty cores, and defines f as a maximum. Proposition 6.7 has intersecting upper bound 27 without a preset-support condition; Theorem 6.9 supplies lower 54. These conventions match M here. [Axante et al., v1](https://arxiv.org/html/2609.06175v1).",
+      "result": "supported",
+      "evidence_ids": ["external-scope"]
+    },
+    {
+      "scope": "Comparable prior bound and version pin",
+      "method": "Opened the aiXiv primary abstract/metadata record and compared its abstract, comments and v1 history with manuscript sections 1-2 and reference 2.",
+      "observation": "The record states maximum upper 68, forcing threshold 69, empty cores, 9 October 2026 v1, and companion commit 90c03c79bcf44eb8f61dff1b86091b822cc4cd3c. The proposed maximum upper 67 therefore improves that reported endpoint by one; the source does not claim exclusion of 68. [Babanskyy record](https://aixiv.online/abs/2610.01292).",
+      "result": "supported",
+      "evidence_ids": ["prior-ledger", "literature-refresh"]
+    },
+    {
+      "scope": "Jin theorem statement and applicable numerical thresholds",
+      "method": "Inspected Nikiforov v1 PDF page 2, Theorem A and preceding Andrasfai definition; independently evaluated the two threshold cross-products using integers.",
+      "observation": "Theorem A gives homomorphism to A_k for 1 <= k <= 9 and strict minimum degree > (k+1)n/(3k+2), without a separate three-colourability premise. At n=68, k=3 gives 25*11-4*68=3>0 and k=6 gives 24*20-7*68=4>0. It promises neither surjectivity nor complete blowup structure. [Nikiforov, Theorem A](https://arxiv.org/pdf/1001.2070v1).",
+      "result": "supported",
+      "evidence_ids": ["external-scope"]
+    },
+    {
+      "scope": "Jin bibliography and Nikiforov title spelling",
+      "method": "Opened Cambridge's publisher record and Nikiforov's arXiv abstract record; the direct DOI tool open failed, after which the named publisher URL succeeded.",
+      "observation": "Cambridge confirms Guoping Jin, volume 2 issue 4, December 1993, pages 479-490, DOI 10.1017/S0963548300000845; its 2008 online date is distinct. Nikiforov's arXiv metadata spells the title 'mimimum', so reference 4's qualification is accurate. [Publisher record](https://www.cambridge.org/core/journals/combinatorics-probability-and-computing/article/abs/trianglefree-graphs-with-high-minimal-degrees/CC3A9FD74582F981BEAD987E00667975); [Nikiforov metadata](https://arxiv.org/abs/1001.2070v1).",
+      "result": "supported",
+      "evidence_ids": ["external-scope"]
+    },
+    {
+      "scope": "Ground-set theorem versus fixed-rank contribution",
+      "method": "Opened the versioned Bucić-He-Lee arXiv abstract and compared its quantified ground-set claim with manuscript sections 1-2 and reference 5.",
+      "observation": "The primary record dates v1 to 19 October 2026 and treats sunflower-free collections of subsets of [n], with a base below 2 for each k >= 3. The manuscript correctly separates this from its arbitrary-support fixed-rank maximum. [Bucić-He-Lee v1](https://arxiv.org/abs/2610.26686v1).",
+      "result": "supported",
+      "evidence_ids": ["literature-refresh", "general-literature"]
+    },
+    {
+      "scope": "External computation and formalization claims in the framing",
+      "method": "Compared manuscript sections 2 and 7 with FOUNDATION_LEDGER.md and general.md; inspected the primary H27 paper's sections 6.3 and 6.5.",
+      "observation": "The manuscript distinguishes six selected local prior suites from all 42, external H27 theorem import from local replay, and reported Bucić-He-Lee formalization from a local build/axiom audit. Those qualifications agree with the inspected records. This check did not rerun suites, inspect all proof bridges, or audit the public Lean project.",
+      "result": "supported",
+      "evidence_ids": ["external-scope", "prior-ledger", "general-literature"]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "agent_id": "/root/r67_beta",
+  "role": "beta",
+  "context_id": "/root/r67_beta",
+  "round": 5,
+  "snapshot_sha256": "85c7f735ba798c6812c979258f6eb3854dee7055d525e2bd4fd9e315b71ce261",
+  "manuscript_sha256": "460a3cba8460d551fe8c44b69dac7f1a9b9bae09743c85c519a4d92f30a76ae4",
+  "summary": "Independent bounded calculations support both R16 deletion contradictions and the degree15 A3 star-cover requirements. Actual anchors, residual internal traces and exterior completions are retained. Relaxed scalar examples confirm that the stated equality guards matter. No mathematical revision is required within this scope; this is not a complete-proof replay or publication approval.",
+  "evidence_ids": ["cap15", "cap15-check", "direct-jin", "formal-scalar", "external-h27-scope-correction"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "beta-R5-F1",
+      "statement": "The outer positive-pair restriction and hub B4 equality guards are essential to the scalar exclusions and are supplied by the written actual-family geometry.",
+      "severity": "note",
+      "status": "resolved",
+      "disposition": "The independent scalar and literal-cover checks below confirm the restrictions, including retention of root pairs p0i and omission of the missing hub anchor. The relaxed witnesses concern weakened scalar systems, not sunflower-free counterexamples.",
+      "evidence_ids": ["cap15", "formal-scalar"]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "beta-R2-F3",
+      "action": "Extended independent bounded verification to the deletion scalar interfaces and A3 star-support calculation.",
+      "result": "The four checks below were executed with standalone standard-library calculations. No upstream classification, large search tree, solver, or Lean compiler was rerun. Both frozen input hashes match the assignment; earlier bounded-coverage qualification remains.",
+      "status": "claim-qualified"
+    },
+    {
+      "finding_id": "beta-R1-F3",
+      "action": "Read the superseding H27 scope addendum and the new manuscript paragraph in Section2.",
+      "result": "The manuscript now states the unavailable provenance pointer, the difference between README archive-hash claims and inspected script operations, and the absence of local execution or historical source authentication. H27 remains an imported theorem; these local checks do not repair or independently establish its historical computation.",
+      "status": "claim-qualified"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Outer-deletion incidence identities and integer contradiction",
+      "method": "Inspect LOW15-R15-outer-deletion-exclusion.md, Four actual neighbourhood inequalities and Singleton capacities. Reconstruct the literal R16 deletion, test all16 hub-trace basis vectors, and exhaust the bounded nonnegative scalar interface.",
+      "observation": "The four hub anchors are actual and their cone hub incidence is23. The16 trace vectors reproduce 3S+4P+4T+4q. All5595 states satisfying the residual budget, S<=32 and P>0=>S<=30 fail the required lower bound104. After imposing the derived 2P+5T+8q<=7, the three written case maxima are exactly100,102,98. Omitting the positive-pair improvement admits S=31,P=3,T=q=0, with budget37 and neighbourhood sum105, demonstrating its necessity.",
+      "result": "supported",
+      "evidence_ids": ["cap15", "formal-scalar"]
+    },
+    {
+      "scope": "Hub-deletion actual anchors, trace accounting and literal B4 guard",
+      "method": "Inspect LOW15-R15-hub-deletion-exclusion.md, Residual hub traces through Literal B4 equality guard. Reconstruct all three satellite five-stars; verify all16 trace basis identities; enumerate all84 triples on the six graph vertices plus three fresh exterior representatives.",
+      "observation": "The hub degrees are6,5,5,5, with cone incidence21; only Q1,Q2,Q3 are actual. The basis identities recover 3E0-B and special-hub incidence a+X+T-t0+q, including the quadruple trace. The only three-covers of triangle(D) union {0j,0k} are 0 joined to one of the three D-pairs. Three fresh representatives suffice to represent every possible exterior part of a triple. Thus the guard forbids the stated satellite pairs/triples/quadruple while correctly allowing p0i.",
+      "result": "supported",
+      "evidence_ids": ["cap15", "cap15-check"]
+    },
+    {
+      "scope": "Hub scalar contradiction and equality-boundary sensitivity",
+      "method": "Independently enumerate ordered deficits 0<=a<=b<=c<=8, pair counts p,q<=a and r<=b, and t<=2, using the inequalities and three equality guards of R15ScalarClosure.lean. The t bound follows from Y+3t<=8.",
+      "observation": "Exactly50 states satisfy the capacities and the two numerical inequalities before equality guards; none satisfies all three guards. Removing any one guard while retaining the other two admits exactly3 states. Witnesses have a=b=c=1,t=2 and respectively (p,q,r)=(1,0,0),(0,1,0),(0,0,1). These checks cover the full geometrically permitted deficit domain and confirm the one-unit contradiction; the universal arithmetic proof remains the separately compiled result, not a new compilation here.",
+      "result": "supported",
+      "evidence_ids": ["cap15", "formal-scalar"]
+    },
+    {
+      "scope": "Degree15 nonindependent A3 supports and deletion-cover lower bounds",
+      "method": "Inspect LOW15-A3-star-fibre-reduction.md, The support of a degree15 star and Concrete one- and two-deletion requirements, together with the current direct-Jin route. Enumerate all266 deviation vectors and86 nonindependent supports with weighted-edge lower cost at most4; test nonisolated weights and exact feasibility of isolated weights by their integer capacity interval.",
+      "observation": "All2128 cyclic mass-identity instances hold. Exactly392 support/endpoint-weight signatures are feasible, realizing precisely the eight cyclic four-index windows. Every feasible interior weight is at least4; endpoint weights are1 or2. Direct evaluation of the two cover-count identities gives minimum11 for endpoint weight1 and minimum12 for weight2. The argument uses forced nonedges under a homomorphism and counts actual distinct nonstar members. This check reproduces the lower requirements, not the separate2541-case upper-cover census.",
+      "result": "supported",
+      "evidence_ids": ["cap15", "direct-jin"]
+    }
+  ]
+}

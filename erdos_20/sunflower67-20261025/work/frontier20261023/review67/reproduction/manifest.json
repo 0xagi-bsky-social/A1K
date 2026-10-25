@@ -1,0 +1,24 @@
+{
+  "scope": "one frozen D17 exact leaf; wrapper and guide integrity only",
+  "observed_result": "PASS",
+  "strict_exclusion": true,
+  "files": [
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/replay_d17_leaf_fresh.py",
+      "sha256": "441ba0a29a705c80889056ac3a4f190067b166f849fea091099f243bd426480d"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/reproduction/README.md",
+      "sha256": "38758467f24ea66413c9ed3c38bc745ab96f51d68c5ef9f2f89014206c030725"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/reproduction/Q8-E4_56-fresh.json",
+      "sha256": "763a7d61b0c4368b8980e12f404ac31c7eea5b26385dcb28b018b06ffca2d955"
+    }
+  ],
+  "limitations": [
+    "Shared producer necessary-model builder.",
+    "No whole-proof cold replay or Lean claim.",
+    "Other guide interfaces were inspected, not rerun as part of this guide."
+  ]
+}

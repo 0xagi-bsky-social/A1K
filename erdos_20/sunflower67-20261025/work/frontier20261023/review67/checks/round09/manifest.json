@@ -1,0 +1,57 @@
+{
+  "scope": "Actual bounded round-nine check artifacts; not a complete independent proof replay.",
+  "files": [
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/alpha/controls.py",
+      "sha256": "134bf1cffa95a94bc3dd1c3aa3a0c5dac1eba78f3888e71767611e6533601e36"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/alpha/manifest.json",
+      "sha256": "7307bb7aeadc761601c73cad6eafa6954c693f661310c0ad5e3d01af2e4c8e4c"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/alpha/results.json",
+      "sha256": "c33354a4333f7a9253ea053309207e7edd15f90fbe36fb6f8b9cb57ef75e0afa"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/citation_verifier/bounded-results.json",
+      "sha256": "845b2f154f56f31a26e6c76785aa7a5f27307f546f509249c95e29bb0f78b04d"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/citation_verifier/h27-commit-response.json",
+      "sha256": "cefee00e42cc5895688ec5317a3ef95a3c7ff3d6be661db504475a6c3423915c"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/citation_verifier/manifest.json",
+      "sha256": "4c8076e5d96329061af1d0dc0745ad8230075087d4b76966829543ed81014297"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/data_analyst/archive-manifest.json",
+      "sha256": "15e7f4084628466ff9c87d76c94ba29fc4699056ae9bf9e8151050dd7d3b260e"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/data_analyst/checks.json",
+      "sha256": "2e1558b98f064c5cf0733ac0a16392eca8457ac6d31e60d9d0fb65f4304ebb47"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/data_analyst/checks.py",
+      "sha256": "df3480c5b587c3bb72c1dd3a17a182bf420b89a094a3d78dc8079fdae4da4fc8"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/methodologist/audit.py",
+      "sha256": "115bdea37fcbae9276e2cefc6c4b0192b010ae03b5718b552638b61e200682e1"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/methodologist/results.json",
+      "sha256": "14e1518aa609c48de0d0c2c5fcade8745cd362aa984da5264959a2f7d409d62d"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/root-integrity.json",
+      "sha256": "3c263e79be007009a416781bb805d8c07877346c4f5d96d7f4c63b15acd87f9b"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/root-preview-visual.json",
+      "sha256": "81a162a201f9ad72ccc358085c40eaf2f3e108a0012badbde6fb751ef9272765"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "status": "EXPLORATORY NOT REVIEWED OR LEAN FORMALIZED; not part of the released53theorem",
+  "missing_obligation": "Prove exact convex tail-concentration envelope with capped degree and available excess; prove semantic numeric bridge; finitegrid kernel check",
+  "records": [
+    {
+      "assumed_support_at_least": 40,
+      "numeric_maximum": [
+        5504,
+        [
+          15,
+          15,
+          15,
+          15
+        ],
+        16,
+        1056
+      ],
+      "required_lower_bound": 4488,
+      "contradiction_in_diagnostic_relaxation": false
+    },
+    {
+      "assumed_support_at_least": 41,
+      "numeric_maximum": [
+        5480,
+        [
+          15,
+          15,
+          15,
+          15
+        ],
+        15,
+        1052
+      ],
+      "required_lower_bound": 4488,
+      "contradiction_in_diagnostic_relaxation": false
+    },
+    {
+      "assumed_support_at_least": 42,
+      "numeric_maximum": [
+        5468,
+        [
+          15,
+          15,
+          15,
+          15
+        ],
+        14,
+        1050
+      ],
+      "required_lower_bound": 4488,
+      "contradiction_in_diagnostic_relaxation": false
+    },
+    {
+      "assumed_support_at_least": 43,
+      "numeric_maximum": [
+        5372,
+        [
+          18,
+          14,
+          14,
+          14
+        ],
+        13,
+        1034
+      ],
+      "required_lower_bound": 4488,
+      "contradiction_in_diagnostic_relaxation": false
+    },
+    {
+      "assumed_support_at_least": 44,
+      "numeric_maximum": [
+        5225,
+        [
+          17,
+          14,
+          14,
+          14
+        ],
+        13,
+        1000
+      ],
+      "required_lower_bound": 4488,
+      "contradiction_in_diagnostic_relaxation": false
+    },
+    {
+      "assumed_support_at_least": 45,
+      "numeric_maximum": [
+        5177,
+        [
+          19,
+          14,
+          13,
+          13
+        ],
+        12,
+        992
+      ],
+      "required_lower_bound": 4488,
+      "contradiction_in_diagnostic_relaxation": false
+    },
+    {
+      "assumed_support_at_least": 46,
+      "numeric_maximum": [
+        5076,
+        [
+          19,
+          13,
+          13,
+          13
+        ],
+        12,
+        966
+      ],
+      "required_lower_bound": 4488,
+      "contradiction_in_diagnostic_relaxation": false
+    },
+    {
+      "assumed_support_at_least": 47,
+      "numeric_maximum": [
+        4968,
+        [
+          19,
+          15,
+          12,
+          12
+        ],
+        11,
+        948
+      ],
+      "required_lower_bound": 4488,
+      "contradiction_in_diagnostic_relaxation": false
+    },
+    {
+      "assumed_support_at_least": 48,
+      "numeric_maximum": [
+        4853,
+        [
+          19,
+          14,
+          12,
+          12
+        ],
+        11,
+        920
+      ],
+      "required_lower_bound": 4488,
+      "contradiction_in_diagnostic_relaxation": false
+    },
+    {
+      "assumed_support_at_least": 49,
+      "numeric_maximum": [
+        4757,
+        [
+          19,
+          15,
+          12,
+          11
+        ],
+        10,
+        904
+      ],
+      "required_lower_bound": 4488,
+      "contradiction_in_diagnostic_relaxation": false
+    },
+    {
+      "assumed_support_at_least": 50,
+      "numeric_maximum": [
+        4676,
+        [
+          19,
+          15,
+          11,
+          11
+        ],
+        10,
+        882
+      ],
+      "required_lower_bound": 4488,
+      "contradiction_in_diagnostic_relaxation": false
+    },
+    {
+      "assumed_support_at_least": 51,
+      "numeric_maximum": [
+        4568,
+        [
+          19,
+          15,
+          12,
+          10
+        ],
+        9,
+        864
+      ],
+      "required_lower_bound": 4488,
+      "contradiction_in_diagnostic_relaxation": false
+    },
+    {
+      "assumed_support_at_least": 52,
+      "numeric_maximum": [
+        4485,
+        [
+          19,
+          15,
+          11,
+          10
+        ],
+        9,
+        842
+      ],
+      "required_lower_bound": 4488,
+      "contradiction_in_diagnostic_relaxation": true
+    },
+    {
+      "assumed_support_at_least": 53,
+      "numeric_maximum": [
+        4412,
+        [
+          19,
+          15,
+          10,
+          10
+        ],
+        9,
+        822
+      ],
+      "required_lower_bound": 4488,
+      "contradiction_in_diagnostic_relaxation": true
+    },
+    {
+      "assumed_support_at_least": 54,
+      "numeric_maximum": [
+        4316,
+        [
+          19,
+          15,
+          11,
+          9
+        ],
+        8,
+        806
+      ],
+      "required_lower_bound": 4488,
+      "contradiction_in_diagnostic_relaxation": true
+    }
+  ],
+  "followup_note": "A simpler tail bound E*min(d,E+1) gives the same numerical maxima for assumed support\u226552,53,54. This is a future research lead only. It has not been bridged to a Lean family theorem or reviewed; it does not change the released bound53. Do not read the previous budget59 failure as impossibility of52 under all refinements."
+}

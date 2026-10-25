@@ -1,0 +1,73 @@
+{
+  "agent_id": "/root/r67_typeset",
+  "role": "typesetter",
+  "context_id": "/root/r67_typeset",
+  "round": 8,
+  "snapshot_sha256": "cdc2c6372cd2b87201867beb9d986ad0edc1edfe9eab72da3c627e1eb68cffd2",
+  "manuscript_sha256": "a8f164ea1218b704cccd43c618fc2166f5ab636d9c121e7713f7c797d221b2b9",
+  "summary": "The existing notation repairs remain readable and preserve mathematical grouping. Committed Beta guard distinctions and attribution boundaries survive the inspected presentation. No necessary presentation repair was identified; the unchanged preview remains suitable for continuing review.",
+  "evidence_ids": ["preview-r6", "round7-committed"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "TYPESET-R4-PAGINATION",
+      "statement": "The existing outer-deletion introduction/display page split remains a layout preference, not a scientific defect.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Retain the optional keep-together suggestion for final layout.",
+      "evidence_ids": ["preview-r6"]
+    },
+    {
+      "id": "TYPESET-R1-F4",
+      "statement": "This round reinspected existing preview images for pages 4, 8, 9 and 10 after verifying current source identity.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Earlier complete visual coverage remains applicable to the unchanged PDF; final publication, semantic tagging and accessibility approval remain outside scope.",
+      "evidence_ids": ["preview-r6"]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "/root/r67_typeset:round-1:required-revision-1",
+      "action": "Reinspect mathematical displays and extracted notation.",
+      "result": "Grouping and semicolon anchor repairs remain intact.",
+      "status": "resolved"
+    },
+    {
+      "finding_id": "/root/r67_typeset:round-1:required-revision-2",
+      "action": "Inspect prose and bibliography on selected pages.",
+      "result": "Spacing remains readable.",
+      "status": "resolved"
+    },
+    {
+      "finding_id": "/root/r67_typeset:round-1:required-revision-3",
+      "action": "Compare the defined scalar with its page-8 use.",
+      "result": "N[max] remains distinguished from the set and minimum.",
+      "status": "resolved"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Mathematical display semantics",
+      "method": "Compare source, HTML/PDF text and actual page-4/page-8 images.",
+      "observation": "s[i; R] and p[i,j; R] retain their anchor argument. Brackets group cyclic additions, the fibre identity retains subtraction of 68, and the two hub inequalities retain opposing directions. The coefficient expression preserves both endpoint terms inside max. No conventional-subscript conversion is required for comprehension.",
+      "result": "supported",
+      "evidence_ids": ["preview-r6"]
+    },
+    {
+      "scope": "Constructive formulations versus Beta's guard controls",
+      "method": "Read committed Beta round-seven checks; inspect Sections 3.1, 5.2 and 6, with current page-4/page-8 images.",
+      "observation": "Proper traces retain multiplicities while only full four-traces are binary. The support reduction remains conditional on rho <= 6, classification uses exact rho = 7, and rho = 8 is separate. The cap27 positivity argument still precedes occupied-fibre lower bounds. Compressing away these conditions would change meaning; the present presentation retains them. I did not rerun Beta's controls.",
+      "result": "supported",
+      "evidence_ids": ["preview-r6", "round7-committed"]
+    },
+    {
+      "scope": "Cross-reference readability and preview reuse",
+      "method": "Inspect pages 9–10 and bibliography/theorem labels; verify current manuscript, canonical snapshot and preview source/PDF/HTML commitments.",
+      "observation": "All checked commitments match. Theorem labels 1/2 and bibliography labels 1–5 are unique. Named prior works, eight intended URLs and both superseding addendum filenames remain readable. The companion table distinguishes obligations, evidence and conclusions, while its surrounding text retains the ordinary-proof qualification.",
+      "result": "supported",
+      "evidence_ids": ["preview-r6"]
+    }
+  ]
+}

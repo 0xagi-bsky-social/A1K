@@ -1,0 +1,67 @@
+{
+  "agent_id": "/root/r67_chief",
+  "role": "chief",
+  "context_id": "/root/r67_chief",
+  "round": 8,
+  "snapshot_sha256": "cdc2c6372cd2b87201867beb9d986ad0edc1edfe9eab72da3c627e1eb68cffd2",
+  "manuscript_sha256": "a8f164ea1218b704cccd43c618fc2166f5ab636d9c121e7713f7c797d221b2b9",
+  "summary": "Three constructive formulations survive independent checks: count compatible internal completions before imposing a C5 degree cap, treat marked-point projection as refinement of counting classes, and distinguish candidate covers from realizable covers using pair incidences. These safeguards already occur in the inspected sources. No additional manuscript repair is required within this scope.",
+  "evidence_ids": ["degree20", "degree19", "degree16", "round3-committed", "round4-committed", "round7-committed", "external-h27-tree-correction"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "CHIEF-R8-FORMULATIONS",
+      "statement": "The tested formulations explain why the stronger shortcuts challenged by Beta fail while preserving the necessary implications actually used.",
+      "severity": "note",
+      "status": "resolved",
+      "disposition": "Keep the internal-completion subtraction, multiplicity-preserving trace counts and actual-family incidence correction. None can be replaced by an unconditional degree15 cap, binary proper traces or a raw candidate bound10.",
+      "evidence_ids": ["degree20", "degree19", "degree16"]
+    },
+    {
+      "id": "CHIEF-R5-H27",
+      "statement": "The essential H27 historical computation and source-to-run relation remain locally unreconstructed.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "The unchanged source qualification remains necessary; these constructive local checks do not repair that external assurance gap.",
+      "evidence_ids": ["external-h27-tree-correction"]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "/root/r67_chief:round-1:required-revision-1",
+      "action": "Confirmed the unchanged manuscript and its frozen hash.",
+      "result": "The explicit neighbourhood maximum and actual-anchor definitions remain resolved.",
+      "status": "resolved"
+    },
+    {
+      "finding_id": "CHIEF-R1-ASSURANCE",
+      "action": "Performed source inspection and bounded literal reconstructions without importing producer functions.",
+      "result": "These checks cover the specified interfaces and six exceptions, not every model row, the full deletion census or the complete theorem. Shared-builder and partial-Lean limitations persist.",
+      "status": "claim-qualified"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "C5 degree bound with compatible internals counted",
+      "method": "Read C5-internal-compatibility.md and internal-proof.md; reconstructed Beta's complete-C5 cost witness and checked all560 member triples.",
+      "observation": "The lifted family is sunflower-free with degree16 and exactly one compatible internal completion, giving d-G=15. Deleting all G preserves the complete C5; the structural lemma would force another compatible internal if at least16 triples remained. Thus d-G<=15, hence d-I<=15, is justified. Only after internal exclusion does d<=15 follow, matching the staged proof.",
+      "result": "supported",
+      "evidence_ids": ["degree20", "round4-committed"]
+    },
+    {
+      "scope": "Projection as refinement of counting classes",
+      "method": "Read D19-model-bridge.md Section2 and degree19_projection_v5.py build bounds; reconstructed Beta's21-member family and all1330 sunflower tests.",
+      "observation": "The complete19-star plus {0,6,7,100} and {0,6,7,101} is sunflower-free. The core trace067 has multiplicity2; adding the actual marked point100 splits it into one full-four trace and one proper-three trace. Counting is preserved. The implementation assigns upper bounds2 and1 respectively, validating this refinement formulation without restricting other exterior points.",
+      "result": "supported",
+      "evidence_ids": ["degree19", "round7-committed"]
+    },
+    {
+      "scope": "Repairing raw12 cover bounds by actual incidences",
+      "method": "Read D16-I8-deletion-cover-reconstruction.md and independently rebuilt all six exception records from literal components and deletions.",
+      "observation": "Each has zero three-covers, twelve four-covers, one common point and union size7. Thus no exterior completion remains. Removing the common point gives triples on six points, with pair capacity2 inherited from ambient triple codegree: 3m<=30, so m<=10. All twelve eleven-candidate selections in each case also violate a pair cap. The correction bounds realizable families, not raw lists.",
+      "result": "supported",
+      "evidence_ids": ["degree16", "round3-committed"]
+    }
+  ]
+}

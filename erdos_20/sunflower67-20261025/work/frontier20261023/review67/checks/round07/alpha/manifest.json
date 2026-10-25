@@ -1,0 +1,56 @@
+{
+  "agent": "/root/r67_alpha",
+  "round": 7,
+  "heavy_run": {
+    "authorization": "Exclusive central slot for one cycle5 R15 replay with existing negative controls, maximum 30 seconds.",
+    "command": "PYTHONDONTWRITEBYTECODE=1 timeout 30s python3 work/frontier20261023/highdegree/replay_r15_rho6_tree.py work/frontier20261023/highdegree/R15-rho6-cycle5-search.json.gz --output work/frontier20261023/review67/checks/round07/alpha/cycle5-replay.json --negative-controls",
+    "exit_code": 0,
+    "wall_seconds": 0.63249,
+    "timeout_seconds": 30,
+    "slot_released": true,
+    "failure_limits": [
+      "Only cycle5 tree replayed in this round; other two trees not rerun.",
+      "Three supplied corruptions tested; no exhaustive mutation campaign.",
+      "No producer search run.",
+      "Ordinary support reduction remains a separate mathematical premise."
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/replay_r15_rho6_tree.py",
+      "sha256": "020a9c4c6bf3ee0c22771e87fbcf0fe850e87053fd5e87a06879d4d59f99c522"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/R15-rho6-cycle5-search.json.gz",
+      "sha256": "1402bc5def5491f64da287341c471e6bc7db1cef7c42e9df9320171a84377221"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round07/alpha/cycle5-replay.json",
+      "sha256": "0d43fc03afd1f45206907d05c7dfdfc8537cf3f79e01e6ca4327cac7e4e824c5"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round07/alpha/independent-gluing.py",
+      "sha256": "1494935103e6eee6a8f96ab6a3b3aa458f33218bcc18b1ae14dcf99f86a27010"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round07/alpha/independent-gluing.json",
+      "sha256": "362f48bdd5cf2e1806005d90b631d4d2e704404ac22bfbd12d01761685356778"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round07/alpha/stage-ancestry.json",
+      "sha256": "6b4ac9ae8172472fad9481391198ee6d00b8990ba663bb81034f0c9af24131a4"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-complete-plan-v9.json",
+      "sha256": "b2a30c54e4a8f72c3fb161274159a3c3deadd073ef2d72415f5cad9924ebf156"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-complete-plan-v9-replay-index.json",
+      "sha256": "3259d1b8ce852d6f0e28fddaa521e95a3863b1c18c992bf602a6ec76745f1c0e"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-complete-coverage-v9.json",
+      "sha256": "81d019a295700f3a9b144732d05720adf95e040368483f1a9c06b0f74c4d6c31"
+    }
+  ]
+}

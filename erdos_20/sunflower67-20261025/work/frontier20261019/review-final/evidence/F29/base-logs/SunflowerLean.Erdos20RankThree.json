@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20RankThree",
+  "source_sha256": "adaf323385d46fae31cdafbcece025a232fb4e2b8264ea37c0272d1598858d7b",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20RankThree.olean",
+    "SunflowerLean/Erdos20RankThree.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 5.842,
+  "output": "SunflowerLean/Erdos20RankThree.lean:57:6: warning: Try `simp at this` instead of `simpa using this`\n\nNote: This linter can be disabled with `set_option linter.unnecessarySimpa false`\n"
+}

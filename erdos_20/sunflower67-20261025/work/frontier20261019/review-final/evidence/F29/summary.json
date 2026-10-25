@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "assurance": "axiom-audited",
+  "inherited_A1K_modules_rebuilt": 100,
+  "new_modules_rebuilt": 14,
+  "named_roots_audited": 66,
+  "source_manifest_sha256": "a20772968e780ca4a212681bab595f468be51dae715de5dfd9eed1baa6c76a68",
+  "base_summary_sha256": "bcded079ff1220190a0490d9ca31a9b26b95656f70d3e73134f87299d8933e30",
+  "new_closure_summary_sha256": "67aab1c86f5b6740b318234c943e549575b56d4b0c5d6adc394c403a868afb6d",
+  "all_source_hashes_stable": true,
+  "runtime": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)",
+  "actual_dependency_chain": "Pinned A1K sources -> initially empty base-build directory -> initially empty new-closure/build directory -> fail-closed audit of 66 named roots",
+  "remaining_trusted_caches": "Lean and pinned mathlib/third-party package objects; no retained A1K compiled objects used in this composite build",
+  "independence": "Same host and controller; not independently reproduced",
+  "limitation": "Not clean-kernel-replayed: Lean, mathlib, and other package caches were not rebuilt in a clean environment. The child replay summary uses conservative generic inherited-cache wording; this outer record binds its input base to the freshly rebuilt 100 A1K modules."
+}

@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-10-25T13:42:14.639495+00:00",
+  "effective_from_round": 9,
+  "original_contract_sha256": "0362a6d202a179948797b975ff281ec78b23a2bdc0af1f06618fc44559d60396",
+  "change": "Evidence cutoff prospectively extended to 2026-10-25T13:36:25Z following user-requested fresh search. The theorem, mathematical inputs, assurance requirements and reviewer identities are unchanged.",
+  "new_frontier_gate": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/FRONTIER_GATE_REFRESH_20261025.json",
+  "new_frontier_gate_sha256": "079db9c7e07159c16b54b47a76b0cfcf63d59a8050aaaab8b9001506d1316841",
+  "source_changes": [
+    "Search cutoff/coverage/gaps updated.",
+    "PalomarArchive wording narrowed to public archive copy, not registry endorsement.",
+    "H27 source audit timing updated without removing its limitations."
+  ],
+  "not_preregistered": true
+}

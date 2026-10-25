@@ -1,0 +1,64 @@
+{
+  "source_plan": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-Q8-complete-plan-v9.json",
+  "source_plan_unchanged": true,
+  "checker_sha256": "e8553f1726e58d30032294c4e96711a1c3507d4cb381ad532982c1a4003f805b",
+  "cases": [
+    {
+      "name": "baseline",
+      "accepted": true,
+      "status": "PASS_D17_EXPLICIT_STAGE_COVERAGE_EXACT_BOUND",
+      "leaves": 94,
+      "missing_four": 0,
+      "missing_three": 0,
+      "terminal": true,
+      "seconds": 0.39657688299485017
+    },
+    {
+      "name": "omitted_final_mixed_three",
+      "accepted": false,
+      "error": "ValueError: Incomplete stage coverage; use --allow-partial only for an explicitly partial facts report",
+      "seconds": 0.3510475980001502
+    },
+    {
+      "name": "omitted_final_mixed_three_partial",
+      "accepted": true,
+      "status": "PASS_D17_PARTIAL_STAGE_FACTS_ONLY",
+      "leaves": 93,
+      "missing_four": 0,
+      "missing_three": 3,
+      "terminal": false,
+      "seconds": 0.3929661239963025
+    },
+    {
+      "name": "forward_sibling",
+      "accepted": false,
+      "error": "ValueError: Node IDs/antecedents must be distinct and strictly earlier",
+      "seconds": 0.27867215299920645
+    },
+    {
+      "name": "self_dependency",
+      "accepted": false,
+      "error": "ValueError: Node IDs/antecedents must be distinct and strictly earlier",
+      "seconds": 0.04460112299420871
+    },
+    {
+      "name": "target_equality",
+      "accepted": false,
+      "error": "ValueError: Leaf lacks a strict certificate",
+      "seconds": 0.2804864200006705
+    },
+    {
+      "name": "zero_scale",
+      "accepted": false,
+      "error": "ValueError: Leaf lacks a strict certificate",
+      "seconds": 0.29526066400285345
+    },
+    {
+      "name": "proper_trace_from_four_absence",
+      "accepted": false,
+      "error": "ValueError: Node four-E4_56 assumes an unproved forbidden trace 67",
+      "seconds": 0.28433994999795686
+    }
+  ],
+  "scope": "Fresh bounded coverage/adversarial checks only; no model build, coefficient replay, solver or producer import"
+}

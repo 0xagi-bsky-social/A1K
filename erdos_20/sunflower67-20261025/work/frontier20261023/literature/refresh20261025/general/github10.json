@@ -1,0 +1,30 @@
+{
+  "access_date": "2026-10-25",
+  "label": "github10",
+  "tool": "mcp__codex_apps__github_fetch",
+  "args": {
+    "url": "https://api.github.com/repos/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/branches/main"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "content": "{\"name\":\"main\",\"commit\":{\"sha\":\"8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7\",\"node_id\":\"C_kwDOVTNphtoAKDhiNWRjN2JhOWZhOWU2NGZhYWQzOWEwYWI1YmFkZjc0Y2M4OWY4Yjc\",\"commit\":{\"author\":{\"name\":\"Codex\",\"email\":\"codex@localhost\",\"date\":\"2026-10-21T20:19:37Z\"},\"committer\":{\"name\":\"Codex\",\"email\":\"codex@localhost\",\"date\":\"2026-10-21T20:19:37Z\"},\"message\":\"Prepare Erdos-Szemeredi sunflower formalization for Palomar\",\"tree\":{\"sha\":\"45db8aaa3531a844b58afb5a17b49324acc8c80d\",\"url\":\"https://api.github.com/repos/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/git/trees/45db8aaa3531a844b58afb5a17b49324acc8c80d\"},\"url\":\"https://api.github.com/repos/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/git/commits/8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7\",\"comment_count\":0,\"verification\":{\"verified\":false,\"reason\":\"unsigned\",\"signature\":null,\"payload\":null,\"verified_at\":null}},\"url\":\"https://api.github.com/repos/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/commits/8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7\",\"html_url\":\"https://github.com/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/commit/8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7\",\"comments_url\":\"https://api.github.com/repos/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/commits/8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7/comments\",\"author\":null,\"committer\":null,\"parents\":[]},\"_links\":{\"self\":\"https://api.github.com/repos/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/branches/main\",\"html\":\"https://github.com/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/tree/main\"},\"protected\":false,\"protection\":{\"enabled\":false,\"required_status_checks\":{\"enforcement_level\":\"off\",\"contexts\":[],\"checks\":[]}},\"protection_url\":\"https://api.github.com/repos/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/branches/main/protection\"}",
+      "title": "main",
+      "modified_date": null,
+      "url": "https://api.github.com/repos/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/branches/main",
+      "display_url": "https://api.github.com/repos/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/branches/main",
+      "display_title": "main",
+      "structuredContent": {
+        "title": "main",
+        "content": "{\"name\":\"main\",\"commit\":{\"sha\":\"8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7\",\"node_id\":\"C_kwDOVTNphtoAKDhiNWRjN2JhOWZhOWU2NGZhYWQzOWEwYWI1YmFkZjc0Y2M4OWY4Yjc\",\"commit\":{\"author\":{\"name\":\"Codex\",\"email\":\"codex@localhost\",\"date\":\"2026-10-21T20:19:37Z\"},\"committer\":{\"name\":\"Codex\",\"email\":\"codex@localhost\",\"date\":\"2026-10-21T20:19:37Z\"},\"message\":\"Prepare Erdos-Szemeredi sunflower formalization for Palomar\",\"tree\":{\"sha\":\"45db8aaa3531a844b58afb5a17b49324acc8c80d\",\"url\":\"https://api.github.com/repos/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/git/trees/45db8aaa3531a844b58afb5a17b49324acc8c80d\"},\"url\":\"https://api.github.com/repos/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/git/commits/8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7\",\"comment_count\":0,\"verification\":{\"verified\":false,\"reason\":\"unsigned\",\"signature\":null,\"payload\":null,\"verified_at\":null}},\"url\":\"https://api.github.com/repos/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/commits/8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7\",\"html_url\":\"https://github.com/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/commit/8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7\",\"comments_url\":\"https://api.github.com/repos/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/commits/8b5dc7ba9fa9e64faad39a0ab5badf74cc89f8b7/comments\",\"author\":null,\"committer\":null,\"parents\":[]},\"_links\":{\"self\":\"https://api.github.com/repos/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/branches/main\",\"html\":\"https://github.com/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/tree/main\"},\"protected\":false,\"protection\":{\"enabled\":false,\"required_status_checks\":{\"enforcement_level\":\"off\",\"contexts\":[],\"checks\":[]}},\"protection_url\":\"https://api.github.com/repos/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/branches/main/protection\"}",
+        "display_url": "https://api.github.com/repos/PalomarArchive/mbucic4--erdos-szemeredi-sunflowers--2a579c35c2b2/branches/main"
+      }
+    },
+    "isError": false
+  }
+}

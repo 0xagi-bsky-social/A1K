@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20V9HighCompatibilityMain",
+  "source_sha256": "71a92ca064dd4fc786a821165ef8922c690a3fdaa36d2d9f5863215fda84aeff",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20V9HighCompatibilityMain.olean",
+    "SunflowerLean/Erdos20V9HighCompatibilityMain.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 10.645,
+  "output": ""
+}

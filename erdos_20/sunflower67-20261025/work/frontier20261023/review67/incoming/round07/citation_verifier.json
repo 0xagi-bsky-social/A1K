@@ -1,0 +1,53 @@
+{
+  "agent_id": "/root/r67_citations",
+  "role": "citation_verifier",
+  "context_id": "/root/r67_citations",
+  "round": 7,
+  "snapshot_sha256": "27c12126b19a0258f4f2fefc8ee5d528eb5ad1fe7cabf43512ce95a370032455",
+  "manuscript_sha256": "a8f164ea1218b704cccd43c618fc2166f5ab636d9c121e7713f7c797d221b2b9",
+  "summary": "Three skeptical scope checks found no new citation defect. Reconstructed Alpha examples falsify weakened H27 and unguarded size-15 interpretations, while the manuscript retains the necessary hypotheses. Repeated citations, matching hashes and clean axiom lists do not independently establish imported mathematical premises.",
+  "evidence_ids": ["external-scope", "external-h27-tree-correction", "prior-ledger", "direct-jin", "cap15", "rho15", "formal-terminal", "formal-asymmetric", "formal-scalar", "round3-committed", "round5-committed", "round6-committed"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "CV-R7-SHARED-IMPORT",
+      "statement": "The prior paper and local terminal lemmas depend on the same H27 input; their separate appearance is not independent corroboration of its historical computation.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Sections 2 and 7 disclose this dependency and the unresolved provenance limits. Alpha's sensitivity example confirms that replacing 27 by 28 would invalidate a needed inference. These are substantive assurance boundaries, not counterexamples to the asserted theorem.",
+      "evidence_ids": ["prior-ledger", "external-h27-tree-correction", "formal-terminal", "round5-committed"]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "/root/r67_citations:round-5:required-revision-1",
+      "action": "Rechecked the unchanged Section 2 qualification and superseding tree-integrity addendum against committed Alpha scrutiny.",
+      "result": "The wording/preservation requirement remains resolved. Listing completeness and historical-run authentication remain explicitly unestablished; the unexplained mismatch itself is not resolved.",
+      "status": "resolved"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Failure mode: dependent H27 citations mistaken for robust independent support",
+      "method": "Read pinned main.tex lines 104–110 and the corrected source notes; independently enumerated all 256 image supports of Alpha's weighted A3 example.",
+      "observation": "Masses (0,15,13,0,12,0,15,13) yield order 68, triangle-freeness, minimum actual degree 25, independence number 28 and empty fibres 0,3,5. Thus Jin alone does not supply the positive-fibre conclusion. The prior paper explicitly imports Proposition 6.7; Section 6 correctly retains cap 27. Source inspection and multiple references cannot replace that input.",
+      "result": "supported",
+      "evidence_ids": ["external-scope", "prior-ledger", "direct-jin", "round5-committed"]
+    },
+    {
+      "scope": "Failure mode: importing target-16 or unguarded size-15 classification",
+      "method": "Compared pinned main.tex lines 443–462, LOW15-R15-rho7-classification.md and R15-rho6-finite-closure.md; reconstructed Alpha's separated P8 plus translated H7 example and tested every member triple.",
+      "observation": "The example has 15 members, support 13, rho 8 and zero sunflowers. It defeats an unrestricted eleven-point cutoff or universal R16-minus-one classification. Sections 5.2 and 6 instead retain rho at most 6 for the support reduction, exact rho 7 for classification, and a separate rho 8 branch. The fresh exhaustion targets 15; the old R16 result is not substituted.",
+      "result": "supported",
+      "evidence_ids": ["prior-ledger", "cap15", "rho15", "round3-committed"]
+    },
+    {
+      "scope": "Failure mode: axiom-audited interfaces promoted to unconditional extremal proofs",
+      "method": "Read actual Lean declarations and their status notes, including H27 in TerminalSeparation.lean, TerminalAsymmetric.lean lines 179–217 and all five R15ScalarClosure roots.",
+      "observation": "Terminal cardinality theorems take h27 explicitly; the bound 37 also requires an actual transversal-pool bound. Scalar roots take incidence inequalities and equality guards as hypotheses. An axiom report does not discharge these parameters. Sections 6–7 correctly retain ordinary geometric and computational obligations. No compiler or complete proof replay was performed here.",
+      "result": "supported",
+      "evidence_ids": ["formal-terminal", "formal-asymmetric", "formal-scalar", "round6-committed"]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "census_with_I27": [
+    [
+      0,
+      46,
+      15
+    ],
+    [
+      1,
+      44,
+      16
+    ],
+    [
+      2,
+      42,
+      17
+    ],
+    [
+      3,
+      40,
+      18
+    ],
+    [
+      4,
+      38,
+      19
+    ],
+    [
+      5,
+      36,
+      20
+    ],
+    [
+      6,
+      34,
+      21
+    ],
+    [
+      7,
+      32,
+      22
+    ],
+    [
+      8,
+      30,
+      23
+    ],
+    [
+      9,
+      28,
+      24
+    ],
+    [
+      10,
+      26,
+      25
+    ],
+    [
+      11,
+      24,
+      26
+    ],
+    [
+      12,
+      22,
+      27
+    ]
+  ],
+  "census_with_nine_completions": [
+    [
+      9,
+      28,
+      24
+    ],
+    [
+      10,
+      26,
+      25
+    ],
+    [
+      11,
+      24,
+      26
+    ],
+    [
+      12,
+      22,
+      27
+    ]
+  ],
+  "meeting_bounds": {
+    "degree_sum_76": 57,
+    "degree_sum_66": 52
+  },
+  "orientation_min_union": 18,
+  "orientation_max_zero_rows": 12,
+  "residual_trace_pigeonhole": {
+    "R_outside_min": 2,
+    "disjoint_y_star_outside_min": 1,
+    "allowed_total_max": 2
+  }
+}

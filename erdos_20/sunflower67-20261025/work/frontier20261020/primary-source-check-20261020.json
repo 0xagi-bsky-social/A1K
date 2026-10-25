@@ -1,0 +1,50 @@
+{
+  "observed_at_utc": "2026-10-20T08:42:27.717017+00:00",
+  "method": "Actual web.run primary-source searches, opens and finds in root context on 20 October 2026. No external corpus original-authenticity assertion.",
+  "queries": [
+    "\"sunflower\" \"f(4,3)\" 80",
+    "\"sunflower-free\" \"eighty\"",
+    "\"rank-four\" \"sunflower\" \"80\"",
+    "\"sunflower\" \"Axante\" \"Budala\"",
+    "\"sunflower\" \"4-uniform\" \"upper bound\" 2026",
+    "\"f(4, 3)\" \"80\"",
+    "\"sunflower\" \"upper bound\" \"81\"",
+    "\"sunflower-free\" \"twenty\" \"degree\""
+  ],
+  "sources": [
+    {
+      "id": "external-i27-v1",
+      "url": "https://arxiv.org/abs/2609.06175",
+      "fulltext": "https://arxiv.org/html/2609.06175v1",
+      "observed": "Version1 submitted5September2026, five named authors; abstract54≤f(4,3)≤83 and intersecting maximum27; Section6.3 explicit canonical enumeration of28rows; Section8 formalization scope separate.",
+      "status": "read",
+      "content_hash": null,
+      "limitation": "Browser extracted page text; external enumeration not independently rerun or Lean-imported."
+    },
+    {
+      "id": "a1k-public-v13",
+      "url": "https://a1k.ai/agentic-math/rank-four-sunflower-free-families",
+      "observed": "Version13 final local edition dated22September2026; I27→81; I27,notA,notB→80, all3inputs locallyopen.",
+      "status": "read",
+      "content_hash": null
+    },
+    {
+      "id": "a1k-public-repository",
+      "url": "https://github.com/0xagi-bsky-social/A1K",
+      "observed": "Public README explicitly says80 followsfrom3inputs, stillopenlocally. Code provenance fixed separately by local pinnedsource.",
+      "status": "read",
+      "content_hash": null
+    },
+    {
+      "id": "proof-tracking-lead",
+      "url": "https://www.proofatlas.ai/collaboration/erdos-rado-sunflower-conjecture/",
+      "observed": "Opened and rank-four searched; returned discussion conditionalall-rank mechanisms, noverified equalorstronger unconditionalrank-four numericalbound.",
+      "status": "limited",
+      "content_hash": null,
+      "limitation": "Large trackingpage notexhaustivelyscreened; not used as theorem evidence."
+    }
+  ],
+  "screening": "Nonmathematical sunfloweragriculturehits, mirrors, socialposts and unrelated prescribed-core extremalhypergraph results notused. Only primarysources substantiate numericalcomparison.",
+  "negative_result": "No additional eligibleprimarysource proving unrestricted80orbetter was verified in boundedsearch. This doesnotestablish exhaustiveabsence or globalpriority.",
+  "execution_reference": "Actual root web.run search/open/find calls in this conversation on2026-10-20; localledger not a signedbrowsercapture."
+}

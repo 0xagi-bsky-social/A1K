@@ -1,0 +1,145 @@
+{
+  "access_date": "2026-10-25",
+  "files": [
+    {
+      "path": "assessment.json",
+      "bytes": 12499,
+      "sha256": "b6b7374c54be05989f7006be40434f838ec6981561ed9a25f0a679951959f3e1"
+    },
+    {
+      "path": "github01.json",
+      "bytes": 31384,
+      "sha256": "90db8cf933e093b78007ee80a2ce571cf195d0a91d63e707046367e849a8d360"
+    },
+    {
+      "path": "github02.json",
+      "bytes": 45640,
+      "sha256": "c85b39624d5bf1c4917a4f65a8825f3ee6ad85f1a96767a2ba865cf7904ba84f"
+    },
+    {
+      "path": "github03.json",
+      "bytes": 32872,
+      "sha256": "6923e67bbb640581604db768c7f7a1eb3cc286f7dc4d3edfc5b9f41308c96943"
+    },
+    {
+      "path": "github04.json",
+      "bytes": 40252,
+      "sha256": "b450287b4d3db2555289f5f2460998895bc584b0816096472f63fff9fa13a8db"
+    },
+    {
+      "path": "github05.json",
+      "bytes": 983738,
+      "sha256": "beb52a48c9e19c4422f05c9926adef689d962473bcb207116178c8d70d0c5bfe"
+    },
+    {
+      "path": "github06.json",
+      "bytes": 43171,
+      "sha256": "3d7d556ad3c24c704ff00171138fd9cc7b065635b4fe759f1991eab63c455098"
+    },
+    {
+      "path": "github07.json",
+      "bytes": 7114,
+      "sha256": "1b6a3f02a5d78256e9bb24c9d1fd847b790f22d6ed191a5331aa7d95847b464c"
+    },
+    {
+      "path": "github08.json",
+      "bytes": 18012,
+      "sha256": "5cb904f873611b8243971a34556d44559e164ef9094536e54e888267721d4e24"
+    },
+    {
+      "path": "github09.json",
+      "bytes": 3331,
+      "sha256": "8dd3e0d5a02645ddc01fffa245588f101c7efdb913d82b4100acf52d3d0f6560"
+    },
+    {
+      "path": "github10.json",
+      "bytes": 5046,
+      "sha256": "b1a67c71c6358bd6500a8d71543ffd8a1903ae35435c19a7595efa02caa8cfb3"
+    },
+    {
+      "path": "github11.json",
+      "bytes": 2236,
+      "sha256": "562adb516e359bd2c43dd6d7d965b0db73a7961a6ffad8e5806c0022a2e73668"
+    },
+    {
+      "path": "github12.json",
+      "bytes": 406,
+      "sha256": "8edc208a46f98274e2715e87009bfb55f104162e5859cf8f82e426ed3b7b956d"
+    },
+    {
+      "path": "open01.json",
+      "bytes": 25837,
+      "sha256": "a6f6e58f82c4dd1ca7b6579a600f79a5781d22964232d725f72063d33af739c5"
+    },
+    {
+      "path": "open02.json",
+      "bytes": 25630,
+      "sha256": "46f1f9231d2146343053254706c44655cdad47009f7bc601063450013ef89be0"
+    },
+    {
+      "path": "open03.json",
+      "bytes": 26341,
+      "sha256": "65eaae4f1a12b092b4be5e240fdd50709f43cdb9cb3a59ef733614931c2cf68b"
+    },
+    {
+      "path": "open04.json",
+      "bytes": 25739,
+      "sha256": "ff4fcccce39bf43dafd6b9dd254e07c9026f37bef98ac3408c06a2b32a1d6f93"
+    },
+    {
+      "path": "open05.json",
+      "bytes": 27026,
+      "sha256": "0699ccdf5761eac991a0af561b46096fea7268f5f829ec3d19ab0b94ded2c38f"
+    },
+    {
+      "path": "open06.json",
+      "bytes": 19695,
+      "sha256": "662a287de4269cc3bd29e6efe833b7393b68f425869ac3f41986317483843fd0"
+    },
+    {
+      "path": "open07.json",
+      "bytes": 27646,
+      "sha256": "bb4fa6dd467e35b9b7d32d129ab681aa45c0f2de83e4da1930c856a6b0c42c38"
+    },
+    {
+      "path": "open08.json",
+      "bytes": 26794,
+      "sha256": "bfae3fd669898ad97b0460c22270154f84a46df0c8be40f6994b913094685c48"
+    },
+    {
+      "path": "open09.json",
+      "bytes": 24331,
+      "sha256": "6b2f7d4666bdd79283cffc2a87a5dfedabbe3e2f6ca70827bac1fb7f81a3f446"
+    },
+    {
+      "path": "open10.json",
+      "bytes": 23868,
+      "sha256": "18f1c549537dba55b5e96976c8e756a7a449201d89749cf23ecd13d789e09720"
+    },
+    {
+      "path": "search01.json",
+      "bytes": 30012,
+      "sha256": "c3aeda774c00240019f02d66e490c30921d4f8766deeb6b86b2bf7b9a0a27684"
+    },
+    {
+      "path": "search02.json",
+      "bytes": 28735,
+      "sha256": "cc171f7f14529d01b2e0e78ec89b2758af198816b6642e5b000b4632fc10d510"
+    },
+    {
+      "path": "search03.json",
+      "bytes": 32088,
+      "sha256": "55ecf26ab66b97898e04d7f2addab2b8017d49720f3ddd35b7f218d5e2ca41b5"
+    },
+    {
+      "path": "search04.json",
+      "bytes": 31361,
+      "sha256": "f34d7eef1dfcbeebc878411ae86b17dc7bf9aec207b0a1e7148dfe41edf1cd87"
+    },
+    {
+      "path": "search05.json",
+      "bytes": 29150,
+      "sha256": "c8c9bb8c23558338f1387a07047433fed5672d8a9ffd0b6d77eb0611d331e1a7"
+    }
+  ]
+}

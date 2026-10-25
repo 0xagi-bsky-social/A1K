@@ -1,0 +1,9 @@
+Finset.map_inter.{u_1, u_2} {α : Type u_1} {β : Type u_2} [DecidableEq α] [DecidableEq β] {f : α ↪ β}
+  (s₁ s₂ : Finset α) : Finset.map f (s₁ ∩ s₂) = Finset.map f s₁ ∩ Finset.map f s₂
+Finset.card_map.{u_1, u_2} {α : Type u_1} {β : Type u_2} {s : Finset α} (f : α ↪ β) : (Finset.map f s).card = s.card
+Finset.map_injective.{u_1, u_2} {α : Type u_1} {β : Type u_2} (f : α ↪ β) : Function.Injective (Finset.map f)
+Finset.mem_map.{u_1, u_2} {α : Type u_1} {β : Type u_2} {f : α ↪ β} {s : Finset α} {b : β} :
+  b ∈ Finset.map f s ↔ ∃ a ∈ s, f a = b
+Finset.eq_of_subset_of_card_le.{u_1} {α : Type u_1} {s t : Finset α} (h : s ⊆ t) (h₂ : t.card ≤ s.card) : s = t
+Erdos20FiniteReduction.mapFamily.{u, v} {α : Type u} {β : Type v} (e : α ↪ β) (family : Finset (Finset α)) :
+  Finset (Finset β)

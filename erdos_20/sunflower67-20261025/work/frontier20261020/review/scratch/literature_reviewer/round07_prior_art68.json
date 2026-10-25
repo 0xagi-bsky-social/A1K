@@ -1,0 +1,27 @@
+{
+  "observed_at": "2026-10-20T09:46:24.852631+00:00",
+  "discovery_queries": [
+    "\"sunflower-free\" \"80\" \"four\"",
+    "\"sunflower\" \"f(4,3)\" \"bound\"",
+    "\"sunflower\" \"eighty\" \"upper\""
+  ],
+  "lead": "https://vibemathed.com/problem/maximum-size-of-a-three-sunflower-free-family-of-four-element-sets",
+  "primary_record": "https://aixiv.online/abs/2610.01292",
+  "primary_html": "https://aixiv.online/html/2610.01292v1",
+  "primary_pdf": "https://aixiv.online/pdf/2610.01292v1",
+  "repository": "https://github.com/aconsciousfractal/Four-Uniform-Three-Sunflower-Bound",
+  "pin_reported_by_primary_record": "90c03c79bcf44eb8f61dff1b86091b822cc4cd3c",
+  "title": "An upper bound for three-sunflower-free families of four-element sets",
+  "author": "Oleksiy Babanskyy",
+  "submission": "2026-10-09T10:55:39Z",
+  "directly_observed": "Theorem 1.1 claims exclusion of 69 and upper bound68 under imported H27 and stated classification/finite-exclusion lemmas. Definitions are finite simple four-uniform families, empty cores included; M is maximum cardinality. The primary record discloses author-side computation/AI review, no independent specialist endorsement or end-to-end formal verification.",
+  "actual_coverage": "Read primary record, HTML through relevant theorem/definitions and proof architecture, repository README; opened PDF metadata/text. Did not rerun 42 computational suites, verify full written proof, or certify theorem. Pinned tree and raw README fetch failed; repository root did open.",
+  "tool_references": [
+    "web.run turn46search0",
+    "web.run turn49view0",
+    "web.run turn49view1",
+    "web.run turn50view0",
+    "web.run turn50view1"
+  ],
+  "assurance": "Unsigned local note of actual browser retrieval; not source authentication or a theorem certificate"
+}

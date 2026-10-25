@@ -1,0 +1,132 @@
+[
+  {
+    "findings": {},
+    "limitation": "Lexical source preflight only; no elaboration or axiom closure was checked.",
+    "project": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/openai_inventory/repo/lean",
+    "protected_modules": 1,
+    "protected_tree_sha256": "c4b4be16a0d617a285985652eaaf35570ab73b7573fb5838136c70fc46652773",
+    "requested_roots": [
+      "OAI.Computability.DepthThree.Sunflower"
+    ],
+    "schema": "supermath-lean-trust-preflight/1.0",
+    "status": "pass",
+    "observed_exit_code": 0
+  },
+  {
+    "findings": {},
+    "limitation": "Lexical source preflight only; no elaboration or axiom closure was checked.",
+    "project": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/openai_inventory/repo/lean",
+    "protected_modules": 47,
+    "protected_tree_sha256": "61a15ad1175a6a1862ccfd6ab321f64e3b97cead7a1e597266a98e92e84640c2",
+    "requested_roots": [
+      "OAI.Combinatorics.ExpectationThreshold.Main"
+    ],
+    "schema": "supermath-lean-trust-preflight/1.0",
+    "status": "pass",
+    "observed_exit_code": 0
+  },
+  {
+    "findings": {},
+    "limitation": "Lexical source preflight only; no elaboration or axiom closure was checked.",
+    "project": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/openai_inventory/repo/lean",
+    "protected_modules": 36,
+    "protected_tree_sha256": "6b2808c8d27f2904414568deea6310d3d6579148a815a741bfe33cce166d6b1d",
+    "requested_roots": [
+      "OAI.Combinatorics.DiscreteConvexity.Main"
+    ],
+    "schema": "supermath-lean-trust-preflight/1.0",
+    "status": "pass",
+    "observed_exit_code": 0
+  },
+  {
+    "findings": {},
+    "limitation": "Lexical source preflight only; no elaboration or axiom closure was checked.",
+    "project": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/openai_inventory/repo/lean",
+    "protected_modules": 31,
+    "protected_tree_sha256": "e02ea19cc0054346693624545d8c7ff4293ca560c4e7deeed4c102d52e21d3d5",
+    "requested_roots": [
+      "OAI.Combinatorics.CliqueFree.Main"
+    ],
+    "schema": "supermath-lean-trust-preflight/1.0",
+    "status": "pass",
+    "observed_exit_code": 0
+  },
+  {
+    "findings": {},
+    "limitation": "Lexical source preflight only; no elaboration or axiom closure was checked.",
+    "project": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/openai_inventory/repo/lean",
+    "protected_modules": 78,
+    "protected_tree_sha256": "f31044c0da8172d28ff485e696d4a6eea00bf5ac30ba935d558922883e4277c3",
+    "requested_roots": [
+      "OAI.Combinatorics.SharpThreshold.Main"
+    ],
+    "schema": "supermath-lean-trust-preflight/1.0",
+    "status": "pass",
+    "observed_exit_code": 0
+  },
+  {
+    "findings": {},
+    "limitation": "Lexical source preflight only; no elaboration or axiom closure was checked.",
+    "project": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/openai_inventory/repo/lean",
+    "protected_modules": 698,
+    "protected_tree_sha256": "ab06944cec4efb83b71a3dc380fe2eff5379212069cac8bfd34a244ca3f68ee3",
+    "requested_roots": [
+      "OAI.Combinatorics.BalancedRyser.Main"
+    ],
+    "schema": "supermath-lean-trust-preflight/1.0",
+    "status": "pass",
+    "observed_exit_code": 0
+  },
+  {
+    "findings": {},
+    "limitation": "Lexical source preflight only; no elaboration or axiom closure was checked.",
+    "project": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/openai_inventory/repo/lean",
+    "protected_modules": 217,
+    "protected_tree_sha256": "610f53fbf533a0cac0f9936d589fb0ac0e42bb47a428cd5b78dbadd2d70691f1",
+    "requested_roots": [
+      "OAI.Combinatorics.Ryser.Construction.Main"
+    ],
+    "schema": "supermath-lean-trust-preflight/1.0",
+    "status": "pass",
+    "observed_exit_code": 0
+  },
+  {
+    "findings": {},
+    "limitation": "Lexical source preflight only; no elaboration or axiom closure was checked.",
+    "project": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/openai_inventory/repo/lean",
+    "protected_modules": 219,
+    "protected_tree_sha256": "032b9f71038381222739c8a326b141d1f85da13de6797ffdbf884586ab1cdabf",
+    "requested_roots": [
+      "OAI.Combinatorics.Ryser.OddExtensions"
+    ],
+    "schema": "supermath-lean-trust-preflight/1.0",
+    "status": "pass",
+    "observed_exit_code": 0
+  },
+  {
+    "findings": {},
+    "limitation": "Lexical source preflight only; no elaboration or axiom closure was checked.",
+    "project": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/openai_inventory/repo/lean",
+    "protected_modules": 18,
+    "protected_tree_sha256": "bc1c6bcbe559bd9a669ef54a60bf91462e5f4ceeef4c8f6490b0da21d41d9097",
+    "requested_roots": [
+      "OAI.Combinatorics.PerfectMatching.Main"
+    ],
+    "schema": "supermath-lean-trust-preflight/1.0",
+    "status": "pass",
+    "observed_exit_code": 0
+  },
+  {
+    "findings": {},
+    "limitation": "Lexical source preflight only; no elaboration or axiom closure was checked.",
+    "project": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/openai_inventory/repo/lean",
+    "protected_modules": 51,
+    "protected_tree_sha256": "142bb3deb69a4ca79625d41759de554df608ae93b6c32349bafdc7080bcaee02",
+    "requested_roots": [
+      "OAI.Combinatorics.SnakyCertificate.Main"
+    ],
+    "schema": "supermath-lean-trust-preflight/1.0",
+    "status": "pass",
+    "observed_exit_code": 0
+  }
+]

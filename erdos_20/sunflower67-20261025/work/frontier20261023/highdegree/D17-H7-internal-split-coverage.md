@@ -1,0 +1,15 @@
+# H7 internal-Z coverage through the equality split
+
+23 October 2026. This is an ordinary internal-stage assembly, conditional on the previously documented family-to-model and structural imports. It proves neither exterior coverage nor whole H7 closure.
+
+`check_d17_h7_internal_split.py` consumes one explicit `d17-h7-internal-split-plan-v1` plan with three parts: an `earlier_plan` path/hash for the generic stage checker, an `equality_receipt` path/hash, and exactly two branch entries labelled by triangle vertices0 and13. Each branch entry names the active phase-one receipt and exact replay with their hashes. No file is selected by latest timestamp, a glob or a numerical diagnostic.
+
+The generic checker must bind exactly the seventeen internal-Z cases other than IZ13, with genuine earlier-node antecedents for later-stage forbidden traces. All seventeen require completed strict exact replays. Their reconstructed absent four-sets must be precisely all fifteen Y internals and the33 Z internals outside IZ13={6528,6784}. Missing or unproved antecedents cause this checker to fail; successful numerical diagnostics alone do not suffice.
+
+The equality checker is imported only after its source hash is verified. It reconstructs the literal fifteen-row inequality on1,093 traces, compares its result with the saved equality receipt, and supplies the tight exact-pair count and two-vertex covering argument from `D17-H7-equality-extra-members.md`. The seventeen earlier exclusions discharge its entire Z-absence premise, while the separately bound twelve P10 component replays discharge Y-emptiness.
+
+For t=0 and13 the checker binds the distinct extra-member pairs, precise represented support, original status2 input, v5 source and phase-one producer, all proof dependencies and the existing exact replay. It verifies zero objective, negative integer gap, unchanged premises, and the replayer's independent full actual-family geometry, trace boxes,520 fixed-anchor rows, triangle rows and B4/pruning evidence. These two leaves impose only the actual members forced by equality, with exactly the original33 forbidden Z internals; they do not assume a complete internal assignment.
+
+Every actual IZ13 member can first be relabelled to its canonical representative under the literal root-component automorphism group. The absent-orbit antecedents are invariant. Equality forces one of the two extra-member branches, each contradicted by its exact zero-objective certificate. Thus IZ13 is absent as well, completing all35 Z-internal four-set exclusions. The output may then serve as an explicit ordinary proof of Z-emptiness for later H7 exterior stages. A later full-stage adapter must bind this output as a premise; this checker does not silently insert it into the frozen generic validator.
+
+The checker performs only finite literal geometry, metadata/hash checks and binding of previously completed exact replays. It imports no numerical producer, builds no LP and performs no new exact LP replay. Its successful status remains conditional on the ordinary universal theorems recorded by the underlying sources.

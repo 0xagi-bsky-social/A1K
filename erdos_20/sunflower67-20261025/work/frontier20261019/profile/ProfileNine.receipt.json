@@ -1,0 +1,15 @@
+{
+  "source": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/profile/ProfileNine.lean",
+  "source_sha256": "244df780c3eb8c9b8e09991c8c7e6d16f3b346776121a0362f5d647586a01e30",
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/profile/ProfileNine.olean",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/profile/ProfileNine.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 78.35004658007529,
+  "output": "'FrontierNine.nine_trace_ledger' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierNine.nine_member_ordered_ledger' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "assurance": "elaborated",
+  "limitation": "uses hash-matched retained project objects and pinned dependency cache"
+}

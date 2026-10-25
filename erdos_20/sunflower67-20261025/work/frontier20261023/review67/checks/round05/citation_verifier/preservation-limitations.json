@@ -1,0 +1,14 @@
+{
+  "kind": "preservation_limitation_record",
+  "agent_id": "/root/r67_citations",
+  "network_refetch_performed": false,
+  "review_vote_changed": false,
+  "original_fresh_nonrecursive_response_available": false,
+  "original_transient_code_available": false,
+  "transient_storage_key_checked": "r5H27RootTreeFresh",
+  "transient_storage_check_result": "undefined after context transition",
+  "recorded_fetch_url": "https://api.github.com/repos/bogdan27182/sunflower-paper/git/trees/d4d5723267c662291efdadfa6e7061d919e76fa9",
+  "prior_review_record": "round05-review.original.json",
+  "prior_review_observation": "A fresh nonrecursive connector fetch returned the same seven root entries and declared identifier as the saved recursive response.",
+  "qualification": "The prior review observation is preserved as a report of the earlier check, not as an exact copy of the unavailable response. No response has been recreated or represented as original. reconstruct_tree.py is a newly written preservation replay of the recorded algorithm."
+}

@@ -1,0 +1,2 @@
+{"phase": "built", "kind": "P10-H7", "case": "IZ13", "columns": 29060, "rows": 1375, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 4211, 3316, 1643, 2726, 6861, 3625, 3625], "seconds": 2.787318246000723}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H7-IZ13-internal-Z-stage2-v4-9ff2bf3fd06c.json", "status": 0, "upper": 51.0, "below51": false, "seconds": 3.603651035000439}

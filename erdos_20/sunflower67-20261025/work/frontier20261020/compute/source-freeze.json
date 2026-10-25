@@ -1,0 +1,18 @@
+{
+  "status": "frozen-after-axiom-audit",
+  "utc": "2026-10-20T08:36:03.591703+00:00",
+  "source_files_sha256": {
+    "ProfileABridge.lean": "00c8db66745e105935220baef81b2dba56f6db02a5b7fc0138af616075fd0798",
+    "ProfileABridgeAudit.lean": "f5bf7e2036647b142121f3223a668f2c7b8eabcdf03963f9f693b17de929592c",
+    "ProfileAFibers.lean": "54ad59bbc7be1592f010e33a23ae6401eab24373b0f2ed9f063d2840b600fb63",
+    "ProfileAFibersAudit.lean": "64ec1c607829f2189324e8ea8adbbe8e75e3e7dd6c1afc1b70ac5ed9b7ca1a6e",
+    "TwoHighEighty.lean": "0842a95492d645ec73ee672c84058886c8902968a87c1768f947b07d87f815ac",
+    "TwoHighEightyAudit.lean": "37347ee84383e29f3029bed553db1bc8c3b46ea02a41e2dacbbcc23ee671cc15",
+    "TwoStarBridge.lean": "aa0a1d6ace1745e5401cd9b0bcffad21c069e5929b5e8c306e6e78778f08332e",
+    "TwoStarResidual.lean": "8016530b42925df04226355cff4ecaa562cd0398d46a030574171bd3e44fb1d0",
+    "TwoStarResidualAudit.lean": "5201bee026cf531e603a220e7c32424311bd454be5ab69bec6c61e748423e915"
+  },
+  "assurance": "axiom-audited",
+  "literal_root": "FrontierTwoHighEighty.independent_twenty_stars_card_le_eighty",
+  "limitations": "Same evaluator and pinned dependency caches; no independent replay or originality certification."
+}

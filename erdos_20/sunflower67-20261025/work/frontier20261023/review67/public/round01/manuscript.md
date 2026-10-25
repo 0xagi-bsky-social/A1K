@@ -1,0 +1,207 @@
+# An upper bound for four-uniform three-sunflower-free families
+
+## Abstract
+
+We give an ordinary computer-assisted proof that a finite simple four-uniform family with no three-sunflower has at most67 members. The forbidden configurations include the empty core. Thus the maximum-size parameter satisfies54≤M(4,3)≤67, improving the directly comparable upper68 in the strongest primary preprint located by our24October2026 literature search. The known lower54 is unchanged. The proof works at neighbourhood lower bound41 and excludes every possible maximum point degree. Its new low-degree ingredient is an arbitrary-support theorem: every sunflower-free family of fifteen triples has a member disjoint from at least seven other members. The high-degree cases use ordinary structural arguments, exact integer certificates and explicit acyclic marker coverage. The low-degree cases use deletion-cover and graph-fibre reductions with separately implemented finite reconstructions. The result imports the established intersecting bound27, Jin's graph theorem, and specified prior structural results. It is not an end-to-end Lean proof. The general Erdős–Rado sunflower conjecture remains outside the claim.
+
+## 1. Introduction and statement
+
+A three-sunflower consists of three distinct sets A,B,C for which A∩B=A∩C=B∩C; their common intersection may be empty. A family is simple when it has no repeated member. In this manuscript all main-theorem members have exactly four elements. The ambient ground set is arbitrary; only the finite family's used support matters.
+
+Let M(4,3) denote the maximum number of members in such a sunflower-free family. This is the maximum-size convention, rather than the first cardinality forcing a sunflower.
+
+**Theorem1.** Every finite simple four-uniform family of at least68 members contains a three-sunflower. Consequently M(4,3)≤67.
+
+The assertion is an ordinary computer-assisted mathematical result. Its proof uses cited prior theorems in the usual mathematical sense and explicit finite predicates whose evidence is supplied in the companion. No unproved new maximum-degree, neighbourhood, singleton, support or terminal hypothesis is assumed. The distinction between theorem imports, written bridges and executable checks is maintained throughout.
+
+The numerical improvement is specific to rank four and three petals. It does not prove a fixed-base all-rank Erdős–Rado bound, and it does not supersede the separate ground-set theorem of Bucić, He and Lee. “Strongest located comparable bound” describes the bounded source search, not a certificate of exhaustive global originality.
+
+The earlier A1K finite-support reductions for28-member intersecting families, including capacities56 and53, were formal-reduction results rather than unconditional extremal improvements. The present route instead works directly with a hypothetical68-member family, incorporating the structural and computational foundations of the October9 preprint.
+
+## 2. Prior work and source scope
+
+Axante, Budala, Chitic, Dumitru and Nacu [1, Proposition6.7] prove that an intersecting simple four-uniform three-sunflower-free family has at most27 members; Proposition6.8 attains27. We call its upper statement H27. Their unrestricted-support reduction precedes canonical augmentation. Their companion describes the large H27 computation as an exhaustive-search ledger, rather than a compact proof certificate. We have inspected the precise primary theorem and conventions but have not locally replayed that entire ledger. H27 is an imported computer-assisted theorem, not a new hypothesis or a locally kernel-proved fact. Their unrestricted-family bound is54≤M(4,3)≤83.
+
+Babanskyy's October9 preprint [2] reports54≤M(4,3)≤68 with ordinary arbitrary-support arguments and42 finite verification suites. We use its universal small-rank classifications, isolation, B4 and complete high-link structure, together with its correctly guarded cross-star, crowding, minimum-degree and R61 results. The source repository is pinned to commit90c03c79bcf44eb8f61dff1b86091b822cc4cd3c. Its old size69 and neighbourhood42 exclusions are not transferred to size68. Six prior suites were replayed normally and with Python optimization; the four finite packages required by the current route are r16, cross15, crowding and cap61, all among those six. We do not claim a complete replay of all42 suites.
+
+Jin's theorem [3], in the exact form of Theorem A in Nikiforov [4], states that for1≤k≤9 a triangle-free graph of order n and minimum degree strictly greater than(k+1)n/(3k+2) is homomorphic to the Andrásfai graph A_k. We verify strictness in every use. The exact theorem was checked through Nikiforov's primary scholarly restatement; the original publisher record was confirmed, but original full-text access was unavailable.
+
+Bucić, He and Lee's October19 preprint [5] establishes the ground-set Erdős–Szemerédi statement for all k≥3. That problem is distinct from the present fixed-rank numerical extremum. The October24 refresh also located their public Lean project and a Palomar registry entry. We have not performed a local build or transitive axiom audit of that project, so its reported formalization status is attributed to the accessible source records.
+
+The search cutoff was24October2026,07:57:31UTC. Fresh queries covered arXiv, aiXiv, ECCC, HAL, Zenodo, OSF, Preprints.org, Research Square, SSRN, viXra/rxiv, TechRxiv, MathOA and GitHub through available indexed searches and primary-record opens. Such coverage is not a native exhaustive enumeration of every archive. No comparable upper67 primary result was located. Inaccessible pages, unindexed work, unpublished work and subsequent postings remain outside that negative observation. The query and retrieval logs are retained in the companion.
+
+## 3. Definitions, imported structure and proof methods
+
+Write SF_r for a simple r-uniform family without a three-sunflower, including an empty core. For a point x let d(x) be its degree, and let L_x={A\{x}:A∈F,x∈A} be its complete link. A point degree in L_x is a codegree in F; it must not be confused with a global point degree. Write Δ for the maximum used-point degree. For an actual member R define the closed meeting neighbourhood N[R]={A∈F:A∩R≠∅}, and let μ=min_R|N[R]|.
+
+If two members disjoint from R were themselves disjoint, they and R would form an empty-core sunflower. Thus that disjoint subfamily is intersecting and H27 gives |N[R]|≥|F|−27. For a hypothetical68-member family, μ≥41. The disjointness graph has the members of F as vertices. It is triangle-free, and every independent set is an intersecting subfamily of size at most27.
+
+The universal SF3 bound20 yields Δ≤20. The corresponding pair and triple codegrees are at most6 and2. The small-rank structure used below is explicit: intersecting SF3 families have at most10 members; I10 is the canonical P10 on six points, I9 is P9 obtained by deleting one block, and I8 is P8 obtained by deleting two blocks or Q8. The P8 deletion types are distinguished by whether the omitted blocks intersect in one or two points. Q8 consists of h+e and k+e for the three edges e of a triad, together with the two triples hka,hkb. Its five-point core is isolated by the prior theorem, while its leaves may overlap other components where permitted.
+
+The prior B4 lemma says that an exact singleton class of size at least8 makes the complementary near part of the corresponding complete point-link intersecting. The R16 theorem concerns size16 links with maximum disjoint count at most7; it is not a classification of every size16 link. Its maximality and the large-link theorem give the separated complete links at degrees17–20. At degree17 these are P10+I7 or P9+I8. The universal I7 classification has an ordinary arbitrary-support reduction followed by a finite six-point enumeration and one seven-point type.
+
+The cross-star bound15, crowding bound26, minimum used degree7 and complete-R16 total bound61 are imported only after Δ≤18 and μ≥41 hold. The cross-star lemma also requires both distinct centres to lie outside both actual tail supports. In Q8 applications only the stated core isolation is used; no generic whole-support isolation or two-point avoidance is assumed.
+
+### 3.1 Exact trace projections
+
+Fix an actual complete root star and a displayed finite core C. For each represented trace U of size at most4, n_U counts all root-avoiding members whose exact intersection with the represented points is U. Proper traces retain arbitrary multiplicities of exterior completions. Only full four-point traces are binary. For a marked mixed triple its one actual exterior point is represented; all other exterior points remain unrestricted. A represented core is not an ambient-support cutoff.
+
+Every actual family maps to a feasible integral point of the necessary model. Local selector variables choose its actual integer signature at each anchor. The geometric family-to-model maps, offsets, degree capacities, complete-point-link filters and all versioned strengthening rows have separate written proofs. A certificate alone cannot replace this implication.
+
+Numerical linear optimization only proposes multipliers. If Az≤b, Ez=f and l_j≤z_j≤u_j, choose nonnegative integer weights y, signed integer weights e and positive scale D. Put q=Aᵀy+Eᵀe and H=y·b+e·f. Then
+
+    D c·z ≤ H + Σ_j max(l_j(Dc_j−q_j),u_j(Dc_j−q_j)).
+
+Every column, including every selector, is included. The replay checks this expression with exact integers and requires a strict comparison with the residual target times D. An infeasibility certificate instead bounds the zero objective by a negative number. A solver status, a rounded optimum, or equality with the target is not an exclusion.
+
+The coefficient replay rebuilds through the frozen matching producer; this is shared-builder verification. Independent literal orbit and ancestry checking is a separate implementation. The low-degree cover, fibre and search-tree checks additionally have separately written reconstructions. Neither category is described as Lean kernel verification.
+
+### 3.2 Complete staged coverage
+
+Actual markers are reduced by the full automorphism group of the classified root components. Relabelling the entire unknown family to a marker representative does not assume that family is symmetric. Every absence fact propagated to later nodes is a complete orbit. A node may use only listed earlier facts; two sibling exclusions cannot assume each other. An absent four-set does not imply absence of a proper trace. Mixed-three exclusions cover every exterior completion after relabelling its actual exterior point.
+
+The saved plans explicitly bind sources, receipts, exact replays and predecessor lists. A separate literal checker reconstructs the complete marker domains and tests the ancestry. Corruption controls reject missing coverage, a self-dependency and a changed replay commitment. These finite controls are evidence about those tested failure modes, not a proof of universal software correctness.
+
+## 4. Excluding maximum degrees20 through17
+
+It suffices to exclude exactly68 members, by hereditary restriction. The following reductions apply to that same family. When a larger-family branch is used, any restriction retaining a designated complete star must keep all its members; minimum positive degree is recomputed and is not inherited through arbitrary deletion.
+
+### 4.1 Degree20
+
+The complete link is P10+P10. The ordinary internal-completion inequality retains the required resource cost. Its finite coefficient cover gives5r+3≤241 in a hypothetical internal case, hence r≤47 against r=48. With internals excluded, six exterior marker certificates have strict upper bounds below48 and complete literal coverage. The surviving geometry yields12r≤20·27 by removal of the mixed-pair classes and H27, again contradicting r=48. No degree18-guarded result is used to establish this first step.
+
+### 4.2 Degree19
+
+The complete link is P10+P9. The active chain contains43 exact certificates and independent literal coverage. It first removes the P9 internal cases, then the P10 internal cases and exterior markers. A singleton case attaining the relaxed value49 is resolved by an ordinary equality argument synchronizing two P10 copies and obtaining a total bound56. It is not rounded down. The resulting49-member residual family is intersecting, contradicting H27. Thus Δ≤18, and the guarded prior package now becomes applicable.
+
+### 4.3 Degree18
+
+The complete link is P9+P9 or P10+I8. The active169 leaves consist of12 P10 internal certificates,34 P9+P9 certificates, and123 P10+I8 marker certificates. Every active leaf passed exact integer replay; the marker chains have independent literal orbit/stage coverage. The P10+I8 cases include both P8 types and Q8, with the Q8 internal and exterior refinements ordered acyclically. The ordinary terminal residual bounds are38 and37, both below the required50. Thus Δ≤17.
+
+### 4.4 Degree17 with P10
+
+First12 exact nonempty internal-assignment orbits exclude every nonempty family of four-subsets inside the P10 support Y. There are292 compatible complete assignments in13 orbits, including the empty assignment.
+
+For the empty case, let O,H,P,E count residual members with exact Y-trace sizes0,1,2,3. There are51 residuals. The complete-C5 argument gives every Y-point global degree at most15, so D=H+2P+3E≤60 after subtracting the root-star incidence30. The combined O+H pool is intersecting because P10 avoids every pair of points; hence P+E≥24. The six C5 pair pools give2P≤36, so E≥6.
+
+Each of the ten actual P10 root cones has at least41 meeting members,17 of which are root cones. Summing its residual meeting counts gives W≥240. A singleton, pair or triple trace meets respectively5,8 or at most10 P10 blocks. Therefore
+
+    W≤5H+8P+10E=5D−2(P+E)−3E≤300−48−18=234,
+
+which is impossible. This argument leaves the opposite I7 support arbitrary.
+
+### 4.5 Degree17 with P9
+
+The three opposite I8 types have the following complete exact plans.
+
+| Opposite component | Internal-Y/internal-Z/mixed-four/mixed-three orbits | Exact leaves | Core four-sets | Mixed triples |
+|---|---|---:|---:|---:|
+| P8, omitted intersection1 |4/9/84/34|131|495|180|
+| P8, omitted intersection2 |4/6/58/24|92|495|180|
+| Q8 |4/8/58/24|94|715|231|
+
+All three plans passed exact integer replay and complete independent literal coverage. For Q8, two final mixed-four orbits are excluded as siblings after the same68 earlier nodes. Their exact zero-objective numerators are−406255021 and−3584828830 at scale10^10. Neither uses the other as a premise. All24 final mixed-three nodes use the completed70-node four-stage plan;16 use strict upper certificates and8 use negative phase-one certificates. The complete Q8 plan has no missing trace.
+
+After all core-four and mixed-three traces disappear, a residual trace is of size at most2 or is a pure triple on one component. Any disjoint residual pair must jointly hit every root block. P9 needs at least3 transversal points and I8 at least2. If neither residual supplies a pure Y-triple, the pair cannot supply both counts. Hence every disjoint pair contains a pure-Y-transversal member.
+
+Removing these members leaves an intersecting family of size at most27. P9 has eleven transversal triples: its nine blocks, the omitted block B and its complement. Each retained block has at most one residual completion, because its root cone already consumes one unit of triple codegree2; the other two triples allow at most two each. Thus r≤27+9+2+2=40<51. This excludes every degree17 point. The sharper bound11 on certain paired exceptional completions is unnecessary here.
+
+## 5. Degree16 and the fifteen-triple structural theorem
+
+### 5.1 Degree16
+
+The degree16 proof first derives its hypotheses in the following acyclic order: no P10, N≤46, no P9, singleton counts≤8, N≤45, no P8 of omitted-intersection1 type, and N≤44. R61 excludes a complete R16 link. The remaining degree16 link has form I8+I8, including allowed Q8 leaf overlaps.
+
+The disjointness graph has minimum degree24 and independence number at most27. Jin's strict theorem and the ordinary image reduction give the relevant A3 through A6 fibre regimes. The independent cover reconstruction checks5576 deletion cases and gives actual four-cover capacities1,2,4,10 after deleting0,1,2,3 link triples. Six cases with a raw bound12 are corrected by their actual pair-incidence restriction.
+
+An independently implemented fibre calculation visits2188 complete profiles and124323 nonindependent degree16-star vectors, with no unresolved vector. An independent image support is excluded by the ordinary full-cover argument. This closes exact degree16. The finite domains and their arbitrary-support bridges are the new size68 domains, not the prior size69 fibre result.
+
+### 5.2 A universal size15 lemma
+
+For a triple family L, let ρ(L) be the maximum number of members disjoint from an actual member of L.
+
+**Theorem2.** If L is a simple SF3 family of fifteen triples, then ρ(L)≥7.
+
+Assume ρ≤6. Every triple meets at least8 other triples, so the number I of unordered intersecting pairs is at least60. The universal SF3 point-degree bound is6. The low-degree argument excludes used degrees1 and2 without an ambient support cutoff.
+
+For degree2 with a degree6 neighbour, the forced configuration gives91 normalized motifs; six survive immediate literal obstructions and none admits a thirteenth triple. For degree2 without such a neighbour, there are78 normalized nine-triple motifs and18 survivors. Every future triple with a new point uses exactly one new point. The sum of available old-pair capacities is at most3; hence the entire six-triple completion introduces at most three distinct new points. This is a bound on the whole completion, not a separate allowance of three points per triple. A separately implemented checker considers all74761 six-subsets of the admitted next triples; each contains a literal obstruction.
+
+Thus every used point has degree at least3. Let r(v) count its codegree-two partners. The exact incidence identity is
+
+    I=Σ_v[binom(d(v),2)−r(v)/2],   Σ_v d(v)=45.
+
+For d=3,4,5,6 the summands are at most5/2,5,8,12 and each is at most19d/6−7. Hence60≤285/2−7n and the support has size n≤11. If every degree were at most4, then I≤225/4<60. Therefore a degree5 or6 point exists.
+
+Its complete SF2 link is C5, a triangle plus a two-edge path, or two triangles. Pad to eleven points and normalize the complete root star. All120 triples avoiding the root on the remaining ten points are included in the initial candidate domain. Three finite proof trees exclude target15 with ρ≤6. Their separately written literal-set replayer verifies every candidate, scalar rejection, incompatibility witness, child and omitted colour prefix.
+
+| Root link | Global degree cap | Tree nodes | Checked colour pairs | Surviving solutions |
+|---|---:|---:|---:|---:|
+| Two triangles |6|3657|101266|0|
+| C5 |5|5109|170054|0|
+| Triangle plus two-edge path |5|3455|113537|0|
+
+Changed-target, omitted-child and changed-source controls were rejected. The support reduction and complete finite exclusions prove Theorem2 at the ordinary computer-assisted level. No size16 search is being transferred to size15. Its independent novelty beyond the specifically compared prior source is not claimed separately from the present extremal theorem.
+
+## 6. Closing maximum degree at most15
+
+The ordinary cap15 local arguments give no P10, no P9, singleton counts≤8 and N≤43. The cap14 argument shows that an N43 anchor must exist if Δ≤14, then excludes its complete common-triangle core by B4, Q8 leaf matching and the guarded cross-star bound. Consequently a remaining family has an actual degree15 point x. Its complete link L has ρ≤8.
+
+At ρ≤6, Theorem2 gives a contradiction. At ρ=7, the ordinary universal classification gives R16 with one triple deleted. Both deletion types are excluded directly.
+
+For an outer-triple deletion, let S,P,T,q be the residual trace totals on the four hubs. Four actual hub anchors and their degree budget imply
+
+    3S+4P+4T+4q≥104,   S+2P+3T+4q≤37.
+
+Singleton bounds give S≤32, improved to S≤30 if P>0. These integer inequalities are inconsistent.
+
+For a hub-triple deletion, label the missing triple123 and special hub0. Put Y=p12+p13+p23, let t count trace123, and let a≤b≤c be the ordered deficits8−s_i at the satellite hubs. Actual-anchor and hub-incidence counts give
+
+    Y+3t≤8,   Y+t≥1+b+c.
+
+The complete triangle-plus-path five-star and B4 imply that equality in a satellite pair capacity forces the other pair at that satellite, all relevant triple traces and the four-hub trace to vanish. The root pairs p0i remain allowed. If t>0 the capacities are immediately strict; if t=0 the displayed lower bound first makes all three satellite pair classes positive, and the same guard again makes them strict. Thus Y+3≤2a+b, inconsistent with the two displayed inequalities and a≤b≤c. Five arithmetic interfaces, including both deletion contradictions and the support-count consequences of Theorem2, have separately compiled Lean proofs with an observed axiom allow-list check. Their geometric hypotheses remain ordinary proofs.
+
+At ρ=8, the complete link is an intersecting8+7 split. The P8-intersection1 type was already excluded; all possibilities are eight separated P8-intersection2+I7 models and thirteen Q8+I7 gluings. A shared Q8 leaf is allowed only at an I7 point with intersecting point-link. The permitted I7 vertices give precisely those thirteen gluings, retaining leaf sharing.
+
+Since N≤43, the disjointness graph has minimum degree25. Directly use Jin with k=3:25·11=275>4·68=272. In cyclic A3, let a_i be the eight fibre sizes and b_i=a_(i+3)+a_(i+4)+a_(i+5). Their neighbourhood preimages are independent, so b_i≤27. With e_i=27−b_i we have Σe_i=12 and
+
+    a_i=b_i+b_(i+3)+b_(i+5)−68=13−e_i−e_(i+3)−e_(i+5)≥1.
+
+All fibres are therefore occupied. Now b_i≥25 follows from an actual vertex in each fibre. Writing r_i=b_i−25 gives r_i∈{0,1,2}, Σr_i=4 and a_i=7+r_i+r_(i+3)+r_(i+5).
+
+The degree15 star-fibre argument requires at least10 full four-covers if its image support is independent. In the nonindependent case only four consecutive occupied indices remain possible, with endpoint weights1 or2; deleting an endpoint's actual cones requires at least11 or12 four-covers after deleting1 or2 triples. This uses only nonedges forced by the homomorphism, not a complete blowup assumption.
+
+A separate deletion-first reconstruction checks all21 literal links and all121 deletion sets of size at most2, giving2541 cases. Let C3 be their support three-covers and P4 their support four-covers containing no C3. The maxima of2|C3|+|P4| are2,4,10 at deletion sizes0,1,2. At least13 triples remain and two support points meet at most12, so every ambient four-cover contains at least three support points. It contains a C3 or is a P4; triple codegree2 and simplicity give the stated upper bound, including all exterior completions. The requirements10,11,12 contradict2,4,10. Thus ρ=8 is impossible.
+
+Every possible Δ≤20 has now been excluded at size68. This proves Theorem1.
+
+## 7. Evidence, reproducibility and limitations
+
+The companion's global dependency roadmap records an acyclic order: universal cap20/H27; degree20; degree19; activation of the cap18-guarded prior package; degree18; degree17; degree16; and cap15. No support23 cutoff is imposed on the high-degree projections. Historical pending statements in frozen notes are superseded by named later receipts, rather than silently rewritten.
+
+The active degree19,18 and17 chains contain43,169 and329 finite leaves respectively. These counts describe branch incidences; some structural or component evidence is reused. They are not counts of independent evaluators. Degree17 consists of12+131+92+94. Every active leaf has the stated exact check. The global proof also uses the degree20 cover/marker checks, the independent low-degree cover/fibre reconstructions and the new size15 proof trees. Each layer retains its source, input and output commitments.
+
+Formal evidence has a narrower scope. General set-theoretic terminal lemmas, the complementary-trace obstruction, small-trace pool lemmas and five new size15 arithmetic roots are individually axiom-audited under the existing pinned Lean4.26.0 dependency cache. The permitted axioms are propext, Classical.choice and Quot.sound; the new arithmetic roots use only propext and Quot.sound. No project axioms, sorry or native_decide supply those roots. The whole extremal theorem, external H27 ledger, full LP models and proof-tree predicates have not been assembled into an end-to-end Lean closure. No clean replay or independent human certification of the complete result is asserted.
+
+The SuperMath term certificate-diagnostic is retained for external Python/C++ exact checks, even where two implementations agree. This is a formal-assurance distinction; ordinary computer-assisted proofs can use exact executable mathematics without claiming kernel verification. Shared model construction remains a material implementation dependence. The written family maps and independent coverage checks do not magically eliminate all potential software bugs.
+
+The current manuscript is entering the user's requested twelve-specialist, ten-round review. No completed-round or final-acceptance claim is made in this version. Separate agent contexts do not establish organizational independence or human certification. The actual final record will identify completed rounds, dissent, revisions and exact manuscript approvals. A substantive defect discovered during review suspends the completion claim until repaired.
+
+## 8. Conclusion
+
+The assembled ordinary computer-assisted argument excludes68-member SF4 families and yields54≤M(4,3)≤67, relative to the explicitly cited established foundations. Its main new structural component is the universal fifteen-triple disjointness lemma, together with the degree15 deletion/fibre closure and strengthened high-degree reductions at μ41. The numerical theorem improves the strongest directly comparable primary bound located in the fresh search. Its scope is finite rank four; broader sunflower conjectures and end-to-end formal verification remain separate problems.
+
+## References
+
+[1] E. Axante, C. Budala, D. Chitic, B. Dumitru and M. Nacu. *Sunflower-Free Uniform Families: Recursive Constructions and Explicit Bounds*. arXiv:2609.06175v1,5September2026. Proposition6.7 (intersecting upper27), Proposition6.8 and Theorem6.9. https://arxiv.org/abs/2609.06175v1
+
+[2] Oleksiy Babanskyy. *An upper bound for three-sunflower-free families of four-element sets*. aiXiv2610.01292v1,9October2026. https://aixiv.online/abs/2610.01292 . Companion: https://github.com/aconsciousfractal/Four-Uniform-Three-Sunflower-Bound , pinned commit90c03c79bcf44eb8f61dff1b86091b822cc4cd3c.
+
+[3] Guoping Jin. *Triangle-Free Graphs with High Minimal Degrees*. Combinatorics, Probability and Computing2(4),479–490,1993. https://doi.org/10.1017/S0963548300000845
+
+[4] Vladimir Nikiforov. *Chromatic number and mimimum degree of K_r-free graphs* (arXiv title spelling). arXiv:1001.2070v1, Theorem A. https://arxiv.org/abs/1001.2070v1
+
+[5] Matija Bucić, Fankang He and Hyunwoo Lee. *Proof of the Erdős–Szemerédi sunflower conjecture*. arXiv:2610.26686v1,19October2026. https://arxiv.org/abs/2610.26686v1
+
+## Companion proof and evidence map
+
+The review snapshot binds the exact local paths and hashes. The principal proof documents are GLOBAL67-ordinary-theorem.md; GLOBAL67-dependency-roadmap.md; D20-proof-check.md with internal-proof.md and stage2-proof.md; D19-complete-argument.md; D18-complete-argument.md; D17-complete-argument.md; D16-complete-argument.md; LOW15-complete-argument.md; LOW15-direct-Jin-A3-addon.md; and EXTERNAL-H27-JIN-SCOPE.md. Each branch note specifies its source-versioned mathematical bridges and exact active receipt indices. The size15 support reduction, independent reconstruction, tree replayer and cover bridge are separately identified in the cap15 assembly. The supplied manifests and original tool records are local integrity evidence, not authenticated external certificates.

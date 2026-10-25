@@ -1,0 +1,203 @@
+{
+  "source_response_sha256": "72dd5a55c5d6e1281d40765086891c43db767b94332ada2b1ce7d9a1826b0023",
+  "declared_truncated": false,
+  "entry_count": 117,
+  "trees": [
+    {
+      "path": "/",
+      "expected": "d4d5723267c662291efdadfa6e7061d919e76fa9",
+      "computed": "0a3e3838650fc981133940e798c9d220140e785e",
+      "matches": false,
+      "children": 7,
+      "git_hash_object": "0a3e3838650fc981133940e798c9d220140e785e",
+      "root_entries": [
+        {
+          "path": "LICENSES",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "6d618799ba76b9cc4220dd7d8298444e05711e5e",
+          "url": "https://api.github.com/repos/bogdan27182/sunflower-paper/git/trees/6d618799ba76b9cc4220dd7d8298444e05711e5e",
+          "name": "LICENSES"
+        },
+        {
+          "path": "README.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "711789f6e3501f888fc8d19410cde3c586c84fa7",
+          "size": 3722,
+          "url": "https://api.github.com/repos/bogdan27182/sunflower-paper/git/blobs/711789f6e3501f888fc8d19410cde3c586c84fa7",
+          "name": "README.md"
+        },
+        {
+          "path": "artifacts",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "fad232cccebb293ef563ace5fcf53d2ddc4fbc3b",
+          "url": "https://api.github.com/repos/bogdan27182/sunflower-paper/git/trees/fad232cccebb293ef563ace5fcf53d2ddc4fbc3b",
+          "name": "artifacts"
+        },
+        {
+          "path": "check_all.sh",
+          "mode": "100755",
+          "type": "blob",
+          "sha": "5d7a467a6bedad7b2e721bbfe657365ee23e55cd",
+          "size": 343,
+          "url": "https://api.github.com/repos/bogdan27182/sunflower-paper/git/blobs/5d7a467a6bedad7b2e721bbfe657365ee23e55cd",
+          "name": "check_all.sh"
+        },
+        {
+          "path": "check_available.sh",
+          "mode": "100755",
+          "type": "blob",
+          "sha": "4045db6113de62bfb2e70fd7d36f2c6b063b6fdf",
+          "size": 348,
+          "url": "https://api.github.com/repos/bogdan27182/sunflower-paper/git/blobs/4045db6113de62bfb2e70fd7d36f2c6b063b6fdf",
+          "name": "check_available.sh"
+        },
+        {
+          "path": "lean",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "18197875d84e51e6dd8937a20765d6a2304930ed",
+          "url": "https://api.github.com/repos/bogdan27182/sunflower-paper/git/trees/18197875d84e51e6dd8937a20765d6a2304930ed",
+          "name": "lean"
+        },
+        {
+          "path": "release-assets",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "7bfd58cbca3719b501ec49adec4ffa6ad08cab9e",
+          "url": "https://api.github.com/repos/bogdan27182/sunflower-paper/git/trees/7bfd58cbca3719b501ec49adec4ffa6ad08cab9e",
+          "name": "release-assets"
+        }
+      ]
+    },
+    {
+      "path": "LICENSES",
+      "expected": "6d618799ba76b9cc4220dd7d8298444e05711e5e",
+      "computed": "6d618799ba76b9cc4220dd7d8298444e05711e5e",
+      "matches": true,
+      "children": 3
+    },
+    {
+      "path": "artifacts",
+      "expected": "fad232cccebb293ef563ace5fcf53d2ddc4fbc3b",
+      "computed": "fad232cccebb293ef563ace5fcf53d2ddc4fbc3b",
+      "matches": true,
+      "children": 3
+    },
+    {
+      "path": "artifacts/f34_upper_49",
+      "expected": "e50416f9b070852296ea32fb6c80173646894d1b",
+      "computed": "e50416f9b070852296ea32fb6c80173646894d1b",
+      "matches": true,
+      "children": 10
+    },
+    {
+      "path": "artifacts/f34_upper_49/data",
+      "expected": "95f67a9e037a75b1f9edc1b2d07abf55b23cdab1",
+      "computed": "95f67a9e037a75b1f9edc1b2d07abf55b23cdab1",
+      "matches": true,
+      "children": 5
+    },
+    {
+      "path": "artifacts/f34_upper_49/legacy_f12",
+      "expected": "c5efba5a9de1b107dd4201cef3e573eddff3a05d",
+      "computed": "c5efba5a9de1b107dd4201cef3e573eddff3a05d",
+      "matches": true,
+      "children": 7
+    },
+    {
+      "path": "artifacts/f34_upper_49/logs",
+      "expected": "21230b476fe14f6edeb69893ba6ab084eeb19317",
+      "computed": "21230b476fe14f6edeb69893ba6ab084eeb19317",
+      "matches": true,
+      "children": 4
+    },
+    {
+      "path": "artifacts/f34_upper_49/src",
+      "expected": "9e6417259f15d6617d0264cde8179dced4f5415f",
+      "computed": "9e6417259f15d6617d0264cde8179dced4f5415f",
+      "matches": true,
+      "children": 7
+    },
+    {
+      "path": "artifacts/f37_lower_259",
+      "expected": "d93c72d2d8cf0b5f54a350262e94820edd4b7b24",
+      "computed": "d93c72d2d8cf0b5f54a350262e94820edd4b7b24",
+      "matches": true,
+      "children": 4
+    },
+    {
+      "path": "artifacts/f43_upper_83",
+      "expected": "50781f9a4649c0d763f20cc759f26f7c9983aead",
+      "computed": "50781f9a4649c0d763f20cc759f26f7c9983aead",
+      "matches": true,
+      "children": 2
+    },
+    {
+      "path": "artifacts/f43_upper_83/intersecting_27",
+      "expected": "4945cc34815e0ac48effbd27ceff871c0e73ff28",
+      "computed": "4945cc34815e0ac48effbd27ceff871c0e73ff28",
+      "matches": true,
+      "children": 5
+    },
+    {
+      "path": "artifacts/f43_upper_83/intersecting_27/archives",
+      "expected": "fe1d09a56a49b70ac024fc63156966d9317252ed",
+      "computed": "fe1d09a56a49b70ac024fc63156966d9317252ed",
+      "matches": true,
+      "children": 3
+    },
+    {
+      "path": "artifacts/f43_upper_83/intersecting_27/source",
+      "expected": "0b185cc4dae9884fe4e424757af4c216f6b9c222",
+      "computed": "0b185cc4dae9884fe4e424757af4c216f6b9c222",
+      "matches": true,
+      "children": 3
+    },
+    {
+      "path": "artifacts/f43_upper_83/intersecting_27/source/nauty2_8_9",
+      "expected": "2f96eff0845b262f212b6c6755c8005993f3d3eb",
+      "computed": "2f96eff0845b262f212b6c6755c8005993f3d3eb",
+      "matches": true,
+      "children": 14
+    },
+    {
+      "path": "artifacts/f43_upper_83/intersecting_27/tools",
+      "expected": "d974225887e9a8707786589e78bbdb0413a0f18d",
+      "computed": "d974225887e9a8707786589e78bbdb0413a0f18d",
+      "matches": true,
+      "children": 4
+    },
+    {
+      "path": "artifacts/f43_upper_83/triple_inputs",
+      "expected": "59bbfddea29c55a7a1e3cb580c9115ab480276f1",
+      "computed": "59bbfddea29c55a7a1e3cb580c9115ab480276f1",
+      "matches": true,
+      "children": 7
+    },
+    {
+      "path": "lean",
+      "expected": "18197875d84e51e6dd8937a20765d6a2304930ed",
+      "computed": "18197875d84e51e6dd8937a20765d6a2304930ed",
+      "matches": true,
+      "children": 7
+    },
+    {
+      "path": "lean/Sunflower",
+      "expected": "a3da3402ab43f59f7be0de8ece0abfd092d9cb93",
+      "computed": "a3da3402ab43f59f7be0de8ece0abfd092d9cb93",
+      "matches": true,
+      "children": 20
+    },
+    {
+      "path": "release-assets",
+      "expected": "7bfd58cbca3719b501ec49adec4ffa6ad08cab9e",
+      "computed": "7bfd58cbca3719b501ec49adec4ffa6ad08cab9e",
+      "matches": true,
+      "children": 2
+    }
+  ],
+  "scope": "Integrity reconstruction only; no completeness or external mathematical invalidity inferred."
+}

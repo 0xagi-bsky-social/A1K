@@ -1,0 +1,166 @@
+{
+  "assurance": "certificate-diagnostic, not Lean",
+  "variable_D": [
+    {
+      "D": 10,
+      "max_m": 0,
+      "maximizing_q": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "rational_numerator": 0,
+      "rational_denominator": 10
+    },
+    {
+      "D": 11,
+      "max_m": 5,
+      "maximizing_q": [
+        10,
+        11
+      ],
+      "rational_numerator": 72,
+      "rational_denominator": 13
+    },
+    {
+      "D": 12,
+      "max_m": 10,
+      "maximizing_q": [
+        10
+      ],
+      "rational_numerator": 168,
+      "rational_denominator": 16
+    },
+    {
+      "D": 13,
+      "max_m": 15,
+      "maximizing_q": [
+        10
+      ],
+      "rational_numerator": 288,
+      "rational_denominator": 19
+    },
+    {
+      "D": 14,
+      "max_m": 19,
+      "maximizing_q": [
+        10
+      ],
+      "rational_numerator": 432,
+      "rational_denominator": 22
+    },
+    {
+      "D": 15,
+      "max_m": 23,
+      "maximizing_q": [
+        10
+      ],
+      "rational_numerator": 600,
+      "rational_denominator": 25
+    },
+    {
+      "D": 16,
+      "max_m": 27,
+      "maximizing_q": [
+        9,
+        10
+      ],
+      "rational_numerator": 792,
+      "rational_denominator": 28
+    },
+    {
+      "D": 17,
+      "max_m": 31,
+      "maximizing_q": [
+        9,
+        10
+      ],
+      "rational_numerator": 1008,
+      "rational_denominator": 31
+    },
+    {
+      "D": 18,
+      "max_m": 36,
+      "maximizing_q": [
+        9
+      ],
+      "rational_numerator": 1248,
+      "rational_denominator": 34
+    },
+    {
+      "D": 19,
+      "max_m": 40,
+      "maximizing_q": [
+        9
+      ],
+      "rational_numerator": 1512,
+      "rational_denominator": 37
+    },
+    {
+      "D": 20,
+      "max_m": 45,
+      "maximizing_q": [
+        9
+      ],
+      "rational_numerator": 1800,
+      "rational_denominator": 40
+    }
+  ],
+  "unconditional_high_matching_cap": {
+    "by_q": [
+      0,
+      4,
+      9,
+      13,
+      18,
+      22,
+      27,
+      31,
+      36,
+      40,
+      39,
+      38,
+      36
+    ],
+    "max_m": 40,
+    "max_q": [
+      9
+    ]
+  },
+  "D19_m40_profiles": [
+    {
+      "n22": 39,
+      "n31": 0,
+      "n30": 1,
+      "n40": 0,
+      "common_deficit": 0,
+      "exclusive_deficit": 6
+    },
+    {
+      "n22": 39,
+      "n31": 1,
+      "n30": 0,
+      "n40": 0,
+      "common_deficit": 0,
+      "exclusive_deficit": 5
+    },
+    {
+      "n22": 40,
+      "n31": 0,
+      "n30": 0,
+      "n40": 0,
+      "common_deficit": 1,
+      "exclusive_deficit": 4
+    }
+  ]
+}

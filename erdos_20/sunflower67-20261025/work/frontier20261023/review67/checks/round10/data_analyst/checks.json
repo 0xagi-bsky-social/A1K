@@ -1,0 +1,43 @@
+{
+  "identifier_relationship": {
+    "payload_bytes": 266,
+    "payload_sha256": "0898c3250fc67e9542a07ea3ec042a693001f4959cf4dce408b52edd8752f16f",
+    "reconstructed_tree": "0a3e3838650fc981133940e798c9d220140e785e",
+    "returned_commit": "d4d5723267c662291efdadfa6e7061d919e76fa9",
+    "returned_tree": "0a3e3838650fc981133940e798c9d220140e785e",
+    "tree_matches": true,
+    "commit_differs_from_tree": true,
+    "scope": "Saved response and existing tree bytes only; no new fetch or historical computation."
+  },
+  "lower_bound_offset_controls": [
+    {
+      "root_degree": 17,
+      "tests": 936,
+      "disagreements": 0,
+      "accepted_above_41": 333
+    },
+    {
+      "root_degree": 18,
+      "tests": 969,
+      "disagreements": 0,
+      "accepted_above_41": 342
+    },
+    {
+      "root_degree": 19,
+      "tests": 1000,
+      "disagreements": 0,
+      "accepted_above_41": 350
+    }
+  ],
+  "committed_obligations": {
+    "rounds": 9,
+    "submissions": 108,
+    "distinct_contexts": 12,
+    "each_round_12_distinct_roles": true,
+    "required_revision_items": 13,
+    "without_later_original_reviewer_resolution": [],
+    "response_content_or_hash_mismatches": [],
+    "own_required_revisions": 0,
+    "scope": "Committed rounds1-9 only; current round and separate final audits are not counted."
+  }
+}

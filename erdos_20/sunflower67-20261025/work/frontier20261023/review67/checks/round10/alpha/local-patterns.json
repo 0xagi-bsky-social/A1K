@@ -1,0 +1,52 @@
+{
+  "P8_intersection_two_deletions": 15,
+  "P8_member_patterns_checked": 120,
+  "Q8_member_patterns_checked": 8,
+  "every_remaining_I8_member_has_degree5_point": true,
+  "R16_one_deletions": 16,
+  "R15_member_patterns_checked": 240,
+  "all_observed_patterns": [
+    [
+      3,
+      3,
+      6
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      3,
+      4,
+      6
+    ],
+    [
+      4,
+      4,
+      5
+    ],
+    [
+      4,
+      4,
+      6
+    ],
+    [
+      5,
+      5,
+      6
+    ],
+    [
+      5,
+      6,
+      6
+    ],
+    [
+      6,
+      6,
+      6
+    ]
+  ],
+  "forbidden_patterns_244_334_absent": true,
+  "limitation": "Checks literal terminal obstruction, not the upstream geometric derivation or universal rho7 classification."
+}

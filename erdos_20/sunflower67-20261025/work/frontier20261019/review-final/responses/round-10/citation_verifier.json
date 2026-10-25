@@ -1,0 +1,43 @@
+{
+  "agent_id": "/root/review_coordinator/citation_verifier",
+  "role": "citation_verifier",
+  "context_id": "/root/review_coordinator/citation_verifier",
+  "round": 10,
+  "snapshot_sha256": "8759736df13c8e52744023b23d5cab5f435603e02b4d682967b2f70439202dd0",
+  "manuscript_sha256": "3ee74792dff98a43231d07100d0034b485a6f91beb2b565ffb15d22f5a40e365",
+  "summary": "Accept within the citation-verification mandate for these exact final bytes. Both earlier required revisions remain resolved; no open citation issue remains. Review is bounded to the supplied corpus and local records, without external enumeration reproduction or cross-viewer PDF-link certification.",
+  "evidence_ids": [
+    "F17",
+    "F29",
+    "F30",
+    "F35",
+    "F37"
+  ],
+  "decision": "accept",
+  "required_revisions": [],
+  "findings": [],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "Final version, theorem locators and repaired artifacts",
+      "method": "Recomputed both hashes, reread reference/locator paragraphs, matched eleven Frontier theorem names to F29 audit records, and resolved/rehashed F35 reference [5] targets.",
+      "observation": "Hashes match. Unsupported reference [2] metadata remains absent. Both local targets exist and match planned-release siblings; the archive matches F30's digest. HTML and PDF annotations retain the same intended links. Viewer activation was not tested.",
+      "result": "supported",
+      "evidence_ids": [
+        "F29",
+        "F30",
+        "F35",
+        "F37"
+      ]
+    },
+    {
+      "scope": "Primary attribution recheck",
+      "method": "Directly reread F17 arXiv metadata, section 6.3, section 8 and A1K T8 passages.",
+      "observation": "Reference [3] metadata and reported maximum 27/bounds 54–83 agree; separate computational and Lean scopes remain explicit. A1K's conditional G(80) still requires the three named inputs. The manuscript does not claim those exclusions locally.",
+      "result": "supported",
+      "evidence_ids": [
+        "F17"
+      ]
+    }
+  ]
+}

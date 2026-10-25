@@ -1,0 +1,80 @@
+{
+  "agent_id": "/root/r67_domain",
+  "role": "domain_expert",
+  "context_id": "/root/r67_domain",
+  "round": 5,
+  "snapshot_sha256": "85c7f735ba798c6812c979258f6eb3854dee7055d525e2bd4fd9e315b71ce261",
+  "manuscript_sha256": "460a3cba8460d551fe8c44b69dac7f1a9b9bae09743c85c519a4d92f30a76ae4",
+  "summary": "Independent bounded checks reproduce all six exceptional D16 cover corrections and the cap15 outer-deletion scalar contradiction. Their transfer to actual families preserves exterior completions, complete-link hypotheses and actual-anchor requirements. The revised H27 disclosure accurately identifies a material external provenance limitation; these local checks do not repair it. No further revision is requested in this round.",
+  "evidence_ids": [
+    "degree16",
+    "cap15",
+    "external-h27-scope-correction",
+    "external-h27-source-r4",
+    "direct-jin"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "DOMAIN-R5-H27-SENSITIVITY",
+      "statement": "H27 is an essential numerical import whose historical-source provenance has not been authenticated locally. The present proof is not robust to merely weakening the intersecting cap from 27 to 28.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Retain the explicit source-audit limitation in manuscript Section 2 and the superseding addendum. No counterexample to H27 follows from the inspection gap, but successful new local computations are not a substitute for this external theorem dependency.",
+      "evidence_ids": [
+        "external-h27-scope-correction",
+        "external-h27-source-r4",
+        "direct-jin"
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "DOMAIN-R1-IMPORT-BOUNDARY",
+      "action": "Read the superseding H27 addendum and the fetched README and top-level script, then checked the numerical sensitivity of the H27 interface.",
+      "result": "The import boundary is now more specific: archive authentication and source-to-historical-run identity were not established. The corrected manuscript exposes this limitation, and my earlier scoped approval of the import interface should not be read as authentication of the external computation.",
+      "status": "claim-qualified"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "All six D16 raw-12 cover exceptions",
+      "method": "Independently constructed the literal P8/P8 and P8/Q8 links and each recorded deletion from D16-I8-cover-independent-replay.json; enumerated support three- and four-covers for those six cases only.",
+      "observation": "Each case has no three-cover and exactly twelve four-covers, all containing its recorded common point and with union of size seven. Deleting the common point leaves triples on six points, so ambient triple codegree two gives 3m<=2*binom(6,2)=30 and m<=10. An additional direct check rejected all 72 eleven-member selections by a repeated ambient triple. This reproduces the exceptional correction, not the entire 5,576-case census.",
+      "result": "supported",
+      "evidence_ids": [
+        "degree16"
+      ]
+    },
+    {
+      "scope": "Arbitrary-support cover transfer and fibre implication",
+      "method": "Read D16-I8-deletion-cover-reconstruction.md, Arbitrary exterior points are retained, The raw12 cases, and Transfer to fibre inequalities; reconstructed the set inclusions.",
+      "observation": "At least thirteen link triples remain, while two support points meet at most ten, so every ambient four-cover uses at least three support points. A cover with an exterior point contains a support three-cover, controlled by global triple codegree two; primitive internal four-covers are controlled by simplicity. When C3 is empty in the six exceptions, all actual covers are internal. The fibre inequality requires actual deleted-cone inclusion D_j subset D_i, not a comparison of deletion cardinalities, and uses only nonedges forced by a graph homomorphism.",
+      "result": "supported",
+      "evidence_ids": [
+        "degree16"
+      ]
+    },
+    {
+      "scope": "Cap15 outer-deletion contradiction and its geometric premises",
+      "method": "Read LOW15-R15-outer-deletion-exclusion.md and independently enumerated its bounded nonnegative integer scalar relaxation.",
+      "observation": "The four surviving hub triples give actual anchors with N(Q_i)=15+E0-s_i. The complete link consumes 23 hub incidences, leaving S+2P+3T+4q<=37. Actual singleton classes give S<=32 and S<=30 if P>0. Under those constraints the maximum of 3S+4P+4T+4q is 103, attained in the relaxation at (S,P,T,q)=(29,4,0,0), below the required 104. The domain needs neither an exterior-support cutoff nor a neighbourhood upper bound.",
+      "result": "supported",
+      "evidence_ids": [
+        "cap15"
+      ]
+    },
+    {
+      "scope": "Corrected H27 source assurance and exact sensitivity",
+      "method": "Read EXTERNAL-H27-SCOPE-ADDENDUM-20261024.md and the preserved h27-readme.txt and h27-script.txt; recomputed the common-neighbourhood and A3 deficit formulas.",
+      "observation": "The README claims three archive-hash checks, while the inspected script visibly hashes assembled frontiers and invokes other checks without explicit compressed-archive hash comparisons. This inspection does not audit the invoked predicates or historical execution. With an intersecting cap h, the common bound is 68-h; for the fixed A3 mass 68, sum e_i=8h-204 and a_i>=136-5h. Thus h=27 yields neighbourhood 41 and fibre lower bound 1, whereas h=28 yields 40 and -4. Manuscript Section 2 and the superseding addendum disclose the material limit without claiming a new local proof of H27.",
+      "result": "supported",
+      "evidence_ids": [
+        "external-h27-scope-correction",
+        "external-h27-source-r4",
+        "direct-jin"
+      ]
+    }
+  ]
+}

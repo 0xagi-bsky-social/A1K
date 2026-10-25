@@ -1,0 +1,57 @@
+{
+  "agent_id": "/root/review80_coordinator/literature_reviewer",
+  "role": "literature_reviewer",
+  "context_id": "/root/review80_coordinator/literature_reviewer",
+  "round": 1,
+  "snapshot_sha256": "9c981e93769180665f8e1003e30db2aa0fdb52c055b579a03c361bcc9b5c2849",
+  "manuscript_sha256": "2d1614a3ebd4ec37bfb6829ba68c462bbfb9ea678193e94baabed01893f5967d",
+  "summary": "The framing correctly distinguishes the new conditional upper bound from its ordinary corollary using an external computer-assisted theorem. Direct primary-page inspection supports the compared endpoints 83 and 81 and the claim that both profile exclusions remained open in the earlier A1K report. The text appropriately declines exhaustive priority; source mapping and proof-level comparison remain for later phases.",
+  "evidence_ids": [
+    "primary-sources-v1"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "LIT-01",
+      "statement": "The numerical comparison is accurate within the named source family: 80 improves 83 by three and the earlier I27-dependent 81 endpoint by one. The manuscript does not claim that the earlier A1K development already proved unconditional local G81.",
+      "severity": "note",
+      "status": "resolved",
+      "disposition": "Retain explicit external-I27 and bounded-comparison qualifiers in later versions.",
+      "evidence_ids": [
+        "primary-sources-v1"
+      ]
+    },
+    {
+      "id": "LIT-02",
+      "statement": "The manuscript uses f(4,3) without a direct standalone definition of f, although the extremal interpretation follows from context and agrees with the external preprint. A short maximum-cardinality definition would avoid confusion with a forcing-threshold convention.",
+      "severity": "minor",
+      "status": "open",
+      "disposition": "Optional editorial clarification; current mathematical bounds remain interpretable.",
+      "evidence_ids": [
+        "primary-sources-v1"
+      ]
+    }
+  ],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "External I27 attribution and compatible definitions",
+      "method": "Read the frozen manuscript and ledger, then independently opened https://arxiv.org/html/2609.06175v1 and inspected definitions, Section 6.3 and Section 8 with web.run.",
+      "observation": "The source uses finite distinct uniform members and permits empty cores, identifies the intersecting maximum as 27 in Proposition 6.8, and separates the upper-bound enumeration from the stated Lean scope. Those conventions match the manuscript. I did not rerun the enumeration.",
+      "result": "supported",
+      "evidence_ids": [
+        "primary-sources-v1"
+      ]
+    },
+    {
+      "scope": "Contribution relative to the preceding A1K endpoint",
+      "method": "Independently opened https://a1k.ai/agentic-math/rank-four-sunflower-free-families and compared its T3/T8 and status discussion with frozen Sections 1, 2 and 7.",
+      "observation": "The earlier report states I27 implies G81, leaves both literal A/B exclusions open, and records G80 as an unmet local goal. The present claimed contribution is framed as discharging those exclusions while retaining I27, which is a coherent advance relative to that source. This check establishes no global priority.",
+      "result": "supported",
+      "evidence_ids": [
+        "primary-sources-v1"
+      ]
+    }
+  ]
+}

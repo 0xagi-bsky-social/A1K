@@ -1,0 +1,460 @@
+[
+  {
+    "id": "F01",
+    "kind": "formal-source-package",
+    "description": "Frozen fourteen new Lean modules and 155 pinned A1K sources. Manifest paths resolve relative to this manifest directory; all copied files are approved evidence.",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/formal/source-manifest.json",
+    "method": "Copied packaged sources and actual SHA256 manifest",
+    "status": "limited",
+    "limitations": [
+      "Compiled dependency objects are retained; no clean mathlib rebuild"
+    ],
+    "content_sha256": "a20772968e780ca4a212681bab595f468be51dae715de5dfd9eed1baa6c76a68"
+  },
+  {
+    "id": "F02",
+    "kind": "local-artifact",
+    "description": "Stable original compiler receipt: SupportBound",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F02/SupportBound.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Local compiler and retained dependency object trust"
+    ],
+    "content_sha256": "e4c8d132ecb8f012b3bffa746e6214bd6bd41f97f101ec8b566ed01f03904f96"
+  },
+  {
+    "id": "F03",
+    "kind": "local-artifact",
+    "description": "Stable original compiler receipt: Support56",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F03/Support56.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Local compiler and retained dependency object trust"
+    ],
+    "content_sha256": "1c0b383df8d449df2ab7bd6b524d784238eb2586f21132159613c77ba6aff9c6"
+  },
+  {
+    "id": "F04",
+    "kind": "local-artifact",
+    "description": "Stable original compiler receipt: FourStar",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F04/FourStar.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Local compiler and retained dependency object trust"
+    ],
+    "content_sha256": "c0d37ffa971120e67a080574c916a24fa7d94d223b58ddfbdf97779443a4d1bc"
+  },
+  {
+    "id": "F05",
+    "kind": "local-artifact",
+    "description": "Stable original compiler receipt: SupportGrid",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F05/SupportGrid.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Local compiler and retained dependency object trust"
+    ],
+    "content_sha256": "b666d76adef6203e8f9048fee76f85684802612f4f730f69c2ab748468ef50b5"
+  },
+  {
+    "id": "F06",
+    "kind": "local-artifact",
+    "description": "Stable original compiler receipt: SupportGrid53",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F06/SupportGrid53.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Local compiler and retained dependency object trust"
+    ],
+    "content_sha256": "a19e036af5aefa0156c0d5e858894bc2e876ee9cafece26a33be77bf0467c304"
+  },
+  {
+    "id": "F07",
+    "kind": "local-artifact",
+    "description": "Stable original compiler receipt: DegreeEnvelope",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F07/DegreeEnvelope.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Local compiler and retained dependency object trust"
+    ],
+    "content_sha256": "80804e05d84c83961bab3fd458a3248d6d58444d79ee564cccdf5471056f651f"
+  },
+  {
+    "id": "F08",
+    "kind": "local-artifact",
+    "description": "Stable original compiler receipt: SupportFacts",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F08/SupportFacts.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Local compiler and retained dependency object trust"
+    ],
+    "content_sha256": "213de2523a3c34d4b4576fd95e73fad226716ad8b5465f632563de767f116164"
+  },
+  {
+    "id": "F09",
+    "kind": "local-artifact",
+    "description": "Stable original compiler receipt: MomentArithmetic",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F09/MomentArithmetic.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Local compiler and retained dependency object trust"
+    ],
+    "content_sha256": "25d0e0d5c8e984ac25bc5ea3dd78c1a3060ab3acfbd1c166372886d759a5250a"
+  },
+  {
+    "id": "F10",
+    "kind": "local-artifact",
+    "description": "Stable original compiler receipt: SupportFinish56",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F10/SupportFinish56.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Local compiler and retained dependency object trust"
+    ],
+    "content_sha256": "af6b76f04a5ada5452bf97a9924240e65c19db74d6b5cec0ab205235734f1e1c"
+  },
+  {
+    "id": "F11",
+    "kind": "local-artifact",
+    "description": "Stable original compiler receipt: SupportFinish53",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F11/SupportFinish53.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Local compiler and retained dependency object trust"
+    ],
+    "content_sha256": "fcff39df417e07a1024d3dde5c4a7f61ef7426ce58473ab193be44b0610a23e4"
+  },
+  {
+    "id": "F12",
+    "kind": "local-artifact",
+    "description": "Stable original compiler receipt: SupportReduction",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F12/SupportReduction.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Local compiler and retained dependency object trust"
+    ],
+    "content_sha256": "ba272200f773e22f51dcfbee48a4a7678b00dd12e14fd53b04b08f38f1e6119e"
+  },
+  {
+    "id": "F13",
+    "kind": "local-artifact",
+    "description": "Stable original compiler receipt: LiteralStatements",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F13/LiteralStatements.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Local compiler and retained dependency object trust"
+    ],
+    "content_sha256": "04a0d0551a8c9216b65ff24852588e16dbb860570cabeffc65ebd7db909656ee"
+  },
+  {
+    "id": "F14",
+    "kind": "local-artifact",
+    "description": "Stable original compiler receipt: FrontierAudit",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F14/FrontierAudit.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Local compiler and retained dependency object trust"
+    ],
+    "content_sha256": "6b2517e7dfbba6eeaf30df9ee84b6c5286e73a8194713283ce919dcd874eadc4"
+  },
+  {
+    "id": "F15",
+    "kind": "local-artifact",
+    "description": "Stable original compiler receipt: PairSix",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F15/PairSix.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Local compiler and retained dependency object trust"
+    ],
+    "content_sha256": "aa9f54903824c08b9e0acc9fadc2fbe9278f2cdafe5f324daa94f1831883e07d"
+  },
+  {
+    "id": "F16",
+    "kind": "primary-web-output",
+    "description": "Actual retrieved primary arXiv/A1K metadata and introductory text",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F16/primary-web-initial.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Tool-returned representation; bounded source access"
+    ],
+    "content_sha256": "dd6d8820fb61e8983d750f1256fb8d2c73558fd651f3d459af35ae3852015226"
+  },
+  {
+    "id": "F17",
+    "kind": "primary-web-output",
+    "description": "Actual retrieved arXiv sections 6.3/8 and A1K T7/T8 text",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F17/primary-web-targeted.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "No independent replay of external enumeration"
+    ],
+    "content_sha256": "8d7cc0d21ea02e6f22861916398214a1ca73d2c83cc1fe752c82b115ed6a222d"
+  },
+  {
+    "id": "F18",
+    "kind": "local-artifact",
+    "description": "Exact ordinary-integer 6031-quadruple diagnostic",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F18/support53-diagnostic.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Diagnostic code is not the universal formal proof"
+    ],
+    "content_sha256": "7408cdb1ed41da0a7711d8f80979d468516ab7799b20fafcaa243ca4835ca392"
+  },
+  {
+    "id": "F19",
+    "kind": "local-artifact",
+    "description": "Exact 1204-triple grid diagnostic",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F19/independent-support56-grid.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Ordinary diagnostic; Lean leaf separately recorded"
+    ],
+    "content_sha256": "3d437c2364693d7c179d6ad2c54fda9b2d475e57fe8a23035447067aca62a589"
+  },
+  {
+    "id": "F20",
+    "kind": "primary-connector-output",
+    "description": "Actual GitHub compare result for pinned and observed OpenAI heads",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F20/openai-head-delta.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Bounded repository comparison; no claim of external authenticity"
+    ],
+    "content_sha256": "45de8204c5f36ab17a0b32ca08afaf87430daabb62ad9d040b53f606b8883f7c"
+  },
+  {
+    "id": "F21",
+    "kind": "local-artifact",
+    "description": "Actual failed Profile A model-building attempt",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F21/profile_a_result.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "No solver call and no SAT/UNSAT conclusion"
+    ],
+    "content_sha256": "cd02dc03af078a84a6930d615b985ad90b815f3acac530a13965f5c62de81800"
+  },
+  {
+    "id": "F22",
+    "kind": "local-artifact",
+    "description": "Actual packaged source scan result",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F22/source-scan-final.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Lexical/source scan only; axiom audit supplies distinct evidence"
+    ],
+    "content_sha256": "2a0c4881a71302386d49c3bc821c698ce807fdc5dafa61869c26d2291d6a2788"
+  },
+  {
+    "id": "F23",
+    "kind": "local-artifact",
+    "description": "Observed Lean runtime/version and local environment",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F23/observed-runtime.json",
+    "method": "Copied actual local bytes before final round 1",
+    "status": "limited",
+    "limitations": [
+      "Not independent environment control"
+    ],
+    "content_sha256": "82fbc8e9fed8db7432040b576e330bf194a723a89eb670322c5b8ea2fb2d16c6"
+  },
+  {
+    "id": "F24",
+    "kind": "new-module-replay",
+    "description": "Fresh empty-output-directory replay: fourteen new modules and 66-root audit. Individual receipts in this directory are approved evidence.",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F24/summary.json",
+    "method": "Actual replay script execution and copied receipts",
+    "status": "limited",
+    "limitations": [
+      "Retained A1K and mathlib dependency objects; not a clean full rebuild or independent reproduction"
+    ],
+    "content_sha256": "67aab1c86f5b6740b318234c943e549575b56d4b0c5d6adc394c403a868afb6d"
+  },
+  {
+    "id": "F25",
+    "kind": "negative-control-receipt",
+    "description": "Actual Lean audit failures for missing root, non-theorem and disallowed axiom; all directory files approved evidence",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F25/summary.json",
+    "method": "Observed isolated Lean failures and copied actual outputs",
+    "status": "limited",
+    "limitations": [
+      "Controls validate audit rejection behavior, not independent proof correctness"
+    ],
+    "content_sha256": "4a5bc04e31c836a3e24514aaaef531d6757cb81f092cf5ca29075e151e8ea9a0"
+  },
+  {
+    "id": "F26",
+    "kind": "exact-diagnostic",
+    "description": "Exact numeric relaxation sensitivity; adjacent Python script is approved evidence",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F26/envelope_sensitivity.json",
+    "method": "Ordinary exact Python enumeration",
+    "status": "limited",
+    "limitations": [
+      "No new Lean theorem; maximizing degree tuples are not set families"
+    ],
+    "content_sha256": "c30a16d16fc95db418e1df16d15b0a56cb41ec9dac67e8cddc518713301ce541"
+  },
+  {
+    "id": "F27",
+    "kind": "rendered-preview",
+    "description": "Actual v2 HTML/PDF, eight rendered PNG pages, renderer source and receipts, all files in manifest approved evidence",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/preview/v2/manifest.json",
+    "method": "Local native HTML plus ReportLab paragraph-continuity PDF; Poppler page rendering and prose checks",
+    "status": "limited",
+    "limitations": [
+      "Preview, not publication; readable source notation; no PDF tagging claim; generic validator wording about MathML is not a claim that the unavailable converter ran"
+    ],
+    "content_sha256": "3e5f929b1d757d7305f30a0ea7174be216b3b1010024dc1916282c40977c09ad"
+  },
+  {
+    "id": "F28",
+    "kind": "rendered-preview",
+    "description": "Actual v3 HTML/PDF and eight PNG pages bound to revised bibliography; all manifest files approved evidence",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/preview/v3/manifest.json",
+    "method": "Local native HTML and ReportLab PDF; Poppler rendering and prose checks",
+    "status": "limited",
+    "limitations": [
+      "Preview only; source notation remains readable but not fully typeset; no tagging claim"
+    ],
+    "content_sha256": "8bea1fa8b7ef5abefad24406778efea529a26c20b5f421f1dbb3afc45da39011"
+  },
+  {
+    "id": "F29",
+    "kind": "source-closure-replay",
+    "description": "Composite 100 inherited plus 14 new module source rebuild and 66-root audit; all JSON receipts and driver sources in directory approved",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F29/summary.json",
+    "method": "Actual serial source rebuild; frozen composite and child receipts",
+    "status": "limited",
+    "limitations": [
+      "Lean/mathlib/third-party package caches retained; same host/controller; child generic wording qualified by composite input provenance"
+    ],
+    "content_sha256": "4205ed4fddb1a906a1bf6a0f8bdbbcf27b2a9038f069f36a4f153b0be37c36fd"
+  },
+  {
+    "id": "F30",
+    "kind": "artifact-integrity",
+    "description": "Formal source and receipts archive delivery receipt plus adjacent independent coordinator hash check",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F30/formal-delivery.json",
+    "method": "Actual ZIP entry hashes checked for 342 files and 172 protected source entries",
+    "status": "limited",
+    "limitations": [
+      "Unsigned local integrity; no independent certification"
+    ],
+    "content_sha256": "44187cd50cbe1d9d3c7d66e3142f443b59034494acc4ccb7f492a43a6356b1d5"
+  },
+  {
+    "id": "F31",
+    "kind": "rendered-preview",
+    "description": "Actual v4 HTML/PDF, eight PNG pages, renderer and receipts; all manifest files approved evidence",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/preview/v4/manifest.json",
+    "method": "Native HTML and corrected-heading ReportLab PDF; Poppler rendering/prose checks",
+    "status": "limited",
+    "limitations": [
+      "Preview only; readable source notation; no tagging conformance claim"
+    ],
+    "content_sha256": "13eb8edc7efcac01cae7cc3084cb2711ab0394ca076a3de2cdf0ac83f244a529"
+  },
+  {
+    "id": "F32",
+    "kind": "bounded-text-comparison",
+    "description": "Actual copyeditor exact-token comparison and adjacent executable script; agent-reviewed matches, no human review",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F32/copyeditor-reuse.json",
+    "method": "NFKC casefold word tokens, maximal contiguous matches of at least eight tokens, separate accessible primary excerpt segments",
+    "status": "limited",
+    "limitations": [
+      "Only F16/F17 accessible excerpts; no paraphrase detection, comprehensive originality, or mathematical priority certification"
+    ],
+    "content_sha256": "c451cc8004a1d55eaa1cb8e6cc5b0f6edeae681f8f16a80284c6c1f68e2369b8"
+  },
+  {
+    "id": "F33",
+    "kind": "historical-source-inventory",
+    "description": "Earlier pinned OpenAI source inventory, source preflight and CONTENTS bytes; all manifest files approved for source-provenance review only",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F33/manifest.json",
+    "method": "Preserved actual earlier source inventory and source-only preflight records",
+    "status": "limited",
+    "limitations": [
+      "Historical source inventory does not establish current compiler/runtime coverage or intellectual novelty; no OpenAI theorem is a protected premise"
+    ],
+    "content_sha256": "c055c15ed2740dac2de750166195d4f8992a568123783710ff07d7db927c912e"
+  },
+  {
+    "id": "F34",
+    "kind": "rendered-preview-and-correction",
+    "description": "Actual v5 eight-page PDF, HTML with six semantic MathML displays and scroll containment, eight PNGs, exact formula mappings and source changes, renderer, receipt and historical v4 receipt erratum; all manifest files approved evidence",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/preview/v5/manifest.json",
+    "method": "Native HTML math conversion plus local bounded PDF mappings; Poppler prose extraction and page rendering",
+    "status": "limited",
+    "limitations": [
+      "Preview only; historical v4 receipt overstatement corrected explicitly without changing frozen records",
+      "PDF source-style code blocks retained; no browser-layout or accessibility conformance certification"
+    ],
+    "content_sha256": "dbdeedc91bfb0094eebccf10a08b62d9b2fefe311266b573aba896e5aef8999d"
+  },
+  {
+    "id": "F35",
+    "kind": "rendered-preview",
+    "description": "Actual v6 HTML/PDF, eight PNG pages, source changes, mappings, renderer, receipts and erratum; all manifest files approved evidence",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/preview/v6/manifest.json",
+    "method": "Native MathML plus explicit PDF formula mappings; multiplication in inline expressions now protected from Markdown emphasis",
+    "status": "limited",
+    "limitations": [
+      "No browser/accessibility conformance certification; source-style math code blocks retained"
+    ],
+    "content_sha256": "f037bfd49dd04502041b9da705c207807e4f289d08028843eb6741b6a3263a0a"
+  },
+  {
+    "id": "F36",
+    "kind": "bounded-text-comparison",
+    "description": "Actual round-8 fresh manuscript comparison and adjacent computation/script; all files in directory approved evidence",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F36/reuse-agent-review.json",
+    "method": "Agent-executed exact token comparison and inspection of every reported match",
+    "status": "limited",
+    "limitations": [
+      "Binds v5 manuscript before inline-code repair; round9 rerun assigned on exact v6 bytes",
+      "F16/F17 accessible excerpts only; no semantic plagiarism or priority certification"
+    ],
+    "content_sha256": "981665715db13f389b6587ce2c38357bea686c9e94d2a8dc17d1d3ec17b89fbf"
+  },
+  {
+    "id": "F37",
+    "kind": "delivery-link-layout",
+    "description": "Actual preview and planned release relative-link existence/hash comparison; referenced target files approved for read-only integrity verification",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F37/link-layout-check.json",
+    "method": "Filesystem path resolution and SHA256 equality",
+    "status": "limited",
+    "limitations": [
+      "No cross-viewer relative-URI behavior certification; publication gate remains pending"
+    ],
+    "content_sha256": "6e81543d53a5cc6dede7c0e944a6588c2923c19520310d403e807e5bf54f8933"
+  },
+  {
+    "id": "F38",
+    "kind": "final-bounded-text-comparison",
+    "description": "Actual round9 comparison of exact final v6 manuscript; adjacent computation and executable script approved evidence",
+    "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261019/review-final/evidence/F38/reuse-agent-review.json",
+    "method": "Agent-executed normalized exact-token comparison and explicit classification of all matches",
+    "status": "limited",
+    "limitations": [
+      "Only accessible F16/F17 source excerpt segments; no human review, semantic-paraphrase detection, comprehensive originality or priority certification"
+    ],
+    "content_sha256": "b792da5956f7fdfadc657c20405d081dfeb968abfc220a91b9d9ca4c287346f1"
+  }
+]

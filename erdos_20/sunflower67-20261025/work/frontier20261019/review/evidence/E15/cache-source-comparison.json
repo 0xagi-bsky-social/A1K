@@ -1,0 +1,5 @@
+{
+  "pinned_module_count": 155,
+  "mismatches": [],
+  "limitation": "Matching source does not authenticate cached compiled bytes; new declarations are compiled against these caches."
+}

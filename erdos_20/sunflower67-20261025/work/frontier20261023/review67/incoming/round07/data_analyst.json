@@ -1,0 +1,60 @@
+{
+  "agent_id": "/root/r67_data",
+  "role": "data_analyst",
+  "context_id": "/root/r67_data",
+  "round": 7,
+  "snapshot_sha256": "27c12126b19a0258f4f2fefc8ee5d528eb5ad1fe7cabf43512ce95a370032455",
+  "manuscript_sha256": "a8f164ea1218b704cccd43c618fc2166f5ab636d9c121e7713f7c797d221b2b9",
+  "summary": "Three scoped challenges found no missing profile, lost multiplicity, or incorrectly asserted strict exclusion. Independent profile reconstruction strengthens the coverage evidence; bounded interface controls preserve Alpha's distinction between actual deletion sets and their cardinalities. Hashes and roster match. These checks do not certify all model builders, replay the complete star search, or authenticate H27.",
+  "evidence_ids": [
+    "degree16",
+    "degree19",
+    "round4-committed",
+    "round6-committed"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "data-R3-pass-semantics",
+      "statement": "A successful arithmetic replay still need not exclude its target: D19 has one exact equality among 43 PASS records. The ordinary equality argument remains indispensable.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Retain the explicit strictness flags and separate Ysingle equality proof. The current complete argument does so; no new repair is requested.",
+      "evidence_ids": [
+        "degree19"
+      ]
+    }
+  ],
+  "revisions": [],
+  "checks": [
+    {
+      "scope": "D16 profile completeness beyond matching aggregate counts",
+      "method": "Independently enumerated bounded compositions and normalized rotations of each tuple and its reversal; compared exact ordered representatives with D16-fibre-k3-independent.json through k6. Checked every dihedral map preserves the stated adjacency.",
+      "observation": "Raw domains contain 8092,32802,2366,1 compositions. Their 543,1541,103,1 representatives match all 2188 recorded profiles exactly, with no missing, extra or duplicated representative. Thus matching counts are backed by set equality here. Source inspection of replay_d16_fibres.py also confirms profile gaps and partial-domain tags are checked. This does not independently reconstruct the 124323 star vectors.",
+      "result": "supported",
+      "evidence_ids": [
+        "degree16"
+      ]
+    },
+    {
+      "scope": "Weighted deletion-set inclusion, following committed Alpha control",
+      "method": "Read d16_fibre_reconstruction.cpp's completed-vector block and Alpha's round4 objection. For all 6561 A3 weight vectors in {0,1,2}^8, explicitly labelled each distinct star member and compared actual deletion sets with occupied-coordinate masks for all ordered index pairs.",
+      "observation": "All 419904 inclusion comparisons agree with the implemented mask rule; cardinality comparison alone produces 176256 false positives. Multiplicities remain in q and in the summed a_j-t_j terms. These are interface controls, including nonfeasible star vectors, not a replacement for the degree16 search.",
+      "result": "supported",
+      "evidence_ids": [
+        "degree16",
+        "round4-committed"
+      ]
+    },
+    {
+      "scope": "Integer-input and false-PASS boundaries",
+      "method": "Exercised unchanged replay_degree19.py json_int in normal and optimized Python without loading a numerical model; independently recomputed saved numerator/gap identities and rational reductions across the hash-bound complete replay index.",
+      "observation": "Both modes reject booleans, floats, numeric strings and null, while accepting exact integers including 2^100. The 43 records comprise 29 strict bounds,13 negative gaps and one equality: Ypattern01-Z has 490000000000=49*10000000000. Its conclusion explicitly denies exclusion, and D19-complete-argument.md invokes the ordinary equality proof. This tests parser behavior and saved arithmetic accounting, not fresh multiplier or model reconstruction. Fresh controls are preserved in /tmp/r67_data_round07/.",
+      "result": "supported",
+      "evidence_ids": [
+        "degree19"
+      ]
+    }
+  ]
+}

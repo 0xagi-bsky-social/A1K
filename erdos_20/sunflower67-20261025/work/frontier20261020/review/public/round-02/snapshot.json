@@ -1,0 +1,957 @@
+{
+  "snapshot": {
+    "run_id": "frontier20261020-boundary80-final-review",
+    "contract_sha256": "90d2d9a768c921fd7766a8bdf668ffbf291886ce0f2ed7a753bd988d3ecfddc5",
+    "roster_sha256": "3781e9aad13463cedea3be14fe6e134725b6e05b7aaa99ad8dd9c4c5d9076136",
+    "round": 2,
+    "phase": "source-map",
+    "manuscript_sha256": "d786448baf9b526f72001e0e8ddbb582409cc728264a2074b44afde550ea6dc6",
+    "previous_round_sha256": "dd835cf4004f712ed4d6e0ccd6d5836c04cfdc33a62b0610bfff379dd18ad058",
+    "evidence": [
+      {
+        "id": "admission-v1",
+        "kind": "research-contract",
+        "description": "Substantial-target review admission",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/admission-v1/review-admission.json",
+        "method": "Root declaration bound to successful proof receipts",
+        "status": "limited",
+        "limitations": [
+          "Admission is a research decision, not independent certification"
+        ],
+        "content_sha256": "95a2713bd5350d74f80f5f0e6226406cc9ba32b8635ef9fd2fa98a5735426ac5"
+      },
+      {
+        "id": "primary-sources-v1",
+        "kind": "primary-source-ledger",
+        "description": "Actual 20 October search and primary-source retrieval notes",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/primary-sources-v1/primary-source-check-20261020.json",
+        "method": "Read local record of actual browser access",
+        "status": "limited",
+        "limitations": [
+          "Bounded searches; local notes do not authenticate external pages or prove exhaustive priority"
+        ],
+        "content_sha256": "3a3a84de13981539076dacb0b59efceb8360963e5173533a4671e2c71ab5842b"
+      },
+      {
+        "id": "terminal-audit-v1",
+        "kind": "formal-proof-receipt",
+        "description": "Eight terminal roots and expanded conditional theorem",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/terminal-audit-v1/FinalEightyAudit.json",
+        "method": "Successful Lean output with allow-listed axiom audit",
+        "status": "limited",
+        "limitations": [
+          "Same evaluator and cached dependencies; source closure pending"
+        ],
+        "content_sha256": "b0b35c7b4f712221ad7a18dc620880b383914450d258272dc6e26a21fbb2531a"
+      },
+      {
+        "id": "two-star-audit-v1",
+        "kind": "formal-proof-receipt",
+        "description": "Unconditional two-independent-twenty-star theorem and literal Profile B exclusion",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/two-star-audit-v1/TwoHighEightyAudit.json",
+        "method": "Successful Lean output and printed theorem",
+        "status": "limited",
+        "limitations": [
+          "Same evaluator and cached dependencies; source closure pending"
+        ],
+        "content_sha256": "115ab7cff2d18b6d78515628dff3917bfd45384e546d24e802735f7039253e8d"
+      },
+      {
+        "id": "profile-a-audit-v1",
+        "kind": "formal-proof-receipt",
+        "description": "Literal Profile A exclusion from I27",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/profile-a-audit-v1/ProfileAClosedAudit.json",
+        "method": "Successful Lean audit output",
+        "status": "limited",
+        "limitations": [
+          "Same evaluator and cached dependencies; source closure pending"
+        ],
+        "content_sha256": "61f49ee5379931a6c33fa669878bd8ce2db9b5668a12afbb89d2f5b71ba62883"
+      },
+      {
+        "id": "lean-source-formal-v1",
+        "kind": "formal-source",
+        "description": "formal Lean source snapshot",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-formal-v1",
+        "method": "Byte copying and SHA-256 manifest",
+        "status": "available",
+        "limitations": [],
+        "content_sha256": "0c5914e468740d6de8be7f36ae37aa95817442d0b02fd546a1260683a978b55d"
+      },
+      {
+        "id": "lean-source-theory-v1",
+        "kind": "formal-source",
+        "description": "theory Lean source snapshot",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-theory-v1",
+        "method": "Byte copying and SHA-256 manifest",
+        "status": "available",
+        "limitations": [],
+        "content_sha256": "e0e67cb5efece6e4dfce3d0b2701efb3c89c72c6ac158c24a18c04f364cb5388"
+      },
+      {
+        "id": "lean-source-compute-v1",
+        "kind": "formal-source",
+        "description": "compute Lean source snapshot",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/lean-source-compute-v1",
+        "method": "Byte copying and SHA-256 manifest",
+        "status": "available",
+        "limitations": [],
+        "content_sha256": "0f2542a2f9d02d393b36015c7473c20f2804b3094ffb11b0a87c49109c99495c"
+      },
+      {
+        "id": "universal45-diagnostic-v1",
+        "kind": "exploratory-computation",
+        "description": "Python finite relative-geometry diagnostic for stronger45 conjecture",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/universal45-diagnostic-v1/universal_two_star.json",
+        "method": "Recorded exact finite enumeration",
+        "status": "limited",
+        "limitations": [
+          "No Lean normalization or universal45 theorem"
+        ],
+        "content_sha256": "4189d47f0ba96c4f8e4ce8719c71290b28258b73ae4b93c2ed0005d616fa0591"
+      },
+      {
+        "id": "universal45-crosscheck-v1",
+        "kind": "exploratory-computation",
+        "description": "C++ diagnostic crosscheck",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/universal45-crosscheck-v1/b_universal_check.json",
+        "method": "Recorded finite enumeration",
+        "status": "limited",
+        "limitations": [
+          "External diagnostic, not kernel proof"
+        ],
+        "content_sha256": "99420e08e17e639deae4146e1e569a18282623765a1e4e25a6a03032edbea1f2"
+      },
+      {
+        "id": "sharp45-failure-v1",
+        "kind": "failed-formal-attempt",
+        "description": "Resource-limited45 witness attempt",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/sharp45-failure-v1/Sharp45.json",
+        "method": "Retained unsuccessful Lean run",
+        "status": "limited",
+        "limitations": [
+          "No successful proof receipt"
+        ],
+        "content_sha256": "ad7be50ed8eaccb3927465177f10eb79efdc40cc044d9cd48428ed5fa89b746d"
+      },
+      {
+        "id": "closure-pending-v1",
+        "kind": "source-rebuild-status",
+        "description": "Source-closure status at review initialization",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-pending-v1/summary.json",
+        "method": "Frozen status receipt",
+        "status": "limited",
+        "limitations": [
+          "Source-closure rebuild pending/retry underway; no completion inferred"
+        ],
+        "content_sha256": "de11e63ae63bf201dd2babc661f3f6c903dada70f023bf49a9b2adc2d682d5d4"
+      },
+      {
+        "id": "closure-complete-v1",
+        "kind": "source-closure-verification",
+        "description": "Completed source closure:161 modules,63 fresh and98 source-matched prior successful rebuilds",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-complete-v1/summary.json",
+        "method": "Read completed rebuild output and freeze exact bytes",
+        "status": "available",
+        "limitations": [
+          "Same evaluator and pinned dependency caches; not a clean-toolchain or independent reproduction"
+        ],
+        "content_sha256": "b77a97fb49054440e4cbf077add8f60b491b1c973972aad768e9035502d0931c"
+      },
+      {
+        "id": "closure-manifest-v1",
+        "kind": "source-closure-verification",
+        "description": "Exact source closure manifest",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-manifest-v1/manifest.json",
+        "method": "Read completed rebuild output and freeze exact bytes",
+        "status": "available",
+        "limitations": [
+          "Same evaluator and pinned dependency caches; not a clean-toolchain or independent reproduction"
+        ],
+        "content_sha256": "a7e07753ef9b6e48992297177601cf17653710cad014cb2ed72362aab7f02666"
+      },
+      {
+        "id": "closure-audit-roots-v1",
+        "kind": "source-closure-verification",
+        "description": "66 unique reaudited roots:64 Frontier and2 inherited",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/closure-audit-roots-v1/audit-root-summary.json",
+        "method": "Read completed rebuild output and freeze exact bytes",
+        "status": "available",
+        "limitations": [
+          "Same evaluator and pinned dependency caches; not a clean-toolchain or independent reproduction"
+        ],
+        "content_sha256": "f0519f021466fc9cc793022aa7601c753643a4c20ae836a7572dc89d9d72d385"
+      },
+      {
+        "id": "portable-formal-v1",
+        "kind": "formal-source-and-reproduction",
+        "description": "Portable161source closure with manifests, audit logs, reproduction recipe and attribution",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/portable-formal-v1",
+        "method": "Frozen source bundle with per-file SHA-256",
+        "status": "available",
+        "limitations": [
+          "Recipe requires pinned Lean and mathlib dependencies; no separate-environment replay"
+        ],
+        "content_sha256": "461afa967fae6df8d3b54a209d4c1e6a6fd9470ad69f2b8f1295a5923de82067"
+      },
+      {
+        "id": "preview-d786-v1",
+        "kind": "rendered-preview",
+        "description": "Six-page matching manuscript preview for d786448baf9b, HTML/PDF and renderer fidelity record",
+        "locator": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261020/review/evidence/preview-d786-v1",
+        "method": "Exact copied preview bytes and per-file hashes",
+        "status": "available",
+        "limitations": [
+          "Typesetter visual audit pending; renderer record is not independent validation"
+        ],
+        "content_sha256": "ac8feccd6bc4d8b72a28bcd176f8b0914904236c8fc2a9c4d434b78e608aee1d"
+      }
+    ],
+    "evidence_sha256": "1bd8ee5d797e2ad7d5fa02d683785e6d8df6eba3525c5c3b4117e1d69656ec31",
+    "verification": [
+      {
+        "scope": "facts",
+        "status": "limited",
+        "method": "Read primary-source record and proof receipts",
+        "observations": [
+          "Definitions and assurance boundaries ready for independent role audit"
+        ],
+        "limitations": [
+          "Source ledger is bounded; specialist analysis pending"
+        ],
+        "evidence_ids": [
+          "primary-sources-v1",
+          "terminal-audit-v1"
+        ]
+      },
+      {
+        "scope": "citations",
+        "status": "limited",
+        "method": "Check supplied primary record locators",
+        "observations": [
+          "Primary arXiv and pinned A1K references explicitly separated"
+        ],
+        "limitations": [
+          "No exhaustive bibliography or priority claim"
+        ],
+        "evidence_ids": [
+          "primary-sources-v1"
+        ]
+      },
+      {
+        "scope": "logic",
+        "status": "limited",
+        "method": "Read successful printed Lean theorem and transitive axiom receipts plus completed source-closure receipt",
+        "observations": [
+          "I27 remains an antecedent; unconditional two-star root has no I27 antecedent; closure receipt records63fresh and98source-matched reused modules, with66unique auditedroots"
+        ],
+        "limitations": [
+          "Same evaluator with pinned dependency caches; detailed specialist mathematical audit continues"
+        ],
+        "evidence_ids": [
+          "terminal-audit-v1",
+          "two-star-audit-v1",
+          "profile-a-audit-v1",
+          "closure-complete-v1",
+          "closure-audit-roots-v1",
+          "portable-formal-v1"
+        ]
+      },
+      {
+        "scope": "methodology",
+        "status": "limited",
+        "method": "Inspect admission and diagnostic scope",
+        "observations": [
+          "Actual-family proof distinguished from exploratory enumeration"
+        ],
+        "limitations": [
+          "Formal and ordinary mathematical assurance differ"
+        ],
+        "evidence_ids": [
+          "admission-v1",
+          "universal45-diagnostic-v1"
+        ]
+      },
+      {
+        "scope": "data",
+        "status": "limited",
+        "method": "Read exact diagnostic outputs and failed attempt",
+        "observations": [
+          "No universal45 or SAT UNSAT premise claimed"
+        ],
+        "limitations": [
+          "Diagnostic pipeline not kernel verified; specialist recomputation pending"
+        ],
+        "evidence_ids": [
+          "universal45-diagnostic-v1",
+          "universal45-crosscheck-v1",
+          "sharp45-failure-v1"
+        ]
+      },
+      {
+        "scope": "text_reuse",
+        "status": "limited",
+        "method": "No broad corpus detector run",
+        "observations": [
+          "Accessible-source local comparison assigned to copyeditor"
+        ],
+        "limitations": [
+          "No exhaustive originality or plagiarism-free claim"
+        ],
+        "evidence_ids": [
+          "primary-sources-v1"
+        ]
+      }
+    ],
+    "verification_sha256": "18fb2d59b84bce3874486715fb40014cf36ad25061abcaef793ae72d601cb34f",
+    "public_state": {
+      "prior_round": 1,
+      "prior_round_sha256": "dd835cf4004f712ed4d6e0ccd6d5836c04cfdc33a62b0610bfff379dd18ad058",
+      "committed_findings": [
+        {
+          "agent_id": "/root/review80_coordinator/academic_writer",
+          "role": "academic_writer",
+          "summary": "The abstract and main statements consistently distinguish the local conditional implication I(27) ⇒ G(80), the unconditional two-star structural theorem, and the ordinary corollary that invokes an external computational theorem. The numerical improvement is explicitly relative to two identified baselines and carries no global-priority claim. One definition repair is needed for a fully self-contained numerical statement: f(4,3) is used without specifying whether it denotes a maximum sunflower-free size or a forcing threshold, and the intersecting convention is implicit.",
+          "decision": "revise",
+          "required_revisions": [
+            "In Section 1 explicitly define intersecting as pairwise nonempty intersection for distinct members, and define f(k,r) (or at least f(4,3)) as the maximum size of an r-sunflower-free k-uniform family. State that it is the maximum-size convention, so readers using the forcing-threshold convention do not read the displayed bound off by one."
+          ],
+          "findings": [
+            {
+              "disposition": "Add the explicit maximum-size and pairwise-intersection definitions near G(N) and I(N); existing numerical claims need no change if this intended convention is confirmed.",
+              "evidence_ids": [],
+              "id": "notation-convention",
+              "severity": "minor",
+              "statement": "The numerical contribution uses f(4,3) in the abstract and Corollary 4 but never defines f; the common maximum-size and forcing-threshold conventions differ by one. The word intersecting is also left implicit.",
+              "status": "open"
+            }
+          ],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [],
+              "method": "Read the complete frozen manuscript and compared each abstract claim with Theorems 1–3, Corollary 4, and the scope paragraphs in Sections 5–7. Verified the reviewed manuscript SHA-256 against the frozen snapshot.",
+              "observation": "Theorem 1 explicitly requires two distinct degree-twenty centers that never co-occur and imposes no support bound. Theorem 3 retains I(27); the external theorem is invoked only in Corollary 4. The abstract preserves exactly those distinctions. The assurance label is axiom-audited and the source-rebuild limitation is disclosed.",
+              "result": "supported",
+              "scope": "Abstract-to-main-statement hypothesis alignment"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Traced definitions from the abstract through Section 1 and Corollary 4, checking whether every quantity in 54 ≤ f(4,3) ≤ 80 has an explicit convention.",
+              "observation": "G(N), the sunflower definition, distinctness and empty cores are specified, but f(4,3) is not defined. This is a definitional ambiguity rather than evidence of a mathematical error; the intended maximum-size convention is inferable but should be written.",
+              "result": "contradicted",
+              "scope": "Self-contained interpretation of the numerical endpoint"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Compared the introduction, main theorem list and closing contribution paragraph for inherited/new and ordinary/formal distinctions.",
+              "observation": "Inherited degree/link/profile statements are identified as inherited; new actual-family profile exclusions are distinguished from numerical diagnostics; the preprint bound 83 and inherited conditional bound 81 are separate comparisons. Universal45, all-rank resolution, exhaustive priority and independent certification are expressly unclaimed. This framing is internally consistent; I have not independently verified external sources in this phase.",
+              "result": "supported",
+              "scope": "Contribution and novelty calibration"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/alpha",
+          "role": "alpha",
+          "summary": "The frozen question meets substantial-target admission: the printed terminal theorem composes actual Profile A and B exclusions, and the two-star theorem has explicit family hypotheses with no I27 antecedent. The manuscript consistently separates the local conditional global theorem, the unconditional structural theorem, the external ordinary corollary, and failed diagnostics. One definition should be made explicit before final acceptance: f(4,3) must denote the maximum sunflower-free family size rather than the forcing threshold.",
+          "decision": "revise",
+          "required_revisions": [
+            "Define f(4,3) explicitly as the maximum cardinality of a finite four-uniform three-sunflower-free family (if that is the intended convention), so the displayed 54 ≤ f(4,3) ≤ 80 cannot be read as a forcing-threshold statement."
+          ],
+          "findings": [
+            {
+              "disposition": "Add one explicit definition near Section 1 or the first occurrence of f(4,3).",
+              "evidence_ids": [],
+              "id": "f-convention",
+              "severity": "minor",
+              "statement": "The paper defines G(N) and I(N), but never defines f(4,3). Both maximum-free-size and forcing-threshold conventions occur for sunflower extremal functions; they differ by one, so Corollary 4 should state the intended convention.",
+              "status": "open"
+            },
+            {
+              "disposition": "Substantial-target admission is supported at the stated same-evaluator axiom-audit assurance level; source closure and prior-art detail remain for later phases.",
+              "evidence_ids": [
+                "admission-v1",
+                "terminal-audit-v1",
+                "two-star-audit-v1",
+                "profile-a-audit-v1"
+              ],
+              "id": "admission-boundary",
+              "severity": "note",
+              "statement": "The supplied receipts show nontrivial actual-family theorem interfaces: Profile A is excluded from I27, Profile B is excluded, and I27→G80 is proved by composition; the unconditional two-star root quantifies over arbitrary finite four-uniform sunflower-free families.",
+              "status": "resolved"
+            }
+          ],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "terminal-audit-v1",
+                "two-star-audit-v1",
+                "profile-a-audit-v1"
+              ],
+              "method": "Read the frozen admission record and exact printed theorem outputs in terminal, two-star and Profile A receipts; compare antecedents with Theorems 1–3 and the abstract.",
+              "observation": "The expanded terminal proposition has a universally quantified I27 antecedent and conclusion G80; its sunflower predicate allows an arbitrary core and uses a three-element subfamily. The independent_twenty_stars root has four-uniformity, sunflower-freeness, distinct centers, degrees twenty, and no joint center membership, with no I27 input. This matches the manuscript and establishes more than an undischarged A/B implication.",
+              "result": "supported",
+              "scope": "Conditional versus unconditional quantifiers and admission"
+            },
+            {
+              "evidence_ids": [
+                "terminal-audit-v1"
+              ],
+              "method": "Check degree-profile sums and the meanings of finite family, distinct petals, empty core, and extremal-function notation against the literal terminal proposition.",
+              "observation": "Profile A gives 20+16·19=324=4·81; Profile B gives 40+14·19+18=324. The literal three-element subfamily predicate excludes repetitions and permits empty core as claimed. The undefined f notation leaves a preventable maximum-versus-threshold ambiguity.",
+              "result": "inconclusive",
+              "scope": "Definition and boundary arithmetic consistency"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/beta",
+          "role": "beta",
+          "summary": "The frozen question and principal statements correctly distinguish the conditional global bound from the unconditional two-star theorem. The reusable incidence lemma has precisely the combinatorial hypotheses asserted, and the extension-weight step is a valid abstract concentration argument. These contributions are substantial actual-family structure; no numerical-profile or diagnostic argument is being substituted for realizability. Later phases should audit the inherited design and trace inputs and rebuild coverage.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [
+            {
+              "disposition": "The manuscript may optionally state this weighted-pair lemma explicitly to make the general contribution easier to reuse; its current argument is sufficient for the stated application.",
+              "evidence_ids": [
+                "lean-source-theory-v1"
+              ],
+              "id": "B1-reusable-concentration",
+              "severity": "note",
+              "statement": "The common-extension-point argument can be understood independently of canonical design coordinates: nonnegative weights of total at most ten, and a nonempty family of two-element sets each carrying weight at least nine, force a common point of weight at least five. This is a useful reusable structural ingredient already correctly applied in Section 4.3.",
+              "status": "claim-qualified"
+            }
+          ],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "lean-source-theory-v1"
+              ],
+              "method": "Read the frozen abstract, definitions, Theorems 1–3 and the complete literal terminal proposition in FinalEighty.lean; compare the quantifiers and antecedents.",
+              "observation": "The terminal root retains universally quantified intersecting bound 27 as an explicit argument. The manuscript describes the two-star bound separately, permits empty sunflower cores and distinct finite-set members, and does not promote the external I27 theorem to a local kernel proof.",
+              "result": "supported",
+              "scope": "Framing and formal hypothesis boundary"
+            },
+            {
+              "evidence_ids": [
+                "lean-source-theory-v1"
+              ],
+              "method": "Read TwoHighIncidence.lean and independently eliminate q from the two counted inequalities: 9(3m≤14|U|−5q)+5(2m≤9q).",
+              "observation": "The result is 37m≤126|U|. The Lean statement needs only four-uniform H, both traces of size at least three, and degree caps 14 on U and 9 on U∩V. No sunflower or ground-size hypothesis is concealed; setting |U|=12 yields m≤40 because 37·41=1517>1512.",
+              "result": "supported",
+              "scope": "Reusable overlap incidence lemma"
+            },
+            {
+              "evidence_ids": [
+                "lean-source-theory-v1"
+              ],
+              "method": "Independently verify the weight pigeonhole argument and inspect how key_heavy and concentrated_impossible use it in ProfileAConcentrated.lean.",
+              "observation": "A used extension pair has total weight at least nine, so one endpoint has weight at least five. A different heavy pair omitting that endpoint would make the total at least fourteen, contradicting ten. Every used key therefore extends through that same point; five design triples through it give at most five keys, hence at most twenty rows. The argument does not require enumerating extension-pair permutations.",
+              "result": "supported",
+              "scope": "Constructive scope of the extension concentration step"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/chief",
+          "role": "chief",
+          "summary": "The question is substantial and correctly framed: the manuscript supplies both actual-family boundary exclusions and a separate unrestricted two-star theorem. The global Lean theorem remains conditional on I(27), while the numerical G(80) deduction is explicitly an ordinary corollary using external computational mathematics. Admission to substantive review is justified; acceptance awaits the later proof, source and reproducibility phases.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [
+            {
+              "disposition": "Maintain this separation through the final version; no revision required in the current framing.",
+              "evidence_ids": [
+                "terminal-audit-v1",
+                "two-star-audit-v1"
+              ],
+              "id": "C1-assurance-scope",
+              "severity": "note",
+              "statement": "The inspected printed terminal proposition contains I(27) as a universally quantified antecedent, whereas the printed independent-twenty-stars root contains only uniformity, sunflower-freeness, distinct centers, exact degrees and noncooccurrence. This supports the manuscript's distinction between conditional global formal theorem and unconditional structural theorem.",
+              "status": "resolved"
+            }
+          ],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "admission-v1",
+                "terminal-audit-v1",
+                "profile-a-audit-v1"
+              ],
+              "method": "Read the frozen manuscript, admission declaration, and the three successful audit receipts; compared explicit theorem types with the stated research question.",
+              "observation": "The Profile A audit prints I(27) implies nonrealizability of A; the terminal audit supplies B exclusion and I(27) implies G(80). Thus this is not merely an implication retaining both A/B exclusions as undischarged premises. No completed source-closure replay is inferred.",
+              "result": "supported",
+              "scope": "Admission and material contribution"
+            },
+            {
+              "evidence_ids": [
+                "terminal-audit-v1",
+                "profile-a-audit-v1"
+              ],
+              "method": "Recomputed degree sums and followed the stated reduction from G(81) plus the exhaustive 81-member dichotomy to G(80).",
+              "observation": "Both profiles have 17 supported points and total degree 324: 20+16·19=324 and 2·20+14·19+18=324=4·81. Excluding both profiles under I(27) removes the only equality case of the inherited upper bound 81; integrality then yields 80. The external I(27) theorem is needed only to instantiate this implication for the ordinary global corollary.",
+              "result": "supported",
+              "scope": "Boundary framing and numerical meaning"
+            },
+            {
+              "evidence_ids": [
+                "two-star-audit-v1"
+              ],
+              "method": "Matched Theorem 1 to the fully printed two-star theorem and examined its independence from the Profile B support/degree census.",
+              "observation": "The printed theorem quantifies over arbitrary Type u and Finset families without I(27), a fixed support, or a degree-eighteen point. Its result is therefore broader than literal Profile B exclusion while remaining fixed rank four. The general all-rank sunflower conjecture is not implied.",
+              "result": "supported",
+              "scope": "Scope of unconditional structural theorem"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/citation_verifier",
+          "role": "citation_verifier",
+          "summary": "The framing accurately separates the new conditional G(80) theorem from the external I(27) input and the earlier A1K reduction. Direct primary-source access confirms the bibliographic identity and definition conventions. No required framing revision arose; explicit introduction of f(4,3) would improve self-containment.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [
+            {
+              "disposition": "Recommend defining f(w,k), or at least f(4,3), at first use; this is an exposition improvement, not a mathematical blocker.",
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "id": "cv-r1-f-notation",
+              "severity": "minor",
+              "statement": "The manuscript uses f(4,3) in its abstract and Corollary 4 without an explicit local definition; its intended maximum-family-size meaning is recoverable from the cited source.",
+              "status": "open"
+            }
+          ],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Opened the arXiv abstract and version-one HTML directly; compared manuscript References 1 and Section 1 with the author line, submission history, introduction and Section 2.1.",
+              "observation": "The five author names, title, v1 date of 5 September 2026, distinct finite-family convention, and permission for an empty sunflower core agree. Direct source: https://arxiv.org/abs/2609.06175 and https://arxiv.org/html/2609.06175v1.",
+              "result": "supported",
+              "scope": "External bibliographic identity and definition conventions"
+            },
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Opened the public A1K report and read its version banner, definitions, boundary discussion and Theorem T8; compared to manuscript Sections 1-2.",
+              "observation": "The report identifies version 13 with cutoff 22 September 2026, I(27) implies G(81), and three still-open inputs to G(80). The manuscript correctly presents its two profile exclusions as additions to that reduction. Source: https://a1k.ai/agentic-math/rank-four-sunflower-free-families.",
+              "result": "supported",
+              "scope": "Inherited contribution boundary"
+            },
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Compared the abstract and Corollary 4 assurance language with the arXiv abstract and Section 6.3 opening, then checked the stated local proposition.",
+              "observation": "The external source asserts intersecting maximum 27 and an exhaustive 28-row exclusion problem. The manuscript retains I(27) as a local Lean hypothesis and identifies the unconditional ordinary corollary as depending on that external result. Enumeration correctness and its code were not independently rerun in this framing review.",
+              "result": "supported",
+              "scope": "External theorem versus local formal claim"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/copyeditor",
+          "role": "copyeditor",
+          "summary": "The framing consistently distinguishes the conditional local Lean implication, the unconditional two-star theorem and the ordinary corollary using attributed external I(27). Definitions identify distinct petals and allow empty cores. Two minor editorial improvements remain; source-text comparison has not yet been performed and no originality certificate is supported.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [
+            {
+              "disposition": "Add the definition near the first appearance or in Section 1. This is an expository clarification, not a mathematical defect.",
+              "evidence_ids": [],
+              "id": "copy-r1-extremal-notation",
+              "severity": "minor",
+              "statement": "The symbol f(4,3) first appears in the abstract without an explicit definition. G(N) and I(N) are defined, but a short definition of f(4,3) as the maximum cardinality of a four-uniform three-sunflower-free family would make the numerical corollary self-contained.",
+              "status": "open"
+            },
+            {
+              "disposition": "Insert spaces in Section 3.2, Section 4 introductory proof, and Section 4.1 during editorial revision.",
+              "evidence_ids": [],
+              "id": "copy-r1-spacing",
+              "severity": "minor",
+              "statement": "Running prose contains fused word-number tokens: “by9”, “by5”, “plus2” and “is66”.",
+              "status": "open"
+            }
+          ],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [],
+              "method": "Read the frozen abstract, Sections 1–2 and concluding limitations against the frozen question and constraints; traced every I(27), G(80), two-star, 45 and all-rank assertion.",
+              "observation": "The external I(27) dependency is explicit in Theorem 3 and Corollary 4; the two-star result states distinct centers and no shared member; unrestricted support refers to the structural theorem and public finite-family bound. The universal45 and all-rank claims are expressly withheld.",
+              "result": "supported",
+              "scope": "Question, definitions and assertion modality"
+            },
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Read the primary-source ledger, bibliography and frozen text_reuse verification entry; assessed what their stated methods actually support.",
+              "observation": "Inherited A1K claims and the external Axante et al. theorem are attributed separately. The ledger contains retrieval summaries, not full source text; reading it does not itself constitute source-text comparison. The snapshot accurately labels text reuse limited and assigns a later accessible-source comparison; no corpus-wide originality claim occurs in the manuscript.",
+              "result": "supported",
+              "scope": "Attribution framing and promised text-reuse coverage"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Read the exact frozen manuscript for symbol introduction, prose/math transitions and repeated local notation.",
+              "observation": "The two minor findings identify the undefined extremal notation and fused word-number tokens. A and B are used both as profile labels and design-support names, but the local phrases make the distinction recoverable. No copyediting issue presently changes the stated mathematical claim.",
+              "result": "supported",
+              "scope": "Mathematical copyediting"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/data_analyst",
+          "role": "data_analyst",
+          "summary": "The numerical framing is internally consistent: both proposed 81-member profiles satisfy the four-uniform incidence total, the residual census agrees with Profile A, and the bound-improvement arithmetic is correct. The manuscript explicitly separates structural theorems from the unproved stronger45 diagnostic. This phase does not establish the diagnostic normalization or rerun its full search.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [
+            {
+              "disposition": "Keep the explicit non-result wording and the normalization limitation throughout subsequent revision.",
+              "evidence_ids": [
+                "universal45-diagnostic-v1",
+                "universal45-crosscheck-v1"
+              ],
+              "id": "diagnostic-scope",
+              "severity": "note",
+              "statement": "Agreement of the two recorded histograms and the correct candidate-space size supports the reported diagnostic counts only; it does not establish that the relative-geometry normalization covers arbitrary two-star families. Section 6 retains that distinction explicitly.",
+              "status": "claim-qualified"
+            }
+          ],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [],
+              "method": "Recomputed exact integer incidence sums in Python from the frozen manuscript.",
+              "observation": "Profile A: 20+16*19=324=4*81. Profile B: 2*20+14*19+18=324. Profile A after deleting 20 star members has 61 members and degree sum 12*14+4*19=244=4*61. Both profiles have 17 supported points; four outsiders remain after the center and 12 link-support points. The comparisons 83-80=3 and 81-80=1 are correct.",
+              "result": "supported",
+              "scope": "Degree-profile and residual-family numerical framing"
+            },
+            {
+              "evidence_ids": [
+                "universal45-diagnostic-v1",
+                "universal45-crosscheck-v1"
+              ],
+              "method": "Read both frozen JSON diagnostic outputs; compare histograms and recompute binomial candidate count.",
+              "observation": "C(28,4)=20,475. Both outputs report 156,960 geometries and histogram 0:156,938, 1:10, 3:10, 5:2, which sums to 156,960. Maximum compatible candidate count is 5. These are stored-output consistency checks, not an independently rerun geometry coverage proof.",
+              "result": "supported",
+              "scope": "Exploratory enumeration framing"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/domain_expert",
+          "role": "domain_expert",
+          "summary": "The framed result concerns finite simple four-uniform families and three distinct petals with an empty core allowed. The printed expanded implication matches those conventions, and the printed independent-two-star root has no I(27), support-size, or coordinate-enumeration hypothesis. The contribution boundary is appropriately the two actual-family exclusions relative to the inherited structural results; priority remains bounded by the disclosed search. One notation clarification would avoid the common maximum-versus-forcing-threshold ambiguity in f(4,3).",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [
+            {
+              "disposition": "Add one sentence defining f(4,3) as the maximum cardinality of a finite three-sunflower-free family of distinct four-element sets. This is an expository precision request, not an objection to the quantified theorem.",
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "id": "f-convention",
+              "severity": "minor",
+              "statement": "The manuscript defines G and I but uses f(4,3) without explicitly defining whether f is the maximum size of a sunflower-free family or the minimum size forcing a sunflower. The displayed 54 to 80 interval uses the former convention.",
+              "status": "open"
+            },
+            {
+              "disposition": "Retain this boundary and the explicit external-I(27) distinction in all final formats.",
+              "evidence_ids": [
+                "lean-source-theory-v1",
+                "two-star-audit-v1",
+                "primary-sources-v1"
+              ],
+              "id": "inherited-versus-new",
+              "severity": "note",
+              "statement": "The degree-twenty link classification, at-most-two-high-point theorem, I(27) to G(81), and boundary reduction are explicitly inherited; only the actual A/B exclusions and their structural lemmas are claimed as present contributions.",
+              "status": "claim-qualified"
+            }
+          ],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "lean-source-theory-v1"
+              ],
+              "method": "Compared Section 1 with the frozen literal_intersecting_twenty_seven_implies_eighty source, including the finite-subfamily cardinality and pairwise-intersection quantifiers.",
+              "observation": "The source requires every family member to have cardinality exactly four and forbids a three-element subfamily with a common pairwise intersection; Finset eliminates repetitions and the existential core has no nonemptiness hypothesis. This matches the prose, including empty-core sunflowers.",
+              "result": "supported",
+              "scope": "Exact rank-four and sunflower conventions"
+            },
+            {
+              "evidence_ids": [
+                "two-star-audit-v1",
+                "lean-source-theory-v1"
+              ],
+              "method": "Read the printed independent_twenty_stars_card_le_eighty theorem in the frozen audit and the expanded terminal implication source.",
+              "observation": "The two-star statement quantifies over arbitrary Type u and needs only uniformity, sunflower-freeness, two distinct degree-twenty points, and their non-cooccurrence. The global terminal theorem retains the universally quantified intersecting bound as hI. No ground-set cutoff occurs in either conclusion.",
+              "result": "supported",
+              "scope": "Unconditional structural statement versus conditional global statement"
+            },
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Compared the contribution statements with the frozen primary-source access ledger and the listed inherited premises; did not independently retrieve the external sources in this phase.",
+              "observation": "The manuscript claims improvement relative to the inspected 83 bound and inherited 81 corollary, while declining exhaustive priority. The ledger supports that bounded framing but cannot establish global novelty.",
+              "result": "supported",
+              "scope": "Contribution and novelty framing"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/literature_reviewer",
+          "role": "literature_reviewer",
+          "summary": "The framing correctly distinguishes the new conditional upper bound from its ordinary corollary using an external computer-assisted theorem. Direct primary-page inspection supports the compared endpoints 83 and 81 and the claim that both profile exclusions remained open in the earlier A1K report. The text appropriately declines exhaustive priority; source mapping and proof-level comparison remain for later phases.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [
+            {
+              "disposition": "Retain explicit external-I27 and bounded-comparison qualifiers in later versions.",
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "id": "LIT-01",
+              "severity": "note",
+              "statement": "The numerical comparison is accurate within the named source family: 80 improves 83 by three and the earlier I27-dependent 81 endpoint by one. The manuscript does not claim that the earlier A1K development already proved unconditional local G81.",
+              "status": "resolved"
+            },
+            {
+              "disposition": "Optional editorial clarification; current mathematical bounds remain interpretable.",
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "id": "LIT-02",
+              "severity": "minor",
+              "statement": "The manuscript uses f(4,3) without a direct standalone definition of f, although the extremal interpretation follows from context and agrees with the external preprint. A short maximum-cardinality definition would avoid confusion with a forcing-threshold convention.",
+              "status": "open"
+            }
+          ],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Read the frozen manuscript and ledger, then independently opened https://arxiv.org/html/2609.06175v1 and inspected definitions, Section 6.3 and Section 8 with web.run.",
+              "observation": "The source uses finite distinct uniform members and permits empty cores, identifies the intersecting maximum as 27 in Proposition 6.8, and separates the upper-bound enumeration from the stated Lean scope. Those conventions match the manuscript. I did not rerun the enumeration.",
+              "result": "supported",
+              "scope": "External I27 attribution and compatible definitions"
+            },
+            {
+              "evidence_ids": [
+                "primary-sources-v1"
+              ],
+              "method": "Independently opened https://a1k.ai/agentic-math/rank-four-sunflower-free-families and compared its T3/T8 and status discussion with frozen Sections 1, 2 and 7.",
+              "observation": "The earlier report states I27 implies G81, leaves both literal A/B exclusions open, and records G80 as an unmet local goal. The present claimed contribution is framed as discharging those exclusions while retaining I27, which is a coherent advance relative to that source. This check establishes no global priority.",
+              "result": "supported",
+              "scope": "Contribution relative to the preceding A1K endpoint"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/logic_auditor",
+          "role": "logic_auditor",
+          "summary": "The framing distinguishes the universal conditional I(27) ⇒ G(80), the unconditional two-independent-twenty-star bound, and the ordinary external-I(27) corollary correctly. The fully expanded terminal proposition matches finite distinct four-set families with three distinct sunflower petals and permits empty core. I(27) is an explicit quantified antecedent, not a hidden project axiom in the inspected source and audit receipts. Detailed proof and source-closure verification remain later-phase work.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [
+            {
+              "disposition": "Retain the explicit antecedent and external-computation qualification in subsequent versions.",
+              "evidence_ids": [
+                "terminal-audit-v1",
+                "profile-a-audit-v1",
+                "lean-source-theory-v1"
+              ],
+              "id": "R1-I27-boundary",
+              "severity": "note",
+              "statement": "The abstract, Theorem 3, Corollary 4, and expanded Lean proposition consistently preserve the external I(27) boundary; no unconditional local global-eightyth theorem is asserted.",
+              "status": "claim-qualified"
+            }
+          ],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "terminal-audit-v1",
+                "lean-source-theory-v1"
+              ],
+              "method": "Read the frozen manuscript Sections 1, 2 and 5 against FinalEighty.lean and the expanded theorem in FinalEightyAudit.json; unpacked the finite H-cardinality-three and pairwise-intersection clauses.",
+              "observation": "Both sides quantify all finite families over α : Type with DecidableEq. H.card = 3 supplies distinct petals; core has no nonempty restriction; four-uniformity makes the diagonal clause in the intersecting assumption harmless. The terminal Type interface and the structural Type* interface are disclosed.",
+              "result": "supported",
+              "scope": "Quantifier and sunflower-definition fidelity"
+            },
+            {
+              "evidence_ids": [
+                "two-star-audit-v1",
+                "lean-source-compute-v1"
+              ],
+              "method": "Read TwoHighEighty.lean and its printed public theorem; traced the degree-at-most-nineteen hypothesis to the inherited unconditional high-point cap in the wrapper.",
+              "observation": "The public two-star theorem requires only four-uniformity, sunflower-freeness, distinct centers of degree twenty and no cooccurrence. It has no I(27), finite-support cutoff, or diagnostic premise. The lower-level theorem accepts the other-degree cap, which the public wrapper derives.",
+              "result": "supported",
+              "scope": "No silently assumed I(27) in unconditional two-star theorem"
+            },
+            {
+              "evidence_ids": [
+                "terminal-audit-v1",
+                "two-star-audit-v1",
+                "profile-a-audit-v1",
+                "lean-source-theory-v1",
+                "lean-source-compute-v1"
+              ],
+              "method": "Inspected audit source for theorem/Prop checks and Lean.collectAxioms allow-list; parsed 31 terminal, two-star and Profile-A audit records, and recomputed manuscript, receipt and recorded-output SHA-256 values.",
+              "observation": "All 31 audit entries report pass with exactly the permitted logical foundation names; all recomputed hashes match. FinalEighty takes hI as a function argument and ProfileAClosed propagates it. This is receipt/source inspection, not a fresh Lean replay or completed dependency-source rebuild.",
+              "result": "supported",
+              "scope": "Declared axiom boundary and receipt consistency"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/methodologist",
+          "role": "methodologist",
+          "summary": "The question and admission threshold are properly framed around actual-family Profile A/B exclusions and a conditional global implication. The frozen receipts support admission to substantive review, while their cached-dependency limitations prevent a stronger source-rebuild conclusion at this phase. The manuscript clearly distinguishes local formal results, an ordinary corollary using external I27, and unproved exploratory cap45 diagnostics.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [
+            {
+              "disposition": "Admission is methodologically justified for review; this is not yet a full proof or source-closure audit.",
+              "evidence_ids": [
+                "admission-v1",
+                "terminal-audit-v1",
+                "two-star-audit-v1",
+                "profile-a-audit-v1"
+              ],
+              "id": "M1-assurance-boundary",
+              "severity": "note",
+              "statement": "Admission receipts print the literal I27-to-G80 proposition and a two-star theorem with actual family hypotheses, so the admitted target is more than an assembled list of undischarged A/B premises. I27 remains an antecedent rather than an audited project axiom.",
+              "status": "resolved"
+            },
+            {
+              "disposition": "Preserve these boundaries in all subsequent revisions and assess their actual finite coverage in the reproducibility phase.",
+              "evidence_ids": [],
+              "id": "M1-exploratory-boundary",
+              "severity": "note",
+              "statement": "Section 6 expressly withholds universal45 and SAT-UNSAT claims and retains failed Lean witness attempts; neither diagnostic is a premise of the proposed 80 proof.",
+              "status": "claim-qualified"
+            },
+            {
+              "disposition": "The manuscript already makes this distinction. Later rounds should assess any newly supplied source-closure evidence at its actual coverage.",
+              "evidence_ids": [
+                "terminal-audit-v1",
+                "two-star-audit-v1",
+                "profile-a-audit-v1"
+              ],
+              "id": "M1-closure-limits",
+              "severity": "note",
+              "statement": "The frozen evidence still describes cached dependencies and a pending source-closure rebuild. Its assurance presently supports the reported elaboration/axiom audit, not a complete source rebuild or independent replay.",
+              "status": "claim-qualified"
+            }
+          ],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [
+                "admission-v1",
+                "terminal-audit-v1",
+                "two-star-audit-v1",
+                "profile-a-audit-v1"
+              ],
+              "method": "Read the frozen admission record and three audit receipts; matched their file SHA256 values to the snapshot and compared printed antecedents/conclusions to Theorems 1–3.",
+              "observation": "All four hashes match. Profile A is printed under IntersectingRankFourUpper 27, Profile B and the terminal implication are passing audit roots, and the printed two-star theorem is quantified over arbitrary finite families and Type u_1 with degree20/noncooccurrence hypotheses. The conditional/global and unconditional/structural scopes are consistent.",
+              "result": "supported",
+              "scope": "Review-admission criterion against literal theorem outputs"
+            },
+            {
+              "evidence_ids": [
+                "terminal-audit-v1",
+                "two-star-audit-v1"
+              ],
+              "method": "Read frozen sections 1–2 and 5–7 and trace which statements are designated inherited, newly proved, externally supplied, or exploratory.",
+              "observation": "Distinct sets, three petals, empty cores, fixed rank, and finite arbitrary support are explicit. I27 is external for the ordinary corollary and a quantified formal antecedent; the 45 diagnostic and UNKNOWN SAT attempt are not used as proof premises. Source closure is not assumed completed.",
+              "result": "supported",
+              "scope": "Definitions, contribution scope, and diagnostic-to-theorem separation"
+            }
+          ]
+        },
+        {
+          "agent_id": "/root/review80_coordinator/typesetter",
+          "role": "typesetter",
+          "summary": "The frozen source presents the question and contribution in a coherent theorem-first structure: inherited inputs precede the claims, the two proof sections follow their statement order, and the assurance boundary appears before reproducibility detail. Mathematical source is inspectable, but this first snapshot contains no rendered HTML or PDF, so visual readability and cross-format fidelity remain untested.",
+          "decision": "continue",
+          "required_revisions": [],
+          "findings": [
+            {
+              "disposition": "Insert normal word/number spacing before the integrated-manuscript render.",
+              "evidence_ids": [],
+              "id": "T1-prose-number-spacing",
+              "severity": "minor",
+              "statement": "Section 3.2 contains joined tokens \"by9\" and \"by5\"; Section 4 contains \"plus2\" and Section 4.1 \"is66\". These are minor source typography defects in sentences explaining the displayed arithmetic.",
+              "status": "open"
+            },
+            {
+              "disposition": "Reserve visual and cross-format acceptance until frozen rendered artifacts exist; no visual inspection is claimed now.",
+              "evidence_ids": [],
+              "id": "T1-render-coverage",
+              "severity": "note",
+              "statement": "No rendered HTML or PDF belongs to this snapshot. Long Lean declarations in the Section 5 table and mixed Unicode inline notation/TeX display notation require later rendered inspection.",
+              "status": "open"
+            }
+          ],
+          "revisions": [],
+          "checks": [
+            {
+              "evidence_ids": [],
+              "method": "Read the exact frozen manuscript from title through references and map abstract claims to numbered statements and subsequent proof sections.",
+              "observation": "Theorem 1 is followed by the Section 3 proof; Theorem 2 by Section 4; Theorem 3 explicitly relies on inherited classification and the two exclusions. Corollary 4 visibly retains its external I(27) dependency, so the typography and heading hierarchy do not conflate ordinary and local formal claims.",
+              "result": "supported",
+              "scope": "Question, definitions and claim hierarchy"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Count display delimiters, inspect the six displayed equation blocks and the principal-root table, and search for words joined to digits in the explanatory arithmetic.",
+              "observation": "All twelve display delimiters pair into six blocks, equations occupy their own paragraphs, and the seven principal roots have descriptive row labels. Four joined prose/number tokens need copy cleanup. The longest root name is too long to assume ordinary table wrapping without a rendered check.",
+              "result": "supported",
+              "scope": "Mathematical source readability"
+            },
+            {
+              "evidence_ids": [],
+              "method": "Inspect the frozen snapshot evidence inventory for HTML/PDF preview evidence.",
+              "observation": "The inventory contains no rendered preview evidence. Font coverage, equation layout, page breaks and table overflow have not yet been visually checked.",
+              "result": "inconclusive",
+              "scope": "Visual QA and cross-format fidelity"
+            }
+          ]
+        }
+      ],
+      "outstanding_issues": {
+        "/root/review80_coordinator/academic_writer:round-1:required-revision-1": {
+          "owner": "/root/review80_coordinator/academic_writer",
+          "text": "In Section 1 explicitly define intersecting as pairwise nonempty intersection for distinct members, and define f(k,r) (or at least f(4,3)) as the maximum size of an r-sunflower-free k-uniform family. State that it is the maximum-size convention, so readers using the forcing-threshold convention do not read the displayed bound off by one."
+        },
+        "/root/review80_coordinator/alpha:round-1:required-revision-1": {
+          "owner": "/root/review80_coordinator/alpha",
+          "text": "Define f(4,3) explicitly as the maximum cardinality of a finite four-uniform three-sunflower-free family (if that is the intended convention), so the displayed 54 ≤ f(4,3) ≤ 80 cannot be read as a forcing-threshold statement."
+        }
+      },
+      "coordinator_changes": [
+        "Section1 now explicitly defines intersecting and maximum-cardinality f(4,3), explains forcing threshold f+1 and reflexive formal predicate equivalence",
+        "Fixed four fused word-number tokens",
+        "Added reusable nonempty collection integer-weight pair statement in Section4.3",
+        "Sourceclosure completed:161 modules,63 fresh and98 matched prior rebuilt modules,66unique axiom-auditedroots; same evaluator and dependency caches",
+        "Renderer-compatible period syntax; matching sixpage HTML/PDF preview added"
+      ]
+    }
+  },
+  "snapshot_sha256": "1dc0d0172357c4ff6ea5687111ab1db1c106942188f80f8d2a8f9c9cb7763619"
+}

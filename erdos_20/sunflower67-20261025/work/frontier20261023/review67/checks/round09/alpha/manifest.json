@@ -1,0 +1,53 @@
+{
+  "round": 9,
+  "agent_id": "/root/r67_alpha",
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 work/frontier20261023/review67/checks/round09/alpha/controls.py",
+  "exit_code": 0,
+  "shared_evidence_hash_changes_from_round08": [],
+  "artifacts": [
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/alpha/controls.py",
+      "sha256": "134bf1cffa95a94bc3dd1c3aa3a0c5dac1eba78f3888e71767611e6533601e36"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round09/alpha/results.json",
+      "sha256": "c33354a4333f7a9253ea053309207e7edd15f90fbe36fb6f8b9cb57ef75e0afa"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/Ysingle-equality-proof.md",
+      "sha256": "34da6c4896bfadb292d652ea084ee2c068117140fb59fee824a8f8916b98e281"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/doubled-P10.md",
+      "sha256": "c857dabd87f7e675def52be708b1f0540324e0fe1bd996f7e3cf5631fb77d1b9"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/C5-internal-compatibility.md",
+      "sha256": "056dea7da66635141b1350a4cc761bbdc11f1e7c7a755fa042c162d0dfd86c17"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261025/FRONTIER_REFRESH.md",
+      "sha256": "73888edff082ec59a74486ec9f536d00018e560a80e0fe16fdaea36bffd560a9"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261025/BROWSER_NATIVE_OBSERVATIONS.md",
+      "sha256": "42fc3a1e481a578a8f487f761ada9cdf3dd7ca25d408a083e52370046ed6789f"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261025/rank4/FINDINGS.md",
+      "sha256": "579308ef105751471d0be466565377c778ff2c5a0fc8de81111048e57903d925"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/literature/refresh20261025/general/assessment.json",
+      "sha256": "b6b7374c54be05989f7006be40434f838ec6981561ed9a25f0a679951959f3e1"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/FRONTIER_GATE_REFRESH_20261025.json",
+      "sha256": "079db9c7e07159c16b54b47a76b0cfcf63d59a8050aaaab8b9001506d1316841"
+    },
+    {
+      "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/CONTRACT_AMENDMENT_20261025.json",
+      "sha256": "a3379f70274eee6371d43ef1457c5d4af9fb581ef8559712ca9dce0270a8ec55"
+    }
+  ]
+}

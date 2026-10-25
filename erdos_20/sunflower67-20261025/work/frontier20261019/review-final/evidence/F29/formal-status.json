@@ -1,0 +1,162 @@
+{
+  "schema": "frontier-formal-closure/1.0",
+  "date": "2026-10-19",
+  "status": "pass",
+  "assurance": "axiom-audited",
+  "complete_bounds": [
+    56,
+    53
+  ],
+  "initial_finite_target": 85,
+  "new_finite_target": 53,
+  "actual_named_root_count": 66,
+  "root_modules": [
+    {
+      "module": "SupportBound",
+      "source_sha256": "eb5a318572a786b44dd25f11e376f782d02ae61299f7be913e9a078d91049cfd",
+      "receipt_sha256": "1b60b2d9c0c4ba730618a2dd8fa8f7c029def1ec1e936ce82b93306a03152ac2",
+      "exit_code": 0,
+      "source_stable": true,
+      "seconds": 7.058
+    },
+    {
+      "module": "SupportGrid",
+      "source_sha256": "89a2adeb63ff66e859e2829f9aed4ab4497b7be31a9decca551f7f6cec98869e",
+      "receipt_sha256": "aa6c2e252fa22c11ae6d658dcaf598a559bb3bbd745f08a26238a9e2c5534098",
+      "exit_code": 0,
+      "source_stable": true,
+      "seconds": 11.646
+    },
+    {
+      "module": "PairSix",
+      "source_sha256": "27a4dfc4f7a411a61cc5073bd7c86d7527e73778f7f72b4c8a5a6d6963599b0f",
+      "receipt_sha256": "5b4bd365ec89045bfc387c583f614640af9e63a734888a8cb8d25e38655f8c9d",
+      "exit_code": 0,
+      "source_stable": true,
+      "seconds": 13.952
+    },
+    {
+      "module": "MomentArithmetic",
+      "source_sha256": "2527798e0379bae7e7932b9d9529a7500941cd0237488d52a4c39e97c3c76a06",
+      "receipt_sha256": "fb0a99195e14e82e26ed2d7e306b9092831773ec245395b40ccd40af5178fb73",
+      "exit_code": 0,
+      "source_stable": true,
+      "seconds": 11.205
+    },
+    {
+      "module": "SupportGrid53",
+      "source_sha256": "575580dbb31464c4ee52996435519fe4884c28771d584b127d00d136910bef16",
+      "receipt_sha256": "e758f172e6321525045f74bfe2bb92681735cad9be514091aff3e30c6dce17c4",
+      "exit_code": 0,
+      "source_stable": true,
+      "seconds": 45.362
+    },
+    {
+      "module": "Support56",
+      "source_sha256": "7a1e6e9ce8ed3f485803aea7a035dd319b61f8622b8dce299c4bc020e62f9e08",
+      "receipt_sha256": "dc44ca1ffffadd535d630e70e8f3ad7fa5ed67ff1680ae30448b8bec5c30069d",
+      "exit_code": 0,
+      "source_stable": true,
+      "seconds": 5.671
+    },
+    {
+      "module": "DegreeEnvelope",
+      "source_sha256": "f0f0aa819f803d5b01a647289700686a82116474fe71e53a6cf4d14370c9fb01",
+      "receipt_sha256": "c75f65b82104c3f6046cf561b67a70bb4b111e1e8996de83a042deb44802a476",
+      "exit_code": 0,
+      "source_stable": true,
+      "seconds": 5.662
+    },
+    {
+      "module": "SupportFacts",
+      "source_sha256": "386db788d94a1a00f27ed17603eb877e5c7a43dc48e886e597243f85fb07c3b9",
+      "receipt_sha256": "464bf3596516845736096c47331c397ee19678fe64ede5d804f13a5920fbfbc3",
+      "exit_code": 0,
+      "source_stable": true,
+      "seconds": 4.203
+    },
+    {
+      "module": "FourStar",
+      "source_sha256": "30549257a1cac4bca14648cce52ea74b7ce41d384a2da8470ff519b794f39a01",
+      "receipt_sha256": "467982565591e289cfc0c134ed49c77fa372d40ff9c9b75785904c0ca1d8f9bf",
+      "exit_code": 0,
+      "source_stable": true,
+      "seconds": 9.047
+    },
+    {
+      "module": "SupportFinish56",
+      "source_sha256": "00e71a753fb7e1409389668ca82bea9769aeb8e212bfdad458c02fee8128bce7",
+      "receipt_sha256": "80774f0cf9297382b0231563b264955f0393dc8fcaf813a1aaa29a6e48e3ed79",
+      "exit_code": 0,
+      "source_stable": true,
+      "seconds": 7.691
+    },
+    {
+      "module": "SupportFinish53",
+      "source_sha256": "13a27792df1f1c1e2edfdd965ed80d24e28c69555e312fc68da933eeb0d87e46",
+      "receipt_sha256": "a86f3cbaba7e984a84a9121dcdedf1a6945687c085806748b4d3a643496030ea",
+      "exit_code": 0,
+      "source_stable": true,
+      "seconds": 15.994
+    },
+    {
+      "module": "SupportReduction",
+      "source_sha256": "053b1422f5d205d7ba5f6b37884929cc99765c10fb3bdfe395b3c931b94c1332",
+      "receipt_sha256": "4808103fa91e0d083214c0b96296aa0901ca1a6d4e5ec1315b7bd1fb078139af",
+      "exit_code": 0,
+      "source_stable": true,
+      "seconds": 4.934
+    },
+    {
+      "module": "LiteralStatements",
+      "source_sha256": "f2f535b4b98782750f0eb1d370e007ad75821d70855e4d004220e78b10168ecb",
+      "receipt_sha256": "a5827a06d33a69ac4f4abce3d876abf123289feec2f5f77022584f7f5e26709e",
+      "exit_code": 0,
+      "source_stable": true,
+      "seconds": 5.896
+    },
+    {
+      "module": "FrontierAudit",
+      "source_sha256": "15530db8aff77be7d72347badd97546f38487e5bd0c1aa3a32c2c6106015e302",
+      "receipt_sha256": "988356e02382b6ac081c01bb6d28c8868de660dccd438ea6c2de523f198fa8dc",
+      "exit_code": 0,
+      "source_stable": true,
+      "seconds": 18.451
+    }
+  ],
+  "axiom_policy": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "finite_exclusion": false,
+  "I27_proved": false,
+  "profile_A_excluded": false,
+  "profile_B_excluded": false,
+  "general_sunflower_conjecture_solved": false,
+  "independent_certification": "not-requested",
+  "mathematical_novelty": "not established globally",
+  "source_provenance": "Pinned A1K proof infrastructure; no OpenAI theorem is imported as a premise",
+  "limitations": [
+    "All100inheritedA1Kroot-closuremodules and14newmodules were rebuilt frompinnedsource",
+    "Lean/mathlib/third-party caches remain; nofullcleanenvironmentreplay",
+    "Noindependentlycontrolledreproductionorindependenthumancertification",
+    "Noformalfiniteexclusion, extremaimprovement, or globaloriginalityclaim"
+  ],
+  "inherited_source_rebuild": {
+    "status": "pass",
+    "assurance": "axiom-audited",
+    "inherited_A1K_modules_rebuilt": 100,
+    "new_modules_rebuilt": 14,
+    "named_roots_audited": 66,
+    "source_manifest_sha256": "a20772968e780ca4a212681bab595f468be51dae715de5dfd9eed1baa6c76a68",
+    "base_summary_sha256": "bcded079ff1220190a0490d9ca31a9b26b95656f70d3e73134f87299d8933e30",
+    "new_closure_summary_sha256": "67aab1c86f5b6740b318234c943e549575b56d4b0c5d6adc394c403a868afb6d",
+    "all_source_hashes_stable": true,
+    "runtime": "Lean (version 4.26.0, x86_64-unknown-linux-gnu, commit d8204c9fd894f91bbb2cdfec5912ec8196fd8562, Release)",
+    "actual_dependency_chain": "Pinned A1K sources -> initiallyemptybase-build -> initiallyemptynew-closure/build -> failclosed66rootaudit",
+    "remaining_trusted_caches": "Lean and pinned mathlib/third-party package objects; no retained A1K compiled objects used in this composite build",
+    "independence": "samehost samecontroller; not independently reproduced",
+    "limitation": "Not clean-kernel-replayed: Lean/mathlib/package caches were not rebuilt in a clean environment. Child replay summary uses conservative generic inherited-cache wording; this outer record binds its input base to the freshly rebuilt100A1Kmodules."
+  }
+}

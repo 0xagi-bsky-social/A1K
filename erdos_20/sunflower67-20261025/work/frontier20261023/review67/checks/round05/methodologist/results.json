@@ -1,0 +1,48 @@
+{
+  "scope": "Standard-library early guards plus extracted arithmetic block; no full model or replay",
+  "source_sha256": "10304e6fa2f3adfea9de387e82601ee6eef7f445b9460e35827d2e2eced634c8",
+  "wrapper_sha256": "441ba0a29a705c80889056ac3a4f190067b166f849fea091099f243bd426480d",
+  "checks": [
+    {
+      "check": "unsupported source digest",
+      "observation": "ReplayError: Unsupported source SHA256; a new producer version needs an explicit adapter inspection"
+    },
+    {
+      "check": "existing wrapper output",
+      "observation": "FileExistsError; sentinel unchanged"
+    },
+    {
+      "check": "wrapper evaluator pin",
+      "observation": "Frozen replay evaluator changed"
+    },
+    {
+      "check": "selector correction and equality threshold",
+      "observation": "All 104 integer box points enumerated: optimum51; correction51 includes selector; strict_exclusion=false."
+    },
+    {
+      "check": "zero scale",
+      "observation": "Certificate scale must be positive"
+    },
+    {
+      "check": "omitted selector correction",
+      "observation": "Stored exact correction disagrees"
+    },
+    {
+      "check": "incorrect strict flag",
+      "observation": "Stored below51 sign disagrees with exact arithmetic"
+    },
+    {
+      "check": "out-of-range sparse row",
+      "observation": "Invalid or duplicate ineq index"
+    },
+    {
+      "check": "boolean sparse coefficient",
+      "observation": "ineq weight must be a JSON integer, not bool/float"
+    },
+    {
+      "check": "explicit zero objective",
+      "observation": "Impossible x=0,-x<=-1 gives G=-1,target0 and strict_exclusion=true."
+    }
+  ],
+  "result": "PASS"
+}

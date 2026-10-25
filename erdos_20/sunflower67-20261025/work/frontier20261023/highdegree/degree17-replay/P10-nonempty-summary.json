@@ -1,0 +1,91 @@
+{
+  "count": 12,
+  "all_pass": true,
+  "records": [
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_001.json",
+      "receipt_sha256": "d137abe7764749ecd0452fd94f8d234d706612883b7f247c334e47a35259f73d",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_001-replay.json",
+      "replay_sha256": "cf0c8445d4b1f35238e9fec0d20e091282fc5d70cac0a3562102df60bfaef202",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_002.json",
+      "receipt_sha256": "88b2a0be42741183971588396953487e8edab2766c336bc126a320295668df32",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_002-replay.json",
+      "replay_sha256": "9789e62bd343e75f951c8323e1cbc8a700dc1567c56e3fd92be04f99130a18dc",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_003.json",
+      "receipt_sha256": "0a11eafebcd27267baaae77ec1c7b6cfea44a937e85a8865338ab7dc158851a5",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_003-replay.json",
+      "replay_sha256": "70c524e50d0fbfeba4767090742456bfc56e1c38a0d3810dc0d1fe4022465319",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_004.json",
+      "receipt_sha256": "c10d695c2f2d820b2a2629842c22fd301f0cd12f797460bd35d8c3a405d0a24e",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_004-replay.json",
+      "replay_sha256": "e1434f63dbe59d5aa5eac928dbd7ec99b6bcefa5867450818bcf894b62d1d622",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_005.json",
+      "receipt_sha256": "c59766f95079567c5d59168d31e5fbbc5edd121b47d76268eb3acfbbcd5080c5",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_005-replay.json",
+      "replay_sha256": "8ef6f0319e087fa3777ffc770d372d6e1211c782655da6dd7cdd5b279c36dcec",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_006.json",
+      "receipt_sha256": "977bbea8e822a9a5e58eb5258363a74f1704373d6cab9be753b899e407d4888d",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_006-replay.json",
+      "replay_sha256": "daa2cd96fbf7e5481e62ee5faf629d5464af22c1442a40f448263d30289ce4ec",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_007.json",
+      "receipt_sha256": "ac4372848f1bc298515df58ea0baf2897c01cd2f03e979934237b3c6f4eeee21",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_007-replay.json",
+      "replay_sha256": "f2ea3c25e1a513f55789e97e220509af206cebb4426e9a3703eee3d3590b57a8",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_008.json",
+      "receipt_sha256": "b8879c593e4e1d55c9b444f5235de9173d412f4605e00fb907dcda0082c0cd85",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_008-replay.json",
+      "replay_sha256": "2bef1a024139e8015d642bd21b0bc5273fa1a5031b296c9f96a2e9d6f777f982",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_009.json",
+      "receipt_sha256": "e2aa9388b35e9cc3b36b66c9dc978177f8732ef06a9c842557e2ab8e91a2eeb8",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_009-replay.json",
+      "replay_sha256": "4b994074a5f3bec2a47a96fee586c8c0c2bf0ae625c24b27ee817310916e795b",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_010.json",
+      "receipt_sha256": "8279249d3c76891209caca921ab9103b98744e21172b3b2f6ae97041e0be958d",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_010-replay.json",
+      "replay_sha256": "83baba92a6b198194f296616d5287e352f9f6feab2b0bd30ff245cbde5a21165",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_011.json",
+      "receipt_sha256": "033b35cdd34c936a996cea8abc747e6422c452a05fd1a41092a3eea8344dca37",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_011-replay.json",
+      "replay_sha256": "2515bdcf321afeccd3cdcef2fccd571c93318cb03933afbd7fa8a3bc7dcd1807",
+      "result": "PASS"
+    },
+    {
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17/P10_012.json",
+      "receipt_sha256": "0d5d8d2484f1714a15544f7155cbac31223273d554779fb0a67be00ac1c32f9e",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17-replay/P10_012-replay.json",
+      "replay_sha256": "5f45b2cc00b440617d97e6f2b9288a938a220eddf52ee380a47d3ced0f12a603",
+      "result": "PASS"
+    }
+  ],
+  "assurance": "shared-model exact integer replay, not independent model reconstruction or Lean"
+}

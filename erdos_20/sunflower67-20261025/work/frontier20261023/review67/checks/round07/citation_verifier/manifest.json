@@ -1,0 +1,8 @@
+{
+  "agent_id": "/root/r67_citations",
+  "scope": "Small reconstructions of previously committed Alpha boundary examples; no new broad theorem or full replay.",
+  "files": {
+    "check_boundaries.py": "ff22d95a0d7ee0bdccda294c50e290b4ddd95473af1253e6cddc87aa063c2707",
+    "results.json": "69720d99a11afa2d6caa6083e9cf2dc5c8c8a7d62111e6fce89bb6cdac21b0c4"
+  }
+}

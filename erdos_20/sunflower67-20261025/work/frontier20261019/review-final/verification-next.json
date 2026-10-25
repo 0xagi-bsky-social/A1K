@@ -1,0 +1,96 @@
+[
+  {
+    "scope": "facts",
+    "status": "limited",
+    "method": "Completed rounds 1\u20132 checked literal theorem interfaces, degree-cap hypotheses, numerical records and source attribution",
+    "observations": [
+      "All main universal support and finite-reduction roots appear in successful local audit; external I27 enumeration is attributed but not imported as proof"
+    ],
+    "limitations": [
+      "Bounded local checks; not independent certification"
+    ],
+    "evidence_ids": [
+      "F01",
+      "F14",
+      "F16",
+      "F17",
+      "F24"
+    ]
+  },
+  {
+    "scope": "citations",
+    "status": "limited",
+    "method": "Primary-source excerpt comparison by citation and literature reviewers",
+    "observations": [
+      "ArXiv authors/date/numerical claims and A1K Fin85/three-condition scope checked; unsupported article cutoff/version metadata removed after R2"
+    ],
+    "limitations": [
+      "Accessible primary excerpts only; no literature-wide priority claim"
+    ],
+    "evidence_ids": [
+      "F16",
+      "F17"
+    ]
+  },
+  {
+    "scope": "logic",
+    "status": "limited",
+    "method": "Literal theorem source/receipt comparisons and mathematical endpoint inspection",
+    "observations": [
+      "Reflexive intersection and Type versus Type-u interfaces are explicit; reduction proves equivalence without excluding the target"
+    ],
+    "limitations": [
+      "Formal environment dependencies retained; reviews continue"
+    ],
+    "evidence_ids": [
+      "F01",
+      "F13",
+      "F14",
+      "F24"
+    ]
+  },
+  {
+    "scope": "methodology",
+    "status": "limited",
+    "method": "Inspected actual new-module replay, axiom auditor source and negative controls",
+    "observations": [
+      "Fourteen modules rebuilt in empty new-output directory; 66 roots audited; three invalid audit controls rejected"
+    ],
+    "limitations": [
+      "No independent host or complete mathlib source rebuild"
+    ],
+    "evidence_ids": [
+      "F01",
+      "F24",
+      "F25"
+    ]
+  },
+  {
+    "scope": "data",
+    "status": "limited",
+    "method": "Exact numerical diagnostic provenance comparison; independent focused reruns assigned in phase5",
+    "observations": [
+      "Diagnostic tuple maxima are not set-family realizability certificates; sensitivity cannot establish 53 optimality"
+    ],
+    "limitations": [
+      "Not a measured runtime comparison or completed family exclusion"
+    ],
+    "evidence_ids": [
+      "F18",
+      "F19",
+      "F26"
+    ]
+  },
+  {
+    "scope": "text_reuse",
+    "status": "not-run",
+    "method": "Bounded accessible-source comparison assigned for final audit phase",
+    "observations": [
+      "No broad originality service used"
+    ],
+    "limitations": [
+      "No exhaustive originality or plagiarism-free certificate"
+    ],
+    "evidence_ids": []
+  }
+]

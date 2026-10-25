@@ -1,0 +1,24 @@
+{
+  "method": "Independent direct Python reconstruction of the nine-point pair-block construction displayed in external equation 6.14 and its disjoint doubled construction",
+  "f27_size": 27,
+  "f27_intersecting": true,
+  "f27_sunflowers": 0,
+  "f54_size": 54,
+  "f54_sunflowers": 0,
+  "f54_triples_checked": 24804,
+  "free_size_upper_bounds": [
+    83,
+    81,
+    80
+  ],
+  "corresponding_forcing_threshold_upper_bounds": [
+    84,
+    82,
+    81
+  ],
+  "improvements": [
+    3,
+    1
+  ],
+  "limitation": "Finite direct witness check; not a Lean certificate and not verification of I27 upper enumeration"
+}

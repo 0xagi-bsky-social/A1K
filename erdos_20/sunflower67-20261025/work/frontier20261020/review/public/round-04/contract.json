@@ -1,0 +1,41 @@
+{
+  "run_id": "frontier20261020-boundary80-final-review",
+  "topic": "Excluding both eighty-one-member boundary profiles in rank-four sunflower-free families",
+  "question": "Do the actual-family exclusions of Profiles A and B prove I(27) implies G(80), with unconditional independent-twenty-star bound eighty and an accurately delimited ordinary corollary using externally established I(27)?",
+  "mode": "theoretical",
+  "field": "Extremal set theory and formal verification",
+  "acceptance_criteria": "Correct quantified set-family arguments and literal Lean theorem interfaces; precise separation of external I27, local conditional global theorem, unconditional two-star theorem and exploratory diagnostics; primary-source attribution with bounded novelty scope; no unresolved major issue or required revision; actual twelve contexts each ten synchronous rounds plus separate Chief Alpha Beta same-hash final audits.",
+  "created_at": "2026-10-20T08:42:32.223032+00:00",
+  "evidence_cutoff": "2026-10-20T08:45:20.990079+00:00",
+  "constraints": [
+    "No unconditional local Lean G80 claim",
+    "No universal bound45 claim",
+    "No all-rank sunflower resolution or exhaustive global priority claim",
+    "No independent human certification",
+    "Review admitted after actual A/B exclusions, per review-admission.json",
+    "No clean complete-toolchain rebuild claim unless actual evidence supports it",
+    "No external publication or contact"
+  ],
+  "assumptions": [
+    "Finite families of distinct four-element sets; three distinct petals; empty core allowed",
+    "External I27 used only for ordinary mathematical corollary",
+    "Lean logical foundation propext, Classical.choice and Quot.sound"
+  ],
+  "audience": "Researchers in extremal combinatorics and proof assistants",
+  "timezone": "America/New_York",
+  "methods": [
+    "Primary-source retrieval and bounded comparison",
+    "Structural combinatorial proof audit",
+    "Exact arithmetic and diagnostics",
+    "Lean elaboration and fail-closed transitive axiom audit",
+    "Versioned source-closure checking",
+    "Actual isolated specialist review"
+  ],
+  "inclusion": "Pinned primary-source content, literal Lean roots, source and output receipts, reproducible calculations and retained failed attempts",
+  "exclusion": "Unaudited diagnostic promotion, unperformed source access, unsupported priority or certification claims",
+  "deliverables": [
+    "Reviewed Markdown HTML PDF report",
+    "Separate machine-readable review and verification bundle"
+  ],
+  "resource_budget": "Twelve persistent contexts, at most two reviewers active concurrently, ten full synchronous phases plus separate final audits; continue substantive revisions if needed."
+}

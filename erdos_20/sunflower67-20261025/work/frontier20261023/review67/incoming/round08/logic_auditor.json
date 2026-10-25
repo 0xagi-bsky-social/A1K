@@ -1,0 +1,80 @@
+{
+  "agent_id": "/root/r67_logic",
+  "role": "logic_auditor",
+  "context_id": "/root/r67_logic",
+  "round": 8,
+  "snapshot_sha256": "cdc2c6372cd2b87201867beb9d986ad0edc1edfe9eab72da3c627e1eb68cffd2",
+  "manuscript_sha256": "a8f164ea1218b704cccd43c618fc2166f5ab636d9c121e7713f7c797d221b2b9",
+  "summary": "The retained formulations withstand three constructive checks against committed Beta concerns: internal incidence costs, multiplicity-preserving projections and explicit theorem parameters. Literal controls confirm why the restrictions matter. No new revision is required in this bounded scope; no compiler, solver or full replay was run.",
+  "evidence_ids": [
+    "degree20",
+    "degree19",
+    "formal-terminal",
+    "formal-asymmetric",
+    "round1-committed",
+    "round4-committed",
+    "round7-committed"
+  ],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "logic-r8-parameter-boundary",
+      "statement": "An axiom-audited conditional theorem can still require substantive mathematical hypotheses. H27 and the numerical transversal-pool bound remain explicit parameters of the terminal cardinality results.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Preserve the manuscript and status notes distinguishing these parameters from project axioms and from locally proved conclusions. No source repair is necessary.",
+      "evidence_ids": [
+        "formal-terminal",
+        "formal-asymmetric"
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "logic-r1-import-boundary",
+      "action": "Inspected the actual H27 predicate, supplied h27 arguments and cardinality proof applications.",
+      "result": "The external theorem dependency remains explicit even though it does not appear as a project axiom.",
+      "status": "claim-qualified"
+    },
+    {
+      "finding_id": "logic-r1-formal-boundary",
+      "action": "Compared terminal declarations and ordinary application obligations with the retained assurance wording.",
+      "result": "Named roots prove their stated implications; they do not discharge branch geometry or the global extremal theorem.",
+      "status": "claim-qualified"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "Cost-preserving C5 formulation and stage ordering",
+      "method": "Read internal-proof.md and stage2-proof.md; independently reconstructed Beta beta-R4-F1’s complete-C5 control from literal P10 blocks.",
+      "observation": "The 16-member lifted family has no sunflower among 560 triples, complete pair-link edges 12,15,23,34,45, degree 16 at its centre and exactly one relevant internal member. Thus d-I=15, while an unconditional degree 15 bound fails. The internal certificate retains the subtraction. Stage two applies degree 15 only after the preceding internal-member contradiction. This validates the guarded formulation, not a size68 counterexample.",
+      "result": "supported",
+      "evidence_ids": [
+        "degree20",
+        "round4-committed"
+      ]
+    },
+    {
+      "scope": "Multiplicity-preserving projection as the repair for binary proper traces",
+      "method": "Read D19-model-bridge.md Section 2 and degree19_projection_v5.py:68–100; independently rebuilt Beta’s two-completion control.",
+      "observation": "The 21-member family with complete root degree 19 is sunflower-free across 1330 triples and has two residual completions of trace 067. All 285 actual-anchor trace identities agree with a coordinate of weight 2. Adding a third completion creates a sunflower. The source assigns triple traces upper bound 2 and full traces upper bound 1; only full traces are binary. Its forbidden-trace option explicitly requires absence of every completion, so absence of one exterior representative cannot justify a zero coordinate.",
+      "result": "supported",
+      "evidence_ids": [
+        "degree19",
+        "round7-committed"
+      ]
+    },
+    {
+      "scope": "Explicit hypotheses versus axiom declarations",
+      "method": "Read TerminalSeparation.lean definitions and cardinality proof, and TerminalAsymmetric.lean:157–218, against their status notes and Beta beta-R1-F3.",
+      "observation": "H27 is a proposition quantified over actual finite four-uniform families; cardinality roots take h27 as an argument. The removed pool is a filter of actual residual members. Intersection is proved before h27 is applied, with uniformity and sunflower-freeness inherited through subset inclusion. The bound 37 additionally takes hpool bounding that actual pool by 10. Neither the axiom allow-list nor TwoAvoidance supplies these hypotheses. Arbitrary ground types remain permitted, without a support cutoff.",
+      "result": "supported",
+      "evidence_ids": [
+        "formal-terminal",
+        "formal-asymmetric",
+        "round1-committed"
+      ]
+    }
+  ]
+}

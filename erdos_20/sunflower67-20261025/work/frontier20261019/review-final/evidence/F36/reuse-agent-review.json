@@ -1,0 +1,40 @@
+{
+  "reviewer": "/root/review_coordinator/copyeditor",
+  "human_review_occurred": false,
+  "manuscript_sha256": "f66cc1eb92c514fa4b4457a934b9b6c334a01f424fbe818f4dc8070d7cec8326",
+  "snapshot_sha256": "0906bbbda55b8bbd32d4b236c0e1bf2b6bfa63a2576f4b86c2f054fc152719f7",
+  "computation_sha256": "8fc1cbfbe3fbc731592567d103042068df6d344859577e616cee0bd6b2ff0abb",
+  "matches_reviewed": [
+    {
+      "evidence_id": "F16",
+      "source_line_range": [
+        0,
+        292
+      ],
+      "token_count": 9,
+      "classification": "Cited bibliographic paper title in reference [3]; no unattributed prose match."
+    },
+    {
+      "evidence_id": "F17",
+      "source_line_range": [
+        15,
+        61
+      ],
+      "token_count": 9,
+      "classification": "Cited bibliographic paper title in reference [3]; no unattributed prose match."
+    },
+    {
+      "evidence_id": "F17",
+      "source_line_range": [
+        29,
+        58
+      ],
+      "token_count": 9,
+      "classification": "Cited bibliographic paper title in reference [3]; no unattributed prose match."
+    }
+  ],
+  "corpus": "Numbered page-text lines from frozen F16 arXiv excerpts and F17 arXiv/A1K excerpts; F16 A1K metadata supplies no page text.",
+  "method": "F32 script: NFKC casefolded word tokens, URL/citation removal, eight-token exact contiguous threshold, no joining across omitted line ranges.",
+  "conclusion": "All three match occurrences are one nine-token bibliographic title; no other exact matches reached the threshold.",
+  "limitations": "No human review, semantic paraphrase analysis, unprovided-source search, comprehensive originality, or mathematical priority certification."
+}

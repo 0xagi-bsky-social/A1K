@@ -1,0 +1,5 @@
+'FrontierR15.outer_deletion_scalar_impossible' depends on axioms: [propext, Quot.sound]
+'FrontierR15.hub_strict_triangle_impossible' depends on axioms: [propext, Quot.sound]
+'FrontierR15.hub_deletion_scalar_impossible' depends on axioms: [propext, Quot.sound]
+'FrontierR15.rho_six_support_le_eleven' depends on axioms: [propext, Quot.sound]
+'FrontierR15.rho_six_requires_degree_five' depends on axioms: [propext, Quot.sound]

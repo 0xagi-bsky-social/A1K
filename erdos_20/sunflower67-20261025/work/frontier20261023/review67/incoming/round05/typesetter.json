@@ -1,0 +1,73 @@
+{
+  "agent_id": "/root/r67_typeset",
+  "role": "typesetter",
+  "context_id": "/root/r67_typeset",
+  "round": 5,
+  "snapshot_sha256": "85c7f735ba798c6812c979258f6eb3854dee7055d525e2bd4fd9e315b71ce261",
+  "manuscript_sha256": "460a3cba8460d551fe8c44b69dac7f1a9b9bae09743c85c519a4d92f30a76ae4",
+  "summary": "The new H27 inspection limitation survives faithfully in HTML and PDF. Six freshly rendered pages show readable formulas and complete table rows, including the changed evidence-map pagination. No required presentation revision was found. This is selected-page preview assurance, not final publication approval.",
+  "evidence_ids": ["preview-r5", "external-h27-scope-correction"],
+  "decision": "continue",
+  "required_revisions": [],
+  "findings": [
+    {
+      "id": "TYPESET-R4-PAGINATION",
+      "statement": "The outer-deletion introduction still ends page 7 and its inequalities begin page 8; both are complete.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Retain the optional final-layout suggestion to keep them together; this does not block the review preview.",
+      "evidence_ids": ["preview-r5"]
+    },
+    {
+      "id": "TYPESET-R1-F4",
+      "statement": "Current visual inspection covers pages 2, 3, 7, 8, 10 and 11. The preview remains separate from final publication and accessibility certification.",
+      "severity": "note",
+      "status": "claim-qualified",
+      "disposition": "Do not extend these observations to unchecked current pages, semantic tagging or the external H27 computation.",
+      "evidence_ids": ["preview-r5"]
+    }
+  ],
+  "revisions": [
+    {
+      "finding_id": "/root/r67_typeset:round-1:required-revision-1",
+      "action": "Reparse current CommonMark and HTML links and compare the unchanged mathematical source.",
+      "result": "Eight intended HTTPS links match exactly; the previous accidental-link and formula repairs remain resolved.",
+      "status": "resolved"
+    },
+    {
+      "finding_id": "/root/r67_typeset:round-1:required-revision-2",
+      "action": "Inspect the new paragraph and selected rendered pages.",
+      "result": "The earlier spacing corrections persist; the added prose introduces no observed spacing defect.",
+      "status": "resolved"
+    },
+    {
+      "finding_id": "/root/r67_typeset:round-1:required-revision-3",
+      "action": "Inspect N[max], N[R] and mu on page 3 and their page-8 application.",
+      "result": "The scalar maximum, neighbourhood set and minimum remain distinct and readable.",
+      "status": "resolved"
+    }
+  ],
+  "checks": [
+    {
+      "scope": "New H27 qualification and citation parsing",
+      "method": "Read the superseding addendum; compare the new Section 2 paragraph with HTML, extracted PDF text and the actual page-2 image; parse source and HTML anchors.",
+      "observation": "The paragraph retains the unavailable provenance pointer, absence of explicit compressed-archive comparisons, nonexecution statement, unresolved authentication and post-cutoff qualification. The two added links are visible and join the six existing intended URLs without accidental relative links. This checks presentation against the addendum, not the remote scripts or historical computation.",
+      "result": "supported",
+      "evidence_ids": ["external-h27-scope-correction", "preview-r5"]
+    },
+    {
+      "scope": "Mathematical transcription after source-assurance edits",
+      "method": "Compare rounds four and five Sections 3–8 byte-for-byte and inspect fresh page-3, page-7 and page-8 images.",
+      "observation": "Those sections are unchanged. Set difference, neighbourhood extrema, maximum-degree root selection, table caps 6/5/5, the support bound n <= 11, opposing hub inequalities and Jin's strict 275 > 272 remain legible. No formula clipping or missing symbol was observed on these pages.",
+      "result": "supported",
+      "evidence_ids": ["preview-r5"]
+    },
+    {
+      "scope": "Evidence-map pagination and current artifact identity",
+      "method": "Rasterize and actually inspect pages 2, 3, 7, 8, 10 and 11 with Poppler; verify supplied snapshot, manuscript, receipt, HTML, PDF and addendum hashes.",
+      "observation": "All inspected hash bindings match. Page 10 visibly identifies the superseding addendum. The degree-16 fibre row now begins page 11 beneath a repeated header and remains complete, preserving 2,188 profiles and 124,323 vectors. The following cap-15 rows and 2,541-case count are intact. No table overlap or cropped row was observed. The receipt's 204-fragment validation was read, not independently repeated in full.",
+      "result": "supported",
+      "evidence_ids": ["preview-r5", "external-h27-scope-correction"]
+    }
+  ]
+}

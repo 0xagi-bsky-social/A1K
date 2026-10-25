@@ -1,0 +1,110 @@
+[
+  {
+    "scope": "facts",
+    "status": "limited",
+    "method": "Actual final rounds 1\u20139 compared theorem statements, primary-source claims, compiler receipts, exact arithmetic and final rendering repairs",
+    "observations": [
+      "All main universal support and finite-reduction roots appear in successful local audit; external I27 enumeration is attributed but not imported as proof",
+      "Both finite maxima, contradiction margins and all representation counts reproduced exactly in scoped reviewer calculations"
+    ],
+    "limitations": [
+      "Bounded local checks; not independent certification"
+    ],
+    "evidence_ids": [
+      "F01",
+      "F14",
+      "F16",
+      "F17",
+      "F24",
+      "F29"
+    ]
+  },
+  {
+    "scope": "citations",
+    "status": "limited",
+    "method": "Primary-source excerpt comparison by citation and literature reviewers",
+    "observations": [
+      "ArXiv authors/date/numerical claims and A1K Fin85/three-condition scope checked; unsupported article cutoff/version metadata removed after R2",
+      "Round9 citation owner verified repaired preview and planned-release relative-link targets and exact archive identity."
+    ],
+    "limitations": [
+      "Accessible primary excerpts only; no literature-wide priority claim"
+    ],
+    "evidence_ids": [
+      "F16",
+      "F17",
+      "F35",
+      "F37"
+    ]
+  },
+  {
+    "scope": "logic",
+    "status": "limited",
+    "method": "Actual source tracing of complete support assemblies and finite relabeling, plus endpoint and counterexample checks in rounds 3\u20134",
+    "observations": [
+      "Reflexive intersection and Type versus Type-u interfaces are explicit; reduction proves equivalence without excluding the target",
+      "Round9 actual checks confirmed exhaustive small-L branches, preserved formula signs and correct counterexample selection/relabeling."
+    ],
+    "limitations": [
+      "Bounded local assurance using pinned external package caches; no independent certification"
+    ],
+    "evidence_ids": [
+      "F01",
+      "F13",
+      "F14",
+      "F24",
+      "F29",
+      "F35"
+    ]
+  },
+  {
+    "scope": "methodology",
+    "status": "limited",
+    "method": "Inspected actual new-module replay, axiom auditor source and negative controls",
+    "observations": [
+      "Fourteen modules rebuilt in empty new-output directory; 66 roots audited; three invalid audit controls rejected",
+      "Subsequent composite replay rebuilt 100 inherited A1K source modules and all 14 new modules against fresh A1K objects; no retained A1K objects in that replay"
+    ],
+    "limitations": [
+      "No independent host or complete mathlib source rebuild"
+    ],
+    "evidence_ids": [
+      "F01",
+      "F24",
+      "F25",
+      "F29"
+    ]
+  },
+  {
+    "scope": "data",
+    "status": "limited",
+    "method": "Actual independent implementations in round5 reran sorted quadruple grid, full triple grid, sensitivity and representation arithmetic",
+    "observations": [
+      "1204 admissible triples with maximum2250; 8855 sorted quadruples,6031 admissible with maximum4475; budget59 relaxation maximum4553; all stated representation counts matched"
+    ],
+    "limitations": [
+      "Same control environment; no measured runtime comparison, set-family realization or completed finite exclusion"
+    ],
+    "evidence_ids": [
+      "F18",
+      "F19",
+      "F26"
+    ]
+  },
+  {
+    "scope": "text_reuse",
+    "status": "limited",
+    "method": "Copyeditor executed a fresh comparison of the exact final v6 manuscript and inspected every reported match in round9",
+    "observations": [
+      "Only three occurrences of the cited nine-token paper title met the eight-token threshold across accessible F16/F17 excerpts; final manuscript digest bound by F38."
+    ],
+    "limitations": [
+      "No human review, broad originality/semantic-paraphrase service, or unprovided-source comparison."
+    ],
+    "evidence_ids": [
+      "F16",
+      "F17",
+      "F38"
+    ]
+  }
+]

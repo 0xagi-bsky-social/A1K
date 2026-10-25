@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20V9Profile",
+  "source_sha256": "8afc9ad0a65f24b035ba3e97b9907a41d91b856f4ce01db53cb8baf9f03d9462",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20V9Profile.olean",
+    "SunflowerLean/Erdos20V9Profile.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 15.549,
+  "output": "SunflowerLean/Erdos20V9Profile.lean:35:5: warning: unused variable `hW`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n"
+}

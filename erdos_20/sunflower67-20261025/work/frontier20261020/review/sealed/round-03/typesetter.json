@@ -1,0 +1,78 @@
+{
+  "content": {
+    "agent_id": "/root/review80_coordinator/typesetter",
+    "role": "typesetter",
+    "context_id": "/root/review80_coordinator/typesetter",
+    "round": 3,
+    "snapshot_sha256": "d1193e5a61730b886392b58d6eb9f08925126424ec2aa870d1ad3cc3b4eda3a1",
+    "manuscript_sha256": "d9bebce3449112c5e5abf72929966aae5d8b1ee970e54d282e3eab0d812794e5",
+    "summary": "The theory and rival-case structure survives the matching revised rendering. In the split-pair argument the disjoint/equal/singleton-overlap alternatives remain visible in one paragraph, and the ensuing four-versus-nine and twenty-versus-twenty-four contradictions are legible. The synchronized transversal lemma is now visibly outside the inherited-input list and labeled as a present contribution. The precise external proposition/theorem labels survive HTML/PDF conversion. No new typesetting defect was found in the targeted changed and proof-case pages.",
+    "evidence_ids": [
+      "preview-d9be-v1"
+    ],
+    "decision": "continue",
+    "required_revisions": [],
+    "findings": [
+      {
+        "id": "T2-html-visual-coverage",
+        "statement": "HTML browser visual QA remains unavailable; this round checked source and mathematical markup, not a browser screenshot.",
+        "severity": "note",
+        "status": "open",
+        "disposition": "Carry forward the disclosed limitation; do not generalize PDF visual coverage to HTML responsive layout.",
+        "evidence_ids": [
+          "preview-d9be-v1"
+        ]
+      },
+      {
+        "id": "T2-table-breaks",
+        "statement": "The Section 5 lead still occupies the bottom of page 4 before the declaration table. The earlier optional table pagination polish is not addressed in this version.",
+        "severity": "minor",
+        "status": "open",
+        "disposition": "Optional polish only; this round targets proof-case hierarchy and changed attribution.",
+        "evidence_ids": [
+          "preview-d9be-v1"
+        ]
+      }
+    ],
+    "revisions": [],
+    "checks": [
+      {
+        "scope": "Three-case proof hierarchy and contradiction thresholds",
+        "method": "Read Section 4.2 and the start/end of Section 4.3 in the frozen source and visually inspect current PDF pages 3–4. Check that the three A-edge alternatives correspond to possible intersection sizes 0, 2 and 1 when the B-edges are disjoint.",
+        "observation": "The prose retains all three alternatives in a single uninterrupted paragraph. The empty-core, edge-core and singleton-core contradictions are distinguished. The final 2×2=4 bound and the later n_2≤4|K|≤20 contradiction with n_2≥24 are present and unambiguous. This is a presentation/coverage check of the case split, not a replacement for formal proof audit.",
+        "result": "supported",
+        "evidence_ids": [
+          "preview-d9be-v1"
+        ]
+      },
+      {
+        "scope": "New versus inherited theorem attribution",
+        "method": "Compare round-02 to round-03 source changes and inspect PDF page 2 plus the corresponding HTML text.",
+        "observation": "The minimum-transversal statement was removed from inherited item 1 and appears after the four-item list in a separate paragraph saying the assembly is part of the present development. Its exact FrontierMinimumTransversals.two_designs_transversal_six identifier is fully visible. The heading/list boundary now accurately communicates its stated provenance.",
+        "result": "supported",
+        "evidence_ids": [
+          "preview-d9be-v1"
+        ]
+      },
+      {
+        "scope": "Precise source labels and symbol fidelity",
+        "method": "Inspect PDF pages 2 and 6, extract text and check HTML for Proposition 6.7, Proposition 6.8 and Theorem 6.9; compare all current MathML blocks to the prior frozen preview. Verify preview file hashes and manuscript hash.",
+        "observation": "All three exact labels occur in both rendered-format contents. The corollary names the upper bound and exact maximum separately. All six MathML blocks are unchanged, so the source-mapping revision does not alter inequalities or subscripts. Preview artifacts match their manifest, and the preview manuscript matches the round-03 hash.",
+        "result": "supported",
+        "evidence_ids": [
+          "preview-d9be-v1"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message",
+    "call_id": "local-log:frontier20261020-boundary80/round-03/typesetter/actual-public-response",
+    "context_id": "/root/review80_coordinator/typesetter",
+    "recorded_at": "2026-10-20T09:22:45.958251+00:00",
+    "synthetic": false,
+    "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/typesetter\",\n  \"role\": \"typesetter\",\n  \"context_id\": \"/root/review80_coordinator/typesetter\",\n  \"round\": 3,\n  \"snapshot_sha256\": \"d1193e5a61730b886392b58d6eb9f08925126424ec2aa870d1ad3cc3b4eda3a1\",\n  \"manuscript_sha256\": \"d9bebce3449112c5e5abf72929966aae5d8b1ee970e54d282e3eab0d812794e5\",\n  \"summary\": \"The theory and rival-case structure survives the matching revised rendering. In the split-pair argument the disjoint/equal/singleton-overlap alternatives remain visible in one paragraph, and the ensuing four-versus-nine and twenty-versus-twenty-four contradictions are legible. The synchronized transversal lemma is now visibly outside the inherited-input list and labeled as a present contribution. The precise external proposition/theorem labels survive HTML/PDF conversion. No new typesetting defect was found in the targeted changed and proof-case pages.\",\n  \"evidence_ids\": [\n    \"preview-d9be-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [\n    {\n      \"id\": \"T2-html-visual-coverage\",\n      \"statement\": \"HTML browser visual QA remains unavailable; this round checked source and mathematical markup, not a browser screenshot.\",\n      \"severity\": \"note\",\n      \"status\": \"open\",\n      \"disposition\": \"Carry forward the disclosed limitation; do not generalize PDF visual coverage to HTML responsive layout.\",\n      \"evidence_ids\": [\n        \"preview-d9be-v1\"\n      ]\n    },\n    {\n      \"id\": \"T2-table-breaks\",\n      \"statement\": \"The Section 5 lead still occupies the bottom of page 4 before the declaration table. The earlier optional table pagination polish is not addressed in this version.\",\n      \"severity\": \"minor\",\n      \"status\": \"open\",\n      \"disposition\": \"Optional polish only; this round targets proof-case hierarchy and changed attribution.\",\n      \"evidence_ids\": [\n        \"preview-d9be-v1\"\n      ]\n    }\n  ],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Three-case proof hierarchy and contradiction thresholds\",\n      \"method\": \"Read Section 4.2 and the start/end of Section 4.3 in the frozen source and visually inspect current PDF pages 3–4. Check that the three A-edge alternatives correspond to possible intersection sizes 0, 2 and 1 when the B-edges are disjoint.\",\n      \"observation\": \"The prose retains all three alternatives in a single uninterrupted paragraph. The empty-core, edge-core and singleton-core contradictions are distinguished. The final 2×2=4 bound and the later n_2≤4|K|≤20 contradiction with n_2≥24 are present and unambiguous. This is a presentation/coverage check of the case split, not a replacement for formal proof audit.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"preview-d9be-v1\"\n      ]\n    },\n    {\n      \"scope\": \"New versus inherited theorem attribution\",\n      \"method\": \"Compare round-02 to round-03 source changes and inspect PDF page 2 plus the corresponding HTML text.\",\n      \"observation\": \"The minimum-transversal statement was removed from inherited item 1 and appears after the four-item list in a separate paragraph saying the assembly is part of the present development. Its exact FrontierMinimumTransversals.two_designs_transversal_six identifier is fully visible. The heading/list boundary now accurately communicates its stated provenance.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"preview-d9be-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Precise source labels and symbol fidelity\",\n      \"method\": \"Inspect PDF pages 2 and 6, extract text and check HTML for Proposition 6.7, Proposition 6.8 and Theorem 6.9; compare all current MathML blocks to the prior frozen preview. Verify preview file hashes and manuscript hash.\",\n      \"observation\": \"All three exact labels occur in both rendered-format contents. The corollary names the upper bound and exact maximum separately. All six MathML blocks are unchanged, so the source-mapping revision does not alter inequalities or subscripts. Preview artifacts match their manifest, and the preview manuscript matches the round-03 hash.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"preview-d9be-v1\"\n      ]\n    }\n  ]\n}\n",
+    "response_sha256": "19cd382a31c34a014824f0b1a20c81f9f2a56451a50a5281ca35852288f814ce"
+  },
+  "record_sha256": "d70fd415ac24c6e25753d552f7dc4fda078924373c9e28c0f8fae8f64d3d7fe7"
+}

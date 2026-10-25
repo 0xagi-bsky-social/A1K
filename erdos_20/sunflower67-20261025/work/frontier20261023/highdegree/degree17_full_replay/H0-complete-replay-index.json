@@ -1,0 +1,152 @@
+{
+  "count": 24,
+  "all_pass": true,
+  "records": [
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-IZ00-H0-internal-v3-adcb509fa238.json",
+      "input_sha256": "073a4250a8dd4728a61612dffded5ec49f4b12efd45a8b8ad377bac71bbf9efc",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-IZ00-H0-internal-v3-adcb509fa238-replay.json",
+      "replay_sha256": "4bb80fa734a7684b5f44bb3b76d9289ad83e246aa9bf21cd72ea6b0ad9e9207c"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-IZ01-H0-internal-v3-71be88d5ac66.json",
+      "input_sha256": "60904bedb1480899294fa3ccd353a24b1df1297876802b2c638759627fead313",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-IZ01-H0-internal-v3-71be88d5ac66-replay.json",
+      "replay_sha256": "1b6f139353fe117822cb763ab891131522189f73d0418631f651a57082496f39"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-IZ02-H0-internal-v3-16a5546c2a1d.json",
+      "input_sha256": "dc781046b883c3f33996d84aeebeb6554f8a6c74a21f2555c940f2809c7c1830",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-IZ02-H0-internal-v3-16a5546c2a1d-replay.json",
+      "replay_sha256": "ad5d62d52969be2efbd860d46cbea01517d52a45aa82b23b10bfa9f001f1f462"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-IZ03-H0-internal-v3-6de60dfe318e.json",
+      "input_sha256": "6a393df17907a529a09af9eda6ce0c4f653bb1367f535e0095d86e2a419764ca",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-IZ03-H0-internal-v3-6de60dfe318e-replay.json",
+      "replay_sha256": "179171db84d0b25c1a5a87659d72a0c9196413da76e68fac400dbdc0a0d6ec28"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E4_00-H0-fourcore-v4-f88248f42296.json",
+      "input_sha256": "d439965b77d3777ac8d02ec3b62795fd18c7889a2d4de35e42b75e17166c62a7",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E4_00-H0-fourcore-v4-f88248f42296-replay.json",
+      "replay_sha256": "f01a54ca8d83bafd7b3e7b8f0505ad791d4128538746fd201fe5dc81cde9b48c"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E4_01-H0-fourcore-v4-580921577990.json",
+      "input_sha256": "55cf870a3755903786c255a7ff7161968637215539be0a83de951de45346afe2",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E4_01-H0-fourcore-v4-580921577990-replay.json",
+      "replay_sha256": "4b662c07ea2187ddc0f6d665006bb043910b197e94b0eaa0ed9f77c41275111f"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E4_02-H0-fourcore-v4-0fd2a25beaef.json",
+      "input_sha256": "a1a699bb8353ce4854977a9a445584f19862a52081be911bf27bc3832620ed41",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E4_02-H0-fourcore-v4-0fd2a25beaef-replay.json",
+      "replay_sha256": "f4cb756d82ef06e0424e2000cdea0db56068e73eef66c72b5dc056dd16638a66"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E4_03-H0-fourcore-v4-e7409b173581.json",
+      "input_sha256": "78e448ac8d3051c119beb0377bf1b17b51efced0da8936cd0e109919f55f8538",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E4_03-H0-fourcore-v4-e7409b173581-replay.json",
+      "replay_sha256": "9c2bdee9f2abdef973ca2a9c11bbf964d76c334047380d0fed8059a39b4c355c"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E4_04-H0-fourcore-v4-17a14968d1e7.json",
+      "input_sha256": "5a8fbebb8e14d4945ecf68157399a1551256ab2af657699420e25489445e596c",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E4_04-H0-fourcore-v4-17a14968d1e7-replay.json",
+      "replay_sha256": "a1c64cfbd0c069d39ecff8b4fa9659073b911638160fb605f6ce88055697091d"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E4_05-H0-fourcore-v4-e05164465bd7.json",
+      "input_sha256": "ace3eae4c5531b51b5a32b3be36af41e674764c4aeb77b67abf18009017a6790",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E4_05-H0-fourcore-v4-e05164465bd7-replay.json",
+      "replay_sha256": "be451ed3638412740772320b496433074709198aea5f237e9dba316c1969e05f"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E4_06-H0-fourcore-v4-7e187d552d82.json",
+      "input_sha256": "2264fb9d87408b32b057ef82f8620cf9e44769b5aeeffc6d736a7934b1057cc7",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E4_06-H0-fourcore-v4-7e187d552d82-replay.json",
+      "replay_sha256": "30ade175a1ddf493093118e9de5d9e79aec7680b5d077a419d54e72a93451c12"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E4_07-H0-fourcore-v4-04360dde4125.json",
+      "input_sha256": "5bbaf0054ae2eca1a7476c2e0c2012266b089140305795bf79b0095fa63b886a",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E4_07-H0-fourcore-v4-04360dde4125-replay.json",
+      "replay_sha256": "a9b780ea29baad07d2ba89d45c54e3ba96da08436d07f58aedaabc7bbb44b6da"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E4_08-H0-fourcore-v4-25a781c1d167.json",
+      "input_sha256": "3c8402f0ceea22a82c2e3cba179eac67181ebb2fb353b7ab3c1ae1e7ef2676c7",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E4_08-H0-fourcore-v4-25a781c1d167-replay.json",
+      "replay_sha256": "ad0b8e0b1f1256667af13ca16203fe27dfbeee8f934389e3474b363e94669c8d"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E4_09-H0-fourcore-v4-48121b60ca55.json",
+      "input_sha256": "5549155ccefb4c1ad1c5d28a237482699f48f4b8ac969cfb5753caeca7e57eb6",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E4_09-H0-fourcore-v4-48121b60ca55-replay.json",
+      "replay_sha256": "a43603839b7aac7b192e8f7069472b777ae90e4afa40bf6b073d2c016ef9de73"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E4_10-H0-fourcore-v4-c3e60e05c67e.json",
+      "input_sha256": "d70a2c24d5ae093d344bd36063cd338a8dec1ec0821d50c6d1293b823bb261ed",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E4_10-H0-fourcore-v4-c3e60e05c67e-replay.json",
+      "replay_sha256": "3bd2af3a2e1e66c4432549937a5a8fdafd891adb6a1ef51647ee33af47d37211"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E4_11-H0-fourcore-v4-fb94740d8565-phaseone.json",
+      "input_sha256": "991d424367e6b5f87ba3675280dee64fff347332f3542e269a8c117d55138dc1",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E4_11-H0-fourcore-v4-fb94740d8565-phaseone-replay.json",
+      "replay_sha256": "90093c6eb41456c0b9553b0aa490a754c1ed39e1abaccc2866d74332cb2bab08"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E4_12-H0-fourcore-v4-53bca18c88e3.json",
+      "input_sha256": "9240a2772579dd875795b6b0d23477660d366ca345b5b694e7e9bc2aaacacc06",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E4_12-H0-fourcore-v4-53bca18c88e3-replay.json",
+      "replay_sha256": "f6496936a0fd3402694ae29e0a4efce05587128be99b5ba806410d4c105797b3"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E4_13-H0-fourcore-v4-b85c8e801426.json",
+      "input_sha256": "a10117c1334114a0ecea1f7d5f081c08d956db02cd8e5914047a3a9ebf6dc15d",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E4_13-H0-fourcore-v4-b85c8e801426-replay.json",
+      "replay_sha256": "a88cfe1b61cdfa270bc788150bb12cfc6de16597c2af62b018d0dc96107327d2"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E3_00-H0-mixedthree-v4-6bf33fcdf07d.json",
+      "input_sha256": "35b6a771a39367840b894e5e384acc83bab8a7bebefa7c91720f6ae66d47ed59",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E3_00-H0-mixedthree-v4-6bf33fcdf07d-replay.json",
+      "replay_sha256": "7d9dfe7c00ce378a30d7a1bb36716b92484ada657f7ff076d512331cdc677fd7"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E3_01-H0-mixedthree-v4-49e5f87736b6.json",
+      "input_sha256": "17abd034d9d2575d8bc273a64a5d14e65cd4ed853f06451132cf185b9bbf5324",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E3_01-H0-mixedthree-v4-49e5f87736b6-replay.json",
+      "replay_sha256": "76d6aa72b25818a1d54ccda81199f346ee7432db984b910a1a59f5f0cbc74a94"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E3_02-H0-mixedthree-v4-2c5c3f9432bf.json",
+      "input_sha256": "5dfb34469c062a12ea283f57aa87cffe0bd29346bb6c6603d781fb8da7927c85",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E3_02-H0-mixedthree-v4-2c5c3f9432bf-replay.json",
+      "replay_sha256": "b6a19ad33f25b5e1082c6ef2e699e35f684904f44bf4790aaa37089cc7df5fe1"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E3_03-H0-mixedthree-v4-8291ffecaa53.json",
+      "input_sha256": "fb40bfd9a705d48311a16d8f7f42f2aee295bb1214487ee1a53eccda4bf72e5c",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E3_03-H0-mixedthree-v4-8291ffecaa53-replay.json",
+      "replay_sha256": "8811c4ff11c776376b1511a7661df4f99ab9782e4e4f62c0ac07334944aa3a45"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E3_04-H0-mixedthree-v4-d633e0c218c7.json",
+      "input_sha256": "8fe18f8cbf0c30560bfa742359c90d3d64e134f9248783447ccc298e120bd29e",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E3_04-H0-mixedthree-v4-d633e0c218c7-replay.json",
+      "replay_sha256": "ff5461cab238e272c710785ccd1491fce9c59e32b7815c7ddd294cc935537990"
+    },
+    {
+      "input": "work/frontier20261023/highdegree/degree17_full/P10-H0-E3_05-H0-mixedthree-v4-503ed0b445fc.json",
+      "input_sha256": "3583b16325c3b0fd7b27db260ed3aaa0bddb7a505138d2c5da963c4da6c1851f",
+      "replay": "work/frontier20261023/highdegree/degree17_full_replay/P10-H0-E3_05-H0-mixedthree-v4-503ed0b445fc-replay.json",
+      "replay_sha256": "0a05de1ff6c561d8f07c861ec06135d137ea8595f7cc6d432166abeb4c91cab7"
+    }
+  ],
+  "replayer_sha256": "024c11d4897818233a74b7fff9f3c925ea521dd52818ec16411bd98ec3650b44",
+  "scope": "Shared-source exact integer replay; no Lean, orbit coverage or universal geometric bridge implied."
+}

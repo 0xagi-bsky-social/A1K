@@ -1,0 +1,21 @@
+{
+  "case": "none",
+  "empty": "none",
+  "assigned": {
+    "Z": [
+      1856,
+      2752
+    ]
+  },
+  "forbidden": [],
+  "status": 2,
+  "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+  "columns": 240817,
+  "seconds": 5.596225172999766,
+  "target_residuals": 49,
+  "mu": 41,
+  "point_cap": 19,
+  "source_sha256": "91b3bb0b57fbf587cd47b3b1c0b9be3b9ebc4d801bfa45f7a81e1ee033f33abd",
+  "imported_local43_sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+  "assurance": "certificate-diagnostic; imported universal geometry; not Lean or complete branch proof"
+}

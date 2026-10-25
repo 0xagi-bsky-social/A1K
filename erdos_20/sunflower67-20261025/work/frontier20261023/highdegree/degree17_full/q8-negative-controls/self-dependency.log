@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/check_d17_stage_plan_v9.py", line 529, in <module>
+    main()
+    ~~~~^^
+  File "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/check_d17_stage_plan_v9.py", line 518, in main
+    result = check(args.plan, args.allow_partial)
+  File "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/check_d17_stage_plan_v9.py", line 280, in check
+    require(isinstance(nid, str) and bool(nid) and nid not in facts
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            and isinstance(uses, list) and all(isinstance(u, str) and u in facts for u in uses)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            and len(set(uses)) == len(uses), 'Node IDs/antecedents must be distinct and strictly earlier')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/check_d17_stage_plan_v9.py", line 62, in require
+    raise ValueError(message)
+ValueError: Node IDs/antecedents must be distinct and strictly earlier

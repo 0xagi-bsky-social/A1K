@@ -1,0 +1,14 @@
+{
+  "module": "SunflowerLean.Erdos20V10Profile54Score",
+  "source_sha256": "ed1140422c47ba525bde69b1033e9d0910e9115ff86e7ce16d01f5f8d8f41cf6",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/base-build/SunflowerLean/Erdos20V10Profile54Score.olean",
+    "SunflowerLean/Erdos20V10Profile54Score.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 4.047,
+  "output": "SunflowerLean/Erdos20V10Profile54Score.lean:10:5: warning: unused variable `hsa`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\nSunflowerLean/Erdos20V10Profile54Score.lean:12:5: warning: unused variable `hwa`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\nSunflowerLean/Erdos20V10Profile54Score.lean:16:5: warning: unused variable `ha`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\nSunflowerLean/Erdos20V10Profile54Score.lean:17:5: warning: unused variable `h20a`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n"
+}

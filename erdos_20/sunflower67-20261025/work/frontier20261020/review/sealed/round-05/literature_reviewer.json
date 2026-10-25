@@ -1,0 +1,52 @@
+{
+  "content": {
+    "agent_id": "/root/review80_coordinator/literature_reviewer",
+    "role": "literature_reviewer",
+    "context_id": "/root/review80_coordinator/literature_reviewer",
+    "round": 5,
+    "snapshot_sha256": "698556515377c5b17fd53703ac230982812055abde8a4a73880d32d64eacd7fe",
+    "manuscript_sha256": "686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d",
+    "summary": "The endpoint comparison remains correct under both maximum-size and forcing-threshold conventions. A fresh direct reconstruction verifies the cited 54-member lower construction. Sensitivity to source removal is transparent: withdrawing external I27 removes the ordinary global corollary while leaving the local conditional implication and unconditional two-star statement intact. No claim is improperly supported by counting related source artifacts as independent evidence.",
+    "evidence_ids": [
+      "primary-sources-v1",
+      "terminal-audit-v1",
+      "two-star-audit-v1"
+    ],
+    "decision": "continue",
+    "required_revisions": [],
+    "findings": [],
+    "revisions": [],
+    "checks": [
+      {
+        "scope": "Numerical convention and independent reconstruction of the literature lower witness",
+        "method": "Reconstructed the equation 6.14 pair-block family from the primary text already inspected; doubled it on disjoint supports and exhaustively checked triples with Python. Receipt: scratch/literature_reviewer/round05_lower_witness.json. Also calculated the bound differences and forcing-threshold translations.",
+        "observation": "The construction has 27 distinct intersecting rows and no three-sunflower; doubling gives 54 distinct four-sets with zero sunflowers among all 24,804 triples. Upper bounds 83,81,80 correspond to forcing-threshold upper bounds 84,82,81, preserving improvements three and one. This direct finite check does not establish the intersecting upper bound or constitute Lean evidence.",
+        "result": "supported",
+        "evidence_ids": [
+          "primary-sources-v1"
+        ]
+      },
+      {
+        "scope": "Robustness to removing external and related-source inputs",
+        "method": "Traced claims in the unchanged frozen abstract, Sections 1/2/6/7 and the published theorem statements against the source-family map from prior rounds.",
+        "observation": "Without the external I27 theorem, Theorem 3 remains an implication and Corollary 4 cannot be asserted from it alone; Theorem 1 and Profile B exclusion remain unconditional. Removing search-negative evidence affects only the bounded comparison statement, not the proofs. Removing the inherited structural inputs would remove essential premises of the new arguments, so the named pinned A1K dependency must remain. Article, author repository and run artifacts do not become multiple independent confirmations merely by having separate locators.",
+        "result": "supported",
+        "evidence_ids": [
+          "primary-sources-v1",
+          "terminal-audit-v1",
+          "two-star-audit-v1"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "tool": "collaboration.followup_task; specialist-authored public JSON file and actual completion message",
+    "call_id": "local-log:frontier20261020-boundary80/round-05/literature_reviewer/actual-public-response",
+    "context_id": "/root/review80_coordinator/literature_reviewer",
+    "recorded_at": "2026-10-20T09:32:49.286863+00:00",
+    "synthetic": false,
+    "public_response": "{\n  \"agent_id\": \"/root/review80_coordinator/literature_reviewer\",\n  \"role\": \"literature_reviewer\",\n  \"context_id\": \"/root/review80_coordinator/literature_reviewer\",\n  \"round\": 5,\n  \"snapshot_sha256\": \"698556515377c5b17fd53703ac230982812055abde8a4a73880d32d64eacd7fe\",\n  \"manuscript_sha256\": \"686c89bd7044ce810ae26d59806f42f4e1d320a3f1243b3d72a3c785ded1318d\",\n  \"summary\": \"The endpoint comparison remains correct under both maximum-size and forcing-threshold conventions. A fresh direct reconstruction verifies the cited 54-member lower construction. Sensitivity to source removal is transparent: withdrawing external I27 removes the ordinary global corollary while leaving the local conditional implication and unconditional two-star statement intact. No claim is improperly supported by counting related source artifacts as independent evidence.\",\n  \"evidence_ids\": [\n    \"primary-sources-v1\",\n    \"terminal-audit-v1\",\n    \"two-star-audit-v1\"\n  ],\n  \"decision\": \"continue\",\n  \"required_revisions\": [],\n  \"findings\": [],\n  \"revisions\": [],\n  \"checks\": [\n    {\n      \"scope\": \"Numerical convention and independent reconstruction of the literature lower witness\",\n      \"method\": \"Reconstructed the equation 6.14 pair-block family from the primary text already inspected; doubled it on disjoint supports and exhaustively checked triples with Python. Receipt: scratch/literature_reviewer/round05_lower_witness.json. Also calculated the bound differences and forcing-threshold translations.\",\n      \"observation\": \"The construction has 27 distinct intersecting rows and no three-sunflower; doubling gives 54 distinct four-sets with zero sunflowers among all 24,804 triples. Upper bounds 83,81,80 correspond to forcing-threshold upper bounds 84,82,81, preserving improvements three and one. This direct finite check does not establish the intersecting upper bound or constitute Lean evidence.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\"\n      ]\n    },\n    {\n      \"scope\": \"Robustness to removing external and related-source inputs\",\n      \"method\": \"Traced claims in the unchanged frozen abstract, Sections 1/2/6/7 and the published theorem statements against the source-family map from prior rounds.\",\n      \"observation\": \"Without the external I27 theorem, Theorem 3 remains an implication and Corollary 4 cannot be asserted from it alone; Theorem 1 and Profile B exclusion remain unconditional. Removing search-negative evidence affects only the bounded comparison statement, not the proofs. Removing the inherited structural inputs would remove essential premises of the new arguments, so the named pinned A1K dependency must remain. Article, author repository and run artifacts do not become multiple independent confirmations merely by having separate locators.\",\n      \"result\": \"supported\",\n      \"evidence_ids\": [\n        \"primary-sources-v1\",\n        \"terminal-audit-v1\",\n        \"two-star-audit-v1\"\n      ]\n    }\n  ]\n}\n",
+    "response_sha256": "d436f1c13b080434384ef2dcb5f592ed40a8d676014e4eeedd40cdf4c45851a4"
+  },
+  "record_sha256": "76d053e10f67143373e9716c2f0ca8f8937e979d0ddd2875ddeec0537721e4e7"
+}

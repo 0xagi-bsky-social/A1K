@@ -1,0 +1,66 @@
+{
+  "census_solutions": [
+    [
+      9,
+      28,
+      24
+    ],
+    [
+      10,
+      26,
+      25
+    ],
+    [
+      11,
+      24,
+      26
+    ],
+    [
+      12,
+      22,
+      27
+    ]
+  ],
+  "meeting_caps": [
+    {
+      "outsiders": 0,
+      "degree_sum": 56,
+      "meeting_upper": 47,
+      "disjoint_lower": 14
+    },
+    {
+      "outsiders": 1,
+      "degree_sum": 61,
+      "meeting_upper": 49,
+      "disjoint_lower": 12
+    },
+    {
+      "outsiders": 2,
+      "degree_sum": 66,
+      "meeting_upper": 52,
+      "disjoint_lower": 9
+    },
+    {
+      "outsiders": 3,
+      "degree_sum": 71,
+      "meeting_upper": 54,
+      "disjoint_lower": 7
+    },
+    {
+      "outsiders": 4,
+      "degree_sum": 76,
+      "meeting_upper": 57,
+      "disjoint_lower": 4
+    }
+  ],
+  "diagnostic_nonempty_rows": 22,
+  "nonempty_histogram": {
+    "3": 10,
+    "1": 10,
+    "5": 2
+  },
+  "listed_candidate_occurrences": 50,
+  "detailed_row_errors": [],
+  "intersection_histogram_matches_global": true,
+  "histogram_weighted_total": 50
+}

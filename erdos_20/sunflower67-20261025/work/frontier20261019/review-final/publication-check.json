@@ -1,0 +1,49 @@
+{
+  "validation": {
+    "valid": true,
+    "publication_eligible": true,
+    "errors": [],
+    "assurance": "Local integrity and declared tool provenance only; no cryptographic agent authentication, proven isolation, organizational independence, or independent certification.",
+    "independent_certification": "not-assessed",
+    "manuscript_sha256": "3ee74792dff98a43231d07100d0034b485a6f91beb2b565ffb15d22f5a40e365",
+    "submission_count": 120,
+    "final_round": 10,
+    "bundle_sha256": "1d57da32abc709b0f6f2bf0410f7d57d2181d58ed6ee68f66a54037332b97859",
+    "contract_sha256": "2ca6e74f4eed7747f06819153e04b28ae9dec3bf5fe7b0134f0c49c724f0271a",
+    "run_id": "frontier20261019-final-formal53-review",
+    "final_round_sha256": "1477172d92168a1697d89d5f12950fcb54774068e7f235e07a7effc5fa088897",
+    "synthetic": false
+  },
+  "actual_artifacts": {
+    "report.html": {
+      "sha256": "d6168360b7105f21c8eccba76e13b7a961d5a5811702cf2334a6cff898986840",
+      "bytes": 33087
+    },
+    "report.md": {
+      "sha256": "3ee74792dff98a43231d07100d0034b485a6f91beb2b565ffb15d22f5a40e365",
+      "bytes": 23521
+    },
+    "report.pdf": {
+      "sha256": "428c875ac49c2fca6d33fa35eca4b8c2b3f02a6726654a2a702e5a59e2f82df2",
+      "bytes": 122304
+    }
+  },
+  "artifact_receipt_matches": true,
+  "preview_pixel_equality": {
+    "page-1.png": true,
+    "page-2.png": true,
+    "page-3.png": true,
+    "page-4.png": true,
+    "page-5.png": true,
+    "page-6.png": true,
+    "page-7.png": true,
+    "page-8.png": true
+  },
+  "published_markdown_equals_reviewed": true,
+  "review_bundle_file_sha256": "dfad0c1fdd7fb4ac380f0febc45bda811acaa2691ab4ee8af219bf9346892598",
+  "review_bundle_canonical_sha256": "1d57da32abc709b0f6f2bf0410f7d57d2181d58ed6ee68f66a54037332b97859",
+  "limitations": [
+    "Unsigned local commitments; no organizational independence or human certification",
+    "PDF preserves readable source notation; no accessibility-conformance claim"
+  ]
+}

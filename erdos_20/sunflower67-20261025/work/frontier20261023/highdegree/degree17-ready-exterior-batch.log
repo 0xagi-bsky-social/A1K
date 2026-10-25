@@ -1,0 +1,384 @@
+{"kind": "P10-H1", "stage": "E4", "completed": 1, "total": 35, "case": "E4_00", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 2, "total": 35, "case": "E4_01", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 3, "total": 35, "case": "E4_02", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 4, "total": 35, "case": "E4_03", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 5, "total": 35, "case": "E4_04", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 6, "total": 35, "case": "E4_05", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 7, "total": 35, "case": "E4_06", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 8, "total": 35, "case": "E4_07", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 9, "total": 35, "case": "E4_08", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 10, "total": 35, "case": "E4_09", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 11, "total": 35, "case": "E4_10", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 12, "total": 35, "case": "E4_11", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 13, "total": 35, "case": "E4_12", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 14, "total": 35, "case": "E4_13", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 15, "total": 35, "case": "E4_14", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 16, "total": 35, "case": "E4_15", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 17, "total": 35, "case": "E4_16", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 18, "total": 35, "case": "E4_17", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 19, "total": 35, "case": "E4_18", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 20, "total": 35, "case": "E4_19", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 21, "total": 35, "case": "E4_20", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 22, "total": 35, "case": "E4_21", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 23, "total": 35, "case": "E4_22", "strict_diagnostic": false}
+{"kind": "P10-H1", "stage": "E4", "completed": 24, "total": 35, "case": "E4_23", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 25, "total": 35, "case": "E4_24", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 26, "total": 35, "case": "E4_25", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 27, "total": 35, "case": "E4_26", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 28, "total": 35, "case": "E4_27", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 29, "total": 35, "case": "E4_28", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 30, "total": 35, "case": "E4_29", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 31, "total": 35, "case": "E4_30", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 32, "total": 35, "case": "E4_31", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 33, "total": 35, "case": "E4_32", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 34, "total": 35, "case": "E4_33", "strict_diagnostic": true}
+{"kind": "P10-H1", "stage": "E4", "completed": 35, "total": 35, "case": "E4_34", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H2", "case": "E4_00", "columns": 44722, "rows": 1276, "catalogue_sizes": [22, 101, 101, 196, 196, 101, 196, 196, 196, 196, 8065, 5727, 5727, 5727, 5727, 5727, 5727], "seconds": 2.7320944980001514}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_00-exterior-E4-v4-292b2e0b37c3.json", "status": 0, "upper": 46.000000005, "below51": true, "seconds": 3.9682762140000705}
+{"kind": "P10-H2", "stage": "E4", "completed": 1, "total": 17, "case": "E4_00", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H2", "case": "E4_01", "columns": 44589, "rows": 1303, "catalogue_sizes": [101, 101, 101, 101, 196, 196, 101, 101, 196, 174, 8065, 5727, 5727, 5727, 5727, 5727, 5727], "seconds": 2.907199971999944}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_01-exterior-E4-v4-af9e412555b5.json", "status": 0, "upper": 44.0, "below51": true, "seconds": 3.747129571000187}
+{"kind": "P10-H2", "stage": "E4", "completed": 2, "total": 17, "case": "E4_01", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H2", "case": "E4_02", "columns": 44701, "rows": 1276, "catalogue_sizes": [22, 101, 101, 196, 196, 101, 196, 196, 196, 196, 8044, 5727, 5727, 5727, 5727, 5727, 5727], "seconds": 2.7023231129987835}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_02-exterior-E4-v4-b940cf2d62d6.json", "status": 2, "upper": null, "below51": null, "seconds": 3.302238102998672}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_02-exterior-E4-v4-b940cf2d62d6-phaseone.json", "status": 0, "gap": -5000000000, "strict": true, "seconds": 4.426798647999021}
+{"kind": "P10-H2", "stage": "E4", "completed": 3, "total": 17, "case": "E4_02", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H2", "case": "E4_03", "columns": 44590, "rows": 1303, "catalogue_sizes": [101, 101, 101, 101, 196, 196, 101, 101, 196, 196, 8044, 5727, 5727, 5727, 5727, 5727, 5727], "seconds": 2.684384644999227}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_03-exterior-E4-v4-ce5f936ae6fa.json", "status": 2, "upper": null, "below51": null, "seconds": 3.3644607869991887}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_03-exterior-E4-v4-ce5f936ae6fa-phaseone.json", "status": 0, "gap": -1913333021, "strict": true, "seconds": 4.477841259000343}
+{"kind": "P10-H2", "stage": "E4", "completed": 4, "total": 17, "case": "E4_03", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H2", "case": "E4_04", "columns": 43142, "rows": 1272, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 6216, 5727, 5727, 5727, 5727, 5727, 5727], "seconds": 2.677402991001145}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_04-exterior-E4-v4-3398a9a80469.json", "status": 0, "upper": 45.7460318856, "below51": true, "seconds": 3.533536909000759}
+{"kind": "P10-H2", "stage": "E4", "completed": 5, "total": 17, "case": "E4_04", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H2", "case": "E4_05", "columns": 42207, "rows": 1273, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 5281, 5727, 5727, 5727, 5727, 5727, 5727], "seconds": 2.1225682149997738}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_05-exterior-E4-v4-aa7915bb75b1.json", "status": 0, "upper": 41.0, "below51": true, "seconds": 3.764711100999193}
+{"kind": "P10-H2", "stage": "E4", "completed": 6, "total": 17, "case": "E4_05", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H2", "case": "E4_06", "columns": 40473, "rows": 1245, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 3357, 5727, 5727, 5727, 5727, 5727, 5727], "seconds": 2.474180168001112}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_06-exterior-E4-v4-480bc12bc3a4.json", "status": 0, "upper": 45.3333333361, "below51": true, "seconds": 3.6272761860000173}
+{"kind": "P10-H2", "stage": "E4", "completed": 7, "total": 17, "case": "E4_06", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H2", "case": "E4_07", "columns": 44722, "rows": 1276, "catalogue_sizes": [22, 101, 101, 196, 196, 101, 196, 196, 196, 196, 8065, 5727, 5727, 5727, 5727, 5727, 5727], "seconds": 2.348353813000358}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_07-exterior-E4-v4-2d049c74d0bb.json", "status": 0, "upper": 51.2500000083, "below51": false, "seconds": 3.3334429370006546}
+{"kind": "P10-H2", "stage": "E4", "completed": 8, "total": 17, "case": "E4_07", "strict_diagnostic": false}
+{"phase": "built", "kind": "P10-H2", "case": "E4_08", "columns": 44589, "rows": 1303, "catalogue_sizes": [101, 101, 101, 101, 196, 196, 101, 101, 196, 174, 8065, 5727, 5727, 5727, 5727, 5727, 5727], "seconds": 2.577911968999615}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_08-exterior-E4-v4-657f2fb4cc02.json", "status": 0, "upper": 41.0, "below51": true, "seconds": 3.519245718998718}
+{"kind": "P10-H2", "stage": "E4", "completed": 9, "total": 17, "case": "E4_08", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H2", "case": "E4_09", "columns": 44991, "rows": 1263, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 8065, 5727, 5727, 5727, 5727, 5727, 5727], "seconds": 2.5006852290007373}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_09-exterior-E4-v4-0a88a6fda109.json", "status": 0, "upper": 49.33028125, "below51": true, "seconds": 3.436081351001121}
+{"kind": "P10-H2", "stage": "E4", "completed": 10, "total": 17, "case": "E4_09", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H2", "case": "E4_10", "columns": 38516, "rows": 1283, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 8044, 2500, 5727, 2500, 5727, 5727, 5727], "seconds": 2.7170409559985274}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_10-exterior-E4-v4-0f615ec084c7.json", "status": 0, "upper": 45.0, "below51": true, "seconds": 3.6205952129985235}
+{"kind": "P10-H2", "stage": "E4", "completed": 11, "total": 17, "case": "E4_10", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H2", "case": "E4_11", "columns": 33958, "rows": 1272, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 6216, 2500, 5727, 2500, 5727, 5727, 2807], "seconds": 2.7373468200003117}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_11-exterior-E4-v4-fdd72c793518.json", "status": 0, "upper": 48.0, "below51": true, "seconds": 3.4037912749990937}
+{"kind": "P10-H2", "stage": "E4", "completed": 12, "total": 17, "case": "E4_11", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H2", "case": "E4_12", "columns": 34301, "rows": 1289, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 5281, 3703, 3703, 3703, 3703, 5727, 5727], "seconds": 2.4016904800009797}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_12-exterior-E4-v4-9faf3aae3e61.json", "status": 0, "upper": 47.0, "below51": true, "seconds": 3.211739544000011}
+{"kind": "P10-H2", "stage": "E4", "completed": 13, "total": 17, "case": "E4_12", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H2", "case": "E4_13", "columns": 37929, "rows": 1283, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 8065, 2196, 2196, 5727, 5727, 5727, 5727], "seconds": 2.57257225900139}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_13-exterior-E4-v4-d9ea193bbc56.json", "status": 0, "upper": 45.0, "below51": true, "seconds": 3.7553282420012692}
+{"kind": "P10-H2", "stage": "E4", "completed": 14, "total": 17, "case": "E4_13", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H2", "case": "E4_14", "columns": 38119, "rows": 1263, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 8065, 2196, 2196, 5727, 5727, 5727, 5727], "seconds": 1.8006053600001906}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_14-exterior-E4-v4-e62b203c7138.json", "status": 0, "upper": 47.0, "below51": true, "seconds": 2.2270090360016184}
+{"kind": "P10-H2", "stage": "E4", "completed": 15, "total": 17, "case": "E4_14", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H2", "case": "E4_15", "columns": 30133, "rows": 1276, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 8044, 685, 2196, 2500, 5727, 2500, 5727], "seconds": 2.2767008430000715}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_15-exterior-E4-v4-db3947e6f124.json", "status": 2, "upper": null, "below51": null, "seconds": 2.74087228299868}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_15-exterior-E4-v4-db3947e6f124-phaseone.json", "status": 0, "gap": -1000000000, "strict": true, "seconds": 3.2603526180009794}
+{"kind": "P10-H2", "stage": "E4", "completed": 16, "total": 17, "case": "E4_15", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H2", "case": "E4_16", "columns": 35596, "rows": 1291, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 4708, 4689, 4689, 4689, 4689, 4689, 4689], "seconds": 2.6882765869995637}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H2-E4_16-exterior-E4-v4-25ab2ccfbc4c.json", "status": 0, "upper": 48.5000000054, "below51": true, "seconds": 3.4320041529990704}
+{"kind": "P10-H2", "stage": "E4", "completed": 17, "total": 17, "case": "E4_16", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E4_00", "columns": 42747, "rows": 1315, "catalogue_sizes": [22, 101, 101, 196, 196, 101, 196, 196, 196, 196, 7581, 7581, 4911, 7581, 4911, 4911, 2976], "seconds": 2.782753773000877}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_00-exterior-E4-v4-54c687b4eba1.json", "status": 0, "upper": 47.0, "below51": true, "seconds": 3.617189139000402}
+{"kind": "P10-H3", "stage": "E4", "completed": 1, "total": 17, "case": "E4_00", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E4_01", "columns": 42614, "rows": 1342, "catalogue_sizes": [101, 101, 101, 101, 196, 196, 101, 101, 196, 174, 7581, 7581, 4911, 7581, 4911, 4911, 2976], "seconds": 2.7090157289985655}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_01-exterior-E4-v4-ddfc1d40c817.json", "status": 0, "upper": 41.0, "below51": true, "seconds": 3.8761113170003227}
+{"kind": "P10-H3", "stage": "E4", "completed": 2, "total": 17, "case": "E4_01", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E4_02", "columns": 37548, "rows": 1312, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 2113, 7581, 4911, 7581, 4911, 4911, 2976], "seconds": 2.349540834999061}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_02-exterior-E4-v4-ee879cf3dc73.json", "status": 0, "upper": 44.6896551874, "below51": true, "seconds": 3.227454148000106}
+{"kind": "P10-H3", "stage": "E4", "completed": 3, "total": 17, "case": "E4_02", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E4_03", "columns": 25519, "rows": 1312, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 2113, 2113, 4911, 2113, 4911, 4911, 1693], "seconds": 3.0256584430007933}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_03-exterior-E4-v4-ff26dff318b7.json", "status": 0, "upper": 39.0, "below51": true, "seconds": 3.639911573000063}
+{"kind": "P10-H3", "stage": "E4", "completed": 4, "total": 17, "case": "E4_03", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E4_04", "columns": 42745, "rows": 1315, "catalogue_sizes": [22, 101, 101, 196, 196, 101, 196, 196, 196, 196, 7579, 7581, 4911, 7581, 4911, 4911, 2976], "seconds": 3.063920645001417}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_04-exterior-E4-v4-aff66ce6250f.json", "status": 0, "upper": 49.0, "below51": true, "seconds": 3.9952732880010444}
+{"kind": "P10-H3", "stage": "E4", "completed": 5, "total": 17, "case": "E4_04", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E4_05", "columns": 42612, "rows": 1342, "catalogue_sizes": [101, 101, 101, 101, 196, 196, 101, 101, 196, 174, 7579, 7581, 4911, 7581, 4911, 4911, 2976], "seconds": 2.1091677130007156}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_05-exterior-E4-v4-296e02fc24c4.json", "status": 0, "upper": 40.0, "below51": true, "seconds": 2.8014999099996203}
+{"kind": "P10-H3", "stage": "E4", "completed": 6, "total": 17, "case": "E4_05", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E4_06", "columns": 38981, "rows": 1312, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 3546, 7581, 4911, 7581, 4911, 4911, 2976], "seconds": 2.5925113009998313}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_06-exterior-E4-v4-e9c05eb87b87.json", "status": 0, "upper": 45.0, "below51": true, "seconds": 3.509867446999124}
+{"kind": "P10-H3", "stage": "E4", "completed": 7, "total": 17, "case": "E4_06", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E4_07", "columns": 36357, "rows": 1322, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 3953, 7581, 1880, 7581, 4911, 4911, 2976], "seconds": 3.044916386001205}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_07-exterior-E4-v4-224f64ed4bfe.json", "status": 0, "upper": 45.0, "below51": true, "seconds": 4.074125307000941}
+{"kind": "P10-H3", "stage": "E4", "completed": 8, "total": 17, "case": "E4_07", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E4_08", "columns": 33586, "rows": 1295, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 992, 7581, 1880, 7581, 4911, 4911, 2976], "seconds": 3.0267769920010323}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_08-exterior-E4-v4-49c84f3a082e.json", "status": 0, "upper": 44.0, "below51": true, "seconds": 3.9271948090008664}
+{"kind": "P10-H3", "stage": "E4", "completed": 9, "total": 17, "case": "E4_08", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E4_09", "columns": 39983, "rows": 1312, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 7579, 7581, 4911, 7581, 1880, 4911, 2976], "seconds": 3.032552602000578}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_09-exterior-E4-v4-49cfabae6b0d.json", "status": 0, "upper": 45.0, "below51": true, "seconds": 3.8983630359998642}
+{"kind": "P10-H3", "stage": "E4", "completed": 10, "total": 17, "case": "E4_09", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E4_10", "columns": 30672, "rows": 1312, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 3546, 2113, 4911, 7581, 1880, 4911, 2976], "seconds": 2.508876149999196}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_10-exterior-E4-v4-1a6ea92e9d79.json", "status": 0, "upper": 46.0, "below51": true, "seconds": 2.905733006999071}
+{"kind": "P10-H3", "stage": "E4", "completed": 11, "total": 17, "case": "E4_10", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E4_11", "columns": 31700, "rows": 1319, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 6006, 7581, 3759, 4246, 1880, 2498, 2976], "seconds": 2.5553835020000406}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_11-exterior-E4-v4-fd2422877a54.json", "status": 0, "upper": 45.5, "below51": true, "seconds": 2.965879089999362}
+{"kind": "P10-H3", "stage": "E4", "completed": 12, "total": 17, "case": "E4_11", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E4_12", "columns": 40079, "rows": 1322, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 7579, 7579, 3276, 7581, 4911, 4911, 1678], "seconds": 2.1795109680006135}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_12-exterior-E4-v4-553c73502c6d.json", "status": 0, "upper": 45.0, "below51": true, "seconds": 3.0728447410001536}
+{"kind": "P10-H3", "stage": "E4", "completed": 13, "total": 17, "case": "E4_12", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E4_13", "columns": 33128, "rows": 1325, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 5777, 6365, 3590, 3677, 4911, 4089, 1965], "seconds": 2.0407097740007885}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_13-exterior-E4-v4-b18d0f7b020e.json", "status": 0, "upper": 45.9344537979, "below51": true, "seconds": 2.422002108000015}
+{"kind": "P10-H3", "stage": "E4", "completed": 14, "total": 17, "case": "E4_13", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E4_14", "columns": 34193, "rows": 1305, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 3953, 7579, 826, 7581, 4911, 4911, 1678], "seconds": 1.9200372859995696}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_14-exterior-E4-v4-dea579915eaa.json", "status": 2, "upper": null, "below51": null, "seconds": 2.309946826999294}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_14-exterior-E4-v4-dea579915eaa-phaseone.json", "status": 0, "gap": -1666666667, "strict": true, "seconds": 3.1790182669992646}
+{"kind": "P10-H3", "stage": "E4", "completed": 15, "total": 17, "case": "E4_14", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E4_15", "columns": 33205, "rows": 1322, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 7579, 3546, 3276, 7581, 1880, 4911, 1678], "seconds": 2.5849385109995637}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_15-exterior-E4-v4-0098f11a8c8e.json", "status": 0, "upper": 45.0, "below51": true, "seconds": 3.3918595550003374}
+{"kind": "P10-H3", "stage": "E4", "completed": 16, "total": 17, "case": "E4_15", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E4_16", "columns": 36004, "rows": 1315, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 7579, 7579, 3276, 7579, 3276, 3276, 685], "seconds": 2.9840152469987515}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_16-exterior-E4-v4-9158eab085ee.json", "status": 2, "upper": null, "below51": null, "seconds": 3.551429424998787}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E4_16-exterior-E4-v4-9158eab085ee-phaseone.json", "status": 0, "gap": -2500000000, "strict": true, "seconds": 4.355227050000394}
+{"kind": "P10-H3", "stage": "E4", "completed": 17, "total": 17, "case": "E4_16", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E3_00", "columns": 43315, "rows": 1382, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 7581, 7581, 4911, 7581, 4911, 4911, 2976], "seconds": 2.68579339399912}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E3_00-exterior-E3-v4-59180f5cebf6.json", "status": 0, "upper": 46.6060607812, "below51": true, "seconds": 3.281785576000402}
+{"kind": "P10-H3", "stage": "E3", "completed": 1, "total": 7, "case": "E3_00", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E3_01", "columns": 38037, "rows": 1372, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 2113, 7581, 4911, 7581, 4911, 4911, 2976], "seconds": 3.100462136000715}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E3_01-exterior-E3-v4-f3bbddd22e5a.json", "status": 0, "upper": 47.3604652407, "below51": true, "seconds": 3.7837975270012976}
+{"kind": "P10-H3", "stage": "E3", "completed": 2, "total": 7, "case": "E3_01", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E3_02", "columns": 43313, "rows": 1382, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 7579, 7581, 4911, 7581, 4911, 4911, 2976], "seconds": 2.387699443001111}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E3_02-exterior-E3-v4-fd89283e41d6.json", "status": 0, "upper": 45.2727273445, "below51": true, "seconds": 3.0343202450003446}
+{"kind": "P10-H3", "stage": "E3", "completed": 3, "total": 7, "case": "E3_02", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E3_03", "columns": 39470, "rows": 1372, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 3546, 7581, 4911, 7581, 4911, 4911, 2976], "seconds": 3.047086799999306}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E3_03-exterior-E3-v4-6a16d4d96d7c.json", "status": 0, "upper": 48.3333333498, "below51": true, "seconds": 3.9259738000000652}
+{"kind": "P10-H3", "stage": "E3", "completed": 4, "total": 7, "case": "E3_03", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E3_04", "columns": 36846, "rows": 1382, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 3953, 7581, 1880, 7581, 4911, 4911, 2976], "seconds": 3.0923746259995823}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E3_04-exterior-E3-v4-da1fcc8bfff5.json", "status": 0, "upper": 47.5, "below51": true, "seconds": 3.9653138989997387}
+{"kind": "P10-H3", "stage": "E3", "completed": 5, "total": 7, "case": "E3_04", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E3_05", "columns": 40472, "rows": 1372, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 7579, 7581, 4911, 7581, 1880, 4911, 2976], "seconds": 3.1367883090006217}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E3_05-exterior-E3-v4-f0e3b978135f.json", "status": 0, "upper": 47.6428571895, "below51": true, "seconds": 4.081588529999863}
+{"kind": "P10-H3", "stage": "E3", "completed": 6, "total": 7, "case": "E3_05", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H3", "case": "E3_06", "columns": 40568, "rows": 1382, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 7579, 7579, 3276, 7581, 4911, 4911, 1678], "seconds": 3.0898566030009533}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H3-E3_06-exterior-E3-v4-5a720c6cd794.json", "status": 0, "upper": 48.3333333536, "below51": true, "seconds": 3.866433131001031}
+{"kind": "P10-H3", "stage": "E3", "completed": 7, "total": 7, "case": "E3_06", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_00", "columns": 35285, "rows": 1312, "catalogue_sizes": [22, 101, 101, 196, 196, 101, 196, 196, 196, 196, 6373, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 2.964263347999804}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_00-exterior-E4-v4-6b6884b8aa28.json", "status": 0, "upper": 47.75, "below51": true, "seconds": 3.6064695120003307}
+{"kind": "P10-H4", "stage": "E4", "completed": 1, "total": 29, "case": "E4_00", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_01", "columns": 35152, "rows": 1339, "catalogue_sizes": [101, 101, 101, 101, 196, 196, 101, 101, 196, 174, 6373, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 2.8797099690000323}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_01-exterior-E4-v4-e19d5d107437.json", "status": 0, "upper": 42.923077053, "below51": true, "seconds": 3.6964725950001593}
+{"kind": "P10-H4", "stage": "E4", "completed": 2, "total": 29, "case": "E4_01", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_02", "columns": 35285, "rows": 1312, "catalogue_sizes": [22, 101, 101, 196, 196, 101, 196, 196, 196, 196, 6373, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 2.804395500999817}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_02-exterior-E4-v4-467a32c7a4f7.json", "status": 0, "upper": 48.0000000128, "below51": true, "seconds": 3.574463734001256}
+{"kind": "P10-H4", "stage": "E4", "completed": 3, "total": 29, "case": "E4_02", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_03", "columns": 35152, "rows": 1339, "catalogue_sizes": [101, 101, 101, 101, 196, 196, 101, 101, 196, 174, 6373, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 2.6688653889996203}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_03-exterior-E4-v4-2e62b5c6ce65.json", "status": 0, "upper": 42.0, "below51": true, "seconds": 3.307384760999412}
+{"kind": "P10-H4", "stage": "E4", "completed": 4, "total": 29, "case": "E4_03", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_04", "columns": 35554, "rows": 1299, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 6373, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 2.3978232689987635}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_04-exterior-E4-v4-b41be33fb1de.json", "status": 0, "upper": 46.9285714385, "below51": true, "seconds": 3.19218544999967}
+{"kind": "P10-H4", "stage": "E4", "completed": 5, "total": 29, "case": "E4_04", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_05", "columns": 35279, "rows": 1312, "catalogue_sizes": [22, 101, 101, 196, 196, 101, 196, 196, 196, 196, 6367, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 2.9650774430010642}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_05-exterior-E4-v4-aaba1934387d.json", "status": 0, "upper": 46.0000000379, "below51": true, "seconds": 3.7107028259997605}
+{"kind": "P10-H4", "stage": "E4", "completed": 6, "total": 29, "case": "E4_05", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_06", "columns": 35168, "rows": 1339, "catalogue_sizes": [101, 101, 101, 101, 196, 196, 101, 101, 196, 196, 6367, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 3.062681880999662}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_06-exterior-E4-v4-ff095c087062.json", "status": 0, "upper": 40.0, "below51": true, "seconds": 3.7478893640000024}
+{"kind": "P10-H4", "stage": "E4", "completed": 7, "total": 29, "case": "E4_06", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_07", "columns": 31122, "rows": 1309, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 1941, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 1.9677388350010006}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_07-exterior-E4-v4-325e4d4ed7f6.json", "status": 0, "upper": 45.0, "below51": true, "seconds": 2.489899692000108}
+{"kind": "P10-H4", "stage": "E4", "completed": 8, "total": 29, "case": "E4_07", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_08", "columns": 29927, "rows": 1319, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 6367, 1880, 4911, 1880, 2976, 6373, 2976], "seconds": 2.9723737189997337}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_08-exterior-E4-v4-7ef11e9663cf.json", "status": 0, "upper": 45.0000000321, "below51": true, "seconds": 3.5063526249996357}
+{"kind": "P10-H4", "stage": "E4", "completed": 9, "total": 29, "case": "E4_08", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_09", "columns": 24408, "rows": 1309, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 1941, 1880, 4911, 1880, 2976, 6373, 1693], "seconds": 2.8053901599996607}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_09-exterior-E4-v4-d664276471b4.json", "status": 0, "upper": 41.0, "below51": true, "seconds": 3.4242896499999915}
+{"kind": "P10-H4", "stage": "E4", "completed": 10, "total": 29, "case": "E4_09", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_10", "columns": 35279, "rows": 1312, "catalogue_sizes": [22, 101, 101, 196, 196, 101, 196, 196, 196, 196, 6367, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 2.6357073550007044}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_10-exterior-E4-v4-5e795c615219.json", "status": 0, "upper": 47.8000000292, "below51": true, "seconds": 3.2260771710007248}
+{"kind": "P10-H4", "stage": "E4", "completed": 11, "total": 29, "case": "E4_10", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_11", "columns": 35146, "rows": 1339, "catalogue_sizes": [101, 101, 101, 101, 196, 196, 101, 101, 196, 174, 6367, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 2.968900328000018}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_11-exterior-E4-v4-bc6d49b2fd5a.json", "status": 0, "upper": 40.0, "below51": true, "seconds": 3.4681620110004587}
+{"kind": "P10-H4", "stage": "E4", "completed": 12, "total": 29, "case": "E4_11", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_12", "columns": 31122, "rows": 1309, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 1941, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 2.9954051329987124}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_12-exterior-E4-v4-f8309d71dbb8.json", "status": 0, "upper": 45.0000000096, "below51": true, "seconds": 3.8761987869984296}
+{"kind": "P10-H4", "stage": "E4", "completed": 13, "total": 29, "case": "E4_12", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_13", "columns": 32517, "rows": 1309, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 6367, 4470, 1880, 4911, 2976, 6373, 2976], "seconds": 2.4607864400004473}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_13-exterior-E4-v4-364a71478231.json", "status": 0, "upper": 45.0, "below51": true, "seconds": 3.2102388519997476}
+{"kind": "P10-H4", "stage": "E4", "completed": 14, "total": 29, "case": "E4_13", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_14", "columns": 28281, "rows": 1299, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 1941, 4470, 1880, 4911, 2976, 6373, 2976], "seconds": 2.4955737090003822}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_14-exterior-E4-v4-4e1d616937c0.json", "status": 0, "upper": 46.0, "below51": true, "seconds": 2.964481947999957}
+{"kind": "P10-H4", "stage": "E4", "completed": 15, "total": 29, "case": "E4_14", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_15", "columns": 32350, "rows": 1319, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 4467, 4470, 4911, 4911, 1678, 6373, 2976], "seconds": 2.967376777998652}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_15-exterior-E4-v4-2497b3099a5c.json", "status": 0, "upper": 45.0, "below51": true, "seconds": 3.785162123000191}
+{"kind": "P10-H4", "stage": "E4", "completed": 16, "total": 29, "case": "E4_15", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_16", "columns": 28960, "rows": 1292, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 887, 4470, 4911, 4911, 1678, 6373, 2976], "seconds": 2.9851218839994544}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_16-exterior-E4-v4-a2cbf4a84748.json", "status": 0, "upper": 44.0, "below51": true, "seconds": 3.9220908009992854}
+{"kind": "P10-H4", "stage": "E4", "completed": 17, "total": 29, "case": "E4_16", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_17", "columns": 26965, "rows": 1322, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 4781, 3648, 3483, 4089, 1965, 3269, 2976], "seconds": 2.640489970000999}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_17-exterior-E4-v4-61fa4e15c227.json", "status": 0, "upper": 47.0, "below51": true, "seconds": 3.3186813930005883}
+{"kind": "P10-H4", "stage": "E4", "completed": 18, "total": 29, "case": "E4_17", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_18", "columns": 33993, "rows": 1309, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 6367, 2921, 4911, 4911, 2976, 6367, 2976], "seconds": 3.0559587300012936}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_18-exterior-E4-v4-08afb07ef92a.json", "status": 0, "upper": 45.0, "below51": true, "seconds": 3.9807534890005627}
+{"kind": "P10-H4", "stage": "E4", "completed": 19, "total": 29, "case": "E4_18", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_19", "columns": 31319, "rows": 1307, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 4935, 2921, 4911, 4911, 2976, 4935, 2976], "seconds": 2.8422495769991656}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_19-exterior-E4-v4-1a6b469b4e55.json", "status": 0, "upper": 48.0, "below51": true, "seconds": 3.808729680999022}
+{"kind": "P10-H4", "stage": "E4", "completed": 20, "total": 29, "case": "E4_19", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_20", "columns": 30786, "rows": 1299, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 6367, 1828, 3759, 3759, 2976, 6367, 2976], "seconds": 2.458442052000464}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_20-exterior-E4-v4-af6c598a7033.json", "status": 0, "upper": 45.0, "below51": true, "seconds": 3.2440575730015553}
+{"kind": "P10-H4", "stage": "E4", "completed": 21, "total": 29, "case": "E4_20", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_21", "columns": 32609, "rows": 1319, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 6367, 4470, 3276, 4911, 2976, 6367, 1678], "seconds": 2.6327705650001008}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_21-exterior-E4-v4-f49e5fd65b05.json", "status": 0, "upper": 45.0, "below51": true, "seconds": 3.1167190200012556}
+{"kind": "P10-H4", "stage": "E4", "completed": 22, "total": 29, "case": "E4_21", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_22", "columns": 27522, "rows": 1317, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 4935, 4470, 3276, 2498, 2976, 4935, 1678], "seconds": 2.658091540000896}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_22-exterior-E4-v4-121b4854b0c6.json", "status": 0, "upper": 47.1302083657, "below51": true, "seconds": 3.225406378000116}
+{"kind": "P10-H4", "stage": "E4", "completed": 23, "total": 29, "case": "E4_22", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_23", "columns": 27759, "rows": 1302, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 6367, 1880, 826, 4911, 2976, 6367, 1678], "seconds": 3.0761458940014563}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_23-exterior-E4-v4-d04c457b609b.json", "status": 2, "upper": null, "below51": null, "seconds": 3.438271570001234}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_23-exterior-E4-v4-d04c457b609b-phaseone.json", "status": 0, "gap": -1666666667, "strict": true, "seconds": 3.828670310000234}
+{"kind": "P10-H4", "stage": "E4", "completed": 24, "total": 29, "case": "E4_23", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_24", "columns": 29254, "rows": 1325, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 4781, 2921, 3590, 4911, 1965, 6367, 1965], "seconds": 2.960123097000178}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_24-exterior-E4-v4-59534e65845a.json", "status": 0, "upper": 46.0, "below51": true, "seconds": 3.747095804001219}
+{"kind": "P10-H4", "stage": "E4", "completed": 25, "total": 29, "case": "E4_24", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_25", "columns": 32946, "rows": 1319, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 6367, 4470, 4911, 4911, 1678, 6367, 1678], "seconds": 3.083130257000448}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_25-exterior-E4-v4-b00d4316a0cb.json", "status": 0, "upper": 45.0, "below51": true, "seconds": 3.7886511410015373}
+{"kind": "P10-H4", "stage": "E4", "completed": 26, "total": 29, "case": "E4_25", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_26", "columns": 28005, "rows": 1317, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 4935, 2203, 4911, 4911, 1678, 4935, 1678], "seconds": 2.9557293629986816}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_26-exterior-E4-v4-5e3a2f849320.json", "status": 0, "upper": 46.9000000009, "below51": true, "seconds": 3.58619664699836}
+{"kind": "P10-H4", "stage": "E4", "completed": 27, "total": 29, "case": "E4_26", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_27", "columns": 27074, "rows": 1319, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 6367, 4470, 1880, 1880, 1678, 6367, 1678], "seconds": 2.378002153000125}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_27-exterior-E4-v4-468b6a7e7208.json", "status": 0, "upper": 45.0, "below51": true, "seconds": 3.0679014200013626}
+{"kind": "P10-H4", "stage": "E4", "completed": 28, "total": 29, "case": "E4_27", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E4_28", "columns": 28608, "rows": 1312, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 4467, 4470, 4911, 3276, 685, 6367, 1678], "seconds": 2.7082729369994922}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_28-exterior-E4-v4-a8da94b6be7f.json", "status": 2, "upper": null, "below51": null, "seconds": 3.265589374999763}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E4_28-exterior-E4-v4-a8da94b6be7f-phaseone.json", "status": 0, "gap": -2500000000, "strict": true, "seconds": 2.919344246998662}
+{"kind": "P10-H4", "stage": "E4", "completed": 29, "total": 29, "case": "E4_28", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E3_00", "columns": 35853, "rows": 1379, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 6373, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 2.745264146999034}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E3_00-exterior-E3-v4-21ccf03182b8.json", "status": 0, "upper": 48.2727273561, "below51": true, "seconds": 3.3591125099992496}
+{"kind": "P10-H4", "stage": "E3", "completed": 1, "total": 13, "case": "E3_00", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E3_01", "columns": 35853, "rows": 1379, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 6373, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 2.864518737000253}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E3_01-exterior-E3-v4-8730b8c4d6b4.json", "status": 0, "upper": 47.5227273082, "below51": true, "seconds": 3.7371920400000818}
+{"kind": "P10-H4", "stage": "E3", "completed": 2, "total": 13, "case": "E3_01", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E3_02", "columns": 36043, "rows": 1359, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 6373, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 3.0832836650006357}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E3_02-exterior-E3-v4-a926f4ce577e.json", "status": 0, "upper": 49.1810889441, "below51": true, "seconds": 3.6332659580002655}
+{"kind": "P10-H4", "stage": "E3", "completed": 3, "total": 13, "case": "E3_02", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E3_03", "columns": 35847, "rows": 1379, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 6367, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 3.0437643349996506}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E3_03-exterior-E3-v4-8fd875887247.json", "status": 0, "upper": 49.0, "below51": true, "seconds": 3.8028454249997594}
+{"kind": "P10-H4", "stage": "E3", "completed": 4, "total": 13, "case": "E3_03", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E3_04", "columns": 31611, "rows": 1369, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 1941, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 2.3668120319998707}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E3_04-exterior-E3-v4-d1f4b9e3e279.json", "status": 0, "upper": 47.4285714356, "below51": true, "seconds": 2.9698952449998615}
+{"kind": "P10-H4", "stage": "E3", "completed": 5, "total": 13, "case": "E3_04", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E3_05", "columns": 30416, "rows": 1379, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 6367, 1880, 4911, 1880, 2976, 6373, 2976], "seconds": 1.8389022470000782}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E3_05-exterior-E3-v4-b828491cfef2.json", "status": 0, "upper": 47.5, "below51": true, "seconds": 2.216494889000387}
+{"kind": "P10-H4", "stage": "E3", "completed": 6, "total": 13, "case": "E3_05", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E3_06", "columns": 35847, "rows": 1379, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 6367, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 2.505981194999549}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E3_06-exterior-E3-v4-cd98c48139ca.json", "status": 0, "upper": 45.2727273677, "below51": true, "seconds": 2.9509727469994687}
+{"kind": "P10-H4", "stage": "E3", "completed": 7, "total": 13, "case": "E3_06", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E3_07", "columns": 31611, "rows": 1369, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 1941, 4470, 4911, 4911, 2976, 6373, 2976], "seconds": 2.293866273999811}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E3_07-exterior-E3-v4-05f462980eb2.json", "status": 0, "upper": 48.0, "below51": true, "seconds": 3.027274486999886}
+{"kind": "P10-H4", "stage": "E3", "completed": 8, "total": 13, "case": "E3_07", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E3_08", "columns": 33006, "rows": 1369, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 6367, 4470, 1880, 4911, 2976, 6373, 2976], "seconds": 2.3851266439996834}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E3_08-exterior-E3-v4-4df9d523863e.json", "status": 0, "upper": 48.3333333553, "below51": true, "seconds": 3.0688506859987683}
+{"kind": "P10-H4", "stage": "E3", "completed": 9, "total": 13, "case": "E3_08", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E3_09", "columns": 32839, "rows": 1379, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 4467, 4470, 4911, 4911, 1678, 6373, 2976], "seconds": 3.0181750880001346}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E3_09-exterior-E3-v4-1e6631714d63.json", "status": 0, "upper": 48.3333333508, "below51": true, "seconds": 3.705240118999427}
+{"kind": "P10-H4", "stage": "E3", "completed": 10, "total": 13, "case": "E3_09", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E3_10", "columns": 34482, "rows": 1369, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 6367, 2921, 4911, 4911, 2976, 6367, 2976], "seconds": 3.0334043059992837}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E3_10-exterior-E3-v4-8632dd3501ef.json", "status": 0, "upper": 49.3333333378, "below51": true, "seconds": 3.7772064639993914}
+{"kind": "P10-H4", "stage": "E3", "completed": 11, "total": 13, "case": "E3_10", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E3_11", "columns": 33098, "rows": 1379, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 6367, 4470, 3276, 4911, 2976, 6367, 1678], "seconds": 2.6735270469998795}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E3_11-exterior-E3-v4-164ecd6ed6e4.json", "status": 0, "upper": 48.333333353, "below51": true, "seconds": 3.315213787000175}
+{"kind": "P10-H4", "stage": "E3", "completed": 12, "total": 13, "case": "E3_11", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H4", "case": "E3_12", "columns": 33435, "rows": 1379, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 6367, 4470, 4911, 4911, 1678, 6367, 1678], "seconds": 3.098776718999943}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H4-E3_12-exterior-E3-v4-d0b5c0e9cbe5.json", "status": 0, "upper": 48.3333333531, "below51": true, "seconds": 3.7002058569996734}
+{"kind": "P10-H4", "stage": "E3", "completed": 13, "total": 13, "case": "E3_12", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_00", "columns": 35146, "rows": 1303, "catalogue_sizes": [22, 101, 101, 196, 196, 101, 196, 196, 196, 196, 7581, 7581, 4211, 4211, 4211, 2528, 2528], "seconds": 3.0573334860000614}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_00-exterior-E4-v4-9e5ab3bc5833.json", "status": 0, "upper": 48.0, "below51": true, "seconds": 3.781563307000397}
+{"kind": "P10-H5", "stage": "E4", "completed": 1, "total": 29, "case": "E4_00", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_01", "columns": 35013, "rows": 1330, "catalogue_sizes": [101, 101, 101, 101, 196, 196, 101, 101, 196, 174, 7581, 7581, 4211, 4211, 4211, 2528, 2528], "seconds": 1.8651412939998409}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_01-exterior-E4-v4-0d0b7f67ae49.json", "status": 0, "upper": 41.0, "below51": true, "seconds": 2.3380712649995985}
+{"kind": "P10-H5", "stage": "E4", "completed": 2, "total": 29, "case": "E4_01", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_02", "columns": 35146, "rows": 1303, "catalogue_sizes": [22, 101, 101, 196, 196, 101, 196, 196, 196, 196, 7581, 7581, 4211, 4211, 4211, 2528, 2528], "seconds": 2.8834264109991636}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_02-exterior-E4-v4-bd601046c753.json", "status": 0, "upper": 47.0, "below51": true, "seconds": 3.7074886039990815}
+{"kind": "P10-H5", "stage": "E4", "completed": 3, "total": 29, "case": "E4_02", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_03", "columns": 35013, "rows": 1330, "catalogue_sizes": [101, 101, 101, 101, 196, 196, 101, 101, 196, 174, 7581, 7581, 4211, 4211, 4211, 2528, 2528], "seconds": 2.886013837000064}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_03-exterior-E4-v4-384613caf6f4.json", "status": 0, "upper": 42.0, "below51": true, "seconds": 3.6847493130007933}
+{"kind": "P10-H5", "stage": "E4", "completed": 4, "total": 29, "case": "E4_03", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_04", "columns": 29947, "rows": 1300, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 2113, 7581, 4211, 4211, 4211, 2528, 2528], "seconds": 2.9061018279990094}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_04-exterior-E4-v4-149416794c68.json", "status": 0, "upper": 45.7500000033, "below51": true, "seconds": 3.5617523349992553}
+{"kind": "P10-H5", "stage": "E4", "completed": 5, "total": 29, "case": "E4_04", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_05", "columns": 32019, "rows": 1300, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 7581, 7581, 815, 4211, 4211, 2528, 2528], "seconds": 2.85898187499879}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_05-exterior-E4-v4-11ac0d19faa0.json", "status": 0, "upper": 45.2777777899, "below51": true, "seconds": 3.45561901200017}
+{"kind": "P10-H5", "stage": "E4", "completed": 6, "total": 29, "case": "E4_05", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_06", "columns": 32019, "rows": 1300, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 7581, 7581, 4211, 815, 4211, 2528, 2528], "seconds": 3.283078791999287}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_06-exterior-E4-v4-ff679ca7e262.json", "status": 0, "upper": 45.8484848545, "below51": true, "seconds": 3.89848352899935}
+{"kind": "P10-H5", "stage": "E4", "completed": 7, "total": 29, "case": "E4_06", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_07", "columns": 22137, "rows": 1300, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 2113, 7581, 815, 815, 4211, 2528, 1320], "seconds": 2.851325226998597}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_07-exterior-E4-v4-2ada5fc1a7a2.json", "status": 0, "upper": 39.0, "below51": true, "seconds": 3.354866042998765}
+{"kind": "P10-H5", "stage": "E4", "completed": 8, "total": 29, "case": "E4_07", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_08", "columns": 35415, "rows": 1290, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 7581, 7581, 4211, 4211, 4211, 2528, 2528], "seconds": 1.8139019760001247}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_08-exterior-E4-v4-1e3bdb7d2e1b.json", "status": 0, "upper": 47.125, "below51": true, "seconds": 2.260093611999764}
+{"kind": "P10-H5", "stage": "E4", "completed": 9, "total": 29, "case": "E4_08", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_09", "columns": 26741, "rows": 1290, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 2113, 7581, 4211, 4211, 815, 2528, 2528], "seconds": 2.8538777200010372}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_09-exterior-E4-v4-1b9b3ca91b7d.json", "status": 0, "upper": 46.5, "below51": true, "seconds": 3.488155254000958}
+{"kind": "P10-H5", "stage": "E4", "completed": 10, "total": 29, "case": "E4_09", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_10", "columns": 35142, "rows": 1303, "catalogue_sizes": [22, 101, 101, 196, 196, 101, 196, 196, 196, 196, 7579, 7579, 4211, 4211, 4211, 2528, 2528], "seconds": 2.926585019999038}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_10-exterior-E4-v4-c94cb47c9853.json", "status": 0, "upper": 44.9664432376, "below51": true, "seconds": 3.705572681999911}
+{"kind": "P10-H5", "stage": "E4", "completed": 11, "total": 29, "case": "E4_10", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_11", "columns": 35031, "rows": 1330, "catalogue_sizes": [101, 101, 101, 101, 196, 196, 101, 101, 196, 196, 7579, 7579, 4211, 4211, 4211, 2528, 2528], "seconds": 3.063510954998492}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_11-exterior-E4-v4-1d90f9582c0d.json", "status": 0, "upper": 40.0, "below51": true, "seconds": 3.8756444579994422}
+{"kind": "P10-H5", "stage": "E4", "completed": 12, "total": 29, "case": "E4_11", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_12", "columns": 31378, "rows": 1300, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 3546, 7579, 4211, 4211, 4211, 2528, 2528], "seconds": 3.0337082690002717}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_12-exterior-E4-v4-430353d8ef6c.json", "status": 0, "upper": 45.0, "below51": true, "seconds": 3.902732778000427}
+{"kind": "P10-H5", "stage": "E4", "completed": 13, "total": 29, "case": "E4_12", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_13", "columns": 29951, "rows": 1310, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 3953, 7579, 4211, 4211, 4211, 694, 2528], "seconds": 2.899253322999357}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_13-exterior-E4-v4-61a313ea9fa5.json", "status": 0, "upper": 44.3333333532, "below51": true, "seconds": 3.517537376999826}
+{"kind": "P10-H5", "stage": "E4", "completed": 14, "total": 29, "case": "E4_13", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_14", "columns": 27180, "rows": 1283, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 992, 7579, 4211, 4211, 4211, 694, 2528], "seconds": 2.8737233850006305}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_14-exterior-E4-v4-f185b64069fa.json", "status": 0, "upper": 44.0, "below51": true, "seconds": 3.2852212420002616}
+{"kind": "P10-H5", "stage": "E4", "completed": 15, "total": 29, "case": "E4_14", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_15", "columns": 24139, "rows": 1300, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 3546, 3546, 815, 4211, 4211, 2528, 2528], "seconds": 2.7175470879992645}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_15-exterior-E4-v4-3990b5e3a582.json", "status": 0, "upper": 46.0, "below51": true, "seconds": 3.075239708998197}
+{"kind": "P10-H5", "stage": "E4", "completed": 16, "total": 29, "case": "E4_15", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_16", "columns": 24941, "rows": 1307, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 6006, 3546, 4211, 2026, 2092, 1778, 2528], "seconds": 2.2658436419987993}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_16-exterior-E4-v4-2d6b0e9f3026.json", "status": 0, "upper": 45.8028170411, "below51": true, "seconds": 2.5485659939986363}
+{"kind": "P10-H5", "stage": "E4", "completed": 17, "total": 29, "case": "E4_16", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_17", "columns": 23684, "rows": 1306, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 4267, 4267, 2092, 4211, 4211, 941, 941], "seconds": 2.6026361050007836}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_17-exterior-E4-v4-aecff658b846.json", "status": 0, "upper": 44.4, "below51": true, "seconds": 2.896760383000583}
+{"kind": "P10-H5", "stage": "E4", "completed": 18, "total": 29, "case": "E4_17", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_18", "columns": 35140, "rows": 1303, "catalogue_sizes": [22, 101, 101, 196, 196, 101, 196, 196, 196, 196, 7581, 7581, 4209, 4209, 4209, 2528, 2528], "seconds": 2.9234508789995743}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_18-exterior-E4-v4-6bd0be0703c1.json", "status": 2, "upper": null, "below51": null, "seconds": 3.7394100009987596}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_18-exterior-E4-v4-6bd0be0703c1-phaseone.json", "status": 0, "gap": -2500000000, "strict": true, "seconds": 4.250969863998762}
+{"kind": "P10-H5", "stage": "E4", "completed": 19, "total": 29, "case": "E4_18", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_19", "columns": 35029, "rows": 1330, "catalogue_sizes": [101, 101, 101, 101, 196, 196, 101, 101, 196, 196, 7581, 7581, 4209, 4209, 4209, 2528, 2528], "seconds": 2.3922359890002554}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_19-exterior-E4-v4-56b96a33fff7.json", "status": 2, "upper": null, "below51": null, "seconds": 2.7589581419997558}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_19-exterior-E4-v4-56b96a33fff7-phaseone.json", "status": 0, "gap": -975835811, "strict": true, "seconds": 4.315565099999731}
+{"kind": "P10-H5", "stage": "E4", "completed": 20, "total": 29, "case": "E4_19", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_20", "columns": 31023, "rows": 1310, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 7581, 7581, 2016, 4209, 2016, 2528, 2528], "seconds": 2.878695019000588}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_20-exterior-E4-v4-3cebd6746926.json", "status": 0, "upper": 42.5, "below51": true, "seconds": 3.5364851239992277}
+{"kind": "P10-H5", "stage": "E4", "completed": 21, "total": 29, "case": "E4_20", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_21", "columns": 31677, "rows": 1310, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 7581, 7581, 4209, 2016, 4209, 989, 2528], "seconds": 2.34031910900012}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_21-exterior-E4-v4-e50477d845de.json", "status": 0, "upper": 42.5, "below51": true, "seconds": 2.92995036100001}
+{"kind": "P10-H5", "stage": "E4", "completed": 22, "total": 29, "case": "E4_21", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_22", "columns": 27347, "rows": 1314, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 6084, 3677, 3426, 3426, 3426, 2026, 2528], "seconds": 2.437266496999655}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_22-exterior-E4-v4-7db966dc1206.json", "status": 0, "upper": 46.685714585, "below51": true, "seconds": 3.0348666980007692}
+{"kind": "P10-H5", "stage": "E4", "completed": 23, "total": 29, "case": "E4_22", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_23", "columns": 27418, "rows": 1293, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 7581, 7581, 414, 2016, 2016, 2528, 2528], "seconds": 2.222411294998892}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_23-exterior-E4-v4-2e1c7d0b5226.json", "status": 2, "upper": null, "below51": null, "seconds": 2.753296099999716}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_23-exterior-E4-v4-2e1c7d0b5226-phaseone.json", "status": 0, "gap": -4000000000, "strict": true, "seconds": 4.041237499000999}
+{"kind": "P10-H5", "stage": "E4", "completed": 24, "total": 29, "case": "E4_23", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_24", "columns": 28072, "rows": 1293, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 7581, 7581, 2016, 414, 4209, 989, 2528], "seconds": 2.7693701369989867}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_24-exterior-E4-v4-cc97a82dd9cd.json", "status": 2, "upper": null, "below51": null, "seconds": 3.270871561999229}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_24-exterior-E4-v4-cc97a82dd9cd-phaseone.json", "status": 0, "gap": -4000000000, "strict": true, "seconds": 4.118487542998992}
+{"kind": "P10-H5", "stage": "E4", "completed": 25, "total": 29, "case": "E4_24", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_25", "columns": 28135, "rows": 1310, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 7581, 7581, 4209, 2016, 2016, 989, 989], "seconds": 2.872778312999799}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_25-exterior-E4-v4-2c79e4cc4773.json", "status": 0, "upper": 44.0, "below51": true, "seconds": 3.358809662000567}
+{"kind": "P10-H5", "stage": "E4", "completed": 26, "total": 29, "case": "E4_25", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_26", "columns": 33749, "rows": 1310, "catalogue_sizes": [101, 101, 196, 196, 196, 196, 196, 196, 196, 196, 7579, 7579, 4209, 4209, 4209, 1700, 1700], "seconds": 2.591717487001006}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_26-exterior-E4-v4-b686a21da67d.json", "status": 0, "upper": 43.0000000124, "below51": true, "seconds": 3.0864612620007392}
+{"kind": "P10-H5", "stage": "E4", "completed": 27, "total": 29, "case": "E4_26", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_27", "columns": 30571, "rows": 1317, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 5777, 7579, 3426, 4209, 3426, 1700, 1700], "seconds": 2.2402000700003555}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_27-exterior-E4-v4-48130158afdb.json", "status": 0, "upper": 46.0, "below51": true, "seconds": 2.8292826670003706}
+{"kind": "P10-H5", "stage": "E4", "completed": 28, "total": 29, "case": "E4_27", "strict_diagnostic": true}
+{"phase": "built", "kind": "P10-H5", "case": "E4_28", "columns": 30923, "rows": 1300, "catalogue_sizes": [196, 196, 196, 196, 196, 196, 196, 196, 196, 196, 6006, 7579, 4209, 3426, 4209, 1040, 1700], "seconds": 2.8701945259999775}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_28-exterior-E4-v4-8658a765c7b5.json", "status": 2, "upper": null, "below51": null, "seconds": 3.350841778999893}
+{"receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H5-E4_28-exterior-E4-v4-8658a765c7b5-phaseone.json", "status": 0, "gap": -2000000000, "strict": true, "seconds": 4.159174603999418}
+{"kind": "P10-H5", "stage": "E4", "completed": 29, "total": 29, "case": "E4_28", "strict_diagnostic": true}
+{"status": "deferred", "reason": "New stronger v6 constraint is ready"}

@@ -1,0 +1,8 @@
+{
+  "file": "DegreeEnvelope.lean",
+  "source_sha256": "f0f0aa819f803d5b01a647289700686a82116474fe71e53a6cf4d14370c9fb01",
+  "source_stable": true,
+  "exit_code": 0,
+  "seconds": 56.276,
+  "output": "'FrontierDegreeEnvelope.exists_top_three' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierDegreeEnvelope.exists_top_four' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierDegreeEnvelope.degree_envelope' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierDegreeEnvelope.envelope_three' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierDegreeEnvelope.envelope_four' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierDegreeEnvelope.sum_falling_eq_square_sub' depends on axioms: [propext, Quot.sound]\n'FrontierDegreeEnvelope.support_degree_pos' depends on axioms: [propext, Classical.choice, Quot.sound]\n'FrontierDegreeEnvelope.support_degree_sum' depends on axioms: [propext, Classical.choice, Quot.sound]\n"
+}

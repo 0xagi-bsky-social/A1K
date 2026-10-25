@@ -1,0 +1,82 @@
+{
+  "triangle": {
+    "candidate_count": 10,
+    "six_subsets_checked": 210,
+    "answer_count": 0,
+    "answers": []
+  },
+  "path_three": {
+    "candidate_count": 10,
+    "six_subsets_checked": 210,
+    "answer_count": 0,
+    "answers": []
+  },
+  "path_two_plus_edge": {
+    "candidate_count": 9,
+    "six_subsets_checked": 84,
+    "answer_count": 0,
+    "answers": []
+  },
+  "Fin6": {
+    "nine_member_count": 120,
+    "completion_counts": [
+      1
+    ],
+    "first": {
+      "family": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          3,
+          5
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "completions": [
+        [
+          2,
+          3,
+          5
+        ]
+      ]
+    }
+  }
+}

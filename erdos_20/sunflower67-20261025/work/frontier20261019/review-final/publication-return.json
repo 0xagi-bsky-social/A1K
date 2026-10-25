@@ -1,0 +1,97 @@
+{
+  "schema_version": "superresearch-native-publication/2.2",
+  "status": "published",
+  "bundle_name": "research-report",
+  "run_id": "frontier20261019-final-formal53-review",
+  "created_at_utc": "2026-10-19T15:01:44.818326+00:00",
+  "contract_sha256": "2ca6e74f4eed7747f06819153e04b28ae9dec3bf5fe7b0134f0c49c724f0271a",
+  "manuscript_sha256": "3ee74792dff98a43231d07100d0034b485a6f91beb2b565ffb15d22f5a40e365",
+  "review_bundle_sha256": "1d57da32abc709b0f6f2bf0410f7d57d2181d58ed6ee68f66a54037332b97859",
+  "artifacts": {
+    "report.html": {
+      "sha256": "d6168360b7105f21c8eccba76e13b7a961d5a5811702cf2334a6cff898986840",
+      "bytes": 33087
+    },
+    "report.md": {
+      "sha256": "3ee74792dff98a43231d07100d0034b485a6f91beb2b565ffb15d22f5a40e365",
+      "bytes": 23521
+    },
+    "report.pdf": {
+      "sha256": "428c875ac49c2fca6d33fa35eca4b8c2b3f02a6726654a2a702e5a59e2f82df2",
+      "bytes": 122304
+    }
+  },
+  "renderer": {
+    "available": true,
+    "renderer": "local-reportlab-markdown-and-six-explicit-math-mappings",
+    "attempts": [
+      {
+        "renderer": "reportlab",
+        "python_executable": "/home/user/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "exit_code": 0,
+        "diagnostic_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "formula_mappings": [
+      {
+        "source": "D n + m(m+r-1) \\leq (D+1)rm\\text{.}",
+        "pdf_markup": "<i>D n</i> + <i>m</i>(<i>m+r</i>\u22121) \u2264 (<i>D</i>+1)<i>r m</i>."
+      },
+      {
+        "source": "\\sum_x d(x)^2 \\geq m(m+r-1)\\text{.}",
+        "pdf_markup": "\u2211<sub>x</sub> <i>d</i>(<i>x</i>)<super>2</super> \u2265 <i>m</i>(<i>m+r</i>\u22121)."
+      },
+      {
+        "source": "d(x)^2+D\\leq(D+1)d(x)\\text{.}",
+        "pdf_markup": "<i>d</i>(<i>x</i>)<super>2</super> + <i>D</i> \u2264 (<i>D</i>+1)<i>d</i>(<i>x</i>)."
+      },
+      {
+        "source": "I(27)\\ \\Longleftrightarrow\\ \\text{there is no intersecting 28-member, rank-four, three-sunflower-free family on Fin 72}\\text{.}",
+        "pdf_markup": "<i>I</i>(27) \u27fa there is no intersecting 28-member, rank-four, three-sunflower-free family on Fin 72."
+      },
+      {
+        "source": "\\sum_v d(v)^2 \\geq m(m+r-1)+x(x-1)+y(y-1)+z(z-1)-t(t-1)\\text{.}",
+        "pdf_markup": "\u2211<sub>v</sub> <i>d</i>(<i>v</i>)<super>2</super> \u2265 <i>m</i>(<i>m+r</i>\u22121) + <i>x</i>(<i>x</i>\u22121) + <i>y</i>(<i>y</i>\u22121) + <i>z</i>(<i>z</i>\u22121) \u2212 <i>t</i>(<i>t</i>\u22121)."
+      },
+      {
+        "source": "|I|-1\\geq \\binom{j}{2}-\\binom{j}{3}\\text{.}",
+        "pdf_markup": "|<i>I</i>| \u2212 1 \u2265 binom(<i>j</i>,2) \u2212 binom(<i>j</i>,3)."
+      }
+    ],
+    "limitations": [
+      "Six displayed formulas use explicit source-to-display mappings; mathematical code blocks retain exact readable source notation.",
+      "PDF semantic tagging and accessibility conformance are not established."
+    ],
+    "validation": {
+      "header_and_eof": "checked",
+      "page_count": 8,
+      "text_extraction": "checked-title-and-nonempty-content",
+      "title_metadata": "checked",
+      "extracted_text_sha256": "4796272e2819811cb63ca77282e4b9186d2c3d28106f5f437e86b4435f5be308",
+      "visible_prose_fragments_checked": 193,
+      "math_layout_verification": "Semantic MathML and exact source preserved in HTML; PDF formulas require visual inspection."
+    }
+  },
+  "verification": {
+    "valid": true,
+    "publication_eligible": true,
+    "errors": [],
+    "assurance": "Local integrity and declared tool provenance only; no cryptographic agent authentication, proven isolation, organizational independence, or independent certification.",
+    "independent_certification": "not-assessed",
+    "manuscript_sha256": "3ee74792dff98a43231d07100d0034b485a6f91beb2b565ffb15d22f5a40e365",
+    "submission_count": 120,
+    "final_round": 10,
+    "bundle_sha256": "1d57da32abc709b0f6f2bf0410f7d57d2181d58ed6ee68f66a54037332b97859",
+    "contract_sha256": "2ca6e74f4eed7747f06819153e04b28ae9dec3bf5fe7b0134f0c49c724f0271a",
+    "run_id": "frontier20261019-final-formal53-review",
+    "final_round_sha256": "1477172d92168a1697d89d5f12950fcb54774068e7f235e07a7effc5fa088897",
+    "synthetic": false
+  },
+  "limitations": [
+    "Six displayed formulas use explicit source-to-display mappings; mathematical code blocks retain exact readable source notation.",
+    "PDF semantic tagging and accessibility conformance are not established.",
+    "PDF validation checks parseability, topic title and visible prose fragments when Poppler is installed; it is not a universal mathematical-layout or semantic-equivalence proof."
+  ],
+  "design_qa": "Automated rendering checks only; separate AI visual inspection may be recorded without external authentication.",
+  "assurance": "Unsigned local review and byte commitments. No external service authentication, independent control, causal improvement, or independent human certification is asserted."
+}

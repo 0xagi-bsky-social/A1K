@@ -1,0 +1,53 @@
+{
+  "status": "EXISTING_REPLAYS_REUSED_HASH_MATCHED",
+  "new_execution": false,
+  "source_receipt_sha256": "930a417d5f24c10056c9b10fb436fc7e52bdb13d327ed262edb895d1fd5eae8f",
+  "inputs": [
+    {
+      "path": "companion/terminal/cross15/src/verify.py",
+      "sha256": "f72bdb066eb40ebd3a5c072d0ed8431a547d06ae8d5581c408a44326df31422d",
+      "matches_replayed_package": true
+    },
+    {
+      "path": "companion/terminal/cross15/results/cross16_certificate.json",
+      "sha256": "fa9e49530acf9170b073c4ed24fde9ae9eb30ff78bf1edeed2a8f21018ed839b",
+      "matches_replayed_package": true
+    },
+    {
+      "path": "companion/terminal/crowding/code/verify.py",
+      "sha256": "397f9ab5cf361a1c6ba547e5fb0ac4a774bba967b26f637e7c951b9ed1104876",
+      "matches_replayed_package": true
+    },
+    {
+      "path": "companion/terminal/crowding/certificates/crowding26.json.gz",
+      "sha256": "071d5bffc5b12979b5cb908e47f8460531ff08da99597f0e04d409335f8af825",
+      "matches_replayed_package": true
+    }
+  ],
+  "executions": [
+    {
+      "id": "terminal.cross15",
+      "mode": "normal",
+      "status": "PASS_EXPECTED_SEMANTICS",
+      "stdout_sha256": "29f86d6415201ab4c760e52757edb9bad9c09c7aa021442864820fc3088e3f89"
+    },
+    {
+      "id": "terminal.cross15",
+      "mode": "optimized",
+      "status": "PASS_EXPECTED_SEMANTICS",
+      "stdout_sha256": "29f86d6415201ab4c760e52757edb9bad9c09c7aa021442864820fc3088e3f89"
+    },
+    {
+      "id": "terminal.crowding",
+      "mode": "normal",
+      "status": "PASS_EXPECTED_SEMANTICS",
+      "stdout_sha256": "7df73d945a189849c662508c2b374a60f98e2a3cb5f72887f17dd3c04eda07c2"
+    },
+    {
+      "id": "terminal.crowding",
+      "mode": "optimized",
+      "status": "PASS_EXPECTED_SEMANTICS",
+      "stdout_sha256": "7df73d945a189849c662508c2b374a60f98e2a3cb5f72887f17dd3c04eda07c2"
+    }
+  ]
+}

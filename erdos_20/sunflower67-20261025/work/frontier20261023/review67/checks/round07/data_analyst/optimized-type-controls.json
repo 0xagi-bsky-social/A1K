@@ -1,0 +1,38 @@
+{
+  "optimized": true,
+  "controls": [
+    {
+      "value": true,
+      "status": "rejected"
+    },
+    {
+      "value": false,
+      "status": "rejected"
+    },
+    {
+      "value": 1.0,
+      "status": "rejected"
+    },
+    {
+      "value": 49.0,
+      "status": "rejected"
+    },
+    {
+      "value": "49",
+      "status": "rejected"
+    },
+    {
+      "value": null,
+      "status": "rejected"
+    },
+    {
+      "value": 49,
+      "status": "accepted"
+    },
+    {
+      "value": 1267650600228229401496703205376,
+      "status": "accepted"
+    }
+  ],
+  "scientific_model_loaded": false
+}

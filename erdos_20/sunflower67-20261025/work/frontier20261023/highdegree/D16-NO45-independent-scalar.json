@@ -1,0 +1,47 @@
+{
+  "schema": "cap16-N45-independent-scalar-v1",
+  "result": "PASS",
+  "source_sha256": "27cbe7889ebddf51521752c9d642944792aa34c0b20d6b8c740d5fffb9213d00",
+  "counts": [
+    2054,
+    164,
+    6
+  ],
+  "orbit_count": 2,
+  "canonical_rows": [
+    [
+      0,
+      2,
+      2,
+      2,
+      2,
+      0,
+      1,
+      1,
+      1,
+      1,
+      8,
+      8,
+      8,
+      8
+    ],
+    [
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      8,
+      8,
+      8,
+      8
+    ]
+  ],
+  "seconds": 0.07632518999889726,
+  "assurance": "Independent reverse enumeration of necessary scalar signatures only; the literal I8 signatures and ordinary geometric exclusions remain separately checked premises."
+}

@@ -1,0 +1,22 @@
+{
+  "access_date": "2026-10-25",
+  "label": "github12",
+  "tool": "mcp__codex_apps__github_search",
+  "args": {
+    "query": "sunflower",
+    "repository_name": "PalomarRegistry/PalomarWeb",
+    "topn": 10
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "results": []
+    },
+    "isError": false
+  }
+}

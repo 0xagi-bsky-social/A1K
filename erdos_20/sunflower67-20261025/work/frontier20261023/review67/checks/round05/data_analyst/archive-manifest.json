@@ -1,0 +1,30 @@
+{
+  "purpose": "Preserve actual reviewer execution after received final response; original bytes unchanged",
+  "files": [
+    {
+      "source": "/tmp/r67_data_round05/baseline.json",
+      "archive": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round05/data_analyst/baseline.json",
+      "sha256": "32d91b2dd19442aec2d8d8fb65d7b68942f9ad4f000e91ac7eca3253cd8d645b"
+    },
+    {
+      "source": "/tmp/r67_data_round05/comparison.json",
+      "archive": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round05/data_analyst/comparison.json",
+      "sha256": "36f5956abee0b1ada270c9101a389fd35fa6c609bae6196022acb4feb9cc2c3c"
+    },
+    {
+      "source": "/tmp/r67_data_round05/driver.py",
+      "archive": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round05/data_analyst/driver.py",
+      "sha256": "1906dd63bd07886a8a277024e2c8817ad8f3cb224fbbdb1e41c7a6baf635c1d9"
+    },
+    {
+      "source": "/tmp/r67_data_round05/negative-multiplier-receipt.json",
+      "archive": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round05/data_analyst/negative-multiplier-receipt.json",
+      "sha256": "5ec04d06646d11266099a65db007255b8b40205d9438af30bc27f18a077421e7"
+    },
+    {
+      "source": "/tmp/r67_data_round05/negative-multiplier-replay.json",
+      "archive": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/review67/checks/round05/data_analyst/negative-multiplier-replay.json",
+      "sha256": "7d25b33f3568904444690ce99765bf34bfd8e30f890675514f3660f6e142cc92"
+    }
+  ]
+}

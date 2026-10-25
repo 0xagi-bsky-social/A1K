@@ -1,0 +1,24 @@
+{
+  "status": "PASS_INDEPENDENT_FINITE_I7_COVERAGE",
+  "six_point_candidates": 77520,
+  "labelled_six_point_families": 1860,
+  "orbit_sizes": [
+    120,
+    360,
+    60,
+    240,
+    360,
+    360,
+    360
+  ],
+  "seven_point_types": 1,
+  "mixed_traces": 175,
+  "seconds": 0.13328214299872343,
+  "source_sha256": "fa59a11857d7dfdc3047a660f6fcb6204206ac311880e95e1f52c373718909a9",
+  "imported_certificate_sha256": "fe172301b201819c029d9a1b7e8931f516cbd90aa978977118b7853b2ead7164",
+  "ordinary_premises": [
+    "Every intersecting SF3 seven-family has support at most seven.",
+    "The degree-one/degree-five ordinary reduction leaves only H7 on seven points."
+  ],
+  "assurance": "Independent finite census of stated support domain; not a proof of the ordinary support reduction, a solver run, or Lean."
+}

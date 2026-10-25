@@ -1,0 +1,14 @@
+{
+  "module": "SupportFinish56",
+  "source_sha256": "00e71a753fb7e1409389668ca82bea9769aeb8e212bfdad458c02fee8128bce7",
+  "source_stable": true,
+  "command": [
+    "/home/user/Documents/Codex/2026-08-18/mission-autonomous-mathematical-reverse-engineering-formal/work/erdos20/toolchains/elan/toolchains/leanprover--lean4---v4.26.0/bin/lean",
+    "-o",
+    "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/outputs/frontier20261019/formal/source-rebuild-receipt/new-closure/build/SupportFinish56.olean",
+    "SupportFinish56.lean"
+  ],
+  "exit_code": 0,
+  "seconds": 8.76,
+  "output": "'FrontierSupportFinish.intersecting_twenty_eight_support_le_fifty_six' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "schema": "independent-r15-degree2-support-v1",
+  "source_sha256": "72482f0ce7cbb4990dba7df55958c41693ae85d5d7b332c062c881181ae0accd",
+  "inputs_sha256": {
+    "check_r15_degree2_degree6.py": "a17303505959c6416e16a4400d3f82f848e0f9c5418fe9578c1965fb857ecf60",
+    "check_r15_degree2_without6.py": "2a939cdb512e94662443e8db6eb67cc9b43ce22dec9da78ec53dac0384e54905",
+    "R15-degree2-degree6-literal.json": "8434c63677536ea6c171b55ed5d7e630c0e4630d0ff95b7d48f7a7a776d35f47",
+    "R15-degree2-without6-complete.json": "ae0b57d1bcc5625668f851117c4156531a71850fddd6db876cb15f85007bb6fb",
+    "R15-rho6-degree2-support-reduction.md": "7ef27dfb2434afdd5622e896918f59d3dc8bf309f9b2c726f5dec4d55aae22cb"
+  },
+  "degree2_degree6": {
+    "normalized_motifs": 91,
+    "admissible_motifs": 6,
+    "unobstructed_next_triples": 0
+  },
+  "degree2_without6": {
+    "normalized_motifs": 78,
+    "admissible_motifs": 18,
+    "whole_completion_budget_histogram": {
+      "2": 6,
+      "0": 3,
+      "1": 7,
+      "3": 2
+    },
+    "six_subset_check": {
+      "six_subsets_tested": 74761,
+      "literal_pair_conflict": 74761
+    },
+    "completions": 0
+  },
+  "literal_witness_counts": {
+    "sunflower_witnesses": 1580,
+    "rho_witnesses": 9,
+    "degree6_next_triple_witnesses": 364
+  },
+  "seconds": 0.14287570900341962,
+  "assurance": "Independent exact finite witness/domain reconstruction and six-subset check; ordinary support bridge, not Lean."
+}

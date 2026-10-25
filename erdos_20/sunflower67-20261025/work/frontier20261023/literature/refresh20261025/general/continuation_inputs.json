@@ -1,0 +1,30 @@
+[
+  {
+    "path": "work/frontier20261023/review67/contract.json",
+    "sha256": "0362a6d202a179948797b975ff281ec78b23a2bdc0af1f06618fc44559d60396"
+  },
+  {
+    "path": "work/frontier20261023/review67/FRONTIER_GATE.json",
+    "sha256": "c3dfb852967af9da03715de14a9fd960b638d20f3e1008a56cd32efa2dcc466c"
+  },
+  {
+    "path": "work/frontier20261023/literature/refresh20261025/rank4/FINDINGS.md",
+    "sha256": "579308ef105751471d0be466565377c778ff2c5a0fc8de81111048e57903d925"
+  },
+  {
+    "path": "work/frontier20261023/literature/refresh20261025/general/assessment.json",
+    "sha256": "b6b7374c54be05989f7006be40434f838ec6981561ed9a25f0a679951959f3e1"
+  },
+  {
+    "path": "work/frontier20261023/literature/refresh20261025/archives/findings.json",
+    "sha256": "052522eafa846a36f5e9852fb4408732d7198a82cd7fdb912b8c015f76780339"
+  },
+  {
+    "path": "work/frontier20261023/literature/refresh20261025/BROWSER_NATIVE_OBSERVATIONS.md",
+    "sha256": "42fc3a1e481a578a8f487f761ada9cdf3dd7ca25d408a083e52370046ed6789f"
+  },
+  {
+    "path": "work/frontier20261023/literature/refresh20261025/ROOT_SEARCH_NOTES.md",
+    "sha256": "ff24d340025aac5ffc0eb88f606dc0d9d505d73e2e0d3e8e95b5b1c64cad7327"
+  }
+]

@@ -1,0 +1,258 @@
+{
+  "status": "PASS_CONDITIONAL_LITERAL_H7_EQUALITY_EXTRACTION",
+  "checker": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/check_d17_h7_equality.py",
+    "sha256": "4d94420d153502baf457648614f6006f353aa21560d2e6fb878077f481c74d3e"
+  },
+  "ordinary_note": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/D17-H7-equality-extra-members.md",
+    "sha256": "c90e0d6b6499f1bba693c5258fdd467f105fde7da58f5fb32bfd19957b75c440"
+  },
+  "receipt": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P10-H7-IZ13-internal-Z-stage2-v4-9ff2bf3fd06c.json",
+    "sha256": "0d4b5004a86f70dfe0c90c02dafd3346499f4c31e6e84fb76589bf239ae3fc68"
+  },
+  "producer": {
+    "path": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_projection_v4.py",
+    "sha256": "a1beae56f60205a48442a1c6a31d2148557443511fb119a1936ffda8578bebf2"
+  },
+  "premise_sha256": "9ff2bf3fd06cc4129bc2e8457de82f35cb407d594b76620efffd3dbfaf8cfa01",
+  "traces": 1093,
+  "zero_traces": 517,
+  "eligible_traces": 576,
+  "eligible_coefficient_counts": {
+    "0": 0,
+    "1": 503,
+    "2": 73
+  },
+  "integer_scale": 10000000000,
+  "normalized_H": 51,
+  "normalized_box_correction": 0,
+  "normalized_rows": [
+    {
+      "label": [
+        "incidence",
+        7
+      ],
+      "rhs": 1,
+      "weight": 1
+    },
+    {
+      "label": [
+        "incidence",
+        35
+      ],
+      "rhs": 1,
+      "weight": 1
+    },
+    {
+      "label": [
+        "incidence",
+        13
+      ],
+      "rhs": 1,
+      "weight": 1
+    },
+    {
+      "label": [
+        "incidence",
+        25
+      ],
+      "rhs": 1,
+      "weight": 1
+    },
+    {
+      "label": [
+        "incidence",
+        49
+      ],
+      "rhs": 1,
+      "weight": 1
+    },
+    {
+      "label": [
+        "incidence",
+        22
+      ],
+      "rhs": 1,
+      "weight": 1
+    },
+    {
+      "label": [
+        "incidence",
+        26
+      ],
+      "rhs": 1,
+      "weight": 1
+    },
+    {
+      "label": [
+        "incidence",
+        42
+      ],
+      "rhs": 1,
+      "weight": 1
+    },
+    {
+      "label": [
+        "incidence",
+        44
+      ],
+      "rhs": 1,
+      "weight": 1
+    },
+    {
+      "label": [
+        "incidence",
+        52
+      ],
+      "rhs": 1,
+      "weight": 1
+    },
+    {
+      "label": [
+        "incidence",
+        1792
+      ],
+      "rhs": 2,
+      "weight": 1
+    },
+    {
+      "label": [
+        "exact-anchor",
+        35008,
+        2176
+      ],
+      "rhs": 3,
+      "weight": 1
+    },
+    {
+      "label": [
+        "imported-crowding26",
+        35008,
+        [
+          7,
+          11,
+          15
+        ]
+      ],
+      "rhs": 16,
+      "weight": 1
+    },
+    {
+      "label": [
+        "exact-anchor",
+        37056,
+        4096
+      ],
+      "rhs": 10,
+      "weight": 1
+    },
+    {
+      "label": [
+        "triangle-path-hub-degree-minus-completions15",
+        6
+      ],
+      "rhs": 10,
+      "weight": 1
+    }
+  ],
+  "exact_pair_tightness": {
+    "anchor": 35008,
+    "pair": 2176,
+    "total_count": 3,
+    "root_offset": 0
+  },
+  "surviving_Z_internal_orbit": [
+    6528,
+    6784
+  ],
+  "forbidden_Z_internals": [
+    960,
+    1472,
+    1728,
+    1856,
+    1920,
+    2496,
+    2752,
+    2880,
+    2944,
+    3264,
+    3392,
+    3456,
+    3648,
+    3712,
+    3840,
+    4544,
+    4800,
+    4928,
+    4992,
+    5312,
+    5440,
+    5504,
+    5696,
+    5760,
+    5888,
+    6336,
+    6464,
+    6720,
+    6912,
+    7232,
+    7296,
+    7424,
+    7680
+  ],
+  "Y_point_transitivity": true,
+  "branches": [
+    {
+      "triangle_vertex": 0,
+      "extra_members": [
+        2433,
+        6273
+      ],
+      "represented_points": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "fixed_sunflower_witnesses": []
+    },
+    {
+      "triangle_vertex": 13,
+      "extra_members": [
+        10624,
+        14464
+      ],
+      "represented_points": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "fixed_sunflower_witnesses": []
+    }
+  ],
+  "all_inputs_unchanged": true,
+  "elapsed_seconds": 0.024348988001293037,
+  "scope": "Independent trace-only integer inequality and finite two-branch geometry. Prior12 P10 component exclusions, other17 Z-orbit exclusions and ordinary row theorems remain explicit premises; no LP/model import, solver, local-catalogue replay or complete H7 closure."
+}

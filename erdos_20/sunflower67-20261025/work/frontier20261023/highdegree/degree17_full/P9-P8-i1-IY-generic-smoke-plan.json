@@ -1,0 +1,38 @@
+{
+  "schema": "d17-stage-proof-plan-v1",
+  "kind": "P9-P8-i1",
+  "nodes": [
+    {
+      "id": "IY00",
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i1-IY00-internal-smoke-v2-78c1534344c9.json",
+      "receipt_sha256": "56db531426f00c970b990cd955b8bfc6659c7950c24a2874c7b5b4e607480d38",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_replay/P9-P8-i1-IY00-internal-smoke-v2-78c1534344c9-replay.json",
+      "replay_sha256": "6a1b6628d6ab08d195c23bfe542c78944b58d80a13a2c7d301bacbfb1352278e",
+      "uses": []
+    },
+    {
+      "id": "IY01",
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i1-IY01-internal-smoke-v2-abd6d211748f.json",
+      "receipt_sha256": "26e9f9f0337495ff0587a1d2f80a98253199dc39ce09afc83809f24bccb49880",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_replay/P9-P8-i1-IY01-internal-smoke-v2-abd6d211748f-replay.json",
+      "replay_sha256": "c572947278ba7b5a5014c0f843e454bde42c3bf3e3ba878533024c49be0c5739",
+      "uses": []
+    },
+    {
+      "id": "IY02",
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i1-IY02-internal-smoke-v2-b347bcce0eb1.json",
+      "receipt_sha256": "11950929b8f9fbc09596f4ee4b2e690bb838d8cfb4b80acb48a64fddf6e8ff5f",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_replay/P9-P8-i1-IY02-internal-smoke-v2-b347bcce0eb1-replay.json",
+      "replay_sha256": "af15efb4e9bf77f48566bddf86b4758e2fcca903cee080b9451fd68439d71b71",
+      "uses": []
+    },
+    {
+      "id": "IY03",
+      "receipt": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full/P9-P8-i1-IY03-internal-smoke-v2-f238935e7c0a.json",
+      "receipt_sha256": "fe01da35069b7f3e780d7063ccdeb268edd31188083fb17404b447bc78e0b52b",
+      "replay": "/home/user/Documents/Codex/2026-10-09/https-github-com-openai-math-blob/work/frontier20261023/highdegree/degree17_full_replay/P9-P8-i1-IY03-internal-smoke-v2-f238935e7c0a-replay.json",
+      "replay_sha256": "ea0231f7aad62673204b51f22224c9ba32a7fc8fe1f3d9a5555a7bf5a3189a7f",
+      "uses": []
+    }
+  ]
+}
