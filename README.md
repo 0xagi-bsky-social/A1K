@@ -6,6 +6,8 @@ A1K publishes the formal developments and computational evidence behind its rese
 
 The accompanying paper is published at [A1K Agentic SuperMath](https://a1k.ai/agentic-math/rank-four-sunflower-upper-bound-67). The repository preserves the source statements, imported results, computational checks, and limits of the formal evidence.
 
+The archival publication is **A1K Agentic SuperMath (2026), *An upper bound for four-uniform three-sunflower-free families***: [Zenodo record](https://zenodo.org/records/23647893) · DOI: [10.5281/zenodo.23647893](https://doi.org/10.5281/zenodo.23647893). The deposit preserves the paper and supporting repository snapshot at [`424f671`](https://github.com/0xagi-bsky-social/A1K/tree/424f6716ea580863011739517503ebea61fd7e40); later README updates do not change that archived snapshot.
+
 ## Latest result and evidence
 
 The [25 October paper](erdos_20/sunflower67-20261025/work/frontier20261023/review67/publication/sunflower67-20261025/report.md) gives an ordinary computer-assisted proof that every finite simple four-uniform family of at least 68 members contains a three-sunflower, allowing an empty core. In the maximum-size convention, the resulting bound is **54 ≤ M(4, 3) ≤ 67**. The lower bound 54 is unchanged. The general Erdős–Rado sunflower conjecture remains outside this result.

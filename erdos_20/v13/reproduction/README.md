@@ -86,3 +86,9 @@ whose `files` map binds relative artifact paths to hashes. The record should bin
 report, source, archive, review and replay identities; its bytes are an unsigned
 release commitment, not evidence of authenticated origin. Archive-byte identity
 and source-tree identity are distinct, so repacking may change only the former.
+
+## Later A1K publication
+
+This harness belongs to the earlier version 13 development. Its recorded scope, commands and provenance are unchanged.
+
+For the later upper-67 result, see A1K Agentic SuperMath (2026), *An upper bound for four-uniform three-sunflower-free families*: [Zenodo record](https://zenodo.org/records/23647893) · DOI: [10.5281/zenodo.23647893](https://doi.org/10.5281/zenodo.23647893). The DOI identifies the later report and its supporting repository snapshot, not a new validation of this historical material.

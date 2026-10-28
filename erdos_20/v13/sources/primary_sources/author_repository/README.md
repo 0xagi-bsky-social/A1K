@@ -10,3 +10,9 @@ redistributed. This directory contains no upstream Lean source or build configur
 The hashes record the bytes recovered during the original research. They are
 unsigned provenance records; this upload does not independently revalidate the
 remote files. The A1K repository license does not apply to upstream sources.
+
+## Later A1K publication
+
+These pinned upstream references belong to the earlier version 13 collection. The later deposit does not change their authorship, licensing or recorded hashes.
+
+For the later upper-67 result, see A1K Agentic SuperMath (2026), *An upper bound for four-uniform three-sunflower-free families*: [Zenodo record](https://zenodo.org/records/23647893) · DOI: [10.5281/zenodo.23647893](https://doi.org/10.5281/zenodo.23647893). The DOI identifies the later report and its supporting repository snapshot, not a new validation of this historical material.
